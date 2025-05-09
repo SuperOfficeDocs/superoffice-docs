@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/MrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 155,
-  "Name": "Greenfelder-McCullough",
-  "Tooltip": "rerum",
-  "Deleted": false,
-  "Rank": 68,
+  "Id": 326,
+  "Name": "Bartell-Koss",
+  "Tooltip": "consequatur",
+  "Deleted": true,
+  "Rank": 636,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ullam",
-  "InUseByUserDefinedFields": true
+  "ListType": "voluptas",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 917,
-  "Name": "Boyer, Conn and Streich",
-  "Tooltip": "excepturi",
+  "Id": 209,
+  "Name": "King Group",
+  "Tooltip": "maiores",
   "Deleted": false,
-  "Rank": 605,
+  "Rank": 947,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "at",
+  "ListType": "et",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 735
+      "FieldLength": 99
     }
   }
 }

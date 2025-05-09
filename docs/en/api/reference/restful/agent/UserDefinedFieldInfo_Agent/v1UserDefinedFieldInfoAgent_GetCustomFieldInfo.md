@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Mayert-Thiel",
-  "FieldName": "Crist-Erdman"
+  "TableName": "Metz-Batz",
+  "FieldName": "Yost Inc and Sons"
 }
 ```
 
@@ -102,18 +102,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Emard-Doyle",
-  "DisplayName": "Stehr Group",
-  "Description": "Optimized modular Graphic Interface",
-  "ShortLabel": "nobis",
+  "FieldName": "Upton, Kilback and Wilderman",
+  "DisplayName": "Casper-Blanda",
+  "Description": "Polarised assymetric frame",
+  "ShortLabel": "ullam",
   "HideLabel": false,
   "HideField": false,
-  "IsIndexed": true,
-  "IsMandatory": false,
-  "IsReadOnly": true,
-  "IsExternal": false,
+  "IsIndexed": false,
+  "IsMandatory": true,
+  "IsReadOnly": false,
+  "IsExternal": true,
   "IsDisplayField": true,
-  "Rank": 127,
-  "TemplateVariableName": "Nitzsche LLC"
+  "Rank": 829,
+  "TemplateVariableName": "Willms, Thompson and Lakin"
 }
 ```

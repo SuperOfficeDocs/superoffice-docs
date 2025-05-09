@@ -93,7 +93,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 563,
-  "ColumnId": 18,
-  "FieldDefault": "veritatis",
-  "FieldHeight": 204,
-  "FieldLabel": "voluptatibus",
-  "FieldLeft": 56,
-  "FieldTop": 253,
+  "UDefFieldId": 143,
+  "ColumnId": 202,
+  "FieldDefault": "sint",
+  "FieldHeight": 912,
+  "FieldLabel": "consequatur",
+  "FieldLeft": 16,
+  "FieldTop": 757,
   "FieldType": "Checkbox",
-  "FieldWidth": 478,
-  "FormatMask": "dolor",
+  "FieldWidth": 560,
+  "FormatMask": "temporibus",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 904,
-  "LabelLeft": 940,
-  "LabelTop": 941,
-  "LabelWidth": 300,
-  "LastVersionId": 782,
-  "ListTableId": 253,
+  "IsIndexed": true,
+  "LabelHeight": 753,
+  "LabelLeft": 529,
+  "LabelTop": 205,
+  "LabelWidth": 341,
+  "LastVersionId": 486,
+  "ListTableId": 219,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 154,
-  "ProgId": "possimus",
+  "Page1LineNo": 283,
+  "ProgId": "omnis",
   "IsReadOnly": false,
-  "ShortLabel": "velit",
-  "TabOrder": 298,
-  "TextLength": 15,
-  "Tooltip": "doloribus",
-  "UdefIdentity": 768,
-  "UDListDefinitionId": 947,
+  "ShortLabel": "voluptatem",
+  "TabOrder": 289,
+  "TextLength": 684,
+  "Tooltip": "dolores",
+  "UdefIdentity": 205,
+  "UDListDefinitionId": 689,
   "Justification": "Center",
-  "Version": 326,
-  "TemplateVariableName": "Powlowski-Towne",
+  "Version": 734,
+  "TemplateVariableName": "Mohr-Yost",
   "HasBeenPublished": false,
-  "MdoListName": "Halvorson, Moore and Blanda",
+  "MdoListName": "Mertz Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 828
+      "FieldType": "System.Int32",
+      "FieldLength": 88
     }
   }
 }

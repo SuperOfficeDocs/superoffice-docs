@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 69,
-  "WorkflowId": 632,
+  "WorkflowTriggerId": 905,
+  "WorkflowId": 398,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Predovic, Ward and Kuphal",
-      "Description": "Organic foreground data-warehouse",
-      "Rank": 209,
+      "Name": "Welch Inc and Sons",
+      "Description": "Extended secondary complexity",
+      "Rank": 928,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Predovic, Ward and Kuphal",
-      "Description": "Organic foreground data-warehouse",
-      "Rank": 209,
+      "Name": "Welch Inc and Sons",
+      "Description": "Extended secondary complexity",
+      "Rank": 928,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 634,
-  "WorkflowId": 670,
+  "WorkflowTriggerId": 821,
+  "WorkflowId": 491,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Walker-Quitzon",
-      "Description": "Face to face multi-tasking instruction set",
-      "Rank": 464,
+      "Name": "Schuppe-Doyle",
+      "Description": "Profound bottom-line ability",
+      "Rank": 238,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Walker-Quitzon",
-      "Description": "Face to face multi-tasking instruction set",
-      "Rank": 464,
+      "Name": "Schuppe-Doyle",
+      "Description": "Profound bottom-line ability",
+      "Rank": 238,
       "Restrictions": [
         {},
         {}
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 828
+      "FieldType": "System.String",
+      "FieldLength": 381
     }
   }
 }

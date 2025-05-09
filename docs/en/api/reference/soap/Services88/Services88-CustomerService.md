@@ -1200,6 +1200,26 @@ title: Services88.CustomerServiceAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="EventHandlersExists">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="EventHandlerTypes" nillable="true" type="tns:ArrayOfEventHandlerType" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ArrayOfEventHandlerType">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="EventHandlerType" type="tns:EventHandlerType" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfEventHandlerType" nillable="true" type="tns:ArrayOfEventHandlerType" />
+      <xs:element name="EventHandlersExistsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfEventHandlerType" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="CreateSession">
         <xs:complexType>
           <xs:sequence>
@@ -2284,6 +2304,23 @@ title: Services88.CustomerServiceAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="EventHandlersExistsRequest">
+    <wsdl:part name="parameters" element="tns:EventHandlersExists" />
+  </wsdl:message>
+  <wsdl:message name="EventHandlersExistsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="EventHandlersExistsResponse">
+    <wsdl:part name="parameters" element="tns:EventHandlersExistsResponse" />
+  </wsdl:message>
+  <wsdl:message name="EventHandlersExistsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="CreateSessionRequest">
     <wsdl:part name="parameters" element="tns:CreateSession" />
   </wsdl:message>
@@ -2839,6 +2876,10 @@ title: Services88.CustomerServiceAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/EventHandlerExists" name="EventHandlerExistsRequest" message="tns:EventHandlerExistsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/EventHandlerExistsResponse" name="EventHandlerExistsResponse" message="tns:EventHandlerExistsResponse" />
     </wsdl:operation>
+    <wsdl:operation name="EventHandlersExists">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/EventHandlersExists" name="EventHandlersExistsRequest" message="tns:EventHandlersExistsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/EventHandlersExistsResponse" name="EventHandlersExistsResponse" message="tns:EventHandlersExistsResponse" />
+    </wsdl:operation>
     <wsdl:operation name="CreateSession">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/CreateSession" name="CreateSessionRequest" message="tns:CreateSessionRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/CreateSessionResponse" name="CreateSessionResponse" message="tns:CreateSessionResponse" />
@@ -3135,6 +3176,22 @@ title: Services88.CustomerServiceAgent WSDL
         <soap:header message="tns:EventHandlerExistsResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:EventHandlerExistsResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:EventHandlerExistsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EventHandlersExists">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/EventHandlersExists" style="document" />
+      <wsdl:input name="EventHandlersExistsRequest">
+        <soap:header message="tns:EventHandlersExistsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:EventHandlersExistsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:EventHandlersExistsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="EventHandlersExistsResponse">
+        <soap:header message="tns:EventHandlersExistsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:EventHandlersExistsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:EventHandlersExistsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:EventHandlersExistsResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 92,
-  "Name": "King LLC",
-  "Tooltip": "iste",
-  "Deleted": true,
-  "UdListDefinitionId": 402,
-  "Rank": 303,
+  "Id": 190,
+  "Name": "Kshlerin LLC",
+  "Tooltip": "quasi",
+  "Deleted": false,
+  "UdListDefinitionId": 205,
+  "Rank": 945,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 145
+      "FieldType": "System.String",
+      "FieldLength": 512
     }
   }
 }

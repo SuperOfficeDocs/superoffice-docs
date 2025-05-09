@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 107,
-    "Name": "Reinger, Cremin and Collins",
-    "Tooltip": "eum",
-    "Deleted": false,
-    "Rank": 211,
-    "UdListDefinitionId": 439,
+    "HeadingId": 599,
+    "Name": "Zulauf LLC",
+    "Tooltip": "repellat",
+    "Deleted": true,
+    "Rank": 285,
+    "UdListDefinitionId": 634,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 139
+        "FieldType": "System.Int32",
+        "FieldLength": 861
       }
     }
   }

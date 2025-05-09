@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Category/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 631,
-  "Name": "Kovacek-Bogisich",
-  "Tooltip": "non",
+  "Id": 69,
+  "Name": "Rempel-Fadel",
+  "Tooltip": "perferendis",
   "Deleted": false,
-  "UdListDefinitionId": 166,
-  "Rank": 690,
+  "UdListDefinitionId": 958,
+  "Rank": 695,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 256
+      "FieldType": "System.Int32",
+      "FieldLength": 875
     }
   }
 }

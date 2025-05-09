@@ -82,13 +82,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Schaefer Inc and Sons",
-  "DeviceName": "Douglas-Pfannerstill",
-  "DeviceIdentifier": "dolore"
+  "ApplicationName": "Marks Inc and Sons",
+  "DeviceName": "Daugherty, Heller and Terry",
+  "DeviceIdentifier": "facilis"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "est",
-    "Value": "dolore",
-    "RecordId": 289,
-    "CreatedDate": "2009-10-15T13:14:00.5168611+02:00",
-    "UpdatedDate": "2000-07-11T13:14:00.5168611+02:00",
-    "UpdatedBy": "sequi",
-    "CreatedBy": "odit",
-    "TableName": "Kozey, Hayes and Carter",
+    "Key": "asperiores",
+    "Value": "perferendis",
+    "RecordId": 449,
+    "CreatedDate": "1999-09-25T16:32:39.180141+02:00",
+    "UpdatedDate": "2009-07-31T16:32:39.180141+02:00",
+    "UpdatedBy": "iusto",
+    "CreatedBy": "maiores",
+    "TableName": "Gaylord-Jerde",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 626
+        "FieldLength": 148
       }
     }
   }

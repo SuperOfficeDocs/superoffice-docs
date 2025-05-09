@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 922,
-    "Name": "Hessel, Kreiger and Kulas",
-    "ToolTip": "Perferendis quis debitis.",
-    "Deleted": false,
-    "Rank": 389,
-    "Type": "dolorum",
-    "ColorBlock": 745,
-    "IconHint": "nihil",
+    "Id": 559,
+    "Name": "Herzog, Heller and Rosenbaum",
+    "ToolTip": "Voluptate sunt neque dolores est.",
+    "Deleted": true,
+    "Rank": 60,
+    "Type": "molestias",
+    "ColorBlock": 767,
+    "IconHint": "officiis",
     "Selected": false,
-    "LastChanged": "2015-06-11T13:14:09.7285208+02:00",
+    "LastChanged": "2007-01-14T16:32:48.6339153+01:00",
     "ChildItems": [
       {
-        "Id": 206,
-        "Name": "Dickinson-Koelpin",
-        "ToolTip": "Velit neque quia consequuntur dolore sunt voluptatum nisi.",
-        "Deleted": true,
-        "Rank": 928,
-        "Type": "amet",
-        "ColorBlock": 646,
-        "IconHint": "at",
+        "Id": 623,
+        "Name": "Schultz LLC",
+        "ToolTip": "Veritatis animi necessitatibus iusto non et.",
+        "Deleted": false,
+        "Rank": 127,
+        "Type": "ut",
+        "ColorBlock": 149,
+        "IconHint": "nam",
         "Selected": false,
-        "LastChanged": "2017-07-26T13:14:09.7285208+02:00",
+        "LastChanged": "2020-09-17T16:32:48.6339153+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magni",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "delectus",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Jedediah Wyman"
+        "FullName": "Peggie West"
       }
     ],
-    "ExtraInfo": "nulla",
-    "StyleHint": "sed",
-    "Hidden": true,
-    "FullName": "Aglae Johns"
+    "ExtraInfo": "facilis",
+    "StyleHint": "facilis",
+    "Hidden": false,
+    "FullName": "Diamond Altenwerth"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 206,
-    "Name": "Bayer Inc and Sons",
-    "ToolTip": "Nihil maiores amet ut nobis.",
+    "Id": 695,
+    "Name": "Lubowitz LLC",
+    "ToolTip": "Est minus quia illum quia eligendi et vero.",
     "Deleted": false,
-    "Rank": 952,
-    "Type": "ex",
-    "ColorBlock": 339,
-    "IconHint": "in",
-    "Selected": true,
-    "LastChanged": "2017-10-17T13:14:09.7285208+02:00",
+    "Rank": 504,
+    "Type": "aperiam",
+    "ColorBlock": 259,
+    "IconHint": "voluptatem",
+    "Selected": false,
+    "LastChanged": "2005-12-04T16:32:48.6339153+01:00",
     "ChildItems": [
       {
-        "Id": 715,
-        "Name": "Ward-Collier",
-        "ToolTip": "Possimus et placeat rerum assumenda sequi eos dolor.",
+        "Id": 398,
+        "Name": "Baumbach LLC",
+        "ToolTip": "Nemo ipsum omnis quaerat magni.",
         "Deleted": true,
-        "Rank": 799,
-        "Type": "perferendis",
-        "ColorBlock": 217,
-        "IconHint": "accusantium",
+        "Rank": 273,
+        "Type": "dolorem",
+        "ColorBlock": 762,
+        "IconHint": "praesentium",
         "Selected": false,
-        "LastChanged": "2001-04-02T13:14:09.7285208+02:00",
+        "LastChanged": "2023-02-24T16:32:48.6339153+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "necessitatibus",
+        "ExtraInfo": "vero",
+        "StyleHint": "minus",
         "Hidden": false,
-        "FullName": "Ayana O'Reilly",
+        "FullName": "Regan Ruecker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 872
+            "FieldType": "System.Int32",
+            "FieldLength": 383
           }
         }
       }
     ],
-    "ExtraInfo": "asperiores",
-    "StyleHint": "corporis",
+    "ExtraInfo": "incidunt",
+    "StyleHint": "laborum",
     "Hidden": false,
-    "FullName": "Deborah Afton Leannon Sr.",
+    "FullName": "Prof. Kiarra Gerardo Cummings MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 934
+        "FieldType": "System.Int32",
+        "FieldLength": 269
       }
     }
   }

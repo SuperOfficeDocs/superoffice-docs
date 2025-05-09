@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 233,
-  "Name": "Bartoletti, Hirthe and Kirlin",
-  "Tooltip": "sint",
-  "Rank": 972,
-  "Rate": 8424.192,
-  "Units": 17193.124,
+  "CurrencyId": 789,
+  "Name": "Howell Group",
+  "Tooltip": "vel",
+  "Rank": 123,
+  "Rate": 9311.114,
+  "Units": 23997.038,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 636
+      "FieldType": "System.Int32",
+      "FieldLength": 218
     }
   }
 }

@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 99
+  "Id": 265
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 442,
-  "Name": "Kshlerin, Huels and Zulauf",
-  "AssociateId": 34,
-  "DetailsTable": 273,
-  "DetailsRecord": 878,
+  "Id": 152,
+  "Name": "Schmeler LLC",
+  "AssociateId": 691,
+  "DetailsTable": 947,
+  "DetailsRecord": 436,
   "IsSystemTask": true,
   "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "eius",
-    "ParameterObject2": "ullam"
+    "ParameterObject1": "quisquam",
+    "ParameterObject2": "id"
   },
-  "LastStarted": "2015-12-21T13:13:59.5314453+01:00",
-  "Created": "2012-03-29T13:13:59.5314453+02:00",
-  "StartCount": 126,
-  "DatabaseSerialNumber": "879827",
-  "Context": "excepturi",
-  "Result": "ut",
+  "LastStarted": "1999-06-25T16:32:38.1959817+02:00",
+  "Created": "2001-04-25T16:32:38.1959817+02:00",
+  "StartCount": 381,
+  "DatabaseSerialNumber": "570416",
+  "Context": "quia",
+  "Result": "nisi",
   "State": "All",
-  "Description": "Profit-focused bandwidth-monitored monitoring",
-  "Response": "et",
-  "Request": "quis",
-  "ProgressDescription": "Open-architected intangible info-mediaries",
-  "ProgressPercent": 728,
-  "FileName": "Erdman-Block",
+  "Description": "Re-contextualized foreground analyzer",
+  "Response": "officia",
+  "Request": "ut",
+  "ProgressDescription": "Vision-oriented 5th generation methodology",
+  "ProgressPercent": 618,
+  "FileName": "Gleichner, Kris and Monahan",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 258
+      "FieldType": "System.String",
+      "FieldLength": 694
     }
   }
 }

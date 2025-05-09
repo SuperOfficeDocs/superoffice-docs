@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 861
+  "DocumentId": 965
 }
 ```
 
@@ -93,16 +93,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Toy, Kovacek and Lueilwitz",
-  "Type": "beatae",
-  "Size": 468,
+  "Name": "Greenholt-Lubowitz",
+  "Type": "fugiat",
+  "Size": 195,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 83
+      "FieldType": "System.String",
+      "FieldLength": 745
     }
   }
 }

@@ -273,6 +273,7 @@ This is a list of all the valid provider names, and the associated column names 
 * [QuoteLineStaticSelection](QuoteLineStaticSelection.md)
 * [QuoteLineStaticSelectionV2](QuoteLineStaticSelectionV2.md)
 * [QuoteVersionAttachment](QuoteVersionAttachment.md)
+* [recipientfavourites](recipientfavourites.md)
 * [RecycleContact](RecycleContact.md)
 * [RecyclePerson](RecyclePerson.md)
 * [RecycleTicket](RecycleTicket.md)

@@ -43,9 +43,9 @@ foreach (var item in listProvider.RootItems) {
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
 |0|Unknown|||
-|1|Read by owner|||
-|2|New information|||
-|3|Not read by owner|||
+|1|Read|||
+|2|Changed|||
+|3|Unread|||
 
 
 ## Related MDO Lists

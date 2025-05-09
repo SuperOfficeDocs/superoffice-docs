@@ -103,29 +103,29 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 433,
-  "ParentId": 758,
-  "Name": "Will Inc and Sons",
-  "Fullname": "natus",
-  "CategoryMaster": 479,
+  "TicketCategoryId": 120,
+  "ParentId": 407,
+  "Name": "Little-Runte",
+  "Fullname": "ut",
+  "CategoryMaster": 988,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Nitzsche-Bailey",
+  "ExternalName": "Treutel-Hoppe",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 872,
-  "ReplyTemplate": 982,
-  "NotificationEmail": "antonetta_pfeffer@johnssauer.biz",
+  "AssignmentLag": 207,
+  "ReplyTemplate": 511,
+  "NotificationEmail": "charley@mosciski.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 829,
+  "EffectiveReplyTemplateId": 409,
   "ExtraFields": {
-    "ExtraFields1": "sit",
-    "ExtraFields2": "voluptas"
+    "ExtraFields1": "repellat",
+    "ExtraFields2": "nobis"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "et"
+    "CustomFields1": "et",
+    "CustomFields2": "exercitationem"
   }
 }
 ```
@@ -137,36 +137,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 101,
-  "ParentId": 925,
-  "Name": "McKenzie-Brekke",
-  "Fullname": "temporibus",
-  "CategoryMaster": 681,
+  "TicketCategoryId": 594,
+  "ParentId": 711,
+  "Name": "Kohler LLC",
+  "Fullname": "dolores",
+  "CategoryMaster": 762,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Ortiz, Daniel and DuBuque",
+  "ExternalName": "Kunze, Volkman and Carter",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 940,
-  "ReplyTemplate": 278,
-  "NotificationEmail": "leola@haleyparker.us",
+  "AssignmentLag": 396,
+  "ReplyTemplate": 364,
+  "NotificationEmail": "eldridge.kris@reinger.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 318,
+  "EffectiveReplyTemplateId": 724,
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "voluptas"
+    "ExtraFields1": "molestiae",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "sunt",
-    "CustomFields2": "quos"
+    "CustomFields1": "neque",
+    "CustomFields2": "error"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 650
+      "FieldLength": 468
     }
   }
 }

@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Berge, Klein and Adams",
+  "Name": "Quitzon Inc and Sons",
   "Entities": [
     {
-      "HeadingId": 174,
-      "Name": "Hilll LLC",
-      "Tooltip": "laboriosam",
-      "Deleted": true,
-      "Rank": 332,
-      "UdListDefinitionId": 25
+      "HeadingId": 171,
+      "Name": "Douglas-Heathcote",
+      "Tooltip": "est",
+      "Deleted": false,
+      "Rank": 14,
+      "UdListDefinitionId": 266
     },
     {
-      "HeadingId": 174,
-      "Name": "Hilll LLC",
-      "Tooltip": "laboriosam",
-      "Deleted": true,
-      "Rank": 332,
-      "UdListDefinitionId": 25
+      "HeadingId": 171,
+      "Name": "Douglas-Heathcote",
+      "Tooltip": "est",
+      "Deleted": false,
+      "Rank": 14,
+      "UdListDefinitionId": 266
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 678,
-    "Name": "Larkin-McKenzie",
-    "Tooltip": "quisquam",
+    "HeadingId": 695,
+    "Name": "Abshire-Graham",
+    "Tooltip": "voluptas",
     "Deleted": false,
-    "Rank": 697,
-    "UdListDefinitionId": 376,
+    "Rank": 861,
+    "UdListDefinitionId": 215,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 493
+        "FieldLength": 321
       }
     }
   }

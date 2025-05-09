@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,29 +73,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 958,
-  "Name": "Franecki LLC",
-  "CreatedDate": "2013-04-24T13:14:00.5012353+02:00",
-  "UpdatedDate": "2007-08-06T13:14:00.5012353+02:00",
+  "ForeignAppId": 445,
+  "Name": "Welch, Mueller and Christiansen",
+  "CreatedDate": "2015-12-03T16:32:39.1488892+01:00",
+  "UpdatedDate": "2022-09-21T16:32:39.1488892+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 895,
-      "Name": "Heaney, Heaney and Kuhlman",
-      "CreatedDate": "2021-09-06T13:14:00.5012353+02:00",
-      "UpdatedDate": "2019-05-14T13:14:00.5012353+02:00",
-      "AssociateFullName": "Mollie Rippin",
-      "CreatedBy": "et",
-      "UpdatedBy": "sed",
-      "DeviceIdentifier": "aut",
-      "ForeignAppId": 395,
+      "ForeignDeviceId": 744,
+      "Name": "Considine-Towne",
+      "CreatedDate": "2024-04-21T16:32:39.1488892+02:00",
+      "UpdatedDate": "2017-10-15T16:32:39.1488892+02:00",
+      "AssociateFullName": "Shaylee Marvin",
+      "CreatedBy": "molestiae",
+      "UpdatedBy": "ducimus",
+      "DeviceIdentifier": "quis",
+      "ForeignAppId": 590,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 679
+          "FieldLength": 237
         }
       }
     }
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 662
+      "FieldLength": 315
     }
   }
 }

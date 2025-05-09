@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 704
+  "ReplyTemplateId": 954
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Jacobi, Hauck and Bergstrom",
-  "Description": "Triple-buffered solution-oriented implementation",
-  "OwnedByFullName": "Ms. Carlo Skiles",
-  "Updated": "2003-11-16T13:14:00.0319625+01:00",
-  "Body": "eligendi",
+  "Name": "Fahey, Adams and Tremblay",
+  "Description": "Triple-buffered scalable task-force",
+  "OwnedByFullName": "Trevor White",
+  "Updated": "2017-12-13T16:32:38.5865163+01:00",
+  "Body": "reiciendis",
   "IsHtml": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 272
+      "FieldType": "System.String",
+      "FieldLength": 228
     }
   }
 }

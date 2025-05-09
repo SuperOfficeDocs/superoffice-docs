@@ -126,11 +126,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 733
+  "AppointmentId": 532
 }
 ```
 
@@ -141,66 +141,66 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 106,
-  "StartDate": "2024-03-10T13:13:59.1250999+01:00",
-  "EndDate": "2014-06-11T13:13:59.1250999+02:00",
+  "AppointmentId": 451,
+  "StartDate": "2024-04-24T16:32:37.6334112+02:00",
+  "EndDate": "2001-10-02T16:32:37.6334112+02:00",
   "Type": "BookingForChecklist",
-  "Task": "harum",
-  "AssociateFullName": "Chauncey Blanda",
-  "ContactName": "Lindgren LLC",
-  "Description": "Persistent didactic forecast",
-  "PersonFullName": "Dahlia Hermann",
-  "PersonId": 291,
-  "ContactId": 557,
-  "ProjectId": 278,
-  "ProjectName": "Hauck, Becker and Barrows",
+  "Task": "molestiae",
+  "AssociateFullName": "Douglas Rosanna Terry MD",
+  "ContactName": "Bruen, Moore and Kreiger",
+  "Description": "Switchable assymetric budgetary management",
+  "PersonFullName": "Delia Koelpin",
+  "PersonId": 90,
+  "ContactId": 860,
+  "ProjectId": 912,
+  "ProjectName": "Erdman-Jewess",
   "IsPublished": false,
-  "AssociateId": 18,
-  "ColorIndex": 582,
-  "IsFree": false,
+  "AssociateId": 784,
+  "ColorIndex": 394,
+  "IsFree": true,
   "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 955,
-  "PriorityName": "Langworth, Casper and Johns",
+  "PriorityId": 803,
+  "PriorityName": "Hahn LLC",
   "TaskType": "Appointment",
   "IsBookingMain": false,
-  "IsRecurrence": false,
+  "IsRecurrence": true,
   "IsBooking": false,
-  "ActiveDate": "2005-02-26T13:13:59.1250999+01:00",
+  "ActiveDate": "1998-10-09T16:32:37.6334112+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2003-06-23T13:13:59.1250999+02:00",
-  "RecurringEndDate": "2012-04-15T13:13:59.1250999+02:00",
-  "MotherId": 330,
-  "AssignedBy": 870,
-  "AssignedByFullName": "Mr. Cecilia Caleb Jewess I",
+  "RecurringStartDate": "2010-07-26T16:32:37.6334112+02:00",
+  "RecurringEndDate": "2021-06-11T16:32:37.6334112+02:00",
+  "MotherId": 746,
+  "AssignedBy": 190,
+  "AssignedByFullName": "Amari Oberbrunner",
   "RejectReason": "",
-  "Location": "vel",
-  "AlarmLeadTime": "debitis",
-  "SaleId": 777,
-  "SaleName": "Johnson, Larson and Eichmann",
-  "AssociateName": "Stracke-Bauch",
-  "CreatedDate": "2009-11-27T13:13:59.1250999+01:00",
-  "CreatedBy": "iusto",
-  "CreatedByFullName": "Prof. Maia Upton V",
-  "CreatedByAssociateId": 744,
+  "Location": "repudiandae",
+  "AlarmLeadTime": "architecto",
+  "SaleId": 573,
+  "SaleName": "Stoltenberg Group",
+  "AssociateName": "Langosh-Rempel",
+  "CreatedDate": "2022-06-02T16:32:37.6334112+02:00",
+  "CreatedBy": "ratione",
+  "CreatedByFullName": "Adan Katelyn Brakus I",
+  "CreatedByAssociateId": 124,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 868,
-  "Title": "ut",
-  "Agenda": "laborum",
-  "InternalNotes": "sed",
+  "PreferredTZLocation": 442,
+  "Title": "sit",
+  "Agenda": "corporis",
+  "InternalNotes": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 946
+      "FieldLength": 17
     }
   }
 }

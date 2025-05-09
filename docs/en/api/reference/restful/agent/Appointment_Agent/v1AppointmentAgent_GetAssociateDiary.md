@@ -129,14 +129,14 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociateDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 456,
-  "StartTime": "2003-01-08T13:13:59.1407181+01:00",
-  "EndTime": "2015-12-04T13:13:59.1407181+01:00",
-  "Count": 855
+  "AssociateId": 811,
+  "StartTime": "2007-10-09T16:32:37.6490324+02:00",
+  "EndTime": "2010-09-20T16:32:37.6490324+02:00",
+  "Count": 723
 }
 ```
 
@@ -148,66 +148,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 698,
-    "StartDate": "2020-07-05T13:13:59.1407181+02:00",
-    "EndDate": "2023-03-15T13:13:59.1407181+01:00",
+    "AppointmentId": 581,
+    "StartDate": "2016-02-21T16:32:37.6490324+01:00",
+    "EndDate": "2020-10-21T16:32:37.6490324+02:00",
     "Type": "BookingForChecklist",
-    "Task": "neque",
-    "AssociateFullName": "Martine Sid Murray IV",
-    "ContactName": "Witting, Morar and Ruecker",
-    "Description": "Seamless intangible focus group",
-    "PersonFullName": "Anna Turcotte",
-    "PersonId": 740,
-    "ContactId": 247,
-    "ProjectId": 958,
-    "ProjectName": "Mosciski-Witting",
+    "Task": "minima",
+    "AssociateFullName": "Jayce Mabelle Predovic DVM",
+    "ContactName": "Rath Group",
+    "Description": "Programmable methodical orchestration",
+    "PersonFullName": "Lemuel Smith",
+    "PersonId": 370,
+    "ContactId": 176,
+    "ProjectId": 858,
+    "ProjectName": "Swift Group",
     "IsPublished": true,
-    "AssociateId": 939,
-    "ColorIndex": 203,
-    "IsFree": true,
-    "HasAlarm": false,
+    "AssociateId": 531,
+    "ColorIndex": 187,
+    "IsFree": false,
+    "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 998,
-    "PriorityName": "Hickle, Kris and Barton",
+    "PriorityId": 634,
+    "PriorityName": "Shields-Crona",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": false,
+    "IsBookingMain": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2024-07-20T13:13:59.1407181+02:00",
+    "ActiveDate": "2008-09-16T16:32:37.6490324+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1998-09-30T13:13:59.1407181+02:00",
-    "RecurringEndDate": "1998-11-30T13:13:59.1407181+01:00",
-    "MotherId": 653,
-    "AssignedBy": 319,
-    "AssignedByFullName": "London Denesik",
+    "RecurringStartDate": "2006-04-12T16:32:37.6490324+02:00",
+    "RecurringEndDate": "2018-03-15T16:32:37.6490324+01:00",
+    "MotherId": 630,
+    "AssignedBy": 575,
+    "AssignedByFullName": "Antonette Bernhard II",
     "RejectReason": "",
-    "Location": "enim",
-    "AlarmLeadTime": "esse",
-    "SaleId": 773,
-    "SaleName": "Kohler, Kessler and Conn",
-    "AssociateName": "Durgan, Frami and Rogahn",
-    "CreatedDate": "2015-03-26T13:13:59.1407181+01:00",
-    "CreatedBy": "optio",
-    "CreatedByFullName": "Mr. August Claud Eichmann",
-    "CreatedByAssociateId": 15,
+    "Location": "non",
+    "AlarmLeadTime": "possimus",
+    "SaleId": 832,
+    "SaleName": "Kunde LLC",
+    "AssociateName": "Pagac-Swift",
+    "CreatedDate": "2012-09-13T16:32:37.6490324+02:00",
+    "CreatedBy": "similique",
+    "CreatedByFullName": "Valentin Krajcik",
+    "CreatedByAssociateId": 943,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 193,
-    "Title": "sed",
-    "Agenda": "amet",
-    "InternalNotes": "maiores",
+    "PreferredTZLocation": 842,
+    "Title": "sunt",
+    "Agenda": "iusto",
+    "InternalNotes": "culpa",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 842
+        "FieldType": "System.Int32",
+        "FieldLength": 291
       }
     }
   }

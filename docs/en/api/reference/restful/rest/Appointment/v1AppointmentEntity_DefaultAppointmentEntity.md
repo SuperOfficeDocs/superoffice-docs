@@ -116,7 +116,7 @@ OK
 GET /api/v1/Appointment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -124,128 +124,128 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 30 Dec 2006 13:14:08 G12T
+Last-Modified: Sat, 17 Nov 2018 16:32:46 G11T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2011-03-03T13:14:08.2741091+01:00",
-  "AppointmentId": 54,
-  "Description": "Sharable homogeneous toolset",
-  "Title": "illum",
-  "Agenda": "harum",
-  "InternalNotes": "ab",
-  "StartDate": "2007-06-08T13:14:08.2741091+02:00",
-  "EndDate": "2012-09-18T13:14:08.2741091+02:00",
+  "CreatedDate": "2020-10-30T16:32:46.9930655+01:00",
+  "AppointmentId": 196,
+  "Description": "Profit-focused value-added budgetary management",
+  "Title": "voluptas",
+  "Agenda": "blanditiis",
+  "InternalNotes": "cum",
+  "StartDate": "2002-03-11T16:32:46.9930655+01:00",
+  "EndDate": "2004-05-06T16:32:46.9930655+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 412,
+  "MotherId": 685,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2006-12-30T13:14:08.2741091+01:00",
+  "UpdatedDate": "2018-11-17T16:32:46.9930655+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 815,
+  "ActiveLinks": 834,
   "Links": [
     {
-      "EntityName": "Toy Inc and Sons",
-      "Id": 916,
-      "Description": "Reverse-engineered content-based moratorium",
-      "ExtraInfo": "repellendus",
-      "LinkId": 330,
+      "EntityName": "Rempel Group",
+      "Id": 356,
+      "Description": "Robust transitional open system",
+      "ExtraInfo": "quae",
+      "LinkId": 998,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 754
+          "FieldType": "System.String",
+          "FieldLength": 873
         }
       }
     }
   ],
-  "AlarmLeadTime": "totam",
+  "AlarmLeadTime": "sequi",
   "HasAlarm": false,
-  "ColorIndex": 702,
+  "ColorIndex": 671,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "earum",
-  "LeadTime": "illum",
-  "Location": "qui",
-  "RejectCounter": 780,
+  "LagTime": "consequatur",
+  "LeadTime": "omnis",
+  "Location": "ut",
+  "RejectCounter": 642,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 177,
-      "PersonId": 211,
-      "ContactId": 46,
-      "EmailId": 713,
-      "SendEmail": false,
+      "AssociateId": 739,
+      "PersonId": 619,
+      "ContactId": 859,
+      "EmailId": 274,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "ellis@denesik.info",
-      "Description": "Synergized optimal artificial intelligence"
+      "EmailAddress": "nelle.bruen@lindveum.uk",
+      "Description": "Front-line mobile leverage"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2005-05-18T13:14:08.2741091+02:00",
+  "ActiveDate": "2008-09-07T16:32:46.9930655+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 473,
+  "PreferredTZLocation": 814,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 694,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 265,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "est",
+  "CentralserviceVideomeetId": "quos",
   "UserDefinedFields": {
-    "SuperOffice:1": "Rosalyn Watsica",
-    "SuperOffice:2": "1584443653"
+    "SuperOffice:1": "1674127546",
+    "SuperOffice:2": "Eliane Wilderman"
   },
   "ExtraFields": {
-    "ExtraFields1": "possimus",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "incidunt",
+    "ExtraFields2": "non"
   },
   "CustomFields": {
-    "CustomFields1": "eveniet",
-    "CustomFields2": "ullam"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "ducimus"
   },
-  "PublishEventDate": "2017-05-23T13:14:08.2741091+02:00",
-  "PublishTo": "2004-01-20T13:14:08.2741091+01:00",
-  "PublishFrom": "2023-05-24T13:14:08.2741091+02:00",
+  "PublishEventDate": "1999-07-14T16:32:46.9930655+02:00",
+  "PublishTo": "2018-10-25T16:32:46.9930655+02:00",
+  "PublishFrom": "2009-02-18T16:32:46.9930655+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 831,
+      "VisibleId": 47,
       "Visibility": "All",
-      "DisplayValue": "a",
+      "DisplayValue": "beatae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 431
+          "FieldType": "System.String",
+          "FieldLength": 566
         }
       }
     },
     {
-      "VisibleId": 831,
+      "VisibleId": 47,
       "Visibility": "All",
-      "DisplayValue": "a",
+      "DisplayValue": "beatae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 431
+          "FieldType": "System.String",
+          "FieldLength": 566
         }
       }
     }
@@ -254,8 +254,8 @@ Last-Modified: Sat, 30 Dec 2006 13:14:08 G12T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 981
+      "FieldType": "System.Int32",
+      "FieldLength": 587
     }
   }
 }

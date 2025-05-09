@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RedirectUri": "itaque"
+  "RedirectUri": "eligendi"
 }
 ```
 
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ClientId": "ipsa",
-  "RedirectUri": "tempore",
+  "ClientId": "voluptate",
+  "RedirectUri": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 68
+      "FieldLength": 352
     }
   }
 }

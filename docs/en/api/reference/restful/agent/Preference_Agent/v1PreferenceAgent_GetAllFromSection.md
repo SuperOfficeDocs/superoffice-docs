@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Preference/GetAllFromSection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 313,
-    "Section": "et",
-    "Key": "voluptas",
-    "Name": "Hansen-Daniel",
+    "PrefDescId": 962,
+    "Section": "assumenda",
+    "Key": "iure",
+    "Name": "Hackett-Bergnaum",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Digitized next generation help-desk",
+    "Description": "Switchable even-keeled flexibility",
     "IsBuiltin": true,
-    "TableName": "Leffler-Kuphal",
-    "UserDefinedListId": 20,
-    "Rank": 516,
-    "SubGroup": "rerum",
-    "MinLevel": 810,
-    "MaxValue": 437,
-    "MinValue": 560,
-    "RequiredLicense": "odit",
+    "TableName": "Kris, Gutkowski and Veum",
+    "UserDefinedListId": 18,
+    "Rank": 504,
+    "SubGroup": "ipsum",
+    "MinLevel": 641,
+    "MaxValue": 302,
+    "MinValue": 505,
+    "RequiredLicense": "similique",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 630
+        "FieldType": "System.Int32",
+        "FieldLength": 202
       }
     }
   }

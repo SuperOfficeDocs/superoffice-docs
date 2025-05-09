@@ -112,32 +112,32 @@ OK
 PUT /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 311,
-  "Name": "Green-Sipes",
-  "Tooltip": "eos",
-  "Deleted": false,
-  "Rank": 857,
+  "WebPanelId": 125,
+  "Name": "Tillman-Dickinson",
+  "Tooltip": "sint",
+  "Deleted": true,
+  "Rank": 140,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "O'Reilly LLC",
+  "ShowInMenuBar": true,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "WindowName": "Marquardt Group",
   "Url": "http://www.example.com/",
-  "ProgId": "optio",
-  "Icon": 898,
+  "ProgId": "repellat",
+  "Icon": 787,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true
+  "NeverReloadOnCurrentChange": false
 }
 ```
 
@@ -148,26 +148,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 539,
-  "Name": "Pacocha-Gleichner",
-  "Tooltip": "et",
+  "WebPanelId": 46,
+  "Name": "Wyman Group",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "Rank": 187,
+  "Rank": 688,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
-  "OnTravel": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "WindowName": "Bashirian, Armstrong and Schulist",
+  "ShowInStatusBar": true,
+  "WindowName": "Carter, Lueilwitz and Lowe",
   "Url": "http://www.example.com/",
-  "ProgId": "repudiandae",
-  "Icon": 342,
+  "ProgId": "enim",
+  "Icon": 836,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": true,
   "TableRight": null,
@@ -175,7 +175,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 112
+      "FieldLength": 811
     }
   }
 }

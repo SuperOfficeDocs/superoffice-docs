@@ -77,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 856,
-  "Name": "Kohler Inc and Sons",
-  "Tooltip": "ipsam",
-  "Deleted": false,
-  "UdListDefinitionId": 830,
-  "Rank": 572
+  "Id": 44,
+  "Name": "Ullrich, Kreiger and Crist",
+  "Tooltip": "a",
+  "Deleted": true,
+  "UdListDefinitionId": 844,
+  "Rank": 555
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 486,
-  "Name": "Graham LLC",
-  "Tooltip": "consequatur",
+  "Id": 78,
+  "Name": "Hagenes-Roberts",
+  "Tooltip": "similique",
   "Deleted": false,
-  "UdListDefinitionId": 913,
-  "Rank": 656,
+  "UdListDefinitionId": 142,
+  "Rank": 270,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 730
+      "FieldType": "System.String",
+      "FieldLength": 98
     }
   }
 }

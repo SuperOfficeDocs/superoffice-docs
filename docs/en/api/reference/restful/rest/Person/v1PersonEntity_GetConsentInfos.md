@@ -86,27 +86,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 619,
-    "Comment": "deleniti",
-    "Registered": "2003-03-22T13:14:08.8678966+01:00",
-    "RegisteredAssociateId": 159,
-    "Updated": "2008-08-21T13:14:08.8678966+02:00",
-    "UpdatedAssociateId": 796,
-    "LegalBaseId": 870,
-    "LegalBaseKey": "ea",
-    "LegalBaseName": "Metz, Hyatt and Pfannerstill",
-    "ConsentPurposeId": 59,
-    "ConsentPurposeKey": "quas",
-    "ConsentPurposeName": "Ortiz Group",
-    "ConsentSourceId": 261,
-    "ConsentSourceKey": "rerum",
-    "ConsentSourceName": "O'Connell Group",
+    "ConsentPersonId": 34,
+    "Comment": "deserunt",
+    "Registered": "2002-08-14T16:32:47.6651766+02:00",
+    "RegisteredAssociateId": 461,
+    "Updated": "2011-05-14T16:32:47.6651766+02:00",
+    "UpdatedAssociateId": 272,
+    "LegalBaseId": 234,
+    "LegalBaseKey": "voluptatem",
+    "LegalBaseName": "Hickle, Grant and Mitchell",
+    "ConsentPurposeId": 622,
+    "ConsentPurposeKey": "dolorem",
+    "ConsentPurposeName": "Raynor-Gleichner",
+    "ConsentSourceId": 931,
+    "ConsentSourceKey": "neque",
+    "ConsentSourceName": "Jaskolski-Leuschke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 487
+        "FieldType": "System.Int32",
+        "FieldLength": 206
       }
     }
   }

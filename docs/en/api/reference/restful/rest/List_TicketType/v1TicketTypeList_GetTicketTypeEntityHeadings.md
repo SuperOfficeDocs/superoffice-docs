@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 493,
-    "Name": "Anderson, Lang and Gislason",
-    "Tooltip": "repellat",
+    "HeadingId": 275,
+    "Name": "Kshlerin Inc and Sons",
+    "Tooltip": "possimus",
     "Deleted": false,
-    "Rank": 905,
-    "UdListDefinitionId": 253,
+    "Rank": 859,
+    "UdListDefinitionId": 987,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 500
+        "FieldType": "System.Int32",
+        "FieldLength": 468
       }
     }
   }

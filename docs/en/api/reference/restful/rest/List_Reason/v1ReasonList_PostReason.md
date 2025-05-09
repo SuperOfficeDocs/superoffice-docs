@@ -77,12 +77,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 77,
-  "Name": "Haag Inc and Sons",
-  "Tooltip": "voluptatem",
-  "Deleted": true,
-  "UdListDefinitionId": 750,
-  "Rank": 264
+  "Id": 966,
+  "Name": "Bins, Stroman and Feeney",
+  "Tooltip": "rerum",
+  "Deleted": false,
+  "UdListDefinitionId": 710,
+  "Rank": 507
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 67,
-  "Name": "Bruen-Runte",
-  "Tooltip": "labore",
+  "Id": 493,
+  "Name": "Klein LLC",
+  "Tooltip": "a",
   "Deleted": false,
-  "UdListDefinitionId": 493,
-  "Rank": 922,
+  "UdListDefinitionId": 748,
+  "Rank": 494,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 325
+      "FieldType": "System.Int32",
+      "FieldLength": 316
     }
   }
 }

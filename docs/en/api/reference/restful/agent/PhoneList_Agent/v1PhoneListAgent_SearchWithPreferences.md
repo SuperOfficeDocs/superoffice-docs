@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "incidunt",
+  "SearchString": "ullam",
   "Preferences": null
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-616-317-7759",
-    "PersonCellPhone": "(978)966-8588",
-    "PersonPrivatePhone": "054.073.8038 x68494",
-    "PersonFaxNumber": "413159",
-    "PersonPagerNumber": "661397",
-    "PersonEmail": "baron@hickle.co.uk",
-    "Id": 551,
-    "Name": "Stiedemann Group",
-    "Tooltip": "incidunt",
-    "UniqueId": "quam",
+    "PersonDirectPhone": "847-066-1283 x6858",
+    "PersonCellPhone": "304.221.0251 x34301",
+    "PersonPrivatePhone": "1-383-589-2545",
+    "PersonFaxNumber": "1446701",
+    "PersonPagerNumber": "1085728",
+    "PersonEmail": "rebeca@wildermanlarson.ca",
+    "Id": 279,
+    "Name": "Barton LLC",
+    "Tooltip": "ut",
+    "UniqueId": "occaecati",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 460
+        "FieldType": "System.Int32",
+        "FieldLength": 595
       }
     }
   }

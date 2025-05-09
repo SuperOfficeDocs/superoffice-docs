@@ -83,17 +83,17 @@ OK
 POST /api/v1/Agents/Document/SaveSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 808,
-  "Name": "Waters-Crona",
-  "Tooltip": "aliquam",
-  "Rank": 528,
-  "DoctmplId": 160,
-  "Header": "qui",
-  "OurRef": "fugiat",
+  "SuggestedDocumentId": 578,
+  "Name": "Rice LLC",
+  "Tooltip": "enim",
+  "Rank": 760,
+  "DoctmplId": 165,
+  "Header": "ullam",
+  "OurRef": "provident",
   "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -108,13 +108,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 253,
-  "Name": "Eichmann, Watsica and Cummerata",
-  "Tooltip": "sint",
-  "Rank": 148,
-  "DoctmplId": 751,
-  "Header": "harum",
-  "OurRef": "similique",
+  "SuggestedDocumentId": 139,
+  "Name": "Langworth LLC",
+  "Tooltip": "quia",
+  "Rank": 100,
+  "DoctmplId": 547,
+  "Header": "aliquam",
+  "OurRef": "quae",
   "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 144
+      "FieldLength": 644
     }
   }
 }

@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Workflow/SendEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -92,13 +92,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "EventType": "AddedMessage",
-  "Attributes": "in",
+  "Attributes": "vitae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 431
+      "FieldType": "System.Int32",
+      "FieldLength": 370
     }
   }
 }

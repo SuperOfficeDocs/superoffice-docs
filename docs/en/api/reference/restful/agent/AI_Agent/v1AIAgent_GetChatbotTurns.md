@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/AI/GetChatbotTurns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "omnis"
+  "ChatId": "voluptatem"
 }
 ```
 
@@ -94,31 +94,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Timestamp": "2012-11-22T13:13:58.953207+01:00",
-    "UserPrompt": "dignissimos",
-    "UserDisplayText": "molestiae",
-    "BotResponse": "quibusdam",
+    "Timestamp": "2018-12-01T16:32:37.5709257+01:00",
+    "UserPrompt": "repudiandae",
+    "UserDisplayText": "quia",
+    "BotResponse": "sed",
     "BotActions": {
-      "BotActions1": "dolor",
-      "BotActions2": "quidem"
+      "BotActions1": "sed",
+      "BotActions2": "nostrum"
     },
     "Attachments": [
-      "non",
-      "laborum"
+      "sit",
+      "et"
     ]
   },
   {
-    "Timestamp": "2012-11-22T13:13:58.953207+01:00",
-    "UserPrompt": "dignissimos",
-    "UserDisplayText": "molestiae",
-    "BotResponse": "quibusdam",
+    "Timestamp": "2018-12-01T16:32:37.5709257+01:00",
+    "UserPrompt": "repudiandae",
+    "UserDisplayText": "quia",
+    "BotResponse": "sed",
     "BotActions": {
-      "BotActions1": "dolor",
-      "BotActions2": "quidem"
+      "BotActions1": "sed",
+      "BotActions2": "nostrum"
     },
     "Attachments": [
-      "non",
-      "laborum"
+      "sit",
+      "et"
     ]
   }
 ]

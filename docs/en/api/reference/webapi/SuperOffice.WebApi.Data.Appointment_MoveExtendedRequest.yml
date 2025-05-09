@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_MoveExtendedRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_MoveExtendedRequest
+  id: Appointment_MoveExtendedRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_MoveExtendedRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_MoveExtendedRequest.AppointmentMoveData
+  langs:
+  - csharp
+  - vb
+  name: Appointment_MoveExtendedRequest
+  nameWithType: Appointment_MoveExtendedRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_MoveExtendedRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_MoveExtendedRequest : Object'
+    content.vb: >-
+      Public Class Appointment_MoveExtendedRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_MoveExtendedRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_MoveExtendedRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_MoveExtendedRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_MoveExtendedRequest()
+  nameWithType: Appointment_MoveExtendedRequest.Appointment_MoveExtendedRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_MoveExtendedRequest.Appointment_MoveExtendedRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_MoveExtendedRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_MoveExtendedRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_MoveExtendedRequest.AppointmentMoveData
+  commentId: P:SuperOffice.WebApi.Data.Appointment_MoveExtendedRequest.AppointmentMoveData
+  id: AppointmentMoveData
+  parent: SuperOffice.WebApi.Data.Appointment_MoveExtendedRequest
+  langs:
+  - csharp
+  - vb
+  name: AppointmentMoveData
+  nameWithType: Appointment_MoveExtendedRequest.AppointmentMoveData
+  fullName: SuperOffice.WebApi.Data.Appointment_MoveExtendedRequest.AppointmentMoveData
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public AppointmentMoveData AppointmentMoveData { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.AppointmentMoveData
+    content.vb: Public Property AppointmentMoveData As AppointmentMoveData
+  overload: SuperOffice.WebApi.Data.Appointment_MoveExtendedRequest.AppointmentMoveData*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_MoveExtendedRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_MoveExtendedRequest.#ctor
+  isExternal: true
+  name: Appointment_MoveExtendedRequest
+  nameWithType: Appointment_MoveExtendedRequest.Appointment_MoveExtendedRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_MoveExtendedRequest.Appointment_MoveExtendedRequest
+- uid: SuperOffice.WebApi.Data.Appointment_MoveExtendedRequest.AppointmentMoveData*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_MoveExtendedRequest.AppointmentMoveData
+  isExternal: true
+  name: AppointmentMoveData
+  nameWithType: Appointment_MoveExtendedRequest.AppointmentMoveData
+  fullName: SuperOffice.WebApi.Data.Appointment_MoveExtendedRequest.AppointmentMoveData
+- uid: SuperOffice.WebApi.Data.AppointmentMoveData
+  commentId: T:SuperOffice.WebApi.Data.AppointmentMoveData
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: AppointmentMoveData
+  nameWithType: AppointmentMoveData
+  fullName: SuperOffice.WebApi.Data.AppointmentMoveData

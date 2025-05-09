@@ -83,17 +83,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "dolorem",
-  "TechExplanation": "voluptas",
-  "ErrorCode": "animi",
+  "UserExplanation": "voluptatem",
+  "TechExplanation": "aut",
+  "ErrorCode": "autem",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 83
+      "FieldType": "System.String",
+      "FieldLength": 571
     }
   }
 }

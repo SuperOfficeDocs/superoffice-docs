@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/SaleType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 670,
-  "Name": "Huel-Roberts",
-  "Tooltip": "fugiat",
+  "Id": 831,
+  "Name": "Kuphal-Zemlak",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 226,
+  "Rank": 978,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "repudiandae",
+  "UseGroupsAndHeadings": false,
+  "ListType": "omnis",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,13 +108,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 812,
-  "Name": "Krajcik Group",
-  "Tooltip": "maxime",
+  "Id": 487,
+  "Name": "Hauck Inc and Sons",
+  "Tooltip": "itaque",
   "Deleted": false,
-  "Rank": 940,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 498,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
   "ListType": "ex",
   "InUseByUserDefinedFields": false,
@@ -123,7 +123,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 327
+      "FieldLength": 756
     }
   }
 }

@@ -8,6 +8,8 @@ items:
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Application
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Appointment
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Appointment_Alarm
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Appointment_Busy
+  - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Appointment_Free
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Arrow_Left
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Arrow_Right
   - SuperOffice.CRM.ArchiveLists.Constants.IconHints.Assignment
@@ -1597,6 +1599,62 @@ items:
     return:
       type: System.String
     content.vb: Public Const Appointment_Alarm As String = "Appointment_Alarm"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Appointment_Free
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Appointment_Free
+  id: Appointment_Free
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Appointment_Free
+  nameWithType: Constants.IconHints.Appointment_Free
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Appointment_Free
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Appointment_Free = "free"
+    return:
+      type: System.String
+    content.vb: Public Const Appointment_Free As String = "free"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Appointment_Busy
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.IconHints.Appointment_Busy
+  id: Appointment_Busy
+  parent: SuperOffice.CRM.ArchiveLists.Constants.IconHints
+  langs:
+  - csharp
+  - vb
+  name: Appointment_Busy
+  nameWithType: Constants.IconHints.Appointment_Busy
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.IconHints.Appointment_Busy
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Appointment_Busy = "busy"
+    return:
+      type: System.String
+    content.vb: Public Const Appointment_Busy As String = "busy"
   modifiers.csharp:
   - public
   - const

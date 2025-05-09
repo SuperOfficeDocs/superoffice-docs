@@ -77,9 +77,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 24,
-  "DestinationContactName": "Reynolds Group",
-  "DestinationContactDepartment": "",
+  "SourceContactId": 21,
+  "DestinationContactName": "Watsica, Hansen and Ullrich",
+  "DestinationContactDepartment": "architect sticky schemas",
   "CopyPersons": false
 }
 ```
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-717
+599
 ```

@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyMemberProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 32,
-    "Name": "Tillman-Abbott",
-    "Description": "Switchable empowering interface",
+    "ProjectId": 301,
+    "Name": "Trantow-Rutherford",
+    "Description": "Switchable content-based instruction set",
     "URL": "http://www.example.com/",
-    "Type": "ipsa",
-    "AssociateId": 407,
-    "AssociateFullName": "Dorothea Moore",
-    "TypeId": 727,
-    "Updated": "2012-01-21T13:14:00.9234102+01:00",
-    "StatusId": 602,
-    "Status": "voluptatem",
-    "TextId": 294,
-    "PublishTo": "2014-12-29T13:14:00.9234102+01:00",
-    "PublishFrom": "1999-11-06T13:14:00.9234102+01:00",
+    "Type": "optio",
+    "AssociateId": 508,
+    "AssociateFullName": "Maria Conroy",
+    "TypeId": 583,
+    "Updated": "2019-06-07T16:32:39.6490177+02:00",
+    "StatusId": 534,
+    "Status": "occaecati",
+    "TextId": 944,
+    "PublishTo": "2000-12-22T16:32:39.6490177+01:00",
+    "PublishFrom": "2015-06-17T16:32:39.6490177+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "820809",
-    "ActiveErpLinks": 465,
+    "ProjectNumber": "1449442",
+    "ActiveErpLinks": 887,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 368
+        "FieldType": "System.String",
+        "FieldLength": 9
       }
     }
   }

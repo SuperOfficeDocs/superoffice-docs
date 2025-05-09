@@ -98,36 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 6,
-    "ParentId": 734,
-    "Name": "Johns-Glover",
+    "TicketCategoryId": 86,
+    "ParentId": 401,
+    "Name": "Brekke, Bernhard and Kuhlman",
     "Fullname": "et",
-    "CategoryMaster": 977,
+    "CategoryMaster": 756,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Nolan LLC",
+    "ExternalName": "Gorczany Group",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 792,
-    "ReplyTemplate": 299,
-    "NotificationEmail": "raoul_moore@schillerbreitenberg.info",
+    "AssignmentLag": 892,
+    "ReplyTemplate": 933,
+    "NotificationEmail": "joanne@mclaughlinmurphy.com",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 529,
+    "EffectiveReplyTemplateId": 755,
     "ExtraFields": {
-      "ExtraFields1": "aut",
-      "ExtraFields2": "consequatur"
+      "ExtraFields1": "officiis",
+      "ExtraFields2": "voluptas"
     },
     "CustomFields": {
-      "CustomFields1": "commodi",
-      "CustomFields2": "optio"
+      "CustomFields1": "ipsam",
+      "CustomFields2": "nisi"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 756
+        "FieldLength": 539
       }
     }
   }

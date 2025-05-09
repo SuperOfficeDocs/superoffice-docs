@@ -31,7 +31,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=720
+PUT /api/v1/Project/{id}/ImageInfo?projectId=749
 ```
 
 
@@ -104,23 +104,23 @@ OK
 PUT /api/v1/Project/{id}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 59,
-  "BlobSize": 625,
-  "Description": "Operative demand-driven firmware",
-  "ExtraInfo": "aut",
+  "BlobId": 299,
+  "BlobSize": 175,
+  "Description": "Total mobile capacity",
+  "ExtraInfo": "qui",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "cupiditate",
-  "OriginalSize": 622,
-  "CreatedDate": "2006-05-24T13:14:08.9461361+02:00",
-  "UpdatedDate": "2004-04-29T13:14:08.9461361+02:00",
+  "IsZipped": false,
+  "MimeType": "deserunt",
+  "OriginalSize": 164,
+  "CreatedDate": "2003-12-25T16:32:47.7589038+01:00",
+  "UpdatedDate": "2005-05-10T16:32:47.7589038+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "omnis"
+  "ConceptualType": "deserunt"
 }
 ```
 
@@ -131,25 +131,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 336,
-  "BlobSize": 297,
-  "Description": "Switchable background policy",
-  "ExtraInfo": "incidunt",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "et",
-  "OriginalSize": 151,
-  "CreatedDate": "2016-01-04T13:14:08.9461361+01:00",
-  "UpdatedDate": "2002-10-06T13:14:08.9461361+02:00",
+  "BlobId": 25,
+  "BlobSize": 763,
+  "Description": "Switchable global leverage",
+  "ExtraInfo": "voluptates",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "dicta",
+  "OriginalSize": 619,
+  "CreatedDate": "2008-03-13T16:32:47.7589038+01:00",
+  "UpdatedDate": "2017-12-28T16:32:47.7589038+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "eius",
+  "ConceptualType": "enim",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 986
+      "FieldLength": 373
     }
   }
 }

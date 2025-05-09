@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,53 +110,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 931,
-    "Name": "Satterfield Inc and Sons",
-    "Tooltip": "quam",
-    "Rank": 792,
+    "SaleTypeId": 338,
+    "Name": "Kuhic LLC",
+    "Tooltip": "corrupti",
+    "Rank": 542,
     "DurationUnit": "Century",
-    "SaleDuration": 594,
-    "SaleTypeCatId": 672,
+    "SaleDuration": 26,
+    "SaleTypeCatId": 642,
     "Deleted": false,
-    "HasGuide": false,
+    "HasGuide": true,
     "HasStakeholders": true,
     "IsAutoAdvance": false,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 708,
-    "QuoteLinesTemplate": 805,
-    "ConfirmationLinesTemplate": 353,
+    "DefaultQuoteValidity": 53,
+    "QuoteLinesTemplate": 260,
+    "ConfirmationLinesTemplate": 107,
     "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 303,
-    "MinEarningPercent": 685,
-    "GroupQuoteLinesBy": 522,
-    "SortGroupLinesBy": 609,
+    "MaxDiscountPercent": 673,
+    "MinEarningPercent": 987,
+    "GroupQuoteLinesBy": 852,
+    "SortGroupLinesBy": 409,
     "Stages": [
       {
-        "Id": 786,
-        "Name": "Borer LLC",
-        "ToolTip": "Rerum doloremque sed totam explicabo.",
+        "Id": 274,
+        "Name": "Goyette Group",
+        "ToolTip": "Aut provident similique quis sint.",
         "Deleted": true,
-        "Rank": 369,
-        "Type": "aut",
-        "ColorBlock": 130,
-        "IconHint": "omnis",
+        "Rank": 309,
+        "Type": "sed",
+        "ColorBlock": 486,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2001-10-18T13:14:00.5793728+02:00",
+        "LastChanged": "2005-07-06T16:32:39.226996+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cum",
-        "StyleHint": "suscipit",
-        "Hidden": false,
-        "FullName": "Zack Kub",
+        "ExtraInfo": "quia",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Mavis Treutel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 898
+            "FieldLength": 868
           }
         }
       }
@@ -165,8 +165,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 133
+        "FieldType": "System.Int32",
+        "FieldLength": 693
       }
     }
   }

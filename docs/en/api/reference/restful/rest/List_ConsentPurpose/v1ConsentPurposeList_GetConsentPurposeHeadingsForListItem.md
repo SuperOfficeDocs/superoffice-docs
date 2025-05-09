@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 748,
-    "Name": "Mitchell, Romaguera and Schulist",
-    "ToolTip": "Soluta aut.",
-    "Deleted": true,
-    "Rank": 820,
-    "Type": "atque",
-    "ColorBlock": 450,
-    "IconHint": "unde",
+    "Id": 357,
+    "Name": "Bauch-Friesen",
+    "ToolTip": "Consequatur labore voluptas sed.",
+    "Deleted": false,
+    "Rank": 301,
+    "Type": "adipisci",
+    "ColorBlock": 917,
+    "IconHint": "quis",
     "Selected": false,
-    "LastChanged": "2008-02-06T13:14:09.6660173+01:00",
+    "LastChanged": "2023-11-03T16:32:48.5714211+01:00",
     "ChildItems": [
       {
-        "Id": 582,
-        "Name": "Conroy Group",
-        "ToolTip": "Temporibus magni et a nihil rerum.",
+        "Id": 374,
+        "Name": "Harvey-Schneider",
+        "ToolTip": "Voluptates placeat aperiam voluptas libero nobis.",
         "Deleted": false,
-        "Rank": 280,
+        "Rank": 956,
         "Type": "et",
-        "ColorBlock": 601,
-        "IconHint": "consequuntur",
-        "Selected": true,
-        "LastChanged": "2020-04-11T13:14:09.6660173+02:00",
+        "ColorBlock": 768,
+        "IconHint": "distinctio",
+        "Selected": false,
+        "LastChanged": "2007-05-15T16:32:48.5714211+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "culpa",
-        "StyleHint": "omnis",
+        "ExtraInfo": "quo",
+        "StyleHint": "quo",
         "Hidden": true,
-        "FullName": "Mireille Hammes",
+        "FullName": "Brant Marks",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 792
+            "FieldType": "System.Int32",
+            "FieldLength": 526
           }
         }
       }
     ],
-    "ExtraInfo": "soluta",
-    "StyleHint": "accusantium",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "consectetur",
     "Hidden": true,
-    "FullName": "Orie Gutmann",
+    "FullName": "Clark Heller Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 413
+        "FieldLength": 197
       }
     }
   }

@@ -68,24 +68,24 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "voluptas",
-  "ProviderName": "Keebler-Senger",
-  "StorageKey": "quo",
+  "StorageType": "voluptatem",
+  "ProviderName": "Schmitt-Waelchi",
+  "StorageKey": "impedit",
   "Restrictions": [
     {
-      "Name": "Daugherty Group",
-      "Operator": "praesentium",
+      "Name": "Grimes, Streich and Cummerata",
+      "Operator": "voluptatem",
       "Values": [
-        "voluptate",
-        "laudantium"
+        "doloribus",
+        "repellendus"
       ],
       "DisplayValues": [
-        "qui",
-        "quis"
+        "ut",
+        "sed"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -93,12 +93,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 207,
+      "InterParenthesis": 508,
       "InterOperator": "And",
-      "UniqueHash": 177
+      "UniqueHash": 832
     }
   ],
-  "Context": "sit"
+  "Context": "soluta"
 }
 ```
 

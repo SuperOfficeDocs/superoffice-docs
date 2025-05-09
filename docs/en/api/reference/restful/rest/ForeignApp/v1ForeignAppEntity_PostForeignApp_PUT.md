@@ -67,7 +67,7 @@ OK
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 866,
-  "Name": "Waters Inc and Sons",
-  "CreatedDate": "2005-04-24T13:14:08.7428891+02:00",
-  "UpdatedDate": "1999-07-02T13:14:08.7428891+02:00",
+  "ForeignAppId": 382,
+  "Name": "Hickle, Pollich and Stroman",
+  "CreatedDate": "2020-03-31T16:32:47.5245817+02:00",
+  "UpdatedDate": "2023-04-08T16:32:47.5245817+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 930,
-      "Name": "Borer-Wiza",
-      "CreatedDate": "2012-10-21T13:14:08.7428891+02:00",
-      "UpdatedDate": "2017-02-28T13:14:08.7428891+01:00",
-      "AssociateFullName": "Haleigh Aufderhar",
-      "CreatedBy": "ut",
-      "UpdatedBy": "non",
-      "DeviceIdentifier": "quia",
-      "ForeignAppId": 876,
+      "ForeignDeviceId": 787,
+      "Name": "Dicki-Rowe",
+      "CreatedDate": "2000-07-20T16:32:47.5245817+02:00",
+      "UpdatedDate": "2018-09-27T16:32:47.5245817+02:00",
+      "AssociateFullName": "Nels Cormier Jr.",
+      "CreatedBy": "iusto",
+      "UpdatedBy": "quae",
+      "DeviceIdentifier": "reprehenderit",
+      "ForeignAppId": 863,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 461
+          "FieldLength": 982
         }
       }
     }
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 581
+      "FieldType": "System.Int32",
+      "FieldLength": 631
     }
   }
 }

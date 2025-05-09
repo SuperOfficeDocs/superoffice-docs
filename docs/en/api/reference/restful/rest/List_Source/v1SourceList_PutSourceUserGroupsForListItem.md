@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 115,
-    "Name": "Hodkiewicz-Wilderman",
-    "ToolTip": "Vitae officiis eos dolorem.",
-    "Deleted": true,
-    "Rank": 99,
-    "Type": "omnis",
-    "ColorBlock": 996,
-    "IconHint": "aut",
+    "Id": 903,
+    "Name": "Thompson-Bogan",
+    "ToolTip": "Quas incidunt sit eaque ipsum doloribus et id.",
+    "Deleted": false,
+    "Rank": 923,
+    "Type": "expedita",
+    "ColorBlock": 940,
+    "IconHint": "ratione",
     "Selected": true,
-    "LastChanged": "2006-10-05T13:14:10.0879174+02:00",
+    "LastChanged": "2020-11-23T16:32:48.9775807+01:00",
     "ChildItems": [
       {
-        "Id": 20,
-        "Name": "Brekke, Osinski and D'Amore",
-        "ToolTip": "Ab est in est vel.",
+        "Id": 237,
+        "Name": "Doyle-McClure",
+        "ToolTip": "Maxime perspiciatis provident repudiandae culpa.",
         "Deleted": false,
-        "Rank": 836,
-        "Type": "asperiores",
-        "ColorBlock": 408,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2024-03-09T13:14:10.0879174+01:00",
+        "Rank": 719,
+        "Type": "iste",
+        "ColorBlock": 335,
+        "IconHint": "voluptatem",
+        "Selected": false,
+        "LastChanged": "2001-02-07T16:32:48.9775807+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "magni",
+        "ExtraInfo": "dolores",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Mr. Abbey Nicolas II"
+        "FullName": "Jacinto Jakubowski"
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "vero",
+    "ExtraInfo": "deleniti",
+    "StyleHint": "animi",
     "Hidden": false,
-    "FullName": "Lottie Mueller"
+    "FullName": "Miss Devonte Murphy I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 315,
-    "Name": "Jacobson Group",
-    "ToolTip": "Sit veritatis autem voluptatem.",
+    "Id": 575,
+    "Name": "Parisian, Treutel and Welch",
+    "ToolTip": "Repudiandae rem vitae debitis veritatis.",
     "Deleted": false,
-    "Rank": 262,
-    "Type": "excepturi",
-    "ColorBlock": 906,
-    "IconHint": "corporis",
+    "Rank": 289,
+    "Type": "at",
+    "ColorBlock": 239,
+    "IconHint": "dignissimos",
     "Selected": false,
-    "LastChanged": "2013-12-06T13:14:10.0879174+01:00",
+    "LastChanged": "2015-02-28T16:32:48.9775807+01:00",
     "ChildItems": [
       {
-        "Id": 321,
-        "Name": "Steuber Inc and Sons",
-        "ToolTip": "Est nemo dolorem illum eius aliquam ut.",
-        "Deleted": false,
-        "Rank": 662,
-        "Type": "aspernatur",
-        "ColorBlock": 265,
-        "IconHint": "commodi",
+        "Id": 428,
+        "Name": "Glover-Leuschke",
+        "ToolTip": "Autem voluptates ducimus deleniti rerum tenetur.",
+        "Deleted": true,
+        "Rank": 860,
+        "Type": "veniam",
+        "ColorBlock": 926,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2020-08-07T13:14:10.0879174+02:00",
+        "LastChanged": "2006-08-25T16:32:48.9775807+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "quia",
-        "Hidden": false,
-        "FullName": "Allene Jaskolski",
+        "ExtraInfo": "perferendis",
+        "StyleHint": "eum",
+        "Hidden": true,
+        "FullName": "Antwan Stark",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 465
+            "FieldLength": 368
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "fuga",
+    "ExtraInfo": "laudantium",
+    "StyleHint": "facilis",
     "Hidden": false,
-    "FullName": "Maegan Kunze",
+    "FullName": "Alfonzo Zulauf",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 721
+        "FieldLength": 879
       }
     }
   }

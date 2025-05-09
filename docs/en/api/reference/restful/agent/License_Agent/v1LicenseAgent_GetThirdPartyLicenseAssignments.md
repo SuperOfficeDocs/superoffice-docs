@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 394,
-  "ModuleOwner": "ea"
+  "AssociateId": 392,
+  "ModuleOwner": "dignissimos"
 }
 ```
 
@@ -104,26 +104,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 931,
-    "Tooltip": "distinctio",
-    "CanAssign": false,
-    "Free": 760,
-    "InUse": 181,
-    "IsHidden": true,
+    "Unrestricted": true,
+    "Total": 10,
+    "Tooltip": "cumque",
+    "CanAssign": true,
+    "Free": 934,
+    "InUse": 945,
+    "IsHidden": false,
     "Assigned": true,
-    "ModuleLicenseId": 281,
-    "Name": "Bruen, Yundt and Schmitt",
-    "Description": "Grass-roots multi-state definition",
-    "PrerequisiteModuleName": "Hane-Fadel",
-    "SortOrder": 268,
-    "ExtraFlags": 25,
+    "ModuleLicenseId": 949,
+    "Name": "Stark, Kemmer and King",
+    "Description": "Monitored assymetric instruction set",
+    "PrerequisiteModuleName": "Beahan LLC",
+    "SortOrder": 319,
+    "ExtraFlags": 305,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 538
+        "FieldType": "System.Int32",
+        "FieldLength": 18
       }
     }
   }

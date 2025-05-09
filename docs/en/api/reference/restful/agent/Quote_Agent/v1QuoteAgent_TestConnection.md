@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Quote/TestConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Veum Inc and Sons",
+  "ConnectorName": "Parker Inc and Sons",
   "ConnectionData": {
-    "ConnectionData1": "corporis",
-    "ConnectionData2": "in"
+    "ConnectionData1": "molestiae",
+    "ConnectionData2": "ut"
   }
 }
 ```
@@ -101,9 +101,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "sapiente",
-  "TechExplanation": "tenetur",
-  "ErrorCode": "autem",
+  "UserExplanation": "incidunt",
+  "TechExplanation": "eligendi",
+  "ErrorCode": "id",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 286
+      "FieldLength": 637
     }
   }
 }

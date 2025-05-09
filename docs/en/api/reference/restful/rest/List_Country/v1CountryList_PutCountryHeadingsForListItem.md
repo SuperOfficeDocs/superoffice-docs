@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 139,
-    "Name": "Denesik LLC",
-    "ToolTip": "Voluptates veritatis similique nam.",
-    "Deleted": true,
-    "Rank": 233,
-    "Type": "cum",
-    "ColorBlock": 552,
-    "IconHint": "rem",
+    "Id": 409,
+    "Name": "Marquardt-Stehr",
+    "ToolTip": "Nesciunt nihil praesentium tempora iusto velit.",
+    "Deleted": false,
+    "Rank": 748,
+    "Type": "dolore",
+    "ColorBlock": 270,
+    "IconHint": "animi",
     "Selected": true,
-    "LastChanged": "2006-10-05T13:14:09.6972691+02:00",
+    "LastChanged": "2015-11-18T16:32:48.6026679+01:00",
     "ChildItems": [
       {
-        "Id": 373,
-        "Name": "Kunze-Connelly",
-        "ToolTip": "Officiis nihil voluptatem.",
-        "Deleted": true,
-        "Rank": 424,
-        "Type": "maxime",
-        "ColorBlock": 336,
-        "IconHint": "ea",
-        "Selected": false,
-        "LastChanged": "2008-08-17T13:14:09.6972691+02:00",
+        "Id": 570,
+        "Name": "Ernser LLC",
+        "ToolTip": "Aut est.",
+        "Deleted": false,
+        "Rank": 983,
+        "Type": "praesentium",
+        "ColorBlock": 130,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2011-12-24T16:32:48.6026679+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "aperiam",
-        "Hidden": true,
-        "FullName": "Dr. Millie Macejkovic DVM"
+        "ExtraInfo": "est",
+        "StyleHint": "iusto",
+        "Hidden": false,
+        "FullName": "Kailyn Yost"
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "ad",
+    "ExtraInfo": "ducimus",
+    "StyleHint": "quidem",
     "Hidden": false,
-    "FullName": "Katelin Hirthe"
+    "FullName": "Rico Flatley"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 527,
-    "Name": "Conn, Bernier and Towne",
-    "ToolTip": "Consequatur inventore.",
-    "Deleted": true,
-    "Rank": 342,
-    "Type": "consectetur",
-    "ColorBlock": 102,
-    "IconHint": "eius",
+    "Id": 372,
+    "Name": "Cruickshank LLC",
+    "ToolTip": "Ut id occaecati voluptatibus.",
+    "Deleted": false,
+    "Rank": 510,
+    "Type": "qui",
+    "ColorBlock": 903,
+    "IconHint": "blanditiis",
     "Selected": false,
-    "LastChanged": "2019-10-20T13:14:09.6972691+02:00",
+    "LastChanged": "2024-05-06T16:32:48.6182885+02:00",
     "ChildItems": [
       {
-        "Id": 89,
-        "Name": "Pfeffer, O'Connell and Schneider",
-        "ToolTip": "Autem debitis corporis aut amet sit labore.",
-        "Deleted": true,
-        "Rank": 723,
-        "Type": "impedit",
-        "ColorBlock": 917,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2015-05-29T13:14:09.6972691+02:00",
+        "Id": 24,
+        "Name": "Kutch, Schaden and Beer",
+        "ToolTip": "Ea alias rerum illum nihil hic sunt ad.",
+        "Deleted": false,
+        "Rank": 680,
+        "Type": "velit",
+        "ColorBlock": 720,
+        "IconHint": "optio",
+        "Selected": true,
+        "LastChanged": "2001-03-23T16:32:48.6182885+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "suscipit",
-        "StyleHint": "labore",
-        "Hidden": true,
-        "FullName": "Anika Tremblay",
+        "ExtraInfo": "minus",
+        "StyleHint": "necessitatibus",
+        "Hidden": false,
+        "FullName": "Dr. Jaunita Ratke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 444
+            "FieldLength": 259
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "rerum",
+    "ExtraInfo": "assumenda",
+    "StyleHint": "expedita",
     "Hidden": false,
-    "FullName": "Concepcion Cormier",
+    "FullName": "Mrs. Briana Macy Thiel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 796
+        "FieldType": "System.String",
+        "FieldLength": 816
       }
     }
   }

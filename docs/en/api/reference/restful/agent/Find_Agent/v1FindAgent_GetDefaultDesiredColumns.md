@@ -91,9 +91,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "est",
-  "ProviderName": "Wilderman Inc and Sons",
-  "StorageKey": "doloribus"
+  "StorageType": "numquam",
+  "ProviderName": "Rowe-Blick",
+  "StorageKey": "atque"
 }
 ```
 
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Bayer, Rodriguez and Heathcote",
-    "DisplayTooltip": "beatae",
-    "DisplayType": "sunt",
+    "DisplayName": "McGlynn-Lakin",
+    "DisplayTooltip": "quam",
+    "DisplayType": "repellat",
     "CanOrderBy": true,
-    "Name": "Carter Group",
+    "Name": "Swift Group",
     "CanRestrictBy": false,
-    "RestrictionType": "aut",
-    "RestrictionListName": "Crist Group",
+    "RestrictionType": "minima",
+    "RestrictionListName": "Okuneva Inc and Sons",
     "IsVisible": false,
-    "ExtraInfo": "et",
-    "Width": "ducimus",
-    "IconHint": "perspiciatis",
-    "HeadingIconHint": "beatae"
+    "ExtraInfo": "qui",
+    "Width": "rerum",
+    "IconHint": "ut",
+    "HeadingIconHint": "veritatis"
   }
 ]
 ```

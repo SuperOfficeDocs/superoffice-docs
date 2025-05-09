@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/LegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 463,
-  "Name": "Lemke Inc and Sons",
-  "Tooltip": "minima",
-  "Deleted": true,
-  "Rank": 329,
-  "IsCustomList": true,
+  "Id": 720,
+  "Name": "Swaniawski, Nader and Schmitt",
+  "Tooltip": "iste",
+  "Deleted": false,
+  "Rank": 288,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ab",
+  "ListType": "molestiae",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 464,
-  "Name": "White-Cronin",
-  "Tooltip": "est",
+  "Id": 694,
+  "Name": "Mayert, Hahn and Becker",
+  "Tooltip": "ut",
   "Deleted": true,
-  "Rank": 374,
+  "Rank": 981,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "dolorum",
+  "UseGroupsAndHeadings": true,
+  "ListType": "non",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 38
+      "FieldType": "System.Int32",
+      "FieldLength": 928
     }
   }
 }

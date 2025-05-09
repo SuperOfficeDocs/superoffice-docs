@@ -73,16 +73,16 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 603,
-  "PrefDescId": 683,
-  "PrefValue": "minus",
-  "PrefShowValue": "non",
-  "Description": "Right-sized 5th generation local area network",
-  "IsBuiltin": true
+  "PrefDescLineId": 715,
+  "PrefDescId": 395,
+  "PrefValue": "ratione",
+  "PrefShowValue": "expedita",
+  "Description": "Open-source optimizing system engine",
+  "IsBuiltin": false
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 97,
-  "PrefDescId": 251,
-  "PrefValue": "non",
-  "PrefShowValue": "nemo",
-  "Description": "Quality-focused contextually-based portal",
+  "PrefDescLineId": 244,
+  "PrefDescId": 463,
+  "PrefValue": "eius",
+  "PrefShowValue": "possimus",
+  "Description": "Focused explicit capability",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 735
+      "FieldType": "System.String",
+      "FieldLength": 832
     }
   }
 }

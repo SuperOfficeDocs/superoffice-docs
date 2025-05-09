@@ -91,12 +91,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 782,
-  "EmailBodyTemplateId": 46,
-  "AttachMainDocument": false,
-  "QuotedProductsTemplateId": 256,
-  "IncludeAttachments": true,
-  "RawMailSubject": "quia"
+  "QuoteVersionId": 751,
+  "EmailBodyTemplateId": 81,
+  "AttachMainDocument": true,
+  "QuotedProductsTemplateId": 826,
+  "IncludeAttachments": false,
+  "RawMailSubject": "molestiae"
 }
 ```
 
@@ -107,23 +107,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 507,
-  "QuotedProductsId": 436,
+  "QuoteDocumentId": 723,
+  "QuotedProductsId": 196,
   "QuoteAttachmentIds": [
-    515,
-    272
+    164,
+    497
   ],
-  "MailBody": "doloribus",
-  "MailSubject": "quam",
-  "ToEmail": "nicklaus_ohara@dicki.ca",
-  "ToFullName": "Prof. Raphael Beau Kunze",
-  "ErrorMessage": "ipsa",
+  "MailBody": "ipsa",
+  "MailSubject": "voluptas",
+  "ToEmail": "zula.torphy@blandaweissnat.uk",
+  "ToFullName": "Prof. Berniece Rusty Powlowski",
+  "ErrorMessage": "aliquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 880
+      "FieldType": "System.String",
+      "FieldLength": 381
     }
   }
 }

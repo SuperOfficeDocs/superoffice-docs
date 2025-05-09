@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllRoles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 669,
-    "Name": "Terry Inc and Sons",
-    "ToolTip": "Quibusdam molestiae saepe accusantium nisi.",
+    "Id": 813,
+    "Name": "Effertz-Lynch",
+    "ToolTip": "Aut ut.",
     "Deleted": false,
-    "Rank": 291,
-    "Type": "amet",
-    "ColorBlock": 242,
-    "IconHint": "voluptatem",
+    "Rank": 793,
+    "Type": "quibusdam",
+    "ColorBlock": 116,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2010-03-06T13:14:01.6913203+01:00",
+    "LastChanged": "2017-02-07T16:32:40.4457108+01:00",
     "ChildItems": [
       {
-        "Id": 800,
-        "Name": "Glover LLC",
-        "ToolTip": "Corrupti laudantium tempore voluptas quo.",
-        "Deleted": false,
-        "Rank": 543,
-        "Type": "laborum",
-        "ColorBlock": 751,
-        "IconHint": "quasi",
+        "Id": 134,
+        "Name": "Zemlak Inc and Sons",
+        "ToolTip": "Aut sit.",
+        "Deleted": true,
+        "Rank": 316,
+        "Type": "dolor",
+        "ColorBlock": 966,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2016-02-14T13:14:01.6913203+01:00",
+        "LastChanged": "2015-09-19T16:32:40.4457108+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "aut",
+        "ExtraInfo": "repellat",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Kacie Harber",
+        "FullName": "Schuyler Gilberto Pacocha II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 641
+            "FieldType": "System.Int32",
+            "FieldLength": 215
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "est",
+    "ExtraInfo": "qui",
+    "StyleHint": "itaque",
     "Hidden": false,
-    "FullName": "Joshua McKenzie",
+    "FullName": "Verla Adams",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 629
+        "FieldLength": 547
       }
     }
   }

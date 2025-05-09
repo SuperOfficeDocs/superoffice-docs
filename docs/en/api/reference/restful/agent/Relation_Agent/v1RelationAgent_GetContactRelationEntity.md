@@ -26,7 +26,7 @@ Gets a ContactRelationEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=974
+POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=786
 POST /api/v1/Agents/Relation/GetContactRelationEntity?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Relation/GetContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 631,
-  "SourcePersonId": 208,
-  "DestinationContactId": 541,
-  "DestinationPersonId": 458,
-  "RelationId": 631,
-  "Comment": "harum",
-  "RelationDefinitionId": 161,
-  "Reversed": 501,
-  "UpdatedDate": "2000-05-11T13:14:01.017639+02:00",
-  "CreatedDate": "2015-09-01T13:14:01.017639+02:00",
+  "SourceContactId": 279,
+  "SourcePersonId": 528,
+  "DestinationContactId": 760,
+  "DestinationPersonId": 557,
+  "RelationId": 105,
+  "Comment": "molestiae",
+  "RelationDefinitionId": 505,
+  "Reversed": 987,
+  "UpdatedDate": "2009-05-18T16:32:39.7583671+02:00",
+  "CreatedDate": "2011-10-18T16:32:39.7583671+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Beer, Gottlieb and Batz",
-  "SourcePersonName": "Hackett, Gulgowski and Wintheiser",
-  "DestinationContactName": "Kessler-O'Keefe",
-  "DestinationPersonName": "Oberbrunner-Boyle",
-  "ActiveText": "accusamus",
-  "PassiveText": "quia",
+  "SourceContactName": "O'Hara-Walter",
+  "SourcePersonName": "Russel, Conn and Swaniawski",
+  "DestinationContactName": "Mraz, Little and Cormier",
+  "DestinationPersonName": "Kunde Inc and Sons",
+  "ActiveText": "incidunt",
+  "PassiveText": "exercitationem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 172
+      "FieldLength": 863
     }
   }
 }

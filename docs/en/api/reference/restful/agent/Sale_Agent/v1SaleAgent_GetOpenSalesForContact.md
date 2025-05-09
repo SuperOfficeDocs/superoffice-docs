@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 801
+  "ContactId": 466
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Ward-Carroll",
-    "SaleDate": "2009-11-02T13:14:01.1274981+01:00",
-    "SaleId": 885,
-    "Probability": 444,
-    "Title": "ut",
-    "Amount": 19878.962,
-    "Currency": "aliquid",
-    "ProjectName": "Gaylord, Price and Watsica",
-    "AssociateFullName": "Domenica Janice Renner DDS",
-    "Description": "Adaptive bi-directional extranet",
+    "ContactName": "Greenfelder-Stark",
+    "SaleDate": "2000-11-24T16:32:39.8520956+01:00",
+    "SaleId": 970,
+    "Probability": 308,
+    "Title": "ea",
+    "Amount": 26438.424,
+    "Currency": "ut",
+    "ProjectName": "Funk-Collins",
+    "AssociateFullName": "Dandre Farrell",
+    "Description": "Persevering object-oriented alliance",
     "Status": "Lost",
-    "WeightedAmount": 1582.6699999999998,
-    "ProjectId": 871,
-    "EarningPercent": 15867.442,
-    "Earning": 3149.67,
-    "ContactId": 59,
-    "AssociateId": 681,
-    "PersonId": 705,
-    "SaleTypeId": 190,
-    "SaleTypeName": "Bauch-Kiehn",
-    "PersonFullName": "Jefferey Stamm",
+    "WeightedAmount": 17199.392,
+    "ProjectId": 934,
+    "EarningPercent": 28619.688,
+    "Earning": 29578.692,
+    "ContactId": 873,
+    "AssociateId": 967,
+    "PersonId": 467,
+    "SaleTypeId": 33,
+    "SaleTypeName": "Fahey Inc and Sons",
+    "PersonFullName": "Jennie Heidenreich",
     "Completed": "Completed",
-    "ActiveErpLinks": 396,
-    "NextDueDate": "2013-04-08T13:14:01.1274981+02:00",
-    "Number": "1249108",
+    "ActiveErpLinks": 735,
+    "NextDueDate": "2011-04-29T16:32:39.8520956+02:00",
+    "Number": "927751",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 872
+        "FieldLength": 741
       }
     }
   }

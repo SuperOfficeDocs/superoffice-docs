@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 382,
-    "Section": "corrupti",
-    "Key": "et",
-    "Name": "Gusikowski-Welch",
+    "PrefDescId": 585,
+    "Section": "voluptatem",
+    "Key": "minima",
+    "Name": "Hirthe Inc and Sons",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Decentralized composite moratorium",
+    "Description": "Persevering background migration",
     "IsBuiltin": false,
-    "TableName": "Trantow-Jerde",
-    "UserDefinedListId": 824,
-    "Rank": 354,
-    "SubGroup": "ut",
-    "MinLevel": 406,
-    "MaxValue": 464,
-    "MinValue": 874,
-    "RequiredLicense": "sint",
+    "TableName": "Schoen, Erdman and Huels",
+    "UserDefinedListId": 393,
+    "Rank": 444,
+    "SubGroup": "quia",
+    "MinLevel": 658,
+    "MaxValue": 889,
+    "MinValue": 829,
+    "RequiredLicense": "quo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 998
+        "FieldLength": 429
       }
     }
   }

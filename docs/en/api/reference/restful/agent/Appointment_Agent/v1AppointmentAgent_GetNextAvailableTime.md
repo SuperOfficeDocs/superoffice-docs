@@ -80,17 +80,17 @@ OK
 POST /api/v1/Agents/Appointment/GetNextAvailableTime
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Associates": [
-    525,
-    191
+    563,
+    21
   ],
-  "StartTime": "2015-12-07T13:13:59.1719704+01:00",
-  "EndTime": "2016-12-22T13:13:59.1719704+01:00",
-  "Count": 183,
+  "StartTime": "2003-12-10T16:32:37.7974094+01:00",
+  "EndTime": "2005-05-10T16:32:37.7974094+02:00",
+  "Count": 197,
   "IsAllDay": false
 }
 ```
@@ -103,30 +103,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AvailableTimeStart": "2013-11-13T13:13:59.1719704+01:00",
-    "AvailableTimeEnd": "2002-07-09T13:13:59.1719704+02:00",
-    "RecommendedTimeStart": "2014-09-02T13:13:59.1719704+02:00",
-    "RecommendedTimeEnd": "2014-11-17T13:13:59.1719704+01:00",
+    "AvailableTimeStart": "2003-09-14T16:32:37.7974094+02:00",
+    "AvailableTimeEnd": "2012-12-12T16:32:37.7974094+01:00",
+    "RecommendedTimeStart": "2000-12-26T16:32:37.7974094+01:00",
+    "RecommendedTimeEnd": "2021-09-07T16:32:37.7974094+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 382
+        "FieldLength": 301
       }
     }
   },
   {
-    "AvailableTimeStart": "2013-11-13T13:13:59.1719704+01:00",
-    "AvailableTimeEnd": "2002-07-09T13:13:59.1719704+02:00",
-    "RecommendedTimeStart": "2014-09-02T13:13:59.1719704+02:00",
-    "RecommendedTimeEnd": "2014-11-17T13:13:59.1719704+01:00",
+    "AvailableTimeStart": "2003-09-14T16:32:37.7974094+02:00",
+    "AvailableTimeEnd": "2012-12-12T16:32:37.7974094+01:00",
+    "RecommendedTimeStart": "2000-12-26T16:32:37.7974094+01:00",
+    "RecommendedTimeEnd": "2021-09-07T16:32:37.7974094+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 382
+        "FieldLength": 301
       }
     }
   }

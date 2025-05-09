@@ -37,13 +37,13 @@ Tags are substituted according to the provided id's.  Use GetDocumentStream to o
 | uiCulture | string |  Language variation of template to use when creating document. (ISO code - "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang". |
 
 ```http
-POST /api/v1/Document/{documentId}/Content?contactId=202
-POST /api/v1/Document/{documentId}/Content?personId=903
-POST /api/v1/Document/{documentId}/Content?appointmentId=90
-POST /api/v1/Document/{documentId}/Content?saleId=798
-POST /api/v1/Document/{documentId}/Content?selectionId=99
-POST /api/v1/Document/{documentId}/Content?projectId=584
-POST /api/v1/Document/{documentId}/Content?uiCulture=eos
+POST /api/v1/Document/{documentId}/Content?contactId=281
+POST /api/v1/Document/{documentId}/Content?personId=743
+POST /api/v1/Document/{documentId}/Content?appointmentId=359
+POST /api/v1/Document/{documentId}/Content?saleId=124
+POST /api/v1/Document/{documentId}/Content?selectionId=968
+POST /api/v1/Document/{documentId}/Content?projectId=816
+POST /api/v1/Document/{documentId}/Content?uiCulture=consequatur
 ```
 
 
@@ -121,7 +121,7 @@ OK
 POST /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -131,88 +131,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 575,
+  "DocumentId": 1001,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "et",
-  "Header": "adipisci",
-  "Name": "Schultz Inc and Sons",
-  "OurRef": "ut",
-  "YourRef": "eaque",
-  "CreatedDate": "2022-09-06T13:14:08.7116372+02:00",
-  "UpdatedDate": "2007-03-03T13:14:08.7116372+01:00",
-  "Description": "Vision-oriented 4th generation ability",
+  "Attention": "rerum",
+  "Header": "enim",
+  "Name": "Legros, Ferry and Welch",
+  "OurRef": "impedit",
+  "YourRef": "ut",
+  "CreatedDate": "2012-07-19T16:32:47.5089608+02:00",
+  "UpdatedDate": "2023-07-28T16:32:47.5089608+02:00",
+  "Description": "Distributed responsive forecast",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2016-11-27T13:14:08.7116372+01:00",
-  "ExternalRef": "pariatur",
+  "Date": "2023-06-03T16:32:47.5089608+02:00",
+  "ExternalRef": "quisquam",
   "Completed": "Completed",
-  "ActiveLinks": 300,
+  "ActiveLinks": 568,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Zemlak-Bergstrom",
-      "Id": 585,
-      "Description": "Cross-group holistic capability",
-      "ExtraInfo": "nihil",
-      "LinkId": 772,
+      "EntityName": "Zieme, Herzog and Robel",
+      "Id": 139,
+      "Description": "Inverse holistic extranet",
+      "ExtraInfo": "sed",
+      "LinkId": 509,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 514
+          "FieldType": "System.Int32",
+          "FieldLength": 510
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 542,
-  "Snum": 336,
+  "SuggestedDocumentId": 991,
+  "Snum": 392,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Donnie Floy Cormier DVM",
-    "SuperOffice:2": "683210130"
+    "SuperOffice:1": "1016237954",
+    "SuperOffice:2": "Shaniya Haley"
   },
   "ExtraFields": {
-    "ExtraFields1": "accusantium",
-    "ExtraFields2": "quis"
+    "ExtraFields1": "vitae",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "nobis",
-    "CustomFields2": "ut"
+    "CustomFields1": "corporis",
+    "CustomFields2": "omnis"
   },
-  "PublishEventDate": "2006-03-30T13:14:08.7116372+02:00",
-  "PublishTo": "2004-07-09T13:14:08.7116372+02:00",
-  "PublishFrom": "2014-03-24T13:14:08.7116372+01:00",
+  "PublishEventDate": "2012-11-13T16:32:47.5089608+01:00",
+  "PublishTo": "2010-03-12T16:32:47.5089608+01:00",
+  "PublishFrom": "2020-06-23T16:32:47.5089608+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 737,
+      "VisibleId": 24,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 40
+          "FieldLength": 664
         }
       }
     },
     {
-      "VisibleId": 737,
+      "VisibleId": 24,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 40
+          "FieldLength": 664
         }
       }
     }
@@ -222,7 +222,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 521
+      "FieldLength": 417
     }
   }
 }

@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Reason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 142,
-  "Name": "O'Reilly Inc and Sons",
-  "Tooltip": "est",
+  "Id": 557,
+  "Name": "Willms Group",
+  "Tooltip": "adipisci",
   "Deleted": true,
-  "UdListDefinitionId": 571,
-  "Rank": 723,
+  "UdListDefinitionId": 405,
+  "Rank": 261,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 648
+      "FieldType": "System.String",
+      "FieldLength": 840
     }
   }
 }

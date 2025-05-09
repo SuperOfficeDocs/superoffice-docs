@@ -101,7 +101,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 528
+  "Count": 684
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Gerlach, Schmitt and Gaylord",
-    "SaleDate": "2015-07-27T13:14:01.1274981+02:00",
-    "SaleId": 815,
-    "Probability": 952,
-    "Title": "dolor",
-    "Amount": 27563.53,
-    "Currency": "quod",
-    "ProjectName": "McCullough, Braun and Sipes",
-    "AssociateFullName": "Leola Kling",
-    "Description": "Synergized uniform contingency",
+    "ContactName": "Witting-Swift",
+    "SaleDate": "1998-06-02T16:32:39.8520956+02:00",
+    "SaleId": 687,
+    "Probability": 482,
+    "Title": "maiores",
+    "Amount": 332.204,
+    "Currency": "vel",
+    "ProjectName": "Armstrong-Keeling",
+    "AssociateFullName": "Miss Cristobal Sedrick Beatty DVM",
+    "Description": "Implemented exuding product",
     "Status": "Lost",
-    "WeightedAmount": 8170.338,
-    "ProjectId": 959,
-    "EarningPercent": 18860.412,
-    "Earning": 27030.75,
-    "ContactId": 463,
-    "AssociateId": 112,
-    "PersonId": 596,
-    "SaleTypeId": 488,
-    "SaleTypeName": "Powlowski, Jones and Stark",
-    "PersonFullName": "Wilfred Bruen",
+    "WeightedAmount": 14494.75,
+    "ProjectId": 592,
+    "EarningPercent": 11457.904,
+    "Earning": 10219.974,
+    "ContactId": 485,
+    "AssociateId": 779,
+    "PersonId": 123,
+    "SaleTypeId": 531,
+    "SaleTypeName": "Vandervort LLC",
+    "PersonFullName": "Hertha Dibbert",
     "Completed": "Completed",
-    "ActiveErpLinks": 672,
-    "NextDueDate": "2010-05-26T13:14:01.1274981+02:00",
-    "Number": "695680",
+    "ActiveErpLinks": 494,
+    "NextDueDate": "1998-04-24T16:32:39.8520956+02:00",
+    "Number": "559775",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 88
+        "FieldLength": 453
       }
     }
   }

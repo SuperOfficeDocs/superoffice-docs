@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Dash/GetPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 607
+  "DashboardId": 547
 }
 ```
 
@@ -93,33 +93,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 156,
-  "Name": "Abernathy LLC",
-  "Description": "Expanded 6th generation collaboration",
-  "OwnedByFullName": "Monty Kuhlman",
-  "Registered": "2006-04-29T13:14:00.0632145+02:00",
+  "DashboardId": 704,
+  "Name": "McLaughlin, Borer and O'Kon",
+  "Description": "Robust homogeneous portal",
+  "OwnedByFullName": "Miss Rosendo Bruen",
+  "Registered": "2001-10-08T16:32:38.6177589+02:00",
   "Tiles": [
     {
-      "Name": "Crist, Emard and Reynolds",
+      "Name": "Harber Group",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 440
+          "FieldType": "System.String",
+          "FieldLength": 807
         }
       }
     },
     {
-      "Name": "Crist, Emard and Reynolds",
+      "Name": "Harber Group",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 440
+          "FieldType": "System.String",
+          "FieldLength": 807
         }
       }
     }
@@ -128,8 +128,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 520
+      "FieldType": "System.Int32",
+      "FieldLength": 37
     }
   }
 }

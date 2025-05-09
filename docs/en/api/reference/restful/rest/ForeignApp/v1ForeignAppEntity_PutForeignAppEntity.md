@@ -92,27 +92,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 942,
-  "Name": "Kutch, Stanton and Zulauf",
-  "CreatedDate": "2000-05-25T13:14:08.7428891+02:00",
-  "UpdatedDate": "2004-08-26T13:14:08.7428891+02:00",
+  "ForeignAppId": 243,
+  "Name": "Klocko, Reynolds and Jerde",
+  "CreatedDate": "2007-10-17T16:32:47.5402031+02:00",
+  "UpdatedDate": "2005-03-02T16:32:47.5402031+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 645,
-      "Name": "Schinner Inc and Sons",
-      "CreatedDate": "2013-03-25T13:14:08.7428891+01:00",
-      "UpdatedDate": "2004-07-14T13:14:08.7428891+02:00",
-      "AssociateFullName": "Martin Dibbert",
-      "CreatedBy": "beatae",
-      "UpdatedBy": "aspernatur",
-      "DeviceIdentifier": "autem",
-      "ForeignAppId": 165
+      "ForeignDeviceId": 354,
+      "Name": "Medhurst Inc and Sons",
+      "CreatedDate": "2001-07-17T16:32:47.5402031+02:00",
+      "UpdatedDate": "2023-06-19T16:32:47.5402031+02:00",
+      "AssociateFullName": "Dahlia Schaefer",
+      "CreatedBy": "quas",
+      "UpdatedBy": "eum",
+      "DeviceIdentifier": "et",
+      "ForeignAppId": 807
     }
   ]
 }
@@ -125,29 +125,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 983,
-  "Name": "Armstrong Group",
-  "CreatedDate": "2013-10-10T13:14:08.7585151+02:00",
-  "UpdatedDate": "2006-11-09T13:14:08.7585151+01:00",
+  "ForeignAppId": 593,
+  "Name": "Bednar, Collins and Lakin",
+  "CreatedDate": "2020-11-23T16:32:47.5402031+01:00",
+  "UpdatedDate": "2015-10-06T16:32:47.5402031+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 902,
-      "Name": "Jenkins-Rutherford",
-      "CreatedDate": "2021-10-26T13:14:08.7585151+02:00",
-      "UpdatedDate": "2018-07-18T13:14:08.7585151+02:00",
-      "AssociateFullName": "Felicity Braun V",
-      "CreatedBy": "sed",
-      "UpdatedBy": "totam",
-      "DeviceIdentifier": "exercitationem",
-      "ForeignAppId": 665,
+      "ForeignDeviceId": 298,
+      "Name": "Satterfield LLC",
+      "CreatedDate": "2003-04-23T16:32:47.5402031+02:00",
+      "UpdatedDate": "2020-02-11T16:32:47.5402031+01:00",
+      "AssociateFullName": "Kaelyn Moen",
+      "CreatedBy": "laboriosam",
+      "UpdatedBy": "repellendus",
+      "DeviceIdentifier": "esse",
+      "ForeignAppId": 28,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 734
+          "FieldLength": 593
         }
       }
     }
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 558
+      "FieldLength": 531
     }
   },
   "_Links": {

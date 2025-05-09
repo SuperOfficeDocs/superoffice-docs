@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 819,
-    "Name": "Koelpin Group",
-    "Tooltip": "odio",
-    "Deleted": true,
-    "UdListDefinitionId": 82,
-    "Rank": 771,
+    "Id": 12,
+    "Name": "Wunsch-Franecki",
+    "Tooltip": "omnis",
+    "Deleted": false,
+    "UdListDefinitionId": 911,
+    "Rank": 425,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 94
+        "FieldType": "System.Int32",
+        "FieldLength": 505
       }
     }
   }

@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 253,
-    "Name": "Stracke, Gutkowski and Predovic",
-    "Description": "Cross-group 24/7 help-desk",
-    "DeltaJson": "eius",
+    "ConfigurableScreenDeltaId": 589,
+    "Name": "Von-Marks",
+    "Description": "Down-sized explicit access",
+    "DeltaJson": "debitis",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "voluptas",
-    "UpdatedDate": "2021-03-02T13:13:59.7038141+01:00",
-    "CreatedDate": "2020-10-23T13:13:59.7038141+02:00",
+    "RecipeId": "id",
+    "UpdatedDate": "2014-07-31T16:32:38.3834375+02:00",
+    "CreatedDate": "2008-11-09T16:32:38.3834375+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      811,
-      556
+      965,
+      18
     ],
-    "AppliesToKey": "inventore",
+    "AppliesToKey": "id",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 59
+        "FieldType": "System.String",
+        "FieldLength": 290
       }
     }
   }

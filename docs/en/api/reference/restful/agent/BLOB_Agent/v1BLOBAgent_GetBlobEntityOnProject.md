@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 436
+  "ProjectId": 18
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 630,
-  "BlobSize": 939,
-  "Description": "Assimilated neutral analyzer",
-  "ExtraInfo": "vel",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "consequatur",
-  "OriginalSize": 168,
-  "CreatedDate": "1998-10-26T13:13:59.5314453+01:00",
-  "UpdatedDate": "2019-01-21T13:13:59.5314453+01:00",
+  "BlobId": 649,
+  "BlobSize": 382,
+  "Description": "Face to face object-oriented product",
+  "ExtraInfo": "molestiae",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "saepe",
+  "OriginalSize": 458,
+  "CreatedDate": "2019-11-20T16:32:38.2116027+01:00",
+  "UpdatedDate": "1999-07-12T16:32:38.2116027+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "vitae",
+  "ConceptualType": "ab",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 156
+      "FieldLength": 177
     }
   }
 }

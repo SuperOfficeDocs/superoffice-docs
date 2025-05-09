@@ -631,6 +631,7 @@ title: Services88.MarketingAgent WSDL
           <xs:enumeration value="NoSubscription" />
           <xs:enumeration value="Complained" />
           <xs:enumeration value="TooManyBounces" />
+          <xs:enumeration value="TestMail" />
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="ShipmentAddrStatus" nillable="true" type="tns:ShipmentAddrStatus" />

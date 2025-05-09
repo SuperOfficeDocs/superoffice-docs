@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 469,
-    "Name": "Koelpin-Kilback",
-    "Tooltip": "consequatur",
-    "Deleted": false,
-    "Rank": 644,
-    "UdListDefinitionId": 228,
+    "HeadingId": 837,
+    "Name": "Treutel-Brown",
+    "Tooltip": "non",
+    "Deleted": true,
+    "Rank": 601,
+    "UdListDefinitionId": 961,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 48
+        "FieldType": "System.String",
+        "FieldLength": 194
       }
     }
   }

@@ -94,6 +94,7 @@ items:
   - SuperOffice.Data.SQL.Argument.IsNotNull
   - SuperOffice.Data.SQL.Argument.NotIn(SuperOffice.Data.SQL.Argument[])
   - SuperOffice.Data.SQL.Argument.HasFlag(SuperOffice.Data.SQL.Argument)
+  - SuperOffice.Data.SQL.Argument.HasNoFlag(SuperOffice.Data.SQL.Argument)
   - SuperOffice.Data.SQL.Argument.ToArgumentArray``1({T}[])
   - SuperOffice.Data.SQL.Argument.ToArgumentArray``1({T}[],System.Boolean)
   - SuperOffice.Data.SQL.Argument.GetSubElements
@@ -2595,6 +2596,47 @@ references:
     name: HasFlag
     nameWithType: Argument.HasFlag
     fullName: SuperOffice.Data.SQL.Argument.HasFlag
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.Argument.HasNoFlag(SuperOffice.Data.SQL.Argument)
+  commentId: M:SuperOffice.Data.SQL.Argument.HasNoFlag(SuperOffice.Data.SQL.Argument)
+  parent: SuperOffice.Data.SQL.Argument
+  isExternal: true
+  name: HasNoFlag(Argument)
+  nameWithType: Argument.HasNoFlag(Argument)
+  fullName: SuperOffice.Data.SQL.Argument.HasNoFlag(SuperOffice.Data.SQL.Argument)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.Argument.HasNoFlag(SuperOffice.Data.SQL.Argument)
+    name: HasNoFlag
+    nameWithType: Argument.HasNoFlag
+    fullName: SuperOffice.Data.SQL.Argument.HasNoFlag
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.Argument
+    name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument.HasNoFlag(SuperOffice.Data.SQL.Argument)
+    name: HasNoFlag
+    nameWithType: Argument.HasNoFlag
+    fullName: SuperOffice.Data.SQL.Argument.HasNoFlag
     isExternal: true
   - name: (
     nameWithType: (

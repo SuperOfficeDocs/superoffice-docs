@@ -74,7 +74,7 @@ OK
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,33 +82,33 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 31 Jul 2000 13:14:08 G7T
+Last-Modified: Mon, 18 Dec 2017 16:32:47 G12T
 
 {
-  "SourceContactId": 323,
-  "SourcePersonId": 912,
-  "DestinationContactId": 722,
-  "DestinationPersonId": 274,
-  "RelationId": 471,
-  "Comment": "consectetur",
-  "RelationDefinitionId": 591,
-  "Reversed": 575,
-  "UpdatedDate": "2000-07-31T13:14:08.6022481+02:00",
-  "CreatedDate": "1999-04-25T13:14:08.6022481+02:00",
+  "SourceContactId": 219,
+  "SourcePersonId": 670,
+  "DestinationContactId": 666,
+  "DestinationPersonId": 87,
+  "RelationId": 914,
+  "Comment": "quibusdam",
+  "RelationDefinitionId": 895,
+  "Reversed": 672,
+  "UpdatedDate": "2017-12-18T16:32:47.3996115+01:00",
+  "CreatedDate": "2009-04-20T16:32:47.3996115+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Brakus, Kerluke and Koepp",
-  "SourcePersonName": "Jaskolski LLC",
-  "DestinationContactName": "Yost, Jewess and Davis",
-  "DestinationPersonName": "Rippin, Fritsch and Kshlerin",
-  "ActiveText": "eaque",
-  "PassiveText": "alias",
+  "SourceContactName": "Heaney Inc and Sons",
+  "SourcePersonName": "Bogan-Schowalter",
+  "DestinationContactName": "Sporer Group",
+  "DestinationPersonName": "Mayert Inc and Sons",
+  "ActiveText": "ea",
+  "PassiveText": "officiis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 948
+      "FieldLength": 514
     }
   }
 }

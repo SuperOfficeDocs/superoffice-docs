@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 623,
-  "Currency": "sint"
+  "QuoteConnectionId": 434,
+  "Currency": "nihil"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 213,
-    "ERPPriceListKey": "quae",
-    "QuoteConnectionId": 318,
-    "Name": "Kihn LLC",
-    "Description": "Organic 4th generation flexibility",
-    "Currency": "deleniti",
-    "CurrencyName": "Langworth-Huels",
-    "ValidFrom": "2014-01-03T13:14:01.0020135+01:00",
-    "ValidTo": "2024-03-17T13:14:01.0020135+01:00",
+    "PriceListId": 201,
+    "ERPPriceListKey": "quia",
+    "QuoteConnectionId": 562,
+    "Name": "Keeling LLC",
+    "Description": "Fundamental intermediate concept",
+    "Currency": "eos",
+    "CurrencyName": "Robel Group",
+    "ValidFrom": "2023-01-20T16:32:39.7271263+01:00",
+    "ValidTo": "1999-05-07T16:32:39.7271263+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 936
+        "FieldType": "System.String",
+        "FieldLength": 6
       }
     }
   }

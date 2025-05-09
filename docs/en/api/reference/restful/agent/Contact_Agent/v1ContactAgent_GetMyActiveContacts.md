@@ -90,14 +90,14 @@ OK
 POST /api/v1/Agents/Contact/GetMyActiveContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2024-04-06T13:13:59.750692+02:00",
+  "ActivityStartTime": "2005-04-01T16:32:38.4303083+02:00",
   "ContactCategories": [
-    485,
-    889
+    885,
+    788
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -111,26 +111,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 600,
-    "Department": "",
-    "OrgNr": "330083",
-    "Name": "Dietrich Group",
+    "ContactId": 63,
+    "Department": "morph bleeding-edge e-services",
+    "OrgNr": "709117",
+    "Name": "Brekke-Predovic",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Marion Trudie Hoeger Jr.",
+    "AssociateFullName": "Hailie Sawayn",
     "Action": "ActivityCompleted",
-    "ActionTime": "2024-07-07T13:13:59.750692+02:00",
+    "ActionTime": "2006-08-05T16:32:38.4303083+02:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Barton Inc and Sons",
-    "ActionId": 130,
-    "PersonId": 173,
-    "ActivityPersonId": 966,
-    "AssociateId": 725,
+    "ActivityPersonName": "Keebler LLC",
+    "ActionId": 309,
+    "PersonId": 923,
+    "ActivityPersonId": 560,
+    "AssociateId": 132,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 1002
+        "FieldType": "System.Int32",
+        "FieldLength": 938
       }
     }
   }

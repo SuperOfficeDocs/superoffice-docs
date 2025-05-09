@@ -102,36 +102,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Ledner LLC",
+  "ProviderName": "Zieme Inc and Sons",
   "Columns": [
-    "in",
-    "et"
+    "vero",
+    "dignissimos"
   ],
   "SortOrder": [
     {
-      "Name": "Koepp, Nikolaus and Kutch",
+      "Name": "Lemke Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Koepp, Nikolaus and Kutch",
+      "Name": "Lemke Group",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Harvey, Waters and Lowe",
-      "Operator": "rerum",
+      "Name": "Renner, Carroll and Grimes",
+      "Operator": "tempore",
       "Values": [
-        "vero",
-        "ut"
+        "doloribus",
+        "aut"
       ],
       "DisplayValues": [
-        "optio",
-        "dolorem"
+        "similique",
+        "aut"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -139,18 +139,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 851,
+      "InterParenthesis": 107,
       "InterOperator": "And",
-      "UniqueHash": 151
+      "UniqueHash": 707
     }
   ],
   "Entities": [
-    "esse",
-    "beatae"
+    "voluptatem",
+    "minus"
   ],
-  "Page": 4,
-  "PageSize": 897,
-  "Options": "molestiae"
+  "Page": 87,
+  "PageSize": 596,
+  "Options": "et"
 }
 ```
 
@@ -161,26 +161,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 282,
+  "RowCount": 588,
   "Rows": [
     {
-      "EntityName": "Kuhn-Torphy",
-      "PrimaryKey": 718,
+      "EntityName": "Russel, Waters and Sanford",
+      "PrimaryKey": 398,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "velit",
-          "TooltipHint": "accusantium",
-          "LinkHint": "voluptas"
+          "DisplayValue": "dolorem",
+          "TooltipHint": "nobis",
+          "LinkHint": "ratione"
         }
       },
-      "LinkHint": "dolor",
-      "StyleHint": "saepe",
+      "LinkHint": "ducimus",
+      "StyleHint": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 748
+          "FieldLength": 44
         }
       }
     }
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 897
+      "FieldLength": 137
     }
   }
 }

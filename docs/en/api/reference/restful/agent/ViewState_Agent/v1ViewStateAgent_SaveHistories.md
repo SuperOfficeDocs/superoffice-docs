@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/ViewState/SaveHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Rowe, Roob and Graham",
+  "HistoryName": "Macejkovic Inc and Sons",
   "History": [
     {
-      "Rank": 674,
-      "Id": 630,
-      "HistoryName": "Kuhlman-Konopelski",
-      "HistoryId": 39,
-      "AssociateId": 703,
-      "Name": "Hudson-Labadie",
-      "ItemInfo": "dolorem"
+      "Rank": 712,
+      "Id": 605,
+      "HistoryName": "Jakubowski-Kovacek",
+      "HistoryId": 709,
+      "AssociateId": 119,
+      "Name": "Auer, Harber and Ankunding",
+      "ItemInfo": "quo"
     }
   ]
 }
@@ -109,19 +109,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 200,
-    "Id": 189,
-    "HistoryName": "Franecki, Quitzon and Lueilwitz",
-    "HistoryId": 182,
-    "AssociateId": 461,
-    "Name": "Miller-Schoen",
-    "ItemInfo": "ex",
+    "Rank": 214,
+    "Id": 726,
+    "HistoryName": "Stehr, Hudson and Wiza",
+    "HistoryId": 930,
+    "AssociateId": 863,
+    "Name": "Raynor-Flatley",
+    "ItemInfo": "hic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 598
+        "FieldLength": 336
       }
     }
   }

@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 234
+  "ShipmentAddrId": 360
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2008-02-05T13:14:00.6887452+01:00",
+  "SendingTime": "2012-01-06T16:32:39.3519666+01:00",
   "Status": "Blocked",
-  "ShipmentId": 613,
-  "ShipmentDescription": "Future-proofed bottom-line synergy",
-  "FromAddress": "rerum",
-  "Configuration": 347,
-  "ContactId": 106,
-  "ContactName": "Wuckert-Donnelly",
-  "PersonId": 10,
-  "PersonFullName": "Lizeth Kadin Hermiston V",
-  "ShipmentType": "dolor",
-  "MessageId": 635,
-  "MessageSubject": "ut",
-  "DocumentMessageId": 668,
-  "Opened": "2012-10-23T13:14:00.6887452+02:00",
-  "LinkClicks": 552,
+  "ShipmentId": 790,
+  "ShipmentDescription": "Fully-configurable logistical budgetary management",
+  "FromAddress": "enim",
+  "Configuration": 110,
+  "ContactId": 186,
+  "ContactName": "McDermott, Jenkins and Wiza",
+  "PersonId": 692,
+  "PersonFullName": "Annamae Dewitt Auer V",
+  "ShipmentType": "et",
+  "MessageId": 843,
+  "MessageSubject": "exercitationem",
+  "DocumentMessageId": 859,
+  "Opened": "1999-07-06T16:32:39.3519666+02:00",
+  "LinkClicks": 36,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 907
+      "FieldLength": 290
     }
   }
 }

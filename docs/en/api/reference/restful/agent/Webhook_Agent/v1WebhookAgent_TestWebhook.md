@@ -92,13 +92,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "ratione",
+  "Message": "illum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 928
+      "FieldLength": 693
     }
   }
 }

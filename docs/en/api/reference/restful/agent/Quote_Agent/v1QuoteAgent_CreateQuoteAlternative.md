@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 117,
-  "QuoteAlternativeName": "Hegmann Inc and Sons",
-  "QuoteAlternativeDescription": "Organized fresh-thinking circuit"
+  "QuoteVersionId": 267,
+  "QuoteAlternativeName": "Hayes, Schinner and Ondricka",
+  "QuoteAlternativeDescription": "Future-proofed mission-critical portal"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 917,
-  "ERPQuoteAlternativeKey": "minima",
-  "QuoteVersionId": 577,
-  "Name": "Mraz-Borer",
-  "Description": "Face to face directional hub",
+  "QuoteAlternativeId": 905,
+  "ERPQuoteAlternativeKey": "esse",
+  "QuoteVersionId": 784,
+  "Name": "Wiza-Herman",
+  "Description": "Inverse explicit conglomeration",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 22730.902,
-  "ERPDiscountAmount": 5544.0459999999994,
-  "DiscountPercent": 20684.399999999998,
-  "DiscountAmount": 7007.624,
+  "ERPDiscountPercent": 2855.074,
+  "ERPDiscountAmount": 25401.07,
+  "DiscountPercent": 18948.164,
+  "DiscountAmount": 30873.034,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "molestiae",
-  "VAT": 26504.237999999998,
-  "EarningPercent": 1971.2859999999998,
-  "EarningAmount": 3497.544,
-  "SubTotal": 1986.956,
-  "TotalPrice": 12319.753999999999,
-  "ExtraField1": "sint",
-  "ExtraField2": "non",
-  "ExtraField3": "eum",
-  "ExtraField4": "commodi",
-  "ExtraField5": "aliquam",
+  "VATInfo": "amet",
+  "VAT": 24238.356,
+  "EarningPercent": 21734.29,
+  "EarningAmount": 8515.078,
+  "SubTotal": 15469.423999999999,
+  "TotalPrice": 19744.2,
+  "ExtraField1": "ratione",
+  "ExtraField2": "voluptas",
+  "ExtraField3": "occaecati",
+  "ExtraField4": "enim",
+  "ExtraField5": "iste",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 497
+      "FieldLength": 664
     }
   }
 }

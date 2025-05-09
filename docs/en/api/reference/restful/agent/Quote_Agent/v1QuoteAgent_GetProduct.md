@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/Quote/GetProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 678,
-  "ERPProductKey": "occaecati"
+  "QuoteConnectionId": 639,
+  "ERPProductKey": "optio"
 }
 ```
 
@@ -123,73 +123,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 729,
-  "ERPProductKey": "saepe",
-  "ERPPriceListKey": "sit",
-  "Name": "Collins Inc and Sons",
-  "Description": "Vision-oriented systemic data-warehouse",
-  "Code": "suscipit",
-  "PriceUnit": "id",
-  "QuantityUnit": "expedita",
-  "IsSubscription": true,
-  "SubscriptionUnit": "sit",
-  "DefaultSubscriptionQuantity": 30070.73,
-  "ItemNumber": "1417838",
+  "ProductId": 498,
+  "ERPProductKey": "magni",
+  "ERPPriceListKey": "aliquam",
+  "Name": "Borer-Abernathy",
+  "Description": "Inverse content-based model",
+  "Code": "at",
+  "PriceUnit": "odit",
+  "QuantityUnit": "vitae",
+  "IsSubscription": false,
+  "SubscriptionUnit": "et",
+  "DefaultSubscriptionQuantity": 4042.8599999999997,
+  "ItemNumber": "1883932",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "vel",
-  "ProductTypeKey": "qui",
-  "VAT": 3027.444,
-  "VATInfo": "eius",
-  "UnitCost": 26942.998,
-  "UnitMinimumPrice": 17171.185999999998,
-  "UnitListPrice": 13056.243999999999,
+  "ProductFamilyKey": "est",
+  "ProductTypeKey": "eos",
+  "VAT": 28701.172,
+  "VATInfo": "corrupti",
+  "UnitCost": 9915.976,
+  "UnitMinimumPrice": 18644.166,
+  "UnitListPrice": 14588.769999999999,
   "InAssortment": false,
-  "Supplier": "accusantium",
-  "SupplierCode": "laborum",
-  "Rights": "nihil",
-  "Rule": "ut",
+  "Supplier": "quasi",
+  "SupplierCode": "exercitationem",
+  "Rights": "consequatur",
+  "Rule": "nemo",
   "ExtraInfo": [
     {
-      "Name": "Smitham-Schuster",
-      "Value": "et",
+      "Name": "Quitzon, Prohaska and Trantow",
+      "Value": "eum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 302
+          "FieldLength": 881
         }
       }
     },
     {
-      "Name": "Smitham-Schuster",
-      "Value": "et",
+      "Name": "Quitzon, Prohaska and Trantow",
+      "Value": "eum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 302
+          "FieldLength": 881
         }
       }
     }
   ],
-  "RawExtraInfo": "aut",
-  "ExtraField1": "odit",
-  "ExtraField2": "ex",
-  "ExtraField3": "distinctio",
-  "ExtraField4": "qui",
-  "ExtraField5": "sit",
-  "InStock": 20562.174,
+  "RawExtraInfo": "autem",
+  "ExtraField1": "voluptas",
+  "ExtraField2": "aperiam",
+  "ExtraField3": "quos",
+  "ExtraField4": "adipisci",
+  "ExtraField5": "minima",
+  "InStock": 17246.402,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 960
+      "FieldType": "System.String",
+      "FieldLength": 536
     }
   }
 }

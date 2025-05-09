@@ -69,8 +69,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 37,
-  "LanguageCode": "enim"
+  "DocumentTemplateId": 986,
+  "LanguageCode": "dolorem"
 }
 ```
 

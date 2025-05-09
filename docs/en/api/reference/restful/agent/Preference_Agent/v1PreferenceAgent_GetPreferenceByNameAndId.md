@@ -86,14 +86,14 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByNameAndId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "mollitia",
-  "PrefKey": "dignissimos",
+  "PrefSection": "sit",
+  "PrefKey": "voluptatem",
   "PrefLevel": "Database",
-  "OwnerId": 336
+  "OwnerId": 829
 }
 ```
 
@@ -105,22 +105,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "sit",
+  "RawValue": "officiis",
   "Specification": null,
-  "DisplayValue": "laboriosam",
-  "DisplayTooltip": "expedita",
+  "DisplayValue": "ut",
+  "DisplayTooltip": "aut",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 256,
-  "PrefDescId": 228,
-  "TableName": "Gleichner-Borer",
-  "UserPreferenceId": 903,
+  "TargetId": 745,
+  "PrefDescId": 294,
+  "TableName": "Hoppe LLC",
+  "UserPreferenceId": 566,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldLength": 546
     }
   }
 }

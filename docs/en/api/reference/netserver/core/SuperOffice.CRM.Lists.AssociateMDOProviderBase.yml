@@ -60,6 +60,8 @@ items:
 
       [MDOAdditionalInfo("project_id", "Associates that are members of this project", 231)]
 
+      [MDOAdditionalInfo("additional_associate_id", "Associate that should be returned even if it's a former employee", 231)]
+
       [MDOAdditionalInfo("get_deleted", "Associates that are retired", false)]
 
       [MDOAdditionalInfo("add_binary_icon_hints", "Owner and history gets 24x24 person images", false)]
@@ -73,6 +75,8 @@ items:
       <MDOAdditionalInfo("group_idx", "Associates belonging to this user group (primary or secondary groups)", 2)>
 
       <MDOAdditionalInfo("project_id", "Associates that are members of this project", 231)>
+
+      <MDOAdditionalInfo("additional_associate_id", "Associate that should be returned even if it's a former employee", 231)>
 
       <MDOAdditionalInfo("get_deleted", "Associates that are retired", False)>
 
@@ -166,6 +170,15 @@ items:
       value: project_id
     - type: System.String
       value: Associates that are members of this project
+    - type: System.Int32
+      value: 231
+  - type: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute
+    ctor: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute.#ctor(System.String,System.String,System.Object)
+    arguments:
+    - type: System.String
+      value: additional_associate_id
+    - type: System.String
+      value: Associate that should be returned even if it's a former employee
     - type: System.Int32
       value: 231
   - type: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute

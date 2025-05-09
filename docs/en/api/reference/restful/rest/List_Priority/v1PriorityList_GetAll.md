@@ -25,7 +25,7 @@ Gets all the Priority items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Priority/Items?includeDeleted=True
+GET /api/v1/List/Priority/Items?includeDeleted=False
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 224,
-    "Name": "Rosenbaum, Rippin and Waelchi",
-    "Tooltip": "ab",
-    "Deleted": false,
-    "UdListDefinitionId": 825,
-    "Rank": 103,
+    "Id": 531,
+    "Name": "Welch-Kunze",
+    "Tooltip": "eum",
+    "Deleted": true,
+    "UdListDefinitionId": 130,
+    "Rank": 37,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 144
+        "FieldLength": 981
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 436,
-  "Name": "Quigley Group",
-  "Tooltip": "placeat",
+  "Id": 112,
+  "Name": "Pacocha-Mante",
+  "Tooltip": "harum",
   "Deleted": false,
-  "Rank": 982,
+  "Rank": 145,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "perspiciatis",
+  "UseGroupsAndHeadings": true,
+  "ListType": "neque",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 592
+      "FieldType": "System.Int32",
+      "FieldLength": 116
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

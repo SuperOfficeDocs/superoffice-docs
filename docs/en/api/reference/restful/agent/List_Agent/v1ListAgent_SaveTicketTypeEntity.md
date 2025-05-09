@@ -99,35 +99,35 @@ OK
 POST /api/v1/Agents/List/SaveTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 962,
-  "Name": "Farrell LLC",
-  "Rank": 733,
-  "Tooltip": "et",
-  "Icon": "nobis",
-  "DefaultTicketStatus": 841,
+  "TicketTypeId": 997,
+  "Name": "Turner, Schinner and Armstrong",
+  "Rank": 246,
+  "Tooltip": "eum",
+  "Icon": "laborum",
+  "DefaultTicketStatus": 733,
   "TicketStatuses": [
-    753,
-    708
+    192,
+    302
   ],
-  "DefaultTicketPriority": 169,
+  "DefaultTicketPriority": 375,
   "TicketPriorities": [
-    506,
-    531
+    892,
+    882
   ],
-  "ReplyTemplate": 146,
-  "IsExternalVisible": false,
-  "IsDefault": false,
+  "ReplyTemplate": 543,
+  "IsExternalVisible": true,
+  "IsDefault": true,
   "ShowInNew": true,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    11,
-    205
+    736,
+    850
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": true
@@ -141,40 +141,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 608,
-  "Name": "Grant, Rogahn and Kunze",
-  "Rank": 319,
-  "Tooltip": "vitae",
-  "Icon": "nesciunt",
-  "DefaultTicketStatus": 244,
+  "TicketTypeId": 587,
+  "Name": "Harvey-Heller",
+  "Rank": 554,
+  "Tooltip": "assumenda",
+  "Icon": "aliquam",
+  "DefaultTicketStatus": 727,
   "TicketStatuses": [
-    458,
-    97
+    546,
+    726
   ],
-  "DefaultTicketPriority": 243,
+  "DefaultTicketPriority": 923,
   "TicketPriorities": [
-    493,
-    634
+    580,
+    474
   ],
-  "ReplyTemplate": 351,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 759,
+  "IsExternalVisible": true,
   "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": false,
+  "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    447,
-    843
+    230,
+    881
   ],
   "ReplyForwardNoSignature": true,
-  "ReplyExternalAsDefault": false,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 8
+      "FieldLength": 816
     }
   }
 }

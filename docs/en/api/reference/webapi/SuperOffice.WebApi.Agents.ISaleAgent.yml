@@ -42,7 +42,9 @@ items:
   - SuperOffice.WebApi.Agents.ISaleAgent.SaveSaleEntityAsync(SuperOffice.WebApi.Data.SaleEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ISaleAgent.SaveSaleStakeholderAsync(SuperOffice.WebApi.Data.SaleStakeholder,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ISaleAgent.SetAsLostAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISaleAgent.SetAsLostWithReasonAsync(System.Int32[],System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ISaleAgent.SetAsSoldAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ISaleAgent.SetAsSoldWithReasonAsync(System.Int32[],System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ISaleAgent.UpdateSaleStakeholdersAsync(SuperOffice.WebApi.Data.SaleStakeholder[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ISaleAgent.ValidateSaleEntityAsync(SuperOffice.WebApi.Data.SaleEntity,SuperOffice.WebApi.RequestOptions)
   langs:
@@ -1004,6 +1006,43 @@ items:
   nameWithType.vb: ISaleAgent.SetAsSoldAsync(Int32(), RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.ISaleAgent.SetAsSoldAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
   name.vb: SetAsSoldAsync(Int32(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ISaleAgent.SetAsSoldWithReasonAsync(System.Int32[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISaleAgent.SetAsSoldWithReasonAsync(System.Int32[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: SetAsSoldWithReasonAsync(System.Int32[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISaleAgent
+  langs:
+  - csharp
+  - vb
+  name: SetAsSoldWithReasonAsync(Int32[], Int32, RequestOptions)
+  nameWithType: ISaleAgent.SetAsSoldWithReasonAsync(Int32[], Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISaleAgent.SetAsSoldWithReasonAsync(System.Int32[], System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nChange the status of one or more Sales to Sold. Note that this does not mark them as Completed.\n"
+  syntax:
+    content: Task SetAsSoldWithReasonAsync(int[] saleIds, int reasonId, RequestOptions requestOptions = null)
+    parameters:
+    - id: saleIds
+      type: System.Int32[]
+      description: Array of sale ids to be marked as lost. All the normal write access rules apply.
+    - id: reasonId
+      type: System.Int32
+      description: The ID of the sold reason.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetAsSoldWithReasonAsync(saleIds As Integer(), reasonId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ISaleAgent.SetAsSoldWithReasonAsync*
+  nameWithType.vb: ISaleAgent.SetAsSoldWithReasonAsync(Int32(), Int32, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ISaleAgent.SetAsSoldWithReasonAsync(System.Int32(), System.Int32, SuperOffice.WebApi.RequestOptions)
+  name.vb: SetAsSoldWithReasonAsync(Int32(), Int32, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ISaleAgent.SetAsLostAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ISaleAgent.SetAsLostAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   id: SetAsLostAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
@@ -1038,6 +1077,43 @@ items:
   nameWithType.vb: ISaleAgent.SetAsLostAsync(Int32(), RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.ISaleAgent.SetAsLostAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
   name.vb: SetAsLostAsync(Int32(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ISaleAgent.SetAsLostWithReasonAsync(System.Int32[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISaleAgent.SetAsLostWithReasonAsync(System.Int32[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: SetAsLostWithReasonAsync(System.Int32[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISaleAgent
+  langs:
+  - csharp
+  - vb
+  name: SetAsLostWithReasonAsync(Int32[], Int32, RequestOptions)
+  nameWithType: ISaleAgent.SetAsLostWithReasonAsync(Int32[], Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISaleAgent.SetAsLostWithReasonAsync(System.Int32[], System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nChange the status of one or more sales to Lost. Note that this does not affect the Completed state of the sale.\n"
+  syntax:
+    content: Task SetAsLostWithReasonAsync(int[] saleIds, int reasonId, RequestOptions requestOptions = null)
+    parameters:
+    - id: saleIds
+      type: System.Int32[]
+      description: Array of sale ids to be marked as lost. All normal write access rules apply.
+    - id: reasonId
+      type: System.Int32
+      description: The ID of the lost reason.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function SetAsLostWithReasonAsync(saleIds As Integer(), reasonId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ISaleAgent.SetAsLostWithReasonAsync*
+  nameWithType.vb: ISaleAgent.SetAsLostWithReasonAsync(Int32(), Int32, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ISaleAgent.SetAsLostWithReasonAsync(System.Int32(), System.Int32, SuperOffice.WebApi.RequestOptions)
+  name.vb: SetAsLostWithReasonAsync(Int32(), Int32, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ISaleAgent.GetSalesFromContactAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ISaleAgent.GetSalesFromContactAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
   id: GetSalesFromContactAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -2114,12 +2190,24 @@ references:
   name: SetAsSoldAsync
   nameWithType: ISaleAgent.SetAsSoldAsync
   fullName: SuperOffice.WebApi.Agents.ISaleAgent.SetAsSoldAsync
+- uid: SuperOffice.WebApi.Agents.ISaleAgent.SetAsSoldWithReasonAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISaleAgent.SetAsSoldWithReasonAsync
+  isExternal: true
+  name: SetAsSoldWithReasonAsync
+  nameWithType: ISaleAgent.SetAsSoldWithReasonAsync
+  fullName: SuperOffice.WebApi.Agents.ISaleAgent.SetAsSoldWithReasonAsync
 - uid: SuperOffice.WebApi.Agents.ISaleAgent.SetAsLostAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ISaleAgent.SetAsLostAsync
   isExternal: true
   name: SetAsLostAsync
   nameWithType: ISaleAgent.SetAsLostAsync
   fullName: SuperOffice.WebApi.Agents.ISaleAgent.SetAsLostAsync
+- uid: SuperOffice.WebApi.Agents.ISaleAgent.SetAsLostWithReasonAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISaleAgent.SetAsLostWithReasonAsync
+  isExternal: true
+  name: SetAsLostWithReasonAsync
+  nameWithType: ISaleAgent.SetAsLostWithReasonAsync
+  fullName: SuperOffice.WebApi.Agents.ISaleAgent.SetAsLostWithReasonAsync
 - uid: SuperOffice.WebApi.Agents.ISaleAgent.GetSalesFromContactAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ISaleAgent.GetSalesFromContactAsync
   isExternal: true

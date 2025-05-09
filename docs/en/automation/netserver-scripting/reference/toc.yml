@@ -99,12 +99,16 @@ items:
     href: appointmentagent/createdefaultsuggestedappointmententity.md
   - name: CreateDefaultTaskListItem
     href: appointmentagent/createdefaulttasklistitem.md
+  - name: CreateVideoMeetingReservation
+    href: appointmentagent/createvideomeetingreservation.md
   - name: DeclineInvitationFromEmailItem
     href: appointmentagent/declineinvitationfromemailitem.md
   - name: Delete
     href: appointmentagent/delete.md
   - name: DeleteAppointmentEntity
     href: appointmentagent/deleteappointmententity.md
+  - name: DeleteVideoMeetingReservation
+    href: appointmentagent/deletevideomeetingreservation.md
   - name: GenerateLead
     href: appointmentagent/generatelead.md
   - name: GetActivityInformationListByDatesAndAssociate
@@ -219,6 +223,8 @@ items:
     href: appointmentagent/getuidfromappointmentid.md
   - name: Move
     href: appointmentagent/move.md
+  - name: MoveExtended
+    href: appointmentagent/moveextended.md
   - name: MoveWithEmail
     href: appointmentagent/movewithemail.md
   - name: Reject
@@ -755,6 +761,8 @@ items:
     href: customerserviceagent/deletecustomercenterconfig.md
   - name: EventHandlerExists
     href: customerserviceagent/eventhandlerexists.md
+  - name: EventHandlersExists
+    href: customerserviceagent/eventhandlersexists.md
   - name: ExecuteEventHandlers
     href: customerserviceagent/executeeventhandlers.md
   - name: FindTicketsByTitleOrId
@@ -984,6 +992,8 @@ items:
     href: diagnosticsagent/getwebappusagesforperiod.md
   - name: LogViewState
     href: diagnosticsagent/logviewstate.md
+  - name: PerformTasksAfterCustomObjectTableDeleted
+    href: diagnosticsagent/performtasksaftercustomobjecttabledeleted.md
   - name: PerformTasksAfterUpgrade
     href: diagnosticsagent/performtasksafterupgrade.md
   - name: RemoveExpiredSystemMessages
@@ -3197,8 +3207,12 @@ items:
     href: saleagent/savesalestakeholder.md
   - name: SetAsLost
     href: saleagent/setaslost.md
+  - name: SetAsLostWithReason
+    href: saleagent/setaslostwithreason.md
   - name: SetAsSold
     href: saleagent/setassold.md
+  - name: SetAsSoldWithReason
+    href: saleagent/setassoldwithreason.md
   - name: UpdateSaleStakeholders
     href: saleagent/updatesalestakeholders.md
   - name: ValidateSaleEntity

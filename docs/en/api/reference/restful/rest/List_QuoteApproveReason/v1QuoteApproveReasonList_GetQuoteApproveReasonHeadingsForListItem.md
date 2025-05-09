@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 246,
-    "Name": "McKenzie-Dietrich",
-    "ToolTip": "Eos optio blanditiis quae animi natus.",
-    "Deleted": true,
-    "Rank": 742,
-    "Type": "non",
-    "ColorBlock": 816,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "1999-03-13T13:14:09.9785358+01:00",
+    "Id": 357,
+    "Name": "Howe LLC",
+    "ToolTip": "Molestiae aut.",
+    "Deleted": false,
+    "Rank": 232,
+    "Type": "in",
+    "ColorBlock": 871,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2013-10-23T16:32:48.8682307+02:00",
     "ChildItems": [
       {
-        "Id": 877,
-        "Name": "Lowe, Olson and Kemmer",
-        "ToolTip": "Eum impedit.",
-        "Deleted": false,
-        "Rank": 974,
-        "Type": "ut",
-        "ColorBlock": 795,
-        "IconHint": "sapiente",
-        "Selected": false,
-        "LastChanged": "2005-01-10T13:14:09.9785358+01:00",
+        "Id": 335,
+        "Name": "Huels Group",
+        "ToolTip": "Eos omnis.",
+        "Deleted": true,
+        "Rank": 975,
+        "Type": "labore",
+        "ColorBlock": 873,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2011-05-17T16:32:48.8682307+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "debitis",
-        "Hidden": false,
-        "FullName": "Jordon Cremin",
+        "ExtraInfo": "quisquam",
+        "StyleHint": "quam",
+        "Hidden": true,
+        "FullName": "Dr. Adam Carter Schowalter",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 613
+            "FieldLength": 811
           }
         }
       }
     ],
-    "ExtraInfo": "ex",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "ut",
+    "StyleHint": "magni",
     "Hidden": true,
-    "FullName": "Alysha Houston Crooks II",
+    "FullName": "Mr. Spencer Chloe Tremblay II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 813
+        "FieldLength": 221
       }
     }
   }

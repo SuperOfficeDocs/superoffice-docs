@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 132,
-  "Name": "Roob, Kihn and Marquardt",
-  "Tooltip": "ipsum",
-  "Deleted": true,
-  "Rank": 719,
-  "IsCustomList": true,
+  "Id": 427,
+  "Name": "Adams-Jacobi",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "Rank": 461,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "corrupti",
-  "InUseByUserDefinedFields": true,
+  "ListType": "perferendis",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 610
+      "FieldType": "System.Int32",
+      "FieldLength": 408
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

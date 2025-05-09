@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 887,
-    "Name": "Bruen, Cruickshank and Fay",
-    "Tooltip": "sunt",
+    "HeadingId": 821,
+    "Name": "Lang LLC",
+    "Tooltip": "accusantium",
     "Deleted": false,
-    "Rank": 805,
-    "UdListDefinitionId": 308
+    "Rank": 191,
+    "UdListDefinitionId": 68
   },
   {
-    "HeadingId": 887,
-    "Name": "Bruen, Cruickshank and Fay",
-    "Tooltip": "sunt",
+    "HeadingId": 821,
+    "Name": "Lang LLC",
+    "Tooltip": "accusantium",
     "Deleted": false,
-    "Rank": 805,
-    "UdListDefinitionId": 308
+    "Rank": 191,
+    "UdListDefinitionId": 68
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 676,
-    "Name": "Anderson, Wintheiser and Stracke",
-    "Tooltip": "at",
-    "Deleted": false,
-    "Rank": 274,
-    "UdListDefinitionId": 20,
+    "HeadingId": 747,
+    "Name": "Schaefer LLC",
+    "Tooltip": "incidunt",
+    "Deleted": true,
+    "Rank": 349,
+    "UdListDefinitionId": 777,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 130
+        "FieldLength": 768
       }
     }
   }

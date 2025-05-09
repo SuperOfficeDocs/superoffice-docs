@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 328,
-    "Name": "Beatty, Kertzmann and Christiansen",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "UdListDefinitionId": 625,
-    "Rank": 411
+    "Id": 403,
+    "Name": "Rath-Gulgowski",
+    "Tooltip": "dolor",
+    "Deleted": true,
+    "UdListDefinitionId": 804,
+    "Rank": 630
   },
   {
-    "Id": 328,
-    "Name": "Beatty, Kertzmann and Christiansen",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "UdListDefinitionId": 625,
-    "Rank": 411
+    "Id": 403,
+    "Name": "Rath-Gulgowski",
+    "Tooltip": "dolor",
+    "Deleted": true,
+    "UdListDefinitionId": 804,
+    "Rank": 630
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 444,
-    "Name": "Gusikowski Group",
-    "Tooltip": "cupiditate",
+    "Id": 853,
+    "Name": "Leannon, Lemke and Kilback",
+    "Tooltip": "consequuntur",
     "Deleted": true,
-    "UdListDefinitionId": 685,
-    "Rank": 877,
+    "UdListDefinitionId": 100,
+    "Rank": 641,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 381
+        "FieldType": "System.Int32",
+        "FieldLength": 653
       }
     }
   }

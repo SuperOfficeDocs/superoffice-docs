@@ -69,10 +69,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectEntityId": 807,
+  "ProjectEntityId": 911,
   "MemberIds": [
-    987,
-    290
+    860,
+    618
   ]
 }
 ```

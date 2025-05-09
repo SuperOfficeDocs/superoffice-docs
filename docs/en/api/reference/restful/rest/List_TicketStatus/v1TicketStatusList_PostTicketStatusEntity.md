@@ -77,16 +77,16 @@ OK
 POST /api/v1/List/TicketStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 919,
-  "Name": "Quigley, Howell and Beahan",
+  "TicketStatusId": 220,
+  "Name": "Franecki-Connelly",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
-  "IsDefault": false,
+  "IsDefault": true,
   "UsedInQueue": true
 }
 ```
@@ -98,8 +98,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 386,
-  "Name": "Berge-Maggio",
+  "TicketStatusId": 936,
+  "Name": "Lockman, Wilkinson and Bradtke",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": true,
@@ -110,7 +110,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 183
+      "FieldLength": 103
     }
   }
 }

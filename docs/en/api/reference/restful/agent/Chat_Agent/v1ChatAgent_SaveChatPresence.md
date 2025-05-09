@@ -70,23 +70,23 @@ Content-Type: application/json; charset=utf-8
 {
   "ChatPresence": [
     {
-      "UserId": 104,
-      "DisplayName": "Schuppe, Eichmann and Lind",
-      "OngoingChats": 453,
-      "Present": true,
+      "UserId": 688,
+      "DisplayName": "Morissette-Hermann",
+      "OngoingChats": 790,
+      "Present": false,
       "ChatTopics": [
-        799,
-        755
+        824,
+        742
       ]
     },
     {
-      "UserId": 104,
-      "DisplayName": "Schuppe, Eichmann and Lind",
-      "OngoingChats": 453,
-      "Present": true,
+      "UserId": 688,
+      "DisplayName": "Morissette-Hermann",
+      "OngoingChats": 790,
+      "Present": false,
       "ChatTopics": [
-        799,
-        755
+        824,
+        742
       ]
     }
   ]

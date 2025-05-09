@@ -129,12 +129,12 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 980,
-  "RecurrenceRuleId": 515
+  "MotherId": 605,
+  "RecurrenceRuleId": 96
 }
 ```
 
@@ -146,66 +146,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 775,
-    "StartDate": "2017-05-31T13:13:59.156344+02:00",
-    "EndDate": "1999-10-13T13:13:59.156344+02:00",
+    "AppointmentId": 57,
+    "StartDate": "2014-11-07T16:32:37.6646595+01:00",
+    "EndDate": "2008-05-18T16:32:37.6646595+02:00",
     "Type": "BookingForChecklist",
-    "Task": "enim",
-    "AssociateFullName": "Lilian Harber",
-    "ContactName": "Nolan LLC",
-    "Description": "Fully-configurable dedicated matrix",
-    "PersonFullName": "Mrs. Virginia Crawford Harber",
-    "PersonId": 344,
-    "ContactId": 814,
-    "ProjectId": 213,
-    "ProjectName": "Crist Inc and Sons",
+    "Task": "et",
+    "AssociateFullName": "Sedrick Johnson",
+    "ContactName": "Crona, Terry and Dickinson",
+    "Description": "Mandatory maximized standardization",
+    "PersonFullName": "Kathryne Ryan MD",
+    "PersonId": 849,
+    "ContactId": 199,
+    "ProjectId": 826,
+    "ProjectName": "Nicolas, Kilback and Gerhold",
     "IsPublished": false,
-    "AssociateId": 779,
-    "ColorIndex": 836,
-    "IsFree": false,
-    "HasAlarm": false,
+    "AssociateId": 253,
+    "ColorIndex": 465,
+    "IsFree": true,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 762,
-    "PriorityName": "Lynch Group",
+    "PriorityId": 478,
+    "PriorityName": "Medhurst, Stark and Wyman",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2007-10-02T13:13:59.156344+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2011-01-18T16:32:37.6646595+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2018-08-15T13:13:59.156344+02:00",
-    "RecurringEndDate": "2020-12-28T13:13:59.156344+01:00",
-    "MotherId": 476,
-    "AssignedBy": 124,
-    "AssignedByFullName": "Ms. Estelle Leonie Gutkowski II",
+    "RecurringStartDate": "2021-06-06T16:32:37.6646595+02:00",
+    "RecurringEndDate": "2017-05-17T16:32:37.6646595+02:00",
+    "MotherId": 915,
+    "AssignedBy": 793,
+    "AssignedByFullName": "Ms. Emilie Lorenz Prohaska I",
     "RejectReason": "",
-    "Location": "voluptatem",
-    "AlarmLeadTime": "quia",
-    "SaleId": 276,
-    "SaleName": "Durgan, Will and Hermann",
-    "AssociateName": "Bahringer-Tromp",
-    "CreatedDate": "2014-12-08T13:13:59.156344+01:00",
-    "CreatedBy": "error",
-    "CreatedByFullName": "Elody Abernathy",
-    "CreatedByAssociateId": 215,
+    "Location": "eveniet",
+    "AlarmLeadTime": "doloremque",
+    "SaleId": 351,
+    "SaleName": "Balistreri-Bailey",
+    "AssociateName": "Trantow-Larkin",
+    "CreatedDate": "2021-04-07T16:32:37.6646595+02:00",
+    "CreatedBy": "et",
+    "CreatedByFullName": "Abagail Nicolas",
+    "CreatedByAssociateId": 910,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 348,
-    "Title": "sint",
-    "Agenda": "mollitia",
-    "InternalNotes": "ipsa",
+    "PreferredTZLocation": 773,
+    "Title": "voluptas",
+    "Agenda": "nobis",
+    "InternalNotes": "fugiat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 819
+        "FieldLength": 640
       }
     }
   }

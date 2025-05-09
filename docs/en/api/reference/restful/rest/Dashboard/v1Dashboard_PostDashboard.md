@@ -84,26 +84,26 @@ OK
 POST /api/v1/Dashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 667,
-  "AssociateId": 942,
-  "Caption": "dolor",
+  "DashboardId": 336,
+  "AssociateId": 51,
+  "Caption": "rerum",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 211,
-      "Caption": "omnis",
-      "Description": "User-centric 4th generation groupware",
-      "ChartName": "Bailey Inc and Sons",
-      "ChartId": "dolor",
-      "IsDefault": false,
-      "AssociateId": 627,
-      "GroupId": 459,
-      "SelectionId": 904,
-      "Config": "est",
+      "DashboardTileId": 764,
+      "Caption": "expedita",
+      "Description": "Switchable multimedia encryption",
+      "ChartName": "Hessel Group",
+      "ChartId": "cum",
+      "IsDefault": true,
+      "AssociateId": 517,
+      "GroupId": 40,
+      "SelectionId": 79,
+      "Config": "nam",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -126,22 +126,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 912,
-  "AssociateId": 349,
-  "Caption": "sint",
+  "DashboardId": 465,
+  "AssociateId": 531,
+  "Caption": "repudiandae",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 67,
-      "Caption": "eaque",
-      "Description": "Organic coherent firmware",
-      "ChartName": "Greenholt, Ziemann and O'Reilly",
-      "ChartId": "voluptatem",
+      "DashboardTileId": 270,
+      "Caption": "deleniti",
+      "Description": "Future-proofed 4th generation extranet",
+      "ChartName": "Kassulke, Hahn and Hagenes",
+      "ChartId": "et",
       "IsDefault": false,
-      "AssociateId": 791,
-      "GroupId": 389,
-      "SelectionId": 255,
-      "Config": "et",
+      "AssociateId": 823,
+      "GroupId": 767,
+      "SelectionId": 274,
+      "Config": "dolores",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 960
+          "FieldType": "System.Int32",
+          "FieldLength": 203
         }
       }
     }
@@ -166,13 +166,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 572
+      "FieldType": "System.String",
+      "FieldLength": 19
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

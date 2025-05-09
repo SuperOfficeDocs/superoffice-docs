@@ -126,18 +126,18 @@ SaleStakeholder  updated.
 PATCH /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quasi",
+    "path": "fugit",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quasi",
+    "path": "fugit",
     "value": {}
   }
 ]
@@ -150,31 +150,31 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Kunde-Cremin",
-  "Comment": "numquam",
-  "StakeholderRoleId": 720,
-  "CountryId": 310,
-  "PersonId": 825,
-  "EmailDescription": "shawna_barrows@hickle.co.uk",
-  "EmailId": 176,
-  "EmailAddress": "danielle@bayer.name",
-  "PhoneId": 738,
-  "ContactName": "Hane-Bechtelar",
-  "ContactId": 658,
-  "SaleId": 266,
-  "Mrmrs": "nulla",
-  "Firstname": "Juston",
-  "MiddleName": "Murray, Daniel and Hamill",
-  "Lastname": "Hane",
-  "SaleStakeholderId": 832,
-  "Rank": 316,
-  "Phone": "1-060-063-2899",
+  "StakeholderRoleName": "Metz-Beer",
+  "Comment": "amet",
+  "StakeholderRoleId": 248,
+  "CountryId": 319,
+  "PersonId": 489,
+  "EmailDescription": "bethany@johnstongulgowski.biz",
+  "EmailId": 745,
+  "EmailAddress": "jade_yundt@nikolaus.co.uk",
+  "PhoneId": 556,
+  "ContactName": "Keeling, Davis and Powlowski",
+  "ContactId": 194,
+  "SaleId": 506,
+  "Mrmrs": "et",
+  "Firstname": "Madaline",
+  "MiddleName": "Lindgren Inc and Sons",
+  "Lastname": "Hettinger",
+  "SaleStakeholderId": 150,
+  "Rank": 396,
+  "Phone": "542-418-9682",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 649
+      "FieldLength": 291
     }
   },
   "_Links": {

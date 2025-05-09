@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 505,
-  "Name": "Koelpin Group",
-  "Tooltip": "eligendi",
+  "Id": 258,
+  "Name": "Torp, Rogahn and Schamberger",
+  "Tooltip": "enim",
   "Deleted": true,
-  "Rank": 627,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "et",
+  "Rank": 189,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "veritatis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 485
+      "FieldLength": 450
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

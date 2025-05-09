@@ -69,7 +69,7 @@ OK
 GET /api/v1/License/User/MdoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,56 +80,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 252,
-    "Name": "Wiegand-Jacobs",
-    "ToolTip": "Nemo quibusdam.",
+    "Id": 778,
+    "Name": "Hoeger-Klocko",
+    "ToolTip": "Placeat doloribus maxime quam enim eum.",
     "Deleted": false,
-    "Rank": 474,
-    "Type": "nam",
-    "ColorBlock": 824,
-    "IconHint": "quae",
-    "Selected": true,
-    "LastChanged": "2020-10-11T13:14:09.4154922+02:00",
+    "Rank": 446,
+    "Type": "officia",
+    "ColorBlock": 392,
+    "IconHint": "quis",
+    "Selected": false,
+    "LastChanged": "2015-08-16T16:32:48.3371075+02:00",
     "ChildItems": [
       {
-        "Id": 929,
-        "Name": "Roberts Inc and Sons",
-        "ToolTip": "Laudantium sunt nostrum.",
-        "Deleted": false,
-        "Rank": 796,
-        "Type": "laborum",
-        "ColorBlock": 773,
-        "IconHint": "et",
+        "Id": 774,
+        "Name": "Howell Inc and Sons",
+        "ToolTip": "Minima tenetur molestiae voluptatem omnis praesentium.",
+        "Deleted": true,
+        "Rank": 638,
+        "Type": "ut",
+        "ColorBlock": 430,
+        "IconHint": "eius",
         "Selected": false,
-        "LastChanged": "2012-04-24T13:14:09.4154922+02:00",
+        "LastChanged": "2009-07-08T16:32:48.3371075+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "totam",
+        "ExtraInfo": "fuga",
+        "StyleHint": "saepe",
         "Hidden": false,
-        "FullName": "Omari Bahringer",
+        "FullName": "Miss Andrew Wiegand",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 667
+            "FieldLength": 581
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "vitae",
-    "Hidden": true,
-    "FullName": "Miss Lura Aaliyah Balistreri",
+    "ExtraInfo": "rerum",
+    "StyleHint": "consequatur",
+    "Hidden": false,
+    "FullName": "Novella Schaefer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 229
+        "FieldType": "System.Int32",
+        "FieldLength": 322
       }
     }
   }

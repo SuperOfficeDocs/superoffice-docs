@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 398,
-  "Name": "Lubowitz Inc and Sons",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "Rank": 469,
+  "Id": 399,
+  "Name": "Will, Lubowitz and Cronin",
+  "Tooltip": "nihil",
+  "Deleted": false,
+  "Rank": 216,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "maiores",
+  "ListType": "non",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 379,
-  "Name": "Bednar LLC",
-  "Tooltip": "quo",
+  "Id": 840,
+  "Name": "Steuber, Treutel and Wunsch",
+  "Tooltip": "adipisci",
   "Deleted": false,
-  "Rank": 458,
+  "Rank": 24,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": false,
+  "ListType": "consequatur",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 196
+      "FieldLength": 107
     }
   }
 }

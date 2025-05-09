@@ -26,8 +26,8 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Competitor/MDOItems?flat=False
-GET /api/v1/List/Competitor/MDOItems?query=molestiae
+GET /api/v1/List/Competitor/MDOItems?flat=True
+GET /api/v1/List/Competitor/MDOItems?query=excepturi
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 84,
-    "Name": "Brakus Inc and Sons",
-    "ToolTip": "Eum quia.",
-    "Deleted": true,
-    "Rank": 52,
-    "Type": "ducimus",
+    "Id": 530,
+    "Name": "Jenkins, Stroman and Kozey",
+    "ToolTip": "Omnis at.",
+    "Deleted": false,
+    "Rank": 717,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 438,
-        "Name": "Beahan Inc and Sons",
-        "ToolTip": "Eos rerum nihil officiis consequatur molestiae.",
+        "Id": 935,
+        "Name": "Kling, O'Connell and Cole",
+        "ToolTip": "Saepe ex autem voluptatum delectus quisquam.",
         "Deleted": false,
-        "Rank": 430,
-        "Type": "et",
+        "Rank": 654,
+        "Type": "quisquam",
         "ChildItems": [
           {},
           {}
         ],
         "IconHint": "eum",
-        "ColorBlock": 923,
-        "ExtraInfo": "quia",
-        "StyleHint": "ut",
-        "FullName": "Ms. Michale Towne DDS",
+        "ColorBlock": 621,
+        "ExtraInfo": "mollitia",
+        "StyleHint": "adipisci",
+        "FullName": "Emiliano Reinger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 449
+            "FieldLength": 200
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 188,
-    "ExtraInfo": "ut",
-    "StyleHint": "quibusdam",
-    "FullName": "Prof. Bill Ova Wilkinson",
+    "IconHint": "consequuntur",
+    "ColorBlock": 490,
+    "ExtraInfo": "temporibus",
+    "StyleHint": "laborum",
+    "FullName": "Daron Jakubowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 291
+        "FieldType": "System.String",
+        "FieldLength": 980
       }
     }
   }

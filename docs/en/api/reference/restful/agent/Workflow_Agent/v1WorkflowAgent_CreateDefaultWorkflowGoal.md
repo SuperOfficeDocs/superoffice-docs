@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 970,
-  "WorkflowId": 583,
+  "WorkflowGoalId": 713,
+  "WorkflowId": 877,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Schinner Inc and Sons",
-      "Description": "Multi-lateral executive projection",
-      "Rank": 248,
+      "Name": "Kuhlman-Dickinson",
+      "Description": "Synchronised analyzing strategy",
+      "Rank": 718,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Schinner Inc and Sons",
-      "Description": "Multi-lateral executive projection",
-      "Rank": 248,
+      "Name": "Kuhlman-Dickinson",
+      "Description": "Synchronised analyzing strategy",
+      "Rank": 718,
       "Restrictions": [
         {},
         {}
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 806
+      "FieldLength": 819
     }
   }
 }

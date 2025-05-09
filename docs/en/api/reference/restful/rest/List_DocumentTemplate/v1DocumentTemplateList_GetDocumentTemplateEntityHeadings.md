@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 688,
-    "Name": "Ullrich, Schmeler and Kozey",
-    "Tooltip": "aliquid",
-    "Deleted": false,
-    "Rank": 54,
-    "UdListDefinitionId": 22,
+    "HeadingId": 406,
+    "Name": "Ruecker-Schuppe",
+    "Tooltip": "eum",
+    "Deleted": true,
+    "Rank": 482,
+    "UdListDefinitionId": 189,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 463
+        "FieldType": "System.Int32",
+        "FieldLength": 261
       }
     }
   }

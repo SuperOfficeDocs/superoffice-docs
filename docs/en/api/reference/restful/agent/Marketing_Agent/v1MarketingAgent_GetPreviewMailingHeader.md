@@ -92,7 +92,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 964
+  "ShipmentId": 180
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2022-03-26T13:14:00.6887452+01:00",
+  "StartDate": "2003-03-13T16:32:39.3519666+01:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 303,
-  "ShipmentDescription": "Horizontal stable project",
-  "FromAddress": "eaque",
-  "Configuration": 118,
-  "PersonId": 399,
-  "PersonFullName": "Gus Lemke",
-  "ShipmentType": "a",
-  "MessageId": 471,
-  "MessageSubject": "corporis",
-  "DocumentMessageId": 683,
-  "NumSent": 12,
-  "NumOpened": 72,
-  "NumBounced": 418,
-  "NumClicks": 75,
+  "ShipmentId": 47,
+  "ShipmentDescription": "Open-architected 24/7 challenge",
+  "FromAddress": "molestiae",
+  "Configuration": 510,
+  "PersonId": 648,
+  "PersonFullName": "Matilde Ferry",
+  "ShipmentType": "sed",
+  "MessageId": 68,
+  "MessageSubject": "earum",
+  "DocumentMessageId": 322,
+  "NumSent": 355,
+  "NumOpened": 803,
+  "NumBounced": 937,
+  "NumClicks": 83,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 497
+      "FieldType": "System.String",
+      "FieldLength": 575
     }
   }
 }

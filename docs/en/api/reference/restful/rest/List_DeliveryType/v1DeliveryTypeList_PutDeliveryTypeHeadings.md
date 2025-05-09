@@ -80,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 187,
-    "Name": "DuBuque Inc and Sons",
-    "Tooltip": "id",
+    "HeadingId": 937,
+    "Name": "Feil, Hane and Windler",
+    "Tooltip": "itaque",
     "Deleted": true,
-    "Rank": 829,
-    "UdListDefinitionId": 510
+    "Rank": 223,
+    "UdListDefinitionId": 427
   },
   {
-    "HeadingId": 187,
-    "Name": "DuBuque Inc and Sons",
-    "Tooltip": "id",
+    "HeadingId": 937,
+    "Name": "Feil, Hane and Windler",
+    "Tooltip": "itaque",
     "Deleted": true,
-    "Rank": 829,
-    "UdListDefinitionId": 510
+    "Rank": 223,
+    "UdListDefinitionId": 427
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 129,
-    "Name": "Hoeger, Langworth and Emard",
-    "Tooltip": "est",
-    "Deleted": true,
-    "Rank": 219,
-    "UdListDefinitionId": 519,
+    "HeadingId": 508,
+    "Name": "Boyle-Carter",
+    "Tooltip": "saepe",
+    "Deleted": false,
+    "Rank": 401,
+    "UdListDefinitionId": 553,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 878
+        "FieldType": "System.Int32",
+        "FieldLength": 39
       }
     }
   }

@@ -30,9 +30,11 @@ items:
   - SuperOffice.WebApi.Agents.IAppointmentAgent.CreateDefaultReOpenAppointmentAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAppointmentAgent.CreateDefaultSuggestedAppointmentEntityAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAppointmentAgent.CreateDefaultTaskListItemAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAppointmentAgent.CreateVideoMeetingReservationAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAppointmentAgent.DeclineInvitationFromEmailItemAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAppointmentAgent.DeleteAppointmentEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAppointmentAgent.DeleteAsync(System.Int32,SuperOffice.WebApi.Data.RecurrenceUpdateMode,System.Boolean,SuperOffice.WebApi.Data.EMailConnectionInfo,SuperOffice.WebApi.Data.EMailConnectionInfo,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAppointmentAgent.DeleteVideoMeetingReservationAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAppointmentAgent.GenerateLeadAsync(System.Int32,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAppointmentAgent.GetActivityInformationListByDatesAndAssociateAsync(System.DateTime,System.DateTime,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAppointmentAgent.GetAlarmsAsync(System.Boolean,System.Boolean,System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -90,6 +92,7 @@ items:
   - SuperOffice.WebApi.Agents.IAppointmentAgent.GetTaskListItemsAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAppointmentAgent.GetUIDFromAppointmentIdAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAppointmentAgent.MoveAsync(System.Int32,System.DateTime,SuperOffice.WebApi.Data.RecurrenceUpdateMode,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAppointmentAgent.MoveExtendedAsync(SuperOffice.WebApi.Data.AppointmentMoveData,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAppointmentAgent.MoveWithEmailAsync(System.Int32,System.DateTime,SuperOffice.WebApi.Data.RecurrenceUpdateMode,System.Boolean,SuperOffice.WebApi.Data.EMailConnectionInfo,SuperOffice.WebApi.Data.EMailConnectionInfo,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAppointmentAgent.RejectAsync(System.Int32,System.String,SuperOffice.WebApi.Data.RecurrenceUpdateMode,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAppointmentAgent.RejectWithEmailConfirmationAsync(System.Int32,System.String,SuperOffice.WebApi.Data.RecurrenceUpdateMode,SuperOffice.WebApi.RequestOptions)
@@ -1310,6 +1313,38 @@ items:
       description: Updated AppointmentEntity
     content.vb: Function MoveWithEmailAsync(appointmentId As Integer, newStartTime As DateTime, updateMode As RecurrenceUpdateMode, sendEmailToParticipants As Boolean, smtpEMailConnectionInfo As EMailConnectionInfo, imapEMailConnectionInfo As EMailConnectionInfo, requestOptions As RequestOptions = Nothing) As Task(Of AppointmentEntity)
   overload: SuperOffice.WebApi.Agents.IAppointmentAgent.MoveWithEmailAsync*
+- uid: SuperOffice.WebApi.Agents.IAppointmentAgent.MoveExtendedAsync(SuperOffice.WebApi.Data.AppointmentMoveData,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAppointmentAgent.MoveExtendedAsync(SuperOffice.WebApi.Data.AppointmentMoveData,SuperOffice.WebApi.RequestOptions)
+  id: MoveExtendedAsync(SuperOffice.WebApi.Data.AppointmentMoveData,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAppointmentAgent
+  langs:
+  - csharp
+  - vb
+  name: MoveExtendedAsync(AppointmentMoveData, RequestOptions)
+  nameWithType: IAppointmentAgent.MoveExtendedAsync(AppointmentMoveData, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAppointmentAgent.MoveExtendedAsync(SuperOffice.WebApi.Data.AppointmentMoveData, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nMoving a booking to another start time and with new info and possibly notifications.\n"
+  syntax:
+    content: Task<AppointmentEntity> MoveExtendedAsync(AppointmentMoveData appointmentMoveData, RequestOptions requestOptions = null)
+    parameters:
+    - id: appointmentMoveData
+      type: SuperOffice.WebApi.Data.AppointmentMoveData
+      description: Move parameter data.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AppointmentEntity}
+      description: Updated AppointmentEntity
+    content.vb: Function MoveExtendedAsync(appointmentMoveData As AppointmentMoveData, requestOptions As RequestOptions = Nothing) As Task(Of AppointmentEntity)
+  overload: SuperOffice.WebApi.Agents.IAppointmentAgent.MoveExtendedAsync*
 - uid: SuperOffice.WebApi.Agents.IAppointmentAgent.AcceptRejectedAsync(System.Int32,SuperOffice.WebApi.Data.RecurrenceUpdateMode,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IAppointmentAgent.AcceptRejectedAsync(System.Int32,SuperOffice.WebApi.Data.RecurrenceUpdateMode,SuperOffice.WebApi.RequestOptions)
   id: AcceptRejectedAsync(System.Int32,SuperOffice.WebApi.Data.RecurrenceUpdateMode,SuperOffice.WebApi.RequestOptions)
@@ -4228,6 +4263,66 @@ items:
       description: An array of tasklist items
     content.vb: Function GetTaskListItemsAsync(includeDeleted As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of TaskListItem())
   overload: SuperOffice.WebApi.Agents.IAppointmentAgent.GetTaskListItemsAsync*
+- uid: SuperOffice.WebApi.Agents.IAppointmentAgent.CreateVideoMeetingReservationAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAppointmentAgent.CreateVideoMeetingReservationAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateVideoMeetingReservationAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAppointmentAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateVideoMeetingReservationAsync(RequestOptions)
+  nameWithType: IAppointmentAgent.CreateVideoMeetingReservationAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAppointmentAgent.CreateVideoMeetingReservationAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCreate a VideoMeetingReservation. System users are not allowed to create video meeting reservations\n"
+  syntax:
+    content: Task<VideoMeetingReservation> CreateVideoMeetingReservationAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.VideoMeetingReservation}
+      description: The created VideoMeetingReservation.
+    content.vb: Function CreateVideoMeetingReservationAsync(requestOptions As RequestOptions = Nothing) As Task(Of VideoMeetingReservation)
+  overload: SuperOffice.WebApi.Agents.IAppointmentAgent.CreateVideoMeetingReservationAsync*
+- uid: SuperOffice.WebApi.Agents.IAppointmentAgent.DeleteVideoMeetingReservationAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAppointmentAgent.DeleteVideoMeetingReservationAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: DeleteVideoMeetingReservationAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAppointmentAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteVideoMeetingReservationAsync(String, RequestOptions)
+  nameWithType: IAppointmentAgent.DeleteVideoMeetingReservationAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAppointmentAgent.DeleteVideoMeetingReservationAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDelete a VideoMeetingReservation.\n"
+  syntax:
+    content: Task DeleteVideoMeetingReservationAsync(string videoMeetingId, RequestOptions requestOptions = null)
+    parameters:
+    - id: videoMeetingId
+      type: System.String
+      description: The VideoMeetingReservation.VideoMeetingId to remove. System users are not allowed to delete video meeting reservations
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function DeleteVideoMeetingReservationAsync(videoMeetingId As String, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.IAppointmentAgent.DeleteVideoMeetingReservationAsync*
 references:
 - uid: SuperOffice.WebApi.Agents
   commentId: N:SuperOffice.WebApi.Agents
@@ -5109,6 +5204,19 @@ references:
   name: MoveWithEmailAsync
   nameWithType: IAppointmentAgent.MoveWithEmailAsync
   fullName: SuperOffice.WebApi.Agents.IAppointmentAgent.MoveWithEmailAsync
+- uid: SuperOffice.WebApi.Agents.IAppointmentAgent.MoveExtendedAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAppointmentAgent.MoveExtendedAsync
+  isExternal: true
+  name: MoveExtendedAsync
+  nameWithType: IAppointmentAgent.MoveExtendedAsync
+  fullName: SuperOffice.WebApi.Agents.IAppointmentAgent.MoveExtendedAsync
+- uid: SuperOffice.WebApi.Data.AppointmentMoveData
+  commentId: T:SuperOffice.WebApi.Data.AppointmentMoveData
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: AppointmentMoveData
+  nameWithType: AppointmentMoveData
+  fullName: SuperOffice.WebApi.Data.AppointmentMoveData
 - uid: SuperOffice.WebApi.Agents.IAppointmentAgent.AcceptRejectedAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAppointmentAgent.AcceptRejectedAsync
   isExternal: true
@@ -6384,3 +6492,58 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.WebApi.Agents.IAppointmentAgent.CreateVideoMeetingReservationAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAppointmentAgent.CreateVideoMeetingReservationAsync
+  isExternal: true
+  name: CreateVideoMeetingReservationAsync
+  nameWithType: IAppointmentAgent.CreateVideoMeetingReservationAsync
+  fullName: SuperOffice.WebApi.Agents.IAppointmentAgent.CreateVideoMeetingReservationAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.VideoMeetingReservation}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.VideoMeetingReservation}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<VideoMeetingReservation>
+  nameWithType: Task<VideoMeetingReservation>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.VideoMeetingReservation>
+  nameWithType.vb: Task(Of VideoMeetingReservation)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.VideoMeetingReservation)
+  name.vb: Task(Of VideoMeetingReservation)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.VideoMeetingReservation
+    name: VideoMeetingReservation
+    nameWithType: VideoMeetingReservation
+    fullName: SuperOffice.WebApi.Data.VideoMeetingReservation
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.VideoMeetingReservation
+    name: VideoMeetingReservation
+    nameWithType: VideoMeetingReservation
+    fullName: SuperOffice.WebApi.Data.VideoMeetingReservation
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.IAppointmentAgent.DeleteVideoMeetingReservationAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAppointmentAgent.DeleteVideoMeetingReservationAsync
+  isExternal: true
+  name: DeleteVideoMeetingReservationAsync
+  nameWithType: IAppointmentAgent.DeleteVideoMeetingReservationAsync
+  fullName: SuperOffice.WebApi.Agents.IAppointmentAgent.DeleteVideoMeetingReservationAsync

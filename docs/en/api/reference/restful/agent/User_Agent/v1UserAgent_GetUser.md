@@ -28,7 +28,7 @@ Gets a User object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUser?userId=244
+POST /api/v1/Agents/User/GetUser?userId=966
 POST /api/v1/Agents/User/GetUser?$select=name,department,category/id
 ```
 
@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/User/GetUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,14 +103,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 489,
-  "Name": "Trantow Group",
-  "Rank": 352,
-  "Tooltip": "aut",
+  "AssociateId": 290,
+  "Name": "Hermann-Bogisich",
+  "Rank": 227,
+  "Tooltip": "consequatur",
   "LicenseOwners": [
     {
-      "Name": "Cartwright LLC",
-      "Description": "Decentralized regional extranet",
+      "Name": "Marks Inc and Sons",
+      "Description": "Multi-layered secondary open architecture",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -124,13 +124,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 999
+          "FieldLength": 674
         }
       }
     },
     {
-      "Name": "Cartwright LLC",
-      "Description": "Decentralized regional extranet",
+      "Name": "Marks Inc and Sons",
+      "Description": "Multi-layered secondary open architecture",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 999
+          "FieldLength": 674
         }
       }
     }
@@ -153,110 +153,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "sapiente",
-      "Tooltip": "totam",
-      "Id": 176,
-      "Rank": 767,
-      "Deleted": true,
+      "Value": "natus",
+      "Tooltip": "repudiandae",
+      "Id": 743,
+      "Rank": 204,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 163
+          "FieldType": "System.String",
+          "FieldLength": 269
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "1998-09-10T13:14:01.7069466+02:00",
-  "Lastlogout": "2017-05-23T13:14:01.7069466+02:00",
-  "EjUserId": 89,
-  "RequestSignature": "dolorem",
+  "Lastlogin": "2023-03-13T16:32:40.4613345+01:00",
+  "Lastlogout": "2007-01-07T16:32:40.4613345+01:00",
+  "EjUserId": 10,
+  "RequestSignature": "sed",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "tempore",
-      "DisplayValue": "aspernatur",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 956
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "tempore",
-      "DisplayValue": "aspernatur",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 956
-        }
-      }
-    }
-  ],
-  "UserName": "Kovacek-Greenholt",
-  "TicketCategories": [
-    {
-      "Id": 3,
-      "Name": "Schulist-Anderson",
-      "ToolTip": "Ex sunt odio rerum possimus quo.",
-      "Deleted": false,
-      "Rank": 697,
-      "Type": "dolor",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "quam",
-      "ColorBlock": 650,
-      "ExtraInfo": "dolor",
-      "StyleHint": "eos",
-      "FullName": "Mrs. Montana Danny Johns",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 903
-        }
-      }
-    }
-  ],
-  "NickName": "Ryan Group",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "earum",
-    "ExtraFields2": "molestiae"
-  },
-  "CustomFields": {
-    "CustomFields1": "minima",
-    "CustomFields2": "reprehenderit"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Harvey, Keebler and Little",
-      "DisplayName": "Durgan, Jerde and Huel",
-      "Description": "Pre-emptive context-sensitive strategy",
-      "ToolTip": "Qui blanditiis.",
-      "Actions": "Implicit",
-      "ActionData": "voluptas",
+      "Value": "impedit",
+      "DisplayValue": "hic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 139
+          "FieldLength": 879
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "impedit",
+      "DisplayValue": "hic",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 879
+        }
+      }
+    }
+  ],
+  "UserName": "Brown LLC",
+  "TicketCategories": [
+    {
+      "Id": 980,
+      "Name": "Larson Inc and Sons",
+      "ToolTip": "Unde sunt.",
+      "Deleted": true,
+      "Rank": 978,
+      "Type": "culpa",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "dolorum",
+      "ColorBlock": 476,
+      "ExtraInfo": "laborum",
+      "StyleHint": "asperiores",
+      "FullName": "Roosevelt Schmidt",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 720
+        }
+      }
+    }
+  ],
+  "NickName": "Herman, Schiller and Labadie",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "animi",
+    "ExtraFields2": "et"
+  },
+  "CustomFields": {
+    "CustomFields1": "aut",
+    "CustomFields2": "aut"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Rath Group",
+      "DisplayName": "Harber LLC",
+      "Description": "Optimized composite access",
+      "ToolTip": "Ad ipsam vero velit blanditiis voluptatem nobis.",
+      "Actions": "Implicit",
+      "ActionData": "ut",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 321
         }
       }
     }
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 14
+      "FieldLength": 231
     }
   }
 }

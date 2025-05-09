@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 716,
-    "Name": "Cartwright, Schmitt and Quigley",
-    "ToolTip": "Accusamus vero consectetur.",
+    "Id": 221,
+    "Name": "Reilly, Stracke and Lemke",
+    "ToolTip": "Magni eius quia fuga.",
     "Deleted": true,
-    "Rank": 399,
-    "Type": "dignissimos",
-    "ColorBlock": 11,
-    "IconHint": "labore",
-    "Selected": false,
-    "LastChanged": "2007-01-18T13:14:09.6036167+01:00",
+    "Rank": 906,
+    "Type": "laborum",
+    "ColorBlock": 636,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2015-03-06T16:32:48.5089404+01:00",
     "ChildItems": [
       {
-        "Id": 421,
-        "Name": "Littel-Shanahan",
-        "ToolTip": "Delectus perferendis quibusdam ut corporis alias nulla dolore.",
+        "Id": 984,
+        "Name": "Weimann-Hoeger",
+        "ToolTip": "Nobis dignissimos.",
         "Deleted": false,
-        "Rank": 117,
-        "Type": "explicabo",
-        "ColorBlock": 314,
-        "IconHint": "numquam",
+        "Rank": 141,
+        "Type": "ipsa",
+        "ColorBlock": 902,
+        "IconHint": "hic",
         "Selected": false,
-        "LastChanged": "2009-07-30T13:14:09.6036167+02:00",
+        "LastChanged": "2015-07-16T16:32:48.5089404+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "iusto",
-        "Hidden": true,
-        "FullName": "Evan Cole"
+        "ExtraInfo": "quis",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Fiona Schultz"
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "quod",
-    "Hidden": true,
-    "FullName": "Dr. Reed Swift III"
+    "ExtraInfo": "sit",
+    "StyleHint": "dolorem",
+    "Hidden": false,
+    "FullName": "Breana Ondricka"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 71,
-    "Name": "Bayer Inc and Sons",
-    "ToolTip": "Quibusdam accusamus ducimus quia id eum.",
-    "Deleted": false,
-    "Rank": 784,
-    "Type": "laudantium",
-    "ColorBlock": 42,
-    "IconHint": "ad",
-    "Selected": false,
-    "LastChanged": "2002-09-04T13:14:09.6036167+02:00",
+    "Id": 288,
+    "Name": "DuBuque-Collins",
+    "ToolTip": "Nisi nisi quibusdam rerum quaerat non.",
+    "Deleted": true,
+    "Rank": 642,
+    "Type": "aut",
+    "ColorBlock": 96,
+    "IconHint": "quisquam",
+    "Selected": true,
+    "LastChanged": "2013-04-16T16:32:48.5089404+02:00",
     "ChildItems": [
       {
-        "Id": 144,
-        "Name": "McClure Group",
-        "ToolTip": "Et consequuntur amet accusantium in.",
-        "Deleted": false,
-        "Rank": 881,
-        "Type": "facere",
-        "ColorBlock": 597,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2002-02-22T13:14:09.6036167+01:00",
+        "Id": 266,
+        "Name": "Zemlak Inc and Sons",
+        "ToolTip": "Voluptatum molestias vitae at iste officiis assumenda.",
+        "Deleted": true,
+        "Rank": 937,
+        "Type": "voluptas",
+        "ColorBlock": 716,
+        "IconHint": "consequatur",
+        "Selected": false,
+        "LastChanged": "2015-07-28T16:32:48.5089404+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "quasi",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "ad",
         "Hidden": false,
-        "FullName": "Lon Kuphal V",
+        "FullName": "Lilyan Ramon Hackett II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 652
+            "FieldType": "System.Int32",
+            "FieldLength": 500
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "nihil",
+    "ExtraInfo": "incidunt",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Sarai Terry",
+    "FullName": "Mr. Sandra Beulah Altenwerth",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 615
+        "FieldLength": 785
       }
     }
   }

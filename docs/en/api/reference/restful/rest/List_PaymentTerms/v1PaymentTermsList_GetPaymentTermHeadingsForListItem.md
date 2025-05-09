@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 322,
-    "Name": "Jewess-Cummings",
-    "ToolTip": "Dolores ex incidunt.",
-    "Deleted": true,
-    "Rank": 437,
-    "Type": "distinctio",
-    "ColorBlock": 430,
-    "IconHint": "tenetur",
+    "Id": 948,
+    "Name": "Baumbach-Carter",
+    "ToolTip": "Facilis non veniam aut dolores quisquam eius et.",
+    "Deleted": false,
+    "Rank": 6,
+    "Type": "repellendus",
+    "ColorBlock": 162,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2016-06-12T13:14:09.8379023+02:00",
+    "LastChanged": "2009-08-16T16:32:48.7276378+02:00",
     "ChildItems": [
       {
-        "Id": 108,
-        "Name": "O'Kon-Jerde",
-        "ToolTip": "Rerum vero dicta excepturi nihil adipisci.",
+        "Id": 200,
+        "Name": "Windler, Quigley and Greenfelder",
+        "ToolTip": "Sed omnis id sed.",
         "Deleted": false,
-        "Rank": 795,
-        "Type": "beatae",
-        "ColorBlock": 359,
+        "Rank": 251,
+        "Type": "tenetur",
+        "ColorBlock": 342,
         "IconHint": "enim",
         "Selected": true,
-        "LastChanged": "2003-06-02T13:14:09.8379023+02:00",
+        "LastChanged": "2004-08-02T16:32:48.7276378+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatum",
-        "StyleHint": "culpa",
-        "Hidden": false,
-        "FullName": "Mabel Ritchie",
+        "ExtraInfo": "dolor",
+        "StyleHint": "nihil",
+        "Hidden": true,
+        "FullName": "Karl Mante IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 210
+            "FieldLength": 466
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "illum",
+    "ExtraInfo": "architecto",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Lyric Hane",
+    "FullName": "Constance Krajcik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 442
+        "FieldLength": 349
       }
     }
   }

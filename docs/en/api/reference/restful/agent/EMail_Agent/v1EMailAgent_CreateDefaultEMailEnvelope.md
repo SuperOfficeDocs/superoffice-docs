@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,45 +79,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 468,
-  "MessageId": "impedit",
-  "Subject": "quam",
+  "ServerId": 280,
+  "MessageId": "non",
+  "Subject": "ducimus",
   "From": null,
   "To": [
     {
-      "ContactId": 822,
-      "ContactName": "Hodkiewicz, Legros and Kemmer",
-      "PersonId": 44,
-      "PersonName": "Zulauf-Greenholt",
-      "AssociateId": 860,
-      "Address": "commodi",
-      "EmailId": 532,
+      "ContactId": 479,
+      "ContactName": "Kemmer, Schuster and Swaniawski",
+      "PersonId": 437,
+      "PersonName": "Williamson, Stark and Roberts",
+      "AssociateId": 699,
+      "Address": "atque",
+      "EmailId": 885,
       "DuplicatePersonIds": [
-        914,
-        846
+        886,
+        209
       ],
-      "Name": "Schumm Group",
+      "Name": "Beer-Stanton",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 841
+          "FieldLength": 791
         }
       }
     }
   ],
-  "Sent": "2014-02-25T13:14:00.32935+01:00",
+  "Sent": "2001-06-12T16:32:39.0082952+02:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 480,
+  "Size": 18,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 487
+      "FieldType": "System.Int32",
+      "FieldLength": 564
     }
   }
 }

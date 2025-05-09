@@ -108,13 +108,13 @@ OK
 POST /api/v1/Agents/Quote/FindProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 630,
-  "UserInput": "veritatis",
-  "PriceListKey": "expedita"
+  "QuoteAlternativeId": 116,
+  "UserInput": "sed",
+  "PriceListKey": "nulla"
 }
 ```
 
@@ -126,73 +126,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 465,
-    "ERPProductKey": "aut",
-    "ERPPriceListKey": "et",
-    "Name": "Schuppe Inc and Sons",
-    "Description": "Virtual needs-based portal",
-    "Code": "quam",
-    "PriceUnit": "corrupti",
-    "QuantityUnit": "quos",
+    "ProductId": 545,
+    "ERPProductKey": "quaerat",
+    "ERPPriceListKey": "consequuntur",
+    "Name": "Goldner, Corkery and Kulas",
+    "Description": "Devolved systemic intranet",
+    "Code": "quod",
+    "PriceUnit": "omnis",
+    "QuantityUnit": "sit",
     "IsSubscription": true,
-    "SubscriptionUnit": "quibusdam",
-    "DefaultSubscriptionQuantity": 1598.34,
-    "ItemNumber": "360920",
+    "SubscriptionUnit": "architecto",
+    "DefaultSubscriptionQuantity": 6390.226,
+    "ItemNumber": "540528",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "voluptatum",
-    "ProductTypeKey": "maxime",
-    "VAT": 24047.182,
-    "VATInfo": "necessitatibus",
-    "UnitCost": 15701.34,
-    "UnitMinimumPrice": 24467.138,
-    "UnitListPrice": 3394.122,
-    "InAssortment": true,
-    "Supplier": "consectetur",
-    "SupplierCode": "eaque",
-    "Rights": "distinctio",
-    "Rule": "expedita",
+    "ProductFamilyKey": "a",
+    "ProductTypeKey": "autem",
+    "VAT": 29349.91,
+    "VATInfo": "cum",
+    "UnitCost": 15262.58,
+    "UnitMinimumPrice": 8207.946,
+    "UnitListPrice": 31239.712,
+    "InAssortment": false,
+    "Supplier": "quia",
+    "SupplierCode": "mollitia",
+    "Rights": "dolores",
+    "Rule": "necessitatibus",
     "ExtraInfo": [
       {
-        "Name": "Shanahan-Bauch",
-        "Value": "sint",
+        "Name": "Bogisich Inc and Sons",
+        "Value": "eligendi",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 140
+            "FieldType": "System.Int32",
+            "FieldLength": 202
           }
         }
       },
       {
-        "Name": "Shanahan-Bauch",
-        "Value": "sint",
+        "Name": "Bogisich Inc and Sons",
+        "Value": "eligendi",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 140
+            "FieldType": "System.Int32",
+            "FieldLength": 202
           }
         }
       }
     ],
-    "RawExtraInfo": "culpa",
-    "ExtraField1": "praesentium",
-    "ExtraField2": "ipsum",
-    "ExtraField3": "et",
-    "ExtraField4": "et",
-    "ExtraField5": "nihil",
-    "InStock": 11570.728,
+    "RawExtraInfo": "id",
+    "ExtraField1": "aspernatur",
+    "ExtraField2": "similique",
+    "ExtraField3": "occaecati",
+    "ExtraField4": "aut",
+    "ExtraField5": "consectetur",
+    "InStock": 13836.609999999999,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 71
+        "FieldLength": 78
       }
     }
   }

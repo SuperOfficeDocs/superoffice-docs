@@ -71,29 +71,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 980,
-  "NumDocumentsAlreadyMigrated": 376,
+  "NumDocumentsOmitted": 317,
+  "NumDocumentsAlreadyMigrated": 495,
   "Documents": [
     {
-      "DocumentId": 178,
-      "ContactId": 172,
-      "PersonId": 705,
-      "SaleId": 362,
-      "ProjectId": 199,
-      "DocTmplId": 976,
-      "AssociateId": 720,
-      "UserGroupId": 696,
-      "VisibleForId": 556
+      "DocumentId": 689,
+      "ContactId": 944,
+      "PersonId": 392,
+      "SaleId": 499,
+      "ProjectId": 855,
+      "DocTmplId": 38,
+      "AssociateId": 998,
+      "UserGroupId": 87,
+      "VisibleForId": 684
     }
   ],
   "Associates": [
     {
-      "AssociateId": 917,
-      "EmailAddress": "benton_orn@schimmel.co.uk"
+      "AssociateId": 139,
+      "EmailAddress": "murray@turcotte.co.uk"
     },
     {
-      "AssociateId": 917,
-      "EmailAddress": "benton_orn@schimmel.co.uk"
+      "AssociateId": 139,
+      "EmailAddress": "murray@turcotte.co.uk"
     }
   ]
 }

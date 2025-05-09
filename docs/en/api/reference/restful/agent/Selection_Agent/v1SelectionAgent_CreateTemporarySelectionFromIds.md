@@ -114,15 +114,15 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    164,
-    807
+    587,
+    661
   ],
-  "TargetTableNumber": 106
+  "TargetTableNumber": 843
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-layered upward-trending toolset",
-  "Postit": "nulla",
+  "Description": "Proactive composite superstructure",
+  "Postit": "non",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 78,
-  "IncludePerson": 362,
+  "GroupIdx": 575,
+  "IncludePerson": 373,
   "MemberCount": 99.99,
-  "Name": "McClure, Schroeder and Schuppe",
-  "PostitTextId": 240,
-  "CreatedDate": "2005-01-24T13:14:01.3319239+01:00",
-  "SelectionId": 164,
-  "SoundEx": "a",
-  "Source": 935,
-  "TextId": 685,
-  "UpdatedDate": "2006-12-20T13:14:01.3319239+01:00",
-  "UpdatedCount": 720,
-  "Visibility": 55,
+  "Name": "Torp, Reynolds and Sanford",
+  "PostitTextId": 612,
+  "CreatedDate": "2000-04-29T16:32:39.9302031+02:00",
+  "SelectionId": 913,
+  "SoundEx": "placeat",
+  "Source": 619,
+  "TextId": 190,
+  "UpdatedDate": "2010-08-04T16:32:39.9302031+02:00",
+  "UpdatedCount": 915,
+  "Visibility": 263,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 264,
-  "TargetTableName": "Christiansen Group",
-  "Completed": false,
-  "LeftSelectionId": 870,
-  "RightSelectionId": 178,
+  "TargetTableNumber": 533,
+  "TargetTableName": "McCullough Group",
+  "Completed": true,
+  "LeftSelectionId": 72,
+  "RightSelectionId": 800,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Bins-Schmidt",
-  "ShadowProviderName": "Shields, Goyette and Ratke",
-  "ChartKey": "voluptatum",
-  "LastLoaded": "2001-07-11T13:14:01.3319239+02:00",
-  "LastLoadedBy": 744,
+  "MainProviderName": "Gislason, Kreiger and Ziemann",
+  "ShadowProviderName": "Bailey, Fisher and O'Hara",
+  "ChartKey": "et",
+  "LastLoaded": "2023-03-05T16:32:39.9302031+01:00",
+  "LastLoadedBy": 621,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2020-12-20T13:14:01.3319239+01:00",
-  "LastMembershipChangeBy": 934,
+  "LastMembershipChange": "2005-05-18T16:32:39.9302031+02:00",
+  "LastMembershipChangeBy": 762,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "possimus",
-  "MemberTabHeading": "quae",
-  "MailingsProviderName": "Torp, Predovic and Crona",
-  "DashboardTileDefinitionId": 404,
+  "MainHeading": "itaque",
+  "MemberTabHeading": "voluptas",
+  "MailingsProviderName": "Wuckert-Swift",
+  "DashboardTileDefinitionId": 359,
   "VisibleFor": [
     {
-      "VisibleId": 293,
+      "VisibleId": 350,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "magni",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 150
+          "FieldLength": 909
         }
       }
     },
     {
-      "VisibleId": 293,
+      "VisibleId": 350,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "magni",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 150
+          "FieldLength": 909
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 980
+      "FieldType": "System.String",
+      "FieldLength": 868
     }
   }
 }

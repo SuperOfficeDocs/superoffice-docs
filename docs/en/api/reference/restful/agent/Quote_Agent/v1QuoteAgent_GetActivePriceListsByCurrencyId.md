@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 532,
-  "CurrencyId": 225
+  "QuoteConnectionId": 977,
+  "CurrencyId": 101
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 802,
-    "ERPPriceListKey": "voluptas",
-    "QuoteConnectionId": 81,
-    "Name": "Kuvalis, Wehner and Smitham",
-    "Description": "Enhanced multi-tasking alliance",
-    "Currency": "tenetur",
-    "CurrencyName": "Wehner-Erdman",
-    "ValidFrom": "2017-03-18T13:14:01.0020135+01:00",
-    "ValidTo": "2018-01-23T13:14:01.0020135+01:00",
+    "PriceListId": 568,
+    "ERPPriceListKey": "officia",
+    "QuoteConnectionId": 804,
+    "Name": "Morissette LLC",
+    "Description": "De-engineered reciprocal instruction set",
+    "Currency": "voluptas",
+    "CurrencyName": "Crist LLC",
+    "ValidFrom": "1998-03-11T16:32:39.7271263+01:00",
+    "ValidTo": "2002-11-14T16:32:39.7271263+01:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 980
+        "FieldType": "System.Int32",
+        "FieldLength": 511
       }
     }
   }

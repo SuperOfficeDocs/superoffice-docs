@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 491,
-    "Name": "Gislason Inc and Sons",
-    "ToolTip": "Veniam dolor ut magnam.",
-    "Deleted": false,
-    "Rank": 921,
-    "Type": "recusandae",
-    "ColorBlock": 883,
-    "IconHint": "quae",
-    "Selected": false,
-    "LastChanged": "2007-06-27T13:14:10.0410396+02:00",
+    "Id": 871,
+    "Name": "Stamm-Emard",
+    "ToolTip": "Deleniti quas.",
+    "Deleted": true,
+    "Rank": 843,
+    "Type": "velit",
+    "ColorBlock": 615,
+    "IconHint": "ratione",
+    "Selected": true,
+    "LastChanged": "2025-03-28T16:32:48.9307198+01:00",
     "ChildItems": [
       {
-        "Id": 404,
-        "Name": "Cartwright, O'Connell and Abbott",
-        "ToolTip": "Dicta modi autem unde.",
+        "Id": 50,
+        "Name": "Russel LLC",
+        "ToolTip": "Sed accusamus aperiam aut facere omnis non.",
         "Deleted": true,
-        "Rank": 293,
-        "Type": "quis",
-        "ColorBlock": 888,
-        "IconHint": "est",
+        "Rank": 736,
+        "Type": "excepturi",
+        "ColorBlock": 760,
+        "IconHint": "quae",
         "Selected": true,
-        "LastChanged": "2018-05-18T13:14:10.0410396+02:00",
+        "LastChanged": "1998-05-22T16:32:48.9307198+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "sunt",
-        "Hidden": false,
-        "FullName": "Prof. Gust Benedict Kulas III",
+        "ExtraInfo": "labore",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Ms. Kolby Elinore Hills",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 29
+            "FieldType": "System.Int32",
+            "FieldLength": 511
           }
         }
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "autem",
-    "Hidden": true,
-    "FullName": "Easton Lesch",
+    "ExtraInfo": "amet",
+    "StyleHint": "qui",
+    "Hidden": false,
+    "FullName": "Thaddeus Rolfson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 510
+        "FieldLength": 974
       }
     }
   }

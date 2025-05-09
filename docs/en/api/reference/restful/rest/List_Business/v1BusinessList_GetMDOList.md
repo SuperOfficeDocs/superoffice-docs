@@ -26,8 +26,8 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Business/MDOItems?flat=True
-GET /api/v1/List/Business/MDOItems?query=iste
+GET /api/v1/List/Business/MDOItems?flat=False
+GET /api/v1/List/Business/MDOItems?query=in
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 745,
-    "Name": "Monahan Inc and Sons",
-    "ToolTip": "Nisi illum optio beatae.",
-    "Deleted": true,
-    "Rank": 437,
-    "Type": "dignissimos",
+    "Id": 419,
+    "Name": "Witting LLC",
+    "ToolTip": "Veritatis explicabo sit omnis.",
+    "Deleted": false,
+    "Rank": 753,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 754,
-        "Name": "Bednar LLC",
-        "ToolTip": "Quae autem repellat.",
-        "Deleted": false,
-        "Rank": 505,
-        "Type": "officiis",
+        "Id": 420,
+        "Name": "Parisian, Smith and Spencer",
+        "ToolTip": "Cum voluptatibus qui.",
+        "Deleted": true,
+        "Rank": 850,
+        "Type": "eaque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "maiores",
-        "ColorBlock": 701,
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "ipsa",
-        "FullName": "Mr. Valentin Brooke Mills DVM",
+        "IconHint": "error",
+        "ColorBlock": 631,
+        "ExtraInfo": "placeat",
+        "StyleHint": "perspiciatis",
+        "FullName": "Isidro Hermiston",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 925
+            "FieldType": "System.String",
+            "FieldLength": 489
           }
         }
       }
     ],
-    "IconHint": "tenetur",
-    "ColorBlock": 91,
-    "ExtraInfo": "iure",
-    "StyleHint": "non",
-    "FullName": "Dejon Prohaska",
+    "IconHint": "quas",
+    "ColorBlock": 291,
+    "ExtraInfo": "et",
+    "StyleHint": "doloremque",
+    "FullName": "Blake Keeling",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 919
+        "FieldLength": 121
       }
     }
   }

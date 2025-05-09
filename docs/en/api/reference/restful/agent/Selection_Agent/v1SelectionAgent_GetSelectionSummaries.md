@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionSummaries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    969,
-    774
+    711,
+    176
   ]
 }
 ```
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 21,
-    "Name": "Runolfsson, Schroeder and Abernathy",
-    "TargetTable": "dignissimos",
-    "Registered": "2023-03-31T13:14:01.3475496+02:00",
-    "ProviderName": "Waters-Emard"
+    "SelectionId": 260,
+    "Name": "Wolf-Sauer",
+    "TargetTable": "possimus",
+    "Registered": "2021-11-07T16:32:39.9458245+01:00",
+    "ProviderName": "Harber, Stracke and Keeling"
   },
   {
-    "SelectionId": 21,
-    "Name": "Runolfsson, Schroeder and Abernathy",
-    "TargetTable": "dignissimos",
-    "Registered": "2023-03-31T13:14:01.3475496+02:00",
-    "ProviderName": "Waters-Emard"
+    "SelectionId": 260,
+    "Name": "Wolf-Sauer",
+    "TargetTable": "possimus",
+    "Registered": "2021-11-07T16:32:39.9458245+01:00",
+    "ProviderName": "Harber, Stracke and Keeling"
   }
 ]
 ```

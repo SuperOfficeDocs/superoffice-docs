@@ -635,16 +635,19 @@ This is the archive Provider for the Selection document archive.
 |sale/probPercent|int|Probability as %: Probability as %| x |
 |sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
 |sale/stage|listAny|Stage: Displays the stage of the sale| x |
+|sale/stageName| *None* |Stage name: Displays the stage of the sale| x |
 |sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
 |sale/stageRank| *None* |Stage rank: Rank of the sale stage in the stage list| x |
 |sale/saleType|listAny|Sale type: Sale type, from list| x |
-|sale/nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
-|sale/reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
-|sale/stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
+|sale/saleTypeId| *None* |Sale type ID: Sale type, from list| x |
+|sale/stageId| *None* |Sale stage ID: Displays the stage of the sale| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
+|sale/reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
+|sale/stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
 |sale/saleTypeCategory|listAny|Sale type category: Sale type category| x |
 |sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
 |sale/saleNumber|string|Number: Number| x |
@@ -714,7 +717,7 @@ This is the archive Provider for the Selection document archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentSelectionV2?$select=contact/contactAssociate/contactName,contact/contactAssociate/isActive,associate/contactDepartment,associate/otherGroups
+GET /api/v1/archive/DocumentSelectionV2?$select=visibleFor,person/personAddress/formattedMultiLineAddress,person/personUdef/SuperOffice:2,contact/business,contact/postAddress/wgs84latitude
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

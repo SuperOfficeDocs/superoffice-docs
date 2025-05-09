@@ -68,7 +68,7 @@ OK
 GET /api/v1/Preference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,50 +79,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 183,
-    "Name": "Bergstrom, Baumbach and Erdman",
-    "ToolTip": "Et non quia et sed.",
+    "Id": 562,
+    "Name": "Schroeder-Grimes",
+    "ToolTip": "Vero consequatur quis quis in nobis pariatur suscipit.",
     "Deleted": false,
-    "Rank": 271,
-    "Type": "voluptatibus",
+    "Rank": 957,
+    "Type": "reiciendis",
     "ChildItems": [
       {
-        "Id": 29,
-        "Name": "West-Walker",
-        "ToolTip": "Consequatur ullam libero commodi.",
-        "Deleted": true,
-        "Rank": 968,
-        "Type": "aliquam",
+        "Id": 605,
+        "Name": "McClure Inc and Sons",
+        "ToolTip": "Rerum vel laboriosam dolores enim veritatis.",
+        "Deleted": false,
+        "Rank": 597,
+        "Type": "voluptatem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 742,
-        "ExtraInfo": "error",
-        "StyleHint": "ipsum",
-        "FullName": "Herta Batz",
+        "IconHint": "neque",
+        "ColorBlock": 446,
+        "ExtraInfo": "eum",
+        "StyleHint": "praesentium",
+        "FullName": "Mrs. Niko Nicolas I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 339
+            "FieldLength": 939
           }
         }
       }
     ],
-    "IconHint": "nesciunt",
-    "ColorBlock": 469,
-    "ExtraInfo": "qui",
-    "StyleHint": "omnis",
-    "FullName": "Alfonzo Stanton PhD",
+    "IconHint": "voluptatum",
+    "ColorBlock": 869,
+    "ExtraInfo": "et",
+    "StyleHint": "quam",
+    "FullName": "Foster Hackett",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 470
+        "FieldLength": 162
       }
     }
   }

@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Swaniawski, Reilly and Kovacek",
-    "StepNumber": 743,
+    "Name": "Rippin Group",
+    "StepNumber": 821,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 13
+        "FieldLength": 910
       }
     }
   },
   {
-    "Name": "Swaniawski, Reilly and Kovacek",
-    "StepNumber": 743,
+    "Name": "Rippin Group",
+    "StepNumber": 821,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 13
+        "FieldLength": 910
       }
     }
   }

@@ -71,7 +71,7 @@ OK
 GET /api/v1/Webhook/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 242,
-  "Name": "Pfeffer-Walker",
+  "WebhookId": 11,
+  "Name": "Ullrich, Will and Cummings",
   "Events": [
-    "officia",
-    "ab"
+    "vitae",
+    "labore"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "ut",
+  "Secret": "nihil",
   "State": "Active",
-  "Type": "voluptatem",
+  "Type": "quidem",
   "Headers": {
-    "Headers1": "fugiat",
-    "Headers2": "facere"
+    "Headers1": "nisi",
+    "Headers2": "est"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2012-08-29T13:14:09.5561337+02:00",
+  "Registered": "2016-09-23T16:32:48.4620775+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2000-08-31T13:14:09.5561337+02:00",
+  "Updated": "2011-03-28T16:32:48.4620775+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "jabari_durgan@johns.com"
+  "ErrorsEmail": "theodora.rogahn@turcotte.uk"
 }
 ```

@@ -637,14 +637,17 @@ Shadow contact provider for the dynamic document provider.
 |sale/probPercent|int|Probability as %: Probability as %| x |
 |sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
 |sale/stage|listAny|Stage: Displays the stage of the sale| x |
+|sale/stageName| *None* |Stage name: Displays the stage of the sale| x |
 |sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
 |sale/stageRank| *None* |Stage rank: Rank of the sale stage in the stage list| x |
 |sale/saleType|listAny|Sale type: Sale type, from list| x |
-|sale/nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/saleTypeId| *None* |Sale type ID: Sale type, from list| x |
+|sale/stageId| *None* |Sale stage ID: Displays the stage of the sale| x |
+|sale/nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
 |sale/reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
 |sale/stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
 |sale/saleTypeCategory|listAny|Sale type category: Sale type category| x |
@@ -711,7 +714,7 @@ Shadow contact provider for the dynamic document provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentShadowDynamicSelection?$select=completed,person/personAddress/wgs84latitude,person/personUdef/SuperOffice:3,person/personAssociate/ejDisplayName,contact/contactDeleted
+GET /api/v1/archive/DocumentShadowDynamicSelection?$select=person/searchPhone/description,person/correspondingAssociate/ejUserId,person/correspondingAssociate/portraitThumbnail,contact/stop,contact/email/emailProtocol
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

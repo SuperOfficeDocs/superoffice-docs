@@ -70,7 +70,7 @@ OK
 GET /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 590,
-  "Name": "Cummings LLC",
+  "ScreenChooserId": 657,
+  "Name": "Ritchie-McClure",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "ut",
-  "Source": "quos",
-  "Registered": "2003-01-01T13:14:09.3685305+01:00",
-  "RegisteredAssociateId": 229,
-  "Updated": "2003-11-14T13:14:09.3685305+01:00",
-  "UpdatedAssociateId": 108,
+  "UniqueIdentifier": "distinctio",
+  "Source": "ut",
+  "Registered": "2017-01-12T16:32:48.2745849+01:00",
+  "RegisteredAssociateId": 232,
+  "Updated": "2016-08-11T16:32:48.2745849+02:00",
+  "UpdatedAssociateId": 804,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 877
+      "FieldLength": 920
     }
   }
 }

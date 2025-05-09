@@ -109,28 +109,28 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 909,
-  "Name": "Gleichner-Hartmann",
+  "WebhookId": 429,
+  "Name": "Schaefer Inc and Sons",
   "Events": [
-    "sit",
-    "atque"
+    "nemo",
+    "aut"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "consequatur",
+  "Secret": "provident",
   "State": "Active",
-  "Type": "animi",
+  "Type": "nostrum",
   "Headers": {
-    "Headers1": "cupiditate",
-    "Headers2": "iure"
+    "Headers1": "corrupti",
+    "Headers2": "dolores"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2019-01-01T13:14:09.5717594+01:00",
+  "Registered": "2012-06-18T16:32:48.4776996+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2015-07-11T13:14:09.5717594+02:00",
+  "Updated": "2002-01-15T16:32:48.4776996+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "sanford@simonis.us"
+  "ErrorsEmail": "malachi.boehm@huel.ca"
 }
 ```
 
@@ -141,31 +141,31 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 941,
-  "Name": "Fritsch-Harvey",
+  "WebhookId": 824,
+  "Name": "Kunze Inc and Sons",
   "Events": [
-    "dolores",
-    "accusantium"
+    "aut",
+    "error"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "consequuntur",
+  "Secret": "laboriosam",
   "State": "Active",
-  "Type": "magni",
+  "Type": "commodi",
   "Headers": {
-    "Headers1": "nisi",
-    "Headers2": "itaque"
+    "Headers1": "est",
+    "Headers2": "voluptatibus"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2010-08-20T13:14:09.5717594+02:00",
+  "Registered": "2021-12-29T16:32:48.4776996+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2004-10-25T13:14:09.5717594+02:00",
+  "Updated": "2022-06-22T16:32:48.4776996+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "nyah@leschrosenbaum.info",
+  "ErrorsEmail": "royce@gorczanyfriesen.ca",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

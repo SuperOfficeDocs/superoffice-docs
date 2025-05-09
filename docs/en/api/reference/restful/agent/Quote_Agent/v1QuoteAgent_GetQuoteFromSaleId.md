@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteFromSaleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 551
+  "SaleId": 378
 }
 ```
 
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 26,
-  "SaleId": 269,
-  "QuoteConnectionId": 672,
-  "ERPQuoteKey": "sequi",
-  "ERPOrderKey": "sunt",
-  "ActiveQuoteVersionId": 840,
-  "AcceptedQuoteAlternativeId": 153,
-  "UseValuesFromQuote": 904,
-  "DocumentId": 384,
-  "PoNumber": "510990",
-  "OrderComment": "in",
-  "PreferredEmailCulture": "eulah.morissette@medhurststokes.co.uk",
+  "QuoteId": 543,
+  "SaleId": 621,
+  "QuoteConnectionId": 202,
+  "ERPQuoteKey": "ex",
+  "ERPOrderKey": "repudiandae",
+  "ActiveQuoteVersionId": 813,
+  "AcceptedQuoteAlternativeId": 861,
+  "UseValuesFromQuote": 978,
+  "DocumentId": 471,
+  "PoNumber": "769760",
+  "OrderComment": "enim",
+  "PreferredEmailCulture": "rebecca.crona@johnson.info",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 357
+      "FieldLength": 341
     }
   }
 }

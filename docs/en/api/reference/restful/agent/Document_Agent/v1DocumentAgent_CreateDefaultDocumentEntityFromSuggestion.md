@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 897
+  "SuggestedDocumentId": 799
 }
 ```
 
@@ -121,88 +121,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 722,
+  "DocumentId": 540,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ipsa",
-  "Header": "reprehenderit",
-  "Name": "Kreiger, Zieme and Watsica",
-  "OurRef": "omnis",
-  "YourRef": "et",
-  "CreatedDate": "1999-03-07T13:14:00.2199679+01:00",
-  "UpdatedDate": "2005-04-09T13:14:00.2199679+02:00",
-  "Description": "Organized discrete toolset",
+  "Attention": "enim",
+  "Header": "est",
+  "Name": "Turner Group",
+  "OurRef": "aut",
+  "YourRef": "exercitationem",
+  "CreatedDate": "2018-04-25T16:32:38.8989463+02:00",
+  "UpdatedDate": "2010-09-26T16:32:38.8989463+02:00",
+  "Description": "Reduced solution-oriented artificial intelligence",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2017-04-25T13:14:00.2355945+02:00",
-  "ExternalRef": "laboriosam",
+  "Date": "2014-03-13T16:32:38.8989463+01:00",
+  "ExternalRef": "qui",
   "Completed": "Completed",
-  "ActiveLinks": 392,
+  "ActiveLinks": 930,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Hayes-Wolf",
-      "Id": 956,
-      "Description": "Function-based logistical artificial intelligence",
-      "ExtraInfo": "nihil",
-      "LinkId": 589,
+      "EntityName": "Powlowski, Leffler and Mosciski",
+      "Id": 356,
+      "Description": "Down-sized multi-tasking moratorium",
+      "ExtraInfo": "autem",
+      "LinkId": 856,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 810
+          "FieldType": "System.Int32",
+          "FieldLength": 803
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 383,
-  "Snum": 252,
+  "SuggestedDocumentId": 323,
+  "Snum": 880,
   "UserDefinedFields": {
     "SuperOffice:1": "False",
-    "SuperOffice:2": "100452498"
+    "SuperOffice:2": "Cristopher Jenkins"
   },
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "ea"
+    "ExtraFields1": "tenetur",
+    "ExtraFields2": "aspernatur"
   },
   "CustomFields": {
-    "CustomFields1": "cupiditate",
-    "CustomFields2": "in"
+    "CustomFields1": "quae",
+    "CustomFields2": "ex"
   },
-  "PublishEventDate": "2020-03-15T13:14:00.2355945+01:00",
-  "PublishTo": "2025-02-23T13:14:00.2355945+01:00",
-  "PublishFrom": "2002-02-09T13:14:00.2355945+01:00",
+  "PublishEventDate": "2024-05-16T16:32:38.8989463+02:00",
+  "PublishTo": "2011-05-25T16:32:38.8989463+02:00",
+  "PublishFrom": "2010-04-12T16:32:38.8989463+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 556,
+      "VisibleId": 862,
       "Visibility": "All",
-      "DisplayValue": "ducimus",
+      "DisplayValue": "quae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 161
+          "FieldLength": 474
         }
       }
     },
     {
-      "VisibleId": 556,
+      "VisibleId": 862,
       "Visibility": "All",
-      "DisplayValue": "ducimus",
+      "DisplayValue": "quae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 161
+          "FieldLength": 474
         }
       }
     }
@@ -211,8 +211,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 761
+      "FieldType": "System.Int32",
+      "FieldLength": 627
     }
   }
 }

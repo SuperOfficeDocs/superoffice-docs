@@ -26,8 +26,8 @@ Get the MDO list items for "ProjStatus" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectStatus/MDOItems?flat=False
-GET /api/v1/List/ProjectStatus/MDOItems?query=expedita
+GET /api/v1/List/ProjectStatus/MDOItems?flat=True
+GET /api/v1/List/ProjectStatus/MDOItems?query=quis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProjectStatus/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 953,
-    "Name": "Lubowitz Group",
-    "ToolTip": "Debitis beatae rerum.",
-    "Deleted": false,
-    "Rank": 290,
-    "Type": "similique",
+    "Id": 850,
+    "Name": "Sauer LLC",
+    "ToolTip": "Eos voluptas nam.",
+    "Deleted": true,
+    "Rank": 900,
+    "Type": "quo",
     "ChildItems": [
       {
-        "Id": 806,
-        "Name": "Kulas, Ryan and Dickens",
-        "ToolTip": "Enim fuga cum.",
-        "Deleted": true,
-        "Rank": 311,
-        "Type": "cum",
+        "Id": 713,
+        "Name": "Stroman, Cole and Brekke",
+        "ToolTip": "Adipisci quo sed.",
+        "Deleted": false,
+        "Rank": 417,
+        "Type": "sed",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sit",
-        "ColorBlock": 916,
-        "ExtraInfo": "enim",
-        "StyleHint": "voluptates",
-        "FullName": "Elta Sallie Schuster V",
+        "IconHint": "voluptates",
+        "ColorBlock": 494,
+        "ExtraInfo": "sint",
+        "StyleHint": "in",
+        "FullName": "Cloyd Bahringer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 488
+            "FieldLength": 332
           }
         }
       }
     ],
-    "IconHint": "illum",
-    "ColorBlock": 911,
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "excepturi",
-    "FullName": "Ms. Jayde Fredy Cremin IV",
+    "IconHint": "rerum",
+    "ColorBlock": 375,
+    "ExtraInfo": "voluptas",
+    "StyleHint": "tempore",
+    "FullName": "Valentin Goldner Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 26
+        "FieldType": "System.String",
+        "FieldLength": 19
       }
     }
   }

@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Wiza Group"
+  "EntityName": "Mertz-Hand"
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 918,
-  "DashboardId": 436,
-  "Height": 539,
-  "Width": 104,
-  "Rank": 1000,
+  "DashboardTileId": 446,
+  "DashboardId": 283,
+  "Height": 385,
+  "Width": 902,
+  "Rank": 618,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 201
+      "FieldType": "System.String",
+      "FieldLength": 263
     }
   }
 }

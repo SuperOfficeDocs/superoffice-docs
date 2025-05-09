@@ -26,7 +26,7 @@ Gets a DashboardTile object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=43
+POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=427
 POST /api/v1/Agents/Dashboard/GetDashboardTile?$select=name,department,category/id
 ```
 
@@ -90,64 +90,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 67,
-  "Caption": "harum",
-  "Description": "Customer-focused upward-trending leverage",
-  "ChartName": "Lynch-Howell",
-  "ChartId": "aperiam",
-  "IsDefault": false,
-  "AssociateId": 431,
-  "GroupId": 690,
-  "SelectionId": 209,
-  "Config": "deserunt",
+  "DashboardTileId": 578,
+  "Caption": "soluta",
+  "Description": "Robust bottom-line array",
+  "ChartName": "Morissette, Stark and Tremblay",
+  "ChartId": "eaque",
+  "IsDefault": true,
+  "AssociateId": 689,
+  "GroupId": 750,
+  "SelectionId": 107,
+  "Config": "animi",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Fisher, Greenholt and Mayert",
-      "Description": "Exclusive neutral process improvement",
+      "Name": "Kovacek LLC",
+      "Description": "Mandatory bandwidth-monitored database",
       "Type": "Boolean",
-      "ListName": "Reilly Inc and Sons",
+      "ListName": "Haag LLC",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "odit",
-      "DefaultDataOption": true,
+      "Value": "tempore",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 443
+          "FieldType": "System.String",
+          "FieldLength": 986
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 380,
+      "VisibleId": 867,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "quod",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 897
+          "FieldType": "System.String",
+          "FieldLength": 71
         }
       }
     },
     {
-      "VisibleId": 380,
+      "VisibleId": 867,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "quod",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 897
+          "FieldType": "System.String",
+          "FieldLength": 71
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 684
+      "FieldType": "System.Int32",
+      "FieldLength": 937
     }
   }
 }

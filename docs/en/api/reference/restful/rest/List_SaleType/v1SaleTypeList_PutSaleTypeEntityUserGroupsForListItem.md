@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 711,
-    "Name": "Murphy Group",
-    "ToolTip": "Similique voluptas commodi ex quaerat.",
-    "Deleted": true,
-    "Rank": 507,
-    "Type": "expedita",
-    "ColorBlock": 339,
-    "IconHint": "provident",
+    "Id": 493,
+    "Name": "Hodkiewicz Inc and Sons",
+    "ToolTip": "Modi voluptas rem maiores accusamus porro.",
+    "Deleted": false,
+    "Rank": 548,
+    "Type": "quod",
+    "ColorBlock": 968,
+    "IconHint": "fugit",
     "Selected": false,
-    "LastChanged": "2003-06-03T13:14:10.0566655+02:00",
+    "LastChanged": "2003-06-12T16:32:48.9619631+02:00",
     "ChildItems": [
       {
-        "Id": 567,
-        "Name": "Berge, McGlynn and Morar",
-        "ToolTip": "Illum temporibus consequatur optio aut perferendis.",
+        "Id": 105,
+        "Name": "Jacobi-Langosh",
+        "ToolTip": "Pariatur ad excepturi qui nisi sunt quaerat eveniet.",
         "Deleted": false,
-        "Rank": 973,
-        "Type": "facere",
-        "ColorBlock": 900,
-        "IconHint": "facere",
+        "Rank": 652,
+        "Type": "amet",
+        "ColorBlock": 409,
+        "IconHint": "placeat",
         "Selected": false,
-        "LastChanged": "2019-11-16T13:14:10.0566655+01:00",
+        "LastChanged": "2021-12-12T16:32:48.9619631+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "et",
+        "ExtraInfo": "omnis",
+        "StyleHint": "accusamus",
         "Hidden": false,
-        "FullName": "Tommie Gerlach"
+        "FullName": "Dell Hayes"
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "eos",
-    "Hidden": false,
-    "FullName": "Raphaelle Macejkovic"
+    "ExtraInfo": "omnis",
+    "StyleHint": "magnam",
+    "Hidden": true,
+    "FullName": "Alvah Boehm"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 838,
-    "Name": "Wyman-Bernier",
-    "ToolTip": "Enim aperiam ullam dicta ut aperiam maxime.",
+    "Id": 514,
+    "Name": "Rempel LLC",
+    "ToolTip": "Ad necessitatibus aliquid nobis aliquid velit.",
     "Deleted": false,
-    "Rank": 499,
-    "Type": "nam",
-    "ColorBlock": 413,
-    "IconHint": "dolorem",
+    "Rank": 75,
+    "Type": "rerum",
+    "ColorBlock": 879,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2018-12-08T13:14:10.0566655+01:00",
+    "LastChanged": "2023-03-10T16:32:48.9619631+01:00",
     "ChildItems": [
       {
-        "Id": 225,
-        "Name": "Powlowski-Cole",
-        "ToolTip": "Explicabo debitis dignissimos autem.",
+        "Id": 320,
+        "Name": "Altenwerth-Brown",
+        "ToolTip": "Qui asperiores qui quis quis error.",
         "Deleted": false,
-        "Rank": 461,
-        "Type": "ad",
-        "ColorBlock": 719,
-        "IconHint": "non",
-        "Selected": false,
-        "LastChanged": "2016-05-20T13:14:10.0566655+02:00",
+        "Rank": 519,
+        "Type": "rerum",
+        "ColorBlock": 701,
+        "IconHint": "nam",
+        "Selected": true,
+        "LastChanged": "1999-03-05T16:32:48.9619631+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "perferendis",
+        "ExtraInfo": "veritatis",
+        "StyleHint": "enim",
         "Hidden": false,
-        "FullName": "Duncan Schuppe",
+        "FullName": "Dayana Corkery",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 291
+            "FieldLength": 792
           }
         }
       }
     ],
-    "ExtraInfo": "consectetur",
-    "StyleHint": "est",
+    "ExtraInfo": "cum",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Tabitha Stoltenberg",
+    "FullName": "Ally Kunde",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 891
+        "FieldType": "System.String",
+        "FieldLength": 890
       }
     }
   }

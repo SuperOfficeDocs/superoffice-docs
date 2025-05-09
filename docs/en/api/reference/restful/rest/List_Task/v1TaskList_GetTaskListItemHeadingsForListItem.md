@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 400,
-    "Name": "McClure-Zboncak",
-    "ToolTip": "Rerum necessitatibus ea et non optio maiores beatae.",
+    "Id": 11,
+    "Name": "Cartwright, Swaniawski and Smitham",
+    "ToolTip": "Sed officia ea harum facilis.",
     "Deleted": false,
-    "Rank": 959,
-    "Type": "similique",
-    "ColorBlock": 579,
-    "IconHint": "et",
+    "Rank": 426,
+    "Type": "molestiae",
+    "ColorBlock": 450,
+    "IconHint": "dolor",
     "Selected": true,
-    "LastChanged": "2006-02-11T13:14:10.1035433+01:00",
+    "LastChanged": "2015-12-22T16:32:48.9932021+01:00",
     "ChildItems": [
       {
-        "Id": 752,
-        "Name": "Nikolaus Inc and Sons",
-        "ToolTip": "Sed cupiditate possimus numquam autem mollitia.",
-        "Deleted": true,
-        "Rank": 322,
-        "Type": "est",
-        "ColorBlock": 567,
-        "IconHint": "consequuntur",
+        "Id": 374,
+        "Name": "O'Keefe-Jast",
+        "ToolTip": "Molestias a harum soluta.",
+        "Deleted": false,
+        "Rank": 296,
+        "Type": "quis",
+        "ColorBlock": 943,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2010-06-11T13:14:10.1035433+02:00",
+        "LastChanged": "2020-08-01T16:32:48.9932021+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestias",
-        "StyleHint": "est",
+        "ExtraInfo": "qui",
+        "StyleHint": "molestias",
         "Hidden": false,
-        "FullName": "Miss Kenny Stehr",
+        "FullName": "Dr. Barbara Mayer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 143
+            "FieldLength": 216
           }
         }
       }
     ],
-    "ExtraInfo": "dolore",
-    "StyleHint": "nemo",
-    "Hidden": false,
-    "FullName": "Ms. Pink Jacques Pfeffer PhD",
+    "ExtraInfo": "accusamus",
+    "StyleHint": "aliquam",
+    "Hidden": true,
+    "FullName": "Bianka Casper",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 286
+        "FieldLength": 284
       }
     }
   }

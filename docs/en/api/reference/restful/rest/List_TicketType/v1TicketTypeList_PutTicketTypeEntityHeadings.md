@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 518,
-    "Name": "Stamm, Schiller and Conroy",
-    "Tooltip": "amet",
+    "HeadingId": 601,
+    "Name": "Bednar-Schiller",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "Rank": 880,
-    "UdListDefinitionId": 752
+    "Rank": 497,
+    "UdListDefinitionId": 448
   },
   {
-    "HeadingId": 518,
-    "Name": "Stamm, Schiller and Conroy",
-    "Tooltip": "amet",
+    "HeadingId": 601,
+    "Name": "Bednar-Schiller",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "Rank": 880,
-    "UdListDefinitionId": 752
+    "Rank": 497,
+    "UdListDefinitionId": 448
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 941,
-    "Name": "Zemlak, Koch and Labadie",
-    "Tooltip": "voluptates",
+    "HeadingId": 39,
+    "Name": "Turcotte LLC",
+    "Tooltip": "eaque",
     "Deleted": false,
-    "Rank": 909,
-    "UdListDefinitionId": 703,
+    "Rank": 965,
+    "UdListDefinitionId": 601,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 689
+        "FieldLength": 697
       }
     }
   }

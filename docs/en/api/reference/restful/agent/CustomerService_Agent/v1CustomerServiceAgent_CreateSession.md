@@ -79,7 +79,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RemoteIp": "praesentium"
+  "RemoteIp": "explicabo"
 }
 ```
 
@@ -90,15 +90,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "eligendi",
-  "LoginId": 525,
-  "UserId": 664,
+  "Key": "porro",
+  "LoginId": 587,
+  "UserId": 90,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 5
+      "FieldType": "System.String",
+      "FieldLength": 308
     }
   }
 }

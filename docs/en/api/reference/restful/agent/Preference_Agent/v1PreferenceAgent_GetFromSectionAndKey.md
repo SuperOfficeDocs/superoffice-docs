@@ -95,8 +95,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "voluptatem",
-  "Key": "quod"
+  "Section": "nobis",
+  "Key": "magnam"
 }
 ```
 
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 234,
-  "Section": "non",
-  "Key": "inventore",
-  "Name": "O'Reilly Inc and Sons",
+  "PrefDescId": 809,
+  "Section": "voluptatem",
+  "Key": "esse",
+  "Name": "Pagac, Howell and Turcotte",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Operative intermediate function",
+  "Description": "Networked global info-mediaries",
   "IsBuiltin": false,
-  "TableName": "Friesen-Stark",
-  "UserDefinedListId": 845,
-  "Rank": 155,
-  "SubGroup": "est",
-  "MinLevel": 315,
-  "MaxValue": 160,
-  "MinValue": 93,
-  "RequiredLicense": "quia",
+  "TableName": "Keeling Group",
+  "UserDefinedListId": 272,
+  "Rank": 236,
+  "SubGroup": "consequatur",
+  "MinLevel": 201,
+  "MaxValue": 79,
+  "MinValue": 620,
+  "RequiredLicense": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 603
+      "FieldLength": 25
     }
   }
 }

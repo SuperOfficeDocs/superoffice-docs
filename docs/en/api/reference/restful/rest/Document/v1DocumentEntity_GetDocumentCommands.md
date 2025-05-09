@@ -84,17 +84,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Fritsch-Langosh",
-    "DisplayName": "Nienow, Hegmann and Littel",
-    "DisplayTooltip": "expedita",
-    "IconHint": "quibusdam",
+    "Name": "Heidenreich, Ferry and Watsica",
+    "DisplayName": "Flatley-Ledner",
+    "DisplayTooltip": "beatae",
+    "IconHint": "dolor",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Fritsch-Langosh",
-    "DisplayName": "Nienow, Hegmann and Littel",
-    "DisplayTooltip": "expedita",
-    "IconHint": "quibusdam",
+    "Name": "Heidenreich, Ferry and Watsica",
+    "DisplayName": "Flatley-Ledner",
+    "DisplayTooltip": "beatae",
+    "IconHint": "dolor",
     "ReturnType": "CustomGui"
   }
 ]

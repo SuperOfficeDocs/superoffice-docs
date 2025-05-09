@@ -65,26 +65,26 @@ No Content
 POST /api/v1/Agents/Dash/SaveDashTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 964,
+  "DashboardId": 780,
   "DashTiles": [
     {
-      "DashboardTileId": 777,
-      "DashboardId": 963,
-      "Height": 491,
-      "Width": 61,
-      "Rank": 439,
+      "DashboardTileId": 52,
+      "DashboardId": 260,
+      "Height": 285,
+      "Width": 926,
+      "Rank": 87,
       "DashTileDefinition": null
     },
     {
-      "DashboardTileId": 777,
-      "DashboardId": 963,
-      "Height": 491,
-      "Width": 61,
-      "Rank": 439,
+      "DashboardTileId": 52,
+      "DashboardId": 260,
+      "Height": 285,
+      "Width": 926,
+      "Rank": 87,
       "DashTileDefinition": null
     }
   ]

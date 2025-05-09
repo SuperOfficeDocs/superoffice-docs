@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Associate/GetAssociatesByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 626,
-  "Type": 776
+  "GroupId": 48,
+  "Type": 58
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 38,
-    "Name": "Murray-Veum",
-    "PersonId": 834,
-    "Rank": 361,
-    "Tooltip": "ratione",
+    "AssociateId": 846,
+    "Name": "Stamm, Jaskolski and Simonis",
+    "PersonId": 225,
+    "Rank": 16,
+    "Tooltip": "voluptate",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 693,
-    "FullName": "Mrs. Janice Windler V",
-    "FormalName": "McClure Inc and Sons",
+    "GroupIdx": 226,
+    "FullName": "Jadyn Jacobi",
+    "FormalName": "Jacobson-Haag",
     "Deleted": false,
-    "EjUserId": 591,
-    "UserName": "Ankunding Inc and Sons",
+    "EjUserId": 498,
+    "UserName": "Braun Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 479
+        "FieldLength": 788
       }
     }
   }

@@ -41,6 +41,7 @@ items:
   - SuperOffice.WebApi.Data.Appointment
   - SuperOffice.WebApi.Data.AppointmentEntity
   - SuperOffice.WebApi.Data.AppointmentInfo
+  - SuperOffice.WebApi.Data.AppointmentMoveData
   - SuperOffice.WebApi.Data.AppointmentSaveData
   - SuperOffice.WebApi.Data.AppointmentSyncData
   - SuperOffice.WebApi.Data.ApproveRejectResponse
@@ -371,6 +372,7 @@ items:
   - SuperOffice.WebApi.Data.UserGroup
   - SuperOffice.WebApi.Data.UserInfo
   - SuperOffice.WebApi.Data.UserValidationResult
+  - SuperOffice.WebApi.Data.VideoMeetingReservation
   - SuperOffice.WebApi.Data.VisibleFor
   - SuperOffice.WebApi.Data.WebAppUsage
   - SuperOffice.WebApi.Data.WebhookResult

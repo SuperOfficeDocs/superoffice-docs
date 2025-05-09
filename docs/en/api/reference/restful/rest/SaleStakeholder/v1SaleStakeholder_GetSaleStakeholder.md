@@ -91,7 +91,7 @@ SaleStakeholder found.
 GET /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,31 +101,31 @@ HTTP/1.1 200 SaleStakeholder found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Wuckert, Hoppe and Johnson",
-  "Comment": "delectus",
-  "StakeholderRoleId": 430,
-  "CountryId": 917,
-  "PersonId": 608,
-  "EmailDescription": "iva.bosco@boscocarter.name",
-  "EmailId": 889,
-  "EmailAddress": "bartholome@ledner.name",
-  "PhoneId": 743,
-  "ContactName": "Roob-Quitzon",
-  "ContactId": 204,
-  "SaleId": 467,
-  "Mrmrs": "harum",
-  "Firstname": "Zetta",
-  "MiddleName": "Ward-Stehr",
-  "Lastname": "Hills",
-  "SaleStakeholderId": 632,
-  "Rank": 134,
-  "Phone": "1-404-736-4301 x51802",
+  "StakeholderRoleName": "Cassin, Kilback and Ledner",
+  "Comment": "libero",
+  "StakeholderRoleId": 615,
+  "CountryId": 163,
+  "PersonId": 60,
+  "EmailDescription": "reginald.kreiger@hudson.ca",
+  "EmailId": 37,
+  "EmailAddress": "jessy@tillman.co.uk",
+  "PhoneId": 358,
+  "ContactName": "Mohr, Luettgen and Schuster",
+  "ContactId": 277,
+  "SaleId": 357,
+  "Mrmrs": "quidem",
+  "Firstname": "Bert",
+  "MiddleName": "Nicolas, Denesik and Casper",
+  "Lastname": "Champlin",
+  "SaleStakeholderId": 817,
+  "Rank": 446,
+  "Phone": "1-584-382-8707 x84475",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 753
+      "FieldType": "System.String",
+      "FieldLength": 452
     }
   },
   "_Links": {

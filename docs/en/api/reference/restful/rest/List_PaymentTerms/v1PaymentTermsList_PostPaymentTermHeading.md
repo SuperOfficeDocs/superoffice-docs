@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 767,
-  "Name": "Denesik Inc and Sons",
-  "Tooltip": "sed",
-  "Deleted": false,
-  "Rank": 173,
-  "UdListDefinitionId": 142
+  "HeadingId": 727,
+  "Name": "Bednar Inc and Sons",
+  "Tooltip": "nihil",
+  "Deleted": true,
+  "Rank": 86,
+  "UdListDefinitionId": 409
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 337,
-  "Name": "Friesen-O'Hara",
-  "Tooltip": "omnis",
+  "HeadingId": 812,
+  "Name": "Roberts-Johnston",
+  "Tooltip": "repellendus",
   "Deleted": false,
-  "Rank": 939,
-  "UdListDefinitionId": 265,
+  "Rank": 930,
+  "UdListDefinitionId": 807,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 273
+      "FieldLength": 98
     }
   }
 }

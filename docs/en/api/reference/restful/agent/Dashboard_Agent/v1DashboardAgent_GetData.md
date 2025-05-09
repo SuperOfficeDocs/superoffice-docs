@@ -77,8 +77,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 68,
-  "Restrictions": "quos"
+  "DashboardTileId": 749,
+  "Restrictions": "consequatur"
 }
 ```
 
@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Gleichner LLC",
-        "DisplayTooltip": "ut",
-        "DisplayType": "praesentium",
+        "DisplayName": "Conn Group",
+        "DisplayTooltip": "blanditiis",
+        "DisplayType": "nesciunt",
         "CanOrderBy": true,
-        "Name": "Kling LLC",
-        "CanRestrictBy": true,
-        "RestrictionType": "voluptatem",
-        "RestrictionListName": "Goyette-Brakus",
+        "Name": "Ryan-Huels",
+        "CanRestrictBy": false,
+        "RestrictionType": "vel",
+        "RestrictionListName": "Schinner LLC",
         "IsVisible": false,
-        "ExtraInfo": "velit",
-        "Width": "ut",
-        "IconHint": "rem",
-        "HeadingIconHint": "nisi"
+        "ExtraInfo": "aperiam",
+        "Width": "labore",
+        "IconHint": "omnis",
+        "HeadingIconHint": "ratione"
       }
     ],
     "Result": null
@@ -112,19 +112,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Gleichner LLC",
-        "DisplayTooltip": "ut",
-        "DisplayType": "praesentium",
+        "DisplayName": "Conn Group",
+        "DisplayTooltip": "blanditiis",
+        "DisplayType": "nesciunt",
         "CanOrderBy": true,
-        "Name": "Kling LLC",
-        "CanRestrictBy": true,
-        "RestrictionType": "voluptatem",
-        "RestrictionListName": "Goyette-Brakus",
+        "Name": "Ryan-Huels",
+        "CanRestrictBy": false,
+        "RestrictionType": "vel",
+        "RestrictionListName": "Schinner LLC",
         "IsVisible": false,
-        "ExtraInfo": "velit",
-        "Width": "ut",
-        "IconHint": "rem",
-        "HeadingIconHint": "nisi"
+        "ExtraInfo": "aperiam",
+        "Width": "labore",
+        "IconHint": "omnis",
+        "HeadingIconHint": "ratione"
       }
     ],
     "Result": null

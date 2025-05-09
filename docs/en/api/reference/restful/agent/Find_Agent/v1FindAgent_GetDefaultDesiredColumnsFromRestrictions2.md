@@ -169,12 +169,12 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Ondricka Group",
-  "Restrictions": "optio"
+  "ProviderName": "Mohr, Hermiston and Kreiger",
+  "Restrictions": "architecto"
 }
 ```
 
@@ -186,19 +186,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Osinski LLC",
-    "DisplayTooltip": "mollitia",
-    "DisplayType": "consequatur",
+    "DisplayName": "Daugherty-Nader",
+    "DisplayTooltip": "sit",
+    "DisplayType": "labore",
     "CanOrderBy": false,
-    "Name": "Cole, Volkman and Purdy",
+    "Name": "Ritchie Inc and Sons",
     "CanRestrictBy": false,
-    "RestrictionType": "sint",
-    "RestrictionListName": "Paucek, Nicolas and Romaguera",
+    "RestrictionType": "omnis",
+    "RestrictionListName": "Moen, Jakubowski and Moen",
     "IsVisible": false,
-    "ExtraInfo": "velit",
-    "Width": "error",
-    "IconHint": "aperiam",
-    "HeadingIconHint": "optio"
+    "ExtraInfo": "consequatur",
+    "Width": "vel",
+    "IconHint": "veritatis",
+    "HeadingIconHint": "dolore"
   }
 ]
 ```

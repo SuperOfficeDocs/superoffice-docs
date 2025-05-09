@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=possimus
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=accusantium
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,23 +88,23 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 04 Apr 2022 13:14:08 G4T
+Last-Modified: Mon, 07 Oct 2019 16:32:47 G10T
 
 {
-  "Key": "omnis",
-  "Value": "enim",
-  "RecordId": 572,
-  "CreatedDate": "2015-09-07T13:14:08.7741411+02:00",
-  "UpdatedDate": "2022-04-04T13:14:08.7741411+02:00",
-  "UpdatedBy": "fugit",
-  "CreatedBy": "quam",
-  "TableName": "Emard LLC",
+  "Key": "esse",
+  "Value": "excepturi",
+  "RecordId": 510,
+  "CreatedDate": "2001-08-01T16:32:47.5558268+02:00",
+  "UpdatedDate": "2019-10-07T16:32:47.5558268+02:00",
+  "UpdatedBy": "odit",
+  "CreatedBy": "aut",
+  "TableName": "Lakin, Shanahan and Berge",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 572
+      "FieldLength": 931
     }
   }
 }

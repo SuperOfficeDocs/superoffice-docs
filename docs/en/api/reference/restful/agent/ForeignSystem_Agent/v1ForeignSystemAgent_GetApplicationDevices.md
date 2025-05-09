@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Will, Bernhard and Stiedemann"
+  "ApplicationName": "Sipes LLC"
 }
 ```
 
@@ -97,21 +97,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 74,
-    "Name": "Bailey LLC",
-    "CreatedDate": "2019-06-08T13:14:00.5012353+02:00",
-    "UpdatedDate": "2000-09-22T13:14:00.5012353+02:00",
-    "AssociateFullName": "Lesly Abshire",
-    "CreatedBy": "sint",
-    "UpdatedBy": "similique",
-    "DeviceIdentifier": "cum",
-    "ForeignAppId": 126,
+    "ForeignDeviceId": 698,
+    "Name": "Dare Group",
+    "CreatedDate": "2020-12-10T16:32:39.1645096+01:00",
+    "UpdatedDate": "1998-02-12T16:32:39.1645096+01:00",
+    "AssociateFullName": "Miss Waino Elyse Lemke",
+    "CreatedBy": "et",
+    "UpdatedBy": "occaecati",
+    "DeviceIdentifier": "ut",
+    "ForeignAppId": 287,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 750
+        "FieldType": "System.String",
+        "FieldLength": 807
       }
     }
   }

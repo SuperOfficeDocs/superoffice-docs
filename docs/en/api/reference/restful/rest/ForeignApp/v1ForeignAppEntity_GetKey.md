@@ -72,7 +72,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 29 Aug 2020 13:14:08 G8T
+Last-Modified: Tue, 19 Sep 2017 16:32:47 G9T
 
 {
-  "Key": "minima",
-  "Value": "omnis",
-  "RecordId": 447,
-  "CreatedDate": "2020-12-26T13:14:08.7585151+01:00",
-  "UpdatedDate": "2020-08-29T13:14:08.7585151+02:00",
-  "UpdatedBy": "dolor",
-  "CreatedBy": "consequatur",
-  "TableName": "Mayer-Hessel",
+  "Key": "dignissimos",
+  "Value": "fuga",
+  "RecordId": 389,
+  "CreatedDate": "1999-04-28T16:32:47.5558268+02:00",
+  "UpdatedDate": "2017-09-19T16:32:47.5558268+02:00",
+  "UpdatedBy": "velit",
+  "CreatedBy": "assumenda",
+  "TableName": "Franecki-Roob",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 325
+      "FieldType": "System.String",
+      "FieldLength": 830
     }
   }
 }

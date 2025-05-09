@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/ErpSync/ChangeEngineStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -92,15 +92,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsRunning": true,
-  "StatusMessage": "veniam",
-  "Interval": "molestiae",
+  "IsRunning": false,
+  "StatusMessage": "impedit",
+  "Interval": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 854
+      "FieldLength": 809
     }
   }
 }

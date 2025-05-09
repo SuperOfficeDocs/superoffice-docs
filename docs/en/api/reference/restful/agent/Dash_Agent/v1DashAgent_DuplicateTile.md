@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashTileId": 498,
-  "Name": "Reilly Inc and Sons"
+  "DashTileId": 779,
+  "Name": "Kris LLC"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 525,
-  "DashboardId": 712,
-  "Height": 814,
-  "Width": 981,
-  "Rank": 7,
+  "DashboardTileId": 683,
+  "DashboardId": 463,
+  "Height": 625,
+  "Width": 617,
+  "Rank": 476,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 162
+      "FieldLength": 306
     }
   }
 }

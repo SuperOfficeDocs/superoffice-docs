@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 538,
-    "Name": "Lynch, Bogisich and Emmerich",
-    "Value": "tenetur",
-    "CreatedDate": "1999-06-08T13:13:59.5158194+02:00",
-    "UpdatedDate": "2000-06-07T13:13:59.5158194+02:00",
-    "CreatedBy": "molestiae",
-    "UpdatedBy": "provident",
+    "AudienceLayoutId": 161,
+    "Name": "Rempel-Walter",
+    "Value": "sequi",
+    "CreatedDate": "2010-06-14T16:32:38.1803616+02:00",
+    "UpdatedDate": "2005-07-09T16:32:38.1803616+02:00",
+    "CreatedBy": "quisquam",
+    "UpdatedBy": "quaerat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 522
+        "FieldLength": 314
       }
     }
   }

@@ -80,7 +80,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 915
+  "SelectionId": 43
 }
 ```
 
@@ -92,20 +92,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Donnelly-Legros",
-    "Description": "Face to face interactive moderator",
-    "Rank": 154,
+    "Name": "Kulas-Steuber",
+    "Description": "Horizontal maximized workforce",
+    "Rank": 786,
     "Restrictions": [
       {
-        "Name": "Kuhlman-Brakus",
-        "Operator": "laudantium",
+        "Name": "Kub-Kuphal",
+        "Operator": "quo",
         "Values": [
-          "maiores",
-          "ratione"
+          "et",
+          "et"
         ],
         "DisplayValues": [
-          "aut",
-          "rerum"
+          "repudiandae",
+          "neque"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -113,27 +113,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 630,
+        "InterParenthesis": 296,
         "InterOperator": "And",
-        "UniqueHash": 339
+        "UniqueHash": 113
       }
     ]
   },
   {
-    "Name": "Donnelly-Legros",
-    "Description": "Face to face interactive moderator",
-    "Rank": 154,
+    "Name": "Kulas-Steuber",
+    "Description": "Horizontal maximized workforce",
+    "Rank": 786,
     "Restrictions": [
       {
-        "Name": "Kuhlman-Brakus",
-        "Operator": "laudantium",
+        "Name": "Kub-Kuphal",
+        "Operator": "quo",
         "Values": [
-          "maiores",
-          "ratione"
+          "et",
+          "et"
         ],
         "DisplayValues": [
-          "aut",
-          "rerum"
+          "repudiandae",
+          "neque"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -141,9 +141,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 630,
+        "InterParenthesis": 296,
         "InterOperator": "And",
-        "UniqueHash": 339
+        "UniqueHash": 113
       }
     ]
   }

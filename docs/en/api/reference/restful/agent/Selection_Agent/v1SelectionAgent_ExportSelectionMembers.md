@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 96,
-  "TemplateName": "Hettinger Inc and Sons",
-  "UseContacts": false
+  "SelectionId": 649,
+  "TemplateName": "Kihn, McKenzie and Halvorson",
+  "UseContacts": true
 }
 ```
 

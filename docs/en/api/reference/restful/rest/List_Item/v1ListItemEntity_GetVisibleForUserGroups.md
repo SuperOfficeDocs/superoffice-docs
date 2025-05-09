@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 12,
-    "Name": "Turner Inc and Sons",
-    "ToolTip": "Enim quibusdam maxime omnis quisquam consequuntur rerum molestias.",
-    "Deleted": false,
-    "Rank": 755,
-    "Type": "quis",
-    "ColorBlock": 259,
-    "IconHint": "ut",
+    "Id": 376,
+    "Name": "D'Amore Group",
+    "ToolTip": "Saepe veniam ut et et.",
+    "Deleted": true,
+    "Rank": 788,
+    "Type": "cupiditate",
+    "ColorBlock": 761,
+    "IconHint": "deleniti",
     "Selected": false,
-    "LastChanged": "2007-11-27T13:14:09.5873854+01:00",
+    "LastChanged": "2022-03-08T16:32:48.4933163+01:00",
     "ChildItems": [
       {
-        "Id": 699,
-        "Name": "Howell Inc and Sons",
-        "ToolTip": "Occaecati nisi.",
+        "Id": 823,
+        "Name": "Dicki, Cummerata and Pfannerstill",
+        "ToolTip": "Minus reprehenderit.",
         "Deleted": false,
-        "Rank": 919,
-        "Type": "adipisci",
-        "ColorBlock": 792,
-        "IconHint": "voluptates",
-        "Selected": false,
-        "LastChanged": "2002-01-21T13:14:09.5873854+01:00",
+        "Rank": 812,
+        "Type": "qui",
+        "ColorBlock": 895,
+        "IconHint": "corporis",
+        "Selected": true,
+        "LastChanged": "2024-12-23T16:32:48.4933163+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "facilis",
-        "Hidden": false,
-        "FullName": "Abdul Cummings",
+        "ExtraInfo": "quam",
+        "StyleHint": "molestiae",
+        "Hidden": true,
+        "FullName": "Arely Douglas",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 115
+            "FieldLength": 942
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "molestiae",
-    "Hidden": false,
-    "FullName": "Ms. Perry Mitchell MD",
+    "ExtraInfo": "aliquid",
+    "StyleHint": "consequuntur",
+    "Hidden": true,
+    "FullName": "Mr. Dovie Sporer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 62
+        "FieldType": "System.String",
+        "FieldLength": 661
       }
     }
   }

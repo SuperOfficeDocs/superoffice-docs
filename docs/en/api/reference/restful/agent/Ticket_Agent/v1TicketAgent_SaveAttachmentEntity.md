@@ -81,14 +81,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 398,
-  "Name": "Pouros Group",
-  "ContentType": "officiis",
-  "AttSize": 164,
+  "AttachmentId": 547,
+  "Name": "McDermott, Johnson and Streich",
+  "ContentType": "quia",
+  "AttSize": 757,
   "InlineImage": false,
-  "ContentId": "aut",
-  "AuthKey": "laboriosam",
-  "IsSafeFileExtension": false
+  "ContentId": "error",
+  "AuthKey": "voluptate",
+  "IsSafeFileExtension": true
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 974,
-  "Name": "Schaden, Renner and Schuppe",
-  "ContentType": "aut",
-  "AttSize": 322,
+  "AttachmentId": 127,
+  "Name": "Runte, Schuppe and Osinski",
+  "ContentType": "doloribus",
+  "AttSize": 580,
   "InlineImage": true,
-  "ContentId": "quam",
-  "AuthKey": "dolorem",
+  "ContentId": "quia",
+  "AuthKey": "dignissimos",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 687
+      "FieldType": "System.String",
+      "FieldLength": 857
     }
   }
 }

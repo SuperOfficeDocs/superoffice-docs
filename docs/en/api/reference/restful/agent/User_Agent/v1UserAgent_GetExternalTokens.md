@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "tenetur"
+  "Key": "corrupti"
 }
 ```
 
@@ -92,15 +92,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "quis",
-  "AccessToken": "velit",
-  "RefreshToken": "quis",
+  "Provider": "nihil",
+  "AccessToken": "aut",
+  "RefreshToken": "impedit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 508
+      "FieldType": "System.String",
+      "FieldLength": 551
     }
   }
 }

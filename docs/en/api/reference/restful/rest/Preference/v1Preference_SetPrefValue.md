@@ -76,16 +76,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "amet",
+  "RawValue": "magni",
   "Specification": null,
-  "DisplayValue": "rem",
-  "DisplayTooltip": "recusandae",
+  "DisplayValue": "est",
+  "DisplayTooltip": "aut",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 260,
-  "PrefDescId": 313,
-  "TableName": "Halvorson LLC",
-  "UserPreferenceId": 29
+  "TargetId": 168,
+  "PrefDescId": 971,
+  "TableName": "Bashirian, Johns and Morar",
+  "UserPreferenceId": 404
 }
 ```
 

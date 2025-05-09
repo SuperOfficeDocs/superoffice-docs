@@ -64,20 +64,20 @@ No Content
 POST /api/v1/Agents/CustomerService/SaveAllCustomerCenterConfigs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "CustConfigs": [
     {
-      "CustConfigId": 314,
+      "CustConfigId": 413,
       "Type": "Options",
-      "Config": "ipsa",
-      "CustLangId": 854,
-      "Registered": "2024-01-05T13:14:00.0319625+01:00",
-      "RegisteredAssociateId": 405,
-      "Updated": "2005-09-05T13:14:00.0319625+02:00",
-      "UpdatedAssociateId": 393
+      "Config": "aperiam",
+      "CustLangId": 511,
+      "Registered": "2014-10-19T16:32:38.570895+02:00",
+      "RegisteredAssociateId": 443,
+      "Updated": "2003-05-09T16:32:38.570895+02:00",
+      "UpdatedAssociateId": 265
     }
   ]
 }

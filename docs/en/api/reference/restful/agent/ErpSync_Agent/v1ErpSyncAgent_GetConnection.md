@@ -90,7 +90,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 913
+  "ErpConnectionId": 346
 }
 ```
 
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 690,
-  "ErpConnectorId": 58,
-  "DisplayName": "Schoen, Wiegand and Terry",
-  "DisplayDescription": "Focused web-enabled instruction set",
-  "Active": true,
-  "ConnectionId": "et",
-  "MostRecentTimestamp": "architecto",
+  "ErpConnectionId": 698,
+  "ErpConnectorId": 882,
+  "DisplayName": "Frami-Blanda",
+  "DisplayDescription": "Organized fresh-thinking artificial intelligence",
+  "Active": false,
+  "ConnectionId": "sint",
+  "MostRecentTimestamp": "vero",
   "ConfigFields": {
-    "ConfigFields1": "magnam",
-    "ConfigFields2": "doloremque"
+    "ConfigFields1": "corporis",
+    "ConfigFields2": "voluptatem"
   },
-  "Deleted": true,
+  "Deleted": false,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    569,
-    815
+    309,
+    79
   ],
   "AssociateAccessIds": [
-    304,
-    857
+    45,
+    178
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 894
+      "FieldType": "System.Int32",
+      "FieldLength": 14
     }
   }
 }

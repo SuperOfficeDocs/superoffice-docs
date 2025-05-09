@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 807,
-  "BlobSize": 548,
-  "Description": "Proactive multi-state system engine",
-  "ExtraInfo": "in",
+  "BlobId": 298,
+  "BlobSize": 317,
+  "Description": "Front-line solution-oriented moratorium",
+  "ExtraInfo": "rerum",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "sint",
-  "OriginalSize": 291,
-  "CreatedDate": "2008-08-30T13:14:08.8992518+02:00",
-  "UpdatedDate": "2005-01-06T13:14:08.8992518+01:00",
+  "MimeType": "odio",
+  "OriginalSize": 889,
+  "CreatedDate": "2010-10-03T16:32:47.6807968+02:00",
+  "UpdatedDate": "2001-07-16T16:32:47.6807968+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "sapiente"
+  "ConceptualType": "maxime"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 425,
-  "BlobSize": 529,
-  "Description": "Cross-platform interactive help-desk",
-  "ExtraInfo": "qui",
+  "BlobId": 461,
+  "BlobSize": 707,
+  "Description": "Future-proofed 24/7 time-frame",
+  "ExtraInfo": "deleniti",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "saepe",
-  "OriginalSize": 348,
-  "CreatedDate": "2012-04-19T13:14:08.8992518+02:00",
-  "UpdatedDate": "1999-09-18T13:14:08.8992518+02:00",
+  "MimeType": "itaque",
+  "OriginalSize": 269,
+  "CreatedDate": "2005-11-19T16:32:47.6964194+01:00",
+  "UpdatedDate": "2013-08-02T16:32:47.6964194+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "minima",
+  "ConceptualType": "inventore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 693
+      "FieldLength": 253
     }
   }
 }

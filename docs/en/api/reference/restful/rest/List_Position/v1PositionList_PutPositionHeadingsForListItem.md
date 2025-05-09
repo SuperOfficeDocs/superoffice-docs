@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 634,
-    "Name": "Feeney, Wunsch and Maggio",
-    "ToolTip": "Ea ratione optio et quia quia reiciendis.",
-    "Deleted": true,
-    "Rank": 899,
-    "Type": "placeat",
-    "ColorBlock": 298,
-    "IconHint": "cupiditate",
-    "Selected": false,
-    "LastChanged": "2005-08-09T13:14:09.8691543+02:00",
+    "Id": 354,
+    "Name": "Senger Inc and Sons",
+    "ToolTip": "Magni non numquam.",
+    "Deleted": false,
+    "Rank": 63,
+    "Type": "eveniet",
+    "ColorBlock": 856,
+    "IconHint": "molestiae",
+    "Selected": true,
+    "LastChanged": "2008-11-16T16:32:48.7588803+01:00",
     "ChildItems": [
       {
-        "Id": 994,
-        "Name": "Barrows Inc and Sons",
-        "ToolTip": "Distinctio suscipit nostrum accusantium.",
-        "Deleted": false,
-        "Rank": 772,
-        "Type": "aut",
-        "ColorBlock": 476,
-        "IconHint": "amet",
+        "Id": 261,
+        "Name": "Emmerich-Stamm",
+        "ToolTip": "Est soluta occaecati eos.",
+        "Deleted": true,
+        "Rank": 897,
+        "Type": "minima",
+        "ColorBlock": 806,
+        "IconHint": "asperiores",
         "Selected": false,
-        "LastChanged": "2005-01-16T13:14:09.8691543+01:00",
+        "LastChanged": "2019-03-28T16:32:48.7588803+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "officia",
-        "Hidden": true,
-        "FullName": "Miss Kathryne Nitzsche"
+        "ExtraInfo": "alias",
+        "StyleHint": "quas",
+        "Hidden": false,
+        "FullName": "Erick Toy"
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "veniam",
+    "ExtraInfo": "quam",
+    "StyleHint": "illo",
     "Hidden": false,
-    "FullName": "Rebeka Jast DDS"
+    "FullName": "Pasquale Cordelia Bergnaum I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 822,
-    "Name": "Stracke LLC",
-    "ToolTip": "Autem harum est dolor qui.",
+    "Id": 440,
+    "Name": "Ferry Group",
+    "ToolTip": "Modi placeat porro quam qui animi id sit.",
     "Deleted": false,
-    "Rank": 263,
-    "Type": "quas",
-    "ColorBlock": 842,
-    "IconHint": "ut",
-    "Selected": false,
-    "LastChanged": "2015-11-09T13:14:09.8691543+01:00",
+    "Rank": 809,
+    "Type": "ut",
+    "ColorBlock": 711,
+    "IconHint": "beatae",
+    "Selected": true,
+    "LastChanged": "2009-09-23T16:32:48.7588803+02:00",
     "ChildItems": [
       {
-        "Id": 941,
-        "Name": "Bergnaum, Murazik and Funk",
-        "ToolTip": "Optio laudantium autem.",
+        "Id": 567,
+        "Name": "Morissette-Dach",
+        "ToolTip": "Sapiente aut placeat voluptas voluptate reprehenderit excepturi.",
         "Deleted": false,
-        "Rank": 11,
-        "Type": "et",
-        "ColorBlock": 564,
-        "IconHint": "eos",
+        "Rank": 478,
+        "Type": "mollitia",
+        "ColorBlock": 893,
+        "IconHint": "eaque",
         "Selected": false,
-        "LastChanged": "1999-09-15T13:14:09.8691543+02:00",
+        "LastChanged": "2003-09-29T16:32:48.7588803+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deserunt",
-        "StyleHint": "facere",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "quia",
         "Hidden": true,
-        "FullName": "Louie Hermann",
+        "FullName": "Lucius Mertz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 52
+            "FieldLength": 45
           }
         }
       }
     ],
-    "ExtraInfo": "adipisci",
-    "StyleHint": "sed",
-    "Hidden": false,
-    "FullName": "Daniela Koss",
+    "ExtraInfo": "est",
+    "StyleHint": "non",
+    "Hidden": true,
+    "FullName": "Miss Maegan Wava Will DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 626
+        "FieldType": "System.String",
+        "FieldLength": 637
       }
     }
   }

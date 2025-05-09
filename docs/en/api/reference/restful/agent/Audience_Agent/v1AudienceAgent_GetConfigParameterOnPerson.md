@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Kertzmann-Tromp",
-  "PersonId": 871
+  "ParameterName": "Kling-Skiles",
+  "PersonId": 54
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 752,
-  "Name": "Haley, Graham and Welch",
-  "Value": "dolor",
-  "CreatedDate": "1999-07-28T13:13:59.5158194+02:00",
-  "UpdatedDate": "2003-01-08T13:13:59.5158194+01:00",
-  "CreatedBy": "ad",
-  "UpdatedBy": "voluptatem",
+  "AudienceLayoutId": 785,
+  "Name": "Dibbert, Torphy and Cormier",
+  "Value": "doloremque",
+  "CreatedDate": "2004-03-13T16:32:38.1803616+01:00",
+  "UpdatedDate": "2007-09-22T16:32:38.1803616+02:00",
+  "CreatedBy": "quae",
+  "UpdatedBy": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 949
+      "FieldType": "System.Int32",
+      "FieldLength": 947
     }
   }
 }

@@ -94,13 +94,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    346,
-    922
+    491,
+    30
   ]
 }
 ```
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 381,
-    "Name": "Gibson, Armstrong and Kshlerin",
-    "AssociateId": 254,
-    "DetailsTable": 153,
-    "DetailsRecord": 20,
-    "IsSystemTask": false,
+    "Id": 420,
+    "Name": "D'Amore, Keeling and Volkman",
+    "AssociateId": 692,
+    "DetailsTable": 294,
+    "DetailsRecord": 574,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "enim",
-      "ParameterObject2": "voluptate"
+      "ParameterObject1": "neque",
+      "ParameterObject2": "ut"
     },
-    "LastStarted": "2002-04-05T13:13:59.5314453+02:00",
-    "Created": "2014-05-30T13:13:59.5314453+02:00",
-    "StartCount": 815,
-    "DatabaseSerialNumber": "1153789",
-    "Context": "debitis",
-    "Result": "adipisci",
+    "LastStarted": "2011-08-13T16:32:38.1959817+02:00",
+    "Created": "2012-06-19T16:32:38.1959817+02:00",
+    "StartCount": 561,
+    "DatabaseSerialNumber": "1446363",
+    "Context": "aut",
+    "Result": "temporibus",
     "State": "All",
-    "Description": "Profound zero tolerance pricing structure",
+    "Description": "Team-oriented heuristic software",
     "Response": "et",
-    "Request": "perspiciatis",
-    "ProgressDescription": "Future-proofed static methodology",
-    "ProgressPercent": 245,
-    "FileName": "Reilly, Bailey and Haag",
+    "Request": "voluptate",
+    "ProgressDescription": "Advanced incremental circuit",
+    "ProgressPercent": 416,
+    "FileName": "Kulas LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 449
+        "FieldType": "System.String",
+        "FieldLength": 931
       }
     }
   }

@@ -109,7 +109,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 698
+  "ChatSessionId": 705
 }
 ```
 
@@ -120,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 654,
-  "TopicId": 756,
+  "ChatSessionId": 613,
+  "TopicId": 236,
   "User": null,
   "Person": null,
-  "CustomerAlias": "laboriosam",
-  "CustomerHost": "enim",
-  "CustomerName": "Nienow-Carter",
-  "CustomerEmail": "uriel@swaniawski.info",
-  "CustomerPhone": "804.517.2059 x9165",
+  "CustomerAlias": "ab",
+  "CustomerHost": "quas",
+  "CustomerName": "Hermiston, Beahan and Ratke",
+  "CustomerEmail": "yazmin@streich.co.uk",
+  "CustomerPhone": "104.973.2146 x35275",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Robel Inc and Sons",
+  "CustomerCompanyName": "Considine Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "in",
-  "LastMessage": "voluptate",
-  "WhenRequested": "2012-01-27T13:13:59.6252018+01:00",
-  "WhenStarted": "2006-04-16T13:13:59.6252018+02:00",
-  "WhenEnded": "2014-12-11T13:13:59.6252018+01:00",
-  "WhenIdle": "2016-06-09T13:13:59.6252018+02:00",
-  "WhenFetched": "2013-07-20T13:13:59.6252018+02:00",
-  "SessionKey": "aliquam",
-  "InitialQueuePos": 613,
-  "AlertLevel": 404,
-  "Rank": 858,
+  "FirstMessage": "qui",
+  "LastMessage": "et",
+  "WhenRequested": "2016-11-10T16:32:38.3053306+01:00",
+  "WhenStarted": "2007-05-11T16:32:38.3053306+02:00",
+  "WhenEnded": "2011-08-26T16:32:38.3053306+02:00",
+  "WhenIdle": "2020-03-11T16:32:38.3053306+01:00",
+  "WhenFetched": "2013-11-27T16:32:38.3053306+01:00",
+  "SessionKey": "ratione",
+  "InitialQueuePos": 259,
+  "AlertLevel": 164,
+  "Rank": 879,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 47,
+  "ChatbotIsActive": false,
+  "Rating": 767,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 287
+      "FieldLength": 626
     }
   }
 }

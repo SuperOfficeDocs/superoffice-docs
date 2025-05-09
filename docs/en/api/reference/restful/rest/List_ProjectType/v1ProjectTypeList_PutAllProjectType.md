@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 743,
-    "Name": "Schaden, Huels and Goodwin",
-    "Tooltip": "nobis",
-    "Deleted": true,
-    "UdListDefinitionId": 727,
-    "Rank": 613
+    "Id": 236,
+    "Name": "Volkman, Kuhlman and Maggio",
+    "Tooltip": "iusto",
+    "Deleted": false,
+    "UdListDefinitionId": 122,
+    "Rank": 460
   },
   {
-    "Id": 743,
-    "Name": "Schaden, Huels and Goodwin",
-    "Tooltip": "nobis",
-    "Deleted": true,
-    "UdListDefinitionId": 727,
-    "Rank": 613
+    "Id": 236,
+    "Name": "Volkman, Kuhlman and Maggio",
+    "Tooltip": "iusto",
+    "Deleted": false,
+    "UdListDefinitionId": 122,
+    "Rank": 460
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 123,
-    "Name": "Ebert Inc and Sons",
-    "Tooltip": "nesciunt",
+    "Id": 216,
+    "Name": "Heaney-Mayer",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 5,
-    "Rank": 378,
+    "UdListDefinitionId": 842,
+    "Rank": 231,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 924
+        "FieldType": "System.Int32",
+        "FieldLength": 6
       }
     }
   }

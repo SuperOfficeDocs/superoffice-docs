@@ -77,7 +77,7 @@ OK
 GET /api/v1/CRMScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,52 +87,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 487,
-  "UniqueIdentifier": "ea",
-  "Name": "Kozey Inc and Sons",
-  "Description": "Automated optimal challenge",
-  "IncludeId": "rerum",
-  "AccessKey": "est",
-  "HierarchyId": 478,
-  "Source": "hic",
-  "SourceCode": "atque",
+  "EjscriptId": 172,
+  "UniqueIdentifier": "eos",
+  "Name": "Breitenberg-Hessel",
+  "Description": "Up-sized impactful concept",
+  "IncludeId": "omnis",
+  "AccessKey": "similique",
+  "HierarchyId": 139,
+  "Source": "officiis",
+  "SourceCode": "perspiciatis",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 651,
+  "HtmlOutput": 286,
   "Includes": [
-    906,
-    409
+    582,
+    415
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 906,
-      "LineNumberTo": 307,
-      "Delta": 682,
-      "IncludeId": "omnis",
+      "LineNumberFrom": 984,
+      "LineNumberTo": 461,
+      "Delta": 483,
+      "IncludeId": "deserunt",
       "IncludedFrom": [
         "aut",
-        "sit"
+        "aperiam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 743
+          "FieldType": "System.Int32",
+          "FieldLength": 977
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2020-07-24T13:14:08.6178742+02:00",
-  "RegisteredAssociateId": 768,
-  "Updated": "2002-09-19T13:14:08.6178742+02:00",
-  "UpdatedAssociateId": 809,
+  "Registered": "2015-01-08T16:32:47.4152322+01:00",
+  "RegisteredAssociateId": 487,
+  "Updated": "2020-09-01T16:32:47.4152322+02:00",
+  "UpdatedAssociateId": 59,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 983
+      "FieldLength": 898
     }
   }
 }

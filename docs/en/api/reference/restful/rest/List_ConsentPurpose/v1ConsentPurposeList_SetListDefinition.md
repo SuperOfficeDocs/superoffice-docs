@@ -88,15 +88,15 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 619,
-  "Name": "Wilderman, Erdman and Sanford",
-  "Tooltip": "quae",
-  "Deleted": false,
-  "Rank": 51,
+  "Id": 675,
+  "Name": "Cummerata, Gusikowski and Heidenreich",
+  "Tooltip": "soluta",
+  "Deleted": true,
+  "Rank": 782,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "maxime",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "autem",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 30,
-  "Name": "Ullrich Inc and Sons",
-  "Tooltip": "omnis",
+  "Id": 876,
+  "Name": "Kozey Group",
+  "Tooltip": "repudiandae",
   "Deleted": true,
-  "Rank": 544,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 721,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "odio",
-  "InUseByUserDefinedFields": true,
+  "ListType": "aut",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 29
+      "FieldLength": 561
     }
   }
 }

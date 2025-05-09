@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 508,
-    "Value": "cum",
-    "Tooltip": "necessitatibus",
+    "Id": 717,
+    "Value": "eum",
+    "Tooltip": "optio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 619
+        "FieldType": "System.String",
+        "FieldLength": 129
       }
     }
   },
   {
-    "Id": 508,
-    "Value": "cum",
-    "Tooltip": "necessitatibus",
+    "Id": 717,
+    "Value": "eum",
+    "Tooltip": "optio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 619
+        "FieldType": "System.String",
+        "FieldLength": 129
       }
     }
   }

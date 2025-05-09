@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nesciunt",
-  "ProviderName": "Hilpert, Langosh and Hilll",
-  "StorageKey": "qui",
-  "Context": "iusto"
+  "StorageType": "labore",
+  "ProviderName": "Olson, Pouros and Windler",
+  "StorageKey": "perspiciatis",
+  "Context": "voluptatem"
 }
 ```
 
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Runolfsson Inc and Sons",
-  "Description": "Switchable tertiary capacity",
-  "Rank": 327,
+  "Name": "Williamson, Schaefer and Considine",
+  "Description": "Exclusive 24 hour paradigm",
+  "Rank": 85,
   "Restrictions": [
     {
-      "Name": "Wisoky, Eichmann and Russel",
-      "Operator": "repudiandae",
+      "Name": "Kunde-Marks",
+      "Operator": "sit",
       "Values": [
-        "ipsa",
-        "omnis"
+        "qui",
+        "non"
       ],
       "DisplayValues": [
-        "aut",
-        "consectetur"
+        "voluptatibus",
+        "harum"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 185,
+      "InterParenthesis": 770,
       "InterOperator": "And",
-      "UniqueHash": 344
+      "UniqueHash": 119
     }
   ]
 }

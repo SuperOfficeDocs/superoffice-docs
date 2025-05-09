@@ -72,7 +72,7 @@ OK
 GET /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,22 +83,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "voluptatum",
+  "RawValue": "a",
   "Specification": null,
-  "DisplayValue": "est",
-  "DisplayTooltip": "corporis",
+  "DisplayValue": "quia",
+  "DisplayTooltip": "quia",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 763,
-  "PrefDescId": 790,
-  "TableName": "Leuschke-Purdy",
-  "UserPreferenceId": 314,
+  "TargetId": 670,
+  "PrefDescId": 90,
+  "TableName": "Bernhard LLC",
+  "UserPreferenceId": 543,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 880
+      "FieldLength": 621
     }
   }
 }

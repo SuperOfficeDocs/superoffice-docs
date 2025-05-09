@@ -82,50 +82,50 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Prohaska, Corkery and Miller",
-      "Operator": "ad",
+      "Name": "Jaskolski Inc and Sons",
+      "Operator": "deserunt",
       "Values": [
-        "molestiae",
-        "animi"
+        "asperiores",
+        "et"
       ],
       "DisplayValues": [
-        "laboriosam",
-        "sint"
+        "sapiente",
+        "quam"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 563,
+      "InterParenthesis": 830,
       "InterOperator": "And",
-      "UniqueHash": 890
+      "UniqueHash": 522
     }
   ],
-  "ProviderName": "O'Hara Group",
+  "ProviderName": "Effertz, Kiehn and Ernser",
   "DesiredColumns": [
-    "quia",
-    "sint"
+    "et",
+    "dolor"
   ],
   "OrderBy": [
     {
-      "Name": "Braun, Hickle and Hilll",
+      "Name": "Veum-Gottlieb",
       "Direction": "ASC"
     },
     {
-      "Name": "Braun, Hickle and Hilll",
+      "Name": "Veum-Gottlieb",
       "Direction": "ASC"
     }
   ],
-  "PageSize": 683,
-  "PageNumber": 553
+  "PageSize": 373,
+  "PageNumber": 398
 }
 ```
 
@@ -138,51 +138,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Hodkiewicz, Rau and Parker",
-      "DisplayTooltip": "sed",
-      "DisplayType": "accusantium",
-      "CanOrderBy": true,
-      "Name": "Ratke-Mante",
+      "DisplayName": "Ryan, Rempel and Corkery",
+      "DisplayTooltip": "rerum",
+      "DisplayType": "optio",
+      "CanOrderBy": false,
+      "Name": "Kling, Deckow and Hyatt",
       "CanRestrictBy": false,
-      "RestrictionType": "molestias",
-      "RestrictionListName": "Roberts, Prohaska and Shields",
+      "RestrictionType": "ullam",
+      "RestrictionListName": "Pollich, Nolan and Streich",
       "IsVisible": true,
-      "ExtraInfo": "quia",
-      "Width": "eligendi",
-      "IconHint": "quaerat",
-      "HeadingIconHint": "enim"
+      "ExtraInfo": "ut",
+      "Width": "dolor",
+      "IconHint": "saepe",
+      "HeadingIconHint": "cum"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Waters-Leffler",
-      "PrimaryKey": 358,
+      "EntityName": "Christiansen, Koelpin and Turner",
+      "PrimaryKey": 381,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "et",
-          "TooltipHint": "adipisci",
-          "LinkHint": "et"
+          "DisplayValue": "aut",
+          "TooltipHint": "nihil",
+          "LinkHint": "libero"
         }
       },
-      "LinkHint": "qui",
-      "StyleHint": "dolorum",
+      "LinkHint": "cum",
+      "StyleHint": "incidunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 176
+          "FieldLength": 566
         }
       }
     }
   ],
-  "RowCount": 508,
+  "RowCount": 57,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 404
+      "FieldType": "System.Int32",
+      "FieldLength": 919
     }
   }
 }

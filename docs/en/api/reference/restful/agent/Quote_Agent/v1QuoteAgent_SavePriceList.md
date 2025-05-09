@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/Quote/SavePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 619,
-  "ERPPriceListKey": "libero",
-  "QuoteConnectionId": 642,
-  "Name": "O'Reilly Inc and Sons",
-  "Description": "Fully-configurable 6th generation array",
-  "Currency": "in",
-  "CurrencyName": "Kuhic LLC",
-  "ValidFrom": "1997-12-11T13:14:00.9702863+01:00",
-  "ValidTo": "2021-09-04T13:14:00.9702863+02:00",
+  "PriceListId": 149,
+  "ERPPriceListKey": "cupiditate",
+  "QuoteConnectionId": 159,
+  "Name": "Larkin, Lang and Leannon",
+  "Description": "Profit-focused discrete solution",
+  "Currency": "voluptatem",
+  "CurrencyName": "Larkin, Rau and Murray",
+  "ValidFrom": "2018-10-08T16:32:39.6958859+02:00",
+  "ValidTo": "1998-05-04T16:32:39.6958859+02:00",
   "IsActive": false
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 552,
-  "ERPPriceListKey": "omnis",
-  "QuoteConnectionId": 217,
-  "Name": "Monahan-Torphy",
-  "Description": "Polarised motivating secured line",
-  "Currency": "natus",
-  "CurrencyName": "Beatty-Wunsch",
-  "ValidFrom": "2000-11-25T13:14:00.9702863+01:00",
-  "ValidTo": "2002-01-15T13:14:00.9702863+01:00",
-  "IsActive": false,
+  "PriceListId": 545,
+  "ERPPriceListKey": "totam",
+  "QuoteConnectionId": 713,
+  "Name": "Vandervort-Moore",
+  "Description": "Synergistic context-sensitive superstructure",
+  "Currency": "fugit",
+  "CurrencyName": "Mayer, Price and Christiansen",
+  "ValidFrom": "2002-11-16T16:32:39.6958859+01:00",
+  "ValidTo": "2020-09-10T16:32:39.6958859+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 961
+      "FieldLength": 472
     }
   }
 }

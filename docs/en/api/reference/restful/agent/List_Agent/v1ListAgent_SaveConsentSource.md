@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 989,
-  "Name": "Kertzmann Group",
-  "Tooltip": "vero",
-  "Rank": 186,
-  "Key": "cumque",
-  "MailTemplateId": 330,
-  "Deleted": true,
+  "ConsentSourceId": 294,
+  "Name": "Hegmann-Streich",
+  "Tooltip": "harum",
+  "Rank": 688,
+  "Key": "ab",
+  "MailTemplateId": 5,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 318
+      "FieldLength": 815
     }
   }
 }

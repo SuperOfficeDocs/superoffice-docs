@@ -101,40 +101,40 @@ HTTP/1.1 200 TicketTypeEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 199,
-  "Name": "Cormier, Bahringer and Kerluke",
-  "Rank": 632,
-  "Tooltip": "aut",
-  "Icon": "autem",
-  "DefaultTicketStatus": 233,
+  "TicketTypeId": 348,
+  "Name": "Boehm, Lakin and Senger",
+  "Rank": 523,
+  "Tooltip": "quia",
+  "Icon": "ab",
+  "DefaultTicketStatus": 841,
   "TicketStatuses": [
-    269,
-    360
+    253,
+    36
   ],
-  "DefaultTicketPriority": 651,
+  "DefaultTicketPriority": 751,
   "TicketPriorities": [
-    657,
-    965
+    393,
+    588
   ],
-  "ReplyTemplate": 870,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 195,
+  "IsExternalVisible": false,
   "IsDefault": true,
   "ShowInNew": false,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": true,
   "VisibleForGroups": [
-    511,
-    355
+    202,
+    786
   ],
-  "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false,
+  "ReplyForwardNoSignature": true,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 896
+      "FieldType": "System.String",
+      "FieldLength": 808
     }
   },
   "_Links": {

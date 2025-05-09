@@ -95,12 +95,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Jewess, Durgan and Price",
-  "ForceFlatList": true,
-  "AdditionalInfo": "in",
+  "Name": "Powlowski Inc and Sons",
+  "ForceFlatList": false,
+  "AdditionalInfo": "nesciunt",
   "HistoryItems": [
-    607,
-    73
+    390,
+    646
   ],
   "OnlyHistory": false
 }
@@ -114,56 +114,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 74,
-    "Name": "Kihn-Satterfield",
-    "ToolTip": "Occaecati sit.",
+    "Id": 211,
+    "Name": "Gerhold-Collins",
+    "ToolTip": "Beatae deleniti voluptatem animi.",
     "Deleted": true,
-    "Rank": 79,
-    "Type": "doloremque",
-    "ColorBlock": 125,
-    "IconHint": "iusto",
+    "Rank": 961,
+    "Type": "accusamus",
+    "ColorBlock": 750,
+    "IconHint": "est",
     "Selected": true,
-    "LastChanged": "2017-07-23T13:14:00.7043711+02:00",
+    "LastChanged": "2010-03-26T16:32:39.3675885+01:00",
     "ChildItems": [
       {
-        "Id": 661,
-        "Name": "Mayert LLC",
-        "ToolTip": "Mollitia totam est.",
+        "Id": 711,
+        "Name": "Oberbrunner Group",
+        "ToolTip": "Ut molestiae temporibus et magnam.",
         "Deleted": false,
-        "Rank": 857,
-        "Type": "alias",
-        "ColorBlock": 649,
-        "IconHint": "quia",
+        "Rank": 827,
+        "Type": "sunt",
+        "ColorBlock": 707,
+        "IconHint": "unde",
         "Selected": false,
-        "LastChanged": "2015-05-13T13:14:00.7043711+02:00",
+        "LastChanged": "2002-10-29T16:32:39.3675885+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "quis",
-        "Hidden": false,
-        "FullName": "Jimmy Braeden Douglas Jr.",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Mr. Herta Luz Tillman V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 462
+            "FieldType": "System.Int32",
+            "FieldLength": 28
           }
         }
       }
     ],
-    "ExtraInfo": "impedit",
-    "StyleHint": "hic",
-    "Hidden": false,
-    "FullName": "Keshaun Schowalter",
+    "ExtraInfo": "aut",
+    "StyleHint": "in",
+    "Hidden": true,
+    "FullName": "Mrs. Adeline Yundt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 128
+        "FieldLength": 959
       }
     }
   }

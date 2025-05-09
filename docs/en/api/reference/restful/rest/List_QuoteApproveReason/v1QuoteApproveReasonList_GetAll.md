@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 768,
-    "Name": "Gutmann, Schiller and Skiles",
-    "Tooltip": "veniam",
-    "Deleted": true,
-    "UdListDefinitionId": 936,
-    "Rank": 96,
+    "Id": 282,
+    "Name": "Schmidt, Erdman and Tromp",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "UdListDefinitionId": 110,
+    "Rank": 75,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 852
+        "FieldLength": 700
       }
     }
   }

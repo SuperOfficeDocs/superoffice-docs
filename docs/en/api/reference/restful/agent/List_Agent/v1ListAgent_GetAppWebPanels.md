@@ -97,34 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 364,
-    "Name": "Hilpert, Ankunding and Swift",
-    "Tooltip": "eveniet",
+    "WebPanelId": 373,
+    "Name": "Tillman Inc and Sons",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 555,
+    "Rank": 960,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
     "OnSatellite": false,
-    "OnTravel": true,
+    "OnTravel": false,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
     "ShowInMenuBar": false,
     "ShowInToolBar": false,
     "ShowInAddressBar": false,
-    "ShowInStatusBar": false,
-    "WindowName": "Zieme-O'Connell",
+    "ShowInStatusBar": true,
+    "WindowName": "O'Conner-Gislason",
     "Url": "http://www.example.com/",
-    "ProgId": "placeat",
-    "Icon": 725,
-    "AlwaysReloadOnShow": true,
+    "ProgId": "eligendi",
+    "Icon": 442,
+    "AlwaysReloadOnShow": false,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 211
+        "FieldType": "System.Int32",
+        "FieldLength": 148
       }
     }
   }

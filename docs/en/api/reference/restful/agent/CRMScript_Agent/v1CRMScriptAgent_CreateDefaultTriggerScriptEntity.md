@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 225,
-  "Name": "Witting, Emmerich and Becker",
+  "ScreenChooserId": 349,
+  "Name": "Cassin LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "quia",
-  "Source": "illum",
-  "Registered": "2010-02-23T13:14:00.0033265+01:00",
-  "RegisteredAssociateId": 509,
-  "Updated": "2017-07-26T13:14:00.0033265+02:00",
-  "UpdatedAssociateId": 886,
+  "Enabled": false,
+  "UniqueIdentifier": "quas",
+  "Source": "at",
+  "Registered": "2017-10-27T16:32:38.5552758+02:00",
+  "RegisteredAssociateId": 464,
+  "Updated": "2003-09-15T16:32:38.5552758+02:00",
+  "UpdatedAssociateId": 596,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 481
+      "FieldType": "System.Int32",
+      "FieldLength": 199
     }
   }
 }

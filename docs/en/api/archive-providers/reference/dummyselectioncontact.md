@@ -298,9 +298,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/probPercent|int|Probability as %: Probability as %| x |
 |sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
 |sale/stage|listAny|Stage: Displays the stage of the sale| x |
+|sale/stageName| *None* |Stage name: Displays the stage of the sale| x |
 |sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
 |sale/stageRank| *None* |Stage rank: Rank of the sale stage in the stage list| x |
 |sale/saleType|listAny|Sale type: Sale type, from list| x |
+|sale/saleTypeId| *None* |Sale type ID: Sale type, from list| x |
+|sale/stageId| *None* |Sale stage ID: Displays the stage of the sale| x |
 |sale/nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
 |sale/reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
 |sale/stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
@@ -324,13 +327,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/salePublish/publishedBy| *None* |Published by: Published by|  |
 |sale/associate/firstName|string|First name: Displays the contact's first name| x |
 |sale/associate/lastName|string|Last name: Displays the contact's last name| x |
-|sale/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
-|sale/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|sale/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
+|sale/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|sale/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |sale/associate/personId|int|Contact ID: Database ID of the contact row|  |
 |sale/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |sale/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
@@ -390,6 +393,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |appointment/endDate|date|End date: Displays the deadline for a follow-up/sale| x |
 |appointment/priority|listAny|Priority: Displays the priority of the activity| x |
 |appointment/alarm|bool|Has alarm: Displays the alarm state of a follow-up| x |
+|appointment/isFree|bool|Is free: Displays whether the appointment should be considered free or busy| x |
 |appointment/recurring|bool|Repeating: Displays an icon indicating if the follow-up is part of a repeating follow-up| x |
 |appointment/booking|bool|Invitation: Displays an icon if the follow-up is an invitation. All invitations will be displayed in a tooltip.| x |
 |appointment/intention|listAny|Intention: Displays the intention of the follow-up type| x |
@@ -427,14 +431,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |appointment/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |appointment/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |appointment/associate/personId|int|Contact ID: Database ID of the contact row|  |
-|appointment/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|appointment/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
-|appointment/associate/associateDbId|associate|ID| x |
-|appointment/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|appointment/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
+|appointment/associate/associateDbId|associate|ID| x |
+|appointment/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |appointment/associate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |appointment/associate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |appointment/associate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
@@ -531,14 +535,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |document/associate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |document/associate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |document/associate/portraitThumbnail| *None* |Person image: Person image|  |
-|document/associate/otherGroups|userGroup|Other groups: Other groups|  |
-|document/associate/userName|string|User name: User name| x |
-|document/associate/personEmail|string|E-mail| x |
-|document/associate/locationAddress|string|Location: Location| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/associate/otherGroups|userGroup|Other groups: Other groups|  |
+|document/associate/userName|string|User name: User name| x |
+|document/associate/personEmail|string|E-mail| x |
+|document/associate/locationAddress|string|Location: Location| x |
 |document/associate/isLocation|bool|Is a location: Is a location| x |
 |document/documentUdef/SuperOffice:1|string|documentshorttext| x |
 |document/documentUdef/SuperOffice:2|string|documentlongtext| x |
@@ -554,7 +558,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/DummySelectionContact?$select=contactExtra/x_contact_time,saintDirection,sale/registeredDate
+GET /api/v1/archive/DummySelectionContact?$select=streetAddress/city,contactAssociate/ejDisplayName,NumberOfNotCompletedActivities,sourceRelation/category,document/associate/contactCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

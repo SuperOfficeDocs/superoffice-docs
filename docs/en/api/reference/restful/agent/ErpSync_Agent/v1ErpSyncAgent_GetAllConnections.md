@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,33 +105,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 96,
-    "ErpConnectorId": 18,
-    "DisplayName": "Buckridge Group",
-    "DisplayDescription": "Stand-alone heuristic approach",
+    "ErpConnectionId": 528,
+    "ErpConnectorId": 509,
+    "DisplayName": "Ziemann, O'Connell and Schiller",
+    "DisplayDescription": "Pre-emptive zero administration attitude",
     "Active": false,
-    "ConnectionId": "animi",
-    "MostRecentTimestamp": "numquam",
+    "ConnectionId": "sunt",
+    "MostRecentTimestamp": "atque",
     "ConfigFields": {
-      "ConfigFields1": "in",
-      "ConfigFields2": "mollitia"
+      "ConfigFields1": "qui",
+      "ConfigFields2": "excepturi"
     },
-    "Deleted": true,
-    "AllAccess": false,
+    "Deleted": false,
+    "AllAccess": true,
     "UserGroupAccessIds": [
-      953,
-      968
+      876,
+      102
     ],
     "AssociateAccessIds": [
-      898,
-      567
+      14,
+      837
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 108
+        "FieldLength": 190
       }
     }
   }

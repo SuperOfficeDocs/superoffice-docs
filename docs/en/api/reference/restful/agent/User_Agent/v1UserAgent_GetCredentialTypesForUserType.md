@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "dolores",
-    "Type": "quis",
-    "Description": "Programmable secondary challenge",
+    "DisplayType": "eos",
+    "Type": "molestiae",
+    "Description": "Secured impactful groupware",
     "ValueControl": "Edit",
     "CanCreatePerson": false,
-    "IsUserNameSupported": false,
+    "IsUserNameSupported": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 510
+        "FieldLength": 10
       }
     }
   }

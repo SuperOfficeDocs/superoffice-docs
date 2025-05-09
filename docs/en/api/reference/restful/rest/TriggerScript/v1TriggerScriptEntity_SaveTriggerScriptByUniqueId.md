@@ -94,16 +94,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 865,
-  "Name": "Christiansen-Hyatt",
+  "ScreenChooserId": 162,
+  "Name": "Kassulke, Kuphal and Bogisich",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "amet",
-  "Source": "neque",
-  "Registered": "2021-01-10T13:14:09.3685305+01:00",
-  "RegisteredAssociateId": 914,
-  "Updated": "2013-10-30T13:14:09.3685305+01:00",
-  "UpdatedAssociateId": 534
+  "Enabled": true,
+  "UniqueIdentifier": "et",
+  "Source": "voluptatem",
+  "Registered": "2021-07-05T16:32:48.2745849+02:00",
+  "RegisteredAssociateId": 691,
+  "Updated": "1997-12-31T16:32:48.2745849+01:00",
+  "UpdatedAssociateId": 439
 }
 ```
 
@@ -114,22 +114,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 263,
-  "Name": "Dooley-Stroman",
+  "ScreenChooserId": 495,
+  "Name": "Torp-Cremin",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "sed",
-  "Source": "excepturi",
-  "Registered": "2002-12-12T13:14:09.3685305+01:00",
-  "RegisteredAssociateId": 108,
-  "Updated": "2000-03-04T13:14:09.3685305+01:00",
-  "UpdatedAssociateId": 705,
+  "Enabled": false,
+  "UniqueIdentifier": "quam",
+  "Source": "et",
+  "Registered": "2020-07-27T16:32:48.2745849+02:00",
+  "RegisteredAssociateId": 607,
+  "Updated": "2001-08-16T16:32:48.2745849+02:00",
+  "UpdatedAssociateId": 506,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 268
+      "FieldLength": 457
     }
   }
 }

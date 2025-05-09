@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 235,
-    "Name": "Ferry LLC",
-    "ToolTip": "Nobis impedit at quia dolore et vel.",
+    "Id": 298,
+    "Name": "Mayert, Stracke and Sawayn",
+    "ToolTip": "Perspiciatis eius et quo.",
     "Deleted": false,
-    "Rank": 372,
-    "Type": "illo",
-    "ColorBlock": 290,
-    "IconHint": "a",
-    "Selected": true,
-    "LastChanged": "2000-09-10T13:14:09.6191319+02:00",
+    "Rank": 575,
+    "Type": "quasi",
+    "ColorBlock": 517,
+    "IconHint": "quo",
+    "Selected": false,
+    "LastChanged": "2011-06-12T16:32:48.5245595+02:00",
     "ChildItems": [
       {
-        "Id": 633,
-        "Name": "Runolfsson-Ortiz",
-        "ToolTip": "Quo sed enim quos consequatur dolorem atque recusandae.",
-        "Deleted": false,
-        "Rank": 915,
-        "Type": "voluptatem",
-        "ColorBlock": 912,
-        "IconHint": "sed",
+        "Id": 129,
+        "Name": "Daugherty Group",
+        "ToolTip": "Dolores illum.",
+        "Deleted": true,
+        "Rank": 651,
+        "Type": "optio",
+        "ColorBlock": 211,
+        "IconHint": "neque",
         "Selected": false,
-        "LastChanged": "2011-12-02T13:14:09.6191319+01:00",
+        "LastChanged": "2011-04-10T16:32:48.5245595+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quisquam",
-        "StyleHint": "sequi",
+        "ExtraInfo": "dolor",
+        "StyleHint": "ducimus",
         "Hidden": false,
-        "FullName": "Guido Haag IV"
+        "FullName": "Jayme Buckridge"
       }
     ],
-    "ExtraInfo": "magnam",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "amet",
+    "StyleHint": "blanditiis",
     "Hidden": false,
-    "FullName": "Prof. Horace Carey Krajcik"
+    "FullName": "Litzy Marvin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 765,
-    "Name": "Pacocha-Schinner",
-    "ToolTip": "Tempora omnis.",
+    "Id": 70,
+    "Name": "Gorczany-Reynolds",
+    "ToolTip": "Iusto est odit ad rerum.",
     "Deleted": false,
-    "Rank": 708,
-    "Type": "non",
-    "ColorBlock": 972,
-    "IconHint": "id",
+    "Rank": 382,
+    "Type": "excepturi",
+    "ColorBlock": 874,
+    "IconHint": "perspiciatis",
     "Selected": false,
-    "LastChanged": "2017-01-25T13:14:09.6191319+01:00",
+    "LastChanged": "2001-04-07T16:32:48.5245595+02:00",
     "ChildItems": [
       {
-        "Id": 87,
-        "Name": "Carter-Flatley",
-        "ToolTip": "Natus enim.",
+        "Id": 812,
+        "Name": "Stroman-Romaguera",
+        "ToolTip": "Vitae asperiores dolores ut.",
         "Deleted": false,
-        "Rank": 33,
-        "Type": "ea",
-        "ColorBlock": 613,
-        "IconHint": "quidem",
-        "Selected": true,
-        "LastChanged": "2025-01-23T13:14:09.6191319+01:00",
+        "Rank": 805,
+        "Type": "numquam",
+        "ColorBlock": 660,
+        "IconHint": "maxime",
+        "Selected": false,
+        "LastChanged": "2023-08-07T16:32:48.5245595+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "adipisci",
+        "ExtraInfo": "tempore",
+        "StyleHint": "impedit",
         "Hidden": false,
-        "FullName": "Foster Moen",
+        "FullName": "Miss Gaetano Nestor Rosenbaum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 373
+            "FieldLength": 100
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "quis",
+    "ExtraInfo": "qui",
+    "StyleHint": "unde",
     "Hidden": false,
-    "FullName": "Ms. Joey Casimer Hackett Sr.",
+    "FullName": "Francisca Jerde",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 373
+        "FieldLength": 172
       }
     }
   }

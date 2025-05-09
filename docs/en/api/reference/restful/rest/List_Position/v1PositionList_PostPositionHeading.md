@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 508,
-  "Name": "Schaden, Fritsch and Christiansen",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 149,
-  "UdListDefinitionId": 191
+  "HeadingId": 484,
+  "Name": "Corwin, Buckridge and Hermann",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "Rank": 958,
+  "UdListDefinitionId": 312
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 975,
-  "Name": "Friesen Inc and Sons",
-  "Tooltip": "illum",
-  "Deleted": true,
-  "Rank": 405,
-  "UdListDefinitionId": 788,
+  "HeadingId": 357,
+  "Name": "Moore-Kovacek",
+  "Tooltip": "omnis",
+  "Deleted": false,
+  "Rank": 54,
+  "UdListDefinitionId": 535,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 925
+      "FieldLength": 251
     }
   }
 }

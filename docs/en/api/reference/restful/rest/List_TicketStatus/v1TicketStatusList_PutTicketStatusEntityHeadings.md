@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 697,
-    "Name": "Wilderman LLC",
-    "Tooltip": "nulla",
-    "Deleted": false,
-    "Rank": 483,
-    "UdListDefinitionId": 698
+    "HeadingId": 773,
+    "Name": "Halvorson-Rice",
+    "Tooltip": "ea",
+    "Deleted": true,
+    "Rank": 993,
+    "UdListDefinitionId": 51
   },
   {
-    "HeadingId": 697,
-    "Name": "Wilderman LLC",
-    "Tooltip": "nulla",
-    "Deleted": false,
-    "Rank": 483,
-    "UdListDefinitionId": 698
+    "HeadingId": 773,
+    "Name": "Halvorson-Rice",
+    "Tooltip": "ea",
+    "Deleted": true,
+    "Rank": 993,
+    "UdListDefinitionId": 51
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 31,
-    "Name": "Daniel-Bednar",
-    "Tooltip": "tempora",
-    "Deleted": true,
-    "Rank": 646,
-    "UdListDefinitionId": 581,
+    "HeadingId": 760,
+    "Name": "Gleason, Kshlerin and Ankunding",
+    "Tooltip": "commodi",
+    "Deleted": false,
+    "Rank": 687,
+    "UdListDefinitionId": 716,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 775
+        "FieldType": "System.Int32",
+        "FieldLength": 214
       }
     }
   }

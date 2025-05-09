@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 310,
-    "Name": "McGlynn Group",
-    "ToolTip": "Quis cum et minus minus debitis iure.",
+    "Id": 705,
+    "Name": "Thiel-Boyer",
+    "ToolTip": "Quia atque et praesentium illum.",
     "Deleted": false,
-    "Rank": 324,
-    "Type": "est",
-    "ColorBlock": 254,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2008-06-14T13:14:09.8847801+02:00",
+    "Rank": 103,
+    "Type": "dolor",
+    "ColorBlock": 971,
+    "IconHint": "perferendis",
+    "Selected": false,
+    "LastChanged": "2018-04-23T16:32:48.7745027+02:00",
     "ChildItems": [
       {
-        "Id": 431,
-        "Name": "Leuschke, Beatty and Gleichner",
-        "ToolTip": "Et aliquid.",
+        "Id": 10,
+        "Name": "Powlowski, Romaguera and Toy",
+        "ToolTip": "Qui qui sapiente a voluptas corporis sequi.",
         "Deleted": false,
-        "Rank": 764,
-        "Type": "omnis",
-        "ColorBlock": 580,
-        "IconHint": "ad",
-        "Selected": false,
-        "LastChanged": "2000-07-23T13:14:09.8847801+02:00",
+        "Rank": 125,
+        "Type": "sit",
+        "ColorBlock": 400,
+        "IconHint": "tenetur",
+        "Selected": true,
+        "LastChanged": "2009-01-16T16:32:48.7745027+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "animi",
+        "ExtraInfo": "vitae",
+        "StyleHint": "eius",
         "Hidden": false,
-        "FullName": "Christelle Upton",
+        "FullName": "Lenore Hartmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 159
+            "FieldType": "System.Int32",
+            "FieldLength": 829
           }
         }
       }
     ],
-    "ExtraInfo": "quisquam",
-    "StyleHint": "officiis",
+    "ExtraInfo": "vel",
+    "StyleHint": "non",
     "Hidden": false,
-    "FullName": "Hassie Boyle",
+    "FullName": "Elmore Sauer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 737
+        "FieldLength": 238
       }
     }
   }

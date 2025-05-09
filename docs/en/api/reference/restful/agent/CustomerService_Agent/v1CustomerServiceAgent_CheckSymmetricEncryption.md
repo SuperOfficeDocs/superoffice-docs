@@ -72,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EncryptedString": "rerum"
+  "EncryptedString": "et"
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"sit"
+"nostrum"
 ```

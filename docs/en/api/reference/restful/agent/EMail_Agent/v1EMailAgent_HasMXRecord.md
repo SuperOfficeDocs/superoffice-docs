@@ -74,7 +74,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailDomain": "recusandae"
+  "MailDomain": "dolorem"
 }
 ```
 

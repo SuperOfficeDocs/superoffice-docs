@@ -1890,6 +1890,8 @@
     name: QuoteVersionQuoteAlternativeExtender
   - uid: SuperOffice.CRM.ArchiveLists.QuoteVersionQuoteExtender
     name: QuoteVersionQuoteExtender
+  - uid: SuperOffice.CRM.ArchiveLists.RecipientFavouritesProvider
+    name: RecipientFavouritesProvider
   - uid: SuperOffice.CRM.ArchiveLists.RecordTypeProvider
     name: RecordTypeProvider
   - uid: SuperOffice.CRM.ArchiveLists.RecursionInfo
@@ -6588,6 +6590,8 @@
     name: RatingStarsProvider
   - uid: SuperOffice.CRM.Lists.RatingThumbsProvider
     name: RatingThumbsProvider
+  - uid: SuperOffice.CRM.Lists.RecipientFavoriteListProvider
+    name: RecipientFavoriteListProvider
   - uid: SuperOffice.CRM.Lists.RecurrenceEveryMonthProvider
     name: RecurrenceEveryMonthProvider
   - uid: SuperOffice.CRM.Lists.RecurrenceWeekCycleProvider
@@ -17666,6 +17670,8 @@
     name: TextTooltipPlugin
   - uid: SuperOffice.CRM.Tooltips.TicketPriorityTooltipPlugin
     name: TicketPriorityTooltipPlugin
+  - uid: SuperOffice.CRM.Tooltips.TicketReadStatusTooltipPlugin
+    name: TicketReadStatusTooltipPlugin
   - uid: SuperOffice.CRM.Tooltips.TicketStatusTooltipPlugin
     name: TicketStatusTooltipPlugin
   - uid: SuperOffice.CRM.Tooltips.TicketTooltipPlugin
@@ -18798,6 +18804,8 @@
     name: HasAny
   - uid: SuperOffice.Data.SQL.HasFlag
     name: HasFlag
+  - uid: SuperOffice.Data.SQL.HasNoFlag
+    name: HasNoFlag
   - uid: SuperOffice.Data.SQL.Having
     name: Having
   - uid: SuperOffice.Data.SQL.Hour
@@ -19453,8 +19461,6 @@
     name: DiskFileAccess
   - uid: SuperOffice.IO.Files.IFileAccess
     name: IFileAccess
-  - uid: SuperOffice.IO.Files.SoArcConfiguration
-    name: SoArcConfiguration
   - uid: SuperOffice.IO.Files.SoFileInfo
     name: SoFileInfo
 - uid: SuperOffice.License
@@ -20038,6 +20044,8 @@
     name: VideoMeetingHelper
   - uid: SuperOffice.Util.VideoMeetingHelper.SoAppointment
     name: VideoMeetingHelper.SoAppointment
+  - uid: SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation
+    name: VideoMeetingHelper.VideoMeetingReservation
   - uid: SuperOffice.Util.VisitorPatternHelper`1
     name: VisitorPatternHelper<ReturnType>
     name.vb: VisitorPatternHelper(Of ReturnType)

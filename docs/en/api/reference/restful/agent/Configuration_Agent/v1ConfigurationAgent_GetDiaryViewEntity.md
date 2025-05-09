@@ -26,7 +26,7 @@ Gets a DiaryViewEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetDiaryViewEntity?diaryViewEntityId=5
+POST /api/v1/Agents/Configuration/GetDiaryViewEntity?diaryViewEntityId=579
 POST /api/v1/Agents/Configuration/GetDiaryViewEntity?$select=name,department,category/id
 ```
 
@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Configuration/GetDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,49 +84,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 368,
-  "Name": "Schmeler, Kassulke and Carter",
-  "Tooltip": "beatae",
-  "VisibleColumns": 750,
-  "Rank": 988,
-  "AssocId": 472,
+  "DiaryViewId": 929,
+  "Name": "Wuckert, Vandervort and Wiza",
+  "Tooltip": "quia",
+  "VisibleColumns": 236,
+  "Rank": 795,
+  "AssocId": 523,
   "AssociateList": [
     {
-      "Id": 110,
-      "Name": "White-Upton",
-      "ToolTip": "Nostrum aut nisi necessitatibus qui est quo.",
-      "Deleted": false,
-      "Rank": 849,
-      "Type": "qui",
-      "ColorBlock": 63,
-      "IconHint": "accusantium",
+      "Id": 716,
+      "Name": "Spinka-Nitzsche",
+      "ToolTip": "Perferendis dolorem similique est.",
+      "Deleted": true,
+      "Rank": 143,
+      "Type": "voluptatem",
+      "ColorBlock": 332,
+      "IconHint": "id",
       "Selected": false,
-      "LastChanged": "2012-09-17T13:13:59.7038141+02:00",
+      "LastChanged": "2008-02-07T16:32:38.3834375+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "velit",
-      "StyleHint": "laborum",
-      "Hidden": false,
-      "FullName": "Tierra Waelchi",
+      "ExtraInfo": "ut",
+      "StyleHint": "aliquid",
+      "Hidden": true,
+      "FullName": "Nikki Baumbach",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 216
+          "FieldType": "System.String",
+          "FieldLength": 372
         }
       }
     }
   ],
-  "TzLocationId": 391,
+  "TzLocationId": 717,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 531
+      "FieldLength": 197
     }
   }
 }

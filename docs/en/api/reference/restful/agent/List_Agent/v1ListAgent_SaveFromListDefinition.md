@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/List/SaveFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 58,
-  "UdListDefinitionId": 232,
+  "Id": 460,
+  "UdListDefinitionId": 506,
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 201,
-  "Name": "Bashirian-Cruickshank",
-  "Tooltip": "nulla",
-  "Deleted": true,
-  "UdListDefinitionId": 997,
-  "Rank": 609,
+  "Id": 699,
+  "Name": "Ullrich-Wunsch",
+  "Tooltip": "omnis",
+  "Deleted": false,
+  "UdListDefinitionId": 768,
+  "Rank": 279,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 379
+      "FieldLength": 422
     }
   }
 }

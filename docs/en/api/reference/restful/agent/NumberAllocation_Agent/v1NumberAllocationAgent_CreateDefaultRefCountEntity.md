@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,49 +77,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 703,
-  "Field": "nobis",
-  "RecordId": 247,
+  "RefCountsId": 333,
+  "Field": "est",
+  "RecordId": 157,
   "SuggestedRecords": [
     {
-      "Id": 149,
-      "Name": "Durgan Group",
-      "ToolTip": "Corporis facere voluptatum voluptatibus et.",
+      "Id": 951,
+      "Name": "Armstrong Group",
+      "ToolTip": "At architecto cupiditate libero perspiciatis quam accusamus.",
       "Deleted": false,
-      "Rank": 765,
-      "Type": "quas",
+      "Rank": 15,
+      "Type": "facere",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ut",
-      "ColorBlock": 700,
-      "ExtraInfo": "quisquam",
-      "StyleHint": "perferendis",
-      "FullName": "Sterling Barton",
+      "IconHint": "corrupti",
+      "ColorBlock": 494,
+      "ExtraInfo": "et",
+      "StyleHint": "nihil",
+      "FullName": "Emil Dooley",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 578
+          "FieldLength": 722
         }
       }
     }
   ],
-  "CurrentValue": 102,
-  "TravelPrefix": 64,
-  "SatPrefix": 464,
+  "CurrentValue": 990,
+  "TravelPrefix": 132,
+  "SatPrefix": 17,
   "Allocate": false,
   "Unique": false,
-  "ReadOnly": false,
-  "AllowBlank": false,
+  "ReadOnly": true,
+  "AllowBlank": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 461
+      "FieldLength": 782
     }
   }
 }

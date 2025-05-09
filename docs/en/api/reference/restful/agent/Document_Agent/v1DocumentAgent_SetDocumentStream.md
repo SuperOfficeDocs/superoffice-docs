@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -127,88 +127,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 959,
+  "DocumentId": 390,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quia",
-  "Header": "temporibus",
-  "Name": "Dooley Inc and Sons",
-  "OurRef": "dolorem",
-  "YourRef": "libero",
-  "CreatedDate": "2014-12-30T13:14:00.1569702+01:00",
-  "UpdatedDate": "2013-07-31T13:14:00.1569702+02:00",
-  "Description": "Realigned bifurcated emulation",
+  "Attention": "nihil",
+  "Header": "et",
+  "Name": "D'Amore-Harber",
+  "OurRef": "et",
+  "YourRef": "omnis",
+  "CreatedDate": "2025-03-06T16:32:38.8364322+01:00",
+  "UpdatedDate": "2006-01-03T16:32:38.8364322+01:00",
+  "Description": "Ergonomic fresh-thinking analyzer",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2001-08-25T13:14:00.1725959+02:00",
-  "ExternalRef": "expedita",
+  "Date": "2016-04-26T16:32:38.8364322+02:00",
+  "ExternalRef": "repudiandae",
   "Completed": "Completed",
-  "ActiveLinks": 15,
+  "ActiveLinks": 137,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kutch-Strosin",
-      "Id": 134,
-      "Description": "Exclusive empowering throughput",
-      "ExtraInfo": "quo",
-      "LinkId": 497,
+      "EntityName": "Renner, Pollich and Oberbrunner",
+      "Id": 912,
+      "Description": "Multi-lateral uniform array",
+      "ExtraInfo": "et",
+      "LinkId": 970,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 838
+          "FieldLength": 496
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 283,
-  "Snum": 650,
+  "SuggestedDocumentId": 342,
+  "Snum": 172,
   "UserDefinedFields": {
-    "SuperOffice:1": "Lupe Hauck",
-    "SuperOffice:2": "443477421"
+    "SuperOffice:1": "1162346473",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "illum",
-    "ExtraFields2": "at"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "nesciunt"
   },
   "CustomFields": {
-    "CustomFields1": "laudantium",
-    "CustomFields2": "eum"
+    "CustomFields1": "officia",
+    "CustomFields2": "corrupti"
   },
-  "PublishEventDate": "2003-06-16T13:14:00.1725959+02:00",
-  "PublishTo": "2011-01-08T13:14:00.1725959+01:00",
-  "PublishFrom": "2007-06-17T13:14:00.1725959+02:00",
+  "PublishEventDate": "2024-11-11T16:32:38.8364322+01:00",
+  "PublishTo": "2019-03-30T16:32:38.8364322+01:00",
+  "PublishFrom": "2022-01-23T16:32:38.8364322+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 124,
+      "VisibleId": 440,
       "Visibility": "All",
-      "DisplayValue": "sunt",
+      "DisplayValue": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 428
+          "FieldLength": 810
         }
       }
     },
     {
-      "VisibleId": 124,
+      "VisibleId": 440,
       "Visibility": "All",
-      "DisplayValue": "sunt",
+      "DisplayValue": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 428
+          "FieldLength": 810
         }
       }
     }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 664
+      "FieldLength": 410
     }
   }
 }

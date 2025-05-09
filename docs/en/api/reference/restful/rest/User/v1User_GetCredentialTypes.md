@@ -62,7 +62,7 @@ OK
 GET /api/v1/User/CredentialTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "eos",
-    "Type": "consequatur",
-    "Description": "Optional contextually-based leverage",
+    "DisplayType": "voluptatem",
+    "Type": "fugit",
+    "Description": "Expanded bi-directional contingency",
     "ValueControl": "Edit",
-    "CanCreatePerson": true,
-    "IsUserNameSupported": true,
+    "CanCreatePerson": false,
+    "IsUserNameSupported": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 187
+        "FieldType": "System.String",
+        "FieldLength": 157
       }
     }
   }

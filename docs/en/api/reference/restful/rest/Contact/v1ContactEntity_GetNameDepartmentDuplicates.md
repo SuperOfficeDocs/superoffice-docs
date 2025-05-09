@@ -29,7 +29,7 @@ Get duplicates based on the contact name and department
 | department | string |  Department used for lookup (if any) |
 
 ```http
-GET /api/v1/Contact/Duplicates/{name}?department=rem
+GET /api/v1/Contact/Duplicates/{name}?department=deleniti
 ```
 
 
@@ -73,7 +73,7 @@ OK
 GET /api/v1/Contact/Duplicates/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,17 +84,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "McGlynn Group",
-    "SoPrimaryKey": 41,
-    "EntryName": "Bins, Heathcote and Strosin",
-    "EntryIdentifier": "nostrum",
-    "RuleDisplayName": "Lubowitz Inc and Sons",
+    "RuleName": "Lindgren-King",
+    "SoPrimaryKey": 328,
+    "EntryName": "Tillman-Schmidt",
+    "EntryIdentifier": "qui",
+    "RuleDisplayName": "Weissnat, Ziemann and Lockman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 381
+        "FieldLength": 481
       }
     }
   }

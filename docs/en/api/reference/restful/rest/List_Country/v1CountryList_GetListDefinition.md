@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 256,
-  "Name": "Brakus, Walsh and Lebsack",
-  "Tooltip": "atque",
-  "Deleted": false,
-  "Rank": 149,
+  "Id": 421,
+  "Name": "Rohan, Schuppe and Fadel",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 544,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "aut",
+  "UseGroupsAndHeadings": true,
+  "ListType": "et",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 597
+      "FieldType": "System.String",
+      "FieldLength": 742
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

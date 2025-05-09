@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 460,
-  "Name": "Jakubowski-Rowe",
-  "Tooltip": "aspernatur",
-  "Deleted": false,
-  "UdListDefinitionId": 89,
-  "Rank": 871,
+  "Id": 716,
+  "Name": "Mohr, Kirlin and Hansen",
+  "Tooltip": "maiores",
+  "Deleted": true,
+  "UdListDefinitionId": 400,
+  "Rank": 356,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 326
+      "FieldType": "System.String",
+      "FieldLength": 302
     }
   }
 }

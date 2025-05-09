@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 852,
-    "Name": "Schinner, Windler and Raynor",
-    "Tooltip": "voluptates",
-    "Deleted": false,
-    "Rank": 823,
-    "UdListDefinitionId": 304
+    "HeadingId": 687,
+    "Name": "Roberts, Carroll and Parker",
+    "Tooltip": "consequatur",
+    "Deleted": true,
+    "Rank": 379,
+    "UdListDefinitionId": 296
   },
   {
-    "HeadingId": 852,
-    "Name": "Schinner, Windler and Raynor",
-    "Tooltip": "voluptates",
-    "Deleted": false,
-    "Rank": 823,
-    "UdListDefinitionId": 304
+    "HeadingId": 687,
+    "Name": "Roberts, Carroll and Parker",
+    "Tooltip": "consequatur",
+    "Deleted": true,
+    "Rank": 379,
+    "UdListDefinitionId": 296
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 416,
-    "Name": "Trantow, Abshire and Wunsch",
-    "Tooltip": "voluptas",
+    "HeadingId": 223,
+    "Name": "O'Conner Inc and Sons",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 716,
-    "UdListDefinitionId": 111,
+    "Rank": 961,
+    "UdListDefinitionId": 634,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 101
+        "FieldLength": 455
       }
     }
   }

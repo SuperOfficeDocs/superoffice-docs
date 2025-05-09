@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 797,
-    "Name": "Lesch-Rohan",
-    "Tooltip": "repudiandae",
+    "Id": 794,
+    "Name": "Flatley LLC",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "UdListDefinitionId": 379,
-    "Rank": 783
+    "UdListDefinitionId": 980,
+    "Rank": 884
   },
   {
-    "Id": 797,
-    "Name": "Lesch-Rohan",
-    "Tooltip": "repudiandae",
+    "Id": 794,
+    "Name": "Flatley LLC",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "UdListDefinitionId": 379,
-    "Rank": 783
+    "UdListDefinitionId": 980,
+    "Rank": 884
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 828,
-    "Name": "Murray Group",
-    "Tooltip": "molestiae",
+    "Id": 483,
+    "Name": "Veum Group",
+    "Tooltip": "recusandae",
     "Deleted": false,
-    "UdListDefinitionId": 760,
-    "Rank": 114,
+    "UdListDefinitionId": 675,
+    "Rank": 180,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 959
+        "FieldLength": 292
       }
     }
   }

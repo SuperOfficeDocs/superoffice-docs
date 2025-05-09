@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 380,
-    "Name": "Will LLC",
-    "Tooltip": "reiciendis",
+    "HeadingId": 914,
+    "Name": "Bode LLC",
+    "Tooltip": "mollitia",
     "Deleted": false,
-    "Rank": 997,
-    "UdListDefinitionId": 360,
+    "Rank": 338,
+    "UdListDefinitionId": 668,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 996
+        "FieldLength": 795
       }
     }
   }

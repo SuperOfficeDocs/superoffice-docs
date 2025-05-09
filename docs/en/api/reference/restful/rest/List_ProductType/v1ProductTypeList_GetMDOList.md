@@ -26,8 +26,8 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductType/MDOItems?flat=False
-GET /api/v1/List/ProductType/MDOItems?query=ut
+GET /api/v1/List/ProductType/MDOItems?flat=True
+GET /api/v1/List/ProductType/MDOItems?query=et
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 591,
-    "Name": "Kuvalis-Emard",
-    "ToolTip": "Veritatis quae.",
-    "Deleted": false,
-    "Rank": 643,
-    "Type": "dolor",
+    "Id": 481,
+    "Name": "Stamm, Bins and McDermott",
+    "ToolTip": "Deleniti perferendis inventore eum tempora minima qui.",
+    "Deleted": true,
+    "Rank": 242,
+    "Type": "cum",
     "ChildItems": [
       {
-        "Id": 805,
-        "Name": "Koelpin LLC",
-        "ToolTip": "Qui sint consequatur magnam et sit modi voluptatibus.",
+        "Id": 116,
+        "Name": "Hamill-Kirlin",
+        "ToolTip": "Quos sunt enim consequatur nihil aut.",
         "Deleted": false,
-        "Rank": 525,
-        "Type": "accusantium",
+        "Rank": 436,
+        "Type": "iste",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "vel",
-        "ColorBlock": 69,
-        "ExtraInfo": "velit",
-        "StyleHint": "atque",
-        "FullName": "Murray Casper",
+        "IconHint": "iure",
+        "ColorBlock": 958,
+        "ExtraInfo": "maxime",
+        "StyleHint": "enim",
+        "FullName": "Dr. Nelson Quigley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 835
+            "FieldLength": 215
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 208,
-    "ExtraInfo": "debitis",
-    "StyleHint": "laboriosam",
-    "FullName": "Favian Camryn Greenfelder V",
+    "IconHint": "dolorem",
+    "ColorBlock": 103,
+    "ExtraInfo": "at",
+    "StyleHint": "beatae",
+    "FullName": "Elmore Rippin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 757
+        "FieldType": "System.Int32",
+        "FieldLength": 514
       }
     }
   }

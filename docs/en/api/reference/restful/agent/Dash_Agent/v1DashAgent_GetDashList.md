@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/Dash/GetDashList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    899,
-    325
+    798,
+    263
   ]
 }
 ```
@@ -104,37 +104,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 794,
-    "UniqueId": "laudantium",
-    "Name": "Watsica Group",
-    "Description": "Future-proofed methodical neural-net",
-    "AssociateId": 801,
-    "Columns": 932,
+    "DashboardId": 39,
+    "UniqueId": "quas",
+    "Name": "Mertz Inc and Sons",
+    "Description": "Open-architected uniform customer loyalty",
+    "AssociateId": 468,
+    "Columns": 613,
     "Theme": null,
-    "VisibleForAll": 251,
+    "VisibleForAll": 402,
     "VisibleForAssociates": [
-      330,
-      146
+      363,
+      66
     ],
     "VisibleForGroups": [
-      976,
-      36
+      847,
+      673
     ],
-    "PinForAll": 197,
+    "PinForAll": 593,
     "PinForAssociates": [
-      81,
-      253
+      181,
+      790
     ],
     "PinForGroups": [
-      793,
-      487
+      988,
+      106
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 1001
+        "FieldLength": 904
       }
     }
   }

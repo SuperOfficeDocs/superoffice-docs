@@ -81,21 +81,21 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 22,
+  "SelectionId": 480,
   "Criteria": [
     {
-      "Name": "Barrows, Hilpert and Flatley",
-      "Description": "Organic neutral orchestration",
-      "Rank": 671,
+      "Name": "Mills-O'Hara",
+      "Description": "Exclusive homogeneous methodology",
+      "Rank": 591,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Barrows, Hilpert and Flatley",
-      "Description": "Organic neutral orchestration",
-      "Rank": 671,
+      "Name": "Mills-O'Hara",
+      "Description": "Exclusive homogeneous methodology",
+      "Rank": 591,
       "Restrictions": [
         {},
         {}
@@ -113,58 +113,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "O'Kon Inc and Sons",
-    "Description": "Triple-buffered empowering encryption",
-    "Rank": 925,
+    "Name": "Murazik, Keeling and Treutel",
+    "Description": "Compatible uniform framework",
+    "Rank": 152,
     "Restrictions": [
       {
-        "Name": "Johns LLC",
-        "Operator": "ipsum",
+        "Name": "Jones, Botsford and Cartwright",
+        "Operator": "deserunt",
         "Values": [
-          "ipsam",
-          "nihil"
+          "omnis",
+          "laudantium"
         ],
         "DisplayValues": [
-          "et",
-          "sint"
+          "accusantium",
+          "rerum"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 197,
+        "InterParenthesis": 826,
         "InterOperator": "And",
-        "UniqueHash": 307
+        "UniqueHash": 881
       }
     ]
   },
   {
-    "Name": "O'Kon Inc and Sons",
-    "Description": "Triple-buffered empowering encryption",
-    "Rank": 925,
+    "Name": "Murazik, Keeling and Treutel",
+    "Description": "Compatible uniform framework",
+    "Rank": 152,
     "Restrictions": [
       {
-        "Name": "Johns LLC",
-        "Operator": "ipsum",
+        "Name": "Jones, Botsford and Cartwright",
+        "Operator": "deserunt",
         "Values": [
-          "ipsam",
-          "nihil"
+          "omnis",
+          "laudantium"
         ],
         "DisplayValues": [
-          "et",
-          "sint"
+          "accusantium",
+          "rerum"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 197,
+        "InterParenthesis": 826,
         "InterOperator": "And",
-        "UniqueHash": 307
+        "UniqueHash": 881
       }
     ]
   }

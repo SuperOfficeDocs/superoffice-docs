@@ -71,31 +71,31 @@ No Content
 POST /api/v1/Agents/ErpSync/ConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 249,
-  "CrmRecordId": 176,
+  "ErpConnectionId": 397,
+  "CrmRecordId": 733,
   "CrmActorType": "Contact",
-  "ErpKey": "placeat",
+  "ErpKey": "nihil",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Wehner Group",
-      "CrmFieldKey": "accusantium",
-      "Value": "et",
-      "DisplayValue": "voluptatem",
-      "SyncToCrm": false,
-      "SyncToErp": true
+      "DisplayName": "Cronin-Kerluke",
+      "CrmFieldKey": "cupiditate",
+      "Value": "ut",
+      "DisplayValue": "voluptate",
+      "SyncToCrm": true,
+      "SyncToErp": false
     },
     {
-      "DisplayName": "Wehner Group",
-      "CrmFieldKey": "accusantium",
-      "Value": "et",
-      "DisplayValue": "voluptatem",
-      "SyncToCrm": false,
-      "SyncToErp": true
+      "DisplayName": "Cronin-Kerluke",
+      "CrmFieldKey": "cupiditate",
+      "Value": "ut",
+      "DisplayValue": "voluptate",
+      "SyncToCrm": true,
+      "SyncToErp": false
     }
   ]
 }

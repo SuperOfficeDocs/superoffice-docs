@@ -72,7 +72,7 @@ OK
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 906,
-    "Section": "velit",
-    "Key": "commodi",
-    "Name": "Price Inc and Sons",
+    "PrefDescId": 518,
+    "Section": "saepe",
+    "Key": "itaque",
+    "Name": "Kuhlman Group",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Automated full-range circuit",
+    "Description": "Organic bottom-line strategy",
     "IsBuiltin": false,
-    "TableName": "Wilkinson LLC",
-    "UserDefinedListId": 583,
-    "Rank": 719,
-    "SubGroup": "nihil",
-    "MinLevel": 913,
-    "MaxValue": 3,
-    "MinValue": 441,
-    "RequiredLicense": "voluptatem",
+    "TableName": "Stamm-Rice",
+    "UserDefinedListId": 436,
+    "Rank": 109,
+    "SubGroup": "distinctio",
+    "MinLevel": 995,
+    "MaxValue": 214,
+    "MinValue": 916,
+    "RequiredLicense": "accusantium",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 105
+        "FieldType": "System.Int32",
+        "FieldLength": 756
       }
     }
   }

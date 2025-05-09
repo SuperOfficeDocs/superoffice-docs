@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Insert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Hills-Langworth",
+  "TableName": "Wintheiser, Bergstrom and Bauch",
   "Columns": [
-    "perspiciatis",
-    "dolores"
+    "nemo",
+    "non"
   ],
   "Data": [
     [
@@ -109,41 +109,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "optio",
-  "Inserts": 77,
-  "Updates": 188,
-  "Deletes": 602,
+  "Success": false,
+  "Message": "illo",
+  "Inserts": 431,
+  "Updates": 276,
+  "Deletes": 247,
   "RowStatus": [
     {
-      "PrimaryKey": 419,
+      "PrimaryKey": 825,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "et",
-        "veniam"
+        "quis",
+        "necessitatibus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 649
+          "FieldLength": 962
         }
       }
     },
     {
-      "PrimaryKey": 419,
+      "PrimaryKey": 825,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "et",
-        "veniam"
+        "quis",
+        "necessitatibus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 649
+          "FieldLength": 962
         }
       }
     }
@@ -152,8 +152,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 1001
+      "FieldType": "System.Int32",
+      "FieldLength": 114
     }
   }
 }

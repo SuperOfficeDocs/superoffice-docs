@@ -18,6 +18,7 @@ items:
   - SuperOffice.CRM.Services.CustomerServiceAgent.DeleteChatSessions(System.Int32[])
   - SuperOffice.CRM.Services.CustomerServiceAgent.DeleteCustomerCenterConfig(System.Int32)
   - SuperOffice.CRM.Services.CustomerServiceAgent.EventHandlerExists(SuperOffice.Data.EventHandlerType)
+  - SuperOffice.CRM.Services.CustomerServiceAgent.EventHandlersExists(SuperOffice.Data.EventHandlerType[])
   - SuperOffice.CRM.Services.CustomerServiceAgent.ExecuteEventHandlers(SuperOffice.CRM.Services.EventData)
   - SuperOffice.CRM.Services.CustomerServiceAgent.FindTicketsByTitleOrId(System.String,System.Int32)
   - SuperOffice.CRM.Services.CustomerServiceAgent.GetAllCustomerCenterConfigs
@@ -451,6 +452,44 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Services.CustomerServiceAgent.EventHandlersExists(SuperOffice.Data.EventHandlerType[])
+  commentId: M:SuperOffice.CRM.Services.CustomerServiceAgent.EventHandlersExists(SuperOffice.Data.EventHandlerType[])
+  id: EventHandlersExists(SuperOffice.Data.EventHandlerType[])
+  parent: SuperOffice.CRM.Services.CustomerServiceAgent
+  langs:
+  - csharp
+  - vb
+  name: EventHandlersExists(EventHandlerType[])
+  nameWithType: CustomerServiceAgent.EventHandlersExists(EventHandlerType[])
+  fullName: SuperOffice.CRM.Services.CustomerServiceAgent.EventHandlersExists(SuperOffice.Data.EventHandlerType[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCheck if any given eventhandler exists\n"
+  syntax:
+    content: public EventHandlerType[] EventHandlersExists(EventHandlerType[] eventHandlerTypes)
+    parameters:
+    - id: eventHandlerTypes
+      type: SuperOffice.Data.EventHandlerType[]
+      description: The EventHandlerTypes we are checking
+    return:
+      type: SuperOffice.Data.EventHandlerType[]
+      description: The existing event handlers
+    content.vb: Public Function EventHandlersExists(eventHandlerTypes As EventHandlerType()) As EventHandlerType()
+  overload: SuperOffice.CRM.Services.CustomerServiceAgent.EventHandlersExists*
+  implements:
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlersExists(SuperOffice.Data.EventHandlerType[])
+  nameWithType.vb: CustomerServiceAgent.EventHandlersExists(EventHandlerType())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.CustomerServiceAgent.EventHandlersExists(SuperOffice.Data.EventHandlerType())
+  name.vb: EventHandlersExists(EventHandlerType())
 - uid: SuperOffice.CRM.Services.CustomerServiceAgent.CreateSession(System.String)
   commentId: M:SuperOffice.CRM.Services.CustomerServiceAgent.CreateSession(System.String)
   id: CreateSession(System.String)
@@ -2338,6 +2377,88 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.CustomerServiceAgent.EventHandlersExists*
+  commentId: Overload:SuperOffice.CRM.Services.CustomerServiceAgent.EventHandlersExists
+  isExternal: true
+  name: EventHandlersExists
+  nameWithType: CustomerServiceAgent.EventHandlersExists
+  fullName: SuperOffice.CRM.Services.CustomerServiceAgent.EventHandlersExists
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlersExists(SuperOffice.Data.EventHandlerType[])
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlersExists(SuperOffice.Data.EventHandlerType[])
+  parent: SuperOffice.CRM.Services.ICustomerServiceAgent
+  isExternal: true
+  name: EventHandlersExists(EventHandlerType[])
+  nameWithType: ICustomerServiceAgent.EventHandlersExists(EventHandlerType[])
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlersExists(SuperOffice.Data.EventHandlerType[])
+  nameWithType.vb: ICustomerServiceAgent.EventHandlersExists(EventHandlerType())
+  fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlersExists(SuperOffice.Data.EventHandlerType())
+  name.vb: EventHandlersExists(EventHandlerType())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlersExists(SuperOffice.Data.EventHandlerType[])
+    name: EventHandlersExists
+    nameWithType: ICustomerServiceAgent.EventHandlersExists
+    fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlersExists
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.EventHandlerType
+    name: EventHandlerType
+    nameWithType: EventHandlerType
+    fullName: SuperOffice.Data.EventHandlerType
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlersExists(SuperOffice.Data.EventHandlerType[])
+    name: EventHandlersExists
+    nameWithType: ICustomerServiceAgent.EventHandlersExists
+    fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlersExists
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.EventHandlerType
+    name: EventHandlerType
+    nameWithType: EventHandlerType
+    fullName: SuperOffice.Data.EventHandlerType
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.EventHandlerType[]
+  isExternal: true
+  name: EventHandlerType[]
+  nameWithType: EventHandlerType[]
+  fullName: SuperOffice.Data.EventHandlerType[]
+  nameWithType.vb: EventHandlerType()
+  fullName.vb: SuperOffice.Data.EventHandlerType()
+  name.vb: EventHandlerType()
+  spec.csharp:
+  - uid: SuperOffice.Data.EventHandlerType
+    name: EventHandlerType
+    nameWithType: EventHandlerType
+    fullName: SuperOffice.Data.EventHandlerType
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.Data.EventHandlerType
+    name: EventHandlerType
+    nameWithType: EventHandlerType
+    fullName: SuperOffice.Data.EventHandlerType
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.CustomerServiceAgent.CreateSession*
   commentId: Overload:SuperOffice.CRM.Services.CustomerServiceAgent.CreateSession
   isExternal: true

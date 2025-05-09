@@ -80,31 +80,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 171,
-    "Name": "Bergstrom Inc and Sons",
-    "TZLocationCode": "repellendus",
-    "TZLocationCities": "cum",
-    "IsoNumber": 134,
+    "TZLocationID": 948,
+    "Name": "Cremin-Runolfsdottir",
+    "TZLocationCode": "vel",
+    "TZLocationCities": "cumque",
+    "IsoNumber": 196,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 42,
-        "StartMonth": 878,
-        "EndDay": 201,
-        "EndMonth": 989,
-        "TZOffset": 320,
-        "StartRulePattern": "omnis",
-        "EndRulePattern": "deleniti"
+        "StartDay": 791,
+        "StartMonth": 917,
+        "EndDay": 830,
+        "EndMonth": 871,
+        "TZOffset": 902,
+        "StartRulePattern": "impedit",
+        "EndRulePattern": "ex"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 465,
-        "StartMonth": 946,
-        "EndDay": 241,
-        "EndMonth": 160,
-        "TZOffset": 458,
-        "StartRulePattern": "sequi",
-        "EndRulePattern": "voluptatibus"
+        "StartDay": 931,
+        "StartMonth": 634,
+        "EndDay": 805,
+        "EndMonth": 90,
+        "TZOffset": 162,
+        "StartRulePattern": "eius",
+        "EndRulePattern": "et"
       }
     }
   }

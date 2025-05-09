@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 515,
-  "Name": "Russel-Emard",
-  "Tooltip": "distinctio",
+  "Id": 533,
+  "Name": "Corwin Inc and Sons",
+  "Tooltip": "esse",
   "Deleted": false,
-  "Rank": 34,
-  "IsCustomList": false,
+  "Rank": 623,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "accusantium",
-  "InUseByUserDefinedFields": false
+  "ListType": "animi",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 544,
-  "Name": "Murazik-Bashirian",
-  "Tooltip": "molestiae",
-  "Deleted": true,
-  "Rank": 714,
-  "IsCustomList": false,
+  "Id": 131,
+  "Name": "Ebert Group",
+  "Tooltip": "sed",
+  "Deleted": false,
+  "Rank": 592,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "eius",
+  "ListType": "vel",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 262
+      "FieldLength": 392
     }
   }
 }

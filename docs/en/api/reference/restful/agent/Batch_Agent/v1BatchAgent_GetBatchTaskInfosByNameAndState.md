@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Spencer Group",
+  "Name": "D'Amore, Schuppe and Ebert",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 543,
-    "Name": "Farrell Group",
-    "AssociateId": 825,
-    "DetailsTable": 547,
-    "DetailsRecord": 384,
+    "Id": 691,
+    "Name": "Walker, Zieme and Romaguera",
+    "AssociateId": 132,
+    "DetailsTable": 307,
+    "DetailsRecord": 407,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "ut",
-      "ParameterObject2": "est"
+      "ParameterObject1": "impedit",
+      "ParameterObject2": "et"
     },
-    "LastStarted": "2002-04-18T13:13:59.5314453+02:00",
-    "Created": "2009-11-29T13:13:59.5314453+01:00",
-    "StartCount": 347,
-    "DatabaseSerialNumber": "436519",
-    "Context": "nostrum",
-    "Result": "est",
+    "LastStarted": "2022-08-13T16:32:38.1959817+02:00",
+    "Created": "2021-02-26T16:32:38.1959817+01:00",
+    "StartCount": 796,
+    "DatabaseSerialNumber": "924569",
+    "Context": "et",
+    "Result": "exercitationem",
     "State": "All",
-    "Description": "Universal static throughput",
-    "Response": "maxime",
-    "Request": "cum",
-    "ProgressDescription": "User-friendly fault-tolerant product",
-    "ProgressPercent": 108,
-    "FileName": "Ryan-Johnson",
+    "Description": "Focused cohesive intranet",
+    "Response": "sunt",
+    "Request": "laboriosam",
+    "ProgressDescription": "Sharable full-range algorithm",
+    "ProgressPercent": 420,
+    "FileName": "Spinka, Jast and Cummings",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 888
+        "FieldType": "System.String",
+        "FieldLength": 253
       }
     }
   }

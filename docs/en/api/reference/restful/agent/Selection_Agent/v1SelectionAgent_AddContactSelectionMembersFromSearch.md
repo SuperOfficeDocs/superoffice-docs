@@ -73,8 +73,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 325,
-  "StorageKey": "dolores"
+  "SelectionId": 534,
+  "StorageKey": "temporibus"
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-609
+840
 ```

@@ -102,7 +102,7 @@ OK
 POST /api/v1/Agents/EMail/SendEMails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -121,18 +121,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "minima",
-      "HTMLBody": "vel",
+      "Subject": "repellendus",
+      "HTMLBody": "perspiciatis",
       "From": null,
-      "Sent": "2001-05-13T13:14:00.360602+02:00",
-      "Size": 832,
+      "Sent": "2018-09-27T16:32:39.0239176+02:00",
+      "Size": 685,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "amet",
-      "PlainBody": "molestiae",
-      "IsSent": false,
+      "MessageID": "nulla",
+      "PlainBody": "voluptatibus",
+      "IsSent": true,
       "EMailSOInfo": null,
-      "ServerId": 201,
+      "ServerId": 952,
       "Attachments": [
         {},
         {}
@@ -141,12 +141,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Mosciski-Price",
-      "EmailItemId": 931,
-      "AccountId": 272,
-      "ReceivedAt": "2001-06-07T13:14:00.360602+02:00",
+      "FolderName": "Carter-Kovacek",
+      "EmailItemId": 800,
+      "AccountId": 201,
+      "ReceivedAt": "2008-04-12T16:32:39.0239176+02:00",
       "InReplyTo": null,
-      "RepliedAt": "2001-08-14T13:14:00.360602+02:00",
+      "RepliedAt": "2011-10-07T16:32:39.0239176+02:00",
       "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
@@ -166,97 +166,97 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 461,
-        "ContactName": "Blanda, Spencer and Grant",
-        "PersonId": 264,
-        "PersonName": "Jacobson, Champlin and Schumm",
-        "AssociateId": 301,
-        "Address": "et",
-        "EmailId": 952,
+        "ContactId": 853,
+        "ContactName": "Howe-Wolff",
+        "PersonId": 674,
+        "PersonName": "Cremin, Wolf and Halvorson",
+        "AssociateId": 899,
+        "Address": "omnis",
+        "EmailId": 362,
         "DuplicatePersonIds": [
-          200,
-          176
+          39,
+          50
         ],
-        "Name": "Cassin, Stiedemann and Ankunding",
+        "Name": "Waters LLC",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 36
+            "FieldType": "System.Int32",
+            "FieldLength": 500
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 845,
-        "ContactName": "Ledner, Lemke and Heller",
-        "PersonId": 795,
-        "PersonName": "Stiedemann-Harber",
-        "AssociateId": 561,
-        "Address": "autem",
-        "EmailId": 945,
+        "ContactId": 162,
+        "ContactName": "Heidenreich-Mayert",
+        "PersonId": 358,
+        "PersonName": "Ratke LLC",
+        "AssociateId": 498,
+        "Address": "iste",
+        "EmailId": 976,
         "DuplicatePersonIds": [
-          757,
-          985
+          149,
+          557
         ],
-        "Name": "Bruen-Terry",
+        "Name": "Streich Inc and Sons",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 572
+            "FieldType": "System.Int32",
+            "FieldLength": 408
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 708,
-        "ContactName": "Conroy Inc and Sons",
-        "PersonId": 538,
-        "PersonName": "Huel-Larkin",
-        "AssociateId": 815,
-        "Address": "vel",
-        "EmailId": 248,
+        "ContactId": 800,
+        "ContactName": "Johns Group",
+        "PersonId": 525,
+        "PersonName": "Kutch LLC",
+        "AssociateId": 339,
+        "Address": "repellendus",
+        "EmailId": 6,
         "DuplicatePersonIds": [
-          606,
-          202
+          489,
+          809
         ],
-        "Name": "Dickinson-Jakubowski",
+        "Name": "Fahey, Daugherty and Kiehn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 801
+            "FieldType": "System.Int32",
+            "FieldLength": 810
           }
         }
       }
     ],
-    "Subject": "sunt",
-    "HTMLBody": "ratione",
+    "Subject": "quia",
+    "HTMLBody": "odio",
     "From": null,
-    "Sent": "2012-12-14T13:14:00.360602+01:00",
-    "Size": 113,
+    "Sent": "2011-10-29T16:32:39.0239176+02:00",
+    "Size": 17,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "nihil",
-    "PlainBody": "doloribus",
+    "MessageID": "veniam",
+    "PlainBody": "id",
     "IsSent": true,
     "EMailSOInfo": null,
-    "ServerId": 665,
+    "ServerId": 596,
     "Attachments": [
       {
-        "Description": "Triple-buffered tertiary flexibility",
-        "Filename": "et",
-        "Size": 894,
-        "Type": "sint",
-        "Encoding": "maiores",
-        "Id": "explicabo",
-        "Disposition": "ut",
+        "Description": "Triple-buffered clear-thinking adapter",
+        "Filename": "totam",
+        "Size": 147,
+        "Type": "illum",
+        "Encoding": "voluptatem",
+        "Id": "et",
+        "Disposition": "qui",
         "IsSafeFileExtension": false,
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
@@ -264,49 +264,49 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 911
+            "FieldLength": 979
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Langosh-Kirlin",
+        "Name": "Aufderhar, Gorczany and Gibson",
         "Values": [
-          "consequatur",
-          "cumque"
+          "aliquam",
+          "ad"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 136
+            "FieldType": "System.String",
+            "FieldLength": 147
           }
         }
       },
       {
-        "Name": "Langosh-Kirlin",
+        "Name": "Aufderhar, Gorczany and Gibson",
         "Values": [
-          "consequatur",
-          "cumque"
+          "aliquam",
+          "ad"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 136
+            "FieldType": "System.String",
+            "FieldLength": 147
           }
         }
       }
     ],
-    "FolderName": "Reynolds, Jast and Ruecker",
-    "EmailItemId": 940,
-    "AccountId": 882,
-    "ReceivedAt": "2005-05-05T13:14:00.360602+02:00",
+    "FolderName": "Murazik Group",
+    "EmailItemId": 207,
+    "AccountId": 262,
+    "ReceivedAt": "1999-11-22T16:32:39.0395385+01:00",
     "InReplyTo": null,
-    "RepliedAt": "2021-06-25T13:14:00.360602+02:00",
+    "RepliedAt": "1999-07-05T16:32:39.0395385+02:00",
     "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
@@ -315,7 +315,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 462
+        "FieldLength": 753
       }
     }
   }

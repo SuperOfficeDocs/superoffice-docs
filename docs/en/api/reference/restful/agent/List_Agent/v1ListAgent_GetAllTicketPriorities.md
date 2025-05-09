@@ -116,60 +116,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 994,
-    "Name": "Wilkinson, O'Reilly and Walter",
+    "TicketPriorityId": 14,
+    "Name": "Gorczany Inc and Sons",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 25,
+    "SortOrder": 435,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 539,
-    "MonStart": "2001-04-02T13:14:00.5481129+02:00",
-    "MonStop": "2011-01-06T13:14:00.5481129+01:00",
-    "TueStart": "2008-07-23T13:14:00.5481129+02:00",
-    "TueStop": "2006-05-16T13:14:00.5481129+02:00",
-    "WedStart": "2017-12-28T13:14:00.5481129+01:00",
-    "WedStop": "2008-11-28T13:14:00.5481129+01:00",
-    "ThuStart": "2025-02-24T13:14:00.5481129+01:00",
-    "ThuStop": "2004-10-11T13:14:00.5481129+02:00",
-    "FriStart": "2011-09-25T13:14:00.5481129+02:00",
-    "FriStop": "2000-06-19T13:14:00.5481129+02:00",
-    "SatStart": "2021-10-18T13:14:00.5481129+02:00",
-    "SatStop": "1999-12-17T13:14:00.5481129+01:00",
-    "SunStart": "2019-05-07T13:14:00.5481129+02:00",
-    "SunStop": "2006-01-26T13:14:00.5481129+01:00",
+    "Deadline": 339,
+    "MonStart": "2019-06-17T16:32:39.2113744+02:00",
+    "MonStop": "1999-07-24T16:32:39.2113744+02:00",
+    "TueStart": "2016-05-30T16:32:39.2113744+02:00",
+    "TueStop": "2001-11-07T16:32:39.2113744+01:00",
+    "WedStart": "2001-02-15T16:32:39.2113744+01:00",
+    "WedStop": "2023-12-21T16:32:39.2113744+01:00",
+    "ThuStart": "2006-02-13T16:32:39.2113744+01:00",
+    "ThuStop": "2006-07-20T16:32:39.2113744+02:00",
+    "FriStart": "2022-06-26T16:32:39.2113744+02:00",
+    "FriStop": "1998-05-22T16:32:39.2113744+02:00",
+    "SatStart": "2005-04-18T16:32:39.2113744+02:00",
+    "SatStop": "2019-10-04T16:32:39.2113744+02:00",
+    "SunStart": "2020-09-18T16:32:39.2113744+02:00",
+    "SunStop": "2011-03-28T16:32:39.2113744+02:00",
     "NonDates": [
-      "quae",
-      "tempore"
+      "ratione",
+      "veritatis"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 756,
-        "AlertLevel": 124,
-        "AlertTimeout": 70,
-        "Action": 702,
-        "DelegateTo": 720,
-        "ScriptId": 152,
-        "EmailTo": "jesse.metz@sawayn.name",
-        "SmsTo": "vel",
-        "ReplyTemplateIdCustomer": 846,
-        "ReplyTemplateIdUser": 694,
-        "ReplyTemplateIdCatmast": 996,
-        "ReplyTemplateIdEmail": 959,
-        "RtiCustomerSms": 25,
-        "ReplyTemplateIdUserSms": 778,
-        "ReplyTemplateIdCatmastSms": 32,
-        "ReplyTemplateIdSms": 69,
+        "TicketAlertId": 864,
+        "AlertLevel": 732,
+        "AlertTimeout": 718,
+        "Action": 450,
+        "DelegateTo": 288,
+        "ScriptId": 246,
+        "EmailTo": "candace@harberhammes.uk",
+        "SmsTo": "neque",
+        "ReplyTemplateIdCustomer": 651,
+        "ReplyTemplateIdUser": 998,
+        "ReplyTemplateIdCatmast": 268,
+        "ReplyTemplateIdEmail": 914,
+        "RtiCustomerSms": 990,
+        "ReplyTemplateIdUserSms": 56,
+        "ReplyTemplateIdCatmastSms": 302,
+        "ReplyTemplateIdSms": 40,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 399
+            "FieldLength": 254
           }
         }
       }
@@ -178,8 +178,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 355
+        "FieldType": "System.String",
+        "FieldLength": 65
       }
     }
   }

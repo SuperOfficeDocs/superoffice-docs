@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/FreeText/GetSuggestedStopWords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountWords": 907
+  "CountWords": 773
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 169,
-    "Name": "Swaniawski LLC",
-    "ToolTip": "Ea eius qui autem est non quas totam.",
+    "Id": 280,
+    "Name": "Gottlieb, Klocko and Hudson",
+    "ToolTip": "Dolor exercitationem blanditiis.",
     "Deleted": false,
-    "Rank": 168,
-    "Type": "voluptatibus",
+    "Rank": 655,
+    "Type": "at",
     "ChildItems": [
       {
-        "Id": 557,
-        "Name": "Reinger Inc and Sons",
-        "ToolTip": "Deleniti fuga numquam libero eius aut.",
-        "Deleted": false,
-        "Rank": 710,
-        "Type": "qui",
+        "Id": 366,
+        "Name": "Donnelly-Durgan",
+        "ToolTip": "Quibusdam blanditiis facilis maxime.",
+        "Deleted": true,
+        "Rank": 809,
+        "Type": "modi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "repudiandae",
-        "ColorBlock": 36,
-        "ExtraInfo": "tenetur",
+        "IconHint": "quia",
+        "ColorBlock": 110,
+        "ExtraInfo": "illo",
         "StyleHint": "repudiandae",
-        "FullName": "Ms. Dianna Murray DVM",
+        "FullName": "Ellsworth Friesen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 145
+            "FieldType": "System.String",
+            "FieldLength": 602
           }
         }
       }
     ],
-    "IconHint": "nam",
-    "ColorBlock": 560,
-    "ExtraInfo": "nisi",
-    "StyleHint": "dicta",
-    "FullName": "Miss Tyrel Marks Sr.",
+    "IconHint": "et",
+    "ColorBlock": 236,
+    "ExtraInfo": "autem",
+    "StyleHint": "accusantium",
+    "FullName": "Orville Schumm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 652
+        "FieldType": "System.String",
+        "FieldLength": 881
       }
     }
   }

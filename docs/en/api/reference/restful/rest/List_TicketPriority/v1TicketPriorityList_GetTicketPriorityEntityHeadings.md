@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 2,
-    "Name": "Flatley, Corkery and Trantow",
-    "Tooltip": "molestiae",
-    "Deleted": false,
-    "Rank": 92,
-    "UdListDefinitionId": 258,
+    "HeadingId": 261,
+    "Name": "Becker, Pacocha and Kihn",
+    "Tooltip": "necessitatibus",
+    "Deleted": true,
+    "Rank": 310,
+    "UdListDefinitionId": 968,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 662
+        "FieldLength": 909
       }
     }
   }

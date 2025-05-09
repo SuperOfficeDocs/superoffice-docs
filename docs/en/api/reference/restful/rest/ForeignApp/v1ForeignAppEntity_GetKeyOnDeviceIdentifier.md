@@ -73,7 +73,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,23 +81,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 27 Jul 2013 13:14:08 G7T
+Last-Modified: Sat, 03 Apr 2004 16:32:47 G4T
 
 {
-  "Key": "aliquam",
-  "Value": "qui",
-  "RecordId": 747,
-  "CreatedDate": "2015-04-04T13:14:08.7585151+02:00",
-  "UpdatedDate": "2013-07-27T13:14:08.7585151+02:00",
-  "UpdatedBy": "quisquam",
-  "CreatedBy": "et",
-  "TableName": "Williamson-Rau",
+  "Key": "officia",
+  "Value": "velit",
+  "RecordId": 687,
+  "CreatedDate": "2016-07-03T16:32:47.5558268+02:00",
+  "UpdatedDate": "2004-04-03T16:32:47.5558268+02:00",
+  "UpdatedBy": "et",
+  "CreatedBy": "omnis",
+  "TableName": "Hirthe, Cassin and Kozey",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 231
+      "FieldLength": 698
     }
   }
 }

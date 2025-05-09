@@ -71,32 +71,32 @@ OK
 POST /api/v1/Agents/Ticket/SetDeletedStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kutch-Cartwright",
+  "ProviderName": "Boehm Inc and Sons",
   "Restrictions": [
     {
-      "Name": "Murray, Zieme and Carroll",
-      "Operator": "quaerat",
+      "Name": "Fahey LLC",
+      "Operator": "earum",
       "Values": [
-        "at",
-        "sit"
+        "aut",
+        "est"
       ],
       "DisplayValues": [
-        "dicta",
-        "sunt"
+        "tenetur",
+        "non"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 757,
+      "InterParenthesis": 970,
       "InterOperator": "And",
-      "UniqueHash": 698
+      "UniqueHash": 916
     }
   ]
 }
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  286,
-  991
+  739,
+  731
 ]
 ```

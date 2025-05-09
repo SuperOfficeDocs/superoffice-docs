@@ -85,10 +85,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 18,
-  "NumSentences": 40,
-  "Summary": "laboriosam",
-  "IsoLangCode": "totam"
+  "ContactId": 888,
+  "NumSentences": 983,
+  "Summary": "voluptas",
+  "IsoLangCode": "praesentium"
 }
 ```
 
@@ -99,17 +99,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2001-04-12T13:13:58.953207+02:00",
-  "UserPrompt": "commodi",
+  "Timestamp": "1998-08-09T16:32:37.5709257+02:00",
+  "UserPrompt": "eum",
   "UserDisplayText": "qui",
   "BotResponse": "voluptas",
   "BotActions": {
-    "BotActions1": "quas",
-    "BotActions2": "dolorum"
+    "BotActions1": "quibusdam",
+    "BotActions2": "ut"
   },
   "Attachments": [
-    "eveniet",
-    "qui"
+    "enim",
+    "ex"
   ]
 }
 ```

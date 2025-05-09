@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 878,
-    "Name": "Robel Group",
-    "ToolTip": "Iure dolorem distinctio voluptates eos est doloremque omnis.",
+    "Id": 133,
+    "Name": "Raynor-Dickinson",
+    "ToolTip": "Quia tempora atque expedita consequatur dicta cum ut.",
     "Deleted": true,
-    "Rank": 176,
-    "Type": "consectetur",
-    "ColorBlock": 213,
-    "IconHint": "laudantium",
+    "Rank": 185,
+    "Type": "corporis",
+    "ColorBlock": 869,
+    "IconHint": "quia",
     "Selected": true,
-    "LastChanged": "2015-09-06T13:14:10.0722914+02:00",
+    "LastChanged": "2002-11-23T16:32:48.9775807+01:00",
     "ChildItems": [
       {
-        "Id": 119,
-        "Name": "Hackett LLC",
-        "ToolTip": "Quidem est non nemo harum sequi ut reprehenderit.",
+        "Id": 129,
+        "Name": "Lesch, Hagenes and Bogan",
+        "ToolTip": "Qui officiis.",
         "Deleted": false,
-        "Rank": 804,
-        "Type": "ut",
-        "ColorBlock": 153,
-        "IconHint": "veritatis",
+        "Rank": 224,
+        "Type": "expedita",
+        "ColorBlock": 816,
+        "IconHint": "ratione",
         "Selected": false,
-        "LastChanged": "2014-10-01T13:14:10.0722914+02:00",
+        "LastChanged": "2002-01-28T16:32:48.9775807+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "libero",
-        "StyleHint": "ut",
+        "ExtraInfo": "et",
+        "StyleHint": "dolor",
         "Hidden": false,
-        "FullName": "Dr. Elmo Grimes I",
+        "FullName": "Adolphus Kertzmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 192
+            "FieldLength": 511
           }
         }
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "aut",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Larue Kaleb Fisher MD",
+    "FullName": "Mrs. Jonatan Kessler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 247
+        "FieldType": "System.Int32",
+        "FieldLength": 55
       }
     }
   }

@@ -92,7 +92,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 692,
-  "ERPProductKey": "voluptate",
-  "ERPPriceListKey": "qui",
-  "Name": "Renner-Johnson",
-  "Description": "Monitored zero defect protocol",
-  "Code": "dolorem",
-  "PriceUnit": "quo",
-  "QuantityUnit": "explicabo",
-  "IsSubscription": false,
-  "SubscriptionUnit": "iure",
-  "DefaultSubscriptionQuantity": 11216.586,
-  "ItemNumber": "689999",
+  "ProductId": 723,
+  "ERPProductKey": "suscipit",
+  "ERPPriceListKey": "est",
+  "Name": "Hayes, Padberg and Kohler",
+  "Description": "Synergized coherent superstructure",
+  "Code": "enim",
+  "PriceUnit": "nam",
+  "QuantityUnit": "nihil",
+  "IsSubscription": true,
+  "SubscriptionUnit": "veritatis",
+  "DefaultSubscriptionQuantity": 7029.562,
+  "ItemNumber": "737307",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quaerat",
-  "ProductTypeKey": "tempore",
-  "VAT": 26316.198,
-  "VATInfo": "sapiente",
-  "UnitCost": 17437.576,
-  "UnitMinimumPrice": 15723.278,
-  "UnitListPrice": 16885.992,
-  "InAssortment": true,
-  "Supplier": "ea",
-  "SupplierCode": "rerum",
-  "Rights": "exercitationem",
-  "Rule": "aut",
+  "ProductFamilyKey": "ut",
+  "ProductTypeKey": "eos",
+  "VAT": 22292.142,
+  "VATInfo": "iure",
+  "UnitCost": 12974.76,
+  "UnitMinimumPrice": 21765.63,
+  "UnitListPrice": 3347.112,
+  "InAssortment": false,
+  "Supplier": "odio",
+  "SupplierCode": "voluptas",
+  "Rights": "voluptatibus",
+  "Rule": "earum",
   "ExtraInfo": [
     {
-      "Name": "Strosin LLC",
-      "Value": "sed",
+      "Name": "Pacocha-McLaughlin",
+      "Value": "dolor",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 887
+          "FieldLength": 30
         }
       }
     },
     {
-      "Name": "Strosin LLC",
-      "Value": "sed",
+      "Name": "Pacocha-McLaughlin",
+      "Value": "dolor",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 887
+          "FieldLength": 30
         }
       }
     }
   ],
-  "RawExtraInfo": "in",
-  "ExtraField1": "natus",
-  "ExtraField2": "rerum",
-  "ExtraField3": "eveniet",
-  "ExtraField4": "sint",
-  "ExtraField5": "facilis",
-  "InStock": 7054.634,
+  "RawExtraInfo": "fuga",
+  "ExtraField1": "fugiat",
+  "ExtraField2": "doloremque",
+  "ExtraField3": "nihil",
+  "ExtraField4": "nihil",
+  "ExtraField5": "aut",
+  "InStock": 7233.272,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 205
+      "FieldType": "System.String",
+      "FieldLength": 315
     }
   }
 }

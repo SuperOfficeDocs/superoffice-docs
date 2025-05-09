@@ -83,12 +83,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 987,
-  "Name": "Funk-Franecki",
-  "Tooltip": "sit",
+  "Id": 136,
+  "Name": "Bashirian Inc and Sons",
+  "Tooltip": "fuga",
   "Deleted": true,
-  "UdListDefinitionId": 875,
-  "Rank": 92
+  "UdListDefinitionId": 398,
+  "Rank": 683
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 585,
-  "Name": "Paucek, Dooley and Anderson",
-  "Tooltip": "et",
-  "Deleted": true,
-  "UdListDefinitionId": 785,
-  "Rank": 272,
+  "Id": 200,
+  "Name": "Hartmann Group",
+  "Tooltip": "totam",
+  "Deleted": false,
+  "UdListDefinitionId": 901,
+  "Rank": 121,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 705
+      "FieldType": "System.String",
+      "FieldLength": 680
     }
   }
 }

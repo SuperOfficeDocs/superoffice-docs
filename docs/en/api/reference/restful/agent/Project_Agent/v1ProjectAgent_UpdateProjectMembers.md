@@ -67,34 +67,34 @@ No Content
 POST /api/v1/Agents/Project/UpdateProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 49,
+  "ProjectId": 378,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 577,
-      "ContactId": 444,
-      "ProjectId": 488,
-      "ContactName": "Stanton, Schultz and Effertz",
+      "ProjectmemberId": 908,
+      "ContactId": 424,
+      "ProjectId": 950,
+      "ContactName": "Roberts, Connelly and Hartmann",
       "ContactDepartment": "",
-      "ProjectName": "Lueilwitz-Bauch",
-      "EmailId": 603,
-      "EmailAddress": "miracle_shanahan@lemke.name",
-      "CountryId": 725,
-      "Firstname": "Bernie",
-      "MiddleName": "Price-Howe",
-      "Lastname": "Casper",
-      "PersonId": 731,
-      "Mrmrs": "reprehenderit",
-      "ProjectMemberTypeName": "Swaniawski-Crist",
-      "Phone": "1-218-753-9721 x41919",
-      "PhoneId": 95,
-      "ProjectMemberTypeId": 323,
-      "EmailAddressName": "curtis@ebert.co.uk",
-      "Comment": "temporibus",
-      "FullName": "Miss Melany Fisher PhD"
+      "ProjectName": "Armstrong-Cummerata",
+      "EmailId": 332,
+      "EmailAddress": "kacie_heaney@hahn.co.uk",
+      "CountryId": 737,
+      "Firstname": "Liliana",
+      "MiddleName": "Lueilwitz-Mraz",
+      "Lastname": "Koss",
+      "PersonId": 265,
+      "Mrmrs": "adipisci",
+      "ProjectMemberTypeName": "Donnelly-Cronin",
+      "Phone": "931-650-5308 x4533",
+      "PhoneId": 575,
+      "ProjectMemberTypeId": 19,
+      "EmailAddressName": "mabelle.vonrueden@feest.uk",
+      "Comment": "similique",
+      "FullName": "Harvey Kunde"
     }
   ]
 }

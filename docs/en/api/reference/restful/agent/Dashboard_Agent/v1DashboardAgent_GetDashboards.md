@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboards
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 775
+  "AssociateId": 28
 }
 ```
 
@@ -93,22 +93,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 909,
-    "AssociateId": 886,
-    "Caption": "sequi",
+    "DashboardId": 532,
+    "AssociateId": 863,
+    "Caption": "eos",
     "Layout": "Four",
     "Tiles": [
       {
-        "DashboardTileId": 382,
-        "Caption": "eveniet",
-        "Description": "Reverse-engineered discrete installation",
-        "ChartName": "Emmerich-Schmeler",
-        "ChartId": "possimus",
+        "DashboardTileId": 687,
+        "Caption": "officia",
+        "Description": "Cross-platform intermediate synergy",
+        "ChartName": "Kovacek, Ernser and Weimann",
+        "ChartId": "hic",
         "IsDefault": false,
-        "AssociateId": 449,
-        "GroupId": 892,
-        "SelectionId": 893,
-        "Config": "molestiae",
+        "AssociateId": 979,
+        "GroupId": 382,
+        "SelectionId": 228,
+        "Config": "dolorem",
         "Type": "Bignum",
         "EntityType": "Activity",
         "Options": [
@@ -123,8 +123,8 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 986
+            "FieldType": "System.Int32",
+            "FieldLength": 281
           }
         }
       }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 276
+        "FieldLength": 617
       }
     }
   }

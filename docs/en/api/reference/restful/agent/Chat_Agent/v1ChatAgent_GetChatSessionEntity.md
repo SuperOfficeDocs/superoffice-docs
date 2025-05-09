@@ -26,7 +26,7 @@ Gets a ChatSessionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=311
+POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=364
 POST /api/v1/Agents/Chat/GetChatSessionEntity?$select=name,department,category/id
 ```
 
@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -107,43 +107,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 602,
-  "TopicId": 637,
+  "ChatSessionId": 145,
+  "TopicId": 544,
   "User": null,
   "Person": null,
-  "CustomerAlias": "aut",
-  "CustomerHost": "ut",
-  "CustomerName": "Botsford, Tremblay and Grant",
-  "CustomerEmail": "brandy_watsica@cassingottlieb.name",
-  "CustomerPhone": "412-833-8649 x9376",
+  "CustomerAlias": "quia",
+  "CustomerHost": "quam",
+  "CustomerName": "Schaefer, Collier and Johnston",
+  "CustomerEmail": "osborne.farrell@leannon.uk",
+  "CustomerPhone": "(928)962-5144",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Conroy-Dickinson",
+  "CustomerCompanyName": "Gibson, Schinner and Schulist",
   "Status": "Closed",
-  "FirstMessage": "et",
-  "LastMessage": "est",
-  "WhenRequested": "2014-02-10T13:13:59.5939496+01:00",
-  "WhenStarted": "2015-12-10T13:13:59.5939496+01:00",
-  "WhenEnded": "2017-12-04T13:13:59.5939496+01:00",
-  "WhenIdle": "2004-09-20T13:13:59.5939496+02:00",
-  "WhenFetched": "2014-04-10T13:13:59.5939496+02:00",
-  "SessionKey": "dolor",
-  "InitialQueuePos": 864,
-  "AlertLevel": 201,
-  "Rank": 595,
+  "FirstMessage": "quia",
+  "LastMessage": "aut",
+  "WhenRequested": "2013-10-09T16:32:38.2740875+02:00",
+  "WhenStarted": "2017-03-04T16:32:38.2740875+01:00",
+  "WhenEnded": "2009-10-14T16:32:38.2740875+02:00",
+  "WhenIdle": "2017-05-01T16:32:38.2740875+02:00",
+  "WhenFetched": "2024-10-06T16:32:38.2740875+02:00",
+  "SessionKey": "quam",
+  "InitialQueuePos": 288,
+  "AlertLevel": 971,
+  "Rank": 849,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 527,
+  "ChatbotIsActive": false,
+  "Rating": 423,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 740
+      "FieldLength": 63
     }
   }
 }

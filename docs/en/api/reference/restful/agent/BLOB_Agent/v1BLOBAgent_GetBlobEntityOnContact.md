@@ -89,7 +89,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 215
+  "ContactId": 609
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 390,
-  "BlobSize": 248,
-  "Description": "Customer-focused stable circuit",
-  "ExtraInfo": "fugit",
+  "BlobId": 224,
+  "BlobSize": 903,
+  "Description": "Devolved encompassing analyzer",
+  "ExtraInfo": "et",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "dolorem",
-  "OriginalSize": 850,
-  "CreatedDate": "2024-11-23T13:13:59.5470712+01:00",
-  "UpdatedDate": "2008-10-28T13:13:59.5470712+01:00",
+  "IsZipped": false,
+  "MimeType": "repellendus",
+  "OriginalSize": 713,
+  "CreatedDate": "1998-11-28T16:32:38.2272237+01:00",
+  "UpdatedDate": "2022-04-28T16:32:38.2272237+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "blanditiis",
+  "ConceptualType": "illum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 806
+      "FieldType": "System.String",
+      "FieldLength": 444
     }
   }
 }

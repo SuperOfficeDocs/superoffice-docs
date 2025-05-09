@@ -27,7 +27,7 @@ Calls the List agent service GetAllDocumentTemplateEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items?includeDeleted=False
+GET /api/v1/List/DocumentTemplate/Items?includeDeleted=True
 ```
 
 
@@ -91,7 +91,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,37 +102,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 674,
+    "DocumentTemplateId": 539,
     "Name": "Heller Inc and Sons",
-    "Tooltip": "repellat",
-    "SaveInDb": 322,
-    "Filename": "consequatur",
-    "DefaultOref": "perspiciatis",
+    "Tooltip": "animi",
+    "SaveInDb": 389,
+    "Filename": "vero",
+    "DefaultOref": "voluptatem",
     "RecordType": "Appointment",
     "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 196,
-    "IntentId": 540,
-    "IsDefaultPublished": false,
-    "Rank": 135,
-    "LoadTemplateFromPlugin": 427,
-    "MimeType": "quasi",
-    "IsInUseInGuides": true,
-    "DocumentTypeKey": 935,
+    "AutoeventId": 530,
+    "IntentId": 452,
+    "IsDefaultPublished": true,
+    "Rank": 60,
+    "LoadTemplateFromPlugin": 745,
+    "MimeType": "nobis",
+    "IsInUseInGuides": false,
+    "DocumentTypeKey": 122,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "lenora@hesselstokes.name",
+    "EmailSubject": "simone@boylegusikowski.ca",
     "IncludeSignature": false,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "josefina@boscospinka.uk",
+    "SenderEmailAddress": "jordane_bradtke@kreigermayer.info",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 985
+        "FieldLength": 245
       }
     }
   }

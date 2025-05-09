@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 484,
-    "Value": "asperiores",
-    "Tooltip": "distinctio",
+    "Id": 916,
+    "Value": "architecto",
+    "Tooltip": "numquam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 125
+        "FieldLength": 380
       }
     }
   },
   {
-    "Id": 484,
-    "Value": "asperiores",
-    "Tooltip": "distinctio",
+    "Id": 916,
+    "Value": "architecto",
+    "Tooltip": "numquam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 125
+        "FieldLength": 380
       }
     }
   }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 946,
-    "Name": "Schaefer LLC",
-    "Tooltip": "dignissimos",
-    "Deleted": true,
-    "Rank": 589,
-    "UdListDefinitionId": 274
+    "HeadingId": 552,
+    "Name": "Turcotte-Emard",
+    "Tooltip": "vitae",
+    "Deleted": false,
+    "Rank": 748,
+    "UdListDefinitionId": 20
   },
   {
-    "HeadingId": 946,
-    "Name": "Schaefer LLC",
-    "Tooltip": "dignissimos",
-    "Deleted": true,
-    "Rank": 589,
-    "UdListDefinitionId": 274
+    "HeadingId": 552,
+    "Name": "Turcotte-Emard",
+    "Tooltip": "vitae",
+    "Deleted": false,
+    "Rank": 748,
+    "UdListDefinitionId": 20
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 383,
-    "Name": "Torphy, Durgan and Bernier",
-    "Tooltip": "impedit",
-    "Deleted": false,
-    "Rank": 625,
-    "UdListDefinitionId": 30,
+    "HeadingId": 207,
+    "Name": "Smitham-Jenkins",
+    "Tooltip": "nostrum",
+    "Deleted": true,
+    "Rank": 949,
+    "UdListDefinitionId": 498,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 371
+        "FieldLength": 476
       }
     }
   }

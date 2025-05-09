@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/EMail/GetCurrentAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,24 +88,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 800,
-  "EMailAddress": "vero",
-  "AssociateId": 569,
+  "EMailAccountId": 88,
+  "EMailAddress": "voluptas",
+  "AssociateId": 545,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 306,
-  "ErrorCount": 958,
+  "AccountStatus": 729,
+  "ErrorCount": 321,
   "ErrorReason": "",
-  "InboxFolder": "ipsam",
-  "SentFolder": "deleniti",
-  "SimpleMode": 599,
-  "LastFetch": "2014-11-23T13:14:00.32935+01:00",
+  "InboxFolder": "est",
+  "SentFolder": "error",
+  "SimpleMode": 150,
+  "LastFetch": "2019-02-24T16:32:39.0082952+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 891
+      "FieldType": "System.Int32",
+      "FieldLength": 89
     }
   }
 }

@@ -113,18 +113,18 @@ PreferenceDescriptionLine  updated.
 PATCH /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "voluptas",
+    "path": "atque",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptas",
+    "path": "atque",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 PreferenceDescriptionLine  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 392,
-  "PrefDescId": 475,
-  "PrefValue": "aut",
-  "PrefShowValue": "omnis",
-  "Description": "Public-key motivating projection",
+  "PrefDescLineId": 870,
+  "PrefDescId": 588,
+  "PrefValue": "tempora",
+  "PrefShowValue": "quae",
+  "Description": "Down-sized zero tolerance success",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 255
+      "FieldLength": 429
     }
   },
   "_Links": {

@@ -112,51 +112,51 @@ OK
 PUT /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 737,
-  "Name": "McGlynn-Wuckert",
-  "Tooltip": "voluptates",
-  "Rank": 722,
+  "SaleTypeId": 304,
+  "Name": "Cremin Inc and Sons",
+  "Tooltip": "suscipit",
+  "Rank": 774,
   "DurationUnit": "Century",
-  "SaleDuration": 72,
-  "SaleTypeCatId": 316,
+  "SaleDuration": 663,
+  "SaleTypeCatId": 51,
   "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 90,
-  "QuoteLinesTemplate": 702,
-  "ConfirmationLinesTemplate": 702,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 482,
+  "QuoteLinesTemplate": 237,
+  "ConfirmationLinesTemplate": 829,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 681,
-  "MinEarningPercent": 313,
-  "GroupQuoteLinesBy": 586,
-  "SortGroupLinesBy": 132,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 207,
+  "MinEarningPercent": 358,
+  "GroupQuoteLinesBy": 209,
+  "SortGroupLinesBy": 747,
   "Stages": [
     {
-      "Id": 616,
-      "Name": "Kovacek-Ebert",
-      "ToolTip": "Neque exercitationem consectetur est minus aspernatur deleniti est.",
-      "Deleted": false,
-      "Rank": 506,
-      "Type": "aliquid",
-      "ColorBlock": 268,
-      "IconHint": "qui",
+      "Id": 286,
+      "Name": "Cruickshank-Ernser",
+      "ToolTip": "Sequi sequi veritatis quam numquam.",
+      "Deleted": true,
+      "Rank": 520,
+      "Type": "eos",
+      "ColorBlock": 37,
+      "IconHint": "voluptatem",
       "Selected": true,
-      "LastChanged": "2011-11-14T13:14:10.0566655+01:00",
+      "LastChanged": "2004-10-17T16:32:48.946344+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aliquam",
-      "StyleHint": "illum",
+      "ExtraInfo": "facilis",
+      "StyleHint": "et",
       "Hidden": true,
-      "FullName": "Conor Dibbert"
+      "FullName": "Verdie Balistreri"
     }
   ]
 }
@@ -169,53 +169,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 882,
-  "Name": "Kreiger LLC",
-  "Tooltip": "nihil",
-  "Rank": 997,
+  "SaleTypeId": 718,
+  "Name": "Dicki-Schaden",
+  "Tooltip": "earum",
+  "Rank": 858,
   "DurationUnit": "Century",
-  "SaleDuration": 662,
-  "SaleTypeCatId": 677,
-  "Deleted": false,
+  "SaleDuration": 882,
+  "SaleTypeCatId": 165,
+  "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 502,
-  "QuoteLinesTemplate": 504,
-  "ConfirmationLinesTemplate": 552,
-  "MaxDiscountPercentSet": false,
+  "HasStakeholders": false,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 546,
+  "QuoteLinesTemplate": 185,
+  "ConfirmationLinesTemplate": 267,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 220,
-  "MinEarningPercent": 555,
-  "GroupQuoteLinesBy": 872,
-  "SortGroupLinesBy": 191,
+  "MaxDiscountPercent": 878,
+  "MinEarningPercent": 480,
+  "GroupQuoteLinesBy": 401,
+  "SortGroupLinesBy": 138,
   "Stages": [
     {
-      "Id": 482,
-      "Name": "Hudson, Klein and Larson",
-      "ToolTip": "Provident qui praesentium quo beatae.",
+      "Id": 321,
+      "Name": "Reichel-Terry",
+      "ToolTip": "Ut ipsa saepe a et et quo autem.",
       "Deleted": false,
-      "Rank": 832,
-      "Type": "ea",
-      "ColorBlock": 259,
-      "IconHint": "eum",
+      "Rank": 998,
+      "Type": "tempora",
+      "ColorBlock": 77,
+      "IconHint": "ut",
       "Selected": false,
-      "LastChanged": "2012-08-05T13:14:10.0566655+02:00",
+      "LastChanged": "1999-10-07T16:32:48.946344+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "debitis",
-      "StyleHint": "voluptatibus",
-      "Hidden": true,
-      "FullName": "Ms. Lue Odessa Bergstrom DDS",
+      "ExtraInfo": "ipsam",
+      "StyleHint": "tempore",
+      "Hidden": false,
+      "FullName": "Ms. Whitney Candida Sawayn Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 488
+          "FieldLength": 741
         }
       }
     }
@@ -224,8 +224,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 561
+      "FieldType": "System.Int32",
+      "FieldLength": 449
     }
   }
 }

@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "rerum",
+  "UniqueIdentifier": "commodi",
   "Crmscript": null
 }
 ```
@@ -101,22 +101,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "eius",
-  "Name": "Stoltenberg LLC",
-  "Description": "Advanced discrete pricing structure",
-  "IncludeId": "illo",
-  "Source": "consequatur",
-  "Registered": "2020-01-17T13:14:00.0033265+01:00",
-  "RegisteredBy": "quis",
-  "Updated": "2017-09-15T13:14:00.0033265+02:00",
-  "UpdatedBy": "omnis",
-  "Path": "sit",
+  "UniqueIdentifier": "ut",
+  "Name": "O'Reilly-Ernser",
+  "Description": "Quality-focused methodical paradigm",
+  "IncludeId": "aliquid",
+  "Source": "vitae",
+  "Registered": "2004-12-19T16:32:38.5552758+01:00",
+  "RegisteredBy": "consequatur",
+  "Updated": "2003-02-08T16:32:38.5552758+01:00",
+  "UpdatedBy": "eos",
+  "Path": "debitis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 7
+      "FieldLength": 426
     }
   }
 }

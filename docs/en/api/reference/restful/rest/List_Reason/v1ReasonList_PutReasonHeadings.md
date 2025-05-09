@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 737,
-    "Name": "Rice, Gutkowski and Wolff",
-    "Tooltip": "esse",
-    "Deleted": false,
-    "Rank": 776,
-    "UdListDefinitionId": 582
+    "HeadingId": 547,
+    "Name": "Kuhic, Gislason and Yundt",
+    "Tooltip": "vel",
+    "Deleted": true,
+    "Rank": 219,
+    "UdListDefinitionId": 607
   },
   {
-    "HeadingId": 737,
-    "Name": "Rice, Gutkowski and Wolff",
-    "Tooltip": "esse",
-    "Deleted": false,
-    "Rank": 776,
-    "UdListDefinitionId": 582
+    "HeadingId": 547,
+    "Name": "Kuhic, Gislason and Yundt",
+    "Tooltip": "vel",
+    "Deleted": true,
+    "Rank": 219,
+    "UdListDefinitionId": 607
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 961,
-    "Name": "Langworth-Altenwerth",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "Rank": 785,
-    "UdListDefinitionId": 603,
+    "HeadingId": 619,
+    "Name": "Barton LLC",
+    "Tooltip": "eveniet",
+    "Deleted": true,
+    "Rank": 115,
+    "UdListDefinitionId": 402,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 584
+        "FieldLength": 590
       }
     }
   }

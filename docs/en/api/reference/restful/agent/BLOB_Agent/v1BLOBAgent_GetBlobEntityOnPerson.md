@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 760
+  "PersonId": 738
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 486,
-  "BlobSize": 525,
-  "Description": "Decentralized cohesive service-desk",
-  "ExtraInfo": "quo",
+  "BlobId": 784,
+  "BlobSize": 324,
+  "Description": "Triple-buffered discrete standardization",
+  "ExtraInfo": "aut",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "occaecati",
-  "OriginalSize": 10,
-  "CreatedDate": "2003-08-26T13:13:59.5470712+02:00",
-  "UpdatedDate": "2011-07-10T13:13:59.5470712+02:00",
+  "MimeType": "omnis",
+  "OriginalSize": 89,
+  "CreatedDate": "2010-10-28T16:32:38.2116027+02:00",
+  "UpdatedDate": "2017-01-12T16:32:38.2116027+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "distinctio",
+  "ConceptualType": "quibusdam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 346
+      "FieldType": "System.String",
+      "FieldLength": 627
     }
   }
 }

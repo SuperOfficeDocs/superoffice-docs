@@ -26,8 +26,8 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductCategory/MDOItems?flat=True
-GET /api/v1/List/ProductCategory/MDOItems?query=laborum
+GET /api/v1/List/ProductCategory/MDOItems?flat=False
+GET /api/v1/List/ProductCategory/MDOItems?query=dolor
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 328,
-    "Name": "Carroll Group",
-    "ToolTip": "Ducimus voluptatem.",
-    "Deleted": true,
-    "Rank": 196,
-    "Type": "aliquid",
+    "Id": 360,
+    "Name": "Leuschke, Trantow and Mertz",
+    "ToolTip": "Tempore sunt cupiditate eligendi fugiat laborum expedita.",
+    "Deleted": false,
+    "Rank": 4,
+    "Type": "nihil",
     "ChildItems": [
       {
-        "Id": 135,
-        "Name": "Lindgren, Bergnaum and Okuneva",
-        "ToolTip": "Fuga qui laboriosam.",
+        "Id": 774,
+        "Name": "Leuschke-Lubowitz",
+        "ToolTip": "Consequatur facere consequatur.",
         "Deleted": false,
-        "Rank": 552,
-        "Type": "et",
+        "Rank": 354,
+        "Type": "molestiae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "illum",
-        "ColorBlock": 374,
-        "ExtraInfo": "accusamus",
-        "StyleHint": "cum",
-        "FullName": "Mr. Herta Greenfelder",
+        "IconHint": "necessitatibus",
+        "ColorBlock": 462,
+        "ExtraInfo": "vero",
+        "StyleHint": "sit",
+        "FullName": "Tracy Mosciski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 149
+            "FieldType": "System.String",
+            "FieldLength": 402
           }
         }
       }
     ],
-    "IconHint": "optio",
-    "ColorBlock": 142,
-    "ExtraInfo": "est",
-    "StyleHint": "sapiente",
-    "FullName": "Ms. Enid Pietro Witting",
+    "IconHint": "tempora",
+    "ColorBlock": 68,
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "laborum",
+    "FullName": "Leonie Bode",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 269
+        "FieldLength": 939
       }
     }
   }

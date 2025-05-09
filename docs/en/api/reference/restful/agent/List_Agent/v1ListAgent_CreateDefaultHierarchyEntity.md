@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 144,
+  "HierarchyId": 854,
   "Domain": "Dashboards",
-  "Name": "Nienow, Hodkiewicz and Wisoky",
-  "Fullname": "est",
-  "ParentId": 5,
+  "Name": "Zemlak, Mosciski and Bechtelar",
+  "Fullname": "quam",
+  "ParentId": 508,
   "Children": [
     {
-      "HierarchyId": 749,
+      "HierarchyId": 157,
       "Domain": "Dashboards",
-      "Name": "Heidenreich-Blick",
-      "Fullname": "rerum",
-      "ParentId": 255,
+      "Name": "Stiedemann-Grady",
+      "Fullname": "maiores",
+      "ParentId": 711,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2025-03-29T13:14:00.6575024+01:00",
-      "RegisteredAssociateId": 304,
-      "Updated": "2000-09-15T13:14:00.6575024+02:00",
-      "UpdatedAssociateId": 911,
+      "Registered": "2003-08-07T16:32:39.3051024+02:00",
+      "RegisteredAssociateId": 657,
+      "Updated": "2019-04-08T16:32:39.3051024+02:00",
+      "UpdatedAssociateId": 506,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 771
+          "FieldLength": 660
         }
       }
     }
   ],
-  "Registered": "2010-11-27T13:14:00.6575024+01:00",
-  "RegisteredAssociateId": 460,
-  "Updated": "2020-10-26T13:14:00.6575024+01:00",
-  "UpdatedAssociateId": 180,
+  "Registered": "2005-08-29T16:32:39.3051024+02:00",
+  "RegisteredAssociateId": 620,
+  "Updated": "2004-01-04T16:32:39.3051024+01:00",
+  "UpdatedAssociateId": 381,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 401
+      "FieldLength": 881
     }
   }
 }

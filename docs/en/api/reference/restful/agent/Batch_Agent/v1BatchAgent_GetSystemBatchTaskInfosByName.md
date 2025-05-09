@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Fisher LLC"
+  "TaskName": "Stiedemann LLC"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 457,
-    "Name": "Bechtelar Inc and Sons",
-    "AssociateId": 843,
-    "DetailsTable": 855,
-    "DetailsRecord": 295,
+    "Id": 299,
+    "Name": "Leannon, Quitzon and Gerhold",
+    "AssociateId": 557,
+    "DetailsTable": 437,
+    "DetailsRecord": 715,
     "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "qui",
-      "ParameterObject2": "eos"
+      "ParameterObject1": "et",
+      "ParameterObject2": "fugiat"
     },
-    "LastStarted": "2012-04-05T13:13:59.5314453+02:00",
-    "Created": "2014-10-30T13:13:59.5314453+01:00",
-    "StartCount": 825,
-    "DatabaseSerialNumber": "1684373",
-    "Context": "ullam",
-    "Result": "voluptates",
+    "LastStarted": "2021-09-15T16:32:38.1959817+02:00",
+    "Created": "2011-11-16T16:32:38.1959817+01:00",
+    "StartCount": 13,
+    "DatabaseSerialNumber": "1418526",
+    "Context": "voluptatem",
+    "Result": "iure",
     "State": "All",
-    "Description": "Robust multi-state capacity",
-    "Response": "reiciendis",
-    "Request": "vero",
-    "ProgressDescription": "Persevering cohesive monitoring",
-    "ProgressPercent": 502,
-    "FileName": "Herzog LLC",
+    "Description": "Streamlined eco-centric secured line",
+    "Response": "dolores",
+    "Request": "quae",
+    "ProgressDescription": "Team-oriented logistical collaboration",
+    "ProgressPercent": 514,
+    "FileName": "O'Kon, Johnston and Emmerich",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 351
+        "FieldType": "System.String",
+        "FieldLength": 716
       }
     }
   }

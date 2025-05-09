@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductFamily
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 892,
-  "Name": "Koch Group",
-  "Tooltip": "quisquam",
+  "Id": 570,
+  "Name": "Farrell-Rogahn",
+  "Tooltip": "aliquid",
   "Deleted": false,
-  "Rank": 645,
+  "Rank": 872,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "eos",
-  "InUseByUserDefinedFields": true,
+  "ListType": "architecto",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 166
+      "FieldType": "System.Int32",
+      "FieldLength": 776
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

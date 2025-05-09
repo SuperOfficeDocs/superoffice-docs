@@ -91,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 736
+  "AssociateId": 173
 }
 ```
 
@@ -103,54 +103,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 401,
-    "ERPName": "Crist-Miller",
-    "DisplayName": "Cummings, Wolff and Goldner",
-    "DisplayDescription": "Virtual background encoding",
-    "Rank": 647,
-    "ConnectorName": "Hauck, Spencer and Gutmann",
-    "ErpConnectionId": 842,
-    "ExtraData": "consequuntur",
-    "IsAvailable": true,
+    "QuoteConnectionId": 911,
+    "ERPName": "Metz-Walsh",
+    "DisplayName": "Boehm, Kautzer and Borer",
+    "DisplayDescription": "Cloned national data-warehouse",
+    "Rank": 168,
+    "ConnectorName": "Schneider Group",
+    "ErpConnectionId": 781,
+    "ExtraData": "animi",
+    "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 150,
-        "ERPPriceListKey": "sapiente",
-        "QuoteConnectionId": 582,
-        "Name": "Schultz Inc and Sons",
-        "Description": "De-engineered intermediate synergy",
-        "Currency": "qui",
-        "CurrencyName": "Nitzsche, Leannon and Crist",
-        "ValidFrom": "1998-07-15T13:14:01.0020135+02:00",
-        "ValidTo": "2005-12-28T13:14:01.0020135+01:00",
+        "PriceListId": 121,
+        "ERPPriceListKey": "aspernatur",
+        "QuoteConnectionId": 800,
+        "Name": "Quitzon Inc and Sons",
+        "Description": "Polarised discrete strategy",
+        "Currency": "eaque",
+        "CurrencyName": "Bashirian-Wisoky",
+        "ValidFrom": "2010-07-08T16:32:39.7271263+02:00",
+        "ValidTo": "2014-12-28T16:32:39.7271263+01:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 843
+            "FieldLength": 802
           }
         }
       }
     ],
-    "AllAccess": false,
+    "AllAccess": true,
     "Deleted": false,
     "UserGroupAccessIds": [
-      276,
-      567
+      967,
+      990
     ],
     "AssociateAccessIds": [
-      329,
-      336
+      12,
+      402
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 612
+        "FieldLength": 46
       }
     }
   }

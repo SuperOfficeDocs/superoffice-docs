@@ -138,18 +138,18 @@ ChatTopicEntity  updated.
 PATCH /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "quia",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "quia",
     "value": {}
   }
 ]
@@ -162,48 +162,48 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 792,
-  "Name": "Bogisich, Lesch and Jenkins",
-  "Description": "Implemented multi-state secured line",
-  "WelcomeMessage": "eos",
+  "ChatTopicId": 132,
+  "Name": "Kemmer-Dietrich",
+  "Description": "Synergized zero administration process improvement",
+  "WelcomeMessage": "nemo",
   "Language": null,
-  "LastAccept": "2009-04-24T13:14:08.4616221+02:00",
-  "SecondsPrAccept": 605,
-  "AlertRecipient": "quo",
+  "LastAccept": "2008-05-02T16:32:47.2600112+02:00",
+  "SecondsPrAccept": 639,
+  "AlertRecipient": "qui",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "reprehenderit",
+  "BadgeHeader": "mollitia",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "consequatur",
-  "WarnNewChatMinutes": 118,
-  "WarnManagerNewChatMinutes": 198,
+  "CustomQueueText": "aliquam",
+  "WarnNewChatMinutes": 856,
+  "WarnManagerNewChatMinutes": 702,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 76,
-  "WarnManagerChatMessageMinutes": 870,
+  "WarnChatMessageMinutes": 918,
+  "WarnManagerChatMessageMinutes": 464,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 946,
-  "OfflineFormQueueLength": 609,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "perferendis",
+  "OfflineFormTimeLimit": 471,
+  "OfflineFormQueueLength": 749,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 851
+      "FieldLength": 354
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

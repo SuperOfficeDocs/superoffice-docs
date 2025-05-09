@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Mosciski LLC"
+  "ApplicationName": "Dietrich, Lemke and Jast"
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "inventore",
-    "Value": "voluptate",
-    "RecordId": 331,
-    "CreatedDate": "1999-02-03T13:14:00.5168611+01:00",
-    "UpdatedDate": "2015-01-06T13:14:00.5168611+01:00",
-    "UpdatedBy": "similique",
-    "CreatedBy": "sint",
-    "TableName": "Heller-Christiansen",
+    "Key": "laborum",
+    "Value": "quod",
+    "RecordId": 93,
+    "CreatedDate": "2000-08-06T16:32:39.180141+02:00",
+    "UpdatedDate": "2015-08-13T16:32:39.180141+02:00",
+    "UpdatedBy": "minus",
+    "CreatedBy": "hic",
+    "TableName": "Friesen, Tremblay and Nikolaus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 502
+        "FieldLength": 752
       }
     }
   }

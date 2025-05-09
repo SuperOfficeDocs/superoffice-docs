@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 893,
-    "Name": "Aufderhar-Collins",
-    "ToolTip": "Soluta accusantium.",
+    "Id": 531,
+    "Name": "Bernhard Inc and Sons",
+    "ToolTip": "Eaque reiciendis aut est.",
     "Deleted": false,
-    "Rank": 935,
-    "Type": "eveniet",
-    "ColorBlock": 409,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "2021-10-16T13:14:09.7441386+02:00",
+    "Rank": 386,
+    "Type": "voluptatem",
+    "ColorBlock": 912,
+    "IconHint": "rerum",
+    "Selected": false,
+    "LastChanged": "2024-03-01T16:32:48.6495307+01:00",
     "ChildItems": [
       {
-        "Id": 800,
-        "Name": "Simonis-Thompson",
-        "ToolTip": "Qui ab minus impedit.",
+        "Id": 74,
+        "Name": "Yundt, Stoltenberg and Lubowitz",
+        "ToolTip": "Distinctio explicabo ipsam velit officiis ab veniam itaque.",
         "Deleted": true,
-        "Rank": 68,
-        "Type": "ab",
-        "ColorBlock": 231,
-        "IconHint": "repellendus",
-        "Selected": false,
-        "LastChanged": "2013-04-20T13:14:09.7441386+02:00",
+        "Rank": 619,
+        "Type": "laborum",
+        "ColorBlock": 792,
+        "IconHint": "magni",
+        "Selected": true,
+        "LastChanged": "2001-06-06T16:32:48.6495307+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "praesentium",
-        "StyleHint": "quasi",
-        "Hidden": true,
-        "FullName": "Miss Ebba Carroll IV",
+        "ExtraInfo": "veniam",
+        "StyleHint": "ipsa",
+        "Hidden": false,
+        "FullName": "Randal Schuster",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 153
+            "FieldLength": 677
           }
         }
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "omnis",
-    "Hidden": true,
-    "FullName": "Jevon Hilll",
+    "ExtraInfo": "iusto",
+    "StyleHint": "quos",
+    "Hidden": false,
+    "FullName": "Ms. Misty Shany Schultz Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 786
+        "FieldLength": 124
       }
     }
   }

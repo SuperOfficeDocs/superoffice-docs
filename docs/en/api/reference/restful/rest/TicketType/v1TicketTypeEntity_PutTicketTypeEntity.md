@@ -119,34 +119,34 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 238,
-  "Name": "Sauer, Torp and Kuphal",
-  "Rank": 965,
-  "Tooltip": "vero",
-  "Icon": "aut",
-  "DefaultTicketStatus": 820,
+  "TicketTypeId": 870,
+  "Name": "Thiel Inc and Sons",
+  "Rank": 238,
+  "Tooltip": "beatae",
+  "Icon": "voluptas",
+  "DefaultTicketStatus": 732,
   "TicketStatuses": [
-    385,
-    578
+    393,
+    304
   ],
-  "DefaultTicketPriority": 791,
+  "DefaultTicketPriority": 453,
   "TicketPriorities": [
-    588,
-    353
+    957,
+    20
   ],
-  "ReplyTemplate": 768,
-  "IsExternalVisible": true,
-  "IsDefault": false,
-  "ShowInNew": true,
-  "ExcludeSignature": true,
+  "ReplyTemplate": 873,
+  "IsExternalVisible": false,
+  "IsDefault": true,
+  "ShowInNew": false,
+  "ExcludeSignature": false,
   "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    500,
-    183
+    703,
+    157
   ],
-  "ReplyForwardNoSignature": true,
-  "ReplyExternalAsDefault": false
+  "ReplyForwardNoSignature": false,
+  "ReplyExternalAsDefault": true
 }
 ```
 
@@ -157,40 +157,40 @@ HTTP/1.1 200 TicketTypeEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 665,
-  "Name": "Carroll LLC",
-  "Rank": 222,
-  "Tooltip": "tempora",
-  "Icon": "at",
-  "DefaultTicketStatus": 294,
+  "TicketTypeId": 474,
+  "Name": "Krajcik-Tremblay",
+  "Rank": 58,
+  "Tooltip": "reprehenderit",
+  "Icon": "optio",
+  "DefaultTicketStatus": 381,
   "TicketStatuses": [
-    717,
-    348
+    190,
+    508
   ],
-  "DefaultTicketPriority": 974,
+  "DefaultTicketPriority": 39,
   "TicketPriorities": [
-    775,
-    444
+    730,
+    159
   ],
-  "ReplyTemplate": 77,
+  "ReplyTemplate": 658,
   "IsExternalVisible": false,
   "IsDefault": true,
   "ShowInNew": true,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": true,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    209,
-    243
+    576,
+    782
   ],
-  "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false,
+  "ReplyForwardNoSignature": true,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 631
+      "FieldType": "System.String",
+      "FieldLength": 982
     }
   },
   "_Links": {

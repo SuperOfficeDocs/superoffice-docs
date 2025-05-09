@@ -18,8 +18,6 @@ generated: true
 
 * [POST Agents/Selection/SaveSelectionEntity](v1SelectionAgent_SaveSelectionEntity.md)
 
-* [POST Agents/Selection/DeleteSelectionEntity](v1SelectionAgent_DeleteSelectionEntity.md)
-
 * [POST Agents/Selection/GetSelectionEntity](v1SelectionAgent_GetSelectionEntity.md)
 
 * [POST Agents/Selection/CreateSelectionEntity](v1SelectionAgent_CreateSelectionEntity.md)
@@ -113,6 +111,8 @@ generated: true
 * [POST Agents/Selection/GetDynamicSelectionCriteriaGroups](v1SelectionAgent_GetDynamicSelectionCriteriaGroups.md)
 
 * [POST Agents/Selection/SetDynamicSelectionCriteriaGroups](v1SelectionAgent_SetDynamicSelectionCriteriaGroups.md)
+
+* [POST Agents/Selection/DeleteSelectionEntity](v1SelectionAgent_DeleteSelectionEntity.md)
 
 * [POST Agents/Selection/GetSelectionForFind](v1SelectionAgent_GetSelectionForFind.md)
 

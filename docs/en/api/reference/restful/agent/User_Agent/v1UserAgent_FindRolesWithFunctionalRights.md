@@ -73,13 +73,13 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "FunctionalRightNames": [
-    "Gutmann Group",
-    "Romaguera LLC"
+    "Glover Inc and Sons",
+    "Wilderman, Stoltenberg and Mills"
   ]
 }
 ```
@@ -91,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  1002,
-  293
+  473,
+  142
 ]
 ```

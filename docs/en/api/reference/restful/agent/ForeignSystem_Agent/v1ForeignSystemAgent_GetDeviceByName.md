@@ -86,8 +86,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Bednar, Predovic and Kohler",
-  "DeviceName": "Koepp-Welch"
+  "ApplicationName": "Ratke-Kihn",
+  "DeviceName": "Sporer Inc and Sons"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 803,
-  "Name": "Wisozk, Doyle and Renner",
-  "CreatedDate": "2010-05-11T13:14:00.5012353+02:00",
-  "UpdatedDate": "2003-12-24T13:14:00.5012353+01:00",
-  "AssociateFullName": "Mr. Lavinia Constantin Funk IV",
-  "CreatedBy": "quia",
-  "UpdatedBy": "nam",
-  "DeviceIdentifier": "voluptatem",
-  "ForeignAppId": 832,
+  "ForeignDeviceId": 150,
+  "Name": "McClure, Herman and Armstrong",
+  "CreatedDate": "2014-11-16T16:32:39.1645096+01:00",
+  "UpdatedDate": "2017-07-02T16:32:39.1645096+02:00",
+  "AssociateFullName": "Karlie Timmy Ryan V",
+  "CreatedBy": "laudantium",
+  "UpdatedBy": "id",
+  "DeviceIdentifier": "vel",
+  "ForeignAppId": 34,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 326
+      "FieldLength": 506
     }
   }
 }

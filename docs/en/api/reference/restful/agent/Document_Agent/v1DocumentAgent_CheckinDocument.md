@@ -83,15 +83,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 905,
+  "DocumentId": 249,
   "AllowedReturnTypes": [
-    "soluta",
-    "expedita"
+    "ut",
+    "omnis"
   ],
-  "VersionDescription": "Polarised optimal migration",
+  "VersionDescription": "Up-sized logistical conglomeration",
   "VersionExtraFields": [
-    "reprehenderit",
-    "eveniet"
+    "doloribus",
+    "accusamus"
   ]
 }
 ```
@@ -103,11 +103,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "delectus",
-  "VersionId": "enim",
-  "Success": false,
+  "ExternalReference": "earum",
+  "VersionId": "omnis",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "assumenda",
-  "AdditionalInfo": "rerum"
+  "Value": "aut",
+  "AdditionalInfo": "dolore"
 }
 ```

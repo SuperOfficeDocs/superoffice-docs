@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 647,
-  "Name": "Marquardt LLC",
-  "Tooltip": "tenetur",
+  "Id": 1002,
+  "Name": "Heidenreich Inc and Sons",
+  "Tooltip": "culpa",
   "Deleted": false,
-  "Rank": 942,
-  "IsCustomList": true,
+  "Rank": 155,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "UseGroupsAndHeadings": true,
+  "ListType": "nostrum",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 274,
-  "Name": "Dickens Inc and Sons",
-  "Tooltip": "quidem",
-  "Deleted": true,
-  "Rank": 129,
+  "Id": 569,
+  "Name": "Gislason, Brekke and Mraz",
+  "Tooltip": "est",
+  "Deleted": false,
+  "Rank": 709,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "dolor",
+  "ListType": "voluptas",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 250
+      "FieldType": "System.String",
+      "FieldLength": 604
     }
   }
 }

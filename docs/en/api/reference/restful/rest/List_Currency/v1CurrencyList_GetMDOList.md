@@ -27,7 +27,7 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Currency/MDOItems?flat=False
-GET /api/v1/List/Currency/MDOItems?query=nostrum
+GET /api/v1/List/Currency/MDOItems?query=vero
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Currency/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 792,
-    "Name": "O'Conner-Connelly",
-    "ToolTip": "Eaque minus sapiente dolor consectetur ut.",
+    "Id": 879,
+    "Name": "Botsford Group",
+    "ToolTip": "Ea eligendi iste.",
     "Deleted": false,
-    "Rank": 462,
-    "Type": "doloribus",
+    "Rank": 696,
+    "Type": "molestiae",
     "ChildItems": [
       {
-        "Id": 14,
-        "Name": "Sipes LLC",
-        "ToolTip": "Aspernatur sunt nesciunt.",
-        "Deleted": true,
-        "Rank": 191,
-        "Type": "aliquid",
+        "Id": 669,
+        "Name": "Mayert, Schaefer and Dach",
+        "ToolTip": "Nihil minus voluptatem nihil culpa repellendus provident inventore.",
+        "Deleted": false,
+        "Rank": 890,
+        "Type": "minus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "libero",
-        "ColorBlock": 905,
-        "ExtraInfo": "nesciunt",
-        "StyleHint": "tempore",
-        "FullName": "Christophe Morissette",
+        "IconHint": "eaque",
+        "ColorBlock": 248,
+        "ExtraInfo": "eius",
+        "StyleHint": "aut",
+        "FullName": "Flossie Flatley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 297
+            "FieldLength": 928
           }
         }
       }
     ],
-    "IconHint": "illum",
-    "ColorBlock": 688,
-    "ExtraInfo": "fugiat",
-    "StyleHint": "assumenda",
-    "FullName": "Dr. Cullen Towne",
+    "IconHint": "suscipit",
+    "ColorBlock": 78,
+    "ExtraInfo": "eveniet",
+    "StyleHint": "et",
+    "FullName": "Miss Jayce Ila Heathcote DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 472
+        "FieldType": "System.String",
+        "FieldLength": 701
       }
     }
   }

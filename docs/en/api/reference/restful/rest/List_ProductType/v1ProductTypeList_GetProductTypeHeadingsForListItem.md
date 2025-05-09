@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 919,
-    "Name": "Welch-Hamill",
-    "ToolTip": "Vitae quidem molestiae omnis.",
+    "Id": 400,
+    "Name": "Willms Inc and Sons",
+    "ToolTip": "Maxime autem consequatur.",
     "Deleted": false,
-    "Rank": 233,
-    "Type": "reiciendis",
-    "ColorBlock": 215,
-    "IconHint": "quisquam",
-    "Selected": true,
-    "LastChanged": "2022-02-19T13:14:09.931658+01:00",
+    "Rank": 223,
+    "Type": "reprehenderit",
+    "ColorBlock": 705,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2011-05-23T16:32:48.8213663+02:00",
     "ChildItems": [
       {
-        "Id": 424,
-        "Name": "Crooks, Weissnat and Dibbert",
-        "ToolTip": "Ut similique.",
-        "Deleted": true,
-        "Rank": 122,
-        "Type": "inventore",
-        "ColorBlock": 698,
-        "IconHint": "molestiae",
-        "Selected": false,
-        "LastChanged": "2022-12-20T13:14:09.931658+01:00",
+        "Id": 841,
+        "Name": "Ernser Inc and Sons",
+        "ToolTip": "Consequatur et.",
+        "Deleted": false,
+        "Rank": 570,
+        "Type": "repellat",
+        "ColorBlock": 477,
+        "IconHint": "maxime",
+        "Selected": true,
+        "LastChanged": "2017-06-13T16:32:48.8213663+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quasi",
-        "StyleHint": "sint",
+        "ExtraInfo": "rem",
+        "StyleHint": "totam",
         "Hidden": false,
-        "FullName": "Mr. Marie Johns",
+        "FullName": "Marcelina Runte",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 358
+            "FieldLength": 315
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "repudiandae",
+    "ExtraInfo": "aliquam",
+    "StyleHint": "accusantium",
     "Hidden": false,
-    "FullName": "Mr. Fredrick Nadia Baumbach V",
+    "FullName": "Prof. Omari Esperanza Maggio Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 290
+        "FieldLength": 74
       }
     }
   }

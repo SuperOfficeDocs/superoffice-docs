@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 670,
-  "Name": "Carter LLC",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "UdListDefinitionId": 954,
-  "Rank": 376
+  "Id": 295,
+  "Name": "Schmitt Group",
+  "Tooltip": "cum",
+  "Deleted": true,
+  "UdListDefinitionId": 383,
+  "Rank": 215
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 989,
-  "Name": "Romaguera LLC",
-  "Tooltip": "omnis",
-  "Deleted": false,
-  "UdListDefinitionId": 987,
-  "Rank": 947,
+  "Id": 265,
+  "Name": "Frami, Trantow and Hyatt",
+  "Tooltip": "dignissimos",
+  "Deleted": true,
+  "UdListDefinitionId": 818,
+  "Rank": 759,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 596
+      "FieldType": "System.String",
+      "FieldLength": 685
     }
   }
 }

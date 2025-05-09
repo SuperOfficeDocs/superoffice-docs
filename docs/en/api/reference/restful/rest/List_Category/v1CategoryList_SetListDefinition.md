@@ -88,16 +88,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 987,
-  "Name": "Davis, Hodkiewicz and Klein",
-  "Tooltip": "ducimus",
-  "Deleted": true,
-  "Rank": 43,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 358,
+  "Name": "Gusikowski-Treutel",
+  "Tooltip": "laborum",
+  "Deleted": false,
+  "Rank": 963,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "eius",
-  "InUseByUserDefinedFields": true
+  "ListType": "laborum",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 366,
-  "Name": "Ward-Torphy",
-  "Tooltip": "tempore",
-  "Deleted": false,
-  "Rank": 117,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "et",
+  "Id": 502,
+  "Name": "Parisian, Boyle and Lesch",
+  "Tooltip": "excepturi",
+  "Deleted": true,
+  "Rank": 764,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "enim",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 636
+      "FieldType": "System.String",
+      "FieldLength": 397
     }
   }
 }

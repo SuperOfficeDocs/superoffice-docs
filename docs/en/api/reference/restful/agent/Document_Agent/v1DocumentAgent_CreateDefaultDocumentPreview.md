@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentPreview
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,16 +70,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Spencer, Bins and Wilkinson",
-  "Type": "vel",
-  "Size": 233,
+  "Name": "Leffler-Reichert",
+  "Type": "unde",
+  "Size": 345,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 792
+      "FieldLength": 117
     }
   }
 }

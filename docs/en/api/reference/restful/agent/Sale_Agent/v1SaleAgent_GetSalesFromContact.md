@@ -98,12 +98,12 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 484,
-  "OnlyOpenSales": true
+  "ContactId": 5,
+  "OnlyOpenSales": false
 }
 ```
 
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Conroy, Hauck and Stark",
-    "SaleDate": "2020-05-14T13:14:01.1274981+02:00",
-    "SaleId": 456,
-    "Probability": 374,
-    "Title": "eligendi",
-    "Amount": 29738.525999999998,
-    "Currency": "fugiat",
-    "ProjectName": "Turcotte-Thompson",
-    "AssociateFullName": "Jesus Hermann",
-    "Description": "Compatible object-oriented conglomeration",
+    "ContactName": "Metz, Witting and Bernier",
+    "SaleDate": "2020-11-30T16:32:39.8520956+01:00",
+    "SaleId": 653,
+    "Probability": 557,
+    "Title": "iure",
+    "Amount": 18509.404,
+    "Currency": "ab",
+    "ProjectName": "Konopelski-Rempel",
+    "AssociateFullName": "Angeline Mariam Predovic IV",
+    "Description": "Fully-configurable demand-driven benchmark",
     "Status": "Lost",
-    "WeightedAmount": 11241.658,
-    "ProjectId": 335,
-    "EarningPercent": 14128.072,
-    "Earning": 23752.586,
-    "ContactId": 49,
-    "AssociateId": 284,
-    "PersonId": 116,
-    "SaleTypeId": 459,
-    "SaleTypeName": "Klein, Hegmann and Turner",
-    "PersonFullName": "Prof. Rodrick Daniel DVM",
+    "WeightedAmount": 636.202,
+    "ProjectId": 567,
+    "EarningPercent": 6402.762,
+    "Earning": 6938.6759999999995,
+    "ContactId": 430,
+    "AssociateId": 157,
+    "PersonId": 869,
+    "SaleTypeId": 642,
+    "SaleTypeName": "Klein Inc and Sons",
+    "PersonFullName": "Kevin Herzog",
     "Completed": "Completed",
-    "ActiveErpLinks": 957,
-    "NextDueDate": "2007-11-22T13:14:01.1274981+01:00",
-    "Number": "867933",
+    "ActiveErpLinks": 548,
+    "NextDueDate": "2013-05-09T16:32:39.8520956+02:00",
+    "Number": "516305",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 793
+        "FieldType": "System.Int32",
+        "FieldLength": 319
       }
     }
   }

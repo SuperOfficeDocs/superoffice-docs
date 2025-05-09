@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 147,
-    "Name": "Morissette Inc and Sons",
-    "ToolTip": "Voluptatum recusandae corrupti accusamus nobis saepe id itaque.",
-    "Deleted": true,
-    "Rank": 214,
+    "Id": 481,
+    "Name": "Kunde, Cummerata and Kirlin",
+    "ToolTip": "Rem aut beatae.",
+    "Deleted": false,
+    "Rank": 623,
     "Type": "temporibus",
-    "ColorBlock": 786,
-    "IconHint": "dolorem",
+    "ColorBlock": 776,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2006-10-08T13:14:09.9785358+02:00",
+    "LastChanged": "2022-04-20T16:32:48.8682307+02:00",
     "ChildItems": [
       {
-        "Id": 841,
-        "Name": "Miller Inc and Sons",
-        "ToolTip": "Et quas vel ipsum tempora.",
-        "Deleted": false,
-        "Rank": 323,
-        "Type": "porro",
-        "ColorBlock": 188,
-        "IconHint": "debitis",
+        "Id": 777,
+        "Name": "Kertzmann, Bernhard and Hessel",
+        "ToolTip": "Enim debitis esse quis vel.",
+        "Deleted": true,
+        "Rank": 228,
+        "Type": "animi",
+        "ColorBlock": 995,
+        "IconHint": "laudantium",
         "Selected": false,
-        "LastChanged": "2012-08-13T13:14:09.9785358+02:00",
+        "LastChanged": "2006-11-06T16:32:48.8682307+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "ea",
+        "ExtraInfo": "odit",
+        "StyleHint": "vel",
         "Hidden": true,
-        "FullName": "Jessy Gleichner"
+        "FullName": "Hortense Quitzon"
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "ullam",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Ms. Rylee McDermott"
+    "FullName": "Dr. Virginia Brionna Orn"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 435,
-    "Name": "Krajcik-King",
-    "ToolTip": "Consequatur aut quos sed.",
-    "Deleted": false,
-    "Rank": 502,
-    "Type": "quo",
-    "ColorBlock": 768,
-    "IconHint": "quod",
-    "Selected": true,
-    "LastChanged": "2007-06-13T13:14:09.9785358+02:00",
+    "Id": 589,
+    "Name": "Boyle-Skiles",
+    "ToolTip": "Dolorem quam ex molestiae.",
+    "Deleted": true,
+    "Rank": 136,
+    "Type": "ipsam",
+    "ColorBlock": 667,
+    "IconHint": "eveniet",
+    "Selected": false,
+    "LastChanged": "1997-12-20T16:32:48.8682307+01:00",
     "ChildItems": [
       {
-        "Id": 674,
-        "Name": "O'Reilly-Connelly",
-        "ToolTip": "Explicabo consequatur.",
-        "Deleted": false,
-        "Rank": 386,
-        "Type": "qui",
-        "ColorBlock": 805,
-        "IconHint": "esse",
+        "Id": 53,
+        "Name": "Rohan-Schiller",
+        "ToolTip": "Illo incidunt et ut enim non debitis quo.",
+        "Deleted": true,
+        "Rank": 754,
+        "Type": "sit",
+        "ColorBlock": 603,
+        "IconHint": "nihil",
         "Selected": true,
-        "LastChanged": "2004-06-05T13:14:09.9785358+02:00",
+        "LastChanged": "2023-10-04T16:32:48.8682307+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dicta",
-        "StyleHint": "a",
+        "ExtraInfo": "consectetur",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Okey Parker",
+        "FullName": "Ms. Camren Kailee Hilll DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 844
+            "FieldLength": 294
           }
         }
       }
     ],
-    "ExtraInfo": "architecto",
-    "StyleHint": "animi",
+    "ExtraInfo": "vitae",
+    "StyleHint": "veritatis",
     "Hidden": true,
-    "FullName": "Kiel Heller",
+    "FullName": "Ines Borer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 157
+        "FieldType": "System.String",
+        "FieldLength": 846
       }
     }
   }

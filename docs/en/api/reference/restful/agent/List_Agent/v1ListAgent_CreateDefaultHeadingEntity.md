@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 7,
-  "Name": "Lockman Inc and Sons",
-  "Tooltip": "alias",
+  "HeadingId": 72,
+  "Name": "McKenzie-Fay",
+  "Tooltip": "blanditiis",
   "Deleted": true,
-  "Rank": 525,
-  "UdListDefinitionId": 857,
+  "Rank": 714,
+  "UdListDefinitionId": 377,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 108
+      "FieldLength": 686
     }
   }
 }

@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 308,
-    "Name": "Kemmer, Boyle and Roob",
-    "AssociateId": 894,
-    "DetailsTable": 359,
-    "DetailsRecord": 518,
-    "IsSystemTask": true,
+    "Id": 78,
+    "Name": "Smith LLC",
+    "AssociateId": 489,
+    "DetailsTable": 756,
+    "DetailsRecord": 289,
+    "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "porro",
-      "ParameterObject2": "dignissimos"
+      "ParameterObject1": "aut",
+      "ParameterObject2": "inventore"
     },
-    "LastStarted": "2013-10-17T13:13:59.5314453+02:00",
-    "Created": "2007-07-21T13:13:59.5314453+02:00",
-    "StartCount": 638,
-    "DatabaseSerialNumber": "1213812",
-    "Context": "aperiam",
-    "Result": "nulla",
+    "LastStarted": "2017-05-19T16:32:38.1959817+02:00",
+    "Created": "2018-08-29T16:32:38.1959817+02:00",
+    "StartCount": 512,
+    "DatabaseSerialNumber": "1003869",
+    "Context": "ea",
+    "Result": "illo",
     "State": "All",
-    "Description": "Stand-alone 4th generation customer loyalty",
-    "Response": "voluptatem",
-    "Request": "temporibus",
-    "ProgressDescription": "Monitored disintermediate parallelism",
-    "ProgressPercent": 159,
-    "FileName": "Littel-McLaughlin",
+    "Description": "Compatible transitional service-desk",
+    "Response": "illum",
+    "Request": "hic",
+    "ProgressDescription": "Team-oriented fresh-thinking structure",
+    "ProgressPercent": 827,
+    "FileName": "Boyle, Will and Daugherty",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 801
+        "FieldLength": 217
       }
     }
   }

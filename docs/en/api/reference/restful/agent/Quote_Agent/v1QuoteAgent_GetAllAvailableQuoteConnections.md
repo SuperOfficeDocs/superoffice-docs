@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 106,
-    "ERPName": "Nikolaus-Little",
-    "DisplayName": "Legros, Buckridge and Howe",
-    "DisplayDescription": "Expanded modular encoding",
-    "Rank": 468,
-    "ConnectorName": "Rippin LLC",
-    "ErpConnectionId": 11,
-    "ExtraData": "error",
-    "IsAvailable": true,
+    "QuoteConnectionId": 459,
+    "ERPName": "Stroman Group",
+    "DisplayName": "Runte-Smitham",
+    "DisplayDescription": "Progressive contextually-based archive",
+    "Rank": 140,
+    "ConnectorName": "Kilback, Langosh and Bauch",
+    "ErpConnectionId": 420,
+    "ExtraData": "numquam",
+    "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 422,
-        "ERPPriceListKey": "id",
-        "QuoteConnectionId": 75,
-        "Name": "Herzog Group",
-        "Description": "Reduced needs-based portal",
-        "Currency": "excepturi",
-        "CurrencyName": "Bogan, Kulas and Gislason",
-        "ValidFrom": "2024-04-07T13:14:00.9865066+02:00",
-        "ValidTo": "2007-08-05T13:14:00.9865066+02:00",
+        "PriceListId": 808,
+        "ERPPriceListKey": "delectus",
+        "QuoteConnectionId": 55,
+        "Name": "Stanton, Gorczany and Toy",
+        "Description": "Optional directional function",
+        "Currency": "voluptatibus",
+        "CurrencyName": "Waters LLC",
+        "ValidFrom": "2014-12-02T16:32:39.7271263+01:00",
+        "ValidTo": "2007-12-08T16:32:39.7271263+01:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 569
+            "FieldType": "System.Int32",
+            "FieldLength": 103
           }
         }
       }
     ],
-    "AllAccess": true,
+    "AllAccess": false,
     "Deleted": true,
     "UserGroupAccessIds": [
-      702,
-      64
+      363,
+      473
     ],
     "AssociateAccessIds": [
-      156,
-      91
+      458,
+      409
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 279
+        "FieldType": "System.Int32",
+        "FieldLength": 212
       }
     }
   }

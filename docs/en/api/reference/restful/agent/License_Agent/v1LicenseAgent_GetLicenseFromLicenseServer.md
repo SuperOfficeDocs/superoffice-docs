@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Boyle Group"
+  "OwnerName": "Herman-Harris"
 }
 ```
 
@@ -91,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "facilitate mission-critical networks",
+  "Reason": "exploit revolutionary experiences",
   "CanBeActivated": false,
   "New": null,
   "Current": null,
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 867,
-      "NumberOfLicensesFree": 486,
-      "NumberOfLicensesAdded": 928,
-      "NumberOfLicensesNewTotal": 750,
-      "NumberOfLicensesNewFree": 146,
-      "NumberOfLicensesTotal": 488
+      "NumberOfLicensesInUse": 162,
+      "NumberOfLicensesFree": 150,
+      "NumberOfLicensesAdded": 920,
+      "NumberOfLicensesNewTotal": 43,
+      "NumberOfLicensesNewFree": 901,
+      "NumberOfLicensesTotal": 475
     }
   ],
-  "AccumulatedNextCheckDate": "2014-04-04T13:14:00.532487+02:00"
+  "AccumulatedNextCheckDate": "2021-11-25T16:32:39.180141+01:00"
 }
 ```

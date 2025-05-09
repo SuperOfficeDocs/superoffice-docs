@@ -98,7 +98,7 @@ OK
 POST /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 28,
-  "ColumnId": 423,
-  "FieldDefault": "ut",
-  "FieldHeight": 280,
-  "FieldLabel": "ad",
-  "FieldLeft": 175,
-  "FieldTop": 257,
+  "UDefFieldId": 407,
+  "ColumnId": 242,
+  "FieldDefault": "dolores",
+  "FieldHeight": 733,
+  "FieldLabel": "ea",
+  "FieldLeft": 703,
+  "FieldTop": 59,
   "FieldType": "Checkbox",
-  "FieldWidth": 664,
-  "FormatMask": "voluptatibus",
-  "HideLabel": true,
+  "FieldWidth": 865,
+  "FormatMask": "delectus",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 879,
-  "LabelLeft": 461,
-  "LabelTop": 209,
-  "LabelWidth": 245,
-  "LastVersionId": 571,
-  "ListTableId": 254,
+  "LabelHeight": 238,
+  "LabelLeft": 791,
+  "LabelTop": 921,
+  "LabelWidth": 421,
+  "LastVersionId": 669,
+  "ListTableId": 898,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 722,
-  "ProgId": "harum",
+  "Page1LineNo": 334,
+  "ProgId": "provident",
   "IsReadOnly": false,
-  "ShortLabel": "incidunt",
-  "TabOrder": 725,
-  "TextLength": 446,
-  "Tooltip": "explicabo",
-  "UdefIdentity": 666,
-  "UDListDefinitionId": 694,
+  "ShortLabel": "ipsum",
+  "TabOrder": 846,
+  "TextLength": 640,
+  "Tooltip": "fuga",
+  "UdefIdentity": 750,
+  "UDListDefinitionId": 125,
   "Justification": "Center",
-  "Version": 973,
-  "TemplateVariableName": "Schmitt LLC",
+  "Version": 871,
+  "TemplateVariableName": "Christiansen Group",
   "HasBeenPublished": true,
-  "MdoListName": "Schneider, Abernathy and Lind",
+  "MdoListName": "Moen-Keebler",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 163
+      "FieldLength": 711
     }
   }
 }

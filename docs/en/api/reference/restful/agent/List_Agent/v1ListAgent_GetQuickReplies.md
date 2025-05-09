@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuickReplyId": 581,
-    "Name": "Flatley, Lubowitz and Russel",
-    "HtmlBody": "rerum",
+    "QuickReplyId": 22,
+    "Name": "Lehner, Thompson and Lynch",
+    "HtmlBody": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 798
+        "FieldLength": 232
       }
     }
   },
   {
-    "QuickReplyId": 581,
-    "Name": "Flatley, Lubowitz and Russel",
-    "HtmlBody": "rerum",
+    "QuickReplyId": 22,
+    "Name": "Lehner, Thompson and Lynch",
+    "HtmlBody": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 798
+        "FieldLength": 232
       }
     }
   }

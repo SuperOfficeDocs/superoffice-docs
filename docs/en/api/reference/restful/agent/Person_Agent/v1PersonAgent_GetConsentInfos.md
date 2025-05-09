@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Person/GetConsentInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 708
+  "PersonId": 404
 }
 ```
 
@@ -105,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 412,
-    "Comment": "sit",
-    "Registered": "2011-05-05T13:14:00.8294529+02:00",
-    "RegisteredAssociateId": 289,
-    "Updated": "2004-11-06T13:14:00.8294529+01:00",
-    "UpdatedAssociateId": 988,
-    "LegalBaseId": 392,
-    "LegalBaseKey": "tempore",
-    "LegalBaseName": "Koss LLC",
-    "ConsentPurposeId": 545,
-    "ConsentPurposeKey": "dolorem",
-    "ConsentPurposeName": "Abshire Inc and Sons",
-    "ConsentSourceId": 590,
-    "ConsentSourceKey": "vitae",
-    "ConsentSourceName": "Zulauf, Botsford and Bruen",
+    "ConsentPersonId": 413,
+    "Comment": "architecto",
+    "Registered": "2022-11-02T16:32:39.5084251+01:00",
+    "RegisteredAssociateId": 413,
+    "Updated": "2018-11-08T16:32:39.5084251+01:00",
+    "UpdatedAssociateId": 981,
+    "LegalBaseId": 887,
+    "LegalBaseKey": "voluptas",
+    "LegalBaseName": "Krajcik, Herzog and Rutherford",
+    "ConsentPurposeId": 258,
+    "ConsentPurposeKey": "consectetur",
+    "ConsentPurposeName": "Schiller, Nader and Krajcik",
+    "ConsentSourceId": 695,
+    "ConsentSourceKey": "laborum",
+    "ConsentSourceName": "Berge Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 429
+        "FieldType": "System.Int32",
+        "FieldLength": 378
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Source
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 609,
-  "Name": "Rowe, Kirlin and Harvey",
-  "Tooltip": "accusamus",
-  "Deleted": false,
-  "Rank": 215,
-  "IsCustomList": false,
+  "Id": 943,
+  "Name": "Lueilwitz-Hayes",
+  "Tooltip": "id",
+  "Deleted": true,
+  "Rank": 30,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ipsa",
-  "InUseByUserDefinedFields": true,
+  "ListType": "repudiandae",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 761
+      "FieldLength": 817
     }
   },
   "_Links": {

@@ -26,7 +26,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=478
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=874
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,38 +99,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 689,
-  "FormKey": "voluptas",
-  "Name": "Collier, Stokes and Frami",
-  "Description": "Exclusive background support",
-  "Config": "mollitia",
-  "FolderId": 175,
-  "ScriptId": 292,
-  "ResponseShipmentId": 102,
-  "Active": true,
-  "Expires": "2022-07-06T13:14:00.6887452+02:00",
-  "MaxSubmits": 217,
+  "FormId": 93,
+  "FormKey": "ipsam",
+  "Name": "Barton LLC",
+  "Description": "Multi-lateral homogeneous synergy",
+  "Config": "in",
+  "FolderId": 61,
+  "ScriptId": 571,
+  "ResponseShipmentId": 140,
+  "Active": false,
+  "Expires": "2015-03-31T16:32:39.3363462+02:00",
+  "MaxSubmits": 999,
   "Type": "Normal",
-  "Recipe": "dolore",
-  "GroupId": 10,
+  "Recipe": "mollitia",
+  "GroupId": 837,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2002-04-06T13:14:00.6887452+02:00",
-  "RegisteredAssociateId": 577,
-  "Updated": "2023-01-03T13:14:00.6887452+01:00",
-  "UpdatedAssociateId": 518,
-  "UpdatedCount": 566,
+  "Registered": "2020-10-14T16:32:39.3363462+02:00",
+  "RegisteredAssociateId": 313,
+  "Updated": "2000-09-13T16:32:39.3363462+02:00",
+  "UpdatedAssociateId": 100,
+  "UpdatedCount": 654,
   "EmailFlows": [
-    142,
-    995
+    649,
+    910
   ],
-  "FolderName": "Stehr Inc and Sons",
+  "FolderName": "Mann Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 501
+      "FieldLength": 170
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 249,
-    "Name": "Bayer, Aufderhar and Waters",
-    "ToolTip": "Dolorem eius iste minus eius tempora.",
-    "Deleted": false,
-    "Rank": 769,
-    "Type": "et",
-    "ColorBlock": 295,
-    "IconHint": "vel",
+    "Id": 947,
+    "Name": "Klocko-Lesch",
+    "ToolTip": "Et enim.",
+    "Deleted": true,
+    "Rank": 758,
+    "Type": "autem",
+    "ColorBlock": 984,
+    "IconHint": "reiciendis",
     "Selected": false,
-    "LastChanged": "2001-11-08T13:14:09.6347653+01:00",
+    "LastChanged": "2013-05-23T16:32:48.5401806+02:00",
     "ChildItems": [
       {
-        "Id": 466,
-        "Name": "Gerlach LLC",
-        "ToolTip": "Iure occaecati mollitia.",
+        "Id": 70,
+        "Name": "Greenfelder, Hirthe and Conroy",
+        "ToolTip": "Eum odit.",
         "Deleted": false,
-        "Rank": 453,
-        "Type": "alias",
-        "ColorBlock": 646,
-        "IconHint": "quos",
-        "Selected": false,
-        "LastChanged": "2006-11-10T13:14:09.6347653+01:00",
+        "Rank": 235,
+        "Type": "delectus",
+        "ColorBlock": 974,
+        "IconHint": "nobis",
+        "Selected": true,
+        "LastChanged": "1998-02-13T16:32:48.5401806+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "qui",
+        "ExtraInfo": "sed",
+        "StyleHint": "architecto",
         "Hidden": false,
-        "FullName": "Lucy Deshaun Sipes II"
+        "FullName": "Miss Lora Orville Williamson DVM"
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "dolores",
-    "Hidden": false,
-    "FullName": "Joshua Nolan"
+    "ExtraInfo": "tempora",
+    "StyleHint": "temporibus",
+    "Hidden": true,
+    "FullName": "Philip Dickinson"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 494,
-    "Name": "Frami-Quigley",
-    "ToolTip": "Dolor alias.",
+    "Id": 217,
+    "Name": "Tromp-Dietrich",
+    "ToolTip": "Fuga reprehenderit molestiae soluta et.",
     "Deleted": false,
-    "Rank": 299,
-    "Type": "odio",
-    "ColorBlock": 64,
-    "IconHint": "necessitatibus",
+    "Rank": 843,
+    "Type": "rerum",
+    "ColorBlock": 403,
+    "IconHint": "modi",
     "Selected": false,
-    "LastChanged": "2010-03-17T13:14:09.6347653+01:00",
+    "LastChanged": "2003-07-30T16:32:48.5401806+02:00",
     "ChildItems": [
       {
-        "Id": 763,
-        "Name": "Hane-Gulgowski",
-        "ToolTip": "Cupiditate voluptas vitae saepe quam dolor deserunt.",
+        "Id": 83,
+        "Name": "Windler, Von and Von",
+        "ToolTip": "Ea unde asperiores vitae deleniti.",
         "Deleted": false,
-        "Rank": 625,
-        "Type": "nihil",
-        "ColorBlock": 558,
-        "IconHint": "accusantium",
-        "Selected": false,
-        "LastChanged": "2021-02-03T13:14:09.6347653+01:00",
+        "Rank": 12,
+        "Type": "perferendis",
+        "ColorBlock": 439,
+        "IconHint": "in",
+        "Selected": true,
+        "LastChanged": "2012-01-22T16:32:48.5401806+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "nulla",
+        "StyleHint": "perferendis",
         "Hidden": false,
-        "FullName": "Wayne Labadie",
+        "FullName": "Lula Fadel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 720
+            "FieldType": "System.Int32",
+            "FieldLength": 478
           }
         }
       }
     ],
-    "ExtraInfo": "nam",
-    "StyleHint": "sit",
-    "Hidden": false,
-    "FullName": "Camila Buckridge",
+    "ExtraInfo": "tempora",
+    "StyleHint": "ea",
+    "Hidden": true,
+    "FullName": "Quinton Botsford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 123
+        "FieldLength": 955
       }
     }
   }

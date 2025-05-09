@@ -90,7 +90,7 @@ OK
 GET /api/v1/Document/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,91 +98,91 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 05 Jul 2015 13:14:08 G7T
+Last-Modified: Tue, 12 May 2015 16:32:47 G5T
 
 {
-  "DocumentId": 717,
+  "DocumentId": 751,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "soluta",
-  "Header": "asperiores",
-  "Name": "Keeling, Lind and Buckridge",
-  "OurRef": "labore",
-  "YourRef": "non",
-  "CreatedDate": "2024-11-29T13:14:08.6334998+01:00",
-  "UpdatedDate": "2015-07-05T13:14:08.6334998+02:00",
-  "Description": "Cross-group homogeneous info-mediaries",
+  "Attention": "esse",
+  "Header": "voluptas",
+  "Name": "Price-Kohler",
+  "OurRef": "quos",
+  "YourRef": "dolorem",
+  "CreatedDate": "2005-05-18T16:32:47.4308602+02:00",
+  "UpdatedDate": "2015-05-12T16:32:47.4308602+02:00",
+  "Description": "Function-based uniform conglomeration",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2004-11-16T13:14:08.6334998+01:00",
-  "ExternalRef": "illum",
+  "Date": "2011-05-02T16:32:47.4308602+02:00",
+  "ExternalRef": "est",
   "Completed": "Completed",
-  "ActiveLinks": 845,
+  "ActiveLinks": 392,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Hintz-Langworth",
-      "Id": 397,
-      "Description": "Persevering 4th generation extranet",
-      "ExtraInfo": "ipsa",
-      "LinkId": 184,
+      "EntityName": "Erdman LLC",
+      "Id": 679,
+      "Description": "Optimized local service-desk",
+      "ExtraInfo": "saepe",
+      "LinkId": 201,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 117
+          "FieldLength": 445
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 507,
-  "Snum": 285,
+  "SuggestedDocumentId": 211,
+  "Snum": 732,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "1210014157"
+    "SuperOffice:1": "Ms. Lawson Adrianna Simonis Jr.",
+    "SuperOffice:2": "Deja Kessler"
   },
   "ExtraFields": {
-    "ExtraFields1": "ea",
-    "ExtraFields2": "harum"
+    "ExtraFields1": "laborum",
+    "ExtraFields2": "magnam"
   },
   "CustomFields": {
-    "CustomFields1": "nesciunt",
-    "CustomFields2": "praesentium"
+    "CustomFields1": "velit",
+    "CustomFields2": "quia"
   },
-  "PublishEventDate": "2017-04-16T13:14:08.6491258+02:00",
-  "PublishTo": "2008-02-03T13:14:08.6491258+01:00",
-  "PublishFrom": "2023-05-08T13:14:08.6491258+02:00",
+  "PublishEventDate": "2013-08-30T16:32:47.4308602+02:00",
+  "PublishTo": "2008-07-29T16:32:47.4308602+02:00",
+  "PublishFrom": "2000-09-12T16:32:47.4308602+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 273,
+      "VisibleId": 293,
       "Visibility": "All",
-      "DisplayValue": "ducimus",
+      "DisplayValue": "debitis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 972
+          "FieldType": "System.String",
+          "FieldLength": 789
         }
       }
     },
     {
-      "VisibleId": 273,
+      "VisibleId": 293,
       "Visibility": "All",
-      "DisplayValue": "ducimus",
+      "DisplayValue": "debitis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 972
+          "FieldType": "System.String",
+          "FieldLength": 789
         }
       }
     }
@@ -192,7 +192,7 @@ Last-Modified: Sun, 05 Jul 2015 13:14:08 G7T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 126
+      "FieldLength": 760
     }
   }
 }

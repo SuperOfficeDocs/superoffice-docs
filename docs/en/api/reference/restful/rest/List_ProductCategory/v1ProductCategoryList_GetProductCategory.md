@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 326,
-  "Name": "Hyatt, Kuphal and Casper",
-  "Tooltip": "laboriosam",
+  "Id": 368,
+  "Name": "Bergnaum, Kirlin and Cole",
+  "Tooltip": "nostrum",
   "Deleted": true,
-  "UdListDefinitionId": 939,
-  "Rank": 353,
+  "UdListDefinitionId": 30,
+  "Rank": 678,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 579
+      "FieldType": "System.Int32",
+      "FieldLength": 64
     }
   }
 }

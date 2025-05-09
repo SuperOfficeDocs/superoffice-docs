@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 656,
-  "LanguageId": 876,
-  "PersonId": 424,
-  "TicketId": 366
+  "ReplyTemplateId": 456,
+  "LanguageId": 633,
+  "PersonId": 524,
+  "TicketId": 549
 }
 ```
 
@@ -98,36 +98,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 930,
-  "PlainParsed": "ut",
-  "HtmlParsed": "unde",
+  "ReplyTemplateId": 380,
+  "PlainParsed": "et",
+  "HtmlParsed": "expedita",
   "Attachments": [
     {
-      "AttachmentId": 323,
-      "Name": "Stoltenberg-Schulist",
-      "ContentType": "vel",
-      "AttSize": 117,
-      "InlineImage": true,
-      "ContentId": "fuga",
-      "AuthKey": "enim",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 64,
+      "Name": "Braun Group",
+      "ContentType": "iure",
+      "AttSize": 723,
+      "InlineImage": false,
+      "ContentId": "quia",
+      "AuthKey": "pariatur",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 618
+          "FieldLength": 646
         }
       }
     }
   ],
-  "Subject": "ut",
+  "Subject": "neque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 192
+      "FieldLength": 398
     }
   }
 }

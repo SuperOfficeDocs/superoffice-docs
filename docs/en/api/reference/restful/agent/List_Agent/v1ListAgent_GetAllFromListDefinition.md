@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 710,
-  "IncludeDeleted": true
+  "UdListDefinitionId": 148,
+  "IncludeDeleted": false
 }
 ```
 
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 791,
-    "Name": "Barton, Cassin and Koelpin",
-    "Tooltip": "non",
+    "Id": 68,
+    "Name": "Erdman-Skiles",
+    "Tooltip": "saepe",
     "Deleted": true,
-    "UdListDefinitionId": 338,
-    "Rank": 505,
+    "UdListDefinitionId": 102,
+    "Rank": 856,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 69
+        "FieldLength": 700
       }
     }
   }

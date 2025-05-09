@@ -85,8 +85,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Kovacek Inc and Sons",
-  "TypicalSearchId": 752
+  "EntityName": "Morar-Emmerich",
+  "TypicalSearchId": 500
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Stehr, Pacocha and McCullough",
-  "SelectionId": 584,
-  "CanSaveAsSelection": false,
-  "MainHeading": "voluptatem",
-  "FilterScreenHeading": "officiis",
-  "SelectionEntityHeading": "perferendis",
+  "ProviderName": "Ernser, Gerhold and Graham",
+  "SelectionId": 638,
+  "CanSaveAsSelection": true,
+  "MainHeading": "praesentium",
+  "FilterScreenHeading": "eos",
+  "SelectionEntityHeading": "dignissimos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 100
+      "FieldLength": 930
     }
   }
 }

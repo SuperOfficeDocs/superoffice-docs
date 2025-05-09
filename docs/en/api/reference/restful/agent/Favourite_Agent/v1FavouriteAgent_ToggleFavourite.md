@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Favourite/ToggleFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Abshire Group",
-  "RecordId": 814,
-  "AssociateId": 508,
-  "ExtraInfo": "ut"
+  "TableName": "Hauck, Cruickshank and Watsica",
+  "RecordId": 835,
+  "AssociateId": 129,
+  "ExtraInfo": "et"
 }
 ```
 

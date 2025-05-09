@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 808,
-  "StartTime": "2008-03-06T13:14:00.0944666+01:00",
-  "EndTime": "2014-11-06T13:14:00.0944666+01:00",
-  "Count": 568,
+  "ProjectId": 819,
+  "StartTime": "2011-03-17T16:32:38.7739758+01:00",
+  "EndTime": "2022-02-10T16:32:38.7739758+01:00",
+  "Count": 740,
   "DocumentTemplateIds": [
-    751,
-    396
+    703,
+    547
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 846,
-    "Attention": "alias",
-    "Header": "doloribus",
-    "Name": "Osinski Group",
-    "OurRef": "quia",
-    "YourRef": "aperiam",
-    "Description": "Open-architected 6th generation artificial intelligence",
-    "DocumentTemplate": "et",
+    "DocumentId": 857,
+    "Attention": "quam",
+    "Header": "optio",
+    "Name": "Upton LLC",
+    "OurRef": "excepturi",
+    "YourRef": "officia",
+    "Description": "Customer-focused maximized internet solution",
+    "DocumentTemplate": "debitis",
     "IsPublished": false,
-    "PersonId": 504,
-    "PersonFullName": "Prof. Kathlyn Margaret Flatley II",
-    "AssociateFullName": "Brody Lockman",
-    "ContactId": 299,
-    "ContactName": "McClure LLC",
-    "ProjectId": 483,
-    "ProjectName": "Hermiston-Goldner",
-    "AssociateId": 60,
-    "Snum": 922,
-    "SaleId": 176,
-    "SaleName": "Gottlieb, Maggio and Bosco",
+    "PersonId": 711,
+    "PersonFullName": "Rupert Gleason MD",
+    "AssociateFullName": "Dr. Hildegard Ondricka I",
+    "ContactId": 139,
+    "ContactName": "Treutel Inc and Sons",
+    "ProjectId": 501,
+    "ProjectName": "Rowe-Reichert",
+    "AssociateId": 978,
+    "Snum": 716,
+    "SaleId": 356,
+    "SaleName": "Thompson Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 335
+        "FieldType": "System.Int32",
+        "FieldLength": 878
       }
     }
   }

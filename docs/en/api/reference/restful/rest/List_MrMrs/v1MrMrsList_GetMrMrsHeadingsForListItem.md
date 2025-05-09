@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 63,
-    "Name": "Barton Group",
-    "ToolTip": "Et dolores.",
+    "Id": 256,
+    "Name": "Walsh Inc and Sons",
+    "ToolTip": "Nam expedita temporibus sit veniam placeat ea minus.",
     "Deleted": false,
-    "Rank": 989,
-    "Type": "alias",
-    "ColorBlock": 812,
-    "IconHint": "sequi",
-    "Selected": true,
-    "LastChanged": "2019-06-13T13:14:09.8222767+02:00",
+    "Rank": 84,
+    "Type": "rerum",
+    "ColorBlock": 52,
+    "IconHint": "nostrum",
+    "Selected": false,
+    "LastChanged": "2022-10-29T16:32:48.7120179+02:00",
     "ChildItems": [
       {
-        "Id": 355,
-        "Name": "Frami-Halvorson",
-        "ToolTip": "Dolor enim eveniet debitis eos.",
-        "Deleted": false,
-        "Rank": 589,
-        "Type": "maxime",
-        "ColorBlock": 472,
-        "IconHint": "eligendi",
+        "Id": 410,
+        "Name": "Feeney Group",
+        "ToolTip": "Qui possimus corporis eligendi debitis ea sit tempora.",
+        "Deleted": true,
+        "Rank": 408,
+        "Type": "laudantium",
+        "ColorBlock": 33,
+        "IconHint": "dolorum",
         "Selected": false,
-        "LastChanged": "2003-02-03T13:14:09.8222767+01:00",
+        "LastChanged": "2025-04-25T16:32:48.7120179+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
+        "ExtraInfo": "vero",
         "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Prof. Samantha Spencer",
+        "FullName": "Mr. Althea Jordy Hayes I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 16
+            "FieldLength": 947
           }
         }
       }
     ],
-    "ExtraInfo": "cupiditate",
-    "StyleHint": "aliquam",
-    "Hidden": false,
-    "FullName": "Dave Skiles",
+    "ExtraInfo": "numquam",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Nakia Bosco",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 968
+        "FieldType": "System.Int32",
+        "FieldLength": 867
       }
     }
   }

@@ -82,39 +82,39 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "laudantium",
-  "ProviderName": "Green-Eichmann",
+  "StorageType": "et",
+  "ProviderName": "Ziemann-Miller",
   "StorageKey": "et",
   "Restrictions": [
     {
-      "Name": "Mayert-Ullrich",
-      "Operator": "temporibus",
+      "Name": "Stiedemann-Abernathy",
+      "Operator": "odit",
       "Values": [
-        "voluptate",
+        "tempora",
         "qui"
       ],
       "DisplayValues": [
-        "incidunt",
-        "nulla"
+        "odit",
+        "qui"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 464,
+      "InterParenthesis": 878,
       "InterOperator": "And",
-      "UniqueHash": 133
+      "UniqueHash": 949
     }
   ],
   "StaticColumns": [
-    "aut",
-    "nesciunt"
+    "sit",
+    "quia"
   ]
 }
 ```
@@ -128,81 +128,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Hane LLC",
-      "Operator": "repellendus",
+      "Name": "Will, Gorczany and Bednar",
+      "Operator": "placeat",
       "Values": [
-        "reprehenderit",
-        "aspernatur"
+        "aspernatur",
+        "et"
       ],
       "DisplayValues": [
-        "repellendus",
-        "consequatur"
+        "sunt",
+        "nemo"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 526,
+      "InterParenthesis": 767,
       "InterOperator": "And",
-      "UniqueHash": 878
+      "UniqueHash": 916
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Gerlach Group",
-      "DisplayTooltip": "minima",
-      "DisplayType": "eligendi",
+      "DisplayName": "Hagenes LLC",
+      "DisplayTooltip": "quos",
+      "DisplayType": "natus",
       "CanOrderBy": false,
-      "Name": "Conroy, Kuphal and Yost",
+      "Name": "McDermott, Walter and Wunsch",
       "CanRestrictBy": false,
-      "RestrictionType": "quaerat",
-      "RestrictionListName": "Wyman Group",
+      "RestrictionType": "quo",
+      "RestrictionListName": "Heller, Beahan and Kertzmann",
       "IsVisible": true,
-      "ExtraInfo": "ex",
-      "Width": "eos",
-      "IconHint": "sit",
-      "HeadingIconHint": "eos"
+      "ExtraInfo": "quod",
+      "Width": "doloremque",
+      "IconHint": "quibusdam",
+      "HeadingIconHint": "incidunt"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Hintz-Boyle",
-      "PrimaryKey": 61,
+      "EntityName": "Stokes Inc and Sons",
+      "PrimaryKey": 476,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "id",
-          "TooltipHint": "atque",
-          "LinkHint": "et"
+          "DisplayValue": "maiores",
+          "TooltipHint": "quia",
+          "LinkHint": "est"
         }
       },
-      "LinkHint": "omnis",
-      "StyleHint": "sit",
+      "LinkHint": "laudantium",
+      "StyleHint": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 395
+          "FieldType": "System.Int32",
+          "FieldLength": 813
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Collins-Mayert",
-      "Description": "Down-sized real-time contingency",
-      "Rank": 303,
+      "Name": "Crist-Olson",
+      "Description": "Ergonomic reciprocal framework",
+      "Rank": 18,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Collins-Mayert",
-      "Description": "Down-sized real-time contingency",
-      "Rank": 303,
+      "Name": "Crist-Olson",
+      "Description": "Ergonomic reciprocal framework",
+      "Rank": 18,
       "Restrictions": [
         {},
         {}
@@ -213,8 +213,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 541
+      "FieldType": "System.Int32",
+      "FieldLength": 378
     }
   }
 }

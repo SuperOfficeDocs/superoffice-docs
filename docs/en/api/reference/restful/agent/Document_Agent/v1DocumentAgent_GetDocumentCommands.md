@@ -82,10 +82,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 983,
+  "DocumentId": 694,
   "AllowedReturnTypes": [
-    "omnis",
-    "praesentium"
+    "molestias",
+    "aperiam"
   ]
 }
 ```
@@ -98,17 +98,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Feil, Windler and Jerde",
-    "DisplayName": "Goodwin LLC",
-    "DisplayTooltip": "eaque",
-    "IconHint": "repudiandae",
+    "Name": "Hills Group",
+    "DisplayName": "Krajcik-Morissette",
+    "DisplayTooltip": "iste",
+    "IconHint": "facilis",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Feil, Windler and Jerde",
-    "DisplayName": "Goodwin LLC",
-    "DisplayTooltip": "eaque",
-    "IconHint": "repudiandae",
+    "Name": "Hills Group",
+    "DisplayName": "Krajcik-Morissette",
+    "DisplayTooltip": "iste",
+    "IconHint": "facilis",
     "ReturnType": "CustomGui"
   }
 ]

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 56,
-    "Name": "Cruickshank, Kunze and Stiedemann",
-    "Tooltip": "sed",
+    "Id": 592,
+    "Name": "Hackett-Jacobi",
+    "Tooltip": "debitis",
     "Deleted": false,
-    "UdListDefinitionId": 542,
-    "Rank": 861
+    "UdListDefinitionId": 881,
+    "Rank": 442
   },
   {
-    "Id": 56,
-    "Name": "Cruickshank, Kunze and Stiedemann",
-    "Tooltip": "sed",
+    "Id": 592,
+    "Name": "Hackett-Jacobi",
+    "Tooltip": "debitis",
     "Deleted": false,
-    "UdListDefinitionId": 542,
-    "Rank": 861
+    "UdListDefinitionId": 881,
+    "Rank": 442
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 578,
-    "Name": "Tromp Group",
-    "Tooltip": "aut",
+    "Id": 618,
+    "Name": "Hansen-Grant",
+    "Tooltip": "pariatur",
     "Deleted": false,
-    "UdListDefinitionId": 409,
-    "Rank": 812,
+    "UdListDefinitionId": 708,
+    "Rank": 607,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 941
+        "FieldLength": 176
       }
     }
   }

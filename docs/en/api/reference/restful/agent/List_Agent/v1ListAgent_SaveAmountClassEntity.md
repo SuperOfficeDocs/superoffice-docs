@@ -81,14 +81,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 951,
-  "Name": "Thiel, Sporer and Donnelly",
-  "Tooltip": "eaque",
-  "Rank": 110,
-  "AmountFrom": 22687.025999999998,
-  "AmountTo": 26309.93,
-  "Deleted": false,
-  "CurrencyId": 783
+  "AmountClassId": 705,
+  "Name": "Connelly-Collier",
+  "Tooltip": "corrupti",
+  "Rank": 363,
+  "AmountFrom": 16378.284,
+  "AmountTo": 29161.87,
+  "Deleted": true,
+  "CurrencyId": 684
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 232,
-  "Name": "Hackett-Parisian",
-  "Tooltip": "est",
-  "Rank": 375,
-  "AmountFrom": 20308.32,
-  "AmountTo": 4600.7119999999995,
-  "Deleted": false,
-  "CurrencyId": 290,
+  "AmountClassId": 202,
+  "Name": "Donnelly LLC",
+  "Tooltip": "error",
+  "Rank": 349,
+  "AmountFrom": 27535.324,
+  "AmountTo": 20800.358,
+  "Deleted": true,
+  "CurrencyId": 613,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 392
+      "FieldLength": 281
     }
   }
 }

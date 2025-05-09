@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,53 +88,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 797,
-  "Name": "Mayer-Halvorson",
-  "Tooltip": "est",
-  "Rank": 804,
+  "SaleTypeId": 70,
+  "Name": "Nolan-Nikolaus",
+  "Tooltip": "consectetur",
+  "Rank": 44,
   "DurationUnit": "Century",
-  "SaleDuration": 636,
-  "SaleTypeCatId": 811,
+  "SaleDuration": 738,
+  "SaleTypeCatId": 23,
   "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": false,
+  "HasGuide": true,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 19,
-  "QuoteLinesTemplate": 328,
-  "ConfirmationLinesTemplate": 769,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 6,
-  "MinEarningPercent": 404,
-  "GroupQuoteLinesBy": 810,
-  "SortGroupLinesBy": 863,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 676,
+  "QuoteLinesTemplate": 119,
+  "ConfirmationLinesTemplate": 896,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 613,
+  "MinEarningPercent": 125,
+  "GroupQuoteLinesBy": 5,
+  "SortGroupLinesBy": 81,
   "Stages": [
     {
-      "Id": 842,
-      "Name": "Nitzsche Group",
-      "ToolTip": "Omnis repudiandae.",
+      "Id": 400,
+      "Name": "Robel-Goldner",
+      "ToolTip": "Soluta consectetur consequatur ducimus est fugit et optio.",
       "Deleted": true,
-      "Rank": 757,
-      "Type": "esse",
-      "ColorBlock": 309,
-      "IconHint": "voluptas",
+      "Rank": 961,
+      "Type": "impedit",
+      "ColorBlock": 413,
+      "IconHint": "officiis",
       "Selected": false,
-      "LastChanged": "2008-08-16T13:14:00.6575024+02:00",
+      "LastChanged": "2013-10-31T16:32:39.320696+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "a",
-      "StyleHint": "dignissimos",
+      "ExtraInfo": "iste",
+      "StyleHint": "et",
       "Hidden": false,
-      "FullName": "Fidel Luigi Maggio Jr.",
+      "FullName": "Emilia Powlowski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 286
+          "FieldLength": 675
         }
       }
     }
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 539
+      "FieldLength": 592
     }
   }
 }

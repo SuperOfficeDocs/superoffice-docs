@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 224,
-    "Value": "modi",
-    "Tooltip": "aspernatur",
+    "Id": 737,
+    "Value": "alias",
+    "Tooltip": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 972
+        "FieldType": "System.Int32",
+        "FieldLength": 193
       }
     }
   },
   {
-    "Id": 224,
-    "Value": "modi",
-    "Tooltip": "aspernatur",
+    "Id": 737,
+    "Value": "alias",
+    "Tooltip": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 972
+        "FieldType": "System.Int32",
+        "FieldLength": 193
       }
     }
   }

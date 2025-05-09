@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 4,
-    "Name": "Jenkins Group",
-    "Description": "Synergistic incremental array",
+    "ProjectId": 62,
+    "Name": "Sipes, Price and Kihn",
+    "Description": "Persistent static capability",
     "URL": "http://www.example.com/",
-    "Type": "rerum",
-    "AssociateId": 949,
-    "AssociateFullName": "Erika Wiegand",
-    "TypeId": 479,
-    "Updated": "2002-03-18T13:14:00.9390342+01:00",
-    "StatusId": 756,
-    "Status": "iure",
-    "TextId": 179,
-    "PublishTo": "2009-03-07T13:14:00.9390342+01:00",
-    "PublishFrom": "2007-08-08T13:14:00.9390342+02:00",
-    "IsPublished": false,
+    "Type": "veritatis",
+    "AssociateId": 335,
+    "AssociateFullName": "Gust Tressa Armstrong MD",
+    "TypeId": 399,
+    "Updated": "2014-11-25T16:32:39.6646396+01:00",
+    "StatusId": 743,
+    "Status": "nam",
+    "TextId": 151,
+    "PublishTo": "2008-02-09T16:32:39.6646396+01:00",
+    "PublishFrom": "1998-04-09T16:32:39.6646396+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "967736",
-    "ActiveErpLinks": 451,
+    "ProjectNumber": "877594",
+    "ActiveErpLinks": 456,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 205
+        "FieldType": "System.String",
+        "FieldLength": 76
       }
     }
   }

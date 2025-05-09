@@ -93,7 +93,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 959,
-  "ColumnId": 819,
-  "FieldDefault": "voluptates",
-  "FieldHeight": 662,
-  "FieldLabel": "autem",
-  "FieldLeft": 737,
-  "FieldTop": 622,
+  "UDefFieldId": 871,
+  "ColumnId": 362,
+  "FieldDefault": "praesentium",
+  "FieldHeight": 254,
+  "FieldLabel": "delectus",
+  "FieldLeft": 798,
+  "FieldTop": 13,
   "FieldType": "Checkbox",
-  "FieldWidth": 796,
-  "FormatMask": "ut",
+  "FieldWidth": 790,
+  "FormatMask": "reiciendis",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 605,
-  "LabelLeft": 904,
-  "LabelTop": 39,
-  "LabelWidth": 663,
-  "LastVersionId": 4,
-  "ListTableId": 508,
+  "LabelHeight": 536,
+  "LabelLeft": 823,
+  "LabelTop": 574,
+  "LabelWidth": 231,
+  "LastVersionId": 781,
+  "ListTableId": 17,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 785,
-  "ProgId": "maiores",
+  "Page1LineNo": 242,
+  "ProgId": "est",
   "IsReadOnly": false,
-  "ShortLabel": "doloremque",
-  "TabOrder": 501,
-  "TextLength": 221,
-  "Tooltip": "dolores",
-  "UdefIdentity": 138,
-  "UDListDefinitionId": 854,
+  "ShortLabel": "enim",
+  "TabOrder": 340,
+  "TextLength": 180,
+  "Tooltip": "eligendi",
+  "UdefIdentity": 1002,
+  "UDListDefinitionId": 313,
   "Justification": "Center",
-  "Version": 434,
-  "TemplateVariableName": "Grant-Towne",
+  "Version": 718,
+  "TemplateVariableName": "Homenick, Ryan and Beer",
   "HasBeenPublished": false,
-  "MdoListName": "Wiza-Spencer",
+  "MdoListName": "Roob, Thiel and Lakin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 411
+      "FieldType": "System.Int32",
+      "FieldLength": 641
     }
   }
 }

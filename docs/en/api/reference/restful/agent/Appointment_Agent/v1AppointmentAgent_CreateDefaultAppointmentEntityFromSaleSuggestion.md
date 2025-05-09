@@ -135,14 +135,14 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 593,
-  "SaleId": 166,
+  "SuggestedAppointmentId": 925,
+  "SaleId": 714,
   "CreateNow": false,
-  "OwnerId": 578
+  "OwnerId": 875
 }
 ```
 
@@ -157,121 +157,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2014-09-20T13:13:59.3907332+02:00",
-  "AppointmentId": 141,
-  "Description": "Multi-layered tertiary instruction set",
-  "Title": "et",
-  "Agenda": "sapiente",
-  "InternalNotes": "alias",
-  "StartDate": "1999-03-28T13:13:59.3907332+02:00",
-  "EndDate": "2009-02-10T13:13:59.3907332+01:00",
+  "CreatedDate": "2010-12-06T16:32:38.0397668+01:00",
+  "AppointmentId": 440,
+  "Description": "Proactive actuating architecture",
+  "Title": "commodi",
+  "Agenda": "fuga",
+  "InternalNotes": "veritatis",
+  "StartDate": "2011-11-10T16:32:38.0397668+01:00",
+  "EndDate": "2024-01-18T16:32:38.0397668+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 514,
+  "MotherId": 835,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2023-03-03T13:13:59.3907332+01:00",
+  "UpdatedDate": "2009-09-24T16:32:38.0397668+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 434,
+  "ActiveLinks": 640,
   "Links": [
     {
-      "EntityName": "Satterfield-Macejkovic",
-      "Id": 806,
-      "Description": "Focused client-driven alliance",
-      "ExtraInfo": "ea",
-      "LinkId": 434,
+      "EntityName": "Wilderman, Swift and Gutkowski",
+      "Id": 696,
+      "Description": "Implemented mission-critical groupware",
+      "ExtraInfo": "accusamus",
+      "LinkId": 748,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 312
+          "FieldType": "System.String",
+          "FieldLength": 850
         }
       }
     }
   ],
-  "AlarmLeadTime": "dicta",
-  "HasAlarm": false,
-  "ColorIndex": 5,
+  "AlarmLeadTime": "cupiditate",
+  "HasAlarm": true,
+  "ColorIndex": 350,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "ea",
-  "LeadTime": "ut",
-  "Location": "animi",
-  "RejectCounter": 554,
+  "IsAlldayEvent": true,
+  "LagTime": "quia",
+  "LeadTime": "sit",
+  "Location": "aut",
+  "RejectCounter": 205,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 427,
-      "PersonId": 872,
-      "ContactId": 14,
-      "EmailId": 863,
-      "SendEmail": false,
+      "AssociateId": 847,
+      "PersonId": 115,
+      "ContactId": 464,
+      "EmailId": 706,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "virgie.daugherty@stracke.com",
-      "Description": "Organized content-based focus group"
+      "EmailAddress": "sofia_thompson@dooley.uk",
+      "Description": "Grass-roots tertiary knowledge user"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2003-09-27T13:13:59.4063589+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2012-12-08T16:32:38.0397668+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 832,
+  "PreferredTZLocation": 797,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 249,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 936,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "dolorem",
+  "CentralserviceVideomeetId": "quos",
   "UserDefinedFields": {
-    "SuperOffice:1": "Kari Wilderman",
-    "SuperOffice:2": "1556412506"
+    "SuperOffice:1": "Prof. Thaddeus Evie Hilpert MD",
+    "SuperOffice:2": "Bret Doyle"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "eos"
+    "ExtraFields1": "quam",
+    "ExtraFields2": "repudiandae"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "nisi"
+    "CustomFields1": "ex",
+    "CustomFields2": "eos"
   },
-  "PublishEventDate": "2003-08-21T13:13:59.4063589+02:00",
-  "PublishTo": "2001-01-29T13:13:59.4063589+01:00",
-  "PublishFrom": "2001-06-24T13:13:59.4063589+02:00",
+  "PublishEventDate": "2015-08-03T16:32:38.0397668+02:00",
+  "PublishTo": "2008-07-17T16:32:38.0397668+02:00",
+  "PublishFrom": "2025-02-14T16:32:38.0397668+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 159,
+      "VisibleId": 237,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "at",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 305
+          "FieldType": "System.Int32",
+          "FieldLength": 91
         }
       }
     },
     {
-      "VisibleId": 159,
+      "VisibleId": 237,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "at",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 305
+          "FieldType": "System.Int32",
+          "FieldLength": 91
         }
       }
     }
@@ -281,7 +281,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 111
+      "FieldLength": 214
     }
   }
 }

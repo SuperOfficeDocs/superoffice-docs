@@ -92,18 +92,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 336,
-  "LeadDescription": "Re-contextualized zero administration solution",
-  "Relation": "quo",
-  "RelationId": 768,
-  "LeadContact": "quidem",
-  "LeadPersonFirstname": "Carter",
-  "LeadPersonLastname": "Ullrich",
-  "LeadPersonEmail": "orville.carter@schiller.info",
-  "LeadPhoneNumber": "384394",
-  "CreatorsContact": "consequatur",
-  "CreatorsFirstname": "Israel",
-  "CreatorsLastname": "Wuckert"
+  "AssociateIdForNewContact": 5,
+  "LeadDescription": "Balanced solution-oriented circuit",
+  "Relation": "officiis",
+  "RelationId": 174,
+  "LeadContact": "iure",
+  "LeadPersonFirstname": "Ralph",
+  "LeadPersonLastname": "Boehm",
+  "LeadPersonEmail": "rachael_koch@littlerempel.name",
+  "LeadPhoneNumber": "1677338",
+  "CreatorsContact": "ullam",
+  "CreatorsFirstname": "Scotty",
+  "CreatorsLastname": "Feest"
 }
 ```
 
@@ -116,36 +116,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 479,
-      "Name": "Blick LLC",
-      "OrgNr": "608857",
+      "ContactId": 581,
+      "Name": "Hansen, Gleason and Conn",
+      "OrgNr": "856391",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "ratione",
-      "DirectPhone": "069-629-7847 x849",
-      "AssociateId": 595,
-      "CountryId": 886,
-      "EmailAddress": "narciso@volkman.com",
-      "Kananame": "id",
-      "EmailAddressName": "alicia_hoeger@okuneva.ca",
+      "City": "fugiat",
+      "DirectPhone": "634.818.0817",
+      "AssociateId": 100,
+      "CountryId": 509,
+      "EmailAddress": "vivienne.schultz@zulaufborer.co.uk",
+      "Kananame": "quasi",
+      "EmailAddressName": "conor@pfannerstill.biz",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Ms. Austen Schuyler Hilll",
+      "AssociateFullName": "Abbie Sporer",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "non",
-      "FullName": "Reed Gottlieb",
+      "FormattedAddress": "harum",
+      "FullName": "Devon O'Kon DVM",
       "IsOwnerContact": false,
-      "ActiveErpLinks": 63,
-      "Number1": "970232",
-      "Number2": "1095350",
+      "ActiveErpLinks": 608,
+      "Number1": "966744",
+      "Number2": "553622",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 316
+          "FieldType": "System.String",
+          "FieldLength": 676
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 61
+      "FieldType": "System.Int32",
+      "FieldLength": 800
     }
   }
 }

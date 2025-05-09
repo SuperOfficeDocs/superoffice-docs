@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 727,
-  "UdListDefinitionId": 647
+  "Id": 660,
+  "UdListDefinitionId": 705
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 66,
-  "Name": "Von, Walker and Schneider",
-  "Tooltip": "explicabo",
+  "Id": 816,
+  "Name": "Beier LLC",
+  "Tooltip": "soluta",
   "Deleted": false,
-  "UdListDefinitionId": 458,
-  "Rank": 135,
+  "UdListDefinitionId": 453,
+  "Rank": 733,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 410
+      "FieldLength": 786
     }
   }
 }

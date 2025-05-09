@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.IO.ITempFileProvider.CheckIfFileExists(System.String)
   - SuperOffice.IO.ITempFileProvider.CreateFile(System.String)
+  - SuperOffice.IO.ITempFileProvider.CreateFileForAppending(System.String)
   - SuperOffice.IO.ITempFileProvider.DeleteFile(System.String)
   - SuperOffice.IO.ITempFileProvider.ReadFileChunk(System.String,System.Int64,System.Byte[])
   - SuperOffice.IO.ITempFileProvider.ReadFileComplete(System.String)
@@ -72,6 +73,39 @@ items:
       type: System.String
     content.vb: Function CreateFile(name As String) As String
   overload: SuperOffice.IO.ITempFileProvider.CreateFile*
+- uid: SuperOffice.IO.ITempFileProvider.CreateFileForAppending(System.String)
+  commentId: M:SuperOffice.IO.ITempFileProvider.CreateFileForAppending(System.String)
+  id: CreateFileForAppending(System.String)
+  parent: SuperOffice.IO.ITempFileProvider
+  langs:
+  - csharp
+  - vb
+  name: CreateFileForAppending(String)
+  nameWithType: ITempFileProvider.CreateFileForAppending(String)
+  fullName: SuperOffice.IO.ITempFileProvider.CreateFileForAppending(System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.IO
+  summary: "\nCreate a temporary &apos;file&apos; for appending\n"
+  syntax:
+    content: string CreateFileForAppending(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: >-
+        Name to be used for later access. The actual key used by the implementation should also take
+
+        into account the associate ID, since multiple concurrent users may use the same name, and that does <strong>not</strong> mean
+
+        file sharing between users.
+    return:
+      type: System.String
+    content.vb: Function CreateFileForAppending(name As String) As String
+  overload: SuperOffice.IO.ITempFileProvider.CreateFileForAppending*
 - uid: SuperOffice.IO.ITempFileProvider.CheckIfFileExists(System.String)
   commentId: M:SuperOffice.IO.ITempFileProvider.CheckIfFileExists(System.String)
   id: CheckIfFileExists(System.String)
@@ -467,6 +501,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: SuperOffice.IO.ITempFileProvider.CreateFileForAppending*
+  commentId: Overload:SuperOffice.IO.ITempFileProvider.CreateFileForAppending
+  isExternal: true
+  name: CreateFileForAppending
+  nameWithType: ITempFileProvider.CreateFileForAppending
+  fullName: SuperOffice.IO.ITempFileProvider.CreateFileForAppending
 - uid: SuperOffice.IO.ITempFileProvider.CheckIfFileExists*
   commentId: Overload:SuperOffice.IO.ITempFileProvider.CheckIfFileExists
   isExternal: true

@@ -7,13 +7,11 @@ generated: true
 # DEL Selection/{id}
 
 ```http
-DELETE /api/v1/Selection/{id}
+DELETE /api/v1/Selection/{selectionEntityId}
 ```
 
 Deletes the SelectionEntity
 
-
-Calls the Selection agent service DeleteSelectionEntity.
 
 
 
@@ -21,7 +19,7 @@ Calls the Selection agent service DeleteSelectionEntity.
 
 | Path Part | Type | Description |
 |-----------|------|-------------|
-| id | int32 | The SelectionEntity to be deleted. **Required** |
+| selectionEntityId | int32 | The identity of the SelectionEntity **Required** |
 
 
 
@@ -37,12 +35,11 @@ Calls the Selection agent service DeleteSelectionEntity.
 
 ## Response:
 
-SelectionEntity deleted.
+No Content
 
 | Response | Description |
 |----------------|-------------|
-| 204 | SelectionEntity deleted. |
-| 412 | Delete aborted because SelectionEntity has changed since the requested If-Unmodified-Since timestamp. |
+| 204 | No Content |
 
 ### Response body: TimeZoneData
 
@@ -50,16 +47,16 @@ SelectionEntity deleted.
 ## Sample request
 
 ```http!
-DELETE /api/v1/Selection/{id}
+DELETE /api/v1/Selection/{selectionEntityId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
 
 ```http_
-HTTP/1.1 204 SelectionEntity deleted.
+HTTP/1.1 204 No Content
 Content-Type: application/json; charset=utf-8
 
 null

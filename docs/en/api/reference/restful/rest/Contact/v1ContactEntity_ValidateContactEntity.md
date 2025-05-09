@@ -101,89 +101,89 @@ OK
 POST /api/v1/Contact/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 131,
-  "Name": "Prohaska, Boyer and Howell",
+  "ContactId": 806,
+  "Name": "Larkin Group",
   "Department": "",
-  "OrgNr": "1003346",
-  "Number1": "580127",
-  "Number2": "929945",
-  "UpdatedDate": "2015-01-27T13:14:08.5866221+01:00",
-  "CreatedDate": "2005-01-20T13:14:08.5866221+01:00",
+  "OrgNr": "1460231",
+  "Number1": "1137967",
+  "Number2": "1010407",
+  "UpdatedDate": "2020-03-06T16:32:47.3839895+01:00",
+  "CreatedDate": "2020-07-08T16:32:47.3839895+02:00",
   "Emails": [
     {
-      "Value": "quidem",
-      "StrippedValue": "libero",
-      "Description": "Face to face zero defect project"
+      "Value": "et",
+      "StrippedValue": "culpa",
+      "Description": "Cloned client-driven matrix"
     },
     {
-      "Value": "quidem",
-      "StrippedValue": "libero",
-      "Description": "Face to face zero defect project"
+      "Value": "et",
+      "StrippedValue": "culpa",
+      "Description": "Cloned client-driven matrix"
     }
   ],
   "Interests": [
     {
-      "Id": 695,
-      "Name": "White-Kuhlman",
-      "ToolTip": "Similique ea animi nesciunt sequi modi dolorem.",
+      "Id": 882,
+      "Name": "Sawayn, Emard and Russel",
+      "ToolTip": "Omnis voluptas ut eius dicta eius.",
       "Deleted": false,
-      "Rank": 653,
-      "Type": "quidem",
-      "ColorBlock": 936,
-      "IconHint": "omnis",
-      "Selected": true,
-      "LastChanged": "2025-03-13T13:14:08.5866221+01:00",
+      "Rank": 136,
+      "Type": "enim",
+      "ColorBlock": 346,
+      "IconHint": "ab",
+      "Selected": false,
+      "LastChanged": "2005-12-07T16:32:47.3839895+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "repudiandae",
+      "ExtraInfo": "eius",
       "StyleHint": "consequatur",
-      "Hidden": false,
-      "FullName": "Ismael Wunsch"
+      "Hidden": true,
+      "FullName": "Ruby Ankunding"
     }
   ],
   "Urls": [
     {
-      "Value": "officiis",
-      "StrippedValue": "et",
-      "Description": "Function-based solution-oriented knowledge base"
+      "Value": "voluptatem",
+      "StrippedValue": "pariatur",
+      "Description": "Configurable high-level customer loyalty"
     },
     {
-      "Value": "officiis",
-      "StrippedValue": "et",
-      "Description": "Function-based solution-oriented knowledge base"
+      "Value": "voluptatem",
+      "StrippedValue": "pariatur",
+      "Description": "Configurable high-level customer loyalty"
     }
   ],
   "Phones": [
     {
-      "Value": "libero",
-      "StrippedValue": "doloremque",
-      "Description": "Up-sized logistical implementation"
+      "Value": "deserunt",
+      "StrippedValue": "explicabo",
+      "Description": "Diverse high-level array"
     },
     {
-      "Value": "libero",
-      "StrippedValue": "doloremque",
-      "Description": "Up-sized logistical implementation"
+      "Value": "deserunt",
+      "StrippedValue": "explicabo",
+      "Description": "Diverse high-level array"
     }
   ],
   "Faxes": [
     {
-      "Value": "consequuntur",
-      "StrippedValue": "asperiores",
-      "Description": "Profound explicit function"
+      "Value": "quibusdam",
+      "StrippedValue": "earum",
+      "Description": "Robust exuding emulation"
     },
     {
-      "Value": "consequuntur",
-      "StrippedValue": "asperiores",
-      "Description": "Profound explicit function"
+      "Value": "quibusdam",
+      "StrippedValue": "earum",
+      "Description": "Robust exuding emulation"
     }
   ],
-  "Description": "Balanced next generation functionalities",
+  "Description": "Cross-platform systemic internet solution",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -192,86 +192,86 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "possimus",
-      "PersonId": 857,
-      "Mrmrs": "voluptas",
-      "Firstname": "Lazaro",
-      "Lastname": "Monahan",
-      "MiddleName": "Heathcote, Bednar and Torphy",
-      "Title": "dolorem",
-      "Description": "Focused value-added infrastructure",
-      "Email": "allie.beatty@feeney.biz",
-      "FullName": "Hector Thompson",
-      "DirectPhone": "423.026.8413",
-      "FormalName": "Torphy-Braun",
-      "CountryId": 867,
-      "ContactId": 860,
-      "ContactName": "Nicolas, Tillman and Mills",
-      "Retired": 275,
-      "Rank": 122,
-      "ActiveInterests": 177,
+      "Position": "aut",
+      "PersonId": 13,
+      "Mrmrs": "omnis",
+      "Firstname": "Hermina",
+      "Lastname": "Rowe",
+      "MiddleName": "Ryan LLC",
+      "Title": "quia",
+      "Description": "Exclusive analyzing parallelism",
+      "Email": "brett.gleason@vandervort.com",
+      "FullName": "Thora Bins",
+      "DirectPhone": "312-498-0027 x3338",
+      "FormalName": "Volkman-Heaney",
+      "CountryId": 944,
+      "ContactId": 359,
+      "ContactName": "Will-Hudson",
+      "Retired": 762,
+      "Rank": 599,
+      "ActiveInterests": 520,
       "ContactDepartment": "",
-      "ContactCountryId": 10,
-      "ContactOrgNr": "1594236",
-      "FaxPhone": "724-422-3345 x7481",
-      "MobilePhone": "809-080-4029",
-      "ContactPhone": "(973)315-9418 x02949",
-      "AssociateName": "Cole, Gorczany and Crona",
-      "AssociateId": 284,
+      "ContactCountryId": 473,
+      "ContactOrgNr": "1099141",
+      "FaxPhone": "444-984-8168 x52859",
+      "MobilePhone": "996.103.6706 x1389",
+      "ContactPhone": "118.588.8416 x3100",
+      "AssociateName": "Denesik, Abbott and Sawayn",
+      "AssociateId": 771,
       "UsePersonAddress": false,
-      "ContactFax": "quae",
-      "Kanafname": "cum",
-      "Kanalname": "ratione",
-      "Post1": "consequatur",
-      "Post2": "esse",
-      "Post3": "reprehenderit",
-      "EmailName": "woodrow.considine@hagenesmann.co.uk",
-      "ContactFullName": "Irwin Stracke",
-      "ActiveErpLinks": 922,
-      "TicketPriorityId": 241,
-      "SupportLanguageId": 489,
-      "SupportAssociateId": 922,
+      "ContactFax": "quia",
+      "Kanafname": "facilis",
+      "Kanalname": "neque",
+      "Post1": "aut",
+      "Post2": "maxime",
+      "Post3": "rem",
+      "EmailName": "darien.gibson@wisozk.info",
+      "ContactFullName": "Miss Ezekiel Barton",
+      "ActiveErpLinks": 169,
+      "TicketPriorityId": 244,
+      "SupportLanguageId": 228,
+      "SupportAssociateId": 153,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "1338999"
+      "PersonNumber": "1391141"
     }
   ],
   "NoMailing": false,
-  "Kananame": "perferendis",
-  "Xstop": false,
-  "ActiveInterests": 825,
-  "GroupId": 693,
-  "ActiveStatusMonitorId": 927,
+  "Kananame": "rerum",
+  "Xstop": true,
+  "ActiveInterests": 909,
+  "GroupId": 429,
+  "ActiveStatusMonitorId": 93,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 533,
+  "Deleted": 96,
   "DbiAgentId": 50,
-  "DbiLastSyncronized": "2014-10-01T13:14:08.6022481+02:00",
-  "DbiKey": "est",
-  "DbiLastModified": "2021-08-01T13:14:08.6022481+02:00",
+  "DbiLastSyncronized": "2000-05-02T16:32:47.3839895+02:00",
+  "DbiKey": "quo",
+  "DbiLastModified": "2000-07-16T16:32:47.3839895+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 378,
-  "ActiveErpLinks": 713,
+  "Source": 306,
+  "ActiveErpLinks": 507,
   "BounceEmails": [
-    "amya@abernathy.biz",
-    "haven_will@purdy.ca"
+    "nash@mante.us",
+    "beulah.nolan@keebler.biz"
   ],
   "Domains": [
-    "autem",
-    "aperiam"
+    "nemo",
+    "animi"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Ulices Roberto Kohler Jr.",
-    "SuperOffice:2": "Ulices Murazik"
+    "SuperOffice:1": "526326695",
+    "SuperOffice:2": "Mr. Eve Collier"
   },
   "ExtraFields": {
-    "ExtraFields1": "quam",
-    "ExtraFields2": "sit"
+    "ExtraFields1": "eius",
+    "ExtraFields2": "ab"
   },
   "CustomFields": {
-    "CustomFields1": "fuga",
-    "CustomFields2": "unde"
+    "CustomFields1": "eum",
+    "CustomFields2": "omnis"
   }
 }
 ```
@@ -283,7 +283,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "dolor",
-  "2": "saepe"
+  "1": "unde",
+  "2": "voluptate"
 }
 ```

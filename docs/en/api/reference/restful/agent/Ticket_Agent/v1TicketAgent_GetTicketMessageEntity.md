@@ -26,7 +26,7 @@ Gets a TicketMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=25
+POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=976
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,category/id
 ```
 
@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,28 +102,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 852,
+  "EjMessageId": 354,
   "Ticket": null,
-  "CreatedAt": "2004-06-09T13:14:01.6131905+02:00",
+  "CreatedAt": "2021-11-08T16:32:40.3676056+01:00",
   "CreatedBy": null,
-  "Author": "sunt",
+  "Author": "iure",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "aspernatur",
-  "TimeSpent": 304,
-  "Body": "at",
-  "HtmlBody": "quaerat",
-  "EmailHeader": "alia.ledner@schimmel.biz",
-  "DebugInfo": "quam",
-  "MailSorter": "aut",
+  "MessageId": "eum",
+  "TimeSpent": 841,
+  "Body": "tenetur",
+  "HtmlBody": "ut",
+  "EmailHeader": "mose_vandervort@champlin.name",
+  "DebugInfo": "non",
+  "MailSorter": "autem",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "nesciunt",
+  "SearchTitle": "reprehenderit",
   "MessageHeaders": [
     {
-      "Id": 882,
-      "Name": "Kerluke Inc and Sons",
-      "Value": "adipisci",
+      "Id": 880,
+      "Name": "Buckridge, Hilll and McLaughlin",
+      "Value": "magnam",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -131,50 +131,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 85
+          "FieldLength": 121
         }
       }
     }
   ],
   "Important": true,
-  "Language": "qui",
-  "Sentiment": 623,
-  "SentimentConfidence": 98,
+  "Language": "sunt",
+  "Sentiment": 136,
+  "SentimentConfidence": 383,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 315,
-      "Name": "Jaskolski Inc and Sons",
-      "ContentType": "ad",
-      "AttSize": 619,
-      "InlineImage": true,
-      "ContentId": "et",
-      "AuthKey": "a",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 146,
+      "Name": "Flatley Group",
+      "ContentType": "a",
+      "AttSize": 782,
+      "InlineImage": false,
+      "ContentId": "qui",
+      "AuthKey": "nostrum",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 971
+          "FieldLength": 888
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "atque",
-    "ExtraFields2": "omnis"
+    "ExtraFields1": "et",
+    "ExtraFields2": "non"
   },
   "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "vel"
+    "CustomFields1": "excepturi",
+    "CustomFields2": "voluptatum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 246
+      "FieldType": "System.Int32",
+      "FieldLength": 845
     }
   }
 }

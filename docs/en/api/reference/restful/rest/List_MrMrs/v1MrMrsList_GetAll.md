@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 668,
-    "Name": "Welch Group",
-    "Tooltip": "qui",
+    "Id": 435,
+    "Name": "Gulgowski, Hammes and O'Connell",
+    "Tooltip": "in",
     "Deleted": false,
-    "UdListDefinitionId": 208,
-    "Rank": 642,
+    "UdListDefinitionId": 682,
+    "Rank": 623,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 529
+        "FieldLength": 761
       }
     }
   }

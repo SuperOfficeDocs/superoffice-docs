@@ -94,22 +94,22 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 320,
-  "Name": "Mohr, Fadel and Nolan",
-  "ConsentText": "nam",
-  "FormText": "tempore",
-  "Key": "et",
-  "Tooltip": "corporis",
-  "Active": 248,
-  "UpdatedDate": "2021-06-23T13:14:09.6660173+02:00",
+  "ConsentPurposeId": 312,
+  "Name": "Lowe, Boyer and Kuhlman",
+  "ConsentText": "pariatur",
+  "FormText": "est",
+  "Key": "sint",
+  "Tooltip": "nostrum",
+  "Active": 802,
+  "UpdatedDate": "2011-03-19T16:32:48.5714211+01:00",
   "UpdatedBy": null,
   "Deleted": true,
-  "Rank": 966,
-  "PrivacyStatementDesc": "distinctio",
+  "Rank": 195,
+  "PrivacyStatementDesc": "in",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -121,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 272,
-  "Name": "Rath-Bins",
-  "ConsentText": "sapiente",
-  "FormText": "sint",
-  "Key": "autem",
-  "Tooltip": "facere",
-  "Active": 404,
-  "UpdatedDate": "2015-02-17T13:14:09.6660173+01:00",
+  "ConsentPurposeId": 445,
+  "Name": "Upton-Gerhold",
+  "ConsentText": "voluptas",
+  "FormText": "rerum",
+  "Key": "laboriosam",
+  "Tooltip": "sapiente",
+  "Active": 21,
+  "UpdatedDate": "2012-03-25T16:32:48.5714211+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 461,
-  "PrivacyStatementDesc": "eligendi",
+  "Rank": 897,
+  "PrivacyStatementDesc": "sint",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 793
+      "FieldLength": 101
     }
   }
 }

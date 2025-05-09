@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 589
+  "SelectedListId": 949
 }
 ```
 
@@ -123,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 722,
-  "ColumnId": 34,
-  "FieldDefault": "sit",
-  "FieldHeight": 112,
-  "FieldLabel": "quo",
-  "FieldLeft": 188,
-  "FieldTop": 562,
+  "UDefFieldId": 87,
+  "ColumnId": 423,
+  "FieldDefault": "corporis",
+  "FieldHeight": 847,
+  "FieldLabel": "dolor",
+  "FieldLeft": 986,
+  "FieldTop": 80,
   "FieldType": "Checkbox",
-  "FieldWidth": 227,
-  "FormatMask": "aut",
+  "FieldWidth": 373,
+  "FormatMask": "non",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 32,
-  "LabelLeft": 110,
-  "LabelTop": 485,
-  "LabelWidth": 148,
-  "LastVersionId": 675,
-  "ListTableId": 672,
+  "LabelHeight": 908,
+  "LabelLeft": 556,
+  "LabelTop": 66,
+  "LabelWidth": 888,
+  "LastVersionId": 400,
+  "ListTableId": 444,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 143,
-  "ProgId": "et",
-  "IsReadOnly": true,
-  "ShortLabel": "quisquam",
-  "TabOrder": 112,
-  "TextLength": 39,
-  "Tooltip": "exercitationem",
-  "UdefIdentity": 53,
-  "UDListDefinitionId": 811,
+  "Page1LineNo": 168,
+  "ProgId": "nemo",
+  "IsReadOnly": false,
+  "ShortLabel": "adipisci",
+  "TabOrder": 877,
+  "TextLength": 547,
+  "Tooltip": "quod",
+  "UdefIdentity": 641,
+  "UDListDefinitionId": 841,
   "Justification": "Center",
-  "Version": 403,
-  "TemplateVariableName": "Tillman-Runolfsdottir",
-  "HasBeenPublished": true,
-  "MdoListName": "Grimes-Treutel",
+  "Version": 676,
+  "TemplateVariableName": "Lubowitz-Crooks",
+  "HasBeenPublished": false,
+  "MdoListName": "Swaniawski-Lubowitz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 125
+      "FieldLength": 338
     }
   }
 }

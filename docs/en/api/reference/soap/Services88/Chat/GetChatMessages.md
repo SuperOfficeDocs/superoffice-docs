@@ -73,7 +73,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Chat:ReadByCustomer xsi:type="xsd:short">0</Chat:ReadByCustomer>
      <Chat:SpecialType xsi:type="Chat:ChatMessageSpecialType">None</Chat:SpecialType>
      <Chat:SpecialParam xsi:type="xsd:string"></Chat:SpecialParam>
-     <Chat:WhenPosted xsi:type="xsd:dateTime">2025-04-03T11:11:35Z</Chat:WhenPosted>
+     <Chat:WhenPosted xsi:type="xsd:dateTime">2025-05-07T14:30:20Z</Chat:WhenPosted>
     </Chat:ChatMessage>
    </Chat:Response>
   </Chat:GetChatMessagesResponse>

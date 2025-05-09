@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 936
+  "SelectionId": 424
 }
 ```
 
@@ -96,44 +96,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wisoky-Kilback",
-    "Operator": "provident",
+    "Name": "Cole-Gerlach",
+    "Operator": "dolorem",
     "Values": [
-      "commodi",
-      "possimus"
+      "voluptatum",
+      "qui"
     ],
     "DisplayValues": [
-      "qui",
-      "rerum"
+      "sit",
+      "molestiae"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Rempel Inc and Sons",
-        "Operator": "ipsam",
+        "Name": "Grant-Cassin",
+        "Operator": "quaerat",
         "Values": [
-          "libero",
-          "voluptas"
+          "voluptatibus",
+          "est"
         ],
         "DisplayValues": [
-          "est",
-          "deleniti"
+          "eos",
+          "magnam"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 371,
+        "InterParenthesis": 494,
         "InterOperator": "And",
-        "UniqueHash": 646
+        "UniqueHash": 773
       }
     ],
-    "InterParenthesis": 518,
+    "InterParenthesis": 32,
     "InterOperator": "And",
-    "UniqueHash": 149
+    "UniqueHash": 781
   }
 ]
 ```

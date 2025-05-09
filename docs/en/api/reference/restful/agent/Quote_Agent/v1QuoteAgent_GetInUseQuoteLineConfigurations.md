@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 164,
-    "FieldName": "Roob, Graham and Jerde",
-    "Label": "quod",
-    "Tooltip": "ut",
-    "Editable": false,
+    "QuoteLineConfigurationId": 901,
+    "FieldName": "Abernathy, Koss and O'Reilly",
+    "Label": "iste",
+    "Tooltip": "consequatur",
+    "Editable": true,
     "InUse": false,
-    "Mandatory": false,
-    "Rank": 177,
+    "Mandatory": true,
+    "Rank": 202,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 217
+        "FieldType": "System.Int32",
+        "FieldLength": 526
       }
     }
   }

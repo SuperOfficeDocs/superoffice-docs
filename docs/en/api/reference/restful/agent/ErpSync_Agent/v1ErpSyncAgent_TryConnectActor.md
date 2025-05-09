@@ -79,27 +79,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 779,
-  "CrmRecordId": 179,
+  "ErpConnectionId": 98,
+  "CrmRecordId": 586,
   "CrmActorType": "Contact",
-  "ErpKey": "porro",
+  "ErpKey": "nihil",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Hand, Rosenbaum and Schmidt",
-      "CrmFieldKey": "quasi",
-      "Value": "non",
-      "DisplayValue": "quia",
-      "SyncToCrm": false,
-      "SyncToErp": true
+      "DisplayName": "Ziemann Inc and Sons",
+      "CrmFieldKey": "amet",
+      "Value": "rem",
+      "DisplayValue": "ex",
+      "SyncToCrm": true,
+      "SyncToErp": false
     },
     {
-      "DisplayName": "Hand, Rosenbaum and Schmidt",
-      "CrmFieldKey": "quasi",
-      "Value": "non",
-      "DisplayValue": "quia",
-      "SyncToCrm": false,
-      "SyncToErp": true
+      "DisplayName": "Ziemann Inc and Sons",
+      "CrmFieldKey": "amet",
+      "Value": "rem",
+      "DisplayValue": "ex",
+      "SyncToCrm": true,
+      "SyncToErp": false
     }
   ]
 }

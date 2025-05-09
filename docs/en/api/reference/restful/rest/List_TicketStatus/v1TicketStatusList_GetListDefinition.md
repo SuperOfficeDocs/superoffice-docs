@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/TicketStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 440,
-  "Name": "Donnelly, Klein and Jerde",
-  "Tooltip": "odio",
-  "Deleted": true,
-  "Rank": 122,
+  "Id": 596,
+  "Name": "Hintz-Padberg",
+  "Tooltip": "omnis",
+  "Deleted": false,
+  "Rank": 762,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "architecto",
-  "InUseByUserDefinedFields": true,
+  "ListType": "similique",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 133
+      "FieldLength": 475
     }
   },
   "_Links": {

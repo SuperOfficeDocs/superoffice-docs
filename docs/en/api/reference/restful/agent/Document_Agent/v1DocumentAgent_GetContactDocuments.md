@@ -97,14 +97,14 @@ OK
 POST /api/v1/Agents/Document/GetContactDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 456,
-  "StartTime": "2006-10-31T13:14:00.0944666+01:00",
-  "EndTime": "2015-03-09T13:14:00.0944666+01:00",
-  "Count": 930
+  "ContactId": 299,
+  "StartTime": "2017-06-18T16:32:38.6490035+02:00",
+  "EndTime": "2017-11-16T16:32:38.6490035+01:00",
+  "Count": 479
 }
 ```
 
@@ -116,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 132,
-    "Attention": "est",
-    "Header": "architecto",
-    "Name": "Torp, Strosin and Hoeger",
-    "OurRef": "ipsam",
-    "YourRef": "deleniti",
-    "Description": "Pre-emptive 24 hour customer loyalty",
-    "DocumentTemplate": "et",
+    "DocumentId": 333,
+    "Attention": "aut",
+    "Header": "molestiae",
+    "Name": "Schaden-Ruecker",
+    "OurRef": "consequatur",
+    "YourRef": "repellat",
+    "Description": "Profit-focused value-added model",
+    "DocumentTemplate": "quia",
     "IsPublished": true,
-    "PersonId": 647,
-    "PersonFullName": "Andres Larkin",
-    "AssociateFullName": "Leslie Lueilwitz",
-    "ContactId": 235,
-    "ContactName": "Torphy-Cronin",
-    "ProjectId": 950,
-    "ProjectName": "Larkin LLC",
-    "AssociateId": 973,
-    "Snum": 806,
-    "SaleId": 329,
-    "SaleName": "Halvorson-Jakubowski",
+    "PersonId": 93,
+    "PersonFullName": "Jamey Veum",
+    "AssociateFullName": "Ms. Eleanora Goyette IV",
+    "ContactId": 801,
+    "ContactName": "Padberg, Windler and Roob",
+    "ProjectId": 639,
+    "ProjectName": "Vandervort-O'Connell",
+    "AssociateId": 908,
+    "Snum": 840,
+    "SaleId": 401,
+    "SaleName": "Kulas, Howe and Turner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 9
+        "FieldType": "System.Int32",
+        "FieldLength": 348
       }
     }
   }

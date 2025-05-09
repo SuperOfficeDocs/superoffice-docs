@@ -301,9 +301,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/probPercent|int|Probability as %: Probability as %| x |
 |sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
 |sale/stage|listAny|Stage: Displays the stage of the sale| x |
+|sale/stageName| *None* |Stage name: Displays the stage of the sale| x |
 |sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
 |sale/stageRank| *None* |Stage rank: Rank of the sale stage in the stage list| x |
 |sale/saleType|listAny|Sale type: Sale type, from list| x |
+|sale/saleTypeId| *None* |Sale type ID: Sale type, from list| x |
+|sale/stageId| *None* |Sale stage ID: Displays the stage of the sale| x |
 |sale/nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
 |sale/reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
 |sale/stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
@@ -324,13 +327,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |sale/salePublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |sale/salePublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |sale/salePublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
-|sale/salePublish/publishedBy| *None* |Published by: Published by|  |
-|sale/associate/firstName|string|First name: Displays the contact's first name| x |
-|sale/associate/lastName|string|Last name: Displays the contact's last name| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/salePublish/publishedBy| *None* |Published by: Published by|  |
+|sale/associate/firstName|string|First name: Displays the contact's first name| x |
+|sale/associate/lastName|string|Last name: Displays the contact's last name| x |
 |sale/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |sale/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |sale/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
@@ -393,6 +396,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |appointment/endDate|date|End date: Displays the deadline for a follow-up/sale| x |
 |appointment/priority|listAny|Priority: Displays the priority of the activity| x |
 |appointment/alarm|bool|Has alarm: Displays the alarm state of a follow-up| x |
+|appointment/isFree|bool|Is free: Displays whether the appointment should be considered free or busy| x |
 |appointment/recurring|bool|Repeating: Displays an icon indicating if the follow-up is part of a repeating follow-up| x |
 |appointment/booking|bool|Invitation: Displays an icon if the follow-up is an invitation. All invitations will be displayed in a tooltip.| x |
 |appointment/intention|listAny|Intention: Displays the intention of the follow-up type| x |
@@ -427,14 +431,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |appointment/associate/firstName|string|First name: Displays the contact's first name| x |
 |appointment/associate/lastName|string|Last name: Displays the contact's last name| x |
 |appointment/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
-|appointment/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|appointment/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
-|appointment/associate/personId|int|Contact ID: Database ID of the contact row|  |
-|appointment/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|appointment/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
+|appointment/associate/personId|int|Contact ID: Database ID of the contact row|  |
+|appointment/associate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |appointment/associate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
 |appointment/associate/associateDbId|associate|ID| x |
 |appointment/associate/contactName|string|Owning company: Name of the company the user belongs to| x |
@@ -531,14 +535,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |document/associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |document/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |document/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|document/associate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
-|document/associate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
-|document/associate/portraitThumbnail| *None* |Person image: Person image|  |
-|document/associate/otherGroups|userGroup|Other groups: Other groups|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/associate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
+|document/associate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
+|document/associate/portraitThumbnail| *None* |Person image: Person image|  |
+|document/associate/otherGroups|userGroup|Other groups: Other groups|  |
 |document/associate/userName|string|User name: User name| x |
 |document/associate/personEmail|string|E-mail| x |
 |document/associate/locationAddress|string|Location: Location| x |
@@ -635,14 +639,14 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
 |personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
 |personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
-|personExtra/y\_car/id|int|Car - id: Displays the row's primary key (y\_car)| x |
-|isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
-|hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
-|withdrawnStoreConsent|bool|Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personExtra/y\_car/id|int|Car - id: Displays the row's primary key (y\_car)| x |
+|isMailingRecipient|bool|Is mailing recipient: isMailingRecipient| x |
+|hasStoreConsent|bool|Consent - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
+|withdrawnStoreConsent|bool|Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |hasEmarketingConsent|bool|Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |withdrawnEmarketingConsent|bool|Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |subscription|listAny|Subscription: Subscription for marketing| x |
@@ -654,7 +658,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/InnerSelectionStaticContactProvider?$select=contactAssociate/personId,contactAssociate/isLocation,contactExtra/x_contact_date,sourceRelation/contactDeleted,targetRelation/contactDeleted
+GET /api/v1/archive/InnerSelectionStaticContactProvider?$select=contactPhone/formattedNumber,contactAssociate/contactName,contactUdef/SuperOffice:7,appointment/associate/fullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

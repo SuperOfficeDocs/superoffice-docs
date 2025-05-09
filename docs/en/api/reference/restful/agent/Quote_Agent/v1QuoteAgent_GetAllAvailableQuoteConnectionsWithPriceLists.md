@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllAvailableQuoteConnectionsWithPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,34 +92,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 138,
-    "ERPName": "Lebsack Inc and Sons",
-    "DisplayName": "Grimes Inc and Sons",
-    "DisplayDescription": "Multi-tiered multi-tasking forecast",
-    "Rank": 243,
-    "ConnectorName": "Gottlieb-Luettgen",
-    "ErpConnectionId": 449,
-    "ExtraData": "nihil",
-    "IsAvailable": true,
+    "QuoteConnectionId": 708,
+    "ERPName": "Zieme LLC",
+    "DisplayName": "Kassulke-Kling",
+    "DisplayDescription": "Fully-configurable heuristic capability",
+    "Rank": 894,
+    "ConnectorName": "Reilly-Davis",
+    "ErpConnectionId": 322,
+    "ExtraData": "est",
+    "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 816,
-        "ERPPriceListKey": "quidem",
-        "QuoteConnectionId": 662,
-        "Name": "Bernhard Group",
-        "Description": "Persistent neutral adapter",
-        "Currency": "soluta",
-        "CurrencyName": "Marks-Ziemann",
-        "ValidFrom": "2017-10-14T13:14:00.9865066+02:00",
-        "ValidTo": "2015-02-01T13:14:00.9865066+01:00",
-        "IsActive": true,
+        "PriceListId": 168,
+        "ERPPriceListKey": "quia",
+        "QuoteConnectionId": 816,
+        "Name": "Metz, Greenfelder and Gleason",
+        "Description": "Future-proofed well-modulated implementation",
+        "Currency": "quia",
+        "CurrencyName": "Ebert-Streich",
+        "ValidFrom": "2010-09-14T16:32:39.7271263+02:00",
+        "ValidTo": "2020-08-06T16:32:39.7271263+02:00",
+        "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 868
+            "FieldType": "System.Int32",
+            "FieldLength": 396
           }
         }
       }
@@ -127,19 +127,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      841,
-      943
+      296,
+      758
     ],
     "AssociateAccessIds": [
-      78,
-      218
+      619,
+      512
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 561
+        "FieldType": "System.Int32",
+        "FieldLength": 864
       }
     }
   }

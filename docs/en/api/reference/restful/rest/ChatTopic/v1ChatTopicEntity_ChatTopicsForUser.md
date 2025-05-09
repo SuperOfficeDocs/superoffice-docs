@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatTopic/ForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,43 +98,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 925,
-    "Name": "Bednar-Kessler",
-    "Description": "Grass-roots grid-enabled benchmark",
-    "WelcomeMessage": "architecto",
+    "ChatTopicId": 952,
+    "Name": "Muller, Smitham and Wiza",
+    "Description": "Upgradable 6th generation productivity",
+    "WelcomeMessage": "iste",
     "Language": null,
-    "LastAccept": "2022-11-25T13:14:08.4772481+01:00",
-    "SecondsPrAccept": 478,
-    "AlertRecipient": "eos",
+    "LastAccept": "2017-12-23T16:32:47.2633305+01:00",
+    "SecondsPrAccept": 957,
+    "AlertRecipient": "sequi",
     "AlertTemplate": null,
     "CollectConsent": false,
-    "BadgeHeader": "rem",
+    "BadgeHeader": "et",
     "CustomQueueTextEnabled": false,
-    "CustomQueueText": "autem",
-    "WarnNewChatMinutes": 299,
-    "WarnManagerNewChatMinutes": 682,
+    "CustomQueueText": "perferendis",
+    "WarnNewChatMinutes": 181,
+    "WarnManagerNewChatMinutes": 191,
     "TicketEnabled": false,
     "TicketCategory": null,
     "TicketPriority": null,
     "OpeningHoursEnabled": false,
     "OpeningHours": null,
     "Widget": null,
-    "BotEnabled": true,
+    "BotEnabled": false,
     "BotSettings": null,
     "OfflineCollectConsent": false,
-    "WarnChatMessageMinutes": 486,
-    "WarnManagerChatMessageMinutes": 864,
-    "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 630,
-    "OfflineFormQueueLength": 489,
-    "WidgetEnableRating": true,
-    "WidgetRatingText": "in",
+    "WarnChatMessageMinutes": 788,
+    "WarnManagerChatMessageMinutes": 470,
+    "UseQueueOfflineForm": true,
+    "OfflineFormTimeLimit": 439,
+    "OfflineFormQueueLength": 59,
+    "WidgetEnableRating": false,
+    "WidgetRatingText": "illum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 349
+        "FieldLength": 223
       }
     }
   }

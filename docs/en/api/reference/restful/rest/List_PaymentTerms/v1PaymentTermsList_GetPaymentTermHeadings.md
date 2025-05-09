@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 372,
-    "Name": "Keeling, Zemlak and Nolan",
-    "Tooltip": "officiis",
-    "Deleted": true,
-    "Rank": 345,
-    "UdListDefinitionId": 10,
+    "HeadingId": 288,
+    "Name": "Simonis-Kerluke",
+    "Tooltip": "fugiat",
+    "Deleted": false,
+    "Rank": 747,
+    "UdListDefinitionId": 223,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 952
+        "FieldType": "System.Int32",
+        "FieldLength": 332
       }
     }
   }

@@ -33,9 +33,9 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=12/26/2004 13:14:12
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=04/16/1998 13:14:12
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=859
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=02/25/2017 16:32:51
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=04/11/2001 16:32:51
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=26
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=True
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,22 +95,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 426,
-  "ERPPriceListKey": "eaque",
-  "QuoteConnectionId": 470,
-  "Name": "Champlin, Hyatt and Gaylord",
-  "Description": "Monitored hybrid core",
-  "Currency": "esse",
-  "CurrencyName": "Howe-Stehr",
-  "ValidFrom": "2017-06-25T13:14:09.8691543+02:00",
-  "ValidTo": "2006-06-01T13:14:09.8691543+02:00",
-  "IsActive": false,
+  "PriceListId": 531,
+  "ERPPriceListKey": "et",
+  "QuoteConnectionId": 387,
+  "Name": "McCullough Inc and Sons",
+  "Description": "Extended systemic installation",
+  "Currency": "sint",
+  "CurrencyName": "Christiansen Inc and Sons",
+  "ValidFrom": "2006-04-07T16:32:48.7745027+02:00",
+  "ValidTo": "2002-08-11T16:32:48.7745027+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 178
+      "FieldLength": 562
     }
   }
 }

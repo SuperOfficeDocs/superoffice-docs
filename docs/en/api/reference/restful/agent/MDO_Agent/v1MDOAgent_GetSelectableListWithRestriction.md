@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Thompson, Heller and Armstrong",
-  "AdditionalInfo": "accusamus",
-  "SearchValue": "sunt"
+  "Name": "Zboncak, Abbott and O'Keefe",
+  "AdditionalInfo": "deleniti",
+  "SearchValue": "quasi"
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 546,
-    "Name": "Runte-McClure",
-    "ToolTip": "Impedit accusamus culpa nemo exercitationem.",
+    "Id": 413,
+    "Name": "Jerde Inc and Sons",
+    "ToolTip": "Omnis suscipit.",
     "Deleted": false,
-    "Rank": 885,
-    "Type": "qui",
-    "ColorBlock": 150,
-    "IconHint": "eligendi",
+    "Rank": 168,
+    "Type": "quos",
+    "ColorBlock": 114,
+    "IconHint": "sit",
     "Selected": true,
-    "LastChanged": "1999-02-23T13:14:00.7043711+01:00",
+    "LastChanged": "2014-12-03T16:32:39.3519666+01:00",
     "ChildItems": [
       {
-        "Id": 26,
-        "Name": "West-Mraz",
-        "ToolTip": "Et suscipit explicabo accusantium.",
+        "Id": 355,
+        "Name": "Auer-Collier",
+        "ToolTip": "Qui sit dolor et modi est ad.",
         "Deleted": true,
-        "Rank": 546,
-        "Type": "quia",
-        "ColorBlock": 625,
-        "IconHint": "exercitationem",
+        "Rank": 957,
+        "Type": "magnam",
+        "ColorBlock": 525,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2021-06-24T13:14:00.7043711+02:00",
+        "LastChanged": "2012-12-15T16:32:39.3519666+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "error",
-        "StyleHint": "amet",
-        "Hidden": true,
-        "FullName": "Lois Wolff",
+        "ExtraInfo": "quia",
+        "StyleHint": "vitae",
+        "Hidden": false,
+        "FullName": "Isaac Brown",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 775
+            "FieldLength": 699
           }
         }
       }
     ],
-    "ExtraInfo": "atque",
-    "StyleHint": "illo",
-    "Hidden": false,
-    "FullName": "Miss Newton Jones",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "impedit",
+    "Hidden": true,
+    "FullName": "Prof. Breanne Lester Senger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 866
+        "FieldLength": 209
       }
     }
   }

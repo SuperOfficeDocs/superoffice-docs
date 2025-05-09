@@ -69,12 +69,12 @@ OK
 PUT /api/v1/User/{associateId}/UserPresenceStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Status": "StatusDeleted",
-  "Message": "aut"
+  "Message": "fugiat"
 }
 ```
 
@@ -86,6 +86,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Status": "StatusDeleted",
-  "Message": "commodi"
+  "Message": "corrupti"
 }
 ```

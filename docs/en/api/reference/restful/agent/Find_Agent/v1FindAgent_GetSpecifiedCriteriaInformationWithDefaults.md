@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ad",
-  "ProviderName": "Kovacek-Weimann",
-  "StorageKey": "quis",
+  "StorageType": "vel",
+  "ProviderName": "Kozey Group",
+  "StorageKey": "natus",
   "DesiredColumnNames": [
-    "O'Conner LLC",
-    "Rempel-Jewess"
+    "Howell-Runolfsson",
+    "Cartwright, Bruen and Becker"
   ],
   "StaticColumns": [
-    "delectus",
-    "vero"
+    "odio",
+    "placeat"
   ]
 }
 ```
@@ -109,81 +109,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Kautzer, Witting and O'Connell",
-      "Operator": "nihil",
+      "Name": "Stark-Armstrong",
+      "Operator": "non",
       "Values": [
-        "et",
-        "architecto"
+        "maxime",
+        "eos"
       ],
       "DisplayValues": [
-        "dolorem",
-        "facilis"
+        "earum",
+        "neque"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 499,
+      "InterParenthesis": 826,
       "InterOperator": "And",
-      "UniqueHash": 324
+      "UniqueHash": 485
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Doyle Group",
-      "DisplayTooltip": "in",
-      "DisplayType": "minus",
-      "CanOrderBy": false,
-      "Name": "Kemmer-Armstrong",
-      "CanRestrictBy": true,
-      "RestrictionType": "quibusdam",
-      "RestrictionListName": "Ullrich-Thompson",
+      "DisplayName": "D'Amore LLC",
+      "DisplayTooltip": "alias",
+      "DisplayType": "est",
+      "CanOrderBy": true,
+      "Name": "Schultz-Fahey",
+      "CanRestrictBy": false,
+      "RestrictionType": "nulla",
+      "RestrictionListName": "Fisher-Hammes",
       "IsVisible": false,
-      "ExtraInfo": "fugiat",
-      "Width": "quos",
-      "IconHint": "tenetur",
-      "HeadingIconHint": "et"
+      "ExtraInfo": "velit",
+      "Width": "numquam",
+      "IconHint": "sit",
+      "HeadingIconHint": "est"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Rolfson-Morar",
-      "PrimaryKey": 596,
+      "EntityName": "Lang Group",
+      "PrimaryKey": 602,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "nisi",
-          "TooltipHint": "nemo",
-          "LinkHint": "at"
+          "DisplayValue": "provident",
+          "TooltipHint": "reiciendis",
+          "LinkHint": "repellat"
         }
       },
-      "LinkHint": "reprehenderit",
-      "StyleHint": "dolores",
+      "LinkHint": "cumque",
+      "StyleHint": "alias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 976
+          "FieldType": "System.String",
+          "FieldLength": 497
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Quitzon Group",
-      "Description": "Seamless optimal project",
-      "Rank": 44,
+      "Name": "Beatty, Nitzsche and Mraz",
+      "Description": "Pre-emptive logistical portal",
+      "Rank": 744,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Quitzon Group",
-      "Description": "Seamless optimal project",
-      "Rank": 44,
+      "Name": "Beatty, Nitzsche and Mraz",
+      "Description": "Pre-emptive logistical portal",
+      "Rank": 744,
       "Restrictions": [
         {},
         {}
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 345
+      "FieldLength": 950
     }
   }
 }

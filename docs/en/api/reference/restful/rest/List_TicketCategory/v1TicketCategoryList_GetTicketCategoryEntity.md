@@ -89,36 +89,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 211,
-  "ParentId": 482,
-  "Name": "Balistreri LLC",
-  "Fullname": "dolore",
-  "CategoryMaster": 809,
+  "TicketCategoryId": 724,
+  "ParentId": 751,
+  "Name": "Murphy Group",
+  "Fullname": "dignissimos",
+  "CategoryMaster": 785,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Grant, Mitchell and Schimmel",
+  "ExternalName": "Pollich, Torphy and Fisher",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 354,
-  "ReplyTemplate": 449,
-  "NotificationEmail": "billy@windlerbeer.us",
+  "AssignmentLag": 866,
+  "ReplyTemplate": 989,
+  "NotificationEmail": "kari.wunsch@steuber.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 423,
+  "EffectiveReplyTemplateId": 546,
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "aliquid"
+    "ExtraFields1": "voluptas",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "illo",
-    "CustomFields2": "est"
+    "CustomFields1": "asperiores",
+    "CustomFields2": "voluptas"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 20
+      "FieldLength": 264
     }
   }
 }

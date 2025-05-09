@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 639,
-  "Name": "Rath Inc and Sons",
-  "Tooltip": "pariatur",
+  "Id": 952,
+  "Name": "Casper Inc and Sons",
+  "Tooltip": "doloribus",
   "Deleted": false,
-  "Rank": 110,
+  "Rank": 435,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "cum",
+  "ListType": "nihil",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 426,
-  "Name": "Maggio Inc and Sons",
-  "Tooltip": "necessitatibus",
-  "Deleted": true,
-  "Rank": 38,
+  "Id": 620,
+  "Name": "Jenkins-Nolan",
+  "Tooltip": "ad",
+  "Deleted": false,
+  "Rank": 264,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "UseGroupsAndHeadings": true,
+  "ListType": "cumque",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 105
+      "FieldType": "System.Int32",
+      "FieldLength": 712
     }
   }
 }

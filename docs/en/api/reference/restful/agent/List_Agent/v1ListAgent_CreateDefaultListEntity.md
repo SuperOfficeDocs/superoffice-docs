@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 528,
-  "Name": "Larson-Harris",
-  "Tooltip": "quos",
-  "Deleted": true,
-  "Rank": 44,
+  "Id": 11,
+  "Name": "Streich LLC",
+  "Tooltip": "quidem",
+  "Deleted": false,
+  "Rank": 429,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "ea",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "omnis",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 967
+      "FieldType": "System.Int32",
+      "FieldLength": 216
     }
   }
 }

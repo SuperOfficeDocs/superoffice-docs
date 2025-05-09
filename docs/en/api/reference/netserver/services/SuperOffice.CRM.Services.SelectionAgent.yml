@@ -227,38 +227,6 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: SuperOffice.CRM.Services.SelectionAgent.DeleteSelectionEntity(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.SelectionAgent.DeleteSelectionEntity(System.Int32)
-  id: DeleteSelectionEntity(System.Int32)
-  parent: SuperOffice.CRM.Services.SelectionAgent
-  langs:
-  - csharp
-  - vb
-  name: DeleteSelectionEntity(Int32)
-  nameWithType: SelectionAgent.DeleteSelectionEntity(Int32)
-  fullName: SuperOffice.CRM.Services.SelectionAgent.DeleteSelectionEntity(System.Int32)
-  type: Method
-  source:
-    path: SuperOffice.Services
-    isExternal: true
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: "\nDeletes the SelectionEntity\n"
-  syntax:
-    content: public void DeleteSelectionEntity(int selectionEntityId)
-    parameters:
-    - id: selectionEntityId
-      type: System.Int32
-      description: The identity of the SelectionEntity
-    content.vb: Public Sub DeleteSelectionEntity(selectionEntityId As Integer)
-  overload: SuperOffice.CRM.Services.SelectionAgent.DeleteSelectionEntity*
-  implements:
-  - SuperOffice.CRM.Services.ISelectionAgent.DeleteSelectionEntity(System.Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: SuperOffice.CRM.Services.SelectionAgent.GetSelectionEntity(System.Int32)
   commentId: M:SuperOffice.CRM.Services.SelectionAgent.GetSelectionEntity(System.Int32)
   id: GetSelectionEntity(System.Int32)
@@ -2022,6 +1990,38 @@ items:
   - Public
   fullName.vb: SuperOffice.CRM.Services.SelectionAgent.SetDynamicSelectionCriteriaGroups(System.Int32, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup())
   name.vb: SetDynamicSelectionCriteriaGroups(Int32, ArchiveRestrictionGroup())
+- uid: SuperOffice.CRM.Services.SelectionAgent.DeleteSelectionEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.SelectionAgent.DeleteSelectionEntity(System.Int32)
+  id: DeleteSelectionEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.SelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteSelectionEntity(Int32)
+  nameWithType: SelectionAgent.DeleteSelectionEntity(Int32)
+  fullName: SuperOffice.CRM.Services.SelectionAgent.DeleteSelectionEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes the SelectionEntity\n"
+  syntax:
+    content: public void DeleteSelectionEntity(int selectionEntityId)
+    parameters:
+    - id: selectionEntityId
+      type: System.Int32
+      description: The identity of the SelectionEntity
+    content.vb: Public Sub DeleteSelectionEntity(selectionEntityId As Integer)
+  overload: SuperOffice.CRM.Services.SelectionAgent.DeleteSelectionEntity*
+  implements:
+  - SuperOffice.CRM.Services.ISelectionAgent.DeleteSelectionEntity(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.SelectionAgent.GetSelectionForFind(System.String,System.Int32)
   commentId: M:SuperOffice.CRM.Services.SelectionAgent.GetSelectionForFind(System.String,System.Int32)
   id: GetSelectionForFind(System.String,System.Int32)
@@ -2528,66 +2528,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: SuperOffice.CRM.Services.SelectionAgent.DeleteSelectionEntity*
-  commentId: Overload:SuperOffice.CRM.Services.SelectionAgent.DeleteSelectionEntity
-  isExternal: true
-  name: DeleteSelectionEntity
-  nameWithType: SelectionAgent.DeleteSelectionEntity
-  fullName: SuperOffice.CRM.Services.SelectionAgent.DeleteSelectionEntity
-- uid: SuperOffice.CRM.Services.ISelectionAgent.DeleteSelectionEntity(System.Int32)
-  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.DeleteSelectionEntity(System.Int32)
-  parent: SuperOffice.CRM.Services.ISelectionAgent
-  isExternal: true
-  name: DeleteSelectionEntity(Int32)
-  nameWithType: ISelectionAgent.DeleteSelectionEntity(Int32)
-  fullName: SuperOffice.CRM.Services.ISelectionAgent.DeleteSelectionEntity(System.Int32)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.ISelectionAgent.DeleteSelectionEntity(System.Int32)
-    name: DeleteSelectionEntity
-    nameWithType: ISelectionAgent.DeleteSelectionEntity
-    fullName: SuperOffice.CRM.Services.ISelectionAgent.DeleteSelectionEntity
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.ISelectionAgent.DeleteSelectionEntity(System.Int32)
-    name: DeleteSelectionEntity
-    nameWithType: ISelectionAgent.DeleteSelectionEntity
-    fullName: SuperOffice.CRM.Services.ISelectionAgent.DeleteSelectionEntity
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.SelectionAgent.GetSelectionEntity*
   commentId: Overload:SuperOffice.CRM.Services.SelectionAgent.GetSelectionEntity
   isExternal: true
@@ -2635,6 +2575,19 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.SelectionAgent.CreateSelectionEntity*
   commentId: Overload:SuperOffice.CRM.Services.SelectionAgent.CreateSelectionEntity
   isExternal: true
@@ -5854,6 +5807,53 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SelectionAgent.DeleteSelectionEntity*
+  commentId: Overload:SuperOffice.CRM.Services.SelectionAgent.DeleteSelectionEntity
+  isExternal: true
+  name: DeleteSelectionEntity
+  nameWithType: SelectionAgent.DeleteSelectionEntity
+  fullName: SuperOffice.CRM.Services.SelectionAgent.DeleteSelectionEntity
+- uid: SuperOffice.CRM.Services.ISelectionAgent.DeleteSelectionEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.DeleteSelectionEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  isExternal: true
+  name: DeleteSelectionEntity(Int32)
+  nameWithType: ISelectionAgent.DeleteSelectionEntity(Int32)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.DeleteSelectionEntity(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISelectionAgent.DeleteSelectionEntity(System.Int32)
+    name: DeleteSelectionEntity
+    nameWithType: ISelectionAgent.DeleteSelectionEntity
+    fullName: SuperOffice.CRM.Services.ISelectionAgent.DeleteSelectionEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISelectionAgent.DeleteSelectionEntity(System.Int32)
+    name: DeleteSelectionEntity
+    nameWithType: ISelectionAgent.DeleteSelectionEntity
+    fullName: SuperOffice.CRM.Services.ISelectionAgent.DeleteSelectionEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )

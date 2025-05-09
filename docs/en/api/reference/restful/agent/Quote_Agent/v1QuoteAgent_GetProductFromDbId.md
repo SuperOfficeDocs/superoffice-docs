@@ -110,7 +110,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 104
+  "ProductId": 979
 }
 ```
 
@@ -121,73 +121,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 50,
-  "ERPProductKey": "illo",
-  "ERPPriceListKey": "magnam",
-  "Name": "Klein-Bernier",
-  "Description": "Automated scalable projection",
-  "Code": "incidunt",
-  "PriceUnit": "adipisci",
-  "QuantityUnit": "qui",
+  "ProductId": 425,
+  "ERPProductKey": "itaque",
+  "ERPPriceListKey": "atque",
+  "Name": "Mosciski, Wiegand and Muller",
+  "Description": "Networked modular adapter",
+  "Code": "ipsum",
+  "PriceUnit": "quisquam",
+  "QuantityUnit": "sint",
   "IsSubscription": true,
-  "SubscriptionUnit": "nam",
-  "DefaultSubscriptionQuantity": 28447.318,
-  "ItemNumber": "536381",
+  "SubscriptionUnit": "unde",
+  "DefaultSubscriptionQuantity": 22075.896,
+  "ItemNumber": "1370695",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "voluptatibus",
-  "ProductTypeKey": "quia",
-  "VAT": 30703.798,
-  "VATInfo": "temporibus",
-  "UnitCost": 9123.074,
-  "UnitMinimumPrice": 47.01,
-  "UnitListPrice": 29929.7,
+  "ProductFamilyKey": "dolor",
+  "ProductTypeKey": "aut",
+  "VAT": 13748.858,
+  "VATInfo": "quas",
+  "UnitCost": 20831.698,
+  "UnitMinimumPrice": 28763.852,
+  "UnitListPrice": 22580.469999999998,
   "InAssortment": false,
-  "Supplier": "corporis",
-  "SupplierCode": "veniam",
-  "Rights": "fugit",
-  "Rule": "ipsum",
+  "Supplier": "sed",
+  "SupplierCode": "sit",
+  "Rights": "quae",
+  "Rule": "enim",
   "ExtraInfo": [
     {
-      "Name": "Simonis-Mante",
-      "Value": "facilis",
+      "Name": "Brakus-Keebler",
+      "Value": "error",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 735
+          "FieldLength": 662
         }
       }
     },
     {
-      "Name": "Simonis-Mante",
-      "Value": "facilis",
+      "Name": "Brakus-Keebler",
+      "Value": "error",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 735
+          "FieldLength": 662
         }
       }
     }
   ],
-  "RawExtraInfo": "adipisci",
-  "ExtraField1": "culpa",
-  "ExtraField2": "voluptates",
-  "ExtraField3": "ad",
-  "ExtraField4": "sapiente",
-  "ExtraField5": "blanditiis",
-  "InStock": 18396.579999999998,
+  "RawExtraInfo": "explicabo",
+  "ExtraField1": "maxime",
+  "ExtraField2": "porro",
+  "ExtraField3": "possimus",
+  "ExtraField4": "cum",
+  "ExtraField5": "aut",
+  "InStock": 8646.706,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 831
+      "FieldType": "System.String",
+      "FieldLength": 592
     }
   }
 }

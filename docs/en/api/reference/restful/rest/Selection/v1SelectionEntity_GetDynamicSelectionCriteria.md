@@ -66,7 +66,7 @@ OK
 GET /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wehner, Kertzmann and Rogahn",
-    "Operator": "ut",
+    "Name": "Ritchie Inc and Sons",
+    "Operator": "ullam",
     "Values": [
-      "nihil",
-      "itaque"
+      "ea",
+      "quidem"
     ],
     "DisplayValues": [
-      "voluptatem",
-      "facere"
+      "deleniti",
+      "temporibus"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Kohler Inc and Sons",
-        "Operator": "aut",
+        "Name": "Feeney, Schmitt and Kreiger",
+        "Operator": "molestias",
         "Values": [
-          "qui",
-          "molestiae"
+          "eos",
+          "veritatis"
         ],
         "DisplayValues": [
-          "excepturi",
-          "illo"
+          "quas",
+          "sit"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -107,14 +107,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 458,
+        "InterParenthesis": 568,
         "InterOperator": "And",
-        "UniqueHash": 1002
+        "UniqueHash": 722
       }
     ],
-    "InterParenthesis": 811,
+    "InterParenthesis": 270,
     "InterOperator": "And",
-    "UniqueHash": 993
+    "UniqueHash": 747
   }
 ]
 ```

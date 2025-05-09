@@ -85,7 +85,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 236
+  "QuoteLineConfigurationId": 428
 }
 ```
 
@@ -96,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 455,
-  "FieldName": "Champlin Inc and Sons",
-  "Label": "praesentium",
-  "Tooltip": "odio",
+  "QuoteLineConfigurationId": 938,
+  "FieldName": "O'Hara, Champlin and Berge",
+  "Label": "ut",
+  "Tooltip": "facilis",
   "Editable": false,
   "InUse": false,
-  "Mandatory": false,
-  "Rank": 776,
+  "Mandatory": true,
+  "Rank": 773,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 187
+      "FieldType": "System.String",
+      "FieldLength": 661
     }
   }
 }

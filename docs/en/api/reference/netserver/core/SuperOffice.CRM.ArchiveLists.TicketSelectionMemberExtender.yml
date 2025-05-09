@@ -52,6 +52,9 @@ items:
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colPersonId
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colSaleId
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colProjectId
+  - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colTicketStatusId
+  - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colPriorityId
+  - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCategoryId
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colTicketType
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colTicketStatusName
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCategoryFullName
@@ -553,6 +556,27 @@ references:
   name: _colProjectId
   nameWithType: TicketExtenderBase._colProjectId
   fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colProjectId
+- uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colTicketStatusId
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colTicketStatusId
+  parent: SuperOffice.CRM.ArchiveLists.TicketExtenderBase
+  isExternal: true
+  name: _colTicketStatusId
+  nameWithType: TicketExtenderBase._colTicketStatusId
+  fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colTicketStatusId
+- uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colPriorityId
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colPriorityId
+  parent: SuperOffice.CRM.ArchiveLists.TicketExtenderBase
+  isExternal: true
+  name: _colPriorityId
+  nameWithType: TicketExtenderBase._colPriorityId
+  fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colPriorityId
+- uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCategoryId
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCategoryId
+  parent: SuperOffice.CRM.ArchiveLists.TicketExtenderBase
+  isExternal: true
+  name: _colCategoryId
+  nameWithType: TicketExtenderBase._colCategoryId
+  fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCategoryId
 - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colTicketType
   commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colTicketType
   parent: SuperOffice.CRM.ArchiveLists.TicketExtenderBase

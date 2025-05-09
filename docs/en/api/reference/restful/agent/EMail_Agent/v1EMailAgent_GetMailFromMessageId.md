@@ -104,7 +104,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "doloribus"
+  "MessageId": "molestias"
 }
 ```
 
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 605,
-      "ContactName": "Kozey LLC",
-      "PersonId": 587,
-      "PersonName": "Shields, O'Kon and Mosciski",
-      "AssociateId": 241,
-      "Address": "error",
-      "EmailId": 836,
+      "ContactId": 828,
+      "ContactName": "Yundt LLC",
+      "PersonId": 710,
+      "PersonName": "Cormier Inc and Sons",
+      "AssociateId": 883,
+      "Address": "sed",
+      "EmailId": 728,
       "DuplicatePersonIds": [
-        222,
-        818
+        955,
+        126
       ],
-      "Name": "Brekke-Stamm",
+      "Name": "Adams, Christiansen and Reilly",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 940
+          "FieldType": "System.String",
+          "FieldLength": 563
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 380,
-      "ContactName": "Stokes-Harber",
-      "PersonId": 135,
-      "PersonName": "Koelpin, Christiansen and Kassulke",
-      "AssociateId": 223,
-      "Address": "harum",
-      "EmailId": 860,
+      "ContactId": 564,
+      "ContactName": "Hackett LLC",
+      "PersonId": 29,
+      "PersonName": "Schmeler LLC",
+      "AssociateId": 278,
+      "Address": "et",
+      "EmailId": 455,
       "DuplicatePersonIds": [
-        435,
-        423
+        860,
+        41
       ],
-      "Name": "O'Kon-Lakin",
+      "Name": "Kessler, Kub and Boehm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 304
+          "FieldType": "System.String",
+          "FieldLength": 572
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 19,
-      "ContactName": "Bernhard, Hilll and Nikolaus",
-      "PersonId": 563,
-      "PersonName": "Brekke-Toy",
-      "AssociateId": 256,
-      "Address": "voluptas",
-      "EmailId": 209,
+      "ContactId": 501,
+      "ContactName": "Legros, Blanda and Schowalter",
+      "PersonId": 799,
+      "PersonName": "Pfannerstill Group",
+      "AssociateId": 249,
+      "Address": "quod",
+      "EmailId": 875,
       "DuplicatePersonIds": [
-        785,
-        467
+        733,
+        173
       ],
-      "Name": "D'Amore-Leannon",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 596
-        }
-      }
-    }
-  ],
-  "Subject": "ut",
-  "HTMLBody": "dolorum",
-  "From": null,
-  "Sent": "2016-10-13T13:14:00.2668463+02:00",
-  "Size": 42,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "repellat",
-  "PlainBody": "iste",
-  "IsSent": true,
-  "EMailSOInfo": null,
-  "ServerId": 889,
-  "Attachments": [
-    {
-      "Description": "Monitored leading edge neural-net",
-      "Filename": "suscipit",
-      "Size": 831,
-      "Type": "sunt",
-      "Encoding": "et",
-      "Id": "est",
-      "Disposition": "ullam",
-      "IsSafeFileExtension": true,
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Jacobson LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 115
+          "FieldLength": 691
+        }
+      }
+    }
+  ],
+  "Subject": "est",
+  "HTMLBody": "in",
+  "From": null,
+  "Sent": "2000-08-23T16:32:38.9458092+02:00",
+  "Size": 653,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "quod",
+  "PlainBody": "repellat",
+  "IsSent": true,
+  "EMailSOInfo": null,
+  "ServerId": 694,
+  "Attachments": [
+    {
+      "Description": "De-engineered client-server solution",
+      "Filename": "eius",
+      "Size": 961,
+      "Type": "ratione",
+      "Encoding": "adipisci",
+      "Id": "quo",
+      "Disposition": "dicta",
+      "IsSafeFileExtension": false,
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 232
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Kuphal LLC",
+      "Name": "Abshire, Aufderhar and Jakubowski",
       "Values": [
-        "exercitationem",
-        "molestiae"
+        "quia",
+        "sed"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 677
+          "FieldLength": 503
         }
       }
     },
     {
-      "Name": "Kuphal LLC",
+      "Name": "Abshire, Aufderhar and Jakubowski",
       "Values": [
-        "exercitationem",
-        "molestiae"
+        "quia",
+        "sed"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 677
+          "FieldLength": 503
         }
       }
     }
   ],
-  "FolderName": "Cassin LLC",
-  "EmailItemId": 343,
-  "AccountId": 128,
-  "ReceivedAt": "2009-05-04T13:14:00.2668463+02:00",
+  "FolderName": "Botsford-O'Connell",
+  "EmailItemId": 24,
+  "AccountId": 332,
+  "ReceivedAt": "2008-06-16T16:32:38.9458092+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2016-07-30T13:14:00.2668463+02:00",
+  "RepliedAt": "2000-07-24T16:32:38.9458092+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 382
+      "FieldType": "System.String",
+      "FieldLength": 402
     }
   }
 }

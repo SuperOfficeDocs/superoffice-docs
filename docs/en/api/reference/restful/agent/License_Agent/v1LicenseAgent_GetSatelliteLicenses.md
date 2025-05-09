@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetSatelliteLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 64
+  "SatelliteId": 733
 }
 ```
 
@@ -92,56 +92,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Emmerich Inc and Sons",
-    "Description": "Phased fault-tolerant emulation",
+    "Name": "Sauer, Hickle and Abshire",
+    "Description": "Intuitive empowering firmware",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 695,
-        "Tooltip": "vel",
+        "Total": 692,
+        "Tooltip": "iste",
         "CanAssign": false,
-        "Free": 62,
-        "InUse": 560,
+        "Free": 244,
+        "InUse": 869,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 57,
-        "Name": "Haag, McDermott and Reichert",
-        "Description": "Customer-focused homogeneous infrastructure",
-        "PrerequisiteModuleName": "Ondricka-Satterfield",
-        "SortOrder": 64,
-        "ExtraFlags": 615,
+        "Assigned": true,
+        "ModuleLicenseId": 340,
+        "Name": "Marks-Welch",
+        "Description": "Operative web-enabled Graphic Interface",
+        "PrerequisiteModuleName": "Hettinger-Reichert",
+        "SortOrder": 371,
+        "ExtraFlags": 791,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 961
+            "FieldType": "System.Int32",
+            "FieldLength": 725
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 108,
-        "Tooltip": "fuga",
+        "Unrestricted": true,
+        "Total": 144,
+        "Tooltip": "molestiae",
         "CanAssign": false,
-        "Free": 614,
-        "InUse": 673,
+        "Free": 483,
+        "InUse": 855,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 434,
-        "Name": "Kerluke-Marquardt",
-        "Description": "Synergized 6th generation paradigm",
-        "PrerequisiteModuleName": "Stamm-Blanda",
-        "SortOrder": 514,
-        "ExtraFlags": 341,
+        "Assigned": false,
+        "ModuleLicenseId": 363,
+        "Name": "Kassulke-Stracke",
+        "Description": "Universal empowering definition",
+        "PrerequisiteModuleName": "Wisoky, Kertzmann and Erdman",
+        "SortOrder": 437,
+        "ExtraFlags": 145,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 723
+            "FieldLength": 296
           }
         }
       }
@@ -151,61 +151,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 379
+        "FieldLength": 960
       }
     }
   },
   {
-    "Name": "Emmerich Inc and Sons",
-    "Description": "Phased fault-tolerant emulation",
+    "Name": "Sauer, Hickle and Abshire",
+    "Description": "Intuitive empowering firmware",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 695,
-        "Tooltip": "vel",
+        "Total": 692,
+        "Tooltip": "iste",
         "CanAssign": false,
-        "Free": 62,
-        "InUse": 560,
+        "Free": 244,
+        "InUse": 869,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 57,
-        "Name": "Haag, McDermott and Reichert",
-        "Description": "Customer-focused homogeneous infrastructure",
-        "PrerequisiteModuleName": "Ondricka-Satterfield",
-        "SortOrder": 64,
-        "ExtraFlags": 615,
+        "Assigned": true,
+        "ModuleLicenseId": 340,
+        "Name": "Marks-Welch",
+        "Description": "Operative web-enabled Graphic Interface",
+        "PrerequisiteModuleName": "Hettinger-Reichert",
+        "SortOrder": 371,
+        "ExtraFlags": 791,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 961
+            "FieldType": "System.Int32",
+            "FieldLength": 725
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 108,
-        "Tooltip": "fuga",
+        "Unrestricted": true,
+        "Total": 144,
+        "Tooltip": "molestiae",
         "CanAssign": false,
-        "Free": 614,
-        "InUse": 673,
+        "Free": 483,
+        "InUse": 855,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 434,
-        "Name": "Kerluke-Marquardt",
-        "Description": "Synergized 6th generation paradigm",
-        "PrerequisiteModuleName": "Stamm-Blanda",
-        "SortOrder": 514,
-        "ExtraFlags": 341,
+        "Assigned": false,
+        "ModuleLicenseId": 363,
+        "Name": "Kassulke-Stracke",
+        "Description": "Universal empowering definition",
+        "PrerequisiteModuleName": "Wisoky, Kertzmann and Erdman",
+        "SortOrder": 437,
+        "ExtraFlags": 145,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 723
+            "FieldLength": 296
           }
         }
       }
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 379
+        "FieldLength": 960
       }
     }
   }

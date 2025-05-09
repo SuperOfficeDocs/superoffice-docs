@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 546,
-  "Name": "Brown-Gleichner",
-  "Tooltip": "quos",
-  "Deleted": true,
-  "Rank": 185,
+  "Id": 517,
+  "Name": "Spencer LLC",
+  "Tooltip": "illo",
+  "Deleted": false,
+  "Rank": 129,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "accusamus",
-  "InUseByUserDefinedFields": true
+  "ListType": "quisquam",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 270,
-  "Name": "Schroeder Inc and Sons",
-  "Tooltip": "dolor",
-  "Deleted": true,
-  "Rank": 382,
+  "Id": 505,
+  "Name": "Purdy, Haley and Kautzer",
+  "Tooltip": "autem",
+  "Deleted": false,
+  "Rank": 685,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "omnis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 430
+      "FieldType": "System.Int32",
+      "FieldLength": 371
     }
   }
 }

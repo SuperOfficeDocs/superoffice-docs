@@ -71,12 +71,12 @@ OK
 POST /api/v1/Agents/Sale/GetNextSaleStage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 128,
-  "IncludeCurrentStage": false
+  "SaleId": 227,
+  "IncludeCurrentStage": true
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-816
+117
 ```

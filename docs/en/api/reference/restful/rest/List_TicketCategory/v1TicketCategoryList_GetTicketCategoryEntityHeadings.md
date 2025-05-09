@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 472,
-    "Name": "Hayes, Durgan and Borer",
-    "Tooltip": "explicabo",
-    "Deleted": false,
-    "Rank": 735,
-    "UdListDefinitionId": 797,
+    "HeadingId": 904,
+    "Name": "Smith, Mertz and Hane",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 136,
+    "UdListDefinitionId": 248,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 53
+        "FieldType": "System.Int32",
+        "FieldLength": 506
       }
     }
   }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 562,
-  "Name": "Koch, Lueilwitz and Bailey",
-  "Tooltip": "qui",
+  "HeadingId": 539,
+  "Name": "Feil-Streich",
+  "Tooltip": "unde",
   "Deleted": true,
-  "Rank": 254,
-  "UdListDefinitionId": 774
+  "Rank": 42,
+  "UdListDefinitionId": 563
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 16,
-  "Name": "Beahan Inc and Sons",
-  "Tooltip": "molestias",
-  "Deleted": false,
-  "Rank": 780,
-  "UdListDefinitionId": 799,
+  "HeadingId": 599,
+  "Name": "Herzog LLC",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 427,
+  "UdListDefinitionId": 256,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 985
+      "FieldType": "System.Int32",
+      "FieldLength": 356
     }
   }
 }

@@ -81,7 +81,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternative": 948
+  "QuoteAlternative": 248
 }
 ```
 
@@ -92,15 +92,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLinesHasChanged": true,
+  "QuoteLinesHasChanged": false,
   "ChangedQuoteAlternative": null,
   "Changes": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 5
+      "FieldType": "System.String",
+      "FieldLength": 817
     }
   }
 }

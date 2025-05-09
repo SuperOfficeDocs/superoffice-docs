@@ -85,36 +85,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 744,
-    "ParentId": 94,
-    "Name": "Gibson-Gutkowski",
-    "Fullname": "laudantium",
-    "CategoryMaster": 724,
+    "TicketCategoryId": 68,
+    "ParentId": 550,
+    "Name": "Robel-Gutkowski",
+    "Fullname": "modi",
+    "CategoryMaster": 557,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Becker, Murazik and Roberts",
+    "ExternalName": "Wehner LLC",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 776,
-    "ReplyTemplate": 82,
-    "NotificationEmail": "gordon_heaney@larsonfarrell.uk",
+    "AssignmentLag": 954,
+    "ReplyTemplate": 718,
+    "NotificationEmail": "keanu@prohaska.us",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 755,
+    "EffectiveReplyTemplateId": 652,
     "ExtraFields": {
-      "ExtraFields1": "optio",
-      "ExtraFields2": "nobis"
+      "ExtraFields1": "eaque",
+      "ExtraFields2": "molestias"
     },
     "CustomFields": {
-      "CustomFields1": "non",
-      "CustomFields2": "magni"
+      "CustomFields1": "laborum",
+      "CustomFields2": "dolor"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 26
+        "FieldLength": 464
       }
     }
   }

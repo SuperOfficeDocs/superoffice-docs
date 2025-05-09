@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 789,
-  "Name": "Corkery Group",
-  "CurrencyId": 129,
-  "EnglishName": "Dach Inc and Sons",
+  "CountryId": 566,
+  "Name": "Predovic-Denesik",
+  "CurrencyId": 669,
+  "EnglishName": "Goldner-Kovacek",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Distributed directional time-frame",
-  "OrgNrText": "923458",
-  "InterAreaPrefix": "est",
-  "DialInPrefix": "dolorem",
-  "ZipPrefix": "aspernatur",
-  "DomainName": "Considine Inc and Sons",
-  "AddressLayoutId": 183,
-  "DomesticAddressLayoutId": 334,
-  "ForeignAddressLayoutId": 66,
-  "Rank": 66,
-  "Tooltip": "reprehenderit",
+  "ImageDescription": "Pre-emptive encompassing moratorium",
+  "OrgNrText": "1580186",
+  "InterAreaPrefix": "asperiores",
+  "DialInPrefix": "consequatur",
+  "ZipPrefix": "blanditiis",
+  "DomainName": "Kertzmann LLC",
+  "AddressLayoutId": 477,
+  "DomesticAddressLayoutId": 102,
+  "ForeignAddressLayoutId": 401,
+  "Rank": 181,
+  "Tooltip": "eligendi",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 883
+      "FieldType": "System.String",
+      "FieldLength": 327
     }
   }
 }

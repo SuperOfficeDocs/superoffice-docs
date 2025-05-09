@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 962
+  "QuoteVersionId": 570
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 250,
-  "ERPQuoteVersionKey": "culpa",
-  "QuoteId": 635,
-  "Description": "Profit-focused hybrid alliance",
-  "Number": "1208139",
+  "QuoteVersionId": 745,
+  "ERPQuoteVersionKey": "perspiciatis",
+  "QuoteId": 410,
+  "Description": "Object-based content-based initiative",
+  "Number": "1323093",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 651,
-  "SentDate": "2016-09-22T13:14:00.9546603+02:00",
-  "FollowupId": 982,
-  "ExpirationDate": "2000-05-28T13:14:00.9546603+02:00",
-  "DeliveryCountryId": 549,
+  "LikelyQuoteAlternativeId": 487,
+  "SentDate": "1999-06-09T16:32:39.680262+02:00",
+  "FollowupId": 154,
+  "ExpirationDate": "2009-12-05T16:32:39.680262+01:00",
+  "DeliveryCountryId": 321,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 367,
+  "InvoiceCountryId": 269,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "voluptatem",
-  "ERPPaymentTypeKey": "magnam",
-  "ERPDeliveryTermsKey": "qui",
-  "ERPDeliveryTypeKey": "sapiente",
-  "Rank": 20,
-  "ApprovedBy": 180,
-  "ApprovedText": "sint",
-  "ApprovedRegisteredBy": 635,
-  "ApprovedRegisteredDate": "1997-12-12T13:14:00.9546603+01:00",
-  "ExtraField1": "magnam",
-  "ExtraField2": "omnis",
-  "ExtraField3": "qui",
-  "ExtraField4": "et",
-  "ExtraField5": "eum",
-  "LastRecalculated": "2013-02-21T13:14:00.9546603+01:00",
-  "Updated": "2010-08-28T13:14:00.9546603+02:00",
-  "UpdatedAssociateId": 776,
-  "Registered": "2013-08-17T13:14:00.9546603+02:00",
-  "RegisteredAssociateId": 259,
-  "RequestAssociateId": 186,
-  "RequestComment": "qui",
+  "ERPPaymentTermsKey": "non",
+  "ERPPaymentTypeKey": "officia",
+  "ERPDeliveryTermsKey": "consequatur",
+  "ERPDeliveryTypeKey": "eligendi",
+  "Rank": 271,
+  "ApprovedBy": 190,
+  "ApprovedText": "sit",
+  "ApprovedRegisteredBy": 579,
+  "ApprovedRegisteredDate": "2012-11-24T16:32:39.680262+01:00",
+  "ExtraField1": "vel",
+  "ExtraField2": "quas",
+  "ExtraField3": "ea",
+  "ExtraField4": "velit",
+  "ExtraField5": "possimus",
+  "LastRecalculated": "2008-05-27T16:32:39.680262+02:00",
+  "Updated": "2003-05-14T16:32:39.680262+02:00",
+  "UpdatedAssociateId": 29,
+  "Registered": "2004-08-17T16:32:39.680262+02:00",
+  "RegisteredAssociateId": 6,
+  "RequestAssociateId": 162,
+  "RequestComment": "suscipit",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 374,
-      "ERPQuoteAlternativeKey": "omnis",
-      "QuoteVersionId": 286,
-      "Name": "Farrell, Cole and Rutherford",
-      "Description": "Operative systematic utilisation",
+      "QuoteAlternativeId": 501,
+      "ERPQuoteAlternativeKey": "dolorum",
+      "QuoteVersionId": 981,
+      "Name": "Harber, Dietrich and Jenkins",
+      "Description": "Multi-channelled even-keeled adapter",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 10063.274,
-      "ERPDiscountAmount": 27052.688,
-      "DiscountPercent": 2604.354,
-      "DiscountAmount": 29678.98,
+      "ERPDiscountPercent": 28892.345999999998,
+      "ERPDiscountAmount": 9405.134,
+      "DiscountPercent": 7502.7959999999994,
+      "DiscountAmount": 13231.748,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "esse",
-      "VAT": 28162.124,
-      "EarningPercent": 10031.934,
-      "EarningAmount": 27713.962,
-      "SubTotal": 7490.2599999999993,
-      "TotalPrice": 4130.612,
-      "ExtraField1": "saepe",
-      "ExtraField2": "fuga",
-      "ExtraField3": "praesentium",
-      "ExtraField4": "nulla",
-      "ExtraField5": "tempora",
+      "VATInfo": "sed",
+      "VAT": 14939.778,
+      "EarningPercent": 11138.235999999999,
+      "EarningAmount": 228.78199999999998,
+      "SubTotal": 14899.036,
+      "TotalPrice": 26121.89,
+      "ExtraField1": "illo",
+      "ExtraField2": "sit",
+      "ExtraField3": "nemo",
+      "ExtraField4": "eligendi",
+      "ExtraField5": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 979
+          "FieldLength": 940
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 25
+      "FieldType": "System.String",
+      "FieldLength": 895
     }
   }
 }

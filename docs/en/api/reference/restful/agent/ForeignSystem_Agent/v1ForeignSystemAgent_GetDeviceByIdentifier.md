@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Yost Inc and Sons",
-  "DeviceName": "Daugherty Inc and Sons",
-  "DeviceIdentifier": "ut"
+  "ApplicationName": "Bruen Inc and Sons",
+  "DeviceName": "Bergnaum, Green and Wiegand",
+  "DeviceIdentifier": "assumenda"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 857,
-  "Name": "Cartwright Inc and Sons",
-  "CreatedDate": "2009-03-20T13:14:00.5012353+01:00",
-  "UpdatedDate": "2023-05-05T13:14:00.5012353+02:00",
-  "AssociateFullName": "Natalia Halvorson I",
-  "CreatedBy": "dolorem",
-  "UpdatedBy": "vel",
-  "DeviceIdentifier": "impedit",
-  "ForeignAppId": 294,
+  "ForeignDeviceId": 814,
+  "Name": "Quigley, Kassulke and Hilpert",
+  "CreatedDate": "2009-04-12T16:32:39.1645096+02:00",
+  "UpdatedDate": "2021-02-13T16:32:39.1645096+01:00",
+  "AssociateFullName": "Mariam Thiel",
+  "CreatedBy": "corporis",
+  "UpdatedBy": "sit",
+  "DeviceIdentifier": "eos",
+  "ForeignAppId": 800,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 665
+      "FieldType": "System.String",
+      "FieldLength": 247
     }
   }
 }

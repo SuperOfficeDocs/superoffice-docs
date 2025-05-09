@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 880,
-  "TargetDimensionId": 872
+  "Year": 198,
+  "TargetDimensionId": 224
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 389,
+    "TargetAssignmentInfoId": 929,
     "Values": [
-      175,
-      87
+      804,
+      98
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 785,
-    "DimensionListItemDisplayName": "Fay Inc and Sons",
+    "DimensionListItem": 461,
+    "DimensionListItemDisplayName": "Considine, Anderson and Sawayn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 152
+        "FieldLength": 672
       }
     }
   }

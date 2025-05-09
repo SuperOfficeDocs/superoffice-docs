@@ -92,27 +92,27 @@ HTTP/1.1 200 ListEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 414,
-  "Name": "Stokes Group",
-  "Tooltip": "est",
+  "Id": 562,
+  "Name": "Jenkins, Hills and Greenholt",
+  "Tooltip": "ab",
   "Deleted": true,
-  "Rank": 130,
+  "Rank": 293,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "deleniti",
+  "UseGroupsAndHeadings": true,
+  "ListType": "accusantium",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 628
+      "FieldLength": 234
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

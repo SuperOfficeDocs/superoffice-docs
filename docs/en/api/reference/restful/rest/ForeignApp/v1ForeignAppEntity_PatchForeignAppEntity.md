@@ -114,18 +114,18 @@ ForeignAppEntity  updated.
 PATCH /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "sequi",
+    "path": "aspernatur",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sequi",
+    "path": "aspernatur",
     "value": {}
   }
 ]
@@ -138,29 +138,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 211,
-  "Name": "Ernser LLC",
-  "CreatedDate": "2017-06-21T13:14:08.7585151+02:00",
-  "UpdatedDate": "2002-01-14T13:14:08.7585151+01:00",
+  "ForeignAppId": 521,
+  "Name": "Brown Group",
+  "CreatedDate": "2007-12-13T16:32:47.5402031+01:00",
+  "UpdatedDate": "2019-05-15T16:32:47.5402031+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 906,
-      "Name": "Gerhold Inc and Sons",
-      "CreatedDate": "2001-03-11T13:14:08.7585151+01:00",
-      "UpdatedDate": "2012-12-18T13:14:08.7585151+01:00",
-      "AssociateFullName": "Maxine Kavon Morissette IV",
-      "CreatedBy": "voluptatem",
-      "UpdatedBy": "ullam",
-      "DeviceIdentifier": "eius",
-      "ForeignAppId": 488,
+      "ForeignDeviceId": 904,
+      "Name": "Lebsack-Rempel",
+      "CreatedDate": "2010-07-27T16:32:47.5402031+02:00",
+      "UpdatedDate": "2024-05-23T16:32:47.5402031+02:00",
+      "AssociateFullName": "Ollie Aniya Beahan III",
+      "CreatedBy": "commodi",
+      "UpdatedBy": "animi",
+      "DeviceIdentifier": "perferendis",
+      "ForeignAppId": 691,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 880
+          "FieldType": "System.Int32",
+          "FieldLength": 765
         }
       }
     }
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 407
+      "FieldLength": 19
     }
   },
   "_Links": {

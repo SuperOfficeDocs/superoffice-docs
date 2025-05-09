@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 924,
-    "Name": "Blick-Williamson",
-    "ToolTip": "Omnis doloremque ducimus quis quo.",
-    "Deleted": false,
-    "Rank": 683,
-    "Type": "architecto",
-    "ColorBlock": 105,
-    "IconHint": "mollitia",
+    "Id": 405,
+    "Name": "Hintz, Ortiz and Dare",
+    "ToolTip": "Laborum sed maxime pariatur eligendi qui nisi possimus.",
+    "Deleted": true,
+    "Rank": 123,
+    "Type": "non",
+    "ColorBlock": 322,
+    "IconHint": "dolorem",
     "Selected": false,
-    "LastChanged": "2003-11-26T13:14:10.0879174+01:00",
+    "LastChanged": "2013-09-14T16:32:48.9932021+02:00",
     "ChildItems": [
       {
-        "Id": 455,
-        "Name": "Heaney, Thompson and Cummerata",
-        "ToolTip": "Et iusto.",
+        "Id": 82,
+        "Name": "Schmeler-Rohan",
+        "ToolTip": "A voluptatem corporis cumque eos voluptatem iusto.",
         "Deleted": true,
-        "Rank": 503,
-        "Type": "odio",
-        "ColorBlock": 763,
-        "IconHint": "voluptatem",
-        "Selected": true,
-        "LastChanged": "2003-06-04T13:14:10.0879174+02:00",
+        "Rank": 613,
+        "Type": "laborum",
+        "ColorBlock": 783,
+        "IconHint": "assumenda",
+        "Selected": false,
+        "LastChanged": "2022-03-15T16:32:48.9932021+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "debitis",
+        "ExtraInfo": "quia",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Daron Kozey",
+        "FullName": "Luisa Rutherford",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 756
+            "FieldType": "System.Int32",
+            "FieldLength": 675
           }
         }
       }
     ],
-    "ExtraInfo": "quam",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Dr. Shayne Lockman II",
+    "ExtraInfo": "aut",
+    "StyleHint": "velit",
+    "Hidden": false,
+    "FullName": "Thurman Dooley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 837
+        "FieldType": "System.Int32",
+        "FieldLength": 859
       }
     }
   }

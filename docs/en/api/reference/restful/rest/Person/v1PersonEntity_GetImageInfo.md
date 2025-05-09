@@ -73,7 +73,7 @@ OK
 GET /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 12 Oct 2003 13:14:08 G10T
+Last-Modified: Wed, 23 Aug 2000 16:32:47 G8T
 
 {
-  "BlobId": 302,
-  "BlobSize": 607,
-  "Description": "Switchable uniform focus group",
-  "ExtraInfo": "error",
+  "BlobId": 688,
+  "BlobSize": 552,
+  "Description": "Reduced exuding monitoring",
+  "ExtraInfo": "aspernatur",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "ea",
-  "OriginalSize": 17,
-  "CreatedDate": "2001-07-04T13:14:08.8992518+02:00",
-  "UpdatedDate": "2003-10-12T13:14:08.8992518+02:00",
+  "MimeType": "molestiae",
+  "OriginalSize": 637,
+  "CreatedDate": "2000-01-21T16:32:47.6807968+01:00",
+  "UpdatedDate": "2000-08-23T16:32:47.6807968+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "minus",
+  "ConceptualType": "nostrum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 411
+      "FieldType": "System.String",
+      "FieldLength": 266
     }
   }
 }

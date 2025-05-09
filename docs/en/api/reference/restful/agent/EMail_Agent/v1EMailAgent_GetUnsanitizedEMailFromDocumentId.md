@@ -107,7 +107,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 628
+  "DocumentId": 69
 }
 ```
 
@@ -120,97 +120,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 288,
-      "ContactName": "Ferry-Purdy",
-      "PersonId": 632,
-      "PersonName": "Toy Group",
-      "AssociateId": 973,
-      "Address": "molestiae",
-      "EmailId": 556,
+      "ContactId": 422,
+      "ContactName": "Bins, Leffler and Russel",
+      "PersonId": 819,
+      "PersonName": "Bogisich, Reinger and Glover",
+      "AssociateId": 890,
+      "Address": "ratione",
+      "EmailId": 78,
       "DuplicatePersonIds": [
-        529,
-        604
+        101,
+        333
       ],
-      "Name": "Daugherty, Haley and Satterfield",
+      "Name": "Batz, Morar and Herman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 65
+          "FieldLength": 198
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 289,
-      "ContactName": "Mueller-VonRueden",
-      "PersonId": 881,
-      "PersonName": "Powlowski, Reilly and Kunze",
-      "AssociateId": 114,
-      "Address": "beatae",
-      "EmailId": 472,
+      "ContactId": 520,
+      "ContactName": "Feil-Rowe",
+      "PersonId": 770,
+      "PersonName": "Wuckert Inc and Sons",
+      "AssociateId": 843,
+      "Address": "et",
+      "EmailId": 447,
       "DuplicatePersonIds": [
-        583,
-        809
+        723,
+        259
       ],
-      "Name": "Keebler, Kiehn and Gaylord",
+      "Name": "Stracke-Howell",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 332
+          "FieldLength": 200
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 672,
-      "ContactName": "Boyer-Stamm",
-      "PersonId": 903,
-      "PersonName": "Tillman, Jacobi and Mitchell",
-      "AssociateId": 351,
-      "Address": "error",
-      "EmailId": 645,
+      "ContactId": 328,
+      "ContactName": "Hackett, Hand and Keeling",
+      "PersonId": 219,
+      "PersonName": "Graham, Toy and Hills",
+      "AssociateId": 366,
+      "Address": "velit",
+      "EmailId": 851,
       "DuplicatePersonIds": [
-        414,
-        615
+        860,
+        661
       ],
-      "Name": "Kilback-Lynch",
+      "Name": "Boehm-Kozey",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 22
+          "FieldLength": 442
         }
       }
     }
   ],
-  "Subject": "maiores",
-  "HTMLBody": "corrupti",
+  "Subject": "debitis",
+  "HTMLBody": "dolor",
   "From": null,
-  "Sent": "2013-11-04T13:14:00.3762277+01:00",
-  "Size": 533,
+  "Sent": "2000-11-03T16:32:39.0395385+01:00",
+  "Size": 919,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "sunt",
-  "PlainBody": "magnam",
+  "MessageID": "aut",
+  "PlainBody": "distinctio",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 403,
+  "ServerId": 950,
   "Attachments": [
     {
-      "Description": "Reverse-engineered needs-based algorithm",
-      "Filename": "alias",
-      "Size": 199,
-      "Type": "aut",
-      "Encoding": "ut",
-      "Id": "aut",
-      "Disposition": "et",
+      "Description": "Multi-layered incremental info-mediaries",
+      "Filename": "blanditiis",
+      "Size": 878,
+      "Type": "veritatis",
+      "Encoding": "nam",
+      "Id": "vitae",
+      "Disposition": "quisquam",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -218,50 +218,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 456
+          "FieldLength": 404
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Oberbrunner-Waters",
+      "Name": "Becker-Wyman",
       "Values": [
-        "dolorem",
-        "inventore"
+        "corporis",
+        "pariatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 840
+          "FieldType": "System.Int32",
+          "FieldLength": 596
         }
       }
     },
     {
-      "Name": "Oberbrunner-Waters",
+      "Name": "Becker-Wyman",
       "Values": [
-        "dolorem",
-        "inventore"
+        "corporis",
+        "pariatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 840
+          "FieldType": "System.Int32",
+          "FieldLength": 596
         }
       }
     }
   ],
-  "FolderName": "Dickens, Effertz and Cassin",
-  "EmailItemId": 391,
-  "AccountId": 73,
-  "ReceivedAt": "2001-05-11T13:14:00.3762277+02:00",
+  "FolderName": "Howell Group",
+  "EmailItemId": 506,
+  "AccountId": 566,
+  "ReceivedAt": "2018-07-13T16:32:39.0395385+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2009-01-06T13:14:00.3762277+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2019-02-12T16:32:39.0395385+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -269,7 +269,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 630
+      "FieldLength": 715
     }
   }
 }

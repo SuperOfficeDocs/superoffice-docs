@@ -26,7 +26,7 @@ Gets a AttachmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetAttachmentEntity?attachmentEntityId=865
+POST /api/v1/Agents/Ticket/GetAttachmentEntity?attachmentEntityId=516
 POST /api/v1/Agents/Ticket/GetAttachmentEntity?$select=name,department,category/id
 ```
 
@@ -84,20 +84,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 614,
-  "Name": "Denesik, Gutkowski and Boyer",
-  "ContentType": "magnam",
-  "AttSize": 824,
+  "AttachmentId": 837,
+  "Name": "Bogisich Inc and Sons",
+  "ContentType": "earum",
+  "AttSize": 339,
   "InlineImage": false,
-  "ContentId": "quo",
-  "AuthKey": "aliquam",
+  "ContentId": "nobis",
+  "AuthKey": "fuga",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 479
+      "FieldLength": 770
     }
   }
 }

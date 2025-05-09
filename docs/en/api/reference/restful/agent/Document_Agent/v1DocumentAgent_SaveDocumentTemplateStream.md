@@ -82,10 +82,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 265,
+  "DocumentTemplateId": 733,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "saepe",
-  "PluginId": 660
+  "LanguageCode": "necessitatibus",
+  "PluginId": 217
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kilback Group",
-  "Description": "Extended 24/7 algorithm",
-  "ExternalReference": "distinctio",
-  "MimeType": "enim",
-  "PluginId": 683
+  "Name": "Schaden-Mayer",
+  "Description": "Team-oriented 6th generation open system",
+  "ExternalReference": "ratione",
+  "MimeType": "doloribus",
+  "PluginId": 521
 }
 ```

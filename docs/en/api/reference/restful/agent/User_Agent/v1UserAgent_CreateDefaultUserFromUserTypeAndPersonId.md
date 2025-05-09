@@ -103,12 +103,12 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "PersonId": 297
+  "PersonId": 703
 }
 ```
 
@@ -119,14 +119,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 110,
-  "Name": "Heathcote Inc and Sons",
-  "Rank": 138,
-  "Tooltip": "ab",
+  "AssociateId": 156,
+  "Name": "Reichel Group",
+  "Rank": 462,
+  "Tooltip": "dignissimos",
   "LicenseOwners": [
     {
-      "Name": "Lang-Kuhic",
-      "Description": "Secured mission-critical Graphic Interface",
+      "Name": "Mraz-Zulauf",
+      "Description": "Adaptive context-sensitive array",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -140,13 +140,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 893
+          "FieldLength": 181
         }
       }
     },
     {
-      "Name": "Lang-Kuhic",
-      "Description": "Secured mission-critical Graphic Interface",
+      "Name": "Mraz-Zulauf",
+      "Description": "Adaptive context-sensitive array",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -160,7 +160,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 893
+          "FieldLength": 181
         }
       }
     }
@@ -169,110 +169,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "fugit",
-      "Tooltip": "eaque",
-      "Id": 726,
-      "Rank": 544,
+      "Value": "nisi",
+      "Tooltip": "ea",
+      "Id": 127,
+      "Rank": 850,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 551
+          "FieldLength": 389
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "1998-09-09T13:14:01.738198+02:00",
-  "Lastlogout": "2017-03-21T13:14:01.738198+01:00",
-  "EjUserId": 859,
-  "RequestSignature": "ut",
+  "Deleted": false,
+  "Lastlogin": "2008-07-30T16:32:40.4925766+02:00",
+  "Lastlogout": "2007-09-17T16:32:40.4925766+02:00",
+  "EjUserId": 370,
+  "RequestSignature": "quia",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "vero",
-      "DisplayValue": "assumenda",
+      "Value": "aut",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 358
+          "FieldLength": 651
         }
       }
     },
     {
       "Type": null,
-      "Value": "vero",
-      "DisplayValue": "assumenda",
+      "Value": "aut",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 358
+          "FieldLength": 651
         }
       }
     }
   ],
-  "UserName": "Bartell, Casper and Yost",
+  "UserName": "Wehner, Donnelly and Gulgowski",
   "TicketCategories": [
     {
-      "Id": 438,
-      "Name": "Leannon Group",
-      "ToolTip": "Eos quia reiciendis.",
+      "Id": 708,
+      "Name": "Pagac, Bradtke and Haag",
+      "ToolTip": "Molestias ut.",
       "Deleted": false,
-      "Rank": 583,
-      "Type": "ea",
+      "Rank": 454,
+      "Type": "totam",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "et",
-      "ColorBlock": 331,
-      "ExtraInfo": "iure",
-      "StyleHint": "aut",
-      "FullName": "Milford Kuhic",
+      "IconHint": "aliquam",
+      "ColorBlock": 166,
+      "ExtraInfo": "architecto",
+      "StyleHint": "iure",
+      "FullName": "Pierce Hodkiewicz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 212
+          "FieldLength": 138
         }
       }
     }
   ],
-  "NickName": "Dickens Group",
-  "WaitingForApproval": false,
+  "NickName": "Toy-Metz",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "dolorem",
-    "ExtraFields2": "labore"
+    "ExtraFields1": "assumenda",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "quae"
+    "CustomFields1": "qui",
+    "CustomFields2": "id"
   },
   "PostSaveCommands": [
     {
-      "Name": "Treutel, Bins and Nitzsche",
-      "DisplayName": "Parker-Ziemann",
-      "Description": "Public-key optimal database",
-      "ToolTip": "Itaque adipisci blanditiis.",
+      "Name": "Gleichner Inc and Sons",
+      "DisplayName": "Schowalter, Goldner and Terry",
+      "Description": "Ameliorated maximized interface",
+      "ToolTip": "Facilis magni sit sint similique nihil accusantium.",
       "Actions": "Implicit",
-      "ActionData": "eius",
+      "ActionData": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 477
+          "FieldLength": 562
         }
       }
     }
@@ -282,7 +282,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 106
+      "FieldLength": 901
     }
   }
 }

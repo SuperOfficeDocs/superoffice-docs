@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 215,
-  "Name": "Tromp LLC",
-  "Tooltip": "sit",
+  "Id": 884,
+  "Name": "Wunsch, Marquardt and Conroy",
+  "Tooltip": "inventore",
   "Deleted": false,
-  "UdListDefinitionId": 655,
-  "Rank": 453,
+  "UdListDefinitionId": 563,
+  "Rank": 1002,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 943
+      "FieldType": "System.Int32",
+      "FieldLength": 83
     }
   }
 }

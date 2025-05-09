@@ -85,7 +85,7 @@ OK
 GET /api/v1/User/{userName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,14 +95,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 913,
-  "Name": "Macejkovic LLC",
-  "Rank": 776,
-  "Tooltip": "ut",
+  "AssociateId": 97,
+  "Name": "Homenick-Kunze",
+  "Rank": 62,
+  "Tooltip": "et",
   "LicenseOwners": [
     {
-      "Name": "Collins-Collins",
-      "Description": "Exclusive radical customer loyalty",
+      "Name": "Grady-Fadel",
+      "Description": "Open-source mission-critical hierarchy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -116,13 +116,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 878
+          "FieldLength": 63
         }
       }
     },
     {
-      "Name": "Collins-Collins",
-      "Description": "Exclusive radical customer loyalty",
+      "Name": "Grady-Fadel",
+      "Description": "Open-source mission-critical hierarchy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 878
+          "FieldLength": 63
         }
       }
     }
@@ -145,110 +145,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "atque",
-      "Tooltip": "occaecati",
-      "Id": 361,
-      "Rank": 43,
+      "Value": "nisi",
+      "Tooltip": "velit",
+      "Id": 528,
+      "Rank": 912,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 138
+          "FieldType": "System.String",
+          "FieldLength": 769
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2006-07-27T13:14:09.5248817+02:00",
-  "Lastlogout": "1998-03-05T13:14:09.5248817+01:00",
-  "EjUserId": 298,
-  "RequestSignature": "culpa",
+  "Lastlogin": "1998-06-18T16:32:48.4308337+02:00",
+  "Lastlogout": "2019-01-04T16:32:48.4308337+01:00",
+  "EjUserId": 557,
+  "RequestSignature": "quam",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "quibusdam",
-      "DisplayValue": "sunt",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 876
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "quibusdam",
-      "DisplayValue": "sunt",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 876
-        }
-      }
-    }
-  ],
-  "UserName": "Kuphal, Bode and Rosenbaum",
-  "TicketCategories": [
-    {
-      "Id": 69,
-      "Name": "Ebert Group",
-      "ToolTip": "Ab omnis ut dolor ut occaecati dolores.",
-      "Deleted": false,
-      "Rank": 516,
-      "Type": "enim",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "cumque",
-      "ColorBlock": 321,
-      "ExtraInfo": "ut",
-      "StyleHint": "veritatis",
-      "FullName": "Miss Mark Toy Jr.",
+      "Value": "dolore",
+      "DisplayValue": "nostrum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 519
+          "FieldLength": 435
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "dolore",
+      "DisplayValue": "nostrum",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 435
         }
       }
     }
   ],
-  "NickName": "Fahey-Gaylord",
-  "WaitingForApproval": true,
+  "UserName": "Koelpin Group",
+  "TicketCategories": [
+    {
+      "Id": 330,
+      "Name": "Jacobson-Bartoletti",
+      "ToolTip": "Consequuntur esse dolore tempore ut nam cumque cum.",
+      "Deleted": false,
+      "Rank": 56,
+      "Type": "atque",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "aliquid",
+      "ColorBlock": 662,
+      "ExtraInfo": "eos",
+      "StyleHint": "voluptas",
+      "FullName": "Ms. Daniela Wyman III",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 448
+        }
+      }
+    }
+  ],
+  "NickName": "Kub-Hayes",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "eos",
-    "ExtraFields2": "veritatis"
+    "ExtraFields1": "perspiciatis",
+    "ExtraFields2": "totam"
   },
   "CustomFields": {
-    "CustomFields1": "laborum",
-    "CustomFields2": "nihil"
+    "CustomFields1": "occaecati",
+    "CustomFields2": "magnam"
   },
   "PostSaveCommands": [
     {
-      "Name": "Hahn-Barton",
-      "DisplayName": "Jacobson LLC",
-      "Description": "Vision-oriented reciprocal portal",
-      "ToolTip": "Consequatur et.",
+      "Name": "Hodkiewicz Group",
+      "DisplayName": "Heller Group",
+      "Description": "Compatible coherent intranet",
+      "ToolTip": "Quaerat error sed placeat saepe debitis aut corporis.",
       "Actions": "Implicit",
-      "ActionData": "neque",
+      "ActionData": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 690
+          "FieldLength": 200
         }
       }
     }
@@ -257,8 +257,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 929
+      "FieldType": "System.Int32",
+      "FieldLength": 800
     }
   }
 }

@@ -76,16 +76,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "quia",
+  "RawValue": "omnis",
   "Specification": null,
-  "DisplayValue": "in",
-  "DisplayTooltip": "dolorum",
+  "DisplayValue": "repudiandae",
+  "DisplayTooltip": "rerum",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 443,
-  "PrefDescId": 505,
-  "TableName": "Rempel, Hayes and Hagenes",
-  "UserPreferenceId": 391
+  "TargetId": 733,
+  "PrefDescId": 652,
+  "TableName": "Stoltenberg-Russel",
+  "UserPreferenceId": 44
 }
 ```
 

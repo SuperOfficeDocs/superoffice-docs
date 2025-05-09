@@ -97,17 +97,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "architecto",
-  "Tooltip": "unde",
-  "Id": 282,
-  "Rank": 623,
-  "Deleted": true,
+  "Value": "commodi",
+  "Tooltip": "est",
+  "Id": 251,
+  "Rank": 271,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 373
+      "FieldType": "System.String",
+      "FieldLength": 719
     }
   }
 }

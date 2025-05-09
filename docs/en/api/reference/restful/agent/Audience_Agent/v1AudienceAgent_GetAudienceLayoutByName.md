@@ -83,7 +83,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Kassulke LLC"
+  "LayoutName": "Bashirian-Hyatt"
 }
 ```
 
@@ -94,11 +94,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 280,
-  "InstanceLayout": "eos",
-  "InstanceName": "Wolff Group",
-  "CreatedDate": "2011-08-04T13:13:59.5158194+02:00",
-  "UpdatedDate": "2001-01-10T13:13:59.5158194+01:00",
+  "AudienceLayoutId": 465,
+  "InstanceLayout": "possimus",
+  "InstanceName": "Botsford-Nolan",
+  "CreatedDate": "2001-04-19T16:32:38.1959817+02:00",
+  "UpdatedDate": "2002-05-16T16:32:38.1959817+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 443
+      "FieldLength": 26
     }
   }
 }

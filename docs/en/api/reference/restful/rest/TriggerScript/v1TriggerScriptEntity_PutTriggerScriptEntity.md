@@ -99,20 +99,20 @@ TriggerScriptEntity updated.
 PUT /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 210,
-  "Name": "Herzog, Beatty and Dietrich",
+  "ScreenChooserId": 668,
+  "Name": "Kautzer-Fisher",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "aspernatur",
-  "Source": "consequatur",
-  "Registered": "2022-08-21T13:14:09.3685305+02:00",
-  "RegisteredAssociateId": 80,
-  "Updated": "1998-06-16T13:14:09.3685305+02:00",
-  "UpdatedAssociateId": 357
+  "Enabled": false,
+  "UniqueIdentifier": "non",
+  "Source": "et",
+  "Registered": "2022-04-21T16:32:48.2745849+02:00",
+  "RegisteredAssociateId": 450,
+  "Updated": "1999-06-03T16:32:48.2745849+02:00",
+  "UpdatedAssociateId": 498
 }
 ```
 
@@ -123,22 +123,22 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 564,
-  "Name": "Koepp Inc and Sons",
+  "ScreenChooserId": 143,
+  "Name": "Nolan-Nikolaus",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "ut",
-  "Source": "mollitia",
-  "Registered": "2009-07-30T13:14:09.3685305+02:00",
-  "RegisteredAssociateId": 40,
-  "Updated": "2003-12-09T13:14:09.3685305+01:00",
-  "UpdatedAssociateId": 521,
+  "UniqueIdentifier": "corrupti",
+  "Source": "dolorem",
+  "Registered": "2001-05-03T16:32:48.2745849+02:00",
+  "RegisteredAssociateId": 328,
+  "Updated": "2002-04-24T16:32:48.2745849+02:00",
+  "UpdatedAssociateId": 99,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 679
+      "FieldLength": 420
     }
   },
   "_Links": {

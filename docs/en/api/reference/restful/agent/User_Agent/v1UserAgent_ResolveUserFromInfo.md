@@ -84,19 +84,19 @@ OK
 POST /api/v1/Agents/User/ResolveUserFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 506,
-  "PersonName": "Kris LLC",
+  "ContactId": 733,
+  "PersonName": "Hessel-Ebert",
   "PhoneNumbers": [
-    "1150713",
-    "1288244"
+    "1172179",
+    "1045276"
   ],
   "Emails": [
-    "maida@mccullough.name",
-    "domingo_pollich@simonis.name"
+    "randy.towne@wolfstokes.uk",
+    "jeanie.gorczany@sauer.uk"
   ],
   "UserType": "AnonymousAssociate",
   "Credential": null
@@ -111,13 +111,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "User": null,
-  "PersonCreated": false,
+  "PersonCreated": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 476
+      "FieldLength": 179
     }
   }
 }

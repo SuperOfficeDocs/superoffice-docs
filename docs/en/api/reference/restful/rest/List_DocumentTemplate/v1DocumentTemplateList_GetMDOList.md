@@ -27,7 +27,7 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
-GET /api/v1/List/DocumentTemplate/MDOItems?query=sit
+GET /api/v1/List/DocumentTemplate/MDOItems?query=optio
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DocumentTemplate/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 335,
-    "Name": "Rutherford-Thiel",
-    "ToolTip": "Id eos eveniet et ullam adipisci quas.",
-    "Deleted": false,
-    "Rank": 457,
-    "Type": "maxime",
+    "Id": 998,
+    "Name": "Schmitt-Kub",
+    "ToolTip": "Quia vel.",
+    "Deleted": true,
+    "Rank": 155,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 725,
-        "Name": "Ryan LLC",
-        "ToolTip": "Veniam a voluptatem illo odio molestiae nihil.",
+        "Id": 762,
+        "Name": "Kshlerin, D'Amore and Ratke",
+        "ToolTip": "Dolorem praesentium.",
         "Deleted": false,
-        "Rank": 314,
-        "Type": "distinctio",
+        "Rank": 842,
+        "Type": "blanditiis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quisquam",
-        "ColorBlock": 210,
-        "ExtraInfo": "ea",
-        "StyleHint": "facilis",
-        "FullName": "Jorge Becker",
+        "IconHint": "nemo",
+        "ColorBlock": 991,
+        "ExtraInfo": "animi",
+        "StyleHint": "ducimus",
+        "FullName": "Shaylee Lockman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 23
+            "FieldLength": 137
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 836,
-    "ExtraInfo": "sit",
-    "StyleHint": "ad",
-    "FullName": "Maximilian Jast",
+    "IconHint": "fugiat",
+    "ColorBlock": 637,
+    "ExtraInfo": "unde",
+    "StyleHint": "doloremque",
+    "FullName": "Ernest Nicolas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 427
+        "FieldType": "System.String",
+        "FieldLength": 623
       }
     }
   }

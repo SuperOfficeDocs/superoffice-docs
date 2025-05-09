@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 935,
-  "Name": "Corwin, Hodkiewicz and Goodwin",
-  "ContentType": "atque",
-  "AttSize": 901,
+  "AttachmentId": 540,
+  "Name": "Leuschke Inc and Sons",
+  "ContentType": "dolores",
+  "AttSize": 890,
   "InlineImage": false,
-  "ContentId": "eos",
-  "AuthKey": "tempore",
+  "ContentId": "natus",
+  "AuthKey": "repudiandae",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 371
+      "FieldType": "System.Int32",
+      "FieldLength": 673
     }
   }
 }

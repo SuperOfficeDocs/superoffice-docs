@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Sentry/GetTableRightByOwnership
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Wiza-Kling",
-  "ContactGroupId": 898,
-  "ContactAssociateId": 455
+  "TableName": "Cassin LLC",
+  "ContactGroupId": 911,
+  "ContactAssociateId": 527
 }
 ```
 

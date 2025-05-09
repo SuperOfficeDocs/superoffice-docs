@@ -26,7 +26,7 @@ Gets a AppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=51
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=858
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -126,7 +126,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -140,121 +140,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2012-06-29T13:13:59.2500998+02:00",
-  "AppointmentId": 358,
-  "Description": "Re-contextualized explicit forecast",
-  "Title": "a",
-  "Agenda": "sunt",
-  "InternalNotes": "nesciunt",
-  "StartDate": "2014-02-18T13:13:59.2500998+01:00",
-  "EndDate": "2001-05-28T13:13:59.2500998+02:00",
+  "CreatedDate": "1999-08-24T16:32:37.8835527+02:00",
+  "AppointmentId": 873,
+  "Description": "Exclusive fault-tolerant architecture",
+  "Title": "provident",
+  "Agenda": "sed",
+  "InternalNotes": "qui",
+  "StartDate": "2009-06-26T16:32:37.8835527+02:00",
+  "EndDate": "2008-02-01T16:32:37.8835527+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 174,
+  "MotherId": 792,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2006-08-06T13:13:59.2500998+02:00",
+  "UpdatedDate": "2019-12-29T16:32:37.8835527+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 760,
+  "ActiveLinks": 288,
   "Links": [
     {
-      "EntityName": "Simonis, Boyer and Bednar",
-      "Id": 750,
-      "Description": "Robust heuristic challenge",
-      "ExtraInfo": "rerum",
-      "LinkId": 922,
+      "EntityName": "Watsica, Padberg and Tremblay",
+      "Id": 541,
+      "Description": "Polarised composite hardware",
+      "ExtraInfo": "doloremque",
+      "LinkId": 519,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 331
+          "FieldLength": 177
         }
       }
     }
   ],
-  "AlarmLeadTime": "enim",
-  "HasAlarm": true,
-  "ColorIndex": 589,
+  "AlarmLeadTime": "labore",
+  "HasAlarm": false,
+  "ColorIndex": 84,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "neque",
-  "LeadTime": "quaerat",
-  "Location": "illo",
-  "RejectCounter": 639,
+  "LagTime": "a",
+  "LeadTime": "magni",
+  "Location": "doloremque",
+  "RejectCounter": 677,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 498,
-      "PersonId": 730,
-      "ContactId": 554,
-      "EmailId": 887,
-      "SendEmail": true,
+      "AssociateId": 650,
+      "PersonId": 859,
+      "ContactId": 880,
+      "EmailId": 932,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "eleanore.batz@pfannerstillprosacco.uk",
-      "Description": "Expanded radical concept"
+      "EmailAddress": "tania@dibbert.name",
+      "Description": "Realigned 3rd generation algorithm"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2022-03-06T13:13:59.2500998+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2007-06-11T16:32:37.8835527+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 511,
+  "PreferredTZLocation": 25,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 741,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 313,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "necessitatibus",
+  "CentralserviceVideomeetId": "nemo",
   "UserDefinedFields": {
-    "SuperOffice:1": "165104088",
-    "SuperOffice:2": "10607701"
+    "SuperOffice:1": "975708698",
+    "SuperOffice:2": "Prof. Jewel Rohan"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "dolore"
+    "ExtraFields1": "occaecati",
+    "ExtraFields2": "alias"
   },
   "CustomFields": {
-    "CustomFields1": "laudantium",
-    "CustomFields2": "a"
+    "CustomFields1": "adipisci",
+    "CustomFields2": "id"
   },
-  "PublishEventDate": "2005-11-29T13:13:59.2500998+01:00",
-  "PublishTo": "2003-04-20T13:13:59.2500998+02:00",
-  "PublishFrom": "1999-03-11T13:13:59.2500998+01:00",
+  "PublishEventDate": "2001-12-31T16:32:37.8835527+01:00",
+  "PublishTo": "2024-02-10T16:32:37.8835527+01:00",
+  "PublishFrom": "2006-09-22T16:32:37.8835527+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 201,
+      "VisibleId": 906,
       "Visibility": "All",
-      "DisplayValue": "explicabo",
+      "DisplayValue": "sapiente",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 528
+          "FieldLength": 494
         }
       }
     },
     {
-      "VisibleId": 201,
+      "VisibleId": 906,
       "Visibility": "All",
-      "DisplayValue": "explicabo",
+      "DisplayValue": "sapiente",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 528
+          "FieldLength": 494
         }
       }
     }
@@ -264,7 +264,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 169
+      "FieldLength": 548
     }
   }
 }

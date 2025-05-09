@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 245,
-    "Name": "Shields LLC",
+    "TicketStatusId": 420,
+    "Name": "Pouros, Bartell and Emmerich",
     "Status": "Active",
     "TimeCounter": "Externally",
-    "NoEmailReopen": false,
-    "IsDefault": true,
-    "UsedInQueue": false,
+    "NoEmailReopen": true,
+    "IsDefault": false,
+    "UsedInQueue": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 327
+        "FieldLength": 459
       }
     }
   }

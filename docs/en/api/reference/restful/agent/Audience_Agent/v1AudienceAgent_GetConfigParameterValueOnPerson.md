@@ -69,12 +69,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameterValueOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Lockman-Hansen",
-  "PersonId": 457
+  "ParameterName": "Rohan-Mitchell",
+  "PersonId": 323
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"molestiae"
+"quisquam"
 ```

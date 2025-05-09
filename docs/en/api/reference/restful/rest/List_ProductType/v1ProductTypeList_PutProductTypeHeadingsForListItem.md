@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 85,
-    "Name": "Hintz Group",
-    "ToolTip": "Ut vel recusandae.",
+    "Id": 703,
+    "Name": "Nienow-Heaney",
+    "ToolTip": "Tempore vel fugit quasi praesentium.",
     "Deleted": false,
-    "Rank": 642,
-    "Type": "quos",
-    "ColorBlock": 64,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2018-11-10T13:14:09.931658+01:00",
+    "Rank": 666,
+    "Type": "soluta",
+    "ColorBlock": 687,
+    "IconHint": "recusandae",
+    "Selected": true,
+    "LastChanged": "2010-11-11T16:32:48.8213663+01:00",
     "ChildItems": [
       {
-        "Id": 315,
-        "Name": "Schiller, Abshire and Aufderhar",
-        "ToolTip": "Nihil impedit quisquam rerum officia itaque voluptas maiores.",
-        "Deleted": false,
-        "Rank": 514,
-        "Type": "minus",
-        "ColorBlock": 618,
-        "IconHint": "dicta",
+        "Id": 425,
+        "Name": "Aufderhar-Dare",
+        "ToolTip": "Laboriosam est laudantium.",
+        "Deleted": true,
+        "Rank": 334,
+        "Type": "eligendi",
+        "ColorBlock": 156,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2000-01-04T13:14:09.931658+01:00",
+        "LastChanged": "2021-09-01T16:32:48.8213663+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "architecto",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Maxine Garth Kunze Jr."
+        "ExtraInfo": "consequatur",
+        "StyleHint": "corporis",
+        "Hidden": false,
+        "FullName": "Raleigh Schultz"
       }
     ],
-    "ExtraInfo": "labore",
-    "StyleHint": "magnam",
+    "ExtraInfo": "non",
+    "StyleHint": "ipsum",
     "Hidden": false,
-    "FullName": "Bella Will"
+    "FullName": "Lydia Leannon II"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 456,
-    "Name": "Dare, Roberts and Schumm",
-    "ToolTip": "Omnis suscipit facere eos eos commodi ipsam similique.",
+    "Id": 506,
+    "Name": "Stoltenberg-McLaughlin",
+    "ToolTip": "Incidunt eius voluptatibus qui minus optio perferendis ut.",
     "Deleted": false,
-    "Rank": 789,
-    "Type": "et",
-    "ColorBlock": 144,
-    "IconHint": "ipsum",
-    "Selected": true,
-    "LastChanged": "1998-12-27T13:14:09.931658+01:00",
+    "Rank": 984,
+    "Type": "esse",
+    "ColorBlock": 247,
+    "IconHint": "quod",
+    "Selected": false,
+    "LastChanged": "2007-09-14T16:32:48.8213663+02:00",
     "ChildItems": [
       {
-        "Id": 550,
-        "Name": "Streich Group",
-        "ToolTip": "Inventore nobis quisquam quia.",
-        "Deleted": false,
-        "Rank": 386,
-        "Type": "quam",
-        "ColorBlock": 525,
-        "IconHint": "mollitia",
+        "Id": 411,
+        "Name": "Ziemann, Barrows and Stehr",
+        "ToolTip": "Vel asperiores nesciunt magnam et impedit accusantium.",
+        "Deleted": true,
+        "Rank": 516,
+        "Type": "ut",
+        "ColorBlock": 898,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "1998-12-11T13:14:09.931658+01:00",
+        "LastChanged": "2021-03-09T16:32:48.8213663+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "et",
+        "ExtraInfo": "provident",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Maggie Brooklyn Lubowitz MD",
+        "FullName": "Prof. Glennie Balistreri PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 18
+            "FieldLength": 908
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "ad",
+    "ExtraInfo": "totam",
+    "StyleHint": "quis",
     "Hidden": false,
-    "FullName": "Miss Jeremie Brakus",
+    "FullName": "Kari Pfannerstill",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 692
+        "FieldLength": 706
       }
     }
   }

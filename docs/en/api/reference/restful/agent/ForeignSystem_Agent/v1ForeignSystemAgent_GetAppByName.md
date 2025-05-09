@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetAppByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Botsford Inc and Sons"
+  "ApplicationName": "Hirthe, Mertz and Lueilwitz"
 }
 ```
 
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 499,
-  "Name": "Bahringer LLC",
-  "CreatedDate": "2003-12-15T13:14:00.5012353+01:00",
-  "UpdatedDate": "2018-07-26T13:14:00.5012353+02:00",
+  "ForeignAppId": 945,
+  "Name": "Dare LLC",
+  "CreatedDate": "2019-10-05T16:32:39.1645096+02:00",
+  "UpdatedDate": "1999-12-14T16:32:39.1645096+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 909,
-      "Name": "Kulas-Morissette",
-      "CreatedDate": "2023-07-20T13:14:00.5012353+02:00",
-      "UpdatedDate": "2009-10-21T13:14:00.5012353+02:00",
-      "AssociateFullName": "Janelle Stanton",
-      "CreatedBy": "vel",
-      "UpdatedBy": "dolorem",
-      "DeviceIdentifier": "suscipit",
-      "ForeignAppId": 726,
+      "ForeignDeviceId": 190,
+      "Name": "Langosh, Wiza and Torphy",
+      "CreatedDate": "2020-09-10T16:32:39.1645096+02:00",
+      "UpdatedDate": "2013-12-01T16:32:39.1645096+01:00",
+      "AssociateFullName": "Miss Vena O'Reilly Jr.",
+      "CreatedBy": "sint",
+      "UpdatedBy": "in",
+      "DeviceIdentifier": "dolores",
+      "ForeignAppId": 155,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 561
+          "FieldLength": 671
         }
       }
     }
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 820
+      "FieldLength": 5
     }
   }
 }

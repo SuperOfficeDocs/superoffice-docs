@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 868,
-  "StartTime": "2019-06-08T13:14:00.0944666+02:00",
-  "EndTime": "2023-03-23T13:14:00.0944666+01:00",
-  "Count": 359,
+  "PersonId": 779,
+  "StartTime": "2002-07-07T16:32:38.6490035+02:00",
+  "EndTime": "2015-05-12T16:32:38.6490035+02:00",
+  "Count": 893,
   "DocumentTemplateIds": [
-    647,
-    681
+    743,
+    555
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 581,
-    "Attention": "et",
-    "Header": "in",
-    "Name": "Wuckert Group",
-    "OurRef": "et",
-    "YourRef": "fugiat",
-    "Description": "Multi-tiered well-modulated hardware",
-    "DocumentTemplate": "esse",
-    "IsPublished": false,
-    "PersonId": 947,
-    "PersonFullName": "Prof. Jacinto Wyatt Wuckert III",
-    "AssociateFullName": "Ms. Destiney Schultz",
-    "ContactId": 757,
-    "ContactName": "Ziemann Group",
-    "ProjectId": 131,
-    "ProjectName": "Braun LLC",
-    "AssociateId": 5,
-    "Snum": 168,
-    "SaleId": 802,
-    "SaleName": "Howe-Beer",
+    "DocumentId": 794,
+    "Attention": "hic",
+    "Header": "rerum",
+    "Name": "Dooley, Batz and Lueilwitz",
+    "OurRef": "ab",
+    "YourRef": "aperiam",
+    "Description": "Profit-focused 4th generation circuit",
+    "DocumentTemplate": "error",
+    "IsPublished": true,
+    "PersonId": 529,
+    "PersonFullName": "Alec Hilll",
+    "AssociateFullName": "Arvilla Goyette IV",
+    "ContactId": 327,
+    "ContactName": "Prohaska, Romaguera and Torphy",
+    "ProjectId": 726,
+    "ProjectName": "Bartell-McDermott",
+    "AssociateId": 345,
+    "Snum": 953,
+    "SaleId": 913,
+    "SaleName": "Hartmann Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 539
+        "FieldLength": 905
       }
     }
   }

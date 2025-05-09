@@ -159,9 +159,12 @@ Implementation of the provider for the combined selection
 |sale/probPercent|int|Probability as %: Probability as %| x |
 |sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
 |sale/stage|listAny|Stage: Displays the stage of the sale| x |
+|sale/stageName| *None* |Stage name: Displays the stage of the sale| x |
 |sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
 |sale/stageRank| *None* |Stage rank: Rank of the sale stage in the stage list| x |
 |sale/saleType|listAny|Sale type: Sale type, from list| x |
+|sale/saleTypeId| *None* |Sale type ID: Sale type, from list| x |
+|sale/stageId| *None* |Sale stage ID: Displays the stage of the sale| x |
 |sale/nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
 |sale/reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
 |sale/stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
@@ -222,13 +225,13 @@ Implementation of the provider for the combined selection
 |sale/saleUdef/SuperOffice:5|unlimitedDate|saleunlimiteddate| x |
 |sale/saleUdef/SuperOffice:6|bool|salecheckbox| x |
 |sale/saleUdef/SuperOffice:7|listAny|saledropdownlistbox| x |
-|sale/saleUdef/SuperOffice:8|decimal|saledecimal| x |
-|appointment/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|appointment/icon|listAny|Category: Displays the icon for an activity type| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/saleUdef/SuperOffice:8|decimal|saledecimal| x |
+|appointment/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
+|appointment/icon|listAny|Category: Displays the icon for an activity type| x |
 |appointment/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
 |appointment/time| *None* |Time: Time|  |
 |appointment/type|listAny|Type: Displays the type of an activity| x |
@@ -251,6 +254,7 @@ Implementation of the provider for the combined selection
 |appointment/endDate|date|End date: Displays the deadline for a follow-up/sale| x |
 |appointment/priority|listAny|Priority: Displays the priority of the activity| x |
 |appointment/alarm|bool|Has alarm: Displays the alarm state of a follow-up| x |
+|appointment/isFree|bool|Is free: Displays whether the appointment should be considered free or busy| x |
 |appointment/recurring|bool|Repeating: Displays an icon indicating if the follow-up is part of a repeating follow-up| x |
 |appointment/booking|bool|Invitation: Displays an icon if the follow-up is an invitation. All invitations will be displayed in a tooltip.| x |
 |appointment/intention|listAny|Intention: Displays the intention of the follow-up type| x |
@@ -325,14 +329,14 @@ Implementation of the provider for the combined selection
 |appointment/appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
 |document/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 |document/icon|listAny|Category: Displays the icon for an activity type| x |
-|document/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
-|document/time| *None* |Time: Time|  |
-|document/type|listAny|Type: Displays the type of an activity| x |
-|document/recordType|string|Record type : Shows the record type| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
+|document/time| *None* |Time: Time|  |
+|document/type|listAny|Type: Displays the type of an activity| x |
+|document/recordType|string|Record type : Shows the record type| x |
 |document/text|positiveString|Text: Displays a descriptive text for the item| x |
 |document/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
 |document/contactId|listAny|Company ID: Database ID of company| x |
@@ -429,14 +433,14 @@ Implementation of the provider for the combined selection
 |projectMember/personCountryId|int|Country ID: Country ID| x |
 |projectMember/personNoMail|bool|No Mailings: Displays the contact's No Mailings checkbox| x |
 |projectMember/rank|int|Rank: Displays a contact's current rank| x |
-|projectMember/birthdate| *None* |Birthdate: Displays the contact's date of birth|  |
-|projectMember/associateType| *None* |User type: Displays an icon indicating if a contact is an associate or external contact with log-in rights and currently online. This information is updated only once while the archive is loading.|  |
-|projectMember/useAsMailingAddress|bool|Use as postal address: Use as postal address| x |
-|projectMember/personSource|listAny|Source: Source (Contact)| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/birthdate| *None* |Birthdate: Displays the contact's date of birth|  |
+|projectMember/associateType| *None* |User type: Displays an icon indicating if a contact is an associate or external contact with log-in rights and currently online. This information is updated only once while the archive is loading.|  |
+|projectMember/useAsMailingAddress|bool|Use as postal address: Use as postal address| x |
+|projectMember/personSource|listAny|Source: Source (Contact)| x |
 |projectMember/retired|bool|Former employee: Indicates whether the contact has retired/left the company| x |
 |projectMember/birthYear|int|Birth year: Displays contact's birth year| x |
 |projectMember/birthMonth|int|Birth month: Displays contact's birth month| x |
@@ -533,14 +537,14 @@ Implementation of the provider for the combined selection
 |projectMember/personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
 |projectMember/personExtra/x\_person\_datetime|datetime|Extra DateTime: Custom person date and time field. No default| x |
 |projectMember/personExtra/x\_person\_time| *None* |Extra time: Custom time field on person. Current time as default| x |
-|projectMember/personExtra/x\_person\_boolean|bool|Extra Boolean: Custom boolean field on person. Default checked| x |
-|projectMember/personExtra/x\_person\_timespan|timeSpan|Extra timespan: Custom timespan on person. Minutes only in 15 units| x |
-|projectMember/personExtra/x\_person\_shorttext|string|Extra short text: Custom short text on person. With index. Do not keep HTML tags| x |
-|projectMember/personExtra/x\_person\_shorttext\_list|listAny|Extra short dropdown: Custom Short text dropdown field on person: black, white, transparent| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/personExtra/x\_person\_boolean|bool|Extra Boolean: Custom boolean field on person. Default checked| x |
+|projectMember/personExtra/x\_person\_timespan|timeSpan|Extra timespan: Custom timespan on person. Minutes only in 15 units| x |
+|projectMember/personExtra/x\_person\_shorttext|string|Extra short text: Custom short text on person. With index. Do not keep HTML tags| x |
+|projectMember/personExtra/x\_person\_shorttext\_list|listAny|Extra short dropdown: Custom Short text dropdown field on person: black, white, transparent| x |
 |projectMember/personExtra/x\_person\_user\_relation|associate|Extra user relation: Custom person-user relation field| x |
 |projectMember/personExtra/x\_person\_category\_relation|listAny|Extra category relation: Custom person-category relation| x |
 |projectMember/personExtra/x\_person\_priority\_relation|listAny|Extra priority relation: Custom person-priority relation| x |
@@ -637,14 +641,14 @@ Implementation of the provider for the combined selection
 |projectMember/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
 |projectMember/countryId|int|Country ID: Country ID| x |
 |projectMember/number|string|Number| x |
-|projectMember/code|string|Code| x |
-|projectMember/orgnr|string|VAT No.| x |
-|projectMember/stop|bool|Stop| x |
-|projectMember/contactNoMail|bool|No mailings (company| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/code|string|Code| x |
+|projectMember/orgnr|string|VAT No.| x |
+|projectMember/stop|bool|Stop| x |
+|projectMember/contactNoMail|bool|No mailings (company| x |
 |projectMember/updatedBy|associate|Updated by: The user who last updated the data| x |
 |projectMember/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |projectMember/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
@@ -741,14 +745,14 @@ Implementation of the provider for the combined selection
 |projectMember/contactExtra/x\_contact\_datetime|datetime|Extra DateTime: Custom Date Time field. No default value. External| x |
 |projectMember/contactExtra/x\_contact\_time| *None* |Extra time: Custom time field.| x |
 |projectMember/contactExtra/x\_contact\_boolean|bool|Extra boolean: Custom boolean field.| x |
-|projectMember/contactExtra/x\_contact\_timespan|timeSpan|Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
-|projectMember/contactExtra/x\_contact\_shorttext|string|Extra short text: Custom short text field. Keep HTML tags.| x |
-|projectMember/contactExtra/x\_contact\_short\_dropdown|listAny|Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
-|projectMember/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/contactExtra/x\_contact\_timespan|timeSpan|Extra timespan: Custom timespan field. Hours and minutes in 10 units| x |
+|projectMember/contactExtra/x\_contact\_shorttext|string|Extra short text: Custom short text field. Keep HTML tags.| x |
+|projectMember/contactExtra/x\_contact\_short\_dropdown|listAny|Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
+|projectMember/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |projectMember/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
 |projectMember/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
 |projectMember/contactExtra/y\_organization/x\_name|string|Organization - Name| x |
@@ -795,7 +799,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectSelectionCombined?$select=projectMember/personExtra/x_person_float,appointment/appointmentUdef/SuperOffice:4,document/documentUdef/SuperOffice:8
+GET /api/v1/archive/ProjectSelectionCombined?$select=NumberOfNotCompletedSalesInPeriod,saintAmountClass,sale/soldReason,sale/associate/otherGroups,appointment/projectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

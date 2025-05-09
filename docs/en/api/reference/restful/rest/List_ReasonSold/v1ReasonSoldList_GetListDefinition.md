@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 687,
-  "Name": "Crist-Miller",
-  "Tooltip": "deserunt",
-  "Deleted": true,
-  "Rank": 762,
-  "IsCustomList": true,
+  "Id": 807,
+  "Name": "Walsh Group",
+  "Tooltip": "facere",
+  "Deleted": false,
+  "Rank": 776,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
+  "ListType": "facere",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 577
+      "FieldLength": 447
     }
   },
   "_Links": {

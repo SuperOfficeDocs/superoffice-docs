@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hagenes, Ferry and Auer",
-  "EmailAddress": "stephen@labadietillman.ca"
+  "Name": "McLaughlin-Kuphal",
+  "EmailAddress": "beatrice_hayes@haag.com"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 585,
-    "FullName": "Ms. Zula Archibald Johnston V",
-    "EmailAddress": "jedidiah@hyattkirlin.us",
-    "ContactId": 217,
-    "ContactName": "Mertz LLC",
+    "PersonId": 153,
+    "FullName": "Prof. Sylvan Marques Boehm DVM",
+    "EmailAddress": "selina@funkaufderhar.info",
+    "ContactId": 311,
+    "ContactName": "West, Franecki and Pacocha",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Ratke, Satterfield and Gleason",
+    "SortName": "Gaylord-Graham",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 93
+        "FieldLength": 713
       }
     }
   }

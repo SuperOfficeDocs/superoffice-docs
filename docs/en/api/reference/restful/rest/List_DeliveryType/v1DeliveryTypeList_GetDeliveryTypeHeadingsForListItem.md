@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 594,
-    "Name": "Stroman-Beahan",
-    "ToolTip": "Soluta possimus est labore.",
-    "Deleted": false,
-    "Rank": 634,
-    "Type": "cumque",
-    "ColorBlock": 496,
-    "IconHint": "quis",
+    "Id": 24,
+    "Name": "Mueller-Green",
+    "ToolTip": "Minus veritatis nihil magni assumenda aut odit.",
+    "Deleted": true,
+    "Rank": 243,
+    "Type": "porro",
+    "ColorBlock": 776,
+    "IconHint": "vero",
     "Selected": false,
-    "LastChanged": "2013-06-12T13:14:09.7597728+02:00",
+    "LastChanged": "2006-05-30T16:32:48.6651528+02:00",
     "ChildItems": [
       {
-        "Id": 75,
-        "Name": "Wilkinson Group",
-        "ToolTip": "Ut voluptatem est.",
-        "Deleted": false,
-        "Rank": 626,
-        "Type": "accusamus",
-        "ColorBlock": 291,
-        "IconHint": "voluptatem",
+        "Id": 288,
+        "Name": "Homenick-Hartmann",
+        "ToolTip": "Saepe dolore dolorum magni corporis.",
+        "Deleted": true,
+        "Rank": 790,
+        "Type": "quidem",
+        "ColorBlock": 787,
+        "IconHint": "nam",
         "Selected": false,
-        "LastChanged": "1999-07-08T13:14:09.7597728+02:00",
+        "LastChanged": "2012-04-23T16:32:48.6651528+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "quis",
-        "Hidden": true,
-        "FullName": "Miss Maggie Hackett Sr.",
+        "ExtraInfo": "et",
+        "StyleHint": "quas",
+        "Hidden": false,
+        "FullName": "Aidan Cruickshank",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 849
+            "FieldLength": 642
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "reprehenderit",
-    "Hidden": false,
-    "FullName": "Mr. Anika Danyka Littel DVM",
+    "ExtraInfo": "ut",
+    "StyleHint": "dolores",
+    "Hidden": true,
+    "FullName": "Ramon Kassulke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 983
+        "FieldLength": 803
       }
     }
   }

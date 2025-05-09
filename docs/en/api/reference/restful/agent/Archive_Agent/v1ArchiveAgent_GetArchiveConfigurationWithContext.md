@@ -84,9 +84,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Gislason LLC",
-  "ProviderName": "Jones Inc and Sons",
-  "Context": "libero"
+  "GuiName": "Lang Inc and Sons",
+  "ProviderName": "Boehm-Kling",
+  "Context": "ut"
 }
 ```
 
@@ -99,68 +99,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Kunze Group",
-      "DisplayTooltip": "nostrum",
-      "DisplayType": "placeat",
-      "CanOrderBy": true,
-      "Name": "Pollich-Kris",
+      "DisplayName": "Olson Inc and Sons",
+      "DisplayTooltip": "optio",
+      "DisplayType": "quia",
+      "CanOrderBy": false,
+      "Name": "Durgan Group",
       "CanRestrictBy": false,
-      "RestrictionType": "similique",
-      "RestrictionListName": "Gorczany Group",
-      "IsVisible": false,
-      "ExtraInfo": "ipsam",
-      "Width": "consequatur",
-      "IconHint": "et",
-      "HeadingIconHint": "sit"
+      "RestrictionType": "libero",
+      "RestrictionListName": "Greenfelder-O'Keefe",
+      "IsVisible": true,
+      "ExtraInfo": "inventore",
+      "Width": "modi",
+      "IconHint": "qui",
+      "HeadingIconHint": "beatae"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 705,
-      "Name": "Kilback, Johnson and Marvin",
-      "ToolTip": "Sit error omnis nostrum expedita sed id.",
+      "Id": 605,
+      "Name": "Gaylord-Sipes",
+      "ToolTip": "Quam adipisci impedit ut.",
       "Deleted": false,
-      "Rank": 26,
-      "Type": "dolor",
-      "ColorBlock": 911,
-      "IconHint": "mollitia",
-      "Selected": false,
-      "LastChanged": "2021-04-05T13:13:59.5001938+02:00",
+      "Rank": 207,
+      "Type": "dolore",
+      "ColorBlock": 190,
+      "IconHint": "tenetur",
+      "Selected": true,
+      "LastChanged": "2024-12-31T16:32:38.1491165+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "omnis",
-      "StyleHint": "id",
+      "ExtraInfo": "quas",
+      "StyleHint": "nam",
       "Hidden": false,
-      "FullName": "Dr. Gaetano Ole Orn",
+      "FullName": "Edgar Wiza",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 68
+          "FieldLength": 357
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Mann, Cole and Nicolas",
+      "Name": "Mayert, Boyer and Jacobs",
       "Direction": "ASC"
     },
     {
-      "Name": "Mann, Cole and Nicolas",
+      "Name": "Mayert, Boyer and Jacobs",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "corporis",
+  "OwnerKeys": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 965
+      "FieldType": "System.Int32",
+      "FieldLength": 575
     }
   }
 }

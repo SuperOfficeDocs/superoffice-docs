@@ -70,11 +70,11 @@ OK
 POST /api/v1/Agents/Audience/GetDefaultProjectImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Gislason, Heidenreich and McLaughlin"
+  "LayoutName": "Luettgen-Welch"
 }
 ```
 

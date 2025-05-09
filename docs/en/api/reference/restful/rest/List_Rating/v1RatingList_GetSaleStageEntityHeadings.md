@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 383,
-    "Name": "Carroll-Schumm",
-    "Tooltip": "aperiam",
+    "HeadingId": 289,
+    "Name": "Koelpin Group",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 666,
-    "UdListDefinitionId": 1000,
+    "Rank": 767,
+    "UdListDefinitionId": 409,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 719
+        "FieldType": "System.String",
+        "FieldLength": 888
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 459,
-    "Name": "Grant-Lowe",
-    "ToolTip": "Illo qui et et.",
+    "Id": 367,
+    "Name": "Zemlak, Boyle and Rosenbaum",
+    "ToolTip": "Illo sunt iste ut nihil non.",
     "Deleted": true,
-    "Rank": 286,
-    "Type": "recusandae",
-    "ColorBlock": 572,
-    "IconHint": "tempore",
-    "Selected": false,
-    "LastChanged": "2020-02-24T13:14:09.8379023+01:00",
+    "Rank": 519,
+    "Type": "modi",
+    "ColorBlock": 934,
+    "IconHint": "asperiores",
+    "Selected": true,
+    "LastChanged": "2004-09-03T16:32:48.7276378+02:00",
     "ChildItems": [
       {
-        "Id": 426,
-        "Name": "Schneider-Schimmel",
-        "ToolTip": "Unde nam sapiente necessitatibus in nisi.",
+        "Id": 512,
+        "Name": "Lubowitz-Trantow",
+        "ToolTip": "Omnis id animi fuga impedit architecto quasi asperiores.",
         "Deleted": true,
-        "Rank": 811,
-        "Type": "sunt",
-        "ColorBlock": 104,
-        "IconHint": "quia",
-        "Selected": false,
-        "LastChanged": "2001-09-03T13:14:09.8379023+02:00",
+        "Rank": 572,
+        "Type": "laudantium",
+        "ColorBlock": 237,
+        "IconHint": "libero",
+        "Selected": true,
+        "LastChanged": "2021-08-04T16:32:48.7276378+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quod",
-        "StyleHint": "ipsum",
+        "ExtraInfo": "cumque",
+        "StyleHint": "nostrum",
         "Hidden": false,
-        "FullName": "Dr. Caterina Kaia Konopelski III"
+        "FullName": "Arely Goodwin"
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "dolores",
+    "ExtraInfo": "ea",
+    "StyleHint": "perspiciatis",
     "Hidden": false,
-    "FullName": "Mr. Nigel Leuschke"
+    "FullName": "Judy Champlin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 88,
-    "Name": "Jenkins, Williamson and Doyle",
-    "ToolTip": "Exercitationem eligendi ex nostrum nemo.",
+    "Id": 930,
+    "Name": "D'Amore-Dickens",
+    "ToolTip": "Similique unde sint expedita.",
     "Deleted": false,
-    "Rank": 795,
-    "Type": "laudantium",
-    "ColorBlock": 887,
-    "IconHint": "rerum",
+    "Rank": 513,
+    "Type": "cumque",
+    "ColorBlock": 96,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2000-03-18T13:14:09.8379023+01:00",
+    "LastChanged": "2009-02-04T16:32:48.7276378+01:00",
     "ChildItems": [
       {
-        "Id": 972,
-        "Name": "Jast, Pacocha and Veum",
-        "ToolTip": "Qui aut sed vel rerum eos.",
+        "Id": 594,
+        "Name": "Goldner, Frami and Turner",
+        "ToolTip": "Voluptate aut et ut nulla.",
         "Deleted": false,
-        "Rank": 109,
-        "Type": "optio",
-        "ColorBlock": 629,
-        "IconHint": "assumenda",
+        "Rank": 189,
+        "Type": "necessitatibus",
+        "ColorBlock": 290,
+        "IconHint": "quis",
         "Selected": false,
-        "LastChanged": "2011-10-17T13:14:09.8379023+02:00",
+        "LastChanged": "1999-08-11T16:32:48.7276378+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "sint",
-        "Hidden": false,
-        "FullName": "Elvera Crist",
+        "ExtraInfo": "laudantium",
+        "StyleHint": "porro",
+        "Hidden": true,
+        "FullName": "Prof. Reymundo Raheem Cruickshank III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 214
+            "FieldLength": 376
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "et",
+    "ExtraInfo": "et",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Christina Schamberger",
+    "FullName": "Ellie Corwin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 392
+        "FieldLength": 121
       }
     }
   }

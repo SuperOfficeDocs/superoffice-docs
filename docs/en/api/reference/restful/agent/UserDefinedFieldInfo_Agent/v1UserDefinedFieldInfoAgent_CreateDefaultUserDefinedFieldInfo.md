@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 50,
-  "ColumnId": 811,
-  "FieldDefault": "quos",
-  "FieldHeight": 476,
-  "FieldLabel": "magni",
-  "FieldLeft": 908,
-  "FieldTop": 637,
+  "UDefFieldId": 702,
+  "ColumnId": 28,
+  "FieldDefault": "omnis",
+  "FieldHeight": 780,
+  "FieldLabel": "similique",
+  "FieldLeft": 163,
+  "FieldTop": 158,
   "FieldType": "Checkbox",
-  "FieldWidth": 442,
-  "FormatMask": "magnam",
-  "HideLabel": true,
+  "FieldWidth": 228,
+  "FormatMask": "distinctio",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 215,
-  "LabelLeft": 429,
-  "LabelTop": 969,
-  "LabelWidth": 467,
-  "LastVersionId": 190,
-  "ListTableId": 74,
+  "LabelHeight": 849,
+  "LabelLeft": 657,
+  "LabelTop": 743,
+  "LabelWidth": 97,
+  "LastVersionId": 199,
+  "ListTableId": 742,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 58,
-  "ProgId": "ipsa",
-  "IsReadOnly": false,
-  "ShortLabel": "aspernatur",
-  "TabOrder": 859,
-  "TextLength": 132,
-  "Tooltip": "vero",
-  "UdefIdentity": 837,
-  "UDListDefinitionId": 6,
+  "Page1LineNo": 776,
+  "ProgId": "molestiae",
+  "IsReadOnly": true,
+  "ShortLabel": "voluptate",
+  "TabOrder": 380,
+  "TextLength": 247,
+  "Tooltip": "atque",
+  "UdefIdentity": 100,
+  "UDListDefinitionId": 167,
   "Justification": "Center",
-  "Version": 764,
-  "TemplateVariableName": "Bosco, Ratke and Schowalter",
+  "Version": 788,
+  "TemplateVariableName": "Ebert Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Gusikowski-VonRueden",
+  "MdoListName": "Cummerata Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 221
+      "FieldLength": 681
     }
   }
 }

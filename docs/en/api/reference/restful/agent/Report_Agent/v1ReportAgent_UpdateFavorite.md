@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 77,
+  "ReportId": 261,
   "ReportCategory": "All",
-  "Description": "Customer-focused uniform hub",
+  "Description": "Persistent empowering structure",
   "ReportLayout": "CalendarMonth",
-  "Name": "Kunde, Moen and Adams",
-  "AssociateId": 988,
-  "TemplateId": 462,
-  "Published": true,
+  "Name": "Orn Inc and Sons",
+  "AssociateId": 989,
+  "TemplateId": 727,
+  "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 288
+      "FieldLength": 658
     }
   }
 }

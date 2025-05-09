@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 563
+  "TicketEntityId": 229
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 624,
-    "Name": "Schuppe Group",
-    "ContentType": "tenetur",
-    "AttSize": 659,
-    "InlineImage": true,
-    "ContentId": "provident",
-    "AuthKey": "saepe",
+    "AttachmentId": 989,
+    "Name": "Reichert, Kris and Volkman",
+    "ContentType": "omnis",
+    "AttSize": 710,
+    "InlineImage": false,
+    "ContentId": "voluptatum",
+    "AuthKey": "eaque",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 859
+        "FieldType": "System.String",
+        "FieldLength": 631
       }
     }
   }

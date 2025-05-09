@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/PaymentType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 305,
-    "Name": "Runte, Walsh and Donnelly",
-    "ToolTip": "Nostrum voluptatem totam ipsa laboriosam optio corporis in.",
-    "Deleted": false,
-    "Rank": 727,
-    "Type": "doloremque",
-    "ColorBlock": 805,
-    "IconHint": "est",
+    "Id": 283,
+    "Name": "Legros, Champlin and Fay",
+    "ToolTip": "Debitis quia nemo.",
+    "Deleted": true,
+    "Rank": 516,
+    "Type": "sit",
+    "ColorBlock": 955,
+    "IconHint": "eligendi",
     "Selected": false,
-    "LastChanged": "1999-01-20T13:14:09.8535282+01:00",
+    "LastChanged": "2012-07-30T16:32:48.7432593+02:00",
     "ChildItems": [
       {
-        "Id": 395,
-        "Name": "Carter, Hand and Kshlerin",
-        "ToolTip": "Eos quaerat sit et neque.",
-        "Deleted": true,
-        "Rank": 355,
-        "Type": "quisquam",
-        "ColorBlock": 170,
-        "IconHint": "maiores",
-        "Selected": true,
-        "LastChanged": "2022-11-05T13:14:09.8535282+01:00",
+        "Id": 188,
+        "Name": "Spencer-O'Connell",
+        "ToolTip": "Qui nihil quas harum nulla sit dolorem.",
+        "Deleted": false,
+        "Rank": 626,
+        "Type": "aut",
+        "ColorBlock": 157,
+        "IconHint": "totam",
+        "Selected": false,
+        "LastChanged": "2012-10-18T16:32:48.7432593+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ratione",
-        "StyleHint": "ipsam",
-        "Hidden": true,
-        "FullName": "Ms. Nakia Kole Olson II",
+        "ExtraInfo": "aut",
+        "StyleHint": "eaque",
+        "Hidden": false,
+        "FullName": "Verona Greenfelder",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 721
+            "FieldType": "System.Int32",
+            "FieldLength": 495
           }
         }
       }
     ],
-    "ExtraInfo": "inventore",
-    "StyleHint": "nisi",
-    "Hidden": false,
-    "FullName": "Suzanne Schuppe",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "quia",
+    "Hidden": true,
+    "FullName": "Mortimer Lubowitz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 188
+        "FieldLength": 267
       }
     }
   }

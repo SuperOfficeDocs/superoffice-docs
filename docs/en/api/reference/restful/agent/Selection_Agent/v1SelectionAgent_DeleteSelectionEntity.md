@@ -22,10 +22,10 @@ Deletes the SelectionEntity
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| SelectionEntityId | int32 | **Required** The id of the SelectionEntity to be deleted. |
+| $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/DeleteSelectionEntity?SelectionEntityId=905
+POST /api/v1/Agents/Selection/DeleteSelectionEntity?$select=name,department,category/id
 ```
 
 
@@ -35,9 +35,17 @@ POST /api/v1/Agents/Selection/DeleteSelectionEntity?SelectionEntityId=905
 |----------------|-------------|
 | Authorization  | Supports 'Basic', 'SoTicket' and 'Bearer' schemes, depending on installation type. |
 | X-XSRF-TOKEN   | If not using Authorization header, you must provide XSRF value from cookie or hidden input field |
+| Content-Type | Content-type of the request body: `application/json`, `text/json`, `application/xml`, `text/xml`, `application/x-www-form-urlencoded`, `application/json-patch+json`, `application/merge-patch+json` |
 | Accept         | Content-type(s) you would like the response in:  |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
+## Request Body: request 
+
+SelectionEntityId 
+
+| Property Name | Type |  Description |
+|----------------|------|--------------|
+| SelectionEntityId | Integer |  |
 
 ## Response:
 
@@ -56,7 +64,12 @@ No Content
 POST /api/v1/Agents/Selection/DeleteSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
+Content-Type: application/json; charset=utf-8
+
+{
+  "SelectionEntityId": 925
+}
 ```
 
 ## Sample response

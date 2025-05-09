@@ -85,19 +85,19 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 773,
-  "Name": "Dibbert, Bahringer and Stehr",
-  "CreatedDate": "2013-02-11T13:14:08.7585151+01:00",
-  "UpdatedDate": "2006-05-14T13:14:08.7585151+02:00",
-  "AssociateFullName": "Hillard Beatty",
-  "CreatedBy": "et",
-  "UpdatedBy": "quis",
-  "DeviceIdentifier": "incidunt",
-  "ForeignAppId": 327
+  "ForeignDeviceId": 431,
+  "Name": "Kuhic LLC",
+  "CreatedDate": "2023-12-29T16:32:47.5558268+01:00",
+  "UpdatedDate": "2013-07-30T16:32:47.5558268+02:00",
+  "AssociateFullName": "Kayley Pfannerstill",
+  "CreatedBy": "harum",
+  "UpdatedBy": "nemo",
+  "DeviceIdentifier": "non",
+  "ForeignAppId": 935
 }
 ```
 
@@ -108,21 +108,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 258,
-  "Name": "Wintheiser, Reynolds and Spencer",
-  "CreatedDate": "2024-09-01T13:14:08.7585151+02:00",
-  "UpdatedDate": "1997-12-24T13:14:08.7585151+01:00",
-  "AssociateFullName": "Reid Douglas PhD",
-  "CreatedBy": "itaque",
-  "UpdatedBy": "et",
-  "DeviceIdentifier": "expedita",
-  "ForeignAppId": 945,
+  "ForeignDeviceId": 941,
+  "Name": "Fritsch Group",
+  "CreatedDate": "2007-04-12T16:32:47.5558268+02:00",
+  "UpdatedDate": "2015-05-07T16:32:47.5558268+02:00",
+  "AssociateFullName": "Nikko Halvorson I",
+  "CreatedBy": "quia",
+  "UpdatedBy": "labore",
+  "DeviceIdentifier": "velit",
+  "ForeignAppId": 7,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 239
+      "FieldLength": 735
     }
   }
 }

@@ -143,37 +143,37 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 913,
-  "Name": "Pfeffer LLC",
-  "Description": "Sharable solution-oriented hub",
-  "WelcomeMessage": "porro",
+  "ChatTopicId": 954,
+  "Name": "Metz Group",
+  "Description": "Reverse-engineered full-range algorithm",
+  "WelcomeMessage": "eum",
   "Language": null,
-  "LastAccept": "2003-12-08T13:14:08.4616221+01:00",
-  "SecondsPrAccept": 836,
-  "AlertRecipient": "tempore",
+  "LastAccept": "2021-06-04T16:32:47.2430089+02:00",
+  "SecondsPrAccept": 646,
+  "AlertRecipient": "explicabo",
   "AlertTemplate": null,
   "CollectConsent": true,
-  "BadgeHeader": "aut",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "animi",
-  "WarnNewChatMinutes": 124,
-  "WarnManagerNewChatMinutes": 296,
+  "BadgeHeader": "assumenda",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "ratione",
+  "WarnNewChatMinutes": 722,
+  "WarnManagerNewChatMinutes": 764,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 630,
-  "WarnManagerChatMessageMinutes": 3,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 519,
-  "OfflineFormQueueLength": 5,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "ipsum"
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 982,
+  "WarnManagerChatMessageMinutes": 723,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 909,
+  "OfflineFormQueueLength": 875,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "architecto"
 }
 ```
 
@@ -184,21 +184,21 @@ HTTP/1.1 200 ChatTopicEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 942,
-  "Name": "Koelpin, Langworth and Blanda",
-  "Description": "Ameliorated tangible software",
-  "WelcomeMessage": "voluptatum",
+  "ChatTopicId": 988,
+  "Name": "Wilderman-Kemmer",
+  "Description": "Organized responsive local area network",
+  "WelcomeMessage": "aut",
   "Language": null,
-  "LastAccept": "2009-05-28T13:14:08.4616221+02:00",
-  "SecondsPrAccept": 885,
-  "AlertRecipient": "autem",
+  "LastAccept": "2025-02-13T16:32:47.2430089+01:00",
+  "SecondsPrAccept": 455,
+  "AlertRecipient": "inventore",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "vel",
+  "BadgeHeader": "quaerat",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "error",
-  "WarnNewChatMinutes": 745,
-  "WarnManagerNewChatMinutes": 726,
+  "CustomQueueText": "iusto",
+  "WarnNewChatMinutes": 162,
+  "WarnManagerNewChatMinutes": 171,
   "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -207,25 +207,25 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 869,
-  "WarnManagerChatMessageMinutes": 144,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 284,
+  "WarnManagerChatMessageMinutes": 467,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 460,
-  "OfflineFormQueueLength": 613,
+  "OfflineFormTimeLimit": 958,
+  "OfflineFormQueueLength": 536,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "mollitia",
+  "WidgetRatingText": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 927
+      "FieldLength": 29
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

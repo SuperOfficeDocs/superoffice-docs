@@ -67,7 +67,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,18 +77,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 822,
-  "Name": "Jewess LLC",
-  "Tooltip": "distinctio",
-  "Rank": 706,
-  "Key": "dolorem",
+  "LegalBaseId": 99,
+  "Name": "Jakubowski LLC",
+  "Tooltip": "placeat",
+  "Rank": 929,
+  "Key": "quo",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 96
+      "FieldType": "System.Int32",
+      "FieldLength": 262
     }
   }
 }

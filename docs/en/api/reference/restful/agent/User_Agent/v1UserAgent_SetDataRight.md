@@ -72,14 +72,14 @@ No Content
 POST /api/v1/Agents/User/SetDataRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 447,
-  "TableName": "Block-Hane",
+  "RoleId": 861,
+  "TableName": "Jast, Mitchell and Stoltenberg",
   "RelationToOwner": "Anonymous",
-  "DataRightValue": "ratione"
+  "DataRightValue": "blanditiis"
 }
 ```
 

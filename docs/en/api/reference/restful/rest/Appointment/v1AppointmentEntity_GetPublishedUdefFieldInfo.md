@@ -93,7 +93,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 903,
-  "ColumnId": 953,
-  "FieldDefault": "in",
-  "FieldHeight": 360,
-  "FieldLabel": "velit",
-  "FieldLeft": 306,
-  "FieldTop": 995,
+  "UDefFieldId": 671,
+  "ColumnId": 120,
+  "FieldDefault": "ut",
+  "FieldHeight": 723,
+  "FieldLabel": "rerum",
+  "FieldLeft": 588,
+  "FieldTop": 225,
   "FieldType": "Checkbox",
-  "FieldWidth": 1001,
-  "FormatMask": "accusantium",
+  "FieldWidth": 708,
+  "FormatMask": "eum",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 595,
-  "LabelLeft": 205,
-  "LabelTop": 380,
-  "LabelWidth": 96,
-  "LastVersionId": 382,
-  "ListTableId": 163,
+  "LabelHeight": 971,
+  "LabelLeft": 568,
+  "LabelTop": 507,
+  "LabelWidth": 612,
+  "LastVersionId": 773,
+  "ListTableId": 568,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 783,
-  "ProgId": "rerum",
+  "Page1LineNo": 745,
+  "ProgId": "aut",
   "IsReadOnly": false,
-  "ShortLabel": "officia",
-  "TabOrder": 432,
-  "TextLength": 653,
-  "Tooltip": "neque",
-  "UdefIdentity": 217,
-  "UDListDefinitionId": 536,
+  "ShortLabel": "voluptas",
+  "TabOrder": 872,
+  "TextLength": 550,
+  "Tooltip": "quia",
+  "UdefIdentity": 571,
+  "UDListDefinitionId": 195,
   "Justification": "Center",
-  "Version": 168,
-  "TemplateVariableName": "Koss-Kohler",
+  "Version": 267,
+  "TemplateVariableName": "Bosco-Lakin",
   "HasBeenPublished": false,
-  "MdoListName": "Walsh Group",
+  "MdoListName": "Lakin, Ferry and Dicki",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 657
+      "FieldLength": 581
     }
   }
 }

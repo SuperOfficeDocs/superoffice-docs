@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 738,
-  "Name": "Berge Inc and Sons",
-  "Tooltip": "sit",
-  "Deleted": false,
-  "UdListDefinitionId": 687,
-  "Rank": 434
+  "Id": 287,
+  "Name": "Schneider LLC",
+  "Tooltip": "nisi",
+  "Deleted": true,
+  "UdListDefinitionId": 475,
+  "Rank": 313
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 408,
-  "Name": "Grimes, Stamm and Fay",
-  "Tooltip": "consequuntur",
+  "Id": 340,
+  "Name": "Gerlach LLC",
+  "Tooltip": "quod",
   "Deleted": false,
-  "UdListDefinitionId": 885,
-  "Rank": 984,
+  "UdListDefinitionId": 300,
+  "Rank": 271,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 343
+      "FieldType": "System.String",
+      "FieldLength": 801
     }
   }
 }

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentPreview
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 173
+  "AttachmentId": 897
 }
 ```
 
@@ -99,31 +99,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Wisoky, Reynolds and Romaguera",
-  "MimeType": "voluptas",
-  "Size": 970,
+  "Name": "Roob, Abbott and Lebsack",
+  "MimeType": "sint",
+  "Size": 329,
   "Content": "GIF89....File contents as raw bytes...",
-  "EmailSubject": "dallas.steuber@witting.info",
-  "EmailFrom": "kyla_rogahn@kovacek.com",
-  "EmailTo": "murphy@hintzthompson.biz",
-  "EmailCc": "angie@mcglynn.com",
-  "EmailDate": "2006-05-09T13:14:01.6131905+02:00",
+  "EmailSubject": "palma@herzogbednar.com",
+  "EmailFrom": "cullen_beier@damore.us",
+  "EmailTo": "grayson@cremin.us",
+  "EmailCc": "raoul.huels@lindgrenpfeffer.ca",
+  "EmailDate": "2002-12-05T16:32:40.3832248+01:00",
   "EmailAttachmentsInfo": [
     {
-      "AttachmentId": 641,
-      "Name": "Auer Inc and Sons",
-      "ContentType": "quia",
-      "AttSize": 256,
+      "AttachmentId": 907,
+      "Name": "Crona, Nader and Jacobi",
+      "ContentType": "corrupti",
+      "AttSize": 284,
       "InlineImage": false,
-      "ContentId": "vel",
-      "AuthKey": "quibusdam",
-      "IsSafeFileExtension": true,
+      "ContentId": "alias",
+      "AuthKey": "ut",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 79
+          "FieldLength": 160
         }
       }
     }
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 901
+      "FieldLength": 987
     }
   }
 }

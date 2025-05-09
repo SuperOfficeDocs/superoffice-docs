@@ -65,26 +65,26 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferenceEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "quia",
+      "RawValue": "animi",
       "Specification": null,
-      "DisplayValue": "odit",
-      "DisplayTooltip": "et",
+      "DisplayValue": "vero",
+      "DisplayTooltip": "quia",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 194,
-      "PrefDescId": 295,
-      "TableName": "O'Connell Group",
-      "UserPreferenceId": 837
+      "TargetId": 364,
+      "PrefDescId": 293,
+      "TableName": "Altenwerth, Dare and McLaughlin",
+      "UserPreferenceId": 940
     }
   ],
-  "RemoveLowerLevels": true
+  "RemoveLowerLevels": false
 }
 ```
 

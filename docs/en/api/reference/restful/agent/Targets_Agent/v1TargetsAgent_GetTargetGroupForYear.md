@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Targets/GetTargetGroupForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 988,
+  "TargetYear": 483,
   "EntityType": "None"
 }
 ```
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 81,
-  "Year": 711,
+  "TargetGroupId": 458,
+  "Year": 250,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 98,
+      "TargetAssignmentInfoId": 909,
       "Values": [
-        778,
-        730
+        948,
+        235
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 566,
-      "DimensionListItemDisplayName": "Cummings, O'Reilly and Corwin",
+      "DimensionListItem": 961,
+      "DimensionListItemDisplayName": "Homenick Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 234
+          "FieldType": "System.String",
+          "FieldLength": 841
         }
       }
     }
@@ -128,8 +128,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 272
+      "FieldType": "System.String",
+      "FieldLength": 502
     }
   }
 }

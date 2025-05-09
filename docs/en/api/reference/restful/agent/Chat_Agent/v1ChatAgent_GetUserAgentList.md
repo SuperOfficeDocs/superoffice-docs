@@ -92,7 +92,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Flat": false,
-  "OnlyPresent": false
+  "OnlyPresent": true
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 746,
-    "Name": "Volkman-O'Conner",
-    "ToolTip": "Beatae sed et suscipit sit qui tempora inventore.",
-    "Deleted": false,
-    "Rank": 398,
-    "Type": "iure",
+    "Id": 814,
+    "Name": "Bergnaum, Torphy and Bashirian",
+    "ToolTip": "Molestiae eos placeat.",
+    "Deleted": true,
+    "Rank": 718,
+    "Type": "id",
     "ChildItems": [
       {
-        "Id": 629,
-        "Name": "Mann Inc and Sons",
-        "ToolTip": "Sunt ipsa voluptas illum ea labore eligendi.",
+        "Id": 162,
+        "Name": "Bode-Adams",
+        "ToolTip": "Soluta ullam ratione.",
         "Deleted": false,
-        "Rank": 634,
-        "Type": "veritatis",
+        "Rank": 154,
+        "Type": "deserunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "non",
-        "ColorBlock": 314,
-        "ExtraInfo": "incidunt",
-        "StyleHint": "voluptatum",
-        "FullName": "Emmet Lemke",
+        "IconHint": "inventore",
+        "ColorBlock": 586,
+        "ExtraInfo": "quia",
+        "StyleHint": "est",
+        "FullName": "Johanna Labadie",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 572
+            "FieldLength": 799
           }
         }
       }
     ],
-    "IconHint": "quae",
-    "ColorBlock": 243,
-    "ExtraInfo": "ipsum",
-    "StyleHint": "ut",
-    "FullName": "Mrs. Alexis Mann III",
+    "IconHint": "sint",
+    "ColorBlock": 899,
+    "ExtraInfo": "neque",
+    "StyleHint": "alias",
+    "FullName": "Jamir Murray",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 910
+        "FieldLength": 556
       }
     }
   }

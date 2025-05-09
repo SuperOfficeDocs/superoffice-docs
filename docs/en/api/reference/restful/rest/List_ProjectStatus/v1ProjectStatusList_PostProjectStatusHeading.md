@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 632,
-  "Name": "Bashirian-Zulauf",
-  "Tooltip": "unde",
+  "HeadingId": 371,
+  "Name": "Hilpert LLC",
+  "Tooltip": "porro",
   "Deleted": false,
-  "Rank": 124,
-  "UdListDefinitionId": 263
+  "Rank": 238,
+  "UdListDefinitionId": 99
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 801,
-  "Name": "Wiza Group",
-  "Tooltip": "accusantium",
+  "HeadingId": 162,
+  "Name": "Auer-Krajcik",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 591,
-  "UdListDefinitionId": 714,
+  "Rank": 792,
+  "UdListDefinitionId": 940,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 208
+      "FieldType": "System.Int32",
+      "FieldLength": 351
     }
   }
 }

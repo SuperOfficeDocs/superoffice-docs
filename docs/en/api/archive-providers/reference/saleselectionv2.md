@@ -58,9 +58,12 @@ This is the archive Provider for the Selection sale archive.
 |probPercent|int|Probability as %: Probability as %| x |
 |originalStage|listAny|Stage: Displays the stage of the sale| x |
 |stage|listAny|Stage: Displays the stage of the sale| x |
+|stageName| *None* |Stage name: Displays the stage of the sale| x |
 |saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
 |stageRank| *None* |Stage rank: Rank of the sale stage in the stage list| x |
 |saleType|listAny|Sale type: Sale type, from list| x |
+|saleTypeId| *None* |Sale type ID: Sale type, from list| x |
+|stageId| *None* |Sale stage ID: Displays the stage of the sale| x |
 |nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
 |reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
 |stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
@@ -118,13 +121,13 @@ This is the archive Provider for the Selection sale archive.
 |person/portraitThumbnail| *None* |Person image: Person image|  |
 |person/personActiveErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |person/ticketPriority|listAny|Service priority: Default service priority for this contact| x |
-|person/supportLanguage|listAny|Preferred language: Preferred language used for reply templates and more| x |
-|person/supportAssociate|associate|Our service contact: Default service contact for this contact| x |
-|person/supportAssociateFullName|associate|Our service contact - Full name: Default service contact for this contact| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/supportLanguage|listAny|Preferred language: Preferred language used for reply templates and more| x |
+|person/supportAssociate|associate|Our service contact: Default service contact for this contact| x |
+|person/supportAssociateFullName|associate|Our service contact - Full name: Default service contact for this contact| x |
 |person/personAssociateId|associate|Our contact: Displays our contact| x |
 |person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Category| x |
@@ -222,13 +225,13 @@ This is the archive Provider for the Selection sale archive.
 |person/personExtra/y\_car/id|int|Car - id: Displays the row's primary key (y\_car)| x |
 |person/personAssociate/firstName|string|First name: Displays the contact's first name| x |
 |person/personAssociate/lastName|string|Last name: Displays the contact's last name| x |
-|person/personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
-|person/personAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|person/personAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
+|person/personAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|person/personAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |person/personAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |person/personAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |person/personAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
@@ -326,13 +329,13 @@ This is the archive Provider for the Selection sale archive.
 |contact/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |contact/deletedDate|datetime|Deleted date: Deleted date|  |
 |contact/mainContact| *None* |Main contact: Main contact for this company| x |
-|contact/contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
-|contact/contactPhone/description|string|Telephone - Description: Phone number description| x |
-|contact/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
+|contact/contactPhone/description|string|Telephone - Description: Phone number description| x |
+|contact/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
 |contact/contactFax/description|string|Fax - Description: Phone number description| x |
 |contact/searchPhone/formattedNumber|string|Searchphone - Phone: Displays phone number|  |
 |contact/searchPhone/description|string|Searchphone - Description: Phone number description| x |
@@ -430,13 +433,13 @@ This is the archive Provider for the Selection sale archive.
 |contact/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
 |contact/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
 |contact/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
-|contact/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
-|contact/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
-|contact/contactExtra/x\_contact\_dropdown|listAny|Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
+|contact/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
+|contact/contactExtra/x\_contact\_dropdown|listAny|Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
 |contact/contactExtra/x\_contact\_date|date|Extra date: Custom date field. User current as default.| x |
 |contact/contactExtra/x\_contact\_datetime|datetime|Extra DateTime: Custom Date Time field. No default value. External| x |
 |contact/contactExtra/x\_contact\_time| *None* |Extra time: Custom time field.| x |
@@ -534,18 +537,19 @@ This is the archive Provider for the Selection sale archive.
 |appointment/who| *None* |Who: Contact and/or company|  |
 |appointment/updatedBy|associate|Updated by: The user who last updated the data| x |
 |appointment/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
-|appointment/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
-|appointment/registeredBy|associate|Registered by: The user who registered the data| x |
-|appointment/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
+|appointment/registeredBy|associate|Registered by: The user who registered the data| x |
+|appointment/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |appointment/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |appointment/appointmentId|int|DB ID: Displays the database ID of a row| x |
 |appointment/endDate|date|End date: Displays the deadline for a follow-up/sale| x |
 |appointment/priority|listAny|Priority: Displays the priority of the activity| x |
 |appointment/alarm|bool|Has alarm: Displays the alarm state of a follow-up| x |
+|appointment/isFree|bool|Is free: Displays whether the appointment should be considered free or busy| x |
 |appointment/recurring|bool|Repeating: Displays an icon indicating if the follow-up is part of a repeating follow-up| x |
 |appointment/booking|bool|Invitation: Displays an icon if the follow-up is an invitation. All invitations will be displayed in a tooltip.| x |
 |appointment/intention|listAny|Intention: Displays the intention of the follow-up type| x |
@@ -637,14 +641,14 @@ This is the archive Provider for the Selection sale archive.
 |document/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |document/registeredBy|associate|Registered by: The user who registered the data| x |
 |document/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
-|document/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
-|document/documentId|int|Document ID: Database ID of document record| x |
-|document/keywords|string|Keywords | x |
-|document/ourref|string|Our ref.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
+|document/documentId|int|Document ID: Database ID of document record| x |
+|document/keywords|string|Keywords | x |
+|document/ourref|string|Our ref.| x |
 |document/yourref|string|Your ref.| x |
 |document/attention|string|Salutation| x |
 |document/subject|string|Subject| x |
@@ -741,14 +745,14 @@ This is the archive Provider for the Selection sale archive.
 |project/projectAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |project/projectAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |project/projectAssociate/personId|int|Contact ID: Database ID of the contact row|  |
-|project/projectAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|project/projectAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
-|project/projectAssociate/associateDbId|associate|ID| x |
-|project/projectAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|project/projectAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
+|project/projectAssociate/associateDbId|associate|ID| x |
+|project/projectAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |project/projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |project/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |project/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
@@ -845,14 +849,14 @@ This is the archive Provider for the Selection sale archive.
 |saleStakeholder/person/personRegisteredDate|date|Stakeholder - Registered date: The date/time the data was registered in UTC.| x |
 |saleStakeholder/person/portraitThumbnail| *None* |Stakeholder - Person image: Person image|  |
 |saleStakeholder/person/personActiveErpLinks|bool|Stakeholder - ERP connected: Is there an active ERP Sync?| x |
-|saleStakeholder/person/ticketPriority|listAny|Stakeholder - Service priority: Default service priority for this contact| x |
-|saleStakeholder/person/supportLanguage|listAny|Stakeholder - Preferred language: Preferred language used for reply templates and more| x |
-|saleStakeholder/person/supportAssociate|associate|Stakeholder - Our service contact: Default service contact for this contact| x |
-|saleStakeholder/person/supportAssociateFullName|associate|Stakeholder - Our service contact - Full name: Default service contact for this contact| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/person/ticketPriority|listAny|Stakeholder - Service priority: Default service priority for this contact| x |
+|saleStakeholder/person/supportLanguage|listAny|Stakeholder - Preferred language: Preferred language used for reply templates and more| x |
+|saleStakeholder/person/supportAssociate|associate|Stakeholder - Our service contact: Default service contact for this contact| x |
+|saleStakeholder/person/supportAssociateFullName|associate|Stakeholder - Our service contact - Full name: Default service contact for this contact| x |
 |saleStakeholder/person/personAssociateId|associate|Stakeholder - Our contact: Displays our contact| x |
 |saleStakeholder/person/personAssociateFullName|associate|Stakeholder - Our contact - Full name: Displays our contact| x |
 |saleStakeholder/person/personCategory|listAny|Stakeholder - Category| x |
@@ -949,14 +953,14 @@ This is the archive Provider for the Selection sale archive.
 |saleStakeholder/person/personExtra/y\_rental/y\_equipment/x\_name|string|Stakeholder - Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
 |saleStakeholder/person/personExtra/y\_car/id|int|Stakeholder - Car - id: Displays the row's primary key (y\_car)| x |
 |saleStakeholder/person/personAssociate/firstName|string|Stakeholder - First name: Displays the contact's first name| x |
-|saleStakeholder/person/personAssociate/lastName|string|Stakeholder - Last name: Displays the contact's last name| x |
-|saleStakeholder/person/personAssociate/middleName|string|Stakeholder - Middle Name: Displays the contact's middle name.| x |
-|saleStakeholder/person/personAssociate/fullName|string|Stakeholder - Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|saleStakeholder/person/personAssociate/contactId|int|Stakeholder - Company ID: Database ID of the company the user belongs to|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/person/personAssociate/lastName|string|Stakeholder - Last name: Displays the contact's last name| x |
+|saleStakeholder/person/personAssociate/middleName|string|Stakeholder - Middle Name: Displays the contact's middle name.| x |
+|saleStakeholder/person/personAssociate/fullName|string|Stakeholder - Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|saleStakeholder/person/personAssociate/contactId|int|Stakeholder - Company ID: Database ID of the company the user belongs to|  |
 |saleStakeholder/person/personAssociate/personId|int|Stakeholder - Contact ID: Database ID of the contact row|  |
 |saleStakeholder/person/personAssociate/mrMrs|string|Stakeholder - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |saleStakeholder/person/personAssociate/title|string|Stakeholder - Title: Displays whether the contact is addressed as Mr or Ms| x |
@@ -1053,14 +1057,14 @@ This is the archive Provider for the Selection sale archive.
 |saleStakeholder/contact/phone/formattedNumber|string|Stakeholder - Phone: Displays phone number|  |
 |saleStakeholder/contact/activeErpLinks|bool|Stakeholder - ERP connected: Is there an active ERP Sync?| x |
 |saleStakeholder/contact/deletedDate|datetime|Stakeholder - Deleted date: Deleted date|  |
-|saleStakeholder/contact/mainContact| *None* |Stakeholder - Main contact: Main contact for this company| x |
-|saleStakeholder/contact/contactPhone/formattedNumber|string|Stakeholder - Telephone - Phone: Displays phone number|  |
-|saleStakeholder/contact/contactPhone/description|string|Stakeholder - Telephone - Description: Phone number description| x |
-|saleStakeholder/contact/contactFax/formattedNumber|string|Stakeholder - Fax - Phone: Displays phone number|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/contact/mainContact| *None* |Stakeholder - Main contact: Main contact for this company| x |
+|saleStakeholder/contact/contactPhone/formattedNumber|string|Stakeholder - Telephone - Phone: Displays phone number|  |
+|saleStakeholder/contact/contactPhone/description|string|Stakeholder - Telephone - Description: Phone number description| x |
+|saleStakeholder/contact/contactFax/formattedNumber|string|Stakeholder - Fax - Phone: Displays phone number|  |
 |saleStakeholder/contact/contactFax/description|string|Stakeholder - Fax - Description: Phone number description| x |
 |saleStakeholder/contact/searchPhone/formattedNumber|string|Stakeholder - Searchphone - Phone: Displays phone number|  |
 |saleStakeholder/contact/searchPhone/description|string|Stakeholder - Searchphone - Description: Phone number description| x |
@@ -1157,14 +1161,14 @@ This is the archive Provider for the Selection sale archive.
 |saleStakeholder/contact/contactUdef/SuperOffice:12|listAny|Stakeholder - Udlist one: Static tooltip for udlist one| x |
 |saleStakeholder/contact/contactUdef/SuperOffice:13|listAny|Stakeholder - Udlist two: Static tooltip for udlist two| x |
 |saleStakeholder/contact/contactExtra/x\_contact\_integer|int|Stakeholder - Extra Integer: Custom integer field| x |
-|saleStakeholder/contact/contactExtra/x\_contact\_default\_integer|int|Stakeholder - Extra Default Integer: Custom integer field with default value 123.| x |
-|saleStakeholder/contact/contactExtra/x\_contact\_float|decimal|Stakeholder - Extra Float: Custom float field with 3 decimals| x |
-|saleStakeholder/contact/contactExtra/x\_contact\_longtext|string|Stakeholder - Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
-|saleStakeholder/contact/contactExtra/x\_contact\_dropdown|listAny|Stakeholder - Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/contact/contactExtra/x\_contact\_default\_integer|int|Stakeholder - Extra Default Integer: Custom integer field with default value 123.| x |
+|saleStakeholder/contact/contactExtra/x\_contact\_float|decimal|Stakeholder - Extra Float: Custom float field with 3 decimals| x |
+|saleStakeholder/contact/contactExtra/x\_contact\_longtext|string|Stakeholder - Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
+|saleStakeholder/contact/contactExtra/x\_contact\_dropdown|listAny|Stakeholder - Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
 |saleStakeholder/contact/contactExtra/x\_contact\_date|date|Stakeholder - Extra date: Custom date field. User current as default.| x |
 |saleStakeholder/contact/contactExtra/x\_contact\_datetime|datetime|Stakeholder - Extra DateTime: Custom Date Time field. No default value. External| x |
 |saleStakeholder/contact/contactExtra/x\_contact\_time| *None* |Stakeholder - Extra time: Custom time field.| x |
@@ -1261,14 +1265,14 @@ This is the archive Provider for the Selection sale archive.
 |quote/version/alternative/quoteline/erpProductKey|string|Product key: The foreign key of the product the quote line is based on.| x |
 |quote/version/alternative/quoteline/rank|int|Rank: Shows the rank of a product| x |
 |quote/version/alternative/quoteline/quantity|decimal|Quantity: The quantity that is offered| x |
-|quote/version/alternative/quoteline/name|string|Name: The name of the product that is being offered.  This name can be changed to accommodate the customer's needs.| x |
-|quote/version/alternative/quoteline/description|string|Description: Description of the product that is offered| x |
-|quote/version/alternative/quoteline/code|string|Code: The product or article code. This code is created to help you quickly find products you offer regularly.| x |
-|quote/version/alternative/quoteline/quantityUnit|string|Unit: The unit of the product that is offered.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|quote/version/alternative/quoteline/name|string|Name: The name of the product that is being offered.  This name can be changed to accommodate the customer's needs.| x |
+|quote/version/alternative/quoteline/description|string|Description: Description of the product that is offered| x |
+|quote/version/alternative/quoteline/code|string|Code: The product or article code. This code is created to help you quickly find products you offer regularly.| x |
+|quote/version/alternative/quoteline/quantityUnit|string|Unit: The unit of the product that is offered.| x |
 |quote/version/alternative/quoteline/priceUnit|string|Price unit: What is the price unit defined in| x |
 |quote/version/alternative/quoteline/url|string|Web address: The web address of the product info.| x |
 |quote/version/alternative/quoteline/subscriptionUnit|string|Subscription unit: Unit the subscription is sold/renewed in, such as year/quarter/month| x |
@@ -1312,7 +1316,7 @@ This is the archive Provider for the Selection sale archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleSelectionV2?$select=activeErpLinks,person/personDirectPhone/formattedNumber,contact/email/emailAddress,contact/email/emailBounceCount,contact/contactAssociate/credentialDisplayValue
+GET /api/v1/archive/SaleSelectionV2?$select=stageName,person/personDirectPhone/description,person/personExtra/x_person_contact_relation,person/personAssociate/contactFullName,contact/nameDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

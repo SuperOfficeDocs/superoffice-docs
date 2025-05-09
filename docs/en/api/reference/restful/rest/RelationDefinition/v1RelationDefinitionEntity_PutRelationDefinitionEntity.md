@@ -93,16 +93,16 @@ RelationDefinitionEntity updated.
 PUT /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 462,
-  "Name": "Wisozk, Metz and Keeling",
-  "Tooltip": "repellat",
-  "PassiveText": "suscipit",
+  "ReldefId": 941,
+  "Name": "Marvin, Hoppe and Huel",
+  "Tooltip": "dolorem",
+  "PassiveText": "occaecati",
   "Deleted": true,
-  "Rank": 578,
+  "Rank": 953,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -115,20 +115,20 @@ HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 842,
-  "Name": "Schaefer Inc and Sons",
-  "Tooltip": "quisquam",
-  "PassiveText": "vero",
-  "Deleted": false,
-  "Rank": 446,
+  "ReldefId": 386,
+  "Name": "Konopelski Inc and Sons",
+  "Tooltip": "esse",
+  "PassiveText": "quia",
+  "Deleted": true,
+  "Rank": 388,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 64
+      "FieldType": "System.Int32",
+      "FieldLength": 382
     }
   },
   "_Links": {

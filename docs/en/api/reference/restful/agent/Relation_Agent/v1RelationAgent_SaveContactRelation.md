@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 864,
-  "SourcePersonId": 669,
-  "DestinationContactId": 699,
-  "DestinationPersonId": 372,
-  "RelationId": 1001,
-  "Comment": "omnis",
-  "RelationDefinitionId": 131,
-  "Reversed": 632,
-  "UpdatedDate": "1999-01-24T13:14:01.017639+01:00",
-  "CreatedDate": "2024-09-04T13:14:01.017639+02:00",
+  "SourceContactId": 275,
+  "SourcePersonId": 800,
+  "DestinationContactId": 362,
+  "DestinationPersonId": 637,
+  "RelationId": 699,
+  "Comment": "aut",
+  "RelationDefinitionId": 872,
+  "Reversed": 441,
+  "UpdatedDate": "2013-10-01T16:32:39.7583671+02:00",
+  "CreatedDate": "2021-02-09T16:32:39.7583671+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Stokes Group",
-  "SourcePersonName": "Ankunding, Hills and Beatty",
-  "DestinationContactName": "Hammes-Vandervort",
-  "DestinationPersonName": "White Inc and Sons",
-  "ActiveText": "aut",
-  "PassiveText": "in",
+  "SourceContactName": "Mayer Group",
+  "SourcePersonName": "Wolff Inc and Sons",
+  "DestinationContactName": "Goodwin LLC",
+  "DestinationPersonName": "Erdman, Hand and King",
+  "ActiveText": "magni",
+  "PassiveText": "dolorum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 247
+      "FieldLength": 732
     }
   }
 }

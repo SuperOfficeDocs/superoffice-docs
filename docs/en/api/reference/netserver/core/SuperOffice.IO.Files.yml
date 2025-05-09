@@ -6,7 +6,6 @@ items:
   children:
   - SuperOffice.IO.Files.DiskFileAccess
   - SuperOffice.IO.Files.IFileAccess
-  - SuperOffice.IO.Files.SoArcConfiguration
   - SuperOffice.IO.Files.SoFileInfo
   langs:
   - csharp
@@ -37,12 +36,6 @@ references:
   name: SoFileInfo
   nameWithType: SoFileInfo
   fullName: SuperOffice.IO.Files.SoFileInfo
-- uid: SuperOffice.IO.Files.SoArcConfiguration
-  commentId: T:SuperOffice.IO.Files.SoArcConfiguration
-  isExternal: true
-  name: SoArcConfiguration
-  nameWithType: SoArcConfiguration
-  fullName: SuperOffice.IO.Files.SoArcConfiguration
 - uid: SuperOffice.IO.Files
   commentId: N:SuperOffice.IO.Files
   isExternal: true

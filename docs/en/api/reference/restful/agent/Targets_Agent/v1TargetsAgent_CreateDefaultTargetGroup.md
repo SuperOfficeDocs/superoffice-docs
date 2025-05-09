@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,30 +72,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 290,
-  "Year": 271,
+  "TargetGroupId": 476,
+  "Year": 711,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 900,
+      "TargetAssignmentInfoId": 814,
       "Values": [
-        594,
-        550
+        154,
+        289
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 820,
-      "DimensionListItemDisplayName": "Bartoletti Group",
+      "DimensionListItem": 904,
+      "DimensionListItemDisplayName": "Bergstrom-Larkin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 14
+          "FieldType": "System.Int32",
+          "FieldLength": 531
         }
       }
     }
@@ -105,8 +105,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 22
+      "FieldType": "System.Int32",
+      "FieldLength": 484
     }
   }
 }

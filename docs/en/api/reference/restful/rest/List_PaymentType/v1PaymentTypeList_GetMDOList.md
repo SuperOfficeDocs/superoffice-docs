@@ -26,8 +26,8 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentType/MDOItems?flat=True
-GET /api/v1/List/PaymentType/MDOItems?query=voluptatem
+GET /api/v1/List/PaymentType/MDOItems?flat=False
+GET /api/v1/List/PaymentType/MDOItems?query=at
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 46,
-    "Name": "Wintheiser, Lueilwitz and Ankunding",
-    "ToolTip": "Soluta asperiores et rerum eum alias.",
+    "Id": 19,
+    "Name": "Marquardt-Connelly",
+    "ToolTip": "In officia reprehenderit vel.",
     "Deleted": false,
-    "Rank": 57,
-    "Type": "laborum",
+    "Rank": 362,
+    "Type": "atque",
     "ChildItems": [
       {
-        "Id": 226,
-        "Name": "Shanahan, Huel and Wintheiser",
-        "ToolTip": "Ut ducimus hic dolorem et nisi et voluptatem.",
-        "Deleted": true,
-        "Rank": 377,
-        "Type": "qui",
+        "Id": 386,
+        "Name": "Hessel, Bechtelar and Mraz",
+        "ToolTip": "Est saepe.",
+        "Deleted": false,
+        "Rank": 475,
+        "Type": "voluptas",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 94,
-        "ExtraInfo": "accusantium",
-        "StyleHint": "iure",
-        "FullName": "Vickie Grant",
+        "IconHint": "saepe",
+        "ColorBlock": 19,
+        "ExtraInfo": "earum",
+        "StyleHint": "rerum",
+        "FullName": "Bianka Macejkovic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 526
+            "FieldLength": 660
           }
         }
       }
     ],
-    "IconHint": "quos",
-    "ColorBlock": 785,
-    "ExtraInfo": "est",
-    "StyleHint": "inventore",
-    "FullName": "Dr. Manuela Medhurst",
+    "IconHint": "est",
+    "ColorBlock": 833,
+    "ExtraInfo": "vitae",
+    "StyleHint": "velit",
+    "FullName": "Jamar Block",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 980
+        "FieldType": "System.Int32",
+        "FieldLength": 143
       }
     }
   }

@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/License/GetModuleLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Pacocha-Kling",
-  "ModuleName": "Okuneva Inc and Sons"
+  "OwnerName": "Herzog, Kihn and Schiller",
+  "ModuleName": "Predovic Group"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Sporer, Kerluke and Considine",
-  "ModuleName": "Johnson, Skiles and Ernser",
-  "ModuleDescription": "Universal holistic implementation",
-  "ModuleTooltip": "tenetur",
-  "ModuleVersion": "qui",
+  "OwnerName": "Hermann-Lebsack",
+  "ModuleName": "Effertz-Kuhic",
+  "ModuleDescription": "Progressive national focus group",
+  "ModuleTooltip": "est",
+  "ModuleVersion": "in",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": false,
+  "Unrestricted": true,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 375,
-  "ExtraFlags": 800,
-  "ExtraInfo": "harum",
-  "SortOrder": 449,
-  "IsHidden": false,
-  "PrerequisiteModuleName": "Schoen, Pfannerstill and Pollich",
-  "Signature": "distinctio"
+  "NumberOfLicenses": 854,
+  "ExtraFlags": 188,
+  "ExtraInfo": "neque",
+  "SortOrder": 642,
+  "IsHidden": true,
+  "PrerequisiteModuleName": "Larson-Champlin",
+  "Signature": "quisquam"
 }
 ```

@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBaseList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 833,
-    "Name": "Padberg-Keebler",
-    "Tooltip": "et",
-    "Rank": 106,
-    "Key": "vitae",
-    "Deleted": true,
+    "LegalBaseId": 373,
+    "Name": "Tillman-Koch",
+    "Tooltip": "quo",
+    "Rank": 454,
+    "Key": "est",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 957
+        "FieldType": "System.Int32",
+        "FieldLength": 985
       }
     }
   }

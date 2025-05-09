@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 406,
-  "Name": "Trantow LLC",
-  "Tooltip": "dolorem",
+  "Id": 537,
+  "Name": "Fay-O'Reilly",
+  "Tooltip": "et",
   "Deleted": true,
-  "Rank": 990,
+  "Rank": 302,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "voluptas",
-  "InUseByUserDefinedFields": false,
+  "ListType": "voluptatem",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 188
+      "FieldLength": 369
     }
   }
 }

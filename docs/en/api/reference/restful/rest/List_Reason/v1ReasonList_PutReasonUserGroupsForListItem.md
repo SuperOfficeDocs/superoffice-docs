@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 809,
-    "Name": "Wilkinson, Swift and Haag",
-    "ToolTip": "Tenetur dolores.",
+    "Id": 876,
+    "Name": "Gislason, O'Keefe and Hettinger",
+    "ToolTip": "Iusto deleniti ipsam.",
     "Deleted": false,
-    "Rank": 64,
-    "Type": "vero",
-    "ColorBlock": 104,
-    "IconHint": "et",
+    "Rank": 18,
+    "Type": "ea",
+    "ColorBlock": 833,
+    "IconHint": "minima",
     "Selected": false,
-    "LastChanged": "2012-01-10T13:14:10.0097876+01:00",
+    "LastChanged": "2008-05-25T16:32:48.8994739+02:00",
     "ChildItems": [
       {
-        "Id": 415,
-        "Name": "Walter, Rowe and Vandervort",
-        "ToolTip": "Consectetur autem tempore in.",
-        "Deleted": false,
-        "Rank": 874,
-        "Type": "quod",
-        "ColorBlock": 669,
-        "IconHint": "possimus",
-        "Selected": false,
-        "LastChanged": "2024-09-22T13:14:10.0097876+02:00",
+        "Id": 738,
+        "Name": "Boehm, Hirthe and Purdy",
+        "ToolTip": "Est non quia eveniet et quod architecto.",
+        "Deleted": true,
+        "Rank": 407,
+        "Type": "sunt",
+        "ColorBlock": 43,
+        "IconHint": "officiis",
+        "Selected": true,
+        "LastChanged": "2000-05-20T16:32:48.8994739+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "temporibus",
+        "ExtraInfo": "est",
+        "StyleHint": "harum",
         "Hidden": false,
-        "FullName": "Dr. Lexus Christiansen"
+        "FullName": "Mrs. Nicklaus VonRueden PhD"
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "amet",
+    "ExtraInfo": "est",
+    "StyleHint": "modi",
     "Hidden": true,
-    "FullName": "Houston Boyer"
+    "FullName": "Bertram Dustin Quigley DDS"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 657,
-    "Name": "Romaguera Group",
-    "ToolTip": "Vel in minima.",
+    "Id": 199,
+    "Name": "Parisian-Grimes",
+    "ToolTip": "Similique voluptatem sint qui.",
     "Deleted": false,
-    "Rank": 360,
-    "Type": "est",
-    "ColorBlock": 311,
-    "IconHint": "voluptas",
+    "Rank": 50,
+    "Type": "nam",
+    "ColorBlock": 914,
+    "IconHint": "a",
     "Selected": false,
-    "LastChanged": "2008-09-24T13:14:10.0097876+02:00",
+    "LastChanged": "2014-05-09T16:32:48.8994739+02:00",
     "ChildItems": [
       {
-        "Id": 166,
-        "Name": "Oberbrunner, Schulist and Kautzer",
-        "ToolTip": "Omnis voluptas mollitia asperiores veniam dolor doloremque.",
+        "Id": 676,
+        "Name": "Schoen, Halvorson and Nolan",
+        "ToolTip": "Ut optio adipisci minima.",
         "Deleted": false,
-        "Rank": 246,
-        "Type": "repudiandae",
-        "ColorBlock": 793,
-        "IconHint": "libero",
-        "Selected": false,
-        "LastChanged": "2024-12-07T13:14:10.0097876+01:00",
+        "Rank": 419,
+        "Type": "qui",
+        "ColorBlock": 266,
+        "IconHint": "iste",
+        "Selected": true,
+        "LastChanged": "2012-10-26T16:32:48.8994739+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "consectetur",
+        "ExtraInfo": "itaque",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Mrs. Rebeka Weldon Greenholt I",
+        "FullName": "Therese Tremblay IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 769
+            "FieldType": "System.String",
+            "FieldLength": 134
           }
         }
       }
     ],
-    "ExtraInfo": "error",
+    "ExtraInfo": "ex",
     "StyleHint": "libero",
-    "Hidden": true,
-    "FullName": "Leif Runolfsdottir",
+    "Hidden": false,
+    "FullName": "Jewel Fisher",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 72
+        "FieldLength": 767
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 920,
-    "Name": "Mante, Schultz and Treutel",
-    "ToolTip": "Facilis rerum aut veniam minus.",
+    "Id": 420,
+    "Name": "DuBuque, Marquardt and Walter",
+    "ToolTip": "Dolores aut vero.",
     "Deleted": false,
-    "Rank": 474,
-    "Type": "ducimus",
-    "ColorBlock": 939,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2021-07-07T13:14:09.8535282+02:00",
+    "Rank": 578,
+    "Type": "aut",
+    "ColorBlock": 468,
+    "IconHint": "maxime",
+    "Selected": true,
+    "LastChanged": "2018-12-25T16:32:48.7588803+01:00",
     "ChildItems": [
       {
-        "Id": 584,
-        "Name": "Schuppe-Pagac",
-        "ToolTip": "Repellat libero dolores quidem.",
-        "Deleted": true,
-        "Rank": 231,
-        "Type": "et",
-        "ColorBlock": 915,
-        "IconHint": "repudiandae",
+        "Id": 140,
+        "Name": "Kiehn-Kozey",
+        "ToolTip": "Aut ullam eligendi ducimus ad ut temporibus consectetur.",
+        "Deleted": false,
+        "Rank": 647,
+        "Type": "inventore",
+        "ColorBlock": 891,
+        "IconHint": "velit",
         "Selected": false,
-        "LastChanged": "2020-11-04T13:14:09.8535282+01:00",
+        "LastChanged": "2010-01-23T16:32:48.7588803+01:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "necessitatibus",
-        "StyleHint": "et",
+        "StyleHint": "facere",
         "Hidden": true,
-        "FullName": "Elnora Walsh",
+        "FullName": "Icie Morar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 816
+            "FieldLength": 177
           }
         }
       }
     ],
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "aliquam",
+    "ExtraInfo": "tenetur",
+    "StyleHint": "eos",
     "Hidden": false,
-    "FullName": "Trent Senger",
+    "FullName": "Mrs. Whitney Kamron Fay",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 580
+        "FieldLength": 854
       }
     }
   }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/Agents/List/SaveCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 922,
-  "Name": "Terry, Lind and Senger",
-  "Tooltip": "eum",
-  "Rank": 517,
-  "Rate": 18286.89,
-  "Units": 17462.648,
+  "CurrencyId": 367,
+  "Name": "Powlowski, Strosin and Haag",
+  "Tooltip": "temporibus",
+  "Rank": 257,
+  "Rate": 26949.266,
+  "Units": 16657.21,
   "Deleted": false
 }
 ```
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 315,
-  "Name": "O'Reilly LLC",
-  "Tooltip": "facere",
-  "Rank": 451,
-  "Rate": 9721.668,
-  "Units": 29860.752,
-  "Deleted": true,
+  "CurrencyId": 876,
+  "Name": "Schimmel, Conn and Carter",
+  "Tooltip": "praesentium",
+  "Rank": 729,
+  "Rate": 15250.044,
+  "Units": 300.864,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 16
+      "FieldType": "System.Int32",
+      "FieldLength": 552
     }
   }
 }

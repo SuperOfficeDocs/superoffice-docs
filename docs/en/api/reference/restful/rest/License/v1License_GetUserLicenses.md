@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,56 +73,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Moen, Heaney and Reilly",
-    "Description": "Switchable reciprocal application",
+    "Name": "Witting Inc and Sons",
+    "Description": "Phased static framework",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 708,
-        "Tooltip": "reiciendis",
-        "CanAssign": true,
-        "Free": 30,
-        "InUse": 169,
+        "Total": 801,
+        "Tooltip": "dolor",
+        "CanAssign": false,
+        "Free": 241,
+        "InUse": 72,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 537,
-        "Name": "O'Keefe-Zieme",
-        "Description": "Re-contextualized empowering focus group",
-        "PrerequisiteModuleName": "Greenfelder-Douglas",
-        "SortOrder": 990,
-        "ExtraFlags": 10,
+        "Assigned": true,
+        "ModuleLicenseId": 820,
+        "Name": "Larson, Shields and Homenick",
+        "Description": "Organized impactful challenge",
+        "PrerequisiteModuleName": "Lowe LLC",
+        "SortOrder": 939,
+        "ExtraFlags": 38,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 534
+            "FieldLength": 774
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 519,
-        "Tooltip": "animi",
-        "CanAssign": true,
-        "Free": 947,
-        "InUse": 262,
-        "IsHidden": true,
+        "Unrestricted": true,
+        "Total": 452,
+        "Tooltip": "facilis",
+        "CanAssign": false,
+        "Free": 318,
+        "InUse": 794,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 536,
-        "Name": "Wiza Group",
-        "Description": "Innovative mobile strategy",
-        "PrerequisiteModuleName": "Windler LLC",
-        "SortOrder": 900,
-        "ExtraFlags": 826,
+        "ModuleLicenseId": 495,
+        "Name": "Stokes-Schmeler",
+        "Description": "Streamlined hybrid leverage",
+        "PrerequisiteModuleName": "Abbott-O'Keefe",
+        "SortOrder": 711,
+        "ExtraFlags": 976,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 427
+            "FieldType": "System.String",
+            "FieldLength": 274
           }
         }
       }
@@ -132,61 +132,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 990
+        "FieldLength": 775
       }
     }
   },
   {
-    "Name": "Moen, Heaney and Reilly",
-    "Description": "Switchable reciprocal application",
+    "Name": "Witting Inc and Sons",
+    "Description": "Phased static framework",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 708,
-        "Tooltip": "reiciendis",
-        "CanAssign": true,
-        "Free": 30,
-        "InUse": 169,
+        "Total": 801,
+        "Tooltip": "dolor",
+        "CanAssign": false,
+        "Free": 241,
+        "InUse": 72,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 537,
-        "Name": "O'Keefe-Zieme",
-        "Description": "Re-contextualized empowering focus group",
-        "PrerequisiteModuleName": "Greenfelder-Douglas",
-        "SortOrder": 990,
-        "ExtraFlags": 10,
+        "Assigned": true,
+        "ModuleLicenseId": 820,
+        "Name": "Larson, Shields and Homenick",
+        "Description": "Organized impactful challenge",
+        "PrerequisiteModuleName": "Lowe LLC",
+        "SortOrder": 939,
+        "ExtraFlags": 38,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 534
+            "FieldLength": 774
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 519,
-        "Tooltip": "animi",
-        "CanAssign": true,
-        "Free": 947,
-        "InUse": 262,
-        "IsHidden": true,
+        "Unrestricted": true,
+        "Total": 452,
+        "Tooltip": "facilis",
+        "CanAssign": false,
+        "Free": 318,
+        "InUse": 794,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 536,
-        "Name": "Wiza Group",
-        "Description": "Innovative mobile strategy",
-        "PrerequisiteModuleName": "Windler LLC",
-        "SortOrder": 900,
-        "ExtraFlags": 826,
+        "ModuleLicenseId": 495,
+        "Name": "Stokes-Schmeler",
+        "Description": "Streamlined hybrid leverage",
+        "PrerequisiteModuleName": "Abbott-O'Keefe",
+        "SortOrder": 711,
+        "ExtraFlags": 976,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 427
+            "FieldType": "System.String",
+            "FieldLength": 274
           }
         }
       }
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 990
+        "FieldLength": 775
       }
     }
   }

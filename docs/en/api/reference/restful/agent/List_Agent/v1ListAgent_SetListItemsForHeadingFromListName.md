@@ -71,13 +71,13 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Daugherty LLC",
-  "HeadingId": 776,
+  "UdListDefinitionName": "Skiles Group",
+  "HeadingId": 198,
   "ListItemIds": [
-    992,
-    9
+    964,
+    224
   ],
-  "Enable": false
+  "Enable": true
 }
 ```
 

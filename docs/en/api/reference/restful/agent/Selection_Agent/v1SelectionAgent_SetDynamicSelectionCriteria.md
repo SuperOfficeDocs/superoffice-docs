@@ -83,22 +83,22 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 588,
+  "SelectionId": 638,
   "Criteria": [
     {
-      "Name": "Stamm-Beier",
-      "Operator": "fugit",
+      "Name": "Frami, Davis and Skiles",
+      "Operator": "totam",
       "Values": [
-        "harum",
-        "non"
+        "repellat",
+        "veritatis"
       ],
       "DisplayValues": [
-        "dolore",
-        "numquam"
+        "ducimus",
+        "aut"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -106,9 +106,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 130,
+      "InterParenthesis": 27,
       "InterOperator": "And",
-      "UniqueHash": 943
+      "UniqueHash": 401
     }
   ]
 }
@@ -122,44 +122,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ondricka, Ankunding and Hickle",
-    "Operator": "modi",
+    "Name": "Schulist Group",
+    "Operator": "ipsa",
     "Values": [
-      "exercitationem",
-      "incidunt"
+      "reprehenderit",
+      "minus"
     ],
     "DisplayValues": [
-      "doloribus",
-      "voluptas"
+      "vitae",
+      "est"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Trantow LLC",
-        "Operator": "velit",
+        "Name": "Sauer-Lind",
+        "Operator": "sit",
         "Values": [
-          "a",
-          "nobis"
+          "minima",
+          "illo"
         ],
         "DisplayValues": [
-          "enim",
-          "molestiae"
+          "nihil",
+          "esse"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 810,
+        "InterParenthesis": 837,
         "InterOperator": "And",
-        "UniqueHash": 592
+        "UniqueHash": 690
       }
     ],
-    "InterParenthesis": 427,
+    "InterParenthesis": 203,
     "InterOperator": "And",
-    "UniqueHash": 275
+    "UniqueHash": 399
   }
 ]
 ```

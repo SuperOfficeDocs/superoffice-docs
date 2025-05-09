@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/EMail/GetEmailAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 240
+  "MailItemId": 203
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
   "Appointment": null,
   "CalMethod": "Add",
   "Participants": [
-    "consectetur",
-    "necessitatibus"
+    "voluptas",
+    "sint"
   ],
-  "Comment": "debitis",
-  "Sequence": 942,
-  "DtStart": "1998-09-25T13:14:00.313724+02:00",
-  "DtEnd": "2016-03-31T13:14:00.313724+02:00",
-  "Superseded": false,
+  "Comment": "voluptates",
+  "Sequence": 254,
+  "DtStart": "2014-10-19T16:32:38.9926739+02:00",
+  "DtEnd": "2003-09-23T16:32:38.9926739+02:00",
+  "Superseded": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 372
+      "FieldLength": 147
     }
   }
 }

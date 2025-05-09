@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 14,
-  "PrefDescId": 564,
-  "PrefValue": "magni",
-  "PrefShowValue": "laborum",
-  "Description": "Team-oriented coherent workforce",
-  "IsBuiltin": true,
+  "PrefDescLineId": 19,
+  "PrefDescId": 123,
+  "PrefValue": "rerum",
+  "PrefShowValue": "quod",
+  "Description": "Distributed impactful pricing structure",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 499
+      "FieldType": "System.Int32",
+      "FieldLength": 4
     }
   }
 }

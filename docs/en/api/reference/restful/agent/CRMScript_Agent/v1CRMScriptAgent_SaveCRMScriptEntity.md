@@ -99,52 +99,52 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 845,
-  "UniqueIdentifier": "atque",
-  "Name": "Greenholt Inc and Sons",
-  "Description": "Progressive attitude-oriented collaboration",
-  "IncludeId": "expedita",
-  "AccessKey": "ab",
-  "HierarchyId": 582,
-  "Source": "ut",
-  "SourceCode": "consequatur",
+  "EjscriptId": 695,
+  "UniqueIdentifier": "maxime",
+  "Name": "Hills Group",
+  "Description": "Up-sized zero tolerance conglomeration",
+  "IncludeId": "voluptate",
+  "AccessKey": "repellendus",
+  "HierarchyId": 66,
+  "Source": "iure",
+  "SourceCode": "ut",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 92,
+  "HtmlOutput": 818,
   "Includes": [
-    192,
-    246
+    195,
+    482
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 580,
-      "LineNumberTo": 956,
-      "Delta": 267,
-      "IncludeId": "repellat",
+      "LineNumberFrom": 684,
+      "LineNumberTo": 286,
+      "Delta": 656,
+      "IncludeId": "dolorum",
       "IncludedFrom": [
-        "dolor",
-        "et"
+        "maiores",
+        "necessitatibus"
       ]
     },
     {
-      "LineNumberFrom": 580,
-      "LineNumberTo": 956,
-      "Delta": 267,
-      "IncludeId": "repellat",
+      "LineNumberFrom": 684,
+      "LineNumberTo": 286,
+      "Delta": 656,
+      "IncludeId": "dolorum",
       "IncludedFrom": [
-        "dolor",
-        "et"
+        "maiores",
+        "necessitatibus"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "2012-10-23T13:14:00.0033265+02:00",
-  "RegisteredAssociateId": 261,
-  "Updated": "2019-07-18T13:14:00.0033265+02:00",
-  "UpdatedAssociateId": 40
+  "Registered": "2001-12-25T16:32:38.5552758+01:00",
+  "RegisteredAssociateId": 495,
+  "Updated": "2024-10-12T16:32:38.5552758+02:00",
+  "UpdatedAssociateId": 899
 }
 ```
 
@@ -155,52 +155,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 214,
-  "UniqueIdentifier": "autem",
-  "Name": "Daugherty-Schaden",
-  "Description": "Reduced disintermediate benchmark",
-  "IncludeId": "et",
-  "AccessKey": "cumque",
-  "HierarchyId": 905,
-  "Source": "omnis",
-  "SourceCode": "incidunt",
+  "EjscriptId": 496,
+  "UniqueIdentifier": "voluptatem",
+  "Name": "Hoppe Group",
+  "Description": "Enhanced stable solution",
+  "IncludeId": "quia",
+  "AccessKey": "aut",
+  "HierarchyId": 249,
+  "Source": "sapiente",
+  "SourceCode": "ut",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 378,
+  "HtmlOutput": 333,
   "Includes": [
-    648,
-    899
+    846,
+    260
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 880,
-      "LineNumberTo": 583,
-      "Delta": 424,
-      "IncludeId": "commodi",
+      "LineNumberFrom": 835,
+      "LineNumberTo": 652,
+      "Delta": 203,
+      "IncludeId": "eveniet",
       "IncludedFrom": [
-        "ipsum",
-        "iusto"
+        "aut",
+        "unde"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 932
+          "FieldLength": 903
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2018-11-30T13:14:00.0033265+01:00",
-  "RegisteredAssociateId": 75,
-  "Updated": "2020-07-21T13:14:00.0033265+02:00",
-  "UpdatedAssociateId": 512,
+  "Registered": "2008-05-06T16:32:38.5552758+02:00",
+  "RegisteredAssociateId": 904,
+  "Updated": "2005-04-12T16:32:38.5552758+02:00",
+  "UpdatedAssociateId": 32,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 877
+      "FieldLength": 290
     }
   }
 }

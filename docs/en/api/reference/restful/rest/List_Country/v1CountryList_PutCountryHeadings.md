@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 529,
-    "Name": "Gulgowski-Kirlin",
-    "Tooltip": "eos",
-    "Deleted": true,
-    "Rank": 908,
-    "UdListDefinitionId": 865
+    "HeadingId": 896,
+    "Name": "Swift, Casper and Runolfsdottir",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "Rank": 250,
+    "UdListDefinitionId": 959
   },
   {
-    "HeadingId": 529,
-    "Name": "Gulgowski-Kirlin",
-    "Tooltip": "eos",
-    "Deleted": true,
-    "Rank": 908,
-    "UdListDefinitionId": 865
+    "HeadingId": 896,
+    "Name": "Swift, Casper and Runolfsdottir",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "Rank": 250,
+    "UdListDefinitionId": 959
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 112,
-    "Name": "Carter, Dare and Orn",
-    "Tooltip": "dicta",
+    "HeadingId": 63,
+    "Name": "Thiel-Breitenberg",
+    "Tooltip": "repellat",
     "Deleted": false,
-    "Rank": 195,
-    "UdListDefinitionId": 12,
+    "Rank": 574,
+    "UdListDefinitionId": 798,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 483
+        "FieldLength": 25
       }
     }
   }

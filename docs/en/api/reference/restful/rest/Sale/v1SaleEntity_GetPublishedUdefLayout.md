@@ -88,7 +88,7 @@ OK
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 586,
-    "ColumnId": 814,
-    "FieldDefault": "illum",
-    "FieldHeight": 381,
-    "FieldLabel": "maxime",
-    "FieldLeft": 282,
-    "FieldTop": 366,
+    "UDefFieldId": 802,
+    "ColumnId": 260,
+    "FieldDefault": "aut",
+    "FieldHeight": 223,
+    "FieldLabel": "autem",
+    "FieldLeft": 457,
+    "FieldTop": 327,
     "FieldType": "Checkbox",
-    "FieldWidth": 783,
-    "FormatMask": "fugit",
-    "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 314,
-    "LabelLeft": 164,
-    "LabelTop": 977,
-    "LabelWidth": 982,
-    "LastVersionId": 207,
-    "ListTableId": 49,
-    "IsMandatory": true,
+    "FieldWidth": 177,
+    "FormatMask": "consequuntur",
+    "HideLabel": false,
+    "IsIndexed": true,
+    "LabelHeight": 498,
+    "LabelLeft": 418,
+    "LabelTop": 524,
+    "LabelWidth": 890,
+    "LastVersionId": 558,
+    "ListTableId": 821,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 173,
-    "ProgId": "voluptatum",
-    "IsReadOnly": false,
-    "ShortLabel": "officia",
-    "TabOrder": 844,
-    "TextLength": 72,
-    "Tooltip": "quidem",
-    "UdefIdentity": 739,
-    "UDListDefinitionId": 253,
+    "Page1LineNo": 409,
+    "ProgId": "sunt",
+    "IsReadOnly": true,
+    "ShortLabel": "molestiae",
+    "TabOrder": 866,
+    "TextLength": 409,
+    "Tooltip": "id",
+    "UdefIdentity": 306,
+    "UDListDefinitionId": 763,
     "Justification": "Center",
-    "Version": 171,
-    "TemplateVariableName": "Goyette-Wolf",
-    "HasBeenPublished": true,
-    "MdoListName": "Robel Inc and Sons",
+    "Version": 108,
+    "TemplateVariableName": "Morissette, Ondricka and Gaylord",
+    "HasBeenPublished": false,
+    "MdoListName": "Runolfsson-Weimann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 969
+        "FieldType": "System.String",
+        "FieldLength": 451
       }
     }
   }

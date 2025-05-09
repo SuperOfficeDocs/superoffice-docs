@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Currency/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,19 +71,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 886,
-  "Name": "Schowalter-Daugherty",
-  "Tooltip": "dolores",
-  "Rank": 234,
-  "Rate": 8768.9319999999989,
-  "Units": 4450.28,
+  "CurrencyId": 80,
+  "Name": "Stanton-Johnson",
+  "Tooltip": "nostrum",
+  "Rank": 496,
+  "Rate": 11827.716,
+  "Units": 22016.35,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 636
+      "FieldLength": 263
     }
   }
 }

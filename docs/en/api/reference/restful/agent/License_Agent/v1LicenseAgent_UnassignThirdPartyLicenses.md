@@ -92,11 +92,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 863,
-  "ModuleOwner": "vel",
+  "AssociateId": 420,
+  "ModuleOwner": "tempora",
   "ModuleLicenseNames": [
-    "Collier Inc and Sons",
-    "Homenick LLC"
+    "Gorczany-Hauck",
+    "Waelchi-Lesch"
   ]
 }
 ```
@@ -109,26 +109,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 793,
-    "Tooltip": "illo",
+    "Unrestricted": false,
+    "Total": 321,
+    "Tooltip": "molestiae",
     "CanAssign": true,
-    "Free": 874,
-    "InUse": 124,
+    "Free": 369,
+    "InUse": 901,
     "IsHidden": true,
-    "Assigned": false,
-    "ModuleLicenseId": 253,
-    "Name": "Hammes-Kihn",
-    "Description": "Reactive context-sensitive archive",
-    "PrerequisiteModuleName": "Smith Inc and Sons",
-    "SortOrder": 912,
-    "ExtraFlags": 120,
+    "Assigned": true,
+    "ModuleLicenseId": 150,
+    "Name": "Crona, White and Wisoky",
+    "Description": "Operative user-facing capability",
+    "PrerequisiteModuleName": "Renner-Kohler",
+    "SortOrder": 576,
+    "ExtraFlags": 729,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 874
+        "FieldLength": 550
       }
     }
   }

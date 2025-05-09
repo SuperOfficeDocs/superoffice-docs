@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 928,
-    "Name": "Raynor, Flatley and Grimes",
-    "ToolTip": "Corrupti reprehenderit blanditiis cupiditate dolores magni adipisci totam.",
+    "Id": 94,
+    "Name": "Kiehn, McCullough and Greenfelder",
+    "ToolTip": "Voluptate itaque.",
     "Deleted": false,
-    "Rank": 356,
-    "Type": "adipisci",
-    "ColorBlock": 639,
-    "IconHint": "voluptas",
-    "Selected": true,
-    "LastChanged": "2018-07-07T13:14:10.0722914+02:00",
+    "Rank": 442,
+    "Type": "esse",
+    "ColorBlock": 323,
+    "IconHint": "quia",
+    "Selected": false,
+    "LastChanged": "2006-12-26T16:32:48.9619631+01:00",
     "ChildItems": [
       {
-        "Id": 694,
-        "Name": "Auer, Kessler and Jast",
-        "ToolTip": "Minima tempora impedit nihil quia.",
-        "Deleted": false,
-        "Rank": 239,
-        "Type": "sunt",
-        "ColorBlock": 20,
-        "IconHint": "error",
+        "Id": 964,
+        "Name": "Kunze-Kovacek",
+        "ToolTip": "Alias in labore quia.",
+        "Deleted": true,
+        "Rank": 32,
+        "Type": "veritatis",
+        "ColorBlock": 611,
+        "IconHint": "praesentium",
         "Selected": false,
-        "LastChanged": "2017-05-17T13:14:10.0722914+02:00",
+        "LastChanged": "2014-04-20T16:32:48.9619631+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "inventore",
-        "Hidden": false,
-        "FullName": "Blaise Yost"
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "voluptas",
+        "Hidden": true,
+        "FullName": "Miss Hazle Quigley"
       }
     ],
-    "ExtraInfo": "minus",
-    "StyleHint": "odit",
-    "Hidden": false,
-    "FullName": "Anya Strosin"
+    "ExtraInfo": "eos",
+    "StyleHint": "modi",
+    "Hidden": true,
+    "FullName": "London Rempel MD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 524,
-    "Name": "McClure Inc and Sons",
-    "ToolTip": "Voluptatem vero aut.",
-    "Deleted": true,
-    "Rank": 662,
-    "Type": "magnam",
-    "ColorBlock": 376,
-    "IconHint": "commodi",
-    "Selected": false,
-    "LastChanged": "2024-09-08T13:14:10.0722914+02:00",
+    "Id": 589,
+    "Name": "Douglas-Huel",
+    "ToolTip": "Similique possimus non et.",
+    "Deleted": false,
+    "Rank": 435,
+    "Type": "autem",
+    "ColorBlock": 263,
+    "IconHint": "hic",
+    "Selected": true,
+    "LastChanged": "2007-10-12T16:32:48.9775807+02:00",
     "ChildItems": [
       {
-        "Id": 270,
-        "Name": "Purdy LLC",
-        "ToolTip": "Neque sed iste.",
-        "Deleted": false,
-        "Rank": 748,
-        "Type": "est",
-        "ColorBlock": 167,
-        "IconHint": "harum",
-        "Selected": false,
-        "LastChanged": "2005-04-19T13:14:10.0722914+02:00",
+        "Id": 20,
+        "Name": "Barrows Inc and Sons",
+        "ToolTip": "Occaecati optio reprehenderit earum doloribus nihil.",
+        "Deleted": true,
+        "Rank": 32,
+        "Type": "eos",
+        "ColorBlock": 280,
+        "IconHint": "quibusdam",
+        "Selected": true,
+        "LastChanged": "2019-12-29T16:32:48.9775807+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "quia",
-        "Hidden": true,
-        "FullName": "Maye Haley",
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "sed",
+        "Hidden": false,
+        "FullName": "Miss Vanessa Hulda Shields",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 194
+            "FieldLength": 165
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "ullam",
-    "Hidden": false,
-    "FullName": "Ms. Damion Davon Cole V",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "natus",
+    "Hidden": true,
+    "FullName": "Dahlia Raynor",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 710
+        "FieldType": "System.String",
+        "FieldLength": 330
       }
     }
   }

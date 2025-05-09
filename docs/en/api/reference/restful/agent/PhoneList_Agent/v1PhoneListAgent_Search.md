@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "voluptate"
+  "SearchString": "ullam"
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "987-056-4466",
-    "PersonCellPhone": "155.935.7549 x0978",
-    "PersonPrivatePhone": "519-687-1823",
-    "PersonFaxNumber": "231550",
-    "PersonPagerNumber": "1084946",
-    "PersonEmail": "leonard@feil.uk",
-    "Id": 306,
-    "Name": "Daugherty, Berge and Rohan",
-    "Tooltip": "sint",
-    "UniqueId": "consequuntur",
+    "PersonDirectPhone": "(423)468-2089",
+    "PersonCellPhone": "1-167-388-9422",
+    "PersonPrivatePhone": "012-605-4109",
+    "PersonFaxNumber": "151823",
+    "PersonPagerNumber": "1108482",
+    "PersonEmail": "teresa@bins.name",
+    "Id": 293,
+    "Name": "Dach Inc and Sons",
+    "Tooltip": "magnam",
+    "UniqueId": "nulla",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 892
+        "FieldLength": 629
       }
     }
   }

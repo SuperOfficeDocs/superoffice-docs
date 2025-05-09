@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 423,
-    "Name": "Russel LLC",
-    "Tooltip": "error",
+    "HeadingId": 128,
+    "Name": "Borer LLC",
+    "Tooltip": "est",
     "Deleted": true,
-    "Rank": 849,
-    "UdListDefinitionId": 173
+    "Rank": 517,
+    "UdListDefinitionId": 327
   },
   {
-    "HeadingId": 423,
-    "Name": "Russel LLC",
-    "Tooltip": "error",
+    "HeadingId": 128,
+    "Name": "Borer LLC",
+    "Tooltip": "est",
     "Deleted": true,
-    "Rank": 849,
-    "UdListDefinitionId": 173
+    "Rank": 517,
+    "UdListDefinitionId": 327
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 911,
-    "Name": "O'Hara, Stokes and Ondricka",
-    "Tooltip": "cum",
+    "HeadingId": 753,
+    "Name": "Parker Inc and Sons",
+    "Tooltip": "in",
     "Deleted": false,
-    "Rank": 704,
-    "UdListDefinitionId": 388,
+    "Rank": 756,
+    "UdListDefinitionId": 117,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 527
+        "FieldLength": 63
       }
     }
   }

@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 466,
-  "Name": "Schmitt, Padberg and Dooley",
-  "Tooltip": "inventore",
+  "Id": 367,
+  "Name": "Weber-Marvin",
+  "Tooltip": "voluptate",
   "Deleted": false,
-  "UdListDefinitionId": 763,
-  "Rank": 528,
+  "UdListDefinitionId": 76,
+  "Rank": 88,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 620
+      "FieldType": "System.String",
+      "FieldLength": 68
     }
   }
 }

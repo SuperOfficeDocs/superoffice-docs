@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,41 +76,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 537,
-  "Name": "Christiansen Group",
-  "Tooltip": "et",
-  "Rank": 510,
+  "ProjTypeId": 357,
+  "Name": "Reilly Inc and Sons",
+  "Tooltip": "earum",
+  "Rank": 433,
   "DurationUnit": "Century",
-  "ProjectDuration": 433,
+  "ProjectDuration": 436,
   "Deleted": false,
-  "HasGuide": false,
+  "HasGuide": true,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 61,
-      "Name": "Turcotte, Lynch and Hartmann",
-      "ToolTip": "Porro in atque expedita quasi animi corrupti quia.",
-      "Deleted": true,
-      "Rank": 737,
-      "Type": "repudiandae",
-      "ColorBlock": 346,
-      "IconHint": "sit",
+      "Id": 737,
+      "Name": "O'Kon-Wilderman",
+      "ToolTip": "Necessitatibus culpa doloribus quam.",
+      "Deleted": false,
+      "Rank": 108,
+      "Type": "est",
+      "ColorBlock": 794,
+      "IconHint": "est",
       "Selected": false,
-      "LastChanged": "2022-07-20T13:14:00.6575024+02:00",
+      "LastChanged": "2011-01-27T16:32:39.3051024+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptatem",
-      "StyleHint": "iste",
+      "ExtraInfo": "non",
+      "StyleHint": "sunt",
       "Hidden": false,
-      "FullName": "Howard Leannon",
+      "FullName": "Agustina Tillman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 241
+          "FieldType": "System.Int32",
+          "FieldLength": 348
         }
       }
     }
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 359
+      "FieldLength": 578
     }
   }
 }

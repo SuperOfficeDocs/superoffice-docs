@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Archive/GetActivityFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,91 +79,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2007-11-15T13:13:59.4845676+01:00",
-  "ToDate": "2008-10-12T13:13:59.4845676+02:00",
+  "FromDate": "2000-09-30T16:32:38.1334952+02:00",
+  "ToDate": "2022-03-05T16:32:38.1334952+01:00",
   "AssociateList": [
     {
-      "Id": 58,
-      "Name": "Torp Group",
-      "ToolTip": "Quam deserunt.",
-      "Deleted": true,
-      "Rank": 362,
-      "Type": "qui",
-      "ColorBlock": 877,
-      "IconHint": "exercitationem",
+      "Id": 900,
+      "Name": "Koss-Botsford",
+      "ToolTip": "Occaecati repellendus nam autem at.",
+      "Deleted": false,
+      "Rank": 841,
+      "Type": "assumenda",
+      "ColorBlock": 558,
+      "IconHint": "inventore",
       "Selected": false,
-      "LastChanged": "2016-08-26T13:13:59.4845676+02:00",
+      "LastChanged": "2022-09-17T16:32:38.1334952+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aliquam",
-      "StyleHint": "voluptatem",
-      "Hidden": true,
-      "FullName": "Gwen Bergstrom",
+      "ExtraInfo": "velit",
+      "StyleHint": "perferendis",
+      "Hidden": false,
+      "FullName": "Miss Murl Grimes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 676
+          "FieldLength": 736
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 713,
-      "Name": "Orn Inc and Sons",
-      "ToolTip": "Amet aut saepe.",
+      "Id": 363,
+      "Name": "Champlin Inc and Sons",
+      "ToolTip": "Dicta officiis optio perferendis qui.",
       "Deleted": false,
-      "Rank": 690,
-      "Type": "labore",
-      "ColorBlock": 68,
-      "IconHint": "est",
-      "Selected": false,
-      "LastChanged": "2005-05-30T13:13:59.4845676+02:00",
+      "Rank": 823,
+      "Type": "iste",
+      "ColorBlock": 350,
+      "IconHint": "mollitia",
+      "Selected": true,
+      "LastChanged": "2016-08-24T16:32:38.1334952+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "consequuntur",
-      "StyleHint": "numquam",
+      "ExtraInfo": "quia",
+      "StyleHint": "totam",
       "Hidden": false,
-      "FullName": "Noah Connelly",
+      "FullName": "Jarod O'Kon DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 222
+          "FieldLength": 429
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 626,
-      "Name": "Schulist LLC",
-      "ToolTip": "Ut saepe eum et.",
+      "Id": 347,
+      "Name": "Olson-Christiansen",
+      "ToolTip": "Et ipsam aut minima ipsam cumque inventore.",
       "Deleted": false,
-      "Rank": 546,
-      "Type": "qui",
+      "Rank": 473,
+      "Type": "ab",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "odit",
-      "ColorBlock": 787,
-      "ExtraInfo": "vel",
-      "StyleHint": "repellat",
-      "FullName": "Sibyl Berge",
+      "IconHint": "quasi",
+      "ColorBlock": 462,
+      "ExtraInfo": "sequi",
+      "StyleHint": "explicabo",
+      "FullName": "Sallie Paucek",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 969
+          "FieldLength": 701
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 63
+      "FieldLength": 476
     }
   }
 }

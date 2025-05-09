@@ -15,6 +15,7 @@ items:
   - SuperOffice.Data.ShipmentAddrStatus.Ready
   - SuperOffice.Data.ShipmentAddrStatus.Sent
   - SuperOffice.Data.ShipmentAddrStatus.SoftBounced
+  - SuperOffice.Data.ShipmentAddrStatus.TestMail
   - SuperOffice.Data.ShipmentAddrStatus.TooManyBounces
   - SuperOffice.Data.ShipmentAddrStatus.Unknown
   - SuperOffice.Data.ShipmentAddrStatus.value__
@@ -420,6 +421,35 @@ items:
     return:
       type: SuperOffice.Data.ShipmentAddrStatus
     content.vb: Public Const TooManyBounces As ShipmentAddrStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.ShipmentAddrStatus.TestMail
+  commentId: F:SuperOffice.Data.ShipmentAddrStatus.TestMail
+  id: TestMail
+  parent: SuperOffice.Data.ShipmentAddrStatus
+  langs:
+  - csharp
+  - vb
+  name: TestMail
+  nameWithType: ShipmentAddrStatus.TestMail
+  fullName: SuperOffice.Data.ShipmentAddrStatus.TestMail
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n12: Recipient address is a test mail\n"
+  syntax:
+    content: public const ShipmentAddrStatus TestMail
+    return:
+      type: SuperOffice.Data.ShipmentAddrStatus
+    content.vb: Public Const TestMail As ShipmentAddrStatus
   modifiers.csharp:
   - public
   - const

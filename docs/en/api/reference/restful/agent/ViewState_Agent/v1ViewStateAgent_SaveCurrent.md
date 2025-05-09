@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 717,
-  "Id": 411,
-  "HistoryName": "Bernhard Inc and Sons",
-  "HistoryId": 900,
-  "AssociateId": 71,
-  "Name": "Daugherty, Wisoky and Heller",
-  "ItemInfo": "labore",
+  "Rank": 390,
+  "Id": 763,
+  "HistoryName": "Tremblay, Carter and Bahringer",
+  "HistoryId": 85,
+  "AssociateId": 885,
+  "Name": "Hartmann-Veum",
+  "ItemInfo": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 411
+      "FieldType": "System.String",
+      "FieldLength": 364
     }
   }
 }

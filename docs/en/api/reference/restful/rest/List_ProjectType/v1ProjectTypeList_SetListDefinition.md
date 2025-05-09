@@ -88,16 +88,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 931,
-  "Name": "Cruickshank-Denesik",
-  "Tooltip": "voluptates",
+  "Id": 368,
+  "Name": "Wiegand LLC",
+  "Tooltip": "labore",
   "Deleted": false,
-  "Rank": 256,
+  "Rank": 766,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quis",
-  "InUseByUserDefinedFields": true
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "qui",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 264,
-  "Name": "Hessel, Koelpin and McDermott",
-  "Tooltip": "molestias",
-  "Deleted": true,
-  "Rank": 381,
+  "Id": 12,
+  "Name": "Kling Group",
+  "Tooltip": "consequatur",
+  "Deleted": false,
+  "Rank": 816,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "nihil",
+  "UseGroupsAndHeadings": true,
+  "ListType": "sint",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 452
+      "FieldType": "System.String",
+      "FieldLength": 305
     }
   }
 }

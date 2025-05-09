@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 48
+  "ProjectId": 465
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Robust bi-directional moderator",
-  "Postit": "qui",
+  "Description": "Monitored client-driven neural-net",
+  "Postit": "et",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 706,
-  "IncludePerson": 732,
+  "GroupIdx": 198,
+  "IncludePerson": 315,
   "MemberCount": 99.99,
-  "Name": "Fisher, Heidenreich and Turner",
-  "PostitTextId": 361,
-  "CreatedDate": "2014-01-17T13:14:01.300672+01:00",
-  "SelectionId": 679,
-  "SoundEx": "dolores",
-  "Source": 458,
-  "TextId": 915,
-  "UpdatedDate": "2016-01-17T13:14:01.300672+01:00",
-  "UpdatedCount": 234,
-  "Visibility": 125,
+  "Name": "Terry, Marquardt and Emmerich",
+  "PostitTextId": 455,
+  "CreatedDate": "2007-03-05T16:32:39.914583+01:00",
+  "SelectionId": 443,
+  "SoundEx": "dolorem",
+  "Source": 243,
+  "TextId": 606,
+  "UpdatedDate": "2025-04-15T16:32:39.914583+02:00",
+  "UpdatedCount": 639,
+  "Visibility": 37,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 973,
-  "TargetTableName": "Murazik Group",
+  "TargetTableNumber": 505,
+  "TargetTableName": "Ondricka LLC",
   "Completed": true,
-  "LeftSelectionId": 347,
-  "RightSelectionId": 878,
+  "LeftSelectionId": 496,
+  "RightSelectionId": 305,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Swift Inc and Sons",
-  "ShadowProviderName": "Kulas-Turner",
-  "ChartKey": "labore",
-  "LastLoaded": "2001-07-25T13:14:01.300672+02:00",
-  "LastLoadedBy": 188,
+  "MainProviderName": "Heaney-Vandervort",
+  "ShadowProviderName": "Daugherty-Walsh",
+  "ChartKey": "sint",
+  "LastLoaded": "1998-08-08T16:32:39.914583+02:00",
+  "LastLoadedBy": 292,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-05-01T13:14:01.3162978+02:00",
-  "LastMembershipChangeBy": 469,
+  "LastMembershipChange": "2023-09-13T16:32:39.914583+02:00",
+  "LastMembershipChangeBy": 934,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "odit",
-  "MemberTabHeading": "quia",
-  "MailingsProviderName": "Nikolaus, Considine and Bosco",
-  "DashboardTileDefinitionId": 834,
+  "MainHeading": "nihil",
+  "MemberTabHeading": "voluptate",
+  "MailingsProviderName": "Hessel, Luettgen and Bahringer",
+  "DashboardTileDefinitionId": 273,
   "VisibleFor": [
     {
-      "VisibleId": 1000,
+      "VisibleId": 71,
       "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "DisplayValue": "vitae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 220
+          "FieldType": "System.String",
+          "FieldLength": 821
         }
       }
     },
     {
-      "VisibleId": 1000,
+      "VisibleId": 71,
       "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "DisplayValue": "vitae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 220
+          "FieldType": "System.String",
+          "FieldLength": 821
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 466
+      "FieldLength": 890
     }
   }
 }

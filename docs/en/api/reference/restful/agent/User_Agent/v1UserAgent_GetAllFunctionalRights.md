@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 934,
-    "Name": "Keebler Group",
-    "ToolTip": "Quidem aut aut quasi vitae odit sed quia.",
-    "Deleted": false,
-    "Rank": 828,
-    "Type": "id",
-    "ColorBlock": 203,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2022-01-25T13:14:01.6913203+01:00",
+    "Id": 275,
+    "Name": "Lynch Group",
+    "ToolTip": "Aperiam quod quia ullam.",
+    "Deleted": true,
+    "Rank": 431,
+    "Type": "rerum",
+    "ColorBlock": 542,
+    "IconHint": "fugiat",
+    "Selected": false,
+    "LastChanged": "2016-09-26T16:32:40.4457108+02:00",
     "ChildItems": [
       {
-        "Id": 677,
-        "Name": "Runolfsdottir, Hills and Skiles",
-        "ToolTip": "Est aut qui aut esse deleniti omnis.",
-        "Deleted": true,
-        "Rank": 762,
-        "Type": "voluptatum",
-        "ColorBlock": 125,
-        "IconHint": "id",
-        "Selected": false,
-        "LastChanged": "1999-05-17T13:14:01.6913203+02:00",
+        "Id": 687,
+        "Name": "Hettinger-Effertz",
+        "ToolTip": "Id et delectus quo velit.",
+        "Deleted": false,
+        "Rank": 825,
+        "Type": "corporis",
+        "ColorBlock": 628,
+        "IconHint": "corrupti",
+        "Selected": true,
+        "LastChanged": "2007-04-19T16:32:40.4457108+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "reprehenderit",
+        "ExtraInfo": "omnis",
+        "StyleHint": "quis",
         "Hidden": true,
-        "FullName": "Sheldon Wuckert",
+        "FullName": "Hayden Torp",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 813
+            "FieldType": "System.Int32",
+            "FieldLength": 499
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "ea",
-    "Hidden": true,
-    "FullName": "Susanna Zulauf",
+    "ExtraInfo": "consectetur",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Ms. Gregg Stanley White",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 470
+        "FieldLength": 667
       }
     }
   }

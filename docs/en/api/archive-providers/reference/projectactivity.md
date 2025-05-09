@@ -1115,9 +1115,12 @@ Activity archive provider for the Project card
 |sale/probPercent|int|Probability as %: Probability as %| x |
 |sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
 |sale/stage|listAny|Stage: Displays the stage of the sale| x |
+|sale/stageName| *None* |Stage name: Displays the stage of the sale| x |
 |sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
 |sale/stageRank| *None* |Stage rank: Rank of the sale stage in the stage list| x |
 |sale/saleType|listAny|Sale type: Sale type, from list| x |
+|sale/saleTypeId| *None* |Sale type ID: Sale type, from list| x |
+|sale/stageId| *None* |Sale stage ID: Displays the stage of the sale| x |
 |sale/nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
 |sale/reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
 |sale/stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
@@ -1160,13 +1163,13 @@ Activity archive provider for the Project card
 |sale/associate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |sale/associate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |sale/associate/ejDisplayName|string|Nick name: User's nick name in Service| x |
-|sale/associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|sale/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
-|sale/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/associate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|sale/associate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
+|sale/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |sale/associate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |sale/associate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |sale/associate/portraitThumbnail| *None* |Person image: Person image|  |
@@ -1190,6 +1193,7 @@ Activity archive provider for the Project card
 |endDate|date|End date: Displays the deadline for a follow-up/sale| x |
 |priority|listAny|Priority: Displays the priority of the activity| x |
 |alarm|bool|Has alarm: Displays the alarm state of a follow-up| x |
+|isFree|bool|Is free: Displays whether the appointment should be considered free or busy| x |
 |recurring|bool|Repeating: Displays an icon indicating if the follow-up is part of a repeating follow-up| x |
 |booking|bool|Invitation: Displays an icon if the follow-up is an invitation. All invitations will be displayed in a tooltip.| x |
 |intention|listAny|Intention: Displays the intention of the follow-up type| x |
@@ -1232,7 +1236,7 @@ Activity archive provider for the Project card
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectActivity?$select=mailingAddr/contact/searchPhone/description,mailingAddr/contact/contactExtra/x_contact_date,mailingAddr/contact/LastDoByTicket,mailingAddr/person/personUdef/SuperOffice:10,mailingAddr/person/personExtra/x_person_time
+GET /api/v1/archive/ProjectActivity?$select=mailingAddr/contact/contactExtra/x_contact_time,mailingAddr/person/birthYear,mailingAddr/person/email/emailLastSent,mailingAddr/person/personExtra/x_person_shorttext_list,mailingAddr/person/personAssociate/assocTooltip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 138,
-  "Name": "Jaskolski Group",
-  "Tooltip": "vel",
+  "Id": 673,
+  "Name": "Feil LLC",
+  "Tooltip": "nemo",
   "Deleted": false,
-  "Rank": 969,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 263,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sapiente",
-  "InUseByUserDefinedFields": false,
+  "ListType": "perspiciatis",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 377
+      "FieldType": "System.Int32",
+      "FieldLength": 338
     }
   },
   "_Links": {

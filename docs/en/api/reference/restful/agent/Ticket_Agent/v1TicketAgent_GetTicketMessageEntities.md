@@ -99,14 +99,14 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 731,
+  "TicketId": 603,
   "MessageIds": [
-    433,
-    518
+    691,
+    275
   ]
 }
 ```
@@ -119,79 +119,79 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EjMessageId": 812,
+    "EjMessageId": 252,
     "Ticket": null,
-    "CreatedAt": "2016-10-13T13:14:01.5819386+02:00",
+    "CreatedAt": "2004-09-25T16:32:40.351984+02:00",
     "CreatedBy": null,
-    "Author": "veniam",
+    "Author": "officia",
     "Slevel": "External",
     "Type": "Html",
-    "MessageId": "consequatur",
-    "TimeSpent": 129,
-    "Body": "cum",
-    "HtmlBody": "iste",
-    "EmailHeader": "jannie_osinski@kiehnmuller.biz",
-    "DebugInfo": "maxime",
-    "MailSorter": "facilis",
+    "MessageId": "et",
+    "TimeSpent": 292,
+    "Body": "accusamus",
+    "HtmlBody": "fuga",
+    "EmailHeader": "demarcus_kautzer@moen.name",
+    "DebugInfo": "qui",
+    "MailSorter": "officiis",
     "MessageCategory": "Bounce",
     "Person": null,
-    "SearchTitle": "fuga",
+    "SearchTitle": "omnis",
     "MessageHeaders": [
       {
-        "Id": 612,
-        "Name": "Langworth Group",
-        "Value": "aut",
+        "Id": 492,
+        "Name": "Casper-Pollich",
+        "Value": "ipsam",
         "StdItem": "CustomerReadFAQ",
         "StdItemCol": "Name",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 660
+            "FieldType": "System.String",
+            "FieldLength": 4
           }
         }
       }
     ],
     "Important": true,
-    "Language": "reiciendis",
-    "Sentiment": 140,
-    "SentimentConfidence": 349,
+    "Language": "accusamus",
+    "Sentiment": 670,
+    "SentimentConfidence": 765,
     "Badge": "Comment",
     "AttachmentsInfo": [
       {
-        "AttachmentId": 472,
-        "Name": "Marvin Group",
-        "ContentType": "voluptatem",
-        "AttSize": 980,
-        "InlineImage": true,
-        "ContentId": "earum",
-        "AuthKey": "cum",
-        "IsSafeFileExtension": true,
+        "AttachmentId": 751,
+        "Name": "Wyman-Muller",
+        "ContentType": "ut",
+        "AttSize": 292,
+        "InlineImage": false,
+        "ContentId": "eligendi",
+        "AuthKey": "reiciendis",
+        "IsSafeFileExtension": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 728
+            "FieldType": "System.String",
+            "FieldLength": 23
           }
         }
       }
     ],
     "ExtraFields": {
-      "ExtraFields1": "sint",
-      "ExtraFields2": "accusantium"
+      "ExtraFields1": "aliquid",
+      "ExtraFields2": "vitae"
     },
     "CustomFields": {
-      "CustomFields1": "adipisci",
-      "CustomFields2": "optio"
+      "CustomFields1": "omnis",
+      "CustomFields2": "ratione"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 483
+        "FieldLength": 934
       }
     }
   }

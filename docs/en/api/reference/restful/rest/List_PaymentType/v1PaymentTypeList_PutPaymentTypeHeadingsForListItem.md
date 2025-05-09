@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 974,
-    "Name": "Wisozk-Moen",
-    "ToolTip": "Aut iure adipisci repellat qui consequatur quos.",
-    "Deleted": true,
-    "Rank": 203,
-    "Type": "reprehenderit",
-    "ColorBlock": 271,
-    "IconHint": "ea",
+    "Id": 560,
+    "Name": "Wisoky-Monahan",
+    "ToolTip": "Ut voluptatem vero dolor est beatae vitae possimus.",
+    "Deleted": false,
+    "Rank": 636,
+    "Type": "ut",
+    "ColorBlock": 193,
+    "IconHint": "iste",
     "Selected": false,
-    "LastChanged": "2016-07-22T13:14:09.8535282+02:00",
+    "LastChanged": "2011-05-18T16:32:48.7432593+02:00",
     "ChildItems": [
       {
-        "Id": 430,
-        "Name": "Cummerata Group",
-        "ToolTip": "Rerum quo earum.",
-        "Deleted": true,
-        "Rank": 958,
-        "Type": "veritatis",
-        "ColorBlock": 558,
-        "IconHint": "dolorem",
+        "Id": 552,
+        "Name": "Casper, Zemlak and Jacobson",
+        "ToolTip": "Id ex est iure facilis amet.",
+        "Deleted": false,
+        "Rank": 33,
+        "Type": "esse",
+        "ColorBlock": 318,
+        "IconHint": "accusamus",
         "Selected": false,
-        "LastChanged": "2011-05-13T13:14:09.8535282+02:00",
+        "LastChanged": "2004-01-12T16:32:48.7432593+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
-        "StyleHint": "ea",
+        "ExtraInfo": "repellendus",
+        "StyleHint": "ullam",
         "Hidden": false,
-        "FullName": "Alvena Upton"
+        "FullName": "Maximillia Buster Stroman Jr."
       }
     ],
-    "ExtraInfo": "saepe",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "eligendi",
     "Hidden": false,
-    "FullName": "Prof. Marlene Destini Wiza"
+    "FullName": "Moises Abshire"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 816,
-    "Name": "Yundt, Walter and Ruecker",
-    "ToolTip": "Ea minima deserunt et in aut.",
+    "Id": 64,
+    "Name": "Emard, Mann and Moore",
+    "ToolTip": "Amet blanditiis maxime iste totam fuga enim aperiam.",
     "Deleted": false,
-    "Rank": 917,
-    "Type": "omnis",
-    "ColorBlock": 885,
-    "IconHint": "et",
+    "Rank": 610,
+    "Type": "dolores",
+    "ColorBlock": 352,
+    "IconHint": "laboriosam",
     "Selected": true,
-    "LastChanged": "2002-09-13T13:14:09.8535282+02:00",
+    "LastChanged": "2020-09-01T16:32:48.7432593+02:00",
     "ChildItems": [
       {
-        "Id": 732,
-        "Name": "Homenick-Witting",
-        "ToolTip": "Rerum ut saepe qui occaecati corporis quos aliquid.",
-        "Deleted": true,
-        "Rank": 27,
-        "Type": "eveniet",
-        "ColorBlock": 799,
-        "IconHint": "voluptatem",
+        "Id": 802,
+        "Name": "Moen-Conn",
+        "ToolTip": "Libero aliquam enim est quam eveniet.",
+        "Deleted": false,
+        "Rank": 884,
+        "Type": "illo",
+        "ColorBlock": 381,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2002-02-21T13:14:09.8535282+01:00",
+        "LastChanged": "2021-11-22T16:32:48.7432593+01:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "sint",
-        "StyleHint": "vitae",
+        "StyleHint": "totam",
         "Hidden": false,
-        "FullName": "Ms. Jamil Markus Leffler",
+        "FullName": "Prof. Zaria Hessel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 992
+            "FieldLength": 484
           }
         }
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "distinctio",
-    "Hidden": false,
-    "FullName": "Prof. Thomas Ernie Schultz",
+    "ExtraInfo": "praesentium",
+    "StyleHint": "rerum",
+    "Hidden": true,
+    "FullName": "Otha Gideon Larson Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 416
+        "FieldLength": 493
       }
     }
   }

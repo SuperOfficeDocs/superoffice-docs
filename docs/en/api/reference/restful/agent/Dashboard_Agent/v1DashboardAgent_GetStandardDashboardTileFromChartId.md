@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "impedit"
+  "ChartId": "eius"
 }
 ```
 
@@ -101,64 +101,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 521,
-  "Caption": "distinctio",
-  "Description": "Future-proofed directional model",
-  "ChartName": "Rice, Smitham and Hilpert",
-  "ChartId": "possimus",
-  "IsDefault": true,
-  "AssociateId": 575,
-  "GroupId": 900,
-  "SelectionId": 697,
-  "Config": "eveniet",
+  "DashboardTileId": 948,
+  "Caption": "odio",
+  "Description": "Polarised 4th generation groupware",
+  "ChartName": "Gerhold Inc and Sons",
+  "ChartId": "consequatur",
+  "IsDefault": false,
+  "AssociateId": 724,
+  "GroupId": 919,
+  "SelectionId": 115,
+  "Config": "sunt",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Armstrong, Waters and Tromp",
-      "Description": "Customer-focused regional firmware",
+      "Name": "Bruen, Sipes and Upton",
+      "Description": "Re-engineered multimedia help-desk",
       "Type": "Boolean",
-      "ListName": "Botsford, Harris and Jaskolski",
+      "ListName": "Zboncak, Schulist and Moen",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "ipsam",
-      "DefaultDataOption": false,
+      "Value": "libero",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 326
+          "FieldLength": 773
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 971,
+      "VisibleId": 574,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "nam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 641
+          "FieldLength": 15
         }
       }
     },
     {
-      "VisibleId": 971,
+      "VisibleId": 574,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "nam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 641
+          "FieldLength": 15
         }
       }
     }
@@ -167,8 +167,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldType": "System.String",
+      "FieldLength": 883
     }
   }
 }

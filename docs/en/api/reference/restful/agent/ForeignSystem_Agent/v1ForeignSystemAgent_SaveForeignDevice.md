@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Champlin-Goyette"
+  "ApplicationName": "Schuster LLC"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 329,
-  "Name": "Kuhn, Schinner and Kovacek",
-  "CreatedDate": "2015-07-13T13:14:00.5168611+02:00",
-  "UpdatedDate": "2001-08-10T13:14:00.5168611+02:00",
-  "AssociateFullName": "Daniela Cummerata",
-  "CreatedBy": "et",
-  "UpdatedBy": "nobis",
-  "DeviceIdentifier": "voluptatem",
-  "ForeignAppId": 465,
+  "ForeignDeviceId": 634,
+  "Name": "King Inc and Sons",
+  "CreatedDate": "2010-09-16T16:32:39.1645096+02:00",
+  "UpdatedDate": "2004-11-18T16:32:39.1645096+01:00",
+  "AssociateFullName": "Rosetta Emmerich",
+  "CreatedBy": "consequuntur",
+  "UpdatedBy": "optio",
+  "DeviceIdentifier": "necessitatibus",
+  "ForeignAppId": 181,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 625
+      "FieldLength": 248
     }
   }
 }

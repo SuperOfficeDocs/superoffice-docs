@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 867,
-    "Name": "Greenfelder Inc and Sons",
-    "ContentType": "rem",
-    "AttSize": 627,
+    "AttachmentId": 692,
+    "Name": "Nader-Nolan",
+    "ContentType": "aut",
+    "AttSize": 684,
     "InlineImage": false,
-    "ContentId": "nam",
-    "AuthKey": "et",
+    "ContentId": "at",
+    "AuthKey": "ullam",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 302
+        "FieldType": "System.Int32",
+        "FieldLength": 664
       }
     }
   }

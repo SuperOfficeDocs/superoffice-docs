@@ -23,6 +23,7 @@ items:
   - SuperOffice.WebApi.Agents.DiagnosticsAgent.GetSystemMessagesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DiagnosticsAgent.GetWebAppUsagesForPeriodAsync(System.DateTime,System.DateTime,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DiagnosticsAgent.LogViewStateAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterUpgradeAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DiagnosticsAgent.RemoveExpiredSystemMessagesAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DiagnosticsAgent.RemoveSystemMessageAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
@@ -919,6 +920,44 @@ items:
   overload: SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterUpgradeAsync*
   implements:
   - SuperOffice.WebApi.Agents.IDiagnosticsAgent.PerformTasksAfterUpgradeAsync(SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: PerformTasksAfterCustomObjectTableDeletedAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.DiagnosticsAgent
+  langs:
+  - csharp
+  - vb
+  name: PerformTasksAfterCustomObjectTableDeletedAsync(String, RequestOptions)
+  nameWithType: DiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nA temporary method to be used from c++ until CustomObjectsAgent.DeleteTable implemented in NetServer\n"
+  syntax:
+    content: public Task PerformTasksAfterCustomObjectTableDeletedAsync(string tableName, RequestOptions requestOptions = null)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: Name of DB table of the custom object that was deleted. E.g., &apos;y_car&apos;
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function PerformTasksAfterCustomObjectTableDeletedAsync(tableName As String, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync(System.String,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -3769,6 +3808,69 @@ references:
   - name: (
     nameWithType: (
     fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync
+  isExternal: true
+  name: PerformTasksAfterCustomObjectTableDeletedAsync
+  nameWithType: DiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync
+  fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync
+- uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IDiagnosticsAgent
+  isExternal: true
+  name: PerformTasksAfterCustomObjectTableDeletedAsync(String, RequestOptions)
+  nameWithType: IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: PerformTasksAfterCustomObjectTableDeletedAsync
+    nameWithType: IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync
+    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: PerformTasksAfterCustomObjectTableDeletedAsync
+    nameWithType: IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync
+    fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
     nameWithType: RequestOptions

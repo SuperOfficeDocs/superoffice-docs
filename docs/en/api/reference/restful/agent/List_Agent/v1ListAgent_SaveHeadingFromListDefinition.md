@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 432,
+  "Id": 768,
   "Entity": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 391,
-  "Name": "Hamill-Von",
-  "Tooltip": "saepe",
+  "HeadingId": 32,
+  "Name": "Nolan-Fritsch",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 245,
-  "UdListDefinitionId": 232,
+  "Rank": 890,
+  "UdListDefinitionId": 869,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 150
+      "FieldType": "System.String",
+      "FieldLength": 297
     }
   }
 }

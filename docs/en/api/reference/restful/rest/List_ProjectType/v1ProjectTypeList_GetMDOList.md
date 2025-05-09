@@ -26,8 +26,8 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectType/MDOItems?flat=False
-GET /api/v1/List/ProjectType/MDOItems?query=et
+GET /api/v1/List/ProjectType/MDOItems?flat=True
+GET /api/v1/List/ProjectType/MDOItems?query=odit
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 988,
-    "Name": "Barrows, Block and Fahey",
-    "ToolTip": "Tenetur quia.",
+    "Id": 821,
+    "Name": "Feil, Williamson and Reynolds",
+    "ToolTip": "Aut occaecati sit officiis.",
     "Deleted": false,
-    "Rank": 771,
-    "Type": "occaecati",
+    "Rank": 678,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 575,
-        "Name": "Schumm, Hauck and Ritchie",
-        "ToolTip": "Ex eaque.",
+        "Id": 261,
+        "Name": "Donnelly LLC",
+        "ToolTip": "Velit qui sint quia ratione qui libero atque.",
         "Deleted": true,
-        "Rank": 301,
-        "Type": "laboriosam",
+        "Rank": 835,
+        "Type": "natus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "necessitatibus",
-        "ColorBlock": 484,
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "quos",
-        "FullName": "Laurel Kshlerin",
+        "IconHint": "rem",
+        "ColorBlock": 630,
+        "ExtraInfo": "rem",
+        "StyleHint": "earum",
+        "FullName": "Leola Lubowitz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 832
+            "FieldLength": 281
           }
         }
       }
     ],
-    "IconHint": "fugit",
-    "ColorBlock": 734,
-    "ExtraInfo": "nihil",
-    "StyleHint": "quas",
-    "FullName": "Yasmeen Heathcote",
+    "IconHint": "cumque",
+    "ColorBlock": 331,
+    "ExtraInfo": "dolor",
+    "StyleHint": "sint",
+    "FullName": "Camylle Vinnie Brekke DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 533
+        "FieldLength": 949
       }
     }
   }

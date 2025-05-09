@@ -112,29 +112,29 @@ OK
 POST /api/v1/SaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Auer, Abernathy and Waters",
-  "Comment": "et",
-  "StakeholderRoleId": 759,
-  "CountryId": 546,
-  "PersonId": 199,
-  "EmailDescription": "dallin_gerlach@swaniawski.ca",
-  "EmailId": 785,
-  "EmailAddress": "jeanie@langosh.us",
-  "PhoneId": 604,
-  "ContactName": "Blick-Bernhard",
-  "ContactId": 784,
-  "SaleId": 500,
-  "Mrmrs": "nisi",
-  "Firstname": "Axel",
-  "MiddleName": "Dibbert-Ernser",
-  "Lastname": "Hand",
-  "SaleStakeholderId": 336,
-  "Rank": 21,
-  "Phone": "163-114-5101 x0220"
+  "StakeholderRoleName": "McCullough-Leannon",
+  "Comment": "recusandae",
+  "StakeholderRoleId": 638,
+  "CountryId": 686,
+  "PersonId": 301,
+  "EmailDescription": "enrico@swaniawskihalvorson.name",
+  "EmailId": 428,
+  "EmailAddress": "darrell@simonismedhurst.ca",
+  "PhoneId": 473,
+  "ContactName": "Rutherford LLC",
+  "ContactId": 837,
+  "SaleId": 727,
+  "Mrmrs": "illum",
+  "Firstname": "Keanu",
+  "MiddleName": "Kuhlman Group",
+  "Lastname": "Stehr",
+  "SaleStakeholderId": 600,
+  "Rank": 494,
+  "Phone": "365-040-0628"
 }
 ```
 
@@ -145,36 +145,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Dicki Inc and Sons",
-  "Comment": "quis",
-  "StakeholderRoleId": 549,
-  "CountryId": 468,
-  "PersonId": 468,
-  "EmailDescription": "aiyana@sanford.name",
-  "EmailId": 617,
-  "EmailAddress": "diamond_jerde@kuhlman.us",
-  "PhoneId": 90,
-  "ContactName": "Harris Group",
-  "ContactId": 907,
-  "SaleId": 209,
-  "Mrmrs": "nihil",
-  "Firstname": "Orie",
-  "MiddleName": "Flatley Group",
-  "Lastname": "Nicolas",
-  "SaleStakeholderId": 975,
-  "Rank": 45,
-  "Phone": "325-586-3170 x7704",
+  "StakeholderRoleName": "Thiel, Wyman and Altenwerth",
+  "Comment": "iure",
+  "StakeholderRoleId": 587,
+  "CountryId": 952,
+  "PersonId": 730,
+  "EmailDescription": "julien_mante@whitegorczany.uk",
+  "EmailId": 390,
+  "EmailAddress": "gregorio@heller.info",
+  "PhoneId": 912,
+  "ContactName": "Bauch, Dare and Haag",
+  "ContactId": 671,
+  "SaleId": 318,
+  "Mrmrs": "non",
+  "Firstname": "Golden",
+  "MiddleName": "Bergstrom-Frami",
+  "Lastname": "Beer",
+  "SaleStakeholderId": 299,
+  "Rank": 596,
+  "Phone": "788.485.9137 x0754",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 130
+      "FieldLength": 929
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -69,12 +69,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetJobResultAsJsonFromBinaryObjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Lemke, Hettinger and Connelly",
-  "BinaryObjectId": 317
+  "TableName": "Rath-Ebert",
+  "BinaryObjectId": 305
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"nulla"
+"voluptas"
 ```

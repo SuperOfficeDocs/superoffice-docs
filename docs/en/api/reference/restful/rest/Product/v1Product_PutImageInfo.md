@@ -97,19 +97,19 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 149,
-  "BlobSize": 22,
-  "Description": "Ameliorated intermediate productivity",
-  "ExtraInfo": "molestias",
+  "BlobId": 719,
+  "BlobSize": 774,
+  "Description": "Customer-focused tangible local area network",
+  "ExtraInfo": "omnis",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "magnam",
-  "OriginalSize": 900,
-  "CreatedDate": "2015-03-22T13:14:09.4467519+01:00",
-  "UpdatedDate": "1998-02-08T13:14:09.4467519+01:00",
+  "IsZipped": false,
+  "MimeType": "quis",
+  "OriginalSize": 694,
+  "CreatedDate": "1998-06-08T16:32:48.3527308+02:00",
+  "UpdatedDate": "2019-03-01T16:32:48.3527308+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "laudantium"
+  "ConceptualType": "voluptatem"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 650,
-  "BlobSize": 334,
-  "Description": "Quality-focused foreground success",
-  "ExtraInfo": "animi",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "odio",
-  "OriginalSize": 913,
-  "CreatedDate": "2025-03-13T13:14:09.4467519+01:00",
-  "UpdatedDate": "2005-09-02T13:14:09.4467519+02:00",
+  "BlobId": 858,
+  "BlobSize": 506,
+  "Description": "Multi-lateral global function",
+  "ExtraInfo": "aut",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "quas",
+  "OriginalSize": 672,
+  "CreatedDate": "2012-01-25T16:32:48.3527308+01:00",
+  "UpdatedDate": "2001-04-03T16:32:48.3527308+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quia",
+  "ConceptualType": "suscipit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 260
+      "FieldType": "System.String",
+      "FieldLength": 288
     }
   }
 }

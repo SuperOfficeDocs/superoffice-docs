@@ -113,34 +113,34 @@ OK
 POST /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 849,
-  "Name": "Flatley-Padberg",
-  "Tooltip": "quo",
-  "SaveInDb": 898,
-  "Filename": "quia",
-  "DefaultOref": "quia",
+  "DocumentTemplateId": 9,
+  "Name": "DuBuque LLC",
+  "Tooltip": "error",
+  "SaveInDb": 354,
+  "Filename": "accusamus",
+  "DefaultOref": "et",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 957,
-  "IntentId": 416,
+  "AutoeventId": 950,
+  "IntentId": 668,
   "IsDefaultPublished": true,
-  "Rank": 693,
-  "LoadTemplateFromPlugin": 503,
-  "MimeType": "sapiente",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 693,
+  "Rank": 758,
+  "LoadTemplateFromPlugin": 563,
+  "MimeType": "vero",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 339,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "casimir_tillman@powlowski.info",
-  "IncludeSignature": false,
-  "ShowCurrents": true,
+  "EmailSubject": "nicolette.gaylord@christiansen.com",
+  "IncludeSignature": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "isabella@runolfssondaniel.name",
+  "SenderEmailAddress": "lillian.heidenreich@hintzcollier.uk",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -152,37 +152,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 611,
-  "Name": "Ebert, Heathcote and Gislason",
-  "Tooltip": "et",
-  "SaveInDb": 633,
-  "Filename": "sed",
-  "DefaultOref": "voluptates",
+  "DocumentTemplateId": 346,
+  "Name": "Wilkinson, Stanton and Rodriguez",
+  "Tooltip": "veniam",
+  "SaveInDb": 751,
+  "Filename": "eveniet",
+  "DefaultOref": "voluptatem",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 551,
-  "IntentId": 216,
-  "IsDefaultPublished": true,
-  "Rank": 338,
-  "LoadTemplateFromPlugin": 84,
-  "MimeType": "ut",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 627,
+  "AutoeventId": 679,
+  "IntentId": 282,
+  "IsDefaultPublished": false,
+  "Rank": 463,
+  "LoadTemplateFromPlugin": 517,
+  "MimeType": "iure",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 156,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "shania@kemmer.biz",
+  "EmailSubject": "kathlyn@bruenshields.ca",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "donnell.friesen@marvin.name",
+  "SenderEmailAddress": "joesph@yost.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 910
+      "FieldLength": 194
     }
   }
 }

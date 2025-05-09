@@ -27,7 +27,7 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/SelectionCategory/MDOItems?flat=False
-GET /api/v1/List/SelectionCategory/MDOItems?query=dolor
+GET /api/v1/List/SelectionCategory/MDOItems?query=aliquam
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 420,
-    "Name": "Witting Inc and Sons",
-    "ToolTip": "Omnis autem sapiente natus nam alias.",
+    "Id": 541,
+    "Name": "McDermott-Schoen",
+    "ToolTip": "Alias sequi illum sint id qui omnis harum.",
     "Deleted": true,
-    "Rank": 282,
-    "Type": "debitis",
+    "Rank": 293,
+    "Type": "eius",
     "ChildItems": [
       {
-        "Id": 664,
-        "Name": "Jast, Schiller and Volkman",
-        "ToolTip": "Rerum qui occaecati.",
-        "Deleted": false,
-        "Rank": 1000,
-        "Type": "cumque",
+        "Id": 561,
+        "Name": "Wintheiser-Hackett",
+        "ToolTip": "Corrupti magnam id facere sit qui.",
+        "Deleted": true,
+        "Rank": 19,
+        "Type": "sit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ratione",
-        "ColorBlock": 861,
-        "ExtraInfo": "aliquam",
-        "StyleHint": "eum",
-        "FullName": "Lesley Legros",
+        "IconHint": "aut",
+        "ColorBlock": 668,
+        "ExtraInfo": "modi",
+        "StyleHint": "dolorem",
+        "FullName": "Prof. Laurianne Foster Cummerata",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 385
+            "FieldType": "System.Int32",
+            "FieldLength": 447
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 202,
-    "ExtraInfo": "consequuntur",
-    "StyleHint": "voluptatem",
-    "FullName": "Maudie Rath",
+    "IconHint": "sequi",
+    "ColorBlock": 823,
+    "ExtraInfo": "odio",
+    "StyleHint": "inventore",
+    "FullName": "Prof. Katherine Annabelle Brown",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 435
+        "FieldLength": 254
       }
     }
   }

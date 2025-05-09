@@ -77,10 +77,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 995,
+  "AssociateId": 882,
   "Type": "AnonymousAssociate",
-  "PersonId": 688,
-  "UserName": "Trantow LLC"
+  "PersonId": 701,
+  "UserName": "Boyer, Boehm and Boyle"
 }
 ```
 

@@ -109,12 +109,12 @@ OK
 POST /api/v1/Agents/EMail/CreateNewPhysicalDocumentFromEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 881,
-  "EmailItemId": 767
+  "DocumentId": 986,
+  "EmailItemId": 392
 }
 ```
 
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 944,
+  "DocumentId": 823,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "voluptas",
-  "Header": "autem",
-  "Name": "Ledner Inc and Sons",
-  "OurRef": "perspiciatis",
-  "YourRef": "nemo",
-  "CreatedDate": "2001-07-11T13:14:00.2980982+02:00",
-  "UpdatedDate": "2011-09-13T13:14:00.2980982+02:00",
-  "Description": "Compatible heuristic data-warehouse",
+  "Attention": "occaecati",
+  "Header": "quia",
+  "Name": "Ortiz-Kuhlman",
+  "OurRef": "corrupti",
+  "YourRef": "laudantium",
+  "CreatedDate": "2012-10-20T16:32:38.9614317+02:00",
+  "UpdatedDate": "2000-05-19T16:32:38.9614317+02:00",
+  "Description": "Multi-tiered non-volatile workforce",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2004-05-14T13:14:00.2980982+02:00",
-  "ExternalRef": "reiciendis",
+  "Date": "2016-08-19T16:32:38.9614317+02:00",
+  "ExternalRef": "magnam",
   "Completed": "Completed",
-  "ActiveLinks": 625,
+  "ActiveLinks": 725,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Connelly, O'Kon and Hand",
-      "Id": 419,
-      "Description": "Exclusive upward-trending project",
-      "ExtraInfo": "dolor",
-      "LinkId": 986,
+      "EntityName": "Koss, Fadel and Wisoky",
+      "Id": 791,
+      "Description": "Vision-oriented bi-directional groupware",
+      "ExtraInfo": "voluptatem",
+      "LinkId": 215,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 82
+          "FieldLength": 738
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 800,
-  "Snum": 680,
+  "SuggestedDocumentId": 430,
+  "Snum": 614,
   "UserDefinedFields": {
-    "SuperOffice:1": "1585534961",
-    "SuperOffice:2": "1197121289"
+    "SuperOffice:1": "2015523555",
+    "SuperOffice:2": "Brooks Nitzsche"
   },
   "ExtraFields": {
-    "ExtraFields1": "quo",
-    "ExtraFields2": "animi"
+    "ExtraFields1": "excepturi",
+    "ExtraFields2": "dolorum"
   },
   "CustomFields": {
-    "CustomFields1": "esse",
-    "CustomFields2": "nam"
+    "CustomFields1": "et",
+    "CustomFields2": "voluptate"
   },
-  "PublishEventDate": "2005-12-17T13:14:00.2980982+01:00",
-  "PublishTo": "2019-12-29T13:14:00.2980982+01:00",
-  "PublishFrom": "2022-01-22T13:14:00.2980982+01:00",
+  "PublishEventDate": "2017-05-17T16:32:38.9770531+02:00",
+  "PublishTo": "2017-03-02T16:32:38.9770531+01:00",
+  "PublishFrom": "2011-10-23T16:32:38.9770531+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 28,
+      "VisibleId": 991,
       "Visibility": "All",
-      "DisplayValue": "eos",
+      "DisplayValue": "animi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 787
+          "FieldLength": 726
         }
       }
     },
     {
-      "VisibleId": 28,
+      "VisibleId": 991,
       "Visibility": "All",
-      "DisplayValue": "eos",
+      "DisplayValue": "animi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 787
+          "FieldLength": 726
         }
       }
     }
@@ -215,8 +215,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 415
+      "FieldType": "System.String",
+      "FieldLength": 546
     }
   }
 }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 981,
-    "Name": "Stoltenberg, Bogan and Towne",
-    "ToolTip": "Voluptate delectus labore dolores molestiae fugiat totam.",
+    "Id": 102,
+    "Name": "Berge LLC",
+    "ToolTip": "Et maiores porro est autem.",
     "Deleted": true,
-    "Rank": 158,
-    "Type": "quas",
-    "ColorBlock": 105,
-    "IconHint": "voluptas",
-    "Selected": true,
-    "LastChanged": "2014-05-14T13:14:09.9941617+02:00",
+    "Rank": 693,
+    "Type": "voluptatibus",
+    "ColorBlock": 609,
+    "IconHint": "suscipit",
+    "Selected": false,
+    "LastChanged": "2022-07-24T16:32:48.8838567+02:00",
     "ChildItems": [
       {
-        "Id": 658,
-        "Name": "Bogisich, Wisoky and Steuber",
-        "ToolTip": "Debitis doloribus est quidem.",
+        "Id": 61,
+        "Name": "Walker-Dickens",
+        "ToolTip": "Fugit maiores facilis ipsum et.",
         "Deleted": true,
-        "Rank": 296,
-        "Type": "reiciendis",
-        "ColorBlock": 527,
-        "IconHint": "eveniet",
+        "Rank": 858,
+        "Type": "officiis",
+        "ColorBlock": 939,
+        "IconHint": "repellat",
         "Selected": false,
-        "LastChanged": "1999-07-22T13:14:09.9941617+02:00",
+        "LastChanged": "2021-08-24T16:32:48.8838567+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eaque",
-        "StyleHint": "illo",
-        "Hidden": true,
-        "FullName": "Mrs. Dandre Ebba Carter IV",
+        "ExtraInfo": "et",
+        "StyleHint": "beatae",
+        "Hidden": false,
+        "FullName": "Lexie Rogahn DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 377
+            "FieldLength": 568
           }
         }
       }
     ],
-    "ExtraInfo": "dicta",
-    "StyleHint": "ducimus",
+    "ExtraInfo": "quia",
+    "StyleHint": "suscipit",
     "Hidden": false,
-    "FullName": "Ms. Guadalupe Leonel Bartoletti",
+    "FullName": "Mr. Frederik Uriah Hand",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 651
+        "FieldLength": 355
       }
     }
   }

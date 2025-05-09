@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultMailMergeSettings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 982,
-  "DocumentId": 242,
+  "SelectionId": 337,
+  "DocumentId": 177,
   "MailMergeDeliveryType": "BestFit",
-  "CustomAttention": "dolores",
+  "CustomAttention": "nam",
   "AlwaysUseCustomAttention": true,
   "SaveDocument": false,
-  "CustomMailBody": "excepturi",
+  "CustomMailBody": "nesciunt",
   "TaskEntity": null,
-  "AddCompanyInterest": 909,
-  "AddPersonInterest": 445,
-  "RemoveCompanyInterest": 11,
-  "RemovePersonInterest": 411,
+  "AddCompanyInterest": 241,
+  "AddPersonInterest": 914,
+  "RemoveCompanyInterest": 681,
+  "RemovePersonInterest": 162,
   "IncludeNoMailingsRecipient": false,
   "TestOnly": false,
-  "ProjectId": 637,
+  "ProjectId": 872,
   "IncludeRetiredRecipients": false,
   "IncludeStoppedRecipients": false,
-  "CustomMailSubject": "minima",
-  "ExtraInfo": "et",
+  "CustomMailSubject": "consequatur",
+  "ExtraInfo": "quam",
   "Synchronous": false,
   "IsTemporarySelection": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 742
+      "FieldType": "System.Int32",
+      "FieldLength": 70
     }
   }
 }

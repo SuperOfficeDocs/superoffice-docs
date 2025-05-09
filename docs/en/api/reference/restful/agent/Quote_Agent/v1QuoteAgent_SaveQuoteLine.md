@@ -121,7 +121,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 625,
-  "ERPQuoteLineKey": "nostrum",
-  "QuoteAlternativeId": 814,
-  "ERPProductKey": "qui",
+  "QuoteLineId": 668,
+  "ERPQuoteLineKey": "voluptas",
+  "QuoteAlternativeId": 816,
+  "ERPProductKey": "animi",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 5910.724,
-  "DeliveredQuantity": 16547.52,
-  "Rank": 762,
-  "Name": "Bergstrom-Gleason",
-  "Description": "Team-oriented next generation application",
-  "Code": "saepe",
-  "QuantityUnit": "rem",
+  "Quantity": 25930.716,
+  "DeliveredQuantity": 27547.86,
+  "Rank": 277,
+  "Name": "Lang-Roob",
+  "Description": "Universal coherent focus group",
+  "Code": "et",
+  "QuantityUnit": "excepturi",
   "PriceUnit": "vel",
-  "ItemNumber": "801524",
+  "ItemNumber": "612176",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "quia",
-  "ProductTypeKey": "magnam",
-  "Supplier": "tenetur",
-  "SupplierCode": "est",
-  "Thumbnail": "et",
-  "VATInfo": "expedita",
-  "VAT": 18340.167999999998,
-  "UnitCost": 30324.584,
-  "UnitMinimumPrice": 23448.588,
-  "UnitListPrice": 8765.7979999999989,
+  "ProductFamilyKey": "inventore",
+  "ProductTypeKey": "voluptatem",
+  "Supplier": "repudiandae",
+  "SupplierCode": "delectus",
+  "Thumbnail": "enim",
+  "VATInfo": "ducimus",
+  "VAT": 3676.182,
+  "UnitCost": 4873.37,
+  "UnitMinimumPrice": 2325.428,
+  "UnitListPrice": 1303.744,
   "ExtraInfo": [
     {
-      "Name": "Olson, Ritchie and Daniel",
-      "Value": "soluta",
+      "Name": "Batz LLC",
+      "Value": "possimus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 760
+          "FieldLength": 523
         }
       }
     },
     {
-      "Name": "Olson, Ritchie and Daniel",
-      "Value": "soluta",
+      "Name": "Batz LLC",
+      "Value": "possimus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 760
+          "FieldLength": 523
         }
       }
     }
   ],
-  "RawExtraInfo": "voluptatem",
-  "IsSubscription": true,
-  "SubscriptionUnit": "natus",
-  "SubscriptionQuantity": 13404.118,
-  "SubscriptionStart": "1999-03-12T13:14:01.017639+01:00",
-  "ERPDiscountPercent": 30619.18,
-  "ERPDiscountAmount": 11949.942,
-  "DiscountPercent": 5891.92,
-  "DiscountAmount": 9380.062,
+  "RawExtraInfo": "ad",
+  "IsSubscription": false,
+  "SubscriptionUnit": "quo",
+  "SubscriptionQuantity": 17895.14,
+  "SubscriptionStart": "2003-10-25T16:32:39.74275+02:00",
+  "ERPDiscountPercent": 21010.336,
+  "ERPDiscountAmount": 19763.004,
+  "DiscountPercent": 868.11799999999994,
+  "DiscountAmount": 20333.392,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 13664.24,
-  "EarningAmount": 30691.262,
-  "SubTotal": 17926.48,
-  "TotalPrice": 2450.788,
-  "Rights": "optio",
-  "Rule": "aperiam",
-  "ExtraField1": "quas",
-  "ExtraField2": "assumenda",
-  "ExtraField3": "voluptatem",
-  "ExtraField4": "rem",
-  "ExtraField5": "ea",
+  "EarningPercent": 2131.12,
+  "EarningAmount": 12075.302,
+  "SubTotal": 24116.13,
+  "TotalPrice": 18305.694,
+  "Rights": "reprehenderit",
+  "Rule": "voluptas",
+  "ExtraField1": "ea",
+  "ExtraField2": "incidunt",
+  "ExtraField3": "iusto",
+  "ExtraField4": "non",
+  "ExtraField5": "velit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 946
+      "FieldType": "System.Int32",
+      "FieldLength": 840
     }
   }
 }

@@ -97,34 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 429,
-    "Name": "Thompson Inc and Sons",
-    "Tooltip": "laborum",
+    "WebPanelId": 130,
+    "Name": "Labadie-Spencer",
+    "Tooltip": "occaecati",
     "Deleted": true,
-    "Rank": 700,
+    "Rank": 441,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": true,
-    "OnSatellite": true,
+    "OnCentral": false,
+    "OnSatellite": false,
     "OnTravel": false,
     "OnSalesMarketingWeb": true,
     "OnSalesMarketingPocket": true,
     "ShowInMenuBar": false,
-    "ShowInToolBar": true,
+    "ShowInToolBar": false,
     "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Johns, Wiza and Johnston",
+    "WindowName": "Lemke, Price and Zboncak",
     "Url": "http://www.example.com/",
-    "ProgId": "architecto",
-    "Icon": 429,
-    "AlwaysReloadOnShow": false,
-    "NeverReloadOnCurrentChange": false,
+    "ProgId": "animi",
+    "Icon": 406,
+    "AlwaysReloadOnShow": true,
+    "NeverReloadOnCurrentChange": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 998
+        "FieldLength": 32
       }
     }
   }

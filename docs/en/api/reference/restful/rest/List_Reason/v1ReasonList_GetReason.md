@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Reason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 29,
-  "Name": "Walker Group",
-  "Tooltip": "libero",
+  "Id": 540,
+  "Name": "Beer Inc and Sons",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "UdListDefinitionId": 317,
-  "Rank": 915,
+  "UdListDefinitionId": 238,
+  "Rank": 274,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 223
+      "FieldLength": 825
     }
   }
 }

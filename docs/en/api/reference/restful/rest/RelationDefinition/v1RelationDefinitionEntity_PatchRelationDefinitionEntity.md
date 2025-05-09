@@ -121,12 +121,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "saepe",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "saepe",
     "value": {}
   }
 ]
@@ -139,12 +139,12 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 335,
-  "Name": "Klein Group",
-  "Tooltip": "in",
-  "PassiveText": "nihil",
+  "ReldefId": 442,
+  "Name": "Watsica-Mohr",
+  "Tooltip": "reprehenderit",
+  "PassiveText": "qui",
   "Deleted": false,
-  "Rank": 684,
+  "Rank": 867,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -152,12 +152,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 626
+      "FieldLength": 985
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

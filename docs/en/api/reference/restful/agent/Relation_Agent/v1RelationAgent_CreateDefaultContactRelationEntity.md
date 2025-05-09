@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 853,
-  "SourcePersonId": 618,
-  "DestinationContactId": 745,
-  "DestinationPersonId": 50,
-  "RelationId": 893,
-  "Comment": "nulla",
-  "RelationDefinitionId": 726,
-  "Reversed": 655,
-  "UpdatedDate": "2015-06-26T13:14:01.017639+02:00",
-  "CreatedDate": "2015-04-03T13:14:01.017639+02:00",
+  "SourceContactId": 233,
+  "SourcePersonId": 498,
+  "DestinationContactId": 69,
+  "DestinationPersonId": 648,
+  "RelationId": 906,
+  "Comment": "sequi",
+  "RelationDefinitionId": 497,
+  "Reversed": 720,
+  "UpdatedDate": "2013-11-17T16:32:39.7583671+01:00",
+  "CreatedDate": "2004-05-15T16:32:39.7583671+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Kilback, Kuphal and Lesch",
-  "SourcePersonName": "Rowe-Hills",
-  "DestinationContactName": "Wolf Inc and Sons",
-  "DestinationPersonName": "Franecki LLC",
-  "ActiveText": "officia",
-  "PassiveText": "et",
+  "SourceContactName": "Brown, Thompson and Reynolds",
+  "SourcePersonName": "Bergnaum-Price",
+  "DestinationContactName": "Daugherty, Swift and McKenzie",
+  "DestinationPersonName": "Ondricka, Strosin and Bednar",
+  "ActiveText": "qui",
+  "PassiveText": "consequuntur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 717
+      "FieldType": "System.String",
+      "FieldLength": 98
     }
   }
 }

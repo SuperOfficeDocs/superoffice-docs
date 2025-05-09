@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleId}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 359,
-    "Name": "Romaguera Group",
-    "ToolTip": "Officia eum.",
+    "Id": 962,
+    "Name": "Okuneva, Pfannerstill and Jones",
+    "ToolTip": "Facilis distinctio inventore atque iure.",
     "Deleted": true,
-    "Rank": 984,
-    "Type": "cum",
-    "ColorBlock": 122,
-    "IconHint": "neque",
+    "Rank": 534,
+    "Type": "non",
+    "ColorBlock": 659,
+    "IconHint": "ut",
     "Selected": true,
-    "LastChanged": "2011-12-29T13:14:09.0711377+01:00",
+    "LastChanged": "2012-11-09T16:32:47.7745258+01:00",
     "ChildItems": [
       {
-        "Id": 620,
-        "Name": "Maggio, Koss and Pacocha",
-        "ToolTip": "Magni minima.",
-        "Deleted": true,
-        "Rank": 766,
-        "Type": "totam",
-        "ColorBlock": 563,
-        "IconHint": "magni",
+        "Id": 243,
+        "Name": "Schowalter Inc and Sons",
+        "ToolTip": "Quis eos doloremque fuga natus.",
+        "Deleted": false,
+        "Rank": 726,
+        "Type": "tempora",
+        "ColorBlock": 253,
+        "IconHint": "assumenda",
         "Selected": false,
-        "LastChanged": "2020-04-15T13:14:09.0711377+02:00",
+        "LastChanged": "2021-08-24T16:32:47.7745258+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quam",
-        "StyleHint": "corrupti",
-        "Hidden": true,
-        "FullName": "Mrs. Kirsten Anais Hintz",
+        "ExtraInfo": "sunt",
+        "StyleHint": "cum",
+        "Hidden": false,
+        "FullName": "Ariane McCullough",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 971
+            "FieldLength": 980
           }
         }
       }
     ],
-    "ExtraInfo": "saepe",
-    "StyleHint": "quo",
+    "ExtraInfo": "ullam",
+    "StyleHint": "modi",
     "Hidden": true,
-    "FullName": "Kenneth McClure V",
+    "FullName": "River Schneider",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 14
+        "FieldType": "System.String",
+        "FieldLength": 370
       }
     }
   }

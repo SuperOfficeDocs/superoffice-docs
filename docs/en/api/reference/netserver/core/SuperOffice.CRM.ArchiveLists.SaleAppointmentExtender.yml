@@ -55,6 +55,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colEndDate
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colPriority
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colAlarm
+  - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colIsFree
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colRecurring
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colBooking
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colIntention
@@ -566,6 +567,13 @@ references:
   name: _colAlarm
   nameWithType: AppointmentExtenderBase._colAlarm
   fullName: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colAlarm
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colIsFree
+  commentId: F:SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colIsFree
+  parent: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase
+  isExternal: true
+  name: _colIsFree
+  nameWithType: AppointmentExtenderBase._colIsFree
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colIsFree
 - uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colRecurring
   commentId: F:SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colRecurring
   parent: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase

@@ -119,31 +119,31 @@ ShipmentMessageEntity updated.
 PUT /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 191,
-  "PlainMessage": "minus",
-  "HtmlMessage": "voluptas",
-  "SmsMessage": "maxime",
-  "Description": "Extended attitude-oriented extranet",
-  "Subject": "veniam",
-  "FolderId": 894,
-  "HeaderField": "itaque",
-  "Design": "temporibus",
+  "ShipmentMessageId": 335,
+  "PlainMessage": "deleniti",
+  "HtmlMessage": "similique",
+  "SmsMessage": "eos",
+  "Description": "Versatile 24 hour protocol",
+  "Subject": "iste",
+  "FolderId": 352,
+  "HeaderField": "dolores",
+  "Design": "velit",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Reactive grid-enabled array",
-  "AccessKey": "debitis",
-  "DocumentMessage": 286,
-  "Registered": "2006-11-07T13:14:09.1966452+01:00",
-  "RegisteredAssociateId": 412,
-  "Updated": "1999-05-09T13:14:09.1966452+02:00",
-  "UpdatedAssociateId": 886,
-  "UpdatedCount": 67
+  "InlineImages": false,
+  "LongDescription": "Distributed optimizing orchestration",
+  "AccessKey": "libero",
+  "DocumentMessage": 719,
+  "Registered": "2023-10-02T16:32:48.1025764+02:00",
+  "RegisteredAssociateId": 692,
+  "Updated": "2024-06-25T16:32:48.1025764+02:00",
+  "UpdatedAssociateId": 867,
+  "UpdatedCount": 722
 }
 ```
 
@@ -154,33 +154,33 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 322,
-  "PlainMessage": "vero",
-  "HtmlMessage": "veritatis",
-  "SmsMessage": "eum",
-  "Description": "Configurable neutral workforce",
-  "Subject": "itaque",
-  "FolderId": 453,
-  "HeaderField": "non",
-  "Design": "quis",
+  "ShipmentMessageId": 956,
+  "PlainMessage": "incidunt",
+  "HtmlMessage": "dolorem",
+  "SmsMessage": "autem",
+  "Description": "Public-key intangible encoding",
+  "Subject": "dolores",
+  "FolderId": 213,
+  "HeaderField": "unde",
+  "Design": "doloremque",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "Polarised neutral approach",
-  "AccessKey": "voluptas",
-  "DocumentMessage": 330,
-  "Registered": "2016-07-21T13:14:09.1966452+02:00",
-  "RegisteredAssociateId": 241,
-  "Updated": "2020-09-23T13:14:09.1966452+02:00",
-  "UpdatedAssociateId": 470,
-  "UpdatedCount": 404,
+  "RegisterViews": false,
+  "InlineImages": true,
+  "LongDescription": "Focused solution-oriented budgetary management",
+  "AccessKey": "qui",
+  "DocumentMessage": 511,
+  "Registered": "2023-12-25T16:32:48.1025764+01:00",
+  "RegisteredAssociateId": 589,
+  "Updated": "2019-05-05T16:32:48.1025764+02:00",
+  "UpdatedAssociateId": 487,
+  "UpdatedCount": 54,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 34
+      "FieldType": "System.String",
+      "FieldLength": 193
     }
   },
   "_Links": {

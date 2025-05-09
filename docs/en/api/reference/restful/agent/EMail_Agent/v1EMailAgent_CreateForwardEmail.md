@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/CreateForwardEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 370,
-      "ContactName": "Carter, King and Waelchi",
-      "PersonId": 374,
-      "PersonName": "Waelchi, Macejkovic and Littel",
-      "AssociateId": 647,
-      "Address": "ipsa",
-      "EmailId": 288,
+      "ContactId": 172,
+      "ContactName": "Lindgren-Kassulke",
+      "PersonId": 107,
+      "PersonName": "Gulgowski-Howe",
+      "AssociateId": 309,
+      "Address": "quasi",
+      "EmailId": 333,
       "DuplicatePersonIds": [
-        326,
-        953
+        878,
+        730
       ],
-      "Name": "Lueilwitz, Wilderman and Hermann",
+      "Name": "O'Reilly, Davis and Rice",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 931
+          "FieldType": "System.String",
+          "FieldLength": 572
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 334,
-      "ContactName": "Emard, Grant and Kris",
-      "PersonId": 278,
-      "PersonName": "Reynolds, Will and Torphy",
-      "AssociateId": 583,
-      "Address": "sint",
-      "EmailId": 981,
+      "ContactId": 445,
+      "ContactName": "Hyatt LLC",
+      "PersonId": 361,
+      "PersonName": "Kovacek Group",
+      "AssociateId": 477,
+      "Address": "pariatur",
+      "EmailId": 189,
       "DuplicatePersonIds": [
-        400,
-        697
+        107,
+        717
       ],
-      "Name": "Terry-Langworth",
+      "Name": "Schneider, Kuvalis and Gleason",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 379
+          "FieldLength": 290
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 909,
-      "ContactName": "Wisoky-Funk",
-      "PersonId": 756,
-      "PersonName": "Rohan-McLaughlin",
-      "AssociateId": 352,
-      "Address": "similique",
-      "EmailId": 247,
+      "ContactId": 797,
+      "ContactName": "Olson LLC",
+      "PersonId": 674,
+      "PersonName": "Hessel, Quigley and Murazik",
+      "AssociateId": 842,
+      "Address": "assumenda",
+      "EmailId": 514,
       "DuplicatePersonIds": [
-        343,
-        339
+        780,
+        48
       ],
-      "Name": "Hodkiewicz Group",
+      "Name": "Schmitt, Monahan and Lehner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 772
+          "FieldLength": 773
         }
       }
     }
   ],
-  "Subject": "quidem",
-  "HTMLBody": "voluptatum",
+  "Subject": "officia",
+  "HTMLBody": "sequi",
   "From": null,
-  "Sent": "2000-02-29T13:14:00.2668463+01:00",
-  "Size": 30,
+  "Sent": "2025-02-27T16:32:38.9301889+01:00",
+  "Size": 270,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "dolores",
-  "PlainBody": "corporis",
+  "MessageID": "quis",
+  "PlainBody": "accusantium",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 720,
+  "ServerId": 831,
   "Attachments": [
     {
-      "Description": "Horizontal methodical structure",
-      "Filename": "sit",
-      "Size": 331,
-      "Type": "labore",
-      "Encoding": "beatae",
-      "Id": "omnis",
-      "Disposition": "dolorum",
-      "IsSafeFileExtension": false,
+      "Description": "Inverse tangible concept",
+      "Filename": "qui",
+      "Size": 590,
+      "Type": "ea",
+      "Encoding": "voluptatem",
+      "Id": "nihil",
+      "Disposition": "animi",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 924
+          "FieldLength": 940
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Jacobi Group",
+      "Name": "Ward-Streich",
       "Values": [
-        "sequi",
-        "autem"
+        "blanditiis",
+        "delectus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 408
+          "FieldLength": 265
         }
       }
     },
     {
-      "Name": "Jacobi Group",
+      "Name": "Ward-Streich",
       "Values": [
-        "sequi",
-        "autem"
+        "blanditiis",
+        "delectus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 408
+          "FieldLength": 265
         }
       }
     }
   ],
-  "FolderName": "Macejkovic, Schaden and Adams",
-  "EmailItemId": 819,
-  "AccountId": 684,
-  "ReceivedAt": "2003-08-21T13:14:00.2668463+02:00",
+  "FolderName": "Kulas-Schmidt",
+  "EmailItemId": 205,
+  "AccountId": 952,
+  "ReceivedAt": "2001-12-12T16:32:38.9301889+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2015-07-28T13:14:00.2668463+02:00",
+  "RepliedAt": "2014-09-03T16:32:38.9458092+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 534
+      "FieldLength": 772
     }
   }
 }

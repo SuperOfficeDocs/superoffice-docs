@@ -97,28 +97,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 635,
-  "Section": "ut",
-  "Key": "incidunt",
-  "Name": "Corwin-Stoltenberg",
+  "PrefDescId": 830,
+  "Section": "rerum",
+  "Key": "dolores",
+  "Name": "Nitzsche-Hermiston",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Reverse-engineered neutral pricing structure",
+  "Description": "Customizable bi-directional system engine",
   "IsBuiltin": false,
-  "TableName": "Grimes, Wisoky and Keeling",
-  "UserDefinedListId": 883,
-  "Rank": 123,
-  "SubGroup": "velit",
-  "MinLevel": 610,
-  "MaxValue": 743,
-  "MinValue": 304,
-  "RequiredLicense": "qui"
+  "TableName": "Littel Group",
+  "UserDefinedListId": 853,
+  "Rank": 183,
+  "SubGroup": "nobis",
+  "MinLevel": 152,
+  "MaxValue": 841,
+  "MinValue": 439,
+  "RequiredLicense": "distinctio"
 }
 ```
 
@@ -129,30 +129,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 948,
-  "Section": "est",
-  "Key": "nulla",
-  "Name": "Wilkinson, Feeney and Yundt",
+  "PrefDescId": 85,
+  "Section": "voluptatem",
+  "Key": "unde",
+  "Name": "Watsica-Kozey",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Advanced mission-critical toolset",
-  "IsBuiltin": false,
-  "TableName": "Sawayn, Nikolaus and Bradtke",
-  "UserDefinedListId": 399,
-  "Rank": 393,
-  "SubGroup": "rem",
-  "MinLevel": 676,
-  "MaxValue": 65,
-  "MinValue": 39,
-  "RequiredLicense": "aspernatur",
+  "Description": "Multi-channelled foreground frame",
+  "IsBuiltin": true,
+  "TableName": "Waters, Morar and Batz",
+  "UserDefinedListId": 121,
+  "Rank": 872,
+  "SubGroup": "et",
+  "MinLevel": 804,
+  "MaxValue": 482,
+  "MinValue": 868,
+  "RequiredLicense": "doloribus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 460
+      "FieldLength": 649
     }
   }
 }

@@ -99,7 +99,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "O'Reilly Group",
+  "TaskName": "Sawayn Group",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 798,
-    "Name": "Schamberger-Conroy",
-    "AssociateId": 465,
-    "DetailsTable": 502,
-    "DetailsRecord": 625,
+    "Id": 286,
+    "Name": "Goyette, Balistreri and Abbott",
+    "AssociateId": 940,
+    "DetailsTable": 537,
+    "DetailsRecord": 948,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "soluta",
-      "ParameterObject2": "autem"
+      "ParameterObject1": "facere",
+      "ParameterObject2": "maiores"
     },
-    "LastStarted": "2021-03-15T13:13:59.5314453+01:00",
-    "Created": "2023-01-03T13:13:59.5314453+01:00",
-    "StartCount": 824,
-    "DatabaseSerialNumber": "868019",
-    "Context": "vitae",
-    "Result": "commodi",
+    "LastStarted": "2012-02-23T16:32:38.1959817+01:00",
+    "Created": "1998-03-26T16:32:38.1959817+01:00",
+    "StartCount": 473,
+    "DatabaseSerialNumber": "1022205",
+    "Context": "vel",
+    "Result": "velit",
     "State": "All",
-    "Description": "Cross-group systemic moderator",
-    "Response": "esse",
-    "Request": "nihil",
-    "ProgressDescription": "Progressive neutral emulation",
-    "ProgressPercent": 418,
-    "FileName": "Kihn, Sawayn and Mraz",
+    "Description": "Programmable secondary middleware",
+    "Response": "ea",
+    "Request": "laborum",
+    "ProgressDescription": "Re-contextualized logistical process improvement",
+    "ProgressPercent": 437,
+    "FileName": "Konopelski Group",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 328
+        "FieldType": "System.Int32",
+        "FieldLength": 804
       }
     }
   }

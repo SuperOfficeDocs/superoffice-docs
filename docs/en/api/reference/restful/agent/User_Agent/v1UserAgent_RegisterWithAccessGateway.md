@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/User/RegisterWithAccessGateway
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RedirectUri": "omnis"
+  "RedirectUri": "dolore"
 }
 ```
 
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ClientId": "dolor",
-  "RedirectUri": "tempore",
+  "ClientId": "mollitia",
+  "RedirectUri": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 182
+      "FieldLength": 743
     }
   }
 }

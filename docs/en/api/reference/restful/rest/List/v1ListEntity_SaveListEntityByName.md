@@ -89,16 +89,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 454,
-  "Name": "Auer-Johnston",
-  "Tooltip": "ipsam",
+  "Id": 374,
+  "Name": "Klein-Buckridge",
+  "Tooltip": "mollitia",
   "Deleted": false,
-  "Rank": 637,
-  "IsCustomList": false,
+  "Rank": 10,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "laboriosam",
-  "InUseByUserDefinedFields": false
+  "ListType": "et",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 110,
-  "Name": "Prohaska Inc and Sons",
-  "Tooltip": "explicabo",
+  "Id": 721,
+  "Name": "Hermiston-Willms",
+  "Tooltip": "eum",
   "Deleted": true,
-  "Rank": 201,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "eum",
-  "InUseByUserDefinedFields": false,
+  "Rank": 279,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "nihil",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 22
+      "FieldType": "System.String",
+      "FieldLength": 900
     }
   }
 }

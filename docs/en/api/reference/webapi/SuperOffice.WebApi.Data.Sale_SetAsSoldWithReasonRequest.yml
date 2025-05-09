@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest
+  commentId: T:SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest
+  id: Sale_SetAsSoldWithReasonRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest.#ctor
+  - SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest.ReasonId
+  - SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest.SaleIds
+  langs:
+  - csharp
+  - vb
+  name: Sale_SetAsSoldWithReasonRequest
+  nameWithType: Sale_SetAsSoldWithReasonRequest
+  fullName: SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Sale_SetAsSoldWithReasonRequest : Object'
+    content.vb: >-
+      Public Class Sale_SetAsSoldWithReasonRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest
+  langs:
+  - csharp
+  - vb
+  name: Sale_SetAsSoldWithReasonRequest()
+  nameWithType: Sale_SetAsSoldWithReasonRequest.Sale_SetAsSoldWithReasonRequest()
+  fullName: SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest.Sale_SetAsSoldWithReasonRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Sale_SetAsSoldWithReasonRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest.SaleIds
+  commentId: P:SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest.SaleIds
+  id: SaleIds
+  parent: SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest
+  langs:
+  - csharp
+  - vb
+  name: SaleIds
+  nameWithType: Sale_SetAsSoldWithReasonRequest.SaleIds
+  fullName: SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest.SaleIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] SaleIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property SaleIds As Integer()
+  overload: SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest.SaleIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest.ReasonId
+  commentId: P:SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest.ReasonId
+  id: ReasonId
+  parent: SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest
+  langs:
+  - csharp
+  - vb
+  name: ReasonId
+  nameWithType: Sale_SetAsSoldWithReasonRequest.ReasonId
+  fullName: SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest.ReasonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ReasonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ReasonId As Integer
+  overload: SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest.ReasonId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest.#ctor
+  isExternal: true
+  name: Sale_SetAsSoldWithReasonRequest
+  nameWithType: Sale_SetAsSoldWithReasonRequest.Sale_SetAsSoldWithReasonRequest
+  fullName: SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest.Sale_SetAsSoldWithReasonRequest
+- uid: SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest.SaleIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest.SaleIds
+  isExternal: true
+  name: SaleIds
+  nameWithType: Sale_SetAsSoldWithReasonRequest.SaleIds
+  fullName: SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest.SaleIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest.ReasonId*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest.ReasonId
+  isExternal: true
+  name: ReasonId
+  nameWithType: Sale_SetAsSoldWithReasonRequest.ReasonId
+  fullName: SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest.ReasonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

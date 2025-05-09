@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 654,
-    "Name": "Glover-Stokes",
-    "Tooltip": "assumenda",
-    "Deleted": false,
-    "Rank": 225,
-    "UdListDefinitionId": 340,
+    "HeadingId": 161,
+    "Name": "Reynolds LLC",
+    "Tooltip": "ex",
+    "Deleted": true,
+    "Rank": 220,
+    "UdListDefinitionId": 102,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 809
+        "FieldLength": 577
       }
     }
   }

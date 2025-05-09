@@ -26,7 +26,7 @@ Gets a SaleStakeholder object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=111
+POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=912
 POST /api/v1/Agents/Sale/GetSaleStakeholder?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "DuBuque Group",
-  "Comment": "voluptas",
-  "StakeholderRoleId": 949,
-  "CountryId": 117,
-  "PersonId": 178,
-  "EmailDescription": "katelyn_schulist@hayes.com",
-  "EmailId": 585,
-  "EmailAddress": "imani@little.ca",
-  "PhoneId": 789,
-  "ContactName": "Williamson-Koch",
-  "ContactId": 301,
-  "SaleId": 877,
-  "Mrmrs": "est",
-  "Firstname": "Darrion",
-  "MiddleName": "Feest Group",
-  "Lastname": "Okuneva",
-  "SaleStakeholderId": 372,
-  "Rank": 517,
-  "Phone": "039.596.9256 x945",
+  "StakeholderRoleName": "Daugherty, Hyatt and Langworth",
+  "Comment": "et",
+  "StakeholderRoleId": 849,
+  "CountryId": 167,
+  "PersonId": 622,
+  "EmailDescription": "scot@toykozey.biz",
+  "EmailId": 198,
+  "EmailAddress": "foster@spencer.co.uk",
+  "PhoneId": 827,
+  "ContactName": "Leffler, Satterfield and Christiansen",
+  "ContactId": 30,
+  "SaleId": 126,
+  "Mrmrs": "expedita",
+  "Firstname": "Alford",
+  "MiddleName": "Abshire Group",
+  "Lastname": "Schowalter",
+  "SaleStakeholderId": 574,
+  "Rank": 743,
+  "Phone": "1-468-186-4140 x3127",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 970
+      "FieldType": "System.Int32",
+      "FieldLength": 436
     }
   }
 }

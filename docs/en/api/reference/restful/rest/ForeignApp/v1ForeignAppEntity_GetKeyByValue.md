@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=tenetur
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=consequatur
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,23 +87,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 02 Sep 2017 13:14:08 G9T
+Last-Modified: Sun, 28 Mar 2004 16:32:47 G3T
 
 {
-  "Key": "id",
-  "Value": "omnis",
-  "RecordId": 245,
-  "CreatedDate": "2017-05-12T13:14:08.7585151+02:00",
-  "UpdatedDate": "2017-09-02T13:14:08.7585151+02:00",
-  "UpdatedBy": "deleniti",
-  "CreatedBy": "vitae",
-  "TableName": "Gaylord LLC",
+  "Key": "rerum",
+  "Value": "voluptas",
+  "RecordId": 687,
+  "CreatedDate": "2017-08-07T16:32:47.5558268+02:00",
+  "UpdatedDate": "2004-03-28T16:32:47.5558268+02:00",
+  "UpdatedBy": "voluptatum",
+  "CreatedBy": "sed",
+  "TableName": "Conn-Block",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 332
+      "FieldLength": 414
     }
   }
 }

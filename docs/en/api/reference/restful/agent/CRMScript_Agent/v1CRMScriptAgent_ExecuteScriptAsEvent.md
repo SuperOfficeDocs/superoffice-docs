@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 780,
+  "CRMScriptId": 810,
   "EventData": null
 }
 ```
@@ -110,34 +110,34 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "quia",
-    "InputValues2": "quis"
+    "InputValues1": "et",
+    "InputValues2": "autem"
   },
   "BlockExecution": false,
-  "NavigateTo": "praesentium",
-  "Message": "delectus",
-  "ShowDialog": "in",
+  "NavigateTo": "consequatur",
+  "Message": "vitae",
+  "ShowDialog": "asperiores",
   "OutputValues": {
-    "OutputValues1": "similique",
-    "OutputValues2": "quibusdam"
+    "OutputValues1": "non",
+    "OutputValues2": "quo"
   },
   "StateValues": {
-    "StateValues1": "repellat",
-    "StateValues2": "dolores"
+    "StateValues1": "quia",
+    "StateValues2": "quibusdam"
   },
-  "Exception": "non",
+  "Exception": "consequatur",
   "ParserValues": {
-    "ParserValues1": "ratione",
-    "ParserValues2": "voluptatem"
+    "ParserValues1": "sunt",
+    "ParserValues2": "quae"
   },
   "CgiVariables": {
-    "CgiVariables1": "suscipit",
-    "CgiVariables2": "consequatur"
+    "CgiVariables1": "molestiae",
+    "CgiVariables2": "deserunt"
   },
-  "CgiContent": "quidem",
+  "CgiContent": "quae",
   "Headers": {
-    "Headers1": "suscipit",
-    "Headers2": "perferendis"
+    "Headers1": "voluptatum",
+    "Headers2": "facilis"
   },
   "TraceExecution": false,
   "TableRight": null,
@@ -145,7 +145,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 72
+      "FieldLength": 514
     }
   }
 }

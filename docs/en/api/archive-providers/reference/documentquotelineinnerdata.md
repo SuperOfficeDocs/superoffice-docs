@@ -153,9 +153,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |alternative/version/quote/sale/probPercent|int|Sale - Probability as %: Probability as %| x |
 |alternative/version/quote/sale/originalStage|listAny|Sale - Stage: Displays the stage of the sale| x |
 |alternative/version/quote/sale/stage|listAny|Sale - Stage: Displays the stage of the sale| x |
+|alternative/version/quote/sale/stageName| *None* |Sale - Stage name: Displays the stage of the sale| x |
 |alternative/version/quote/sale/saleStatus|listAny|Sale - Status: The status of the sale - open, lost or sold| x |
 |alternative/version/quote/sale/stageRank| *None* |Sale - Stage rank: Rank of the sale stage in the stage list| x |
 |alternative/version/quote/sale/saleType|listAny|Sale - Sale type: Sale type, from list| x |
+|alternative/version/quote/sale/saleTypeId| *None* |Sale - Sale type ID: Sale type, from list| x |
+|alternative/version/quote/sale/stageId| *None* |Sale - Sale stage ID: Displays the stage of the sale| x |
 |alternative/version/quote/sale/nextDueDate|date|Sale - Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
 |alternative/version/quote/sale/reopenDate|date|Sale - Reopen date: Displays the reopen date for the sale| x |
 |alternative/version/quote/sale/stalledComment|listAny|Sale - Reason (stalled): The reason the sale has been stalled| x |
@@ -220,13 +223,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |alternative/version/quote/connection/displayName|string|ERP connection - Name: Localized display name| x |
 |alternative/version/quote/connection/displayDescription|string|ERP connection - Description: Describes the connection in more detail.| x |
 |alternative/version/quote/connection/connectorName|string|ERP connection - Quote Connector name: Name of Quote Connector module. Defined by the developer of the module.| x |
-|alternative/version/quote/connection/extraData|string|ERP connection - Extra data: XML encoded data.| x |
-|alternative/version/quote/connection/updatedBy|associate|ERP connection - Updated by: The user who last updated the data| x |
-|alternative/version/quote/connection/updatedDate|date|ERP connection - Updated: The date/time the data was last updated in UTC.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|alternative/version/quote/connection/extraData|string|ERP connection - Extra data: XML encoded data.| x |
+|alternative/version/quote/connection/updatedBy|associate|ERP connection - Updated by: The user who last updated the data| x |
+|alternative/version/quote/connection/updatedDate|date|ERP connection - Updated: The date/time the data was last updated in UTC.| x |
 |alternative/version/quote/connection/registeredBy|associate|ERP connection - Registered by: The user who registered the data| x |
 |alternative/version/quote/connection/registeredDate|date|ERP connection - Registered date: The date/time the data was registered in UTC.| x |
 |alternative/version/quote/connection/erpConnection/id|int|ERP connection - ERP connections - Connection ID: Database key for an ERP connection|  |
@@ -252,7 +255,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentQuoteLineInnerData?$select=alternative/version/quote/sale/text,alternative/version/quote/sale/associate/isActiveText,alternative/version/quote/connection/erpConnection/active
+GET /api/v1/archive/DocumentQuoteLineInnerData?$select=subscriptionQuantity,alternative/totalPrice,alternative/version/quote/sale/saleStatus,alternative/version/quote/sale/sale/description
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

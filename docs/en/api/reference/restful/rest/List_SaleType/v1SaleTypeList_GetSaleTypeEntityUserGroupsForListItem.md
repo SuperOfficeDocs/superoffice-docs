@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 308,
-    "Name": "D'Amore, Labadie and Schowalter",
-    "ToolTip": "Nihil suscipit culpa eum quibusdam nulla ut.",
-    "Deleted": true,
-    "Rank": 119,
-    "Type": "qui",
-    "ColorBlock": 701,
-    "IconHint": "explicabo",
-    "Selected": false,
-    "LastChanged": "2019-01-17T13:14:10.0566655+01:00",
+    "Id": 625,
+    "Name": "Purdy-Rodriguez",
+    "ToolTip": "Temporibus odio odit est voluptas sed.",
+    "Deleted": false,
+    "Rank": 605,
+    "Type": "pariatur",
+    "ColorBlock": 296,
+    "IconHint": "labore",
+    "Selected": true,
+    "LastChanged": "2011-07-08T16:32:48.9619631+02:00",
     "ChildItems": [
       {
-        "Id": 138,
-        "Name": "Halvorson-Greenholt",
-        "ToolTip": "Eligendi expedita officiis voluptatem quisquam eos.",
+        "Id": 903,
+        "Name": "Botsford, Stiedemann and Langosh",
+        "ToolTip": "Quam rerum id.",
         "Deleted": false,
-        "Rank": 994,
+        "Rank": 951,
         "Type": "modi",
-        "ColorBlock": 172,
-        "IconHint": "amet",
-        "Selected": true,
-        "LastChanged": "2024-09-09T13:14:10.0566655+02:00",
+        "ColorBlock": 593,
+        "IconHint": "libero",
+        "Selected": false,
+        "LastChanged": "2002-11-17T16:32:48.9619631+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "aspernatur",
-        "Hidden": true,
-        "FullName": "Miss Lisette Jorge Adams V",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "sit",
+        "Hidden": false,
+        "FullName": "Brennan Bechtelar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 129
+            "FieldType": "System.String",
+            "FieldLength": 579
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Humberto D'Amore",
+    "ExtraInfo": "qui",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Mrs. Demarco Kobe Gleason",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 572
+        "FieldLength": 115
       }
     }
   }

@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 905,
-  "PlainMessage": "ut",
-  "HtmlMessage": "aut",
-  "SmsMessage": "rem",
-  "Description": "Decentralized full-range capacity",
-  "Subject": "omnis",
-  "FolderId": 528,
-  "HeaderField": "et",
-  "Design": "et",
+  "ShipmentMessageId": 455,
+  "PlainMessage": "saepe",
+  "HtmlMessage": "dignissimos",
+  "SmsMessage": "doloremque",
+  "Description": "User-friendly multi-state policy",
+  "Subject": "aliquam",
+  "FolderId": 115,
+  "HeaderField": "in",
+  "Design": "sint",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Profound local standardization",
-  "AccessKey": "modi",
-  "DocumentMessage": 378,
-  "Registered": "2019-11-28T13:14:00.6887452+01:00",
-  "RegisteredAssociateId": 265,
-  "Updated": "2018-03-11T13:14:00.6887452+01:00",
-  "UpdatedAssociateId": 370,
-  "UpdatedCount": 933,
+  "LongDescription": "Seamless local forecast",
+  "AccessKey": "quisquam",
+  "DocumentMessage": 696,
+  "Registered": "2021-08-27T16:32:39.3363462+02:00",
+  "RegisteredAssociateId": 126,
+  "Updated": "2019-06-04T16:32:39.3363462+02:00",
+  "UpdatedAssociateId": 252,
+  "UpdatedCount": 543,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 259
+      "FieldLength": 275
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,20 +73,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Buckridge-Gulgowski",
-    "Description": "Horizontal uniform installation",
-    "Rank": 433,
+    "Name": "Franecki-Ortiz",
+    "Description": "Team-oriented value-added support",
+    "Rank": 349,
     "Restrictions": [
       {
-        "Name": "Muller, Kling and Hyatt",
-        "Operator": "porro",
+        "Name": "Hirthe, Terry and Keebler",
+        "Operator": "atque",
         "Values": [
-          "tempore",
-          "deleniti"
+          "assumenda",
+          "illo"
         ],
         "DisplayValues": [
-          "aperiam",
-          "sed"
+          "non",
+          "tempore"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -94,27 +94,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 140,
+        "InterParenthesis": 804,
         "InterOperator": "And",
-        "UniqueHash": 888
+        "UniqueHash": 27
       }
     ]
   },
   {
-    "Name": "Buckridge-Gulgowski",
-    "Description": "Horizontal uniform installation",
-    "Rank": 433,
+    "Name": "Franecki-Ortiz",
+    "Description": "Team-oriented value-added support",
+    "Rank": 349,
     "Restrictions": [
       {
-        "Name": "Muller, Kling and Hyatt",
-        "Operator": "porro",
+        "Name": "Hirthe, Terry and Keebler",
+        "Operator": "atque",
         "Values": [
-          "tempore",
-          "deleniti"
+          "assumenda",
+          "illo"
         ],
         "DisplayValues": [
-          "aperiam",
-          "sed"
+          "non",
+          "tempore"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -122,9 +122,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 140,
+        "InterParenthesis": 804,
         "InterOperator": "And",
-        "UniqueHash": 888
+        "UniqueHash": 27
       }
     ]
   }

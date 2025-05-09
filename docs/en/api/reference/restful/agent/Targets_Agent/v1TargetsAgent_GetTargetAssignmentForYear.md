@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 297,
+  "TargetYear": 666,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 674
+  "Id": 358
 }
 ```
 
@@ -102,24 +102,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 17,
+  "TargetAssignmentInfoId": 317,
   "Values": [
-    668,
-    759
+    555,
+    132
   ],
   "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 961,
-  "DimensionListItemDisplayName": "Wintheiser-Purdy",
+  "DimensionListItem": 766,
+  "DimensionListItemDisplayName": "Kessler-Cronin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 995
+      "FieldLength": 581
     }
   }
 }

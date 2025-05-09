@@ -417,10 +417,14 @@
     name: Appointment_CreateDefaultRecurrenceRequest
   - uid: SuperOffice.WebApi.Data.Appointment_CreateDefaultReOpenAppointmentRequest
     name: Appointment_CreateDefaultReOpenAppointmentRequest
+  - uid: SuperOffice.WebApi.Data.Appointment_CreateVideoMeetingReservationRequest
+    name: Appointment_CreateVideoMeetingReservationRequest
   - uid: SuperOffice.WebApi.Data.Appointment_DeclineInvitationFromEmailItemRequest
     name: Appointment_DeclineInvitationFromEmailItemRequest
   - uid: SuperOffice.WebApi.Data.Appointment_DeleteRequest
     name: Appointment_DeleteRequest
+  - uid: SuperOffice.WebApi.Data.Appointment_DeleteVideoMeetingReservationRequest
+    name: Appointment_DeleteVideoMeetingReservationRequest
   - uid: SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest
     name: Appointment_GenerateLeadRequest
   - uid: SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest
@@ -521,6 +525,8 @@
     name: Appointment_GetTaskListItemsRequest
   - uid: SuperOffice.WebApi.Data.Appointment_GetUIDFromAppointmentIdRequest
     name: Appointment_GetUIDFromAppointmentIdRequest
+  - uid: SuperOffice.WebApi.Data.Appointment_MoveExtendedRequest
+    name: Appointment_MoveExtendedRequest
   - uid: SuperOffice.WebApi.Data.Appointment_MoveRequest
     name: Appointment_MoveRequest
   - uid: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest
@@ -573,6 +579,8 @@
     name: AppointmentExternalOwner
   - uid: SuperOffice.WebApi.Data.AppointmentInfo
     name: AppointmentInfo
+  - uid: SuperOffice.WebApi.Data.AppointmentMoveData
+    name: AppointmentMoveData
   - uid: SuperOffice.WebApi.Data.AppointmentPrivate
     name: AppointmentPrivate
   - uid: SuperOffice.WebApi.Data.AppointmentSaveData
@@ -1255,6 +1263,8 @@
     name: CustomerService_DeleteChatSessionsRequest
   - uid: SuperOffice.WebApi.Data.CustomerService_EventHandlerExistsRequest
     name: CustomerService_EventHandlerExistsRequest
+  - uid: SuperOffice.WebApi.Data.CustomerService_EventHandlersExistsRequest
+    name: CustomerService_EventHandlersExistsRequest
   - uid: SuperOffice.WebApi.Data.CustomerService_ExecuteEventHandlersRequest
     name: CustomerService_ExecuteEventHandlersRequest
   - uid: SuperOffice.WebApi.Data.CustomerService_FindTicketsByTitleOrIdRequest
@@ -1467,6 +1477,8 @@
     name: Diagnostics_GetWebAppUsagesForPeriodRequest
   - uid: SuperOffice.WebApi.Data.Diagnostics_LogViewStateRequest
     name: Diagnostics_LogViewStateRequest
+  - uid: SuperOffice.WebApi.Data.Diagnostics_PerformTasksAfterCustomObjectTableDeletedRequest
+    name: Diagnostics_PerformTasksAfterCustomObjectTableDeletedRequest
   - uid: SuperOffice.WebApi.Data.Diagnostics_PerformTasksAfterUpgradeRequest
     name: Diagnostics_PerformTasksAfterUpgradeRequest
   - uid: SuperOffice.WebApi.Data.Diagnostics_RemoveExpiredSystemMessagesRequest
@@ -3643,8 +3655,12 @@
     name: Sale_SaleHasQuoteRequest
   - uid: SuperOffice.WebApi.Data.Sale_SetAsLostRequest
     name: Sale_SetAsLostRequest
+  - uid: SuperOffice.WebApi.Data.Sale_SetAsLostWithReasonRequest
+    name: Sale_SetAsLostWithReasonRequest
   - uid: SuperOffice.WebApi.Data.Sale_SetAsSoldRequest
     name: Sale_SetAsSoldRequest
+  - uid: SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest
+    name: Sale_SetAsSoldWithReasonRequest
   - uid: SuperOffice.WebApi.Data.Sale_UpdateSaleStakeholdersRequest
     name: Sale_UpdateSaleStakeholdersRequest
   - uid: SuperOffice.WebApi.Data.Sale_ValidateSaleEntityRequest
@@ -3717,6 +3733,8 @@
     name: Selection_DeleteEntitiesRequest
   - uid: SuperOffice.WebApi.Data.Selection_DeletePersonsRequest
     name: Selection_DeletePersonsRequest
+  - uid: SuperOffice.WebApi.Data.Selection_DeleteSelectionEntityRequest
+    name: Selection_DeleteSelectionEntityRequest
   - uid: SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest
     name: Selection_EditContactSelectionMemberDetailsRequest
   - uid: SuperOffice.WebApi.Data.Selection_ExportSelectionMembersRequest
@@ -4569,6 +4587,8 @@
     name: ValueOverride
   - uid: SuperOffice.WebApi.Data.VersionInfo
     name: VersionInfo
+  - uid: SuperOffice.WebApi.Data.VideoMeetingReservation
+    name: VideoMeetingReservation
   - uid: SuperOffice.WebApi.Data.VideoMeetingStatus
     name: VideoMeetingStatus
   - uid: SuperOffice.WebApi.Data.ViewState_DeleteHistoryRequest

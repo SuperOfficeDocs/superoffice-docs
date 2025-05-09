@@ -75,15 +75,15 @@ OK
 POST /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 451,
-  "Name": "Schinner-Howe",
-  "Tooltip": "sit",
-  "Rank": 824,
-  "Key": "itaque",
+  "LegalBaseId": 721,
+  "Name": "Nienow Group",
+  "Tooltip": "eius",
+  "Rank": 79,
+  "Key": "veniam",
   "Deleted": false
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 263,
-  "Name": "Hettinger Inc and Sons",
-  "Tooltip": "sed",
-  "Rank": 737,
-  "Key": "et",
-  "Deleted": false,
+  "LegalBaseId": 1002,
+  "Name": "Kunze, Braun and Pacocha",
+  "Tooltip": "aperiam",
+  "Rank": 174,
+  "Key": "voluptatem",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 898
+      "FieldLength": 381
     }
   }
 }

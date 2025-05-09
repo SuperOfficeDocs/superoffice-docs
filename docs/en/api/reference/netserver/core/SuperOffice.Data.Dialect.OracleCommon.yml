@@ -103,6 +103,7 @@ items:
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.LessThanOrEqual)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.GreaterThanOrEqual)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.HasFlag)
+  - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.HasNoFlag)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.And)
   - SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.Or)
   - SuperOffice.Data.Dialect.Dialect.ParseMathematicalArguments(SuperOffice.Data.SQL.MathematicalExpression,System.String)
@@ -2839,6 +2840,47 @@ references:
     name: HasFlag
     nameWithType: HasFlag
     fullName: SuperOffice.Data.SQL.HasFlag
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.HasNoFlag)
+  commentId: M:SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.HasNoFlag)
+  parent: SuperOffice.Data.Dialect.Dialect
+  isExternal: true
+  name: ToSql(HasNoFlag)
+  nameWithType: Dialect.ToSql(HasNoFlag)
+  fullName: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.HasNoFlag)
+  spec.csharp:
+  - uid: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.HasNoFlag)
+    name: ToSql
+    nameWithType: Dialect.ToSql
+    fullName: SuperOffice.Data.Dialect.Dialect.ToSql
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.HasNoFlag
+    name: HasNoFlag
+    nameWithType: HasNoFlag
+    fullName: SuperOffice.Data.SQL.HasNoFlag
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Dialect.Dialect.ToSql(SuperOffice.Data.SQL.HasNoFlag)
+    name: ToSql
+    nameWithType: Dialect.ToSql
+    fullName: SuperOffice.Data.Dialect.Dialect.ToSql
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.HasNoFlag
+    name: HasNoFlag
+    nameWithType: HasNoFlag
+    fullName: SuperOffice.Data.SQL.HasNoFlag
     isExternal: true
   - name: )
     nameWithType: )

@@ -66,7 +66,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 512,
-    "Name": "Cartwright Group",
-    "ContentType": "asperiores",
-    "AttSize": 982,
+    "AttachmentId": 798,
+    "Name": "Hessel LLC",
+    "ContentType": "doloremque",
+    "AttSize": 974,
     "InlineImage": false,
-    "ContentId": "occaecati",
-    "AuthKey": "non",
-    "IsSafeFileExtension": true,
+    "ContentId": "aspernatur",
+    "AuthKey": "voluptatem",
+    "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 969
+        "FieldLength": 115
       }
     }
   }

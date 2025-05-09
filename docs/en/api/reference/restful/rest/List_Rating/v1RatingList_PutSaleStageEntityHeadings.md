@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 604,
-    "Name": "Paucek, Treutel and Mertz",
-    "Tooltip": "autem",
-    "Deleted": true,
-    "Rank": 736,
-    "UdListDefinitionId": 203
+    "HeadingId": 616,
+    "Name": "Jacobi, Greenholt and Bogan",
+    "Tooltip": "temporibus",
+    "Deleted": false,
+    "Rank": 597,
+    "UdListDefinitionId": 222
   },
   {
-    "HeadingId": 604,
-    "Name": "Paucek, Treutel and Mertz",
-    "Tooltip": "autem",
-    "Deleted": true,
-    "Rank": 736,
-    "UdListDefinitionId": 203
+    "HeadingId": 616,
+    "Name": "Jacobi, Greenholt and Bogan",
+    "Tooltip": "temporibus",
+    "Deleted": false,
+    "Rank": 597,
+    "UdListDefinitionId": 222
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 493,
-    "Name": "Macejkovic-Denesik",
-    "Tooltip": "placeat",
+    "HeadingId": 171,
+    "Name": "Lakin Inc and Sons",
+    "Tooltip": "et",
     "Deleted": true,
-    "Rank": 566,
-    "UdListDefinitionId": 109,
+    "Rank": 181,
+    "UdListDefinitionId": 983,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 696
+        "FieldLength": 160
       }
     }
   }

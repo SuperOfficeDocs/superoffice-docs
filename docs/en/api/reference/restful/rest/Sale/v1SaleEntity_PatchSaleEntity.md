@@ -151,18 +151,18 @@ SaleEntity  updated.
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "perspiciatis",
+    "path": "praesentium",
     "value": {}
   },
   {
     "op": "add",
-    "path": "perspiciatis",
+    "path": "praesentium",
     "value": {}
   }
 ]
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "eaque",
+  "SaleText": "explicabo",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -190,113 +190,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2017-04-07T13:14:09.1341414+02:00",
-  "Amount": 23652.298,
-  "SaleId": 858,
-  "Earning": 7418.178,
-  "EarningPercent": 26429.022,
-  "Heading": "omnis",
-  "Number": "914868",
-  "Probability": 438,
-  "CreatedDate": "2014-11-15T13:14:09.1341414+01:00",
-  "UpdatedDate": "2021-11-03T13:14:09.1341414+01:00",
+  "Saledate": "2006-09-06T16:32:48.0244695+02:00",
+  "Amount": 620.53199999999993,
+  "SaleId": 907,
+  "Earning": 9834.492,
+  "EarningPercent": 17553.534,
+  "Heading": "et",
+  "Number": "607528",
+  "Probability": 377,
+  "CreatedDate": "2003-02-12T16:32:48.0244695+01:00",
+  "UpdatedDate": "2000-07-05T16:32:48.0244695+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 17,
+  "ActiveLinks": 883,
   "Links": [
     {
-      "EntityName": "Beer-Goodwin",
-      "Id": 437,
-      "Description": "Re-engineered neutral adapter",
-      "ExtraInfo": "iusto",
-      "LinkId": 682,
+      "EntityName": "Skiles Group",
+      "Id": 529,
+      "Description": "Organic intangible encryption",
+      "ExtraInfo": "sint",
+      "LinkId": 901,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 691
+          "FieldLength": 944
         }
       }
     }
   ],
-  "NextDueDate": "2006-09-20T13:14:09.1341414+02:00",
-  "Postit": "at",
+  "NextDueDate": "2011-03-31T16:32:48.0244695+02:00",
+  "Postit": "harum",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2017-12-14T13:14:09.1341414+01:00",
+  "ReopenDate": "2011-01-29T16:32:48.0244695+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Smitham Inc and Sons",
-      "Comment": "illum",
-      "StakeholderRoleId": 157,
-      "CountryId": 474,
-      "PersonId": 709,
-      "EmailDescription": "anahi@raynorbins.us",
-      "EmailId": 655,
-      "EmailAddress": "cornelius@bauch.uk",
-      "PhoneId": 980,
-      "ContactName": "Botsford-Bernhard",
-      "ContactId": 99,
-      "SaleId": 365,
-      "Mrmrs": "dolorum",
-      "Firstname": "Effie",
-      "MiddleName": "Considine Inc and Sons",
-      "Lastname": "Satterfield",
-      "SaleStakeholderId": 887,
-      "Rank": 686,
-      "Phone": "633-402-5618",
+      "StakeholderRoleName": "Lowe LLC",
+      "Comment": "est",
+      "StakeholderRoleId": 952,
+      "CountryId": 399,
+      "PersonId": 508,
+      "EmailDescription": "deangelo.friesen@breitenberg.ca",
+      "EmailId": 116,
+      "EmailAddress": "cody_durgan@kertzmannbeatty.us",
+      "PhoneId": 812,
+      "ContactName": "Thiel-Ebert",
+      "ContactId": 449,
+      "SaleId": 19,
+      "Mrmrs": "eveniet",
+      "Firstname": "Breana",
+      "MiddleName": "Jakubowski, Zieme and Schumm",
+      "Lastname": "Block",
+      "SaleStakeholderId": 488,
+      "Rank": 628,
+      "Phone": "914.618.8724 x3705",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 735
+          "FieldLength": 9
         }
       }
     }
   ],
-  "ActiveErpLinks": 402,
+  "ActiveErpLinks": 448,
   "UserDefinedFields": {
-    "SuperOffice:1": "Aylin Wyman",
-    "SuperOffice:2": "1845007651"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "quasi",
-    "ExtraFields2": "vel"
+    "ExtraFields1": "iusto",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "earum",
-    "CustomFields2": "non"
+    "CustomFields1": "qui",
+    "CustomFields2": "sed"
   },
-  "PublishEventDate": "2021-07-13T13:14:09.1341414+02:00",
-  "PublishTo": "1998-11-21T13:14:09.1341414+01:00",
-  "PublishFrom": "2011-08-07T13:14:09.1341414+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2013-11-09T16:32:48.0244695+01:00",
+  "PublishTo": "2020-07-16T16:32:48.0244695+02:00",
+  "PublishFrom": "2000-09-16T16:32:48.0244695+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 318,
+      "VisibleId": 440,
       "Visibility": "All",
-      "DisplayValue": "nostrum",
+      "DisplayValue": "deleniti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 258
+          "FieldLength": 856
         }
       }
     },
     {
-      "VisibleId": 318,
+      "VisibleId": 440,
       "Visibility": "All",
-      "DisplayValue": "nostrum",
+      "DisplayValue": "deleniti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 258
+          "FieldLength": 856
         }
       }
     }
@@ -306,12 +306,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 743
+      "FieldLength": 327
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

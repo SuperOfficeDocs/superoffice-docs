@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 521,
-  "Name": "Mayer-Considine",
-  "Tooltip": "ut",
+  "Id": 697,
+  "Name": "O'Kon-Haley",
+  "Tooltip": "eaque",
   "Deleted": false,
-  "UdListDefinitionId": 742,
-  "Rank": 93,
+  "UdListDefinitionId": 277,
+  "Rank": 245,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 389
+      "FieldType": "System.String",
+      "FieldLength": 660
     }
   }
 }

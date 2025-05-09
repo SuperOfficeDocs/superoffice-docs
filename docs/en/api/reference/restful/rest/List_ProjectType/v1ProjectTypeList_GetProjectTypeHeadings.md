@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 668,
-    "Name": "Olson, Kreiger and Okuneva",
-    "Tooltip": "corporis",
-    "Deleted": true,
-    "Rank": 695,
-    "UdListDefinitionId": 877,
+    "HeadingId": 471,
+    "Name": "Daniel Inc and Sons",
+    "Tooltip": "ea",
+    "Deleted": false,
+    "Rank": 93,
+    "UdListDefinitionId": 672,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 55
+        "FieldType": "System.Int32",
+        "FieldLength": 431
       }
     }
   }

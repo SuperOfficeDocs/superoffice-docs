@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Wolff Inc and Sons",
-  "DeviceName": "Harvey-Gorczany",
-  "DeviceIdentifier": "unde"
+  "ApplicationName": "Bartell Inc and Sons",
+  "DeviceName": "Kihn, Hane and Schneider",
+  "DeviceIdentifier": "rerum"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "dolorum",
-  "Value": "consequatur",
-  "RecordId": 677,
-  "CreatedDate": "2011-11-18T13:14:00.5168611+01:00",
-  "UpdatedDate": "1997-12-26T13:14:00.5168611+01:00",
-  "UpdatedBy": "aut",
-  "CreatedBy": "placeat",
-  "TableName": "Ruecker LLC",
+  "Key": "esse",
+  "Value": "eveniet",
+  "RecordId": 16,
+  "CreatedDate": "2017-08-28T16:32:39.1645096+02:00",
+  "UpdatedDate": "2003-02-20T16:32:39.1645096+01:00",
+  "UpdatedBy": "est",
+  "CreatedBy": "sunt",
+  "TableName": "Mraz, Waelchi and Gerhold",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 633
+      "FieldType": "System.String",
+      "FieldLength": 627
     }
   }
 }

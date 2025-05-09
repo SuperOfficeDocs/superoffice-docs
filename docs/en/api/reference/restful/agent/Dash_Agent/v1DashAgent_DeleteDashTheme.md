@@ -25,7 +25,7 @@ Deletes the DashTheme
 | DashThemeId | int32 | **Required** The id of the DashTheme to be deleted. |
 
 ```http
-POST /api/v1/Agents/Dash/DeleteDashTheme?DashThemeId=242
+POST /api/v1/Agents/Dash/DeleteDashTheme?DashThemeId=979
 ```
 
 

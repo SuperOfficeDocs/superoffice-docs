@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 731,
-  "Filter": "provident"
+  "SelectionId": 352,
+  "Filter": "dolorem"
 }
 ```
 
@@ -100,29 +100,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Labadie, Jacobi and Labadie",
-    "Operator": "commodi",
+    "Name": "Goldner Group",
+    "Operator": "soluta",
     "Values": [
-      "sint",
-      "repudiandae"
+      "deserunt",
+      "id"
     ],
     "DisplayValues": [
-      "doloremque",
-      "qui"
+      "quo",
+      "et"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Davis Group",
-        "Operator": "magnam",
+        "Name": "Schuster, Bogan and Lang",
+        "Operator": "reprehenderit",
         "Values": [
-          "reiciendis",
-          "rerum"
+          "perspiciatis",
+          "aut"
         ],
         "DisplayValues": [
-          "quae",
-          "neque"
+          "animi",
+          "sit"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 949,
+        "InterParenthesis": 123,
         "InterOperator": "And",
-        "UniqueHash": 715
+        "UniqueHash": 848
       }
     ],
-    "InterParenthesis": 591,
+    "InterParenthesis": 38,
     "InterOperator": "And",
-    "UniqueHash": 487
+    "UniqueHash": 751
   }
 ]
 ```

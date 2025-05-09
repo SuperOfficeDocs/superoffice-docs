@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Contact/SaveQuoteVersionAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 196,
+  "QuoteVersionId": 210,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 402
+  "CountryId": 481
 }
 ```
 
@@ -99,41 +99,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 15262.58,
-  "Wgs84Longitude": 29312.302,
+  "Wgs84Latitude": 29851.35,
+  "Wgs84Longitude": 27676.354,
   "LocalizedAddress": [
     [
       {
-        "Name": "Kessler-Schmeler",
-        "Value": "sed",
-        "Tooltip": "aut",
-        "Label": "error",
-        "ValueLength": 891,
-        "AddressType": "commodi",
+        "Name": "Roob, VonRueden and McKenzie",
+        "Value": "et",
+        "Tooltip": "vel",
+        "Label": "expedita",
+        "ValueLength": 848,
+        "AddressType": "iusto",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 431
+            "FieldLength": 267
           }
         }
       }
     ],
     [
       {
-        "Name": "Runolfsson, Bins and West",
-        "Value": "consequatur",
-        "Tooltip": "sed",
-        "Label": "qui",
-        "ValueLength": 24,
-        "AddressType": "consequatur",
+        "Name": "Nienow, Stehr and Weimann",
+        "Value": "laboriosam",
+        "Tooltip": "perspiciatis",
+        "Label": "saepe",
+        "ValueLength": 394,
+        "AddressType": "omnis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 149
+            "FieldLength": 988
           }
         }
       }
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "reprehenderit",
+  "Formatted": "adipisci",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 579
+      "FieldType": "System.Int32",
+      "FieldLength": 89
     }
   }
 }

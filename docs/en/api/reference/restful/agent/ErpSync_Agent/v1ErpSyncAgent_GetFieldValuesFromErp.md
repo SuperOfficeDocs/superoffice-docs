@@ -82,13 +82,13 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromErp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 791,
+  "ErpConnectionId": 299,
   "ActorTypeErp": "Customer",
-  "ErpKey": "numquam"
+  "ErpKey": "sint"
 }
 ```
 
@@ -100,18 +100,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Quitzon Group",
-    "CrmFieldKey": "magni",
-    "Value": "sed",
-    "DisplayValue": "eaque",
+    "DisplayName": "Koss, Windler and Weber",
+    "CrmFieldKey": "at",
+    "Value": "quibusdam",
+    "DisplayValue": "blanditiis",
     "SyncToCrm": false,
-    "SyncToErp": true,
+    "SyncToErp": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 233
+        "FieldType": "System.String",
+        "FieldLength": 566
       }
     }
   }

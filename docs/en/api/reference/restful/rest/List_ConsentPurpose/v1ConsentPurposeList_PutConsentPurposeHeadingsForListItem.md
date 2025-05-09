@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 657,
-    "Name": "Barton Group",
-    "ToolTip": "Quaerat sed.",
+    "Id": 916,
+    "Name": "Bashirian-Haag",
+    "ToolTip": "Impedit cupiditate odit.",
     "Deleted": false,
-    "Rank": 706,
-    "Type": "non",
-    "ColorBlock": 751,
-    "IconHint": "odit",
+    "Rank": 769,
+    "Type": "et",
+    "ColorBlock": 316,
+    "IconHint": "laudantium",
     "Selected": false,
-    "LastChanged": "2024-06-18T13:14:09.6660173+02:00",
+    "LastChanged": "2009-02-09T16:32:48.5714211+01:00",
     "ChildItems": [
       {
-        "Id": 769,
-        "Name": "Boyle Inc and Sons",
-        "ToolTip": "Animi autem architecto placeat sit saepe modi.",
+        "Id": 999,
+        "Name": "King LLC",
+        "ToolTip": "Inventore ipsam ut.",
         "Deleted": false,
-        "Rank": 192,
-        "Type": "molestiae",
-        "ColorBlock": 198,
-        "IconHint": "voluptatum",
+        "Rank": 112,
+        "Type": "est",
+        "ColorBlock": 933,
+        "IconHint": "iure",
         "Selected": false,
-        "LastChanged": "2017-03-29T13:14:09.6660173+02:00",
+        "LastChanged": "2020-04-17T16:32:48.5714211+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "dolore",
-        "Hidden": true,
-        "FullName": "Susan Lowe"
+        "ExtraInfo": "et",
+        "StyleHint": "reprehenderit",
+        "Hidden": false,
+        "FullName": "Lizzie Joseph Howell V"
       }
     ],
-    "ExtraInfo": "cumque",
-    "StyleHint": "culpa",
+    "ExtraInfo": "harum",
+    "StyleHint": "repellat",
     "Hidden": true,
-    "FullName": "Shanon Jenkins"
+    "FullName": "Darrel Corkery"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 817,
-    "Name": "Nikolaus-Erdman",
-    "ToolTip": "Sunt voluptatem et fugiat.",
+    "Id": 231,
+    "Name": "Larkin, Rodriguez and Effertz",
+    "ToolTip": "Et repellendus.",
     "Deleted": false,
-    "Rank": 965,
-    "Type": "molestias",
-    "ColorBlock": 48,
-    "IconHint": "asperiores",
+    "Rank": 553,
+    "Type": "esse",
+    "ColorBlock": 239,
+    "IconHint": "a",
     "Selected": false,
-    "LastChanged": "2020-07-22T13:14:09.6660173+02:00",
+    "LastChanged": "2015-06-26T16:32:48.5714211+02:00",
     "ChildItems": [
       {
-        "Id": 163,
-        "Name": "Wuckert LLC",
-        "ToolTip": "Eos et non magni officiis.",
-        "Deleted": true,
-        "Rank": 612,
-        "Type": "veritatis",
-        "ColorBlock": 407,
-        "IconHint": "in",
+        "Id": 544,
+        "Name": "Hettinger, Nikolaus and Franecki",
+        "ToolTip": "Consequatur cumque adipisci in assumenda expedita optio sint.",
+        "Deleted": false,
+        "Rank": 172,
+        "Type": "dolorem",
+        "ColorBlock": 569,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2012-05-10T13:14:09.6816431+02:00",
+        "LastChanged": "2006-09-10T16:32:48.5714211+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "atque",
+        "ExtraInfo": "quam",
+        "StyleHint": "iusto",
         "Hidden": false,
-        "FullName": "Mr. Breanne Murazik PhD",
+        "FullName": "Kaci Haley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 270
+            "FieldType": "System.String",
+            "FieldLength": 867
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "harum",
+    "ExtraInfo": "sed",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Dorthy Hessel",
+    "FullName": "Eliezer Monahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 846
+        "FieldType": "System.String",
+        "FieldLength": 733
       }
     }
   }

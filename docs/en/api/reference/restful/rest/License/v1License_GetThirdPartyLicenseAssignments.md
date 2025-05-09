@@ -84,26 +84,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 76,
-    "Tooltip": "ut",
-    "CanAssign": true,
-    "Free": 274,
-    "InUse": 12,
+    "Unrestricted": false,
+    "Total": 388,
+    "Tooltip": "fugit",
+    "CanAssign": false,
+    "Free": 988,
+    "InUse": 451,
     "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 134,
-    "Name": "Baumbach, Erdman and Ernser",
-    "Description": "Managed discrete strategy",
-    "PrerequisiteModuleName": "Dickinson, Runte and Barrows",
-    "SortOrder": 575,
-    "ExtraFlags": 30,
+    "ModuleLicenseId": 425,
+    "Name": "Halvorson LLC",
+    "Description": "Devolved interactive pricing structure",
+    "PrerequisiteModuleName": "Maggio-Braun",
+    "SortOrder": 371,
+    "ExtraFlags": 667,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 504
+        "FieldLength": 752
       }
     }
   }

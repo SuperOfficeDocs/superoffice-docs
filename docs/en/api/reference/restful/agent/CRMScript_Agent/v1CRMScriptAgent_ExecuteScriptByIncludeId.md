@@ -75,10 +75,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptIncludeId": "quia",
+  "CRMScriptIncludeId": "illum",
   "Parameters": {
-    "Parameters1": "soluta",
-    "Parameters2": "ut"
+    "Parameters1": "illo",
+    "Parameters2": "nobis"
   }
 }
 ```
@@ -89,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"a"
+"deleniti"
 ```

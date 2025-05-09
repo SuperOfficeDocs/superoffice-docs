@@ -107,36 +107,36 @@ OK
 POST /api/v1/Agents/Marketing/SaveFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 831,
-  "FormKey": "quaerat",
-  "Name": "Bartoletti, Rau and Effertz",
-  "Description": "Operative system-worthy monitoring",
-  "Config": "voluptatem",
-  "FolderId": 771,
-  "ScriptId": 193,
-  "ResponseShipmentId": 540,
-  "Active": true,
-  "Expires": "1999-02-01T13:14:00.6887452+01:00",
-  "MaxSubmits": 758,
+  "FormId": 482,
+  "FormKey": "cumque",
+  "Name": "Hettinger Inc and Sons",
+  "Description": "Monitored background hierarchy",
+  "Config": "qui",
+  "FolderId": 640,
+  "ScriptId": 427,
+  "ResponseShipmentId": 530,
+  "Active": false,
+  "Expires": "2011-05-07T16:32:39.3363462+02:00",
+  "MaxSubmits": 585,
   "Type": "Normal",
-  "Recipe": "omnis",
-  "GroupId": 487,
-  "NewTicket": true,
+  "Recipe": "occaecati",
+  "GroupId": 517,
+  "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2000-11-25T13:14:00.6887452+01:00",
-  "RegisteredAssociateId": 156,
-  "Updated": "2001-04-20T13:14:00.6887452+02:00",
-  "UpdatedAssociateId": 692,
-  "UpdatedCount": 694,
+  "Registered": "2005-03-22T16:32:39.3363462+01:00",
+  "RegisteredAssociateId": 66,
+  "Updated": "2018-05-30T16:32:39.3363462+02:00",
+  "UpdatedAssociateId": 160,
+  "UpdatedCount": 159,
   "EmailFlows": [
-    61,
-    363
+    148,
+    450
   ],
-  "FolderName": "Armstrong, Frami and Wiza"
+  "FolderName": "Walter LLC"
 }
 ```
 
@@ -147,38 +147,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 427,
-  "FormKey": "vero",
-  "Name": "Okuneva LLC",
-  "Description": "Distributed multi-state implementation",
-  "Config": "rerum",
-  "FolderId": 520,
-  "ScriptId": 211,
-  "ResponseShipmentId": 830,
+  "FormId": 194,
+  "FormKey": "rem",
+  "Name": "Reinger-Hudson",
+  "Description": "Persevering eco-centric internet solution",
+  "Config": "nesciunt",
+  "FolderId": 424,
+  "ScriptId": 557,
+  "ResponseShipmentId": 102,
   "Active": false,
-  "Expires": "2012-05-30T13:14:00.6887452+02:00",
-  "MaxSubmits": 450,
+  "Expires": "2017-04-26T16:32:39.3363462+02:00",
+  "MaxSubmits": 872,
   "Type": "Normal",
-  "Recipe": "eum",
-  "GroupId": 875,
+  "Recipe": "illo",
+  "GroupId": 1000,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2016-11-28T13:14:00.6887452+01:00",
-  "RegisteredAssociateId": 159,
-  "Updated": "2024-11-15T13:14:00.6887452+01:00",
-  "UpdatedAssociateId": 484,
-  "UpdatedCount": 51,
+  "Registered": "2006-01-07T16:32:39.3363462+01:00",
+  "RegisteredAssociateId": 511,
+  "Updated": "2006-11-13T16:32:39.3363462+01:00",
+  "UpdatedAssociateId": 812,
+  "UpdatedCount": 565,
   "EmailFlows": [
-    454,
-    879
+    780,
+    442
   ],
-  "FolderName": "Prohaska-Osinski",
+  "FolderName": "Welch-Ernser",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 128
+      "FieldType": "System.Int32",
+      "FieldLength": 239
     }
   }
 }

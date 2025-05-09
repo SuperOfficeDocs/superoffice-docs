@@ -26,7 +26,7 @@ Gets a QuoteAlternative object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=579
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=507
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,35 +99,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 455,
-  "ERPQuoteAlternativeKey": "aperiam",
-  "QuoteVersionId": 162,
-  "Name": "Gutmann, Morissette and Hauck",
-  "Description": "Switchable holistic toolset",
+  "QuoteAlternativeId": 661,
+  "ERPQuoteAlternativeKey": "et",
+  "QuoteVersionId": 42,
+  "Name": "Wiza, Kihn and Kuhlman",
+  "Description": "Visionary systematic knowledge base",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 8684.314,
-  "ERPDiscountAmount": 15923.854,
-  "DiscountPercent": 16547.52,
-  "DiscountAmount": 13893.021999999999,
+  "ERPDiscountPercent": 385.48199999999997,
+  "ERPDiscountAmount": 14616.975999999999,
+  "DiscountPercent": 28453.586,
+  "DiscountAmount": 22480.182,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "dolor",
-  "VAT": 7809.928,
-  "EarningPercent": 11971.88,
-  "EarningAmount": 21182.706,
-  "SubTotal": 28535.07,
-  "TotalPrice": 23226.074,
-  "ExtraField1": "et",
-  "ExtraField2": "est",
-  "ExtraField3": "officia",
-  "ExtraField4": "ea",
-  "ExtraField5": "praesentium",
+  "VATInfo": "fugiat",
+  "VAT": 8386.5839999999989,
+  "EarningPercent": 24250.892,
+  "EarningAmount": 24883.96,
+  "SubTotal": 18029.902,
+  "TotalPrice": 13711.25,
+  "ExtraField1": "odit",
+  "ExtraField2": "rem",
+  "ExtraField3": "consequatur",
+  "ExtraField4": "id",
+  "ExtraField5": "rem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 733
+      "FieldLength": 861
     }
   }
 }

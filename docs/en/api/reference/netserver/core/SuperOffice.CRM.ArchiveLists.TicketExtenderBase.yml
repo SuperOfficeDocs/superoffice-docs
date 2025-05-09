@@ -9,6 +9,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colActivated
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colAuthor
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCategoryFullName
+  - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCategoryId
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colClosedAt
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colConnectId
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colContactId
@@ -27,6 +28,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colOrigin
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colOwnedBy
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colPersonId
+  - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colPriorityId
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colPriorityName
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colProjectId
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colReadByCustomer
@@ -45,6 +47,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colSuggestedCategory
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colTags
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colTicketId
+  - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colTicketStatusId
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colTicketStatusName
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colTicketType
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colTimeSpent
@@ -539,6 +542,84 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colProjectId As ArchiveColumnInfo
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colTicketStatusId
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colTicketStatusId
+  id: _colTicketStatusId
+  parent: SuperOffice.CRM.ArchiveLists.TicketExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colTicketStatusId
+  nameWithType: TicketExtenderBase._colTicketStatusId
+  fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colTicketStatusId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colTicketStatusId
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colTicketStatusId As ArchiveColumnInfo
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colPriorityId
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colPriorityId
+  id: _colPriorityId
+  parent: SuperOffice.CRM.ArchiveLists.TicketExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colPriorityId
+  nameWithType: TicketExtenderBase._colPriorityId
+  fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colPriorityId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colPriorityId
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colPriorityId As ArchiveColumnInfo
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCategoryId
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCategoryId
+  id: _colCategoryId
+  parent: SuperOffice.CRM.ArchiveLists.TicketExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colCategoryId
+  nameWithType: TicketExtenderBase._colCategoryId
+  fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase._colCategoryId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colCategoryId
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colCategoryId As ArchiveColumnInfo
   modifiers.csharp:
   - protected
   modifiers.vb:

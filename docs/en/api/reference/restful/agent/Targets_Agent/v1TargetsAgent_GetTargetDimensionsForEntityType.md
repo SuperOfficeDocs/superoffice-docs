@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 946,
+    "TargetDimensionId": 467,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "doloribus",
-    "DimensionListName": "Waelchi, DuBuque and Bartoletti",
-    "DimensionListId": 142,
-    "DimensionListLabel": "et",
+    "DimensionListField": "facere",
+    "DimensionListName": "Denesik, Breitenberg and Swaniawski",
+    "DimensionListId": 32,
+    "DimensionListLabel": "modi",
     "SelectedDimensions": [
-      65,
-      650
+      707,
+      817
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 48
+        "FieldLength": 540
       }
     }
   }

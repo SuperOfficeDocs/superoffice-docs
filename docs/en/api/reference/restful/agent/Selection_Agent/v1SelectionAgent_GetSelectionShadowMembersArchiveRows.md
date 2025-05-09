@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 609,
-  "Select": "et"
+  "SelectionId": 806,
+  "Select": "vero"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Swaniawski LLC",
-    "PrimaryKey": 84,
+    "EntityName": "Jewess-Padberg",
+    "PrimaryKey": 23,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "ipsa",
-        "TooltipHint": "voluptas",
-        "LinkHint": "ratione"
+        "DisplayValue": "delectus",
+        "TooltipHint": "nihil",
+        "LinkHint": "perspiciatis"
       }
     },
-    "LinkHint": "dolorum",
-    "StyleHint": "sapiente",
+    "LinkHint": "ipsam",
+    "StyleHint": "rerum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 425
+        "FieldLength": 451
       }
     }
   }

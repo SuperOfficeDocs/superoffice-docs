@@ -82,15 +82,15 @@ OK
 PUT /api/v1/List/TicketStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 612,
-  "Name": "Bergnaum-Koelpin",
+  "TicketStatusId": 957,
+  "Name": "Bashirian, Medhurst and Konopelski",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": true,
+  "NoEmailReopen": false,
   "IsDefault": false,
   "UsedInQueue": false
 }
@@ -103,11 +103,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 361,
-  "Name": "Kozey-Harber",
+  "TicketStatusId": 596,
+  "Name": "Goyette Inc and Sons",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": false,
+  "NoEmailReopen": true,
   "IsDefault": false,
   "UsedInQueue": true,
   "TableRight": null,
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 958
+      "FieldLength": 894
     }
   }
 }

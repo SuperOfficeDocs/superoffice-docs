@@ -84,8 +84,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 877,
-  "After": 753
+  "ChatSessionId": 606,
+  "After": 148
 }
 ```
 
@@ -97,15 +97,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatMessageId": 815,
-    "ChatSessionId": 831,
+    "ChatMessageId": 615,
+    "ChatSessionId": 343,
     "Type": "Invalid",
-    "Message": "voluptatem",
-    "Author": "fuga",
-    "ReadByCustomer": 812,
+    "Message": "et",
+    "Author": "voluptas",
+    "ReadByCustomer": 731,
     "SpecialType": "Block",
-    "SpecialParam": "officia",
-    "WhenPosted": "2013-03-09T13:13:59.6569358+01:00"
+    "SpecialParam": "non",
+    "WhenPosted": "2019-12-05T16:32:38.336574+01:00"
   }
 ]
 ```

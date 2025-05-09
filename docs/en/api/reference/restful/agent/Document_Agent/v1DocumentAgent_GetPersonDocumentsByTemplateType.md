@@ -99,16 +99,16 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 277,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2007-03-14T13:14:00.1100925+01:00",
-  "EndTime": "2003-09-25T13:14:00.1100925+02:00",
-  "Count": 208,
-  "DocumentTemplateId": 613
+  "PersonId": 146,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2008-10-26T16:32:38.7739758+01:00",
+  "EndTime": "2022-10-05T16:32:38.7739758+02:00",
+  "Count": 366,
+  "DocumentTemplateId": 336
 }
 ```
 
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 126,
-    "Attention": "aut",
-    "Header": "accusantium",
-    "Name": "Brekke Inc and Sons",
-    "OurRef": "eum",
-    "YourRef": "sequi",
-    "Description": "Pre-emptive executive customer loyalty",
-    "DocumentTemplate": "dignissimos",
-    "IsPublished": true,
-    "PersonId": 103,
-    "PersonFullName": "Breanna D'Amore",
-    "AssociateFullName": "Dr. Randall Ayana Wuckert I",
-    "ContactId": 93,
-    "ContactName": "Swaniawski LLC",
-    "ProjectId": 96,
-    "ProjectName": "Dare, Lynch and Walker",
-    "AssociateId": 394,
-    "Snum": 899,
-    "SaleId": 783,
-    "SaleName": "Morar-Botsford",
+    "DocumentId": 461,
+    "Attention": "ipsum",
+    "Header": "aut",
+    "Name": "Turcotte, D'Amore and Rowe",
+    "OurRef": "veritatis",
+    "YourRef": "autem",
+    "Description": "Versatile transitional matrix",
+    "DocumentTemplate": "eaque",
+    "IsPublished": false,
+    "PersonId": 572,
+    "PersonFullName": "Irwin Bode",
+    "AssociateFullName": "Miss Betsy Shanahan MD",
+    "ContactId": 222,
+    "ContactName": "Conn-Flatley",
+    "ProjectId": 592,
+    "ProjectName": "O'Connell, White and Ratke",
+    "AssociateId": 919,
+    "Snum": 915,
+    "SaleId": 715,
+    "SaleName": "Altenwerth, Fay and Walsh",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 927
+        "FieldLength": 237
       }
     }
   }

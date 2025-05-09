@@ -98,7 +98,7 @@ OK
 POST /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 825,
-  "ColumnId": 586,
-  "FieldDefault": "cum",
-  "FieldHeight": 608,
-  "FieldLabel": "assumenda",
-  "FieldLeft": 88,
-  "FieldTop": 846,
+  "UDefFieldId": 663,
+  "ColumnId": 66,
+  "FieldDefault": "numquam",
+  "FieldHeight": 714,
+  "FieldLabel": "eos",
+  "FieldLeft": 363,
+  "FieldTop": 393,
   "FieldType": "Checkbox",
-  "FieldWidth": 353,
-  "FormatMask": "veritatis",
+  "FieldWidth": 184,
+  "FormatMask": "placeat",
   "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 282,
-  "LabelLeft": 657,
-  "LabelTop": 703,
-  "LabelWidth": 686,
-  "LastVersionId": 275,
-  "ListTableId": 707,
+  "IsIndexed": true,
+  "LabelHeight": 624,
+  "LabelLeft": 813,
+  "LabelTop": 286,
+  "LabelWidth": 676,
+  "LastVersionId": 799,
+  "ListTableId": 479,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 711,
-  "ProgId": "velit",
+  "Page1LineNo": 416,
+  "ProgId": "molestias",
   "IsReadOnly": true,
-  "ShortLabel": "consequatur",
-  "TabOrder": 478,
-  "TextLength": 425,
-  "Tooltip": "quasi",
-  "UdefIdentity": 860,
-  "UDListDefinitionId": 481,
+  "ShortLabel": "aut",
+  "TabOrder": 524,
+  "TextLength": 502,
+  "Tooltip": "dignissimos",
+  "UdefIdentity": 909,
+  "UDListDefinitionId": 32,
   "Justification": "Center",
-  "Version": 108,
-  "TemplateVariableName": "Medhurst-Walter",
+  "Version": 71,
+  "TemplateVariableName": "Kemmer LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Conroy Group",
+  "MdoListName": "Rogahn, Kshlerin and Heller",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 927
+      "FieldLength": 499
     }
   }
 }

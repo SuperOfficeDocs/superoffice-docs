@@ -17,6 +17,7 @@ items:
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.CreateTicketFromMailDataAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.DeleteCustomerCenterConfigAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.EventHandlerExistsAsync(SuperOffice.WebApi.Data.EventHandlerType,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.CustomerServiceAgent.EventHandlersExistsAsync(SuperOffice.WebApi.Data.EventHandlerType[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.ExecuteEventHandlersAsync(SuperOffice.WebApi.Data.EventData,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.FindTicketsByTitleOrIdAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.GetAllCustomerCenterConfigsAsync(SuperOffice.WebApi.RequestOptions)
@@ -502,6 +503,47 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent.EventHandlersExistsAsync(SuperOffice.WebApi.Data.EventHandlerType[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.CustomerServiceAgent.EventHandlersExistsAsync(SuperOffice.WebApi.Data.EventHandlerType[],SuperOffice.WebApi.RequestOptions)
+  id: EventHandlersExistsAsync(SuperOffice.WebApi.Data.EventHandlerType[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.CustomerServiceAgent
+  langs:
+  - csharp
+  - vb
+  name: EventHandlersExistsAsync(EventHandlerType[], RequestOptions)
+  nameWithType: CustomerServiceAgent.EventHandlersExistsAsync(EventHandlerType[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent.EventHandlersExistsAsync(SuperOffice.WebApi.Data.EventHandlerType[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCheck if any given eventhandler exists\n"
+  syntax:
+    content: public Task<EventHandlerType[]> EventHandlersExistsAsync(EventHandlerType[] eventHandlerTypes, RequestOptions requestOptions = null)
+    parameters:
+    - id: eventHandlerTypes
+      type: SuperOffice.WebApi.Data.EventHandlerType[]
+      description: The EventHandlerTypes we are checking
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.EventHandlerType[]}
+      description: The existing event handlers
+    content.vb: Public Function EventHandlersExistsAsync(eventHandlerTypes As EventHandlerType(), requestOptions As RequestOptions = Nothing) As Task(Of EventHandlerType())
+  overload: SuperOffice.WebApi.Agents.CustomerServiceAgent.EventHandlersExistsAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ICustomerServiceAgent.EventHandlersExistsAsync(SuperOffice.WebApi.Data.EventHandlerType[],SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: CustomerServiceAgent.EventHandlersExistsAsync(EventHandlerType(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.CustomerServiceAgent.EventHandlersExistsAsync(SuperOffice.WebApi.Data.EventHandlerType(), SuperOffice.WebApi.RequestOptions)
+  name.vb: EventHandlersExistsAsync(EventHandlerType(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.CustomerServiceAgent.CreateSessionAsync(System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.CustomerServiceAgent.CreateSessionAsync(System.String,SuperOffice.WebApi.RequestOptions)
   id: CreateSessionAsync(System.String,SuperOffice.WebApi.RequestOptions)
@@ -3510,6 +3552,153 @@ references:
     nameWithType: Boolean
     fullName: System.Boolean
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent.EventHandlersExistsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.CustomerServiceAgent.EventHandlersExistsAsync
+  isExternal: true
+  name: EventHandlersExistsAsync
+  nameWithType: CustomerServiceAgent.EventHandlersExistsAsync
+  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent.EventHandlersExistsAsync
+- uid: SuperOffice.WebApi.Agents.ICustomerServiceAgent.EventHandlersExistsAsync(SuperOffice.WebApi.Data.EventHandlerType[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ICustomerServiceAgent.EventHandlersExistsAsync(SuperOffice.WebApi.Data.EventHandlerType[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ICustomerServiceAgent
+  isExternal: true
+  name: EventHandlersExistsAsync(EventHandlerType[], RequestOptions)
+  nameWithType: ICustomerServiceAgent.EventHandlersExistsAsync(EventHandlerType[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ICustomerServiceAgent.EventHandlersExistsAsync(SuperOffice.WebApi.Data.EventHandlerType[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: ICustomerServiceAgent.EventHandlersExistsAsync(EventHandlerType(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ICustomerServiceAgent.EventHandlersExistsAsync(SuperOffice.WebApi.Data.EventHandlerType(), SuperOffice.WebApi.RequestOptions)
+  name.vb: EventHandlersExistsAsync(EventHandlerType(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ICustomerServiceAgent.EventHandlersExistsAsync(SuperOffice.WebApi.Data.EventHandlerType[],SuperOffice.WebApi.RequestOptions)
+    name: EventHandlersExistsAsync
+    nameWithType: ICustomerServiceAgent.EventHandlersExistsAsync
+    fullName: SuperOffice.WebApi.Agents.ICustomerServiceAgent.EventHandlersExistsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.EventHandlerType
+    name: EventHandlerType
+    nameWithType: EventHandlerType
+    fullName: SuperOffice.WebApi.Data.EventHandlerType
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ICustomerServiceAgent.EventHandlersExistsAsync(SuperOffice.WebApi.Data.EventHandlerType[],SuperOffice.WebApi.RequestOptions)
+    name: EventHandlersExistsAsync
+    nameWithType: ICustomerServiceAgent.EventHandlersExistsAsync
+    fullName: SuperOffice.WebApi.Agents.ICustomerServiceAgent.EventHandlersExistsAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.Data.EventHandlerType
+    name: EventHandlerType
+    nameWithType: EventHandlerType
+    fullName: SuperOffice.WebApi.Data.EventHandlerType
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.EventHandlerType[]
+  isExternal: true
+  name: EventHandlerType[]
+  nameWithType: EventHandlerType[]
+  fullName: SuperOffice.WebApi.Data.EventHandlerType[]
+  nameWithType.vb: EventHandlerType()
+  fullName.vb: SuperOffice.WebApi.Data.EventHandlerType()
+  name.vb: EventHandlerType()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.EventHandlerType
+    name: EventHandlerType
+    nameWithType: EventHandlerType
+    fullName: SuperOffice.WebApi.Data.EventHandlerType
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.EventHandlerType
+    name: EventHandlerType
+    nameWithType: EventHandlerType
+    fullName: SuperOffice.WebApi.Data.EventHandlerType
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.EventHandlerType[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.EventHandlerType[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<EventHandlerType[]>
+  nameWithType: Task<EventHandlerType[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.EventHandlerType[]>
+  nameWithType.vb: Task(Of EventHandlerType())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.EventHandlerType())
+  name.vb: Task(Of EventHandlerType())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.EventHandlerType
+    name: EventHandlerType
+    nameWithType: EventHandlerType
+    fullName: SuperOffice.WebApi.Data.EventHandlerType
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.EventHandlerType
+    name: EventHandlerType
+    nameWithType: EventHandlerType
+    fullName: SuperOffice.WebApi.Data.EventHandlerType
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
     nameWithType: )
     fullName: )

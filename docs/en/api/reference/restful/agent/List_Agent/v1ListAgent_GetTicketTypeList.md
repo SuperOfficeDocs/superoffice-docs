@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetTicketTypeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,31 +99,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 521,
-    "Name": "Jones Inc and Sons",
-    "Rank": 397,
-    "Tooltip": "rerum",
-    "Icon": "qui",
-    "DefaultTicketStatus": 96,
+    "TicketTypeId": 631,
+    "Name": "Aufderhar Inc and Sons",
+    "Rank": 320,
+    "Tooltip": "enim",
+    "Icon": "a",
+    "DefaultTicketStatus": 13,
     "TicketStatuses": [
-      458,
-      611
+      82,
+      119
     ],
-    "DefaultTicketPriority": 413,
+    "DefaultTicketPriority": 651,
     "TicketPriorities": [
-      13,
-      973
+      202,
+      340
     ],
-    "ReplyTemplate": 518,
+    "ReplyTemplate": 8,
     "IsExternalVisible": false,
     "IsDefault": true,
     "ShowInNew": false,
-    "ExcludeSignature": false,
+    "ExcludeSignature": true,
     "ExcludeEmailRecipients": false,
-    "ExternalAsDefault": false,
+    "ExternalAsDefault": true,
     "VisibleForGroups": [
-      70,
-      608
+      161,
+      976
     ],
     "ReplyForwardNoSignature": false,
     "ReplyExternalAsDefault": false,
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 645
+        "FieldLength": 458
       }
     }
   }

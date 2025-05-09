@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 956,
-  "StartTime": "1999-10-17T13:14:00.0944666+02:00",
-  "EndTime": "1999-09-06T13:14:00.0944666+02:00",
-  "Count": 97,
-  "DocumentTemplateId": 239
+  "PersonId": 263,
+  "StartTime": "2010-06-02T16:32:38.6490035+02:00",
+  "EndTime": "2021-03-07T16:32:38.6490035+01:00",
+  "Count": 530,
+  "DocumentTemplateId": 377
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 410,
-    "Attention": "alias",
-    "Header": "nihil",
-    "Name": "Rohan-Parker",
-    "OurRef": "ab",
-    "YourRef": "qui",
-    "Description": "Re-engineered zero defect website",
-    "DocumentTemplate": "vero",
+    "DocumentId": 647,
+    "Attention": "nesciunt",
+    "Header": "magnam",
+    "Name": "Turcotte Group",
+    "OurRef": "fugit",
+    "YourRef": "cum",
+    "Description": "Digitized neutral service-desk",
+    "DocumentTemplate": "et",
     "IsPublished": true,
-    "PersonId": 866,
-    "PersonFullName": "Heather Olson",
-    "AssociateFullName": "Arvilla Nolan",
-    "ContactId": 87,
-    "ContactName": "Sporer-Nikolaus",
-    "ProjectId": 93,
-    "ProjectName": "Vandervort LLC",
-    "AssociateId": 547,
-    "Snum": 716,
-    "SaleId": 185,
-    "SaleName": "Friesen-Gaylord",
+    "PersonId": 270,
+    "PersonFullName": "Cristopher Schmitt",
+    "AssociateFullName": "Doris Torphy Sr.",
+    "ContactId": 792,
+    "ContactName": "Treutel-Emard",
+    "ProjectId": 285,
+    "ProjectName": "Walsh, Boyer and Streich",
+    "AssociateId": 912,
+    "Snum": 939,
+    "SaleId": 176,
+    "SaleName": "Zboncak, Gibson and Hackett",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 496
+        "FieldType": "System.Int32",
+        "FieldLength": 683
       }
     }
   }

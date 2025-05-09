@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,10 +84,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 541,
-  "StartDate": "1999-10-09T13:13:59.2969775+02:00",
-  "EndDate": "2006-12-07T13:13:59.2969775+01:00",
-  "RecurrenceCounter": 65,
+  "RecurrenceId": 921,
+  "StartDate": "2019-06-17T16:32:37.9304176+02:00",
+  "EndDate": "2002-04-15T16:32:37.9304176+02:00",
+  "RecurrenceCounter": 8,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2018-07-26T13:13:59.2969775+02:00",
-      "IsConflict": true,
-      "Description": "Public-key coherent strategy",
-      "DescriptionStyleHint": "Phased next generation orchestration",
-      "Tooltip": "assumenda"
+      "Date": "1999-06-11T16:32:37.9304176+02:00",
+      "IsConflict": false,
+      "Description": "Object-based local product",
+      "DescriptionStyleHint": "Sharable 5th generation capacity",
+      "Tooltip": "et"
     },
     {
-      "Date": "2018-07-26T13:13:59.2969775+02:00",
-      "IsConflict": true,
-      "Description": "Public-key coherent strategy",
-      "DescriptionStyleHint": "Phased next generation orchestration",
-      "Tooltip": "assumenda"
+      "Date": "1999-06-11T16:32:37.9304176+02:00",
+      "IsConflict": false,
+      "Description": "Object-based local product",
+      "DescriptionStyleHint": "Sharable 5th generation capacity",
+      "Tooltip": "et"
     }
   ],
   "IsRecurrence": true

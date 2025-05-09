@@ -73,7 +73,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CommandName": "Emmerich-Schamberger",
+  "CommandName": "Crist-Robel",
   "ActionResult": "Cancel",
   "User": null
 }
@@ -87,14 +87,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": true,
-  "Message": "rerum",
+  "Message": "sed",
   "Result": "Cancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 248
+      "FieldType": "System.Int32",
+      "FieldLength": 216
     }
   }
 }

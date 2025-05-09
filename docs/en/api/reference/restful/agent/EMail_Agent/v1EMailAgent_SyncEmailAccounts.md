@@ -66,20 +66,20 @@ No Content
 POST /api/v1/Agents/EMail/SyncEmailAccounts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "SyncUserAccounts": [
     {
-      "AccountId": 937,
-      "AssociateName": "Breitenberg-Beahan",
-      "AssociateId": 464
+      "AccountId": 883,
+      "AssociateName": "Stokes Group",
+      "AssociateId": 23
     },
     {
-      "AccountId": 937,
-      "AssociateName": "Breitenberg-Beahan",
-      "AssociateId": 464
+      "AccountId": 883,
+      "AssociateName": "Stokes Group",
+      "AssociateId": 23
     }
   ]
 }

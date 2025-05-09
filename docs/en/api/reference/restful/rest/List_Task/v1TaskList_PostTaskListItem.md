@@ -89,18 +89,18 @@ OK
 POST /api/v1/List/Task/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 804,
-  "Value": "iure",
+  "TaskListItemId": 918,
+  "Value": "veniam",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "ut",
+  "Tooltip": "saepe",
   "Deleted": false,
-  "IntentId": 80,
-  "Rank": 859,
+  "IntentId": 473,
+  "Rank": 943,
   "IsDefaultAlldayEvent": false,
   "IsDefaultFree": false,
   "IsDefaultPublished": false,
@@ -116,16 +116,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 13,
-  "Value": "ipsa",
+  "TaskListItemId": 172,
+  "Value": "qui",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "dolores",
+  "Tooltip": "eius",
   "Deleted": true,
-  "IntentId": 467,
-  "Rank": 765,
+  "IntentId": 779,
+  "Rank": 14,
   "IsDefaultAlldayEvent": true,
-  "IsDefaultFree": true,
+  "IsDefaultFree": false,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 889
+      "FieldLength": 979
     }
   }
 }

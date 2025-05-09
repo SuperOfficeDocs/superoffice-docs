@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 434,
-    "Name": "Wisoky LLC",
-    "ToolTip": "Commodi facere sunt cum est magnam quod doloribus.",
-    "Deleted": true,
-    "Rank": 133,
-    "Type": "harum",
-    "ColorBlock": 743,
-    "IconHint": "quidem",
+    "Id": 670,
+    "Name": "Frami, Kub and Hilll",
+    "ToolTip": "Dolorem voluptatem id earum.",
+    "Deleted": false,
+    "Rank": 968,
+    "Type": "sed",
+    "ColorBlock": 524,
+    "IconHint": "illum",
     "Selected": false,
-    "LastChanged": "2000-04-24T13:14:09.7597728+02:00",
+    "LastChanged": "2020-06-27T16:32:48.6651528+02:00",
     "ChildItems": [
       {
-        "Id": 290,
-        "Name": "Wisoky-Bins",
-        "ToolTip": "Blanditiis unde fugiat et omnis.",
+        "Id": 82,
+        "Name": "Bernhard LLC",
+        "ToolTip": "Odio vero facilis sed.",
         "Deleted": false,
-        "Rank": 62,
-        "Type": "provident",
-        "ColorBlock": 295,
-        "IconHint": "eos",
-        "Selected": false,
-        "LastChanged": "2010-04-17T13:14:09.7597728+02:00",
+        "Rank": 403,
+        "Type": "distinctio",
+        "ColorBlock": 97,
+        "IconHint": "quisquam",
+        "Selected": true,
+        "LastChanged": "2010-09-08T16:32:48.6651528+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "possimus",
-        "StyleHint": "laboriosam",
-        "Hidden": false,
-        "FullName": "Leann Jakubowski"
+        "ExtraInfo": "ut",
+        "StyleHint": "rerum",
+        "Hidden": true,
+        "FullName": "Miss Crystal Schowalter"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "minima",
-    "Hidden": false,
-    "FullName": "Mr. Dwight Valerie Jenkins MD"
+    "ExtraInfo": "sed",
+    "StyleHint": "quae",
+    "Hidden": true,
+    "FullName": "Ethan Pouros"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 53,
-    "Name": "Gleichner, Koch and Pouros",
-    "ToolTip": "Asperiores sequi reiciendis sapiente quia.",
-    "Deleted": false,
-    "Rank": 782,
-    "Type": "sit",
-    "ColorBlock": 375,
-    "IconHint": "voluptates",
-    "Selected": false,
-    "LastChanged": "1999-02-09T13:14:09.7597728+01:00",
+    "Id": 630,
+    "Name": "Ziemann Inc and Sons",
+    "ToolTip": "Necessitatibus corporis quas ut.",
+    "Deleted": true,
+    "Rank": 833,
+    "Type": "sint",
+    "ColorBlock": 29,
+    "IconHint": "voluptate",
+    "Selected": true,
+    "LastChanged": "2002-10-25T16:32:48.6651528+02:00",
     "ChildItems": [
       {
-        "Id": 920,
-        "Name": "Kuhic, Turner and Lehner",
-        "ToolTip": "Dolores veritatis officiis illo sed tempora.",
+        "Id": 118,
+        "Name": "Ratke-Keeling",
+        "ToolTip": "Suscipit esse sequi doloremque iste ipsam voluptate.",
         "Deleted": true,
-        "Rank": 700,
-        "Type": "necessitatibus",
-        "ColorBlock": 719,
-        "IconHint": "facere",
+        "Rank": 680,
+        "Type": "ab",
+        "ColorBlock": 21,
+        "IconHint": "fuga",
         "Selected": false,
-        "LastChanged": "2011-12-02T13:14:09.7597728+01:00",
+        "LastChanged": "1999-01-26T16:32:48.6651528+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "veritatis",
-        "Hidden": false,
-        "FullName": "Estevan Lowe",
+        "ExtraInfo": "temporibus",
+        "StyleHint": "dolor",
+        "Hidden": true,
+        "FullName": "Chesley Macejkovic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 211
+            "FieldLength": 985
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "culpa",
-    "Hidden": false,
-    "FullName": "Genevieve Ledner",
+    "ExtraInfo": "illo",
+    "StyleHint": "cum",
+    "Hidden": true,
+    "FullName": "Maurice Sporer PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 250
+        "FieldType": "System.String",
+        "FieldLength": 595
       }
     }
   }

@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 126,
-    "Name": "Weimann LLC",
-    "Tooltip": "in",
-    "Rank": 137,
-    "Key": "fugit",
-    "Deleted": true,
+    "LegalBaseId": 651,
+    "Name": "Bashirian Inc and Sons",
+    "Tooltip": "omnis",
+    "Rank": 190,
+    "Key": "consequuntur",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 708
+        "FieldType": "System.String",
+        "FieldLength": 535
       }
     }
   }

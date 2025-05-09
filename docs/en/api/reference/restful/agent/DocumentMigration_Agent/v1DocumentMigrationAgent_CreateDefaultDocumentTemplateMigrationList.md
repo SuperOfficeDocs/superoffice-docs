@@ -70,11 +70,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumTemplatesOmitted": 855,
-  "NumTemplatesAlreadyMigrated": 489,
+  "NumTemplatesOmitted": 289,
+  "NumTemplatesAlreadyMigrated": 70,
   "TemplateIds": [
-    133,
-    82
+    722,
+    267
   ]
 }
 ```

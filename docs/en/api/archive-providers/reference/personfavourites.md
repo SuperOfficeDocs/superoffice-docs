@@ -690,6 +690,9 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/personId|int|Contact ID: Database ID of the contact row| x |
 |request/saleId|int|Sale ID: The database ID of the sale record| x |
 |request/projectId|int|Project ID: Database ID of project record| x |
+|request/ticketStatusId|int|Status ID: Status| x |
+|request/priorityId|int|Priority ID: ID of priority in database| x |
+|request/categoryId|int|Category ID: ID of ticket category in database| x |
 |request/ticketTypeName|listAny|Request type: Request type| x |
 |request/ticketStatusName|listAny|Status: Request status| x |
 |request/categoryFullName|ejCategory|Category: Request category| x |
@@ -740,13 +743,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/createdBy/fullName|string|Created by - Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |request/createdBy/contactId|int|Created by - Company ID: Database ID of the company the user belongs to|  |
 |request/createdBy/personId|int|Created by - Contact ID: Database ID of the contact row|  |
-|request/createdBy/mrMrs|string|Created by - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|request/createdBy/title|string|Created by - Title: Displays whether the contact is addressed as Mr or Ms| x |
-|request/createdBy/associateDbId|associate|Created by - ID| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/createdBy/mrMrs|string|Created by - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
+|request/createdBy/title|string|Created by - Title: Displays whether the contact is addressed as Mr or Ms| x |
+|request/createdBy/associateDbId|associate|Created by - ID| x |
 |request/createdBy/contactName|string|Created by - Owning company: Name of the company the user belongs to| x |
 |request/createdBy/contactDepartment|string|Created by - Owning department: Name of the department at the company the user belongs to| x |
 |request/createdBy/usergroup|userGroup|Created by - Primary group: The user's primary user group| x |
@@ -844,13 +847,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMembers/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |projectMembers/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |projectMembers/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
-|projectMembers/projectPublish/publishedBy| *None* |Published by: Published by|  |
-|projectMembers/projectEvent/isExternalEvent|bool|Event: Is this an external event| x |
-|projectMembers/projectEvent/eventDate|date|Event date: Event date| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/projectPublish/publishedBy| *None* |Published by: Published by|  |
+|projectMembers/projectEvent/isExternalEvent|bool|Event: Is this an external event| x |
+|projectMembers/projectEvent/eventDate|date|Event date: Event date| x |
 |projectMembers/projectEvent/hasSignOn|bool|Sign On: Does this event have the Sign On function enabled| x |
 |projectMembers/projectEvent/hasSignOff|bool|Sign Off: Does this event have the Sign Off function enabled| x |
 |projectMembers/projectUrl/URLAddress|string|URL| x |
@@ -945,16 +948,17 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAppointment/endDate|date|End date: Displays the deadline for a follow-up/sale| x |
 |personAppointment/priority|listAny|Priority: Displays the priority of the activity| x |
 |personAppointment/alarm|bool|Has alarm: Displays the alarm state of a follow-up| x |
+|personAppointment/isFree|bool|Is free: Displays whether the appointment should be considered free or busy| x |
 |personAppointment/recurring|bool|Repeating: Displays an icon indicating if the follow-up is part of a repeating follow-up| x |
 |personAppointment/booking|bool|Invitation: Displays an icon if the follow-up is an invitation. All invitations will be displayed in a tooltip.| x |
-|personAppointment/intention|listAny|Intention: Displays the intention of the follow-up type| x |
-|personAppointment/location|string|Location: Display the location where the follow-up will take place.| x |
-|personAppointment/recurrenceRuleId|int|RR-ID: Repetition rule ID of follow-up| x |
-|personAppointment/rawType|int|Type: Type field for appointment, not decoded or formatted| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/intention|listAny|Intention: Displays the intention of the follow-up type| x |
+|personAppointment/location|string|Location: Display the location where the follow-up will take place.| x |
+|personAppointment/recurrenceRuleId|int|RR-ID: Repetition rule ID of follow-up| x |
+|personAppointment/rawType|int|Type: Type field for appointment, not decoded or formatted| x |
 |personAppointment/rawStatus|int|Status: Status field for the follow-up, not decoded or formatted| x |
 |personAppointment/cautionWarning|listAny|Warning: Warning for invitations with potential problems: not properly synchronized with an external calendar, unsupported repetition pattern, e-mail notification failed, or other problems.| x |
 |personAppointment/visibleInDiary|bool|ExcludeBook: Is the activity visible in the diary?| x |
@@ -1025,7 +1029,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/personfavourites?$select=fullNameWithContact,personUpdatedDate,personSourceRelation/personAssociateId,personContact/nameDepartment,personContact/restrictionPostalAddress/formattedMultiLineAddress
+GET /api/v1/archive/personfavourites?$select=personContact/contactSupportAssociate/contactDepartment,personAppointment/recurrenceRuleId,personAppointment/associate/ejUserId,personAppointment/appointment/internalNotesHtml
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

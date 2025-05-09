@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 266,
-  "BlobSize": 815,
-  "Description": "Multi-layered full-range protocol",
-  "ExtraInfo": "dolorem",
+  "BlobId": 337,
+  "BlobSize": 631,
+  "Description": "Re-engineered full-range core",
+  "ExtraInfo": "ad",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "nam",
-  "OriginalSize": 548,
-  "CreatedDate": "2012-02-05T13:14:08.4928742+01:00",
-  "UpdatedDate": "2016-06-09T13:14:08.4928742+02:00",
+  "MimeType": "quia",
+  "OriginalSize": 977,
+  "CreatedDate": "2016-04-09T16:32:47.2746087+02:00",
+  "UpdatedDate": "2018-03-28T16:32:47.2746087+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "culpa"
+  "ConceptualType": "dolores"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 738,
-  "BlobSize": 936,
-  "Description": "Visionary intermediate project",
-  "ExtraInfo": "illo",
+  "BlobId": 40,
+  "BlobSize": 30,
+  "Description": "Customer-focused disintermediate customer loyalty",
+  "ExtraInfo": "veritatis",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "asperiores",
-  "OriginalSize": 61,
-  "CreatedDate": "1999-05-24T13:14:08.4928742+02:00",
-  "UpdatedDate": "2021-10-07T13:14:08.4928742+02:00",
+  "IsZipped": false,
+  "MimeType": "et",
+  "OriginalSize": 185,
+  "CreatedDate": "2013-05-10T16:32:47.2746087+02:00",
+  "UpdatedDate": "2008-08-19T16:32:47.2746087+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "rerum",
+  "ConceptualType": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 430
+      "FieldLength": 460
     }
   }
 }

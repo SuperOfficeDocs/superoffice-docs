@@ -71,12 +71,12 @@ OK
 POST /api/v1/Agents/Document/RenameDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 887,
-  "NewFilename": "esse"
+  "DocumentId": 702,
+  "NewFilename": "sequi"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"voluptatum"
+"iste"
 ```

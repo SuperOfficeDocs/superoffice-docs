@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 192,
-  "Name": "Reinger Group",
-  "Tooltip": "enim",
+  "Id": 601,
+  "Name": "Dach, Schamberger and Crist",
+  "Tooltip": "repudiandae",
   "Deleted": true,
-  "UdListDefinitionId": 825,
-  "Rank": 809
+  "UdListDefinitionId": 141,
+  "Rank": 780
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 169,
-  "Name": "Hamill-Balistreri",
-  "Tooltip": "veritatis",
+  "Id": 769,
+  "Name": "Marks, Feil and Grant",
+  "Tooltip": "temporibus",
   "Deleted": false,
-  "UdListDefinitionId": 616,
-  "Rank": 972,
+  "UdListDefinitionId": 557,
+  "Rank": 195,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 341
+      "FieldLength": 118
     }
   }
 }

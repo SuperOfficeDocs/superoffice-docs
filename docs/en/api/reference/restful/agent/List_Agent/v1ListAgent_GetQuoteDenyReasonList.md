@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 238,
-    "Value": "ut",
-    "Tooltip": "dolores",
+    "Id": 55,
+    "Value": "eum",
+    "Tooltip": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 843
+        "FieldLength": 87
       }
     }
   },
   {
-    "Id": 238,
-    "Value": "ut",
-    "Tooltip": "dolores",
+    "Id": 55,
+    "Value": "eum",
+    "Tooltip": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 843
+        "FieldLength": 87
       }
     }
   }

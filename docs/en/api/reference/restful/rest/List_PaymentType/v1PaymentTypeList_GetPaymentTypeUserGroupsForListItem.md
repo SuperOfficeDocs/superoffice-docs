@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 210,
-    "Name": "Reilly Group",
-    "ToolTip": "Et et odit.",
-    "Deleted": false,
-    "Rank": 639,
-    "Type": "aut",
-    "ColorBlock": 42,
-    "IconHint": "molestias",
+    "Id": 493,
+    "Name": "Klein Group",
+    "ToolTip": "Dolores error rerum omnis.",
+    "Deleted": true,
+    "Rank": 462,
+    "Type": "dolor",
+    "ColorBlock": 405,
+    "IconHint": "in",
     "Selected": false,
-    "LastChanged": "1999-11-14T13:14:09.8379023+01:00",
+    "LastChanged": "2000-03-15T16:32:48.7432593+01:00",
     "ChildItems": [
       {
-        "Id": 441,
-        "Name": "Hickle, Konopelski and Purdy",
-        "ToolTip": "Voluptatum quasi placeat.",
+        "Id": 189,
+        "Name": "Christiansen-Nienow",
+        "ToolTip": "Quia rerum nulla non doloremque.",
         "Deleted": false,
-        "Rank": 92,
-        "Type": "libero",
-        "ColorBlock": 918,
-        "IconHint": "aut",
+        "Rank": 39,
+        "Type": "qui",
+        "ColorBlock": 994,
+        "IconHint": "ea",
         "Selected": true,
-        "LastChanged": "2006-06-23T13:14:09.8379023+02:00",
+        "LastChanged": "2012-12-21T16:32:48.7432593+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "a",
+        "ExtraInfo": "dignissimos",
+        "StyleHint": "quas",
         "Hidden": false,
-        "FullName": "Conor Lindgren",
+        "FullName": "Mrs. Roma Myles Lowe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 508
+            "FieldType": "System.Int32",
+            "FieldLength": 153
           }
         }
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "facilis",
+    "ExtraInfo": "est",
+    "StyleHint": "ipsa",
     "Hidden": true,
-    "FullName": "Kassandra Dickens",
+    "FullName": "Mara Ortiz Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 922
+        "FieldLength": 117
       }
     }
   }

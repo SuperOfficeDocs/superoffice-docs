@@ -78,29 +78,29 @@ Content-Type: application/json; charset=utf-8
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": false,
-      "DefaultShowInGui": true,
+      "CanSupportMultiUse": true,
+      "DefaultShowInGui": false,
       "DefaultShowInSelector": false,
-      "IsActive": true,
-      "Key": "aut",
-      "ValueType": "quis",
+      "IsActive": false,
+      "Key": "soluta",
+      "ValueType": "est",
       "Mandatory": false,
-      "EncodedDisplayName": "Wolf, Schneider and Schmeler",
-      "EncodedDisplayDescription": "Persevering scalable budgetary management",
-      "IconHint": "aperiam",
+      "EncodedDisplayName": "Paucek, Ward and Gutkowski",
+      "EncodedDisplayDescription": "Enhanced foreground approach",
+      "IconHint": "cum",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "fugiat",
-      "EncodedDataCaptionDescription": "Intuitive didactic knowledge user",
-      "CurrentOperationType": "sit",
+      "EncodedDataCaption": "sapiente",
+      "EncodedDataCaptionDescription": "Open-architected hybrid complexity",
+      "CurrentOperationType": "non",
       "Values": [
-        "aliquid",
-        "rerum"
+        "recusandae",
+        "blanditiis"
       ],
       "DisplayValues": [
-        "sapiente",
+        "quia",
         "asperiores"
       ],
       "OperationInfos": [
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Tremblay, Gaylord and Schulist",
-  "Context": "illo",
-  "SelectionId": 774,
+  "TableName": "Borer-Cruickshank",
+  "Context": "sapiente",
+  "SelectionId": 103,
   "IsShadow": true
 }
 ```
@@ -122,5 +122,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-50
+331
 ```

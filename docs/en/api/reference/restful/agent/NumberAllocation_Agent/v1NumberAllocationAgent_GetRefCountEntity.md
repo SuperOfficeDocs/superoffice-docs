@@ -26,7 +26,7 @@ Gets a RefCountEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=268
+POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=733
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?$select=name,department,category/id
 ```
 
@@ -87,41 +87,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 39,
-  "Field": "illum",
-  "RecordId": 570,
+  "RefCountsId": 989,
+  "Field": "molestiae",
+  "RecordId": 697,
   "SuggestedRecords": [
     {
-      "Id": 438,
-      "Name": "McDermott-Schumm",
-      "ToolTip": "Quis delectus voluptatibus doloribus occaecati reprehenderit.",
-      "Deleted": true,
-      "Rank": 697,
-      "Type": "quos",
+      "Id": 847,
+      "Name": "Glover-Bosco",
+      "ToolTip": "Delectus sed sunt quia officiis.",
+      "Deleted": false,
+      "Rank": 441,
+      "Type": "veritatis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "reiciendis",
-      "ColorBlock": 541,
-      "ExtraInfo": "quidem",
-      "StyleHint": "excepturi",
-      "FullName": "Katarina Huels MD",
+      "IconHint": "et",
+      "ColorBlock": 747,
+      "ExtraInfo": "molestiae",
+      "StyleHint": "dolore",
+      "FullName": "Clovis Towne",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 609
+          "FieldType": "System.String",
+          "FieldLength": 980
         }
       }
     }
   ],
-  "CurrentValue": 192,
-  "TravelPrefix": 149,
-  "SatPrefix": 90,
-  "Allocate": true,
-  "Unique": false,
+  "CurrentValue": 601,
+  "TravelPrefix": 74,
+  "SatPrefix": 943,
+  "Allocate": false,
+  "Unique": true,
   "ReadOnly": false,
   "AllowBlank": false,
   "TableRight": null,
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 355
+      "FieldLength": 339
     }
   }
 }

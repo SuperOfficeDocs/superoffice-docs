@@ -75,7 +75,7 @@ OK
 GET /api/v1/SaleStakeholder/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Oberbrunner Group",
-  "Comment": "rerum",
-  "StakeholderRoleId": 493,
-  "CountryId": 75,
-  "PersonId": 15,
-  "EmailDescription": "julia_gorczany@lubowitz.info",
-  "EmailId": 919,
-  "EmailAddress": "nakia_jakubowski@botsford.ca",
-  "PhoneId": 708,
-  "ContactName": "Welch-Pacocha",
-  "ContactId": 698,
-  "SaleId": 811,
-  "Mrmrs": "omnis",
-  "Firstname": "Nicolas",
-  "MiddleName": "Wolff-Mertz",
-  "Lastname": "O'Hara",
-  "SaleStakeholderId": 600,
-  "Rank": 171,
-  "Phone": "452-495-3124",
+  "StakeholderRoleName": "Greenholt LLC",
+  "Comment": "a",
+  "StakeholderRoleId": 947,
+  "CountryId": 594,
+  "PersonId": 809,
+  "EmailDescription": "kiera_bailey@hoppehintz.name",
+  "EmailId": 701,
+  "EmailAddress": "dustin@okuneva.name",
+  "PhoneId": 926,
+  "ContactName": "Corwin, Johnston and Stiedemann",
+  "ContactId": 892,
+  "SaleId": 862,
+  "Mrmrs": "animi",
+  "Firstname": "Camila",
+  "MiddleName": "Tremblay-Shanahan",
+  "Lastname": "Spencer",
+  "SaleStakeholderId": 490,
+  "Rank": 183,
+  "Phone": "1-364-480-7619 x0848",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 952
+      "FieldLength": 384
     }
   }
 }

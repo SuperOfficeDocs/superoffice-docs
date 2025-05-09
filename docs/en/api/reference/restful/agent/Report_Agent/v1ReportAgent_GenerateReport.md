@@ -73,36 +73,36 @@ OK
 POST /api/v1/Agents/Report/GenerateReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 936,
-  "LabelLayoutId": 310,
-  "Filename": "corrupti",
-  "Language": "vitae",
-  "FileType": "nihil",
+  "ReportId": 754,
+  "LabelLayoutId": 707,
+  "Filename": "mollitia",
+  "Language": "qui",
+  "FileType": "non",
   "Restrictions": [
     {
-      "Name": "Batz-Goldner",
-      "Operator": "autem",
+      "Name": "Weimann-Mueller",
+      "Operator": "nobis",
       "Values": [
-        "excepturi",
-        "corrupti"
+        "rem",
+        "minima"
       ],
       "DisplayValues": [
-        "voluptates",
-        "et"
+        "ea",
+        "dolores"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 717,
+      "InterParenthesis": 137,
       "InterOperator": "And",
-      "UniqueHash": 438
+      "UniqueHash": 117
     }
   ]
 }
@@ -114,5 +114,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"officia"
+"quidem"
 ```

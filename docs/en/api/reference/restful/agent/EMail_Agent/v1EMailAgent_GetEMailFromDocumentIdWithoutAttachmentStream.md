@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 881
+  "DocumentId": 173
 }
 ```
 
@@ -117,156 +117,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 532,
-      "ContactName": "Franecki Group",
-      "PersonId": 509,
-      "PersonName": "Hyatt, Murazik and Schmidt",
-      "AssociateId": 712,
-      "Address": "exercitationem",
-      "EmailId": 958,
+      "ContactId": 414,
+      "ContactName": "Gulgowski-Bergnaum",
+      "PersonId": 736,
+      "PersonName": "Reichel, Sawayn and Erdman",
+      "AssociateId": 208,
+      "Address": "quis",
+      "EmailId": 171,
       "DuplicatePersonIds": [
-        521,
-        436
+        716,
+        769
       ],
-      "Name": "Okuneva, Kozey and Hyatt",
+      "Name": "Ryan, Rath and Roob",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 92
+          "FieldLength": 451
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 255,
-      "ContactName": "Huel, Feest and Braun",
-      "PersonId": 920,
-      "PersonName": "Hintz, Goldner and Zulauf",
-      "AssociateId": 701,
-      "Address": "eum",
-      "EmailId": 650,
+      "ContactId": 220,
+      "ContactName": "Predovic Inc and Sons",
+      "PersonId": 750,
+      "PersonName": "Armstrong Inc and Sons",
+      "AssociateId": 295,
+      "Address": "quia",
+      "EmailId": 405,
       "DuplicatePersonIds": [
-        812,
-        432
+        307,
+        717
       ],
-      "Name": "Bernier-Jenkins",
+      "Name": "Robel, Oberbrunner and Brakus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 818
+          "FieldLength": 484
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 262,
-      "ContactName": "Lubowitz Group",
-      "PersonId": 718,
-      "PersonName": "Kovacek-Barrows",
-      "AssociateId": 300,
-      "Address": "et",
-      "EmailId": 947,
+      "ContactId": 78,
+      "ContactName": "Crona-White",
+      "PersonId": 176,
+      "PersonName": "Kihn, Bechtelar and Sporer",
+      "AssociateId": 37,
+      "Address": "modi",
+      "EmailId": 415,
       "DuplicatePersonIds": [
-        556,
-        927
+        608,
+        369
       ],
-      "Name": "Prohaska LLC",
+      "Name": "Pollich, Spinka and Rowe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 352
+          "FieldLength": 750
         }
       }
     }
   ],
-  "Subject": "dolorum",
-  "HTMLBody": "dolor",
+  "Subject": "dolores",
+  "HTMLBody": "veniam",
   "From": null,
-  "Sent": "2001-02-24T13:14:00.313724+01:00",
-  "Size": 695,
+  "Sent": "2004-07-17T16:32:38.9770531+02:00",
+  "Size": 305,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "voluptatem",
-  "PlainBody": "placeat",
-  "IsSent": false,
+  "MessageID": "nisi",
+  "PlainBody": "non",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 318,
+  "ServerId": 784,
   "Attachments": [
     {
-      "Description": "Cloned tertiary success",
-      "Filename": "nulla",
-      "Size": 699,
-      "Type": "molestiae",
-      "Encoding": "perspiciatis",
-      "Id": "quae",
-      "Disposition": "dolor",
-      "IsSafeFileExtension": false,
+      "Description": "Ergonomic motivating task-force",
+      "Filename": "earum",
+      "Size": 857,
+      "Type": "tempore",
+      "Encoding": "ipsam",
+      "Id": "ut",
+      "Disposition": "voluptatem",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 274
+          "FieldType": "System.Int32",
+          "FieldLength": 194
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Zieme-Nikolaus",
+      "Name": "Green Group",
       "Values": [
-        "eum",
-        "illum"
+        "saepe",
+        "veritatis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 892
+          "FieldLength": 605
         }
       }
     },
     {
-      "Name": "Zieme-Nikolaus",
+      "Name": "Green Group",
       "Values": [
-        "eum",
-        "illum"
+        "saepe",
+        "veritatis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 892
+          "FieldLength": 605
         }
       }
     }
   ],
-  "FolderName": "Kutch Inc and Sons",
-  "EmailItemId": 416,
-  "AccountId": 458,
-  "ReceivedAt": "2015-12-27T13:14:00.313724+01:00",
+  "FolderName": "Bayer-Gusikowski",
+  "EmailItemId": 723,
+  "AccountId": 668,
+  "ReceivedAt": "2021-10-21T16:32:38.9770531+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2019-10-06T13:14:00.313724+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2008-03-09T16:32:38.9770531+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 245
+      "FieldType": "System.String",
+      "FieldLength": 497
     }
   }
 }

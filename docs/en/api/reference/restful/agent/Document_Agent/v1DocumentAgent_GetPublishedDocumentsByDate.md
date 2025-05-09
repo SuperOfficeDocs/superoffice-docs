@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 240,
+  "PersonId": 977,
   "IncludeProjectDocuments": false,
-  "StartTime": "2002-06-28T13:14:00.0788404+02:00",
-  "EndTime": "2021-03-11T13:14:00.0788404+01:00",
-  "Count": 433
+  "StartTime": "2002-08-03T16:32:38.6333805+02:00",
+  "EndTime": "1999-12-28T16:32:38.6333805+01:00",
+  "Count": 405
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 160,
-    "Attention": "illum",
-    "Header": "soluta",
-    "Name": "Dibbert, Sauer and Torphy",
-    "OurRef": "laboriosam",
-    "YourRef": "dolorem",
-    "Description": "Synchronised logistical core",
-    "DocumentTemplate": "est",
-    "IsPublished": true,
-    "PersonId": 539,
-    "PersonFullName": "Mr. Lily Deckow",
-    "AssociateFullName": "Emilie Hermiston",
-    "ContactId": 753,
-    "ContactName": "Fritsch LLC",
-    "ProjectId": 240,
-    "ProjectName": "Abbott, Rosenbaum and Wolff",
-    "AssociateId": 783,
-    "Snum": 1002,
-    "SaleId": 82,
-    "SaleName": "Grimes-Windler",
+    "DocumentId": 790,
+    "Attention": "id",
+    "Header": "iure",
+    "Name": "Baumbach-Schamberger",
+    "OurRef": "quas",
+    "YourRef": "qui",
+    "Description": "Proactive encompassing circuit",
+    "DocumentTemplate": "ipsa",
+    "IsPublished": false,
+    "PersonId": 564,
+    "PersonFullName": "Macie Torphy",
+    "AssociateFullName": "Ottis Legros I",
+    "ContactId": 679,
+    "ContactName": "Smitham, Jacobi and Abshire",
+    "ProjectId": 309,
+    "ProjectName": "Daugherty, Collins and Champlin",
+    "AssociateId": 838,
+    "Snum": 284,
+    "SaleId": 754,
+    "SaleName": "Russel Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 314
+        "FieldType": "System.Int32",
+        "FieldLength": 183
       }
     }
   }

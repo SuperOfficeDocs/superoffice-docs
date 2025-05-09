@@ -28,7 +28,7 @@ Gets a Webhook object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Webhook/GetWebhook?webhookId=354
+POST /api/v1/Agents/Webhook/GetWebhook?webhookId=967
 POST /api/v1/Agents/Webhook/GetWebhook?$select=name,department,category/id
 ```
 
@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Webhook/GetWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,27 +90,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 82,
-  "Name": "Schuster Inc and Sons",
+  "WebhookId": 859,
+  "Name": "Bosco Group",
   "Events": [
-    "incidunt",
-    "eius"
+    "error",
+    "repellendus"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "et",
+  "Secret": "quos",
   "State": "Active",
-  "Type": "dolor",
+  "Type": "rerum",
   "Headers": {
-    "Headers1": "error",
-    "Headers2": "libero"
+    "Headers1": "in",
+    "Headers2": "quia"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2020-12-13T13:14:01.7850758+01:00",
+  "Registered": "2024-08-10T16:32:40.5394394+02:00",
   "RegisteredAssociate": null,
-  "Updated": "1999-03-09T13:14:01.7850758+01:00",
+  "Updated": "2005-08-23T16:32:40.5394394+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "dale_feil@lindgren.biz"
+  "ErrorsEmail": "emile.torp@hammes.info"
 }
 ```

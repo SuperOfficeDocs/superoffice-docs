@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 890,
-    "Name": "Boyle, Glover and Armstrong",
-    "Tooltip": "sit",
+    "HeadingId": 28,
+    "Name": "Ullrich Inc and Sons",
+    "Tooltip": "culpa",
     "Deleted": false,
-    "Rank": 333,
-    "UdListDefinitionId": 278,
+    "Rank": 310,
+    "UdListDefinitionId": 387,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 370
+        "FieldType": "System.Int32",
+        "FieldLength": 644
       }
     }
   }

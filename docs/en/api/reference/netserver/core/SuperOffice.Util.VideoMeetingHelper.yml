@@ -9,8 +9,13 @@ items:
   - SuperOffice.Util.VideoMeetingHelper.#ctor(System.String)
   - SuperOffice.Util.VideoMeetingHelper.CreateMeetingUrl
   - SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingFromAppointment(System.String,System.String,System.String,System.Int32)
+  - SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingReservation
+  - SuperOffice.Util.VideoMeetingHelper.DeleteMeetingUrl(System.String)
+  - SuperOffice.Util.VideoMeetingHelper.DeleteVideoMeetingReservation(System.String)
   - SuperOffice.Util.VideoMeetingHelper.GetLoginUrl(System.String,System.String)
   - SuperOffice.Util.VideoMeetingHelper.IsAuthenticationRequired
+  - SuperOffice.Util.VideoMeetingHelper.ReserveMeetingUrl
+  - SuperOffice.Util.VideoMeetingHelper.UnreserveMeetingUrl(System.String)
   langs:
   - csharp
   - vb
@@ -91,6 +96,66 @@ items:
       type: System.String
     content.vb: Public Sub New(videoMeetingEndpoint As String)
   overload: SuperOffice.Util.VideoMeetingHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.VideoMeetingHelper.DeleteMeetingUrl(System.String)
+  commentId: M:SuperOffice.Util.VideoMeetingHelper.DeleteMeetingUrl(System.String)
+  id: DeleteMeetingUrl(System.String)
+  parent: SuperOffice.Util.VideoMeetingHelper
+  langs:
+  - csharp
+  - vb
+  name: DeleteMeetingUrl(String)
+  nameWithType: VideoMeetingHelper.DeleteMeetingUrl(String)
+  fullName: SuperOffice.Util.VideoMeetingHelper.DeleteMeetingUrl(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public string DeleteMeetingUrl(string meetingId)
+    parameters:
+    - id: meetingId
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function DeleteMeetingUrl(meetingId As String) As String
+  overload: SuperOffice.Util.VideoMeetingHelper.DeleteMeetingUrl*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.VideoMeetingHelper.UnreserveMeetingUrl(System.String)
+  commentId: M:SuperOffice.Util.VideoMeetingHelper.UnreserveMeetingUrl(System.String)
+  id: UnreserveMeetingUrl(System.String)
+  parent: SuperOffice.Util.VideoMeetingHelper
+  langs:
+  - csharp
+  - vb
+  name: UnreserveMeetingUrl(String)
+  nameWithType: VideoMeetingHelper.UnreserveMeetingUrl(String)
+  fullName: SuperOffice.Util.VideoMeetingHelper.UnreserveMeetingUrl(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public string UnreserveMeetingUrl(string meetingId)
+    parameters:
+    - id: meetingId
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function UnreserveMeetingUrl(meetingId As String) As String
+  overload: SuperOffice.Util.VideoMeetingHelper.UnreserveMeetingUrl*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -190,6 +255,61 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingReservation
+  commentId: M:SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingReservation
+  id: CreateVideoMeetingReservation
+  parent: SuperOffice.Util.VideoMeetingHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateVideoMeetingReservation()
+  nameWithType: VideoMeetingHelper.CreateVideoMeetingReservation()
+  fullName: SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingReservation()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public VideoMeetingHelper.VideoMeetingReservation CreateVideoMeetingReservation()
+    return:
+      type: SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation
+    content.vb: Public Function CreateVideoMeetingReservation As VideoMeetingHelper.VideoMeetingReservation
+  overload: SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingReservation*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.VideoMeetingHelper.DeleteVideoMeetingReservation(System.String)
+  commentId: M:SuperOffice.Util.VideoMeetingHelper.DeleteVideoMeetingReservation(System.String)
+  id: DeleteVideoMeetingReservation(System.String)
+  parent: SuperOffice.Util.VideoMeetingHelper
+  langs:
+  - csharp
+  - vb
+  name: DeleteVideoMeetingReservation(String)
+  nameWithType: VideoMeetingHelper.DeleteVideoMeetingReservation(String)
+  fullName: SuperOffice.Util.VideoMeetingHelper.DeleteVideoMeetingReservation(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public void DeleteVideoMeetingReservation(string meetingId)
+    parameters:
+    - id: meetingId
+      type: System.String
+    content.vb: Public Sub DeleteVideoMeetingReservation(meetingId As String)
+  overload: SuperOffice.Util.VideoMeetingHelper.DeleteVideoMeetingReservation*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Util.VideoMeetingHelper.CreateMeetingUrl
   commentId: P:SuperOffice.Util.VideoMeetingHelper.CreateMeetingUrl
   id: CreateMeetingUrl
@@ -214,6 +334,36 @@ items:
       type: System.String
     content.vb: Public ReadOnly Property CreateMeetingUrl As String
   overload: SuperOffice.Util.VideoMeetingHelper.CreateMeetingUrl*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Util.VideoMeetingHelper.ReserveMeetingUrl
+  commentId: P:SuperOffice.Util.VideoMeetingHelper.ReserveMeetingUrl
+  id: ReserveMeetingUrl
+  parent: SuperOffice.Util.VideoMeetingHelper
+  langs:
+  - csharp
+  - vb
+  name: ReserveMeetingUrl
+  nameWithType: VideoMeetingHelper.ReserveMeetingUrl
+  fullName: SuperOffice.Util.VideoMeetingHelper.ReserveMeetingUrl
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public string ReserveMeetingUrl { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ReserveMeetingUrl As String
+  overload: SuperOffice.Util.VideoMeetingHelper.ReserveMeetingUrl*
   modifiers.csharp:
   - public
   - get
@@ -593,6 +743,18 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: SuperOffice.Util.VideoMeetingHelper.DeleteMeetingUrl*
+  commentId: Overload:SuperOffice.Util.VideoMeetingHelper.DeleteMeetingUrl
+  isExternal: true
+  name: DeleteMeetingUrl
+  nameWithType: VideoMeetingHelper.DeleteMeetingUrl
+  fullName: SuperOffice.Util.VideoMeetingHelper.DeleteMeetingUrl
+- uid: SuperOffice.Util.VideoMeetingHelper.UnreserveMeetingUrl*
+  commentId: Overload:SuperOffice.Util.VideoMeetingHelper.UnreserveMeetingUrl
+  isExternal: true
+  name: UnreserveMeetingUrl
+  nameWithType: VideoMeetingHelper.UnreserveMeetingUrl
+  fullName: SuperOffice.Util.VideoMeetingHelper.UnreserveMeetingUrl
 - uid: SuperOffice.Util.VideoMeetingHelper.IsAuthenticationRequired*
   commentId: Overload:SuperOffice.Util.VideoMeetingHelper.IsAuthenticationRequired
   isExternal: true
@@ -625,9 +787,34 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingReservation*
+  commentId: Overload:SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingReservation
+  isExternal: true
+  name: CreateVideoMeetingReservation
+  nameWithType: VideoMeetingHelper.CreateVideoMeetingReservation
+  fullName: SuperOffice.Util.VideoMeetingHelper.CreateVideoMeetingReservation
+- uid: SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation
+  commentId: T:SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation
+  parent: SuperOffice.Util
+  isExternal: true
+  name: VideoMeetingHelper.VideoMeetingReservation
+  nameWithType: VideoMeetingHelper.VideoMeetingReservation
+  fullName: SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation
+- uid: SuperOffice.Util.VideoMeetingHelper.DeleteVideoMeetingReservation*
+  commentId: Overload:SuperOffice.Util.VideoMeetingHelper.DeleteVideoMeetingReservation
+  isExternal: true
+  name: DeleteVideoMeetingReservation
+  nameWithType: VideoMeetingHelper.DeleteVideoMeetingReservation
+  fullName: SuperOffice.Util.VideoMeetingHelper.DeleteVideoMeetingReservation
 - uid: SuperOffice.Util.VideoMeetingHelper.CreateMeetingUrl*
   commentId: Overload:SuperOffice.Util.VideoMeetingHelper.CreateMeetingUrl
   isExternal: true
   name: CreateMeetingUrl
   nameWithType: VideoMeetingHelper.CreateMeetingUrl
   fullName: SuperOffice.Util.VideoMeetingHelper.CreateMeetingUrl
+- uid: SuperOffice.Util.VideoMeetingHelper.ReserveMeetingUrl*
+  commentId: Overload:SuperOffice.Util.VideoMeetingHelper.ReserveMeetingUrl
+  isExternal: true
+  name: ReserveMeetingUrl
+  nameWithType: VideoMeetingHelper.ReserveMeetingUrl
+  fullName: SuperOffice.Util.VideoMeetingHelper.ReserveMeetingUrl

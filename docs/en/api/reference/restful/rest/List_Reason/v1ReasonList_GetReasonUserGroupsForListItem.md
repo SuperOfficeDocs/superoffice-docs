@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 134,
-    "Name": "Hintz-Gislason",
-    "ToolTip": "Eligendi nihil enim modi.",
-    "Deleted": false,
-    "Rank": 982,
-    "Type": "voluptatum",
-    "ColorBlock": 577,
-    "IconHint": "illo",
+    "Id": 785,
+    "Name": "Will, Durgan and Zboncak",
+    "ToolTip": "Iure nemo est dolor corrupti.",
+    "Deleted": true,
+    "Rank": 174,
+    "Type": "praesentium",
+    "ColorBlock": 316,
+    "IconHint": "in",
     "Selected": false,
-    "LastChanged": "2009-06-12T13:14:10.0097876+02:00",
+    "LastChanged": "2012-05-19T16:32:48.8994739+02:00",
     "ChildItems": [
       {
-        "Id": 588,
-        "Name": "Ratke-Kohler",
-        "ToolTip": "Sed labore beatae aut nobis laudantium.",
+        "Id": 611,
+        "Name": "Kreiger, Dach and Toy",
+        "ToolTip": "Adipisci impedit.",
         "Deleted": false,
-        "Rank": 595,
-        "Type": "voluptate",
-        "ColorBlock": 168,
-        "IconHint": "voluptatem",
-        "Selected": true,
-        "LastChanged": "2012-01-03T13:14:10.0097876+01:00",
+        "Rank": 723,
+        "Type": "nihil",
+        "ColorBlock": 563,
+        "IconHint": "pariatur",
+        "Selected": false,
+        "LastChanged": "2025-04-23T16:32:48.8994739+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "doloremque",
-        "Hidden": true,
-        "FullName": "Liam Herman",
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "ducimus",
+        "Hidden": false,
+        "FullName": "Winnifred West",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 180
+            "FieldType": "System.String",
+            "FieldLength": 195
           }
         }
       }
     ],
-    "ExtraInfo": "accusantium",
-    "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Mrs. Nola Beer",
+    "ExtraInfo": "ut",
+    "StyleHint": "maxime",
+    "Hidden": false,
+    "FullName": "Ms. Rosina Ratke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 685
+        "FieldLength": 600
       }
     }
   }

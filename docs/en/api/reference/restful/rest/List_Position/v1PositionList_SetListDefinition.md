@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 30,
-  "Name": "Brakus Inc and Sons",
-  "Tooltip": "in",
+  "Id": 710,
+  "Name": "Pollich-Bartell",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 935,
+  "Rank": 210,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "laborum",
+  "ListType": "inventore",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 342,
-  "Name": "Johnson, Roob and Hyatt",
-  "Tooltip": "temporibus",
+  "Id": 148,
+  "Name": "Altenwerth-Grimes",
+  "Tooltip": "nobis",
   "Deleted": false,
-  "Rank": 472,
+  "Rank": 203,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "iure",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "ut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 190
+      "FieldType": "System.Int32",
+      "FieldLength": 749
     }
   }
 }

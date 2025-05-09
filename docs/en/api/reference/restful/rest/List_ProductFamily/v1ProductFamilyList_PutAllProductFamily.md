@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 14,
-    "Name": "Huel LLC",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "UdListDefinitionId": 123,
-    "Rank": 734
+    "Id": 119,
+    "Name": "Kuhlman-Hodkiewicz",
+    "Tooltip": "mollitia",
+    "Deleted": false,
+    "UdListDefinitionId": 694,
+    "Rank": 627
   },
   {
-    "Id": 14,
-    "Name": "Huel LLC",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "UdListDefinitionId": 123,
-    "Rank": 734
+    "Id": 119,
+    "Name": "Kuhlman-Hodkiewicz",
+    "Tooltip": "mollitia",
+    "Deleted": false,
+    "UdListDefinitionId": 694,
+    "Rank": 627
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 405,
-    "Name": "Waelchi, Kutch and Kilback",
-    "Tooltip": "et",
+    "Id": 842,
+    "Name": "Lehner LLC",
+    "Tooltip": "aut",
     "Deleted": false,
-    "UdListDefinitionId": 902,
-    "Rank": 332,
+    "UdListDefinitionId": 234,
+    "Rank": 228,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 749
+        "FieldType": "System.Int32",
+        "FieldLength": 480
       }
     }
   }

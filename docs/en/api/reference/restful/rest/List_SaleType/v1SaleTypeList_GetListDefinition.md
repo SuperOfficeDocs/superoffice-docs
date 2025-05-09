@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/SaleType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 306,
-  "Name": "Roberts-Schinner",
-  "Tooltip": "voluptas",
+  "Id": 622,
+  "Name": "Weissnat Group",
+  "Tooltip": "id",
   "Deleted": false,
-  "Rank": 800,
-  "IsCustomList": true,
+  "Rank": 46,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "occaecati",
-  "InUseByUserDefinedFields": false,
+  "ListType": "voluptatem",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 689
+      "FieldLength": 428
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

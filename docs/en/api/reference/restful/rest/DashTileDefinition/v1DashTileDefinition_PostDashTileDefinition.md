@@ -112,29 +112,29 @@ OK
 POST /api/v1/DashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 222,
-  "Name": "Robel LLC",
-  "Description": "Decentralized didactic forecast",
-  "DefaultHeight": 615,
-  "DefaultWidth": 829,
+  "DashboardTileDefinitionId": 516,
+  "Name": "Mills, Marvin and Price",
+  "Description": "Customer-focused logistical software",
+  "DefaultHeight": 938,
+  "DefaultWidth": 425,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Haag, Denesik and Quigley",
-  "SelectionId": 580,
+  "EntityName": "Jacobson-Wilderman",
+  "SelectionId": 242,
   "CurrencyMode": "Base",
-  "CurrencyCode": "hic",
+  "CurrencyCode": "sed",
   "Measure": "Average",
-  "MeasureField": "fugit",
-  "SortBy": "ea",
-  "LayoutConfig": "minus",
-  "SecondarySelectionId": 615,
-  "MeasureByField": "sit",
+  "MeasureField": "et",
+  "SortBy": "dolores",
+  "LayoutConfig": "aut",
+  "SecondarySelectionId": 573,
+  "MeasureByField": "sed",
   "Usage": "Dashboard",
-  "ProviderName": "Russel, Lesch and Moore"
+  "ProviderName": "Bartell, Larson and Robel"
 }
 ```
 
@@ -145,31 +145,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 681,
-  "Name": "Considine LLC",
-  "Description": "Universal explicit functionalities",
-  "DefaultHeight": 322,
-  "DefaultWidth": 104,
+  "DashboardTileDefinitionId": 979,
+  "Name": "Breitenberg Group",
+  "Description": "Decentralized discrete data-warehouse",
+  "DefaultHeight": 7,
+  "DefaultWidth": 174,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Daniel-Ward",
-  "SelectionId": 300,
+  "EntityName": "Upton Group",
+  "SelectionId": 259,
   "CurrencyMode": "Base",
-  "CurrencyCode": "ipsa",
+  "CurrencyCode": "voluptates",
   "Measure": "Average",
-  "MeasureField": "amet",
-  "SortBy": "possimus",
-  "LayoutConfig": "exercitationem",
-  "SecondarySelectionId": 134,
-  "MeasureByField": "enim",
+  "MeasureField": "voluptatem",
+  "SortBy": "voluptatem",
+  "LayoutConfig": "iure",
+  "SecondarySelectionId": 261,
+  "MeasureByField": "quia",
   "Usage": "Dashboard",
-  "ProviderName": "Swaniawski-Zulauf",
+  "ProviderName": "Jacobi, Stokes and Walter",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 267
+      "FieldLength": 126
     }
   },
   "_Links": {

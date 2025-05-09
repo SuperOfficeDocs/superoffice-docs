@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 680,
-  "Name": "Kulas, Kris and Robel",
-  "Tooltip": "doloribus",
+  "Id": 555,
+  "Name": "Herman, Smith and Hickle",
+  "Tooltip": "tempore",
   "Deleted": true,
-  "Rank": 76,
-  "IsCustomList": false,
+  "Rank": 965,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "magni",
+  "ListType": "eius",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 384
+      "FieldLength": 285
     }
   },
   "_Links": {

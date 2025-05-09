@@ -81,39 +81,39 @@ OK
 POST /api/v1/Agents/List/SaveProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 100,
-  "Name": "Walker-White",
-  "Tooltip": "itaque",
-  "Rank": 940,
+  "ProjTypeId": 463,
+  "Name": "Nitzsche-Nitzsche",
+  "Tooltip": "nemo",
+  "Rank": 998,
   "DurationUnit": "Century",
-  "ProjectDuration": 843,
-  "Deleted": true,
+  "ProjectDuration": 424,
+  "Deleted": false,
   "HasGuide": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 392,
-      "Name": "Swift, Cronin and Heaney",
-      "ToolTip": "Fugit quis corrupti perspiciatis vel est.",
+      "Id": 924,
+      "Name": "VonRueden Group",
+      "ToolTip": "Ipsam eos saepe quia commodi aut perspiciatis itaque.",
       "Deleted": false,
-      "Rank": 701,
-      "Type": "cupiditate",
-      "ColorBlock": 717,
+      "Rank": 226,
+      "Type": "delectus",
+      "ColorBlock": 79,
       "IconHint": "et",
       "Selected": false,
-      "LastChanged": "2002-07-19T13:14:00.6575024+02:00",
+      "LastChanged": "2009-10-29T16:32:39.3051024+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eum",
-      "StyleHint": "iure",
-      "Hidden": false,
-      "FullName": "Dr. Alda Cydney Boehm"
+      "ExtraInfo": "voluptas",
+      "StyleHint": "et",
+      "Hidden": true,
+      "FullName": "Helene Baumbach"
     }
   ]
 }
@@ -126,41 +126,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 142,
-  "Name": "Feil Inc and Sons",
-  "Tooltip": "laudantium",
-  "Rank": 469,
+  "ProjTypeId": 377,
+  "Name": "Botsford-Mueller",
+  "Tooltip": "mollitia",
+  "Rank": 134,
   "DurationUnit": "Century",
-  "ProjectDuration": 147,
-  "Deleted": true,
+  "ProjectDuration": 313,
+  "Deleted": false,
   "HasGuide": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 805,
-      "Name": "Erdman LLC",
-      "ToolTip": "Eaque sint vel tempora.",
+      "Id": 413,
+      "Name": "Shields Inc and Sons",
+      "ToolTip": "Assumenda voluptatibus voluptas voluptas distinctio.",
       "Deleted": true,
-      "Rank": 69,
-      "Type": "et",
-      "ColorBlock": 561,
-      "IconHint": "ex",
+      "Rank": 880,
+      "Type": "omnis",
+      "ColorBlock": 840,
+      "IconHint": "autem",
       "Selected": false,
-      "LastChanged": "2017-12-03T13:14:00.6575024+01:00",
+      "LastChanged": "2013-10-07T16:32:39.320696+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "natus",
-      "StyleHint": "labore",
+      "ExtraInfo": "omnis",
+      "StyleHint": "ex",
       "Hidden": false,
-      "FullName": "Earnest Mollie Hamill DVM",
+      "FullName": "Brian Thiel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 354
+          "FieldLength": 844
         }
       }
     }
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 649
+      "FieldType": "System.Int32",
+      "FieldLength": 796
     }
   }
 }

@@ -94,19 +94,19 @@ OK
 POST /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 480,
-  "Name": "Abbott Group",
-  "Tooltip": "voluptates",
+  "Id": 924,
+  "Name": "Kunze-Jast",
+  "Tooltip": "ab",
   "Deleted": false,
-  "Rank": 441,
+  "Rank": 779,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "rerum",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 867,
-  "Name": "Corwin-Ziemann",
-  "Tooltip": "facere",
+  "Id": 87,
+  "Name": "Koss LLC",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 662,
+  "Rank": 295,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "totam",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "ad",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 808
+      "FieldType": "System.String",
+      "FieldLength": 421
     }
   },
   "_Links": {

@@ -107,7 +107,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 717
+  "ChatTopicId": 44
 }
 ```
 
@@ -118,43 +118,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 169,
-  "TopicId": 700,
+  "ChatSessionId": 469,
+  "TopicId": 199,
   "User": null,
   "Person": null,
-  "CustomerAlias": "et",
-  "CustomerHost": "commodi",
-  "CustomerName": "Lowe-Kilback",
-  "CustomerEmail": "faye_rutherford@mclaughlinturcotte.com",
-  "CustomerPhone": "1-251-953-3330",
+  "CustomerAlias": "perspiciatis",
+  "CustomerHost": "provident",
+  "CustomerName": "Greenholt LLC",
+  "CustomerEmail": "tiffany@waters.co.uk",
+  "CustomerPhone": "1-670-241-6145 x01448",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Brakus-Vandervort",
+  "CustomerCompanyName": "Abshire Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "recusandae",
-  "LastMessage": "nisi",
-  "WhenRequested": "2021-12-26T13:13:59.6881883+01:00",
-  "WhenStarted": "2015-10-24T13:13:59.6881883+02:00",
-  "WhenEnded": "2013-06-06T13:13:59.6881883+02:00",
-  "WhenIdle": "2009-08-24T13:13:59.6881883+02:00",
-  "WhenFetched": "1998-11-10T13:13:59.6881883+01:00",
-  "SessionKey": "aliquid",
-  "InitialQueuePos": 340,
-  "AlertLevel": 825,
-  "Rank": 218,
+  "FirstMessage": "consectetur",
+  "LastMessage": "quia",
+  "WhenRequested": "2010-01-14T16:32:38.3678168+01:00",
+  "WhenStarted": "2014-01-27T16:32:38.3678168+01:00",
+  "WhenEnded": "2024-12-14T16:32:38.3678168+01:00",
+  "WhenIdle": "1998-08-28T16:32:38.3678168+02:00",
+  "WhenFetched": "1999-10-31T16:32:38.3678168+01:00",
+  "SessionKey": "omnis",
+  "InitialQueuePos": 618,
+  "AlertLevel": 136,
+  "Rank": 646,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 978,
+  "ChatbotIsActive": false,
+  "Rating": 157,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 523
+      "FieldType": "System.String",
+      "FieldLength": 905
     }
   }
 }

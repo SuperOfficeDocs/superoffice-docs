@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 73,
-  "Name": "Donnelly, Schneider and Gulgowski",
-  "Tooltip": "perspiciatis",
-  "Rank": 308,
-  "Key": "et",
-  "Deleted": true,
+  "LegalBaseId": 314,
+  "Name": "Bayer-Dare",
+  "Tooltip": "laudantium",
+  "Rank": 905,
+  "Key": "voluptatem",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 455
+      "FieldType": "System.Int32",
+      "FieldLength": 4
     }
   }
 }

@@ -99,29 +99,29 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Ebert LLC",
-  "Comment": "ad",
-  "StakeholderRoleId": 628,
-  "CountryId": 138,
-  "PersonId": 220,
-  "EmailDescription": "melvina@grimes.uk",
-  "EmailId": 520,
-  "EmailAddress": "rashawn.howe@feest.info",
-  "PhoneId": 711,
-  "ContactName": "Bosco-Murphy",
-  "ContactId": 51,
-  "SaleId": 624,
-  "Mrmrs": "ex",
-  "Firstname": "Mae",
-  "MiddleName": "Littel-Daniel",
-  "Lastname": "Romaguera",
-  "SaleStakeholderId": 417,
-  "Rank": 510,
-  "Phone": "1-713-584-4436"
+  "StakeholderRoleName": "Zboncak Inc and Sons",
+  "Comment": "hic",
+  "StakeholderRoleId": 535,
+  "CountryId": 237,
+  "PersonId": 955,
+  "EmailDescription": "elvera_strosin@jakubowski.biz",
+  "EmailId": 273,
+  "EmailAddress": "malika@vandervort.uk",
+  "PhoneId": 108,
+  "ContactName": "Roob, Shields and Moore",
+  "ContactId": 403,
+  "SaleId": 763,
+  "Mrmrs": "beatae",
+  "Firstname": "Emmanuelle",
+  "MiddleName": "Mayer-Cormier",
+  "Lastname": "Douglas",
+  "SaleStakeholderId": 204,
+  "Rank": 275,
+  "Phone": "661.159.7120 x8160"
 }
 ```
 
@@ -132,31 +132,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Konopelski-Kemmer",
-  "Comment": "et",
-  "StakeholderRoleId": 122,
-  "CountryId": 351,
-  "PersonId": 722,
-  "EmailDescription": "colton@durgan.info",
-  "EmailId": 155,
-  "EmailAddress": "blair@beerboyer.biz",
-  "PhoneId": 355,
-  "ContactName": "Durgan-Price",
-  "ContactId": 732,
-  "SaleId": 684,
-  "Mrmrs": "aut",
-  "Firstname": "Hettie",
-  "MiddleName": "Toy-Welch",
-  "Lastname": "Weimann",
-  "SaleStakeholderId": 481,
-  "Rank": 951,
-  "Phone": "583-024-6380",
+  "StakeholderRoleName": "Mueller LLC",
+  "Comment": "expedita",
+  "StakeholderRoleId": 808,
+  "CountryId": 377,
+  "PersonId": 139,
+  "EmailDescription": "freeman@wunschjacobi.co.uk",
+  "EmailId": 490,
+  "EmailAddress": "shaun@brown.info",
+  "PhoneId": 607,
+  "ContactName": "Prosacco, Witting and Olson",
+  "ContactId": 183,
+  "SaleId": 285,
+  "Mrmrs": "soluta",
+  "Firstname": "Terry",
+  "MiddleName": "Hintz, Hoeger and Smith",
+  "Lastname": "Keebler",
+  "SaleStakeholderId": 452,
+  "Rank": 970,
+  "Phone": "076.362.2106 x77107",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 841
+      "FieldType": "System.Int32",
+      "FieldLength": 222
     }
   }
 }

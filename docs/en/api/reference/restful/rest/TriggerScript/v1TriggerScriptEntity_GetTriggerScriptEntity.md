@@ -95,22 +95,22 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 671,
-  "Name": "Krajcik-Halvorson",
+  "ScreenChooserId": 339,
+  "Name": "Macejkovic Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "explicabo",
-  "Source": "est",
-  "Registered": "2005-12-15T13:14:09.3685305+01:00",
-  "RegisteredAssociateId": 471,
-  "Updated": "2014-07-24T13:14:09.3685305+02:00",
-  "UpdatedAssociateId": 732,
+  "UniqueIdentifier": "quas",
+  "Source": "iste",
+  "Registered": "2004-08-10T16:32:48.2745849+02:00",
+  "RegisteredAssociateId": 18,
+  "Updated": "2015-05-07T16:32:48.2745849+02:00",
+  "UpdatedAssociateId": 912,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 648
+      "FieldType": "System.String",
+      "FieldLength": 19
     }
   },
   "_Links": {

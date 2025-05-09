@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Selection?$select=name,department,category/id
 GET /api/v1/Selection?$filter=name begins 'S'
 GET /api/v1/Selection?$orderBy=name asc
-GET /api/v1/Selection?$entities=nulla
-GET /api/v1/Selection?$top=859
-GET /api/v1/Selection?$skip=67
+GET /api/v1/Selection?$entities=consequuntur
+GET /api/v1/Selection?$top=893
+GET /api/v1/Selection?$skip=387
 GET /api/v1/Selection?$mode=Full
 GET /api/v1/Selection?$options=GrandTotal=true
-GET /api/v1/Selection?$context=laboriosam
+GET /api/v1/Selection?$context=modi
 GET /api/v1/Selection?$format=JSON
-GET /api/v1/Selection?$jsonSafe=False
+GET /api/v1/Selection?$jsonSafe=True
 GET /api/v1/Selection?$output=Display
 ```
 
@@ -129,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "nesciunt",
+  "odata.nextLink": "quisquam",
   "value": [
     {
-      "PrimaryKey": 8133,
+      "PrimaryKey": 7096,
       "EntityName": "person",
-      "personId": 8133,
-      "fullName": "Lily Beier"
+      "personId": 7096,
+      "fullName": "Josefa Darron Cronin II"
     },
     {
-      "PrimaryKey": 2347,
+      "PrimaryKey": 4954,
       "EntityName": "person",
-      "personId": 2347,
-      "fullName": "Maryse Dickens"
+      "personId": 4954,
+      "fullName": "Merlin Elva Ziemann DDS"
     }
   ]
 }

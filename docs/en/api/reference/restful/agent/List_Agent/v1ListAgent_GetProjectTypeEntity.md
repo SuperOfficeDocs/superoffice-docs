@@ -26,7 +26,7 @@ Gets a ProjectTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=845
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=300
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,41 +86,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 487,
-  "Name": "Vandervort-Smitham",
-  "Tooltip": "ad",
-  "Rank": 110,
+  "ProjTypeId": 347,
+  "Name": "Marvin LLC",
+  "Tooltip": "perspiciatis",
+  "Rank": 244,
   "DurationUnit": "Century",
-  "ProjectDuration": 873,
-  "Deleted": true,
+  "ProjectDuration": 976,
+  "Deleted": false,
   "HasGuide": false,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 535,
-      "Name": "Haag-Walter",
-      "ToolTip": "Provident quia rerum vel.",
-      "Deleted": true,
-      "Rank": 350,
-      "Type": "est",
-      "ColorBlock": 126,
-      "IconHint": "cum",
-      "Selected": false,
-      "LastChanged": "2008-12-03T13:14:00.5637376+01:00",
+      "Id": 356,
+      "Name": "Dickinson Inc and Sons",
+      "ToolTip": "Illum voluptas error.",
+      "Deleted": false,
+      "Rank": 485,
+      "Type": "minus",
+      "ColorBlock": 405,
+      "IconHint": "autem",
+      "Selected": true,
+      "LastChanged": "2015-07-30T16:32:39.226996+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eum",
-      "StyleHint": "placeat",
+      "ExtraInfo": "quod",
+      "StyleHint": "quia",
       "Hidden": true,
-      "FullName": "Ms. Rose Hilda Streich",
+      "FullName": "Prof. Kavon Pollich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 406
+          "FieldLength": 256
         }
       }
     }
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 812
+      "FieldLength": 434
     }
   }
 }

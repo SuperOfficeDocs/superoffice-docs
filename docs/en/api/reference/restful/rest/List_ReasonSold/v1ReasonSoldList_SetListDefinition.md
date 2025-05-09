@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/ReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 126,
-  "Name": "Walsh-Weissnat",
-  "Tooltip": "fuga",
+  "Id": 248,
+  "Name": "Quitzon, Langworth and Hammes",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 353,
-  "IsCustomList": true,
+  "Rank": 6,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "possimus",
-  "InUseByUserDefinedFields": true
+  "ListType": "non",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 858,
-  "Name": "Kerluke, Gibson and Keeling",
-  "Tooltip": "officiis",
+  "Id": 226,
+  "Name": "Bechtelar LLC",
+  "Tooltip": "molestias",
   "Deleted": false,
-  "Rank": 716,
-  "IsCustomList": false,
+  "Rank": 669,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "expedita",
+  "ListType": "veritatis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 966
+      "FieldLength": 39
     }
   }
 }

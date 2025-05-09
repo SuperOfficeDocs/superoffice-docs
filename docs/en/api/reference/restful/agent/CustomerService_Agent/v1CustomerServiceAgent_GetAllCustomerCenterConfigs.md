@@ -83,20 +83,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CustConfigId": 553,
+    "CustConfigId": 261,
     "Type": "Options",
-    "Config": "illo",
-    "CustLangId": 1001,
-    "Registered": "2021-11-25T13:14:00.0319625+01:00",
-    "RegisteredAssociateId": 931,
-    "Updated": "2005-04-12T13:14:00.0319625+02:00",
-    "UpdatedAssociateId": 378,
+    "Config": "est",
+    "CustLangId": 252,
+    "Registered": "2003-06-11T16:32:38.570895+02:00",
+    "RegisteredAssociateId": 382,
+    "Updated": "2005-03-31T16:32:38.570895+02:00",
+    "UpdatedAssociateId": 380,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 4
+        "FieldLength": 631
       }
     }
   }

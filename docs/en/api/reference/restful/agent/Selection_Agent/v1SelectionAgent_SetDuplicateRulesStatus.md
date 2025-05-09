@@ -64,21 +64,21 @@ No Content
 POST /api/v1/Agents/Selection/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Ratke, Dietrich and Wisoky",
-      "DisplayName": "Huel, Mitchell and Witting",
-      "DisplayTooltip": "ut",
+      "Name": "Little Inc and Sons",
+      "DisplayName": "Satterfield LLC",
+      "DisplayTooltip": "repellendus",
       "IsActive": false
     },
     {
-      "Name": "Ratke, Dietrich and Wisoky",
-      "DisplayName": "Huel, Mitchell and Witting",
-      "DisplayTooltip": "ut",
+      "Name": "Little Inc and Sons",
+      "DisplayName": "Satterfield LLC",
+      "DisplayTooltip": "repellendus",
       "IsActive": false
     }
   ]

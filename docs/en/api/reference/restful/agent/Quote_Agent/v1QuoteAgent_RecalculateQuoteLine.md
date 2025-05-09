@@ -124,14 +124,14 @@ OK
 POST /api/v1/Agents/Quote/RecalculateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "possimus",
-    "totam"
+    "qui",
+    "eius"
   ]
 }
 ```
@@ -143,88 +143,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 353,
-  "ERPQuoteLineKey": "quia",
-  "QuoteAlternativeId": 925,
-  "ERPProductKey": "qui",
+  "QuoteLineId": 531,
+  "ERPQuoteLineKey": "totam",
+  "QuoteAlternativeId": 110,
+  "ERPProductKey": "ab",
   "Status": "Error",
-  "Reason": "",
-  "Quantity": 31318.061999999998,
-  "DeliveredQuantity": 607.996,
-  "Rank": 96,
-  "Name": "Glover-D'Amore",
-  "Description": "Digitized object-oriented synergy",
-  "Code": "consequatur",
-  "QuantityUnit": "corrupti",
-  "PriceUnit": "nostrum",
-  "ItemNumber": "1134927",
+  "Reason": "target front-end models",
+  "Quantity": 24605.034,
+  "DeliveredQuantity": 12799.256,
+  "Rank": 748,
+  "Name": "Kessler-Volkman",
+  "Description": "Inverse regional model",
+  "Code": "sed",
+  "QuantityUnit": "fuga",
+  "PriceUnit": "eaque",
+  "ItemNumber": "192439",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "veniam",
-  "ProductTypeKey": "repellendus",
-  "Supplier": "iusto",
-  "SupplierCode": "rerum",
-  "Thumbnail": "id",
-  "VATInfo": "expedita",
-  "VAT": 3306.37,
-  "UnitCost": 8070.05,
-  "UnitMinimumPrice": 4722.938,
-  "UnitListPrice": 14184.484,
+  "ProductFamilyKey": "magni",
+  "ProductTypeKey": "deserunt",
+  "Supplier": "nam",
+  "SupplierCode": "consequatur",
+  "Thumbnail": "voluptatem",
+  "VATInfo": "mollitia",
+  "VAT": 15723.278,
+  "UnitCost": 24642.642,
+  "UnitMinimumPrice": 14635.779999999999,
+  "UnitListPrice": 1463.578,
   "ExtraInfo": [
     {
-      "Name": "O'Hara LLC",
-      "Value": "amet",
+      "Name": "Schaden Inc and Sons",
+      "Value": "quos",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 718
+          "FieldLength": 523
         }
       }
     },
     {
-      "Name": "O'Hara LLC",
-      "Value": "amet",
+      "Name": "Schaden Inc and Sons",
+      "Value": "quos",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 718
+          "FieldLength": 523
         }
       }
     }
   ],
-  "RawExtraInfo": "nobis",
-  "IsSubscription": true,
-  "SubscriptionUnit": "quo",
-  "SubscriptionQuantity": 15644.928,
-  "SubscriptionStart": "2020-03-30T13:14:00.9390342+02:00",
-  "ERPDiscountPercent": 24708.456,
-  "ERPDiscountAmount": 5001.864,
-  "DiscountPercent": 908.86,
-  "DiscountAmount": 8026.174,
+  "RawExtraInfo": "saepe",
+  "IsSubscription": false,
+  "SubscriptionUnit": "dolorum",
+  "SubscriptionQuantity": 30145.946,
+  "SubscriptionStart": "2021-12-27T16:32:39.680262+01:00",
+  "ERPDiscountPercent": 15428.681999999999,
+  "ERPDiscountAmount": 1209.724,
+  "DiscountPercent": 19430.8,
+  "DiscountAmount": 5913.858,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 15735.814,
-  "EarningAmount": 19709.726,
-  "SubTotal": 28798.325999999997,
-  "TotalPrice": 3014.908,
-  "Rights": "qui",
-  "Rule": "impedit",
-  "ExtraField1": "dolorem",
-  "ExtraField2": "quia",
-  "ExtraField3": "asperiores",
-  "ExtraField4": "similique",
-  "ExtraField5": "deserunt",
+  "EarningPercent": 26573.185999999998,
+  "EarningAmount": 27030.75,
+  "SubTotal": 20828.564,
+  "TotalPrice": 23523.804,
+  "Rights": "et",
+  "Rule": "reiciendis",
+  "ExtraField1": "deleniti",
+  "ExtraField2": "qui",
+  "ExtraField3": "officia",
+  "ExtraField4": "commodi",
+  "ExtraField5": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 567
+      "FieldType": "System.String",
+      "FieldLength": 705
     }
   }
 }

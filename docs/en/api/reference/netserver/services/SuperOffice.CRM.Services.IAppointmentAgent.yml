@@ -30,9 +30,11 @@ items:
   - SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultReOpenAppointment(System.Int32)
   - SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultSuggestedAppointmentEntity
   - SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultTaskListItem
+  - SuperOffice.CRM.Services.IAppointmentAgent.CreateVideoMeetingReservation
   - SuperOffice.CRM.Services.IAppointmentAgent.DeclineInvitationFromEmailItem(System.Int32,System.String)
   - SuperOffice.CRM.Services.IAppointmentAgent.Delete(System.Int32,SuperOffice.Data.RecurrenceUpdateMode,System.Boolean,SuperOffice.CRM.Services.EMailConnectionInfo,SuperOffice.CRM.Services.EMailConnectionInfo)
   - SuperOffice.CRM.Services.IAppointmentAgent.DeleteAppointmentEntity(System.Int32)
+  - SuperOffice.CRM.Services.IAppointmentAgent.DeleteVideoMeetingReservation(System.String)
   - SuperOffice.CRM.Services.IAppointmentAgent.GenerateLead(System.Int32,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)
   - SuperOffice.CRM.Services.IAppointmentAgent.GetActivityInformationListByDatesAndAssociate(System.DateTime,System.DateTime,System.Int32)
   - SuperOffice.CRM.Services.IAppointmentAgent.GetAlarms(System.Boolean,System.Boolean,System.Int32)
@@ -90,6 +92,7 @@ items:
   - SuperOffice.CRM.Services.IAppointmentAgent.GetTaskListItems(System.Boolean)
   - SuperOffice.CRM.Services.IAppointmentAgent.GetUIDFromAppointmentId(System.Int32,System.Boolean)
   - SuperOffice.CRM.Services.IAppointmentAgent.Move(System.Int32,System.DateTime,SuperOffice.Data.RecurrenceUpdateMode)
+  - SuperOffice.CRM.Services.IAppointmentAgent.MoveExtended(SuperOffice.CRM.Services.AppointmentMoveData)
   - SuperOffice.CRM.Services.IAppointmentAgent.MoveWithEmail(System.Int32,System.DateTime,SuperOffice.Data.RecurrenceUpdateMode,System.Boolean,SuperOffice.CRM.Services.EMailConnectionInfo,SuperOffice.CRM.Services.EMailConnectionInfo)
   - SuperOffice.CRM.Services.IAppointmentAgent.Reject(System.Int32,System.String,SuperOffice.Data.RecurrenceUpdateMode)
   - SuperOffice.CRM.Services.IAppointmentAgent.RejectWithEmailConfirmation(System.Int32,System.String,SuperOffice.Data.RecurrenceUpdateMode)
@@ -1191,6 +1194,35 @@ items:
       description: Updated AppointmentEntity
     content.vb: Function MoveWithEmail(appointmentId As Integer, newStartTime As DateTime, updateMode As RecurrenceUpdateMode, sendEmailToParticipants As Boolean, smtpEMailConnectionInfo As EMailConnectionInfo, imapEMailConnectionInfo As EMailConnectionInfo) As AppointmentEntity
   overload: SuperOffice.CRM.Services.IAppointmentAgent.MoveWithEmail*
+- uid: SuperOffice.CRM.Services.IAppointmentAgent.MoveExtended(SuperOffice.CRM.Services.AppointmentMoveData)
+  commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.MoveExtended(SuperOffice.CRM.Services.AppointmentMoveData)
+  id: MoveExtended(SuperOffice.CRM.Services.AppointmentMoveData)
+  parent: SuperOffice.CRM.Services.IAppointmentAgent
+  langs:
+  - csharp
+  - vb
+  name: MoveExtended(AppointmentMoveData)
+  nameWithType: IAppointmentAgent.MoveExtended(AppointmentMoveData)
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent.MoveExtended(SuperOffice.CRM.Services.AppointmentMoveData)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMoving a booking to another start time and with new info and possibly notifications.\n"
+  syntax:
+    content: AppointmentEntity MoveExtended(AppointmentMoveData appointmentMoveData)
+    parameters:
+    - id: appointmentMoveData
+      type: SuperOffice.CRM.Services.AppointmentMoveData
+      description: Move parameter data.
+    return:
+      type: SuperOffice.CRM.Services.AppointmentEntity
+      description: Updated AppointmentEntity
+    content.vb: Function MoveExtended(appointmentMoveData As AppointmentMoveData) As AppointmentEntity
+  overload: SuperOffice.CRM.Services.IAppointmentAgent.MoveExtended*
 - uid: SuperOffice.CRM.Services.IAppointmentAgent.AcceptRejected(System.Int32,SuperOffice.Data.RecurrenceUpdateMode)
   commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.AcceptRejected(System.Int32,SuperOffice.Data.RecurrenceUpdateMode)
   id: AcceptRejected(System.Int32,SuperOffice.Data.RecurrenceUpdateMode)
@@ -3871,6 +3903,57 @@ items:
       description: An array of tasklist items
     content.vb: Function GetTaskListItems(includeDeleted As Boolean) As TaskListItem()
   overload: SuperOffice.CRM.Services.IAppointmentAgent.GetTaskListItems*
+- uid: SuperOffice.CRM.Services.IAppointmentAgent.CreateVideoMeetingReservation
+  commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.CreateVideoMeetingReservation
+  id: CreateVideoMeetingReservation
+  parent: SuperOffice.CRM.Services.IAppointmentAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateVideoMeetingReservation()
+  nameWithType: IAppointmentAgent.CreateVideoMeetingReservation()
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent.CreateVideoMeetingReservation()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCreate a VideoMeetingReservation. System users are not allowed to create video meeting reservations\n"
+  syntax:
+    content: VideoMeetingReservation CreateVideoMeetingReservation()
+    return:
+      type: SuperOffice.CRM.Services.VideoMeetingReservation
+      description: The created VideoMeetingReservation.
+    content.vb: Function CreateVideoMeetingReservation As VideoMeetingReservation
+  overload: SuperOffice.CRM.Services.IAppointmentAgent.CreateVideoMeetingReservation*
+- uid: SuperOffice.CRM.Services.IAppointmentAgent.DeleteVideoMeetingReservation(System.String)
+  commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.DeleteVideoMeetingReservation(System.String)
+  id: DeleteVideoMeetingReservation(System.String)
+  parent: SuperOffice.CRM.Services.IAppointmentAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteVideoMeetingReservation(String)
+  nameWithType: IAppointmentAgent.DeleteVideoMeetingReservation(String)
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent.DeleteVideoMeetingReservation(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDelete a VideoMeetingReservation.\n"
+  syntax:
+    content: void DeleteVideoMeetingReservation(string videoMeetingId)
+    parameters:
+    - id: videoMeetingId
+      type: System.String
+      description: The VideoMeetingReservation.VideoMeetingId to remove. System users are not allowed to delete video meeting reservations
+    content.vb: Sub DeleteVideoMeetingReservation(videoMeetingId As String)
+  overload: SuperOffice.CRM.Services.IAppointmentAgent.DeleteVideoMeetingReservation*
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -4283,6 +4366,19 @@ references:
   name: MoveWithEmail
   nameWithType: IAppointmentAgent.MoveWithEmail
   fullName: SuperOffice.CRM.Services.IAppointmentAgent.MoveWithEmail
+- uid: SuperOffice.CRM.Services.IAppointmentAgent.MoveExtended*
+  commentId: Overload:SuperOffice.CRM.Services.IAppointmentAgent.MoveExtended
+  isExternal: true
+  name: MoveExtended
+  nameWithType: IAppointmentAgent.MoveExtended
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent.MoveExtended
+- uid: SuperOffice.CRM.Services.AppointmentMoveData
+  commentId: T:SuperOffice.CRM.Services.AppointmentMoveData
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: AppointmentMoveData
+  nameWithType: AppointmentMoveData
+  fullName: SuperOffice.CRM.Services.AppointmentMoveData
 - uid: SuperOffice.CRM.Services.IAppointmentAgent.AcceptRejected*
   commentId: Overload:SuperOffice.CRM.Services.IAppointmentAgent.AcceptRejected
   isExternal: true
@@ -5017,3 +5113,22 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+- uid: SuperOffice.CRM.Services.IAppointmentAgent.CreateVideoMeetingReservation*
+  commentId: Overload:SuperOffice.CRM.Services.IAppointmentAgent.CreateVideoMeetingReservation
+  isExternal: true
+  name: CreateVideoMeetingReservation
+  nameWithType: IAppointmentAgent.CreateVideoMeetingReservation
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent.CreateVideoMeetingReservation
+- uid: SuperOffice.CRM.Services.VideoMeetingReservation
+  commentId: T:SuperOffice.CRM.Services.VideoMeetingReservation
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: VideoMeetingReservation
+  nameWithType: VideoMeetingReservation
+  fullName: SuperOffice.CRM.Services.VideoMeetingReservation
+- uid: SuperOffice.CRM.Services.IAppointmentAgent.DeleteVideoMeetingReservation*
+  commentId: Overload:SuperOffice.CRM.Services.IAppointmentAgent.DeleteVideoMeetingReservation
+  isExternal: true
+  name: DeleteVideoMeetingReservation
+  nameWithType: IAppointmentAgent.DeleteVideoMeetingReservation
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent.DeleteVideoMeetingReservation

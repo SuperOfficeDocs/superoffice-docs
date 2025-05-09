@@ -60,8 +60,10 @@ items:
   - SuperOffice.WebApi.Data.Appointment_CreateDefaultRecurrenceByDateRequest
   - SuperOffice.WebApi.Data.Appointment_CreateDefaultRecurrenceRequest
   - SuperOffice.WebApi.Data.Appointment_CreateDefaultReOpenAppointmentRequest
+  - SuperOffice.WebApi.Data.Appointment_CreateVideoMeetingReservationRequest
   - SuperOffice.WebApi.Data.Appointment_DeclineInvitationFromEmailItemRequest
   - SuperOffice.WebApi.Data.Appointment_DeleteRequest
+  - SuperOffice.WebApi.Data.Appointment_DeleteVideoMeetingReservationRequest
   - SuperOffice.WebApi.Data.Appointment_GenerateLeadRequest
   - SuperOffice.WebApi.Data.Appointment_GetActivityInformationListByDatesAndAssociateRequest
   - SuperOffice.WebApi.Data.Appointment_GetAlarmsRequest
@@ -112,6 +114,7 @@ items:
   - SuperOffice.WebApi.Data.Appointment_GetRedLetterInformationListByDatesAndAssociateRequest
   - SuperOffice.WebApi.Data.Appointment_GetTaskListItemsRequest
   - SuperOffice.WebApi.Data.Appointment_GetUIDFromAppointmentIdRequest
+  - SuperOffice.WebApi.Data.Appointment_MoveExtendedRequest
   - SuperOffice.WebApi.Data.Appointment_MoveRequest
   - SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest
   - SuperOffice.WebApi.Data.Appointment_RejectRequest
@@ -138,6 +141,7 @@ items:
   - SuperOffice.WebApi.Data.AppointmentEntity
   - SuperOffice.WebApi.Data.AppointmentExternalOwner
   - SuperOffice.WebApi.Data.AppointmentInfo
+  - SuperOffice.WebApi.Data.AppointmentMoveData
   - SuperOffice.WebApi.Data.AppointmentPrivate
   - SuperOffice.WebApi.Data.AppointmentSaveData
   - SuperOffice.WebApi.Data.AppointmentStatus
@@ -479,6 +483,7 @@ items:
   - SuperOffice.WebApi.Data.CustomerService_CreateTicketFromMailDataRequest
   - SuperOffice.WebApi.Data.CustomerService_DeleteChatSessionsRequest
   - SuperOffice.WebApi.Data.CustomerService_EventHandlerExistsRequest
+  - SuperOffice.WebApi.Data.CustomerService_EventHandlersExistsRequest
   - SuperOffice.WebApi.Data.CustomerService_ExecuteEventHandlersRequest
   - SuperOffice.WebApi.Data.CustomerService_FindTicketsByTitleOrIdRequest
   - SuperOffice.WebApi.Data.CustomerService_GetAllCustomerCenterConfigsRequest
@@ -585,6 +590,7 @@ items:
   - SuperOffice.WebApi.Data.Diagnostics_GetSystemMessagesRequest
   - SuperOffice.WebApi.Data.Diagnostics_GetWebAppUsagesForPeriodRequest
   - SuperOffice.WebApi.Data.Diagnostics_LogViewStateRequest
+  - SuperOffice.WebApi.Data.Diagnostics_PerformTasksAfterCustomObjectTableDeletedRequest
   - SuperOffice.WebApi.Data.Diagnostics_PerformTasksAfterUpgradeRequest
   - SuperOffice.WebApi.Data.Diagnostics_RemoveExpiredSystemMessagesRequest
   - SuperOffice.WebApi.Data.Diagnostics_RemoveSystemMessageForAssociateRequest
@@ -1673,7 +1679,9 @@ items:
   - SuperOffice.WebApi.Data.Sale_OfferAutoNextStageOnApppointmentCompletedRequest
   - SuperOffice.WebApi.Data.Sale_SaleHasQuoteRequest
   - SuperOffice.WebApi.Data.Sale_SetAsLostRequest
+  - SuperOffice.WebApi.Data.Sale_SetAsLostWithReasonRequest
   - SuperOffice.WebApi.Data.Sale_SetAsSoldRequest
+  - SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest
   - SuperOffice.WebApi.Data.Sale_UpdateSaleStakeholdersRequest
   - SuperOffice.WebApi.Data.Sale_ValidateSaleEntityRequest
   - SuperOffice.WebApi.Data.SaleEntity
@@ -1710,6 +1718,7 @@ items:
   - SuperOffice.WebApi.Data.Selection_DeleteContactsRequest
   - SuperOffice.WebApi.Data.Selection_DeleteEntitiesRequest
   - SuperOffice.WebApi.Data.Selection_DeletePersonsRequest
+  - SuperOffice.WebApi.Data.Selection_DeleteSelectionEntityRequest
   - SuperOffice.WebApi.Data.Selection_EditContactSelectionMemberDetailsRequest
   - SuperOffice.WebApi.Data.Selection_ExportSelectionMembersRequest
   - SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest
@@ -2136,6 +2145,7 @@ items:
   - SuperOffice.WebApi.Data.UserValidationResult
   - SuperOffice.WebApi.Data.ValueOverride
   - SuperOffice.WebApi.Data.VersionInfo
+  - SuperOffice.WebApi.Data.VideoMeetingReservation
   - SuperOffice.WebApi.Data.VideoMeetingStatus
   - SuperOffice.WebApi.Data.ViewState_DeleteHistoryRequest
   - SuperOffice.WebApi.Data.ViewState_GetCurrentRequest
@@ -4286,12 +4296,24 @@ references:
   name: Sale_SetAsSoldRequest
   nameWithType: Sale_SetAsSoldRequest
   fullName: SuperOffice.WebApi.Data.Sale_SetAsSoldRequest
+- uid: SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest
+  commentId: T:SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest
+  isExternal: true
+  name: Sale_SetAsSoldWithReasonRequest
+  nameWithType: Sale_SetAsSoldWithReasonRequest
+  fullName: SuperOffice.WebApi.Data.Sale_SetAsSoldWithReasonRequest
 - uid: SuperOffice.WebApi.Data.Sale_SetAsLostRequest
   commentId: T:SuperOffice.WebApi.Data.Sale_SetAsLostRequest
   isExternal: true
   name: Sale_SetAsLostRequest
   nameWithType: Sale_SetAsLostRequest
   fullName: SuperOffice.WebApi.Data.Sale_SetAsLostRequest
+- uid: SuperOffice.WebApi.Data.Sale_SetAsLostWithReasonRequest
+  commentId: T:SuperOffice.WebApi.Data.Sale_SetAsLostWithReasonRequest
+  isExternal: true
+  name: Sale_SetAsLostWithReasonRequest
+  nameWithType: Sale_SetAsLostWithReasonRequest
+  fullName: SuperOffice.WebApi.Data.Sale_SetAsLostWithReasonRequest
 - uid: SuperOffice.WebApi.Data.Sale_GetSalesFromContactRequest
   commentId: T:SuperOffice.WebApi.Data.Sale_GetSalesFromContactRequest
   isExternal: true
@@ -4860,6 +4882,12 @@ references:
   name: Appointment_MoveWithEmailRequest
   nameWithType: Appointment_MoveWithEmailRequest
   fullName: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest
+- uid: SuperOffice.WebApi.Data.Appointment_MoveExtendedRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_MoveExtendedRequest
+  isExternal: true
+  name: Appointment_MoveExtendedRequest
+  nameWithType: Appointment_MoveExtendedRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_MoveExtendedRequest
 - uid: SuperOffice.WebApi.Data.Appointment_AcceptRejectedRequest
   commentId: T:SuperOffice.WebApi.Data.Appointment_AcceptRejectedRequest
   isExternal: true
@@ -5238,6 +5266,13 @@ references:
   name: Appointment_GetAppointmentRecordsRequest
   nameWithType: Appointment_GetAppointmentRecordsRequest
   fullName: SuperOffice.WebApi.Data.Appointment_GetAppointmentRecordsRequest
+- uid: SuperOffice.WebApi.Data.AppointmentMoveData
+  commentId: T:SuperOffice.WebApi.Data.AppointmentMoveData
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: AppointmentMoveData
+  nameWithType: AppointmentMoveData
+  fullName: SuperOffice.WebApi.Data.AppointmentMoveData
 - uid: SuperOffice.WebApi.Data.AppointmentSaveData
   commentId: T:SuperOffice.WebApi.Data.AppointmentSaveData
   isExternal: true
@@ -5381,6 +5416,24 @@ references:
   name: Appointment_GetTaskListItemsRequest
   nameWithType: Appointment_GetTaskListItemsRequest
   fullName: SuperOffice.WebApi.Data.Appointment_GetTaskListItemsRequest
+- uid: SuperOffice.WebApi.Data.VideoMeetingReservation
+  commentId: T:SuperOffice.WebApi.Data.VideoMeetingReservation
+  isExternal: true
+  name: VideoMeetingReservation
+  nameWithType: VideoMeetingReservation
+  fullName: SuperOffice.WebApi.Data.VideoMeetingReservation
+- uid: SuperOffice.WebApi.Data.Appointment_CreateVideoMeetingReservationRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_CreateVideoMeetingReservationRequest
+  isExternal: true
+  name: Appointment_CreateVideoMeetingReservationRequest
+  nameWithType: Appointment_CreateVideoMeetingReservationRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateVideoMeetingReservationRequest
+- uid: SuperOffice.WebApi.Data.Appointment_DeleteVideoMeetingReservationRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_DeleteVideoMeetingReservationRequest
+  isExternal: true
+  name: Appointment_DeleteVideoMeetingReservationRequest
+  nameWithType: Appointment_DeleteVideoMeetingReservationRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_DeleteVideoMeetingReservationRequest
 - uid: SuperOffice.WebApi.Data.ForeignAppEntity
   commentId: T:SuperOffice.WebApi.Data.ForeignAppEntity
   parent: SuperOffice.WebApi.Data
@@ -8315,6 +8368,12 @@ references:
   name: Diagnostics_PerformTasksAfterUpgradeRequest
   nameWithType: Diagnostics_PerformTasksAfterUpgradeRequest
   fullName: SuperOffice.WebApi.Data.Diagnostics_PerformTasksAfterUpgradeRequest
+- uid: SuperOffice.WebApi.Data.Diagnostics_PerformTasksAfterCustomObjectTableDeletedRequest
+  commentId: T:SuperOffice.WebApi.Data.Diagnostics_PerformTasksAfterCustomObjectTableDeletedRequest
+  isExternal: true
+  name: Diagnostics_PerformTasksAfterCustomObjectTableDeletedRequest
+  nameWithType: Diagnostics_PerformTasksAfterCustomObjectTableDeletedRequest
+  fullName: SuperOffice.WebApi.Data.Diagnostics_PerformTasksAfterCustomObjectTableDeletedRequest
 - uid: SuperOffice.WebApi.Data.WebAppUsage
   commentId: T:SuperOffice.WebApi.Data.WebAppUsage
   isExternal: true
@@ -8660,6 +8719,12 @@ references:
   name: Selection_SetDynamicSelectionCriteriaGroupsRequest
   nameWithType: Selection_SetDynamicSelectionCriteriaGroupsRequest
   fullName: SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteriaGroupsRequest
+- uid: SuperOffice.WebApi.Data.Selection_DeleteSelectionEntityRequest
+  commentId: T:SuperOffice.WebApi.Data.Selection_DeleteSelectionEntityRequest
+  isExternal: true
+  name: Selection_DeleteSelectionEntityRequest
+  nameWithType: Selection_DeleteSelectionEntityRequest
+  fullName: SuperOffice.WebApi.Data.Selection_DeleteSelectionEntityRequest
 - uid: SuperOffice.WebApi.Data.SelectionForFind
   commentId: T:SuperOffice.WebApi.Data.SelectionForFind
   isExternal: true
@@ -11925,6 +11990,12 @@ references:
   name: CustomerService_EventHandlerExistsRequest
   nameWithType: CustomerService_EventHandlerExistsRequest
   fullName: SuperOffice.WebApi.Data.CustomerService_EventHandlerExistsRequest
+- uid: SuperOffice.WebApi.Data.CustomerService_EventHandlersExistsRequest
+  commentId: T:SuperOffice.WebApi.Data.CustomerService_EventHandlersExistsRequest
+  isExternal: true
+  name: CustomerService_EventHandlersExistsRequest
+  nameWithType: CustomerService_EventHandlersExistsRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_EventHandlersExistsRequest
 - uid: SuperOffice.WebApi.Data.CsSessionKey
   commentId: T:SuperOffice.WebApi.Data.CsSessionKey
   isExternal: true

@@ -108,23 +108,23 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 533,
-  "Name": "Simonis Inc and Sons",
-  "CurrencyId": 111,
-  "EnglishName": "Schroeder Inc and Sons",
+  "CountryId": 821,
+  "Name": "Marks-Kling",
+  "CurrencyId": 417,
+  "EnglishName": "Daugherty, Hamill and Greenholt",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Vision-oriented static system engine",
-  "OrgNrText": "1558073",
-  "InterAreaPrefix": "asperiores",
-  "DialInPrefix": "nostrum",
-  "ZipPrefix": "corrupti",
-  "DomainName": "Rutherford-Grimes",
-  "AddressLayoutId": 522,
-  "DomesticAddressLayoutId": 150,
-  "ForeignAddressLayoutId": 884,
-  "Rank": 804,
-  "Tooltip": "magni",
+  "ImageDescription": "Public-key transitional functionalities",
+  "OrgNrText": "1915500",
+  "InterAreaPrefix": "est",
+  "DialInPrefix": "pariatur",
+  "ZipPrefix": "porro",
+  "DomainName": "Heller Inc and Sons",
+  "AddressLayoutId": 124,
+  "DomesticAddressLayoutId": 424,
+  "ForeignAddressLayoutId": 532,
+  "Rank": 418,
+  "Tooltip": "possimus",
   "Deleted": false
 }
 ```
@@ -136,30 +136,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 603,
-  "Name": "Nader, Hamill and Weimann",
-  "CurrencyId": 525,
-  "EnglishName": "Lemke-Cartwright",
+  "CountryId": 487,
+  "Name": "Heathcote, Yost and Kovacek",
+  "CurrencyId": 353,
+  "EnglishName": "Trantow-O'Reilly",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Extended empowering extranet",
-  "OrgNrText": "101550",
-  "InterAreaPrefix": "placeat",
-  "DialInPrefix": "suscipit",
-  "ZipPrefix": "at",
-  "DomainName": "Legros-Monahan",
-  "AddressLayoutId": 360,
-  "DomesticAddressLayoutId": 67,
-  "ForeignAddressLayoutId": 43,
-  "Rank": 509,
-  "Tooltip": "quia",
+  "ImageDescription": "Centralized fault-tolerant open system",
+  "OrgNrText": "666056",
+  "InterAreaPrefix": "enim",
+  "DialInPrefix": "dicta",
+  "ZipPrefix": "neque",
+  "DomainName": "Spencer LLC",
+  "AddressLayoutId": 767,
+  "DomesticAddressLayoutId": 828,
+  "ForeignAddressLayoutId": 540,
+  "Rank": 873,
+  "Tooltip": "non",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 319
+      "FieldType": "System.Int32",
+      "FieldLength": 718
     }
   }
 }

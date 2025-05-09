@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 997,
-  "ListItemId": 379,
+  "UdListDefinitionId": 532,
+  "ListItemId": 542,
   "ShowDeleted": true
 }
 ```
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 62,
-    "Name": "Wilkinson, Hagenes and Bayer",
-    "ToolTip": "Et dignissimos fugit esse eligendi aut.",
+    "Id": 330,
+    "Name": "Hessel, Herman and Jewess",
+    "ToolTip": "Inventore velit ex.",
     "Deleted": false,
-    "Rank": 339,
-    "Type": "explicabo",
-    "ColorBlock": 651,
-    "IconHint": "ullam",
-    "Selected": false,
-    "LastChanged": "2016-03-19T13:14:00.5949987+01:00",
+    "Rank": 159,
+    "Type": "pariatur",
+    "ColorBlock": 798,
+    "IconHint": "veniam",
+    "Selected": true,
+    "LastChanged": "2004-07-11T16:32:39.2582391+02:00",
     "ChildItems": [
       {
-        "Id": 933,
-        "Name": "Parisian LLC",
-        "ToolTip": "Optio consequatur necessitatibus nihil aliquid cumque reprehenderit occaecati.",
+        "Id": 989,
+        "Name": "Kulas, Will and Wehner",
+        "ToolTip": "Amet velit aut.",
         "Deleted": false,
-        "Rank": 452,
-        "Type": "dolorem",
-        "ColorBlock": 717,
-        "IconHint": "aut",
+        "Rank": 915,
+        "Type": "nesciunt",
+        "ColorBlock": 423,
+        "IconHint": "magni",
         "Selected": false,
-        "LastChanged": "2022-11-20T13:14:00.5949987+01:00",
+        "LastChanged": "2002-09-20T16:32:39.2582391+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
-        "StyleHint": "beatae",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "dolores",
         "Hidden": true,
-        "FullName": "Maybelle Turner",
+        "FullName": "Oceane Hansen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 998
+            "FieldType": "System.Int32",
+            "FieldLength": 966
           }
         }
       }
     ],
-    "ExtraInfo": "laborum",
-    "StyleHint": "alias",
-    "Hidden": true,
-    "FullName": "Alana King",
+    "ExtraInfo": "quam",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Joe Bogan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 660
+        "FieldType": "System.Int32",
+        "FieldLength": 270
       }
     }
   }

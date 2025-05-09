@@ -86,7 +86,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "McClure LLC",
-  "SaleDate": "1999-05-30T13:14:09.1497673+02:00",
-  "SaleId": 489,
-  "Probability": 330,
-  "Title": "nostrum",
-  "Amount": 16791.971999999998,
-  "Currency": "voluptatibus",
-  "ProjectName": "Mitchell LLC",
-  "AssociateFullName": "Maribel Gusikowski",
-  "Description": "Operative responsive projection",
+  "ContactName": "Gutmann-Blanda",
+  "SaleDate": "2013-01-08T16:32:48.0557147+01:00",
+  "SaleId": 759,
+  "Probability": 893,
+  "Title": "autem",
+  "Amount": 7264.612,
+  "Currency": "placeat",
+  "ProjectName": "Littel-Greenholt",
+  "AssociateFullName": "Coleman Kozey DVM",
+  "Description": "Devolved zero tolerance infrastructure",
   "Status": "Lost",
-  "WeightedAmount": 23514.402,
-  "ProjectId": 688,
-  "EarningPercent": 3444.266,
-  "Earning": 4074.2,
-  "ContactId": 885,
-  "AssociateId": 890,
-  "PersonId": 708,
-  "SaleTypeId": 800,
-  "SaleTypeName": "Hermann-Quitzon",
-  "PersonFullName": "Prof. Rollin Neha Tillman",
+  "WeightedAmount": 188.04,
+  "ProjectId": 142,
+  "EarningPercent": 7402.508,
+  "Earning": 27613.674,
+  "ContactId": 449,
+  "AssociateId": 948,
+  "PersonId": 272,
+  "SaleTypeId": 223,
+  "SaleTypeName": "King Group",
+  "PersonFullName": "Austin Lockman",
   "Completed": "Completed",
-  "ActiveErpLinks": 188,
-  "NextDueDate": "2004-04-07T13:14:09.1497673+02:00",
-  "Number": "1235213",
+  "ActiveErpLinks": 443,
+  "NextDueDate": "1998-02-18T16:32:48.0557147+01:00",
+  "Number": "909849",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 17
+      "FieldType": "System.Int32",
+      "FieldLength": 231
     }
   }
 }

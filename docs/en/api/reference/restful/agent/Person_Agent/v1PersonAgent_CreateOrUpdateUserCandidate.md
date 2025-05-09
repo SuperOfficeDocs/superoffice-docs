@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Person/CreateOrUpdateUserCandidate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 218,
-  "Username": "sint",
+  "PersonId": 605,
+  "Username": "quo",
   "AccessAllRequests": false
 }
 ```
@@ -97,16 +97,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserCandidateId": 748,
-  "PersonId": 405,
-  "SecretKey": "porro",
-  "SecretValue": "itaque",
+  "UserCandidateId": 65,
+  "PersonId": 810,
+  "SecretKey": "aut",
+  "SecretValue": "iste",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 729
+      "FieldLength": 1001
     }
   }
 }

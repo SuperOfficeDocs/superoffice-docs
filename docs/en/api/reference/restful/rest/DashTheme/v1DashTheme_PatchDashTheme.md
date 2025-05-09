@@ -113,18 +113,18 @@ DashTheme  updated.
 PATCH /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "velit",
+    "path": "deserunt",
     "value": {}
   },
   {
     "op": "add",
-    "path": "velit",
+    "path": "deserunt",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 DashTheme  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 591,
-  "Name": "Rempel Inc and Sons",
-  "Config": "asperiores",
-  "Rank": 710,
-  "Client": "quas",
-  "Style": "eum",
+  "DashboardThemeId": 809,
+  "Name": "Runolfsson Group",
+  "Config": "impedit",
+  "Rank": 898,
+  "Client": "doloremque",
+  "Style": "amet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 127
+      "FieldType": "System.String",
+      "FieldLength": 878
     }
   },
   "_Links": {

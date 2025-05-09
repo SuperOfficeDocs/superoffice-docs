@@ -77,39 +77,39 @@ OK
 POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 197,
-  "Name": "Terry Group",
+  "DiaryViewId": 882,
+  "Name": "Sauer-Heidenreich",
   "Tooltip": "et",
-  "VisibleColumns": 525,
-  "Rank": 48,
-  "AssocId": 798,
+  "VisibleColumns": 393,
+  "Rank": 763,
+  "AssocId": 308,
   "AssociateList": [
     {
-      "Id": 447,
-      "Name": "Veum-Hudson",
-      "ToolTip": "Voluptatum ut delectus rem pariatur est.",
+      "Id": 334,
+      "Name": "Pagac-Murphy",
+      "ToolTip": "Consequatur totam eos.",
       "Deleted": true,
-      "Rank": 586,
-      "Type": "ex",
-      "ColorBlock": 374,
-      "IconHint": "ratione",
+      "Rank": 903,
+      "Type": "rem",
+      "ColorBlock": 738,
+      "IconHint": "debitis",
       "Selected": false,
-      "LastChanged": "2024-10-20T13:13:59.6881883+02:00",
+      "LastChanged": "2008-09-07T16:32:38.3678168+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "est",
-      "StyleHint": "laborum",
-      "Hidden": false,
-      "FullName": "Mr. Allie Gusikowski II"
+      "ExtraInfo": "qui",
+      "StyleHint": "nostrum",
+      "Hidden": true,
+      "FullName": "Dahlia McLaughlin III"
     }
   ],
-  "TzLocationId": 332
+  "TzLocationId": 457
 }
 ```
 
@@ -120,49 +120,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 724,
-  "Name": "Cummings, Rohan and Kertzmann",
-  "Tooltip": "dolorem",
-  "VisibleColumns": 247,
-  "Rank": 665,
-  "AssocId": 887,
+  "DiaryViewId": 557,
+  "Name": "Lind-Little",
+  "Tooltip": "quia",
+  "VisibleColumns": 421,
+  "Rank": 515,
+  "AssocId": 156,
   "AssociateList": [
     {
-      "Id": 85,
-      "Name": "Adams, Connelly and McCullough",
-      "ToolTip": "Itaque voluptas temporibus.",
+      "Id": 515,
+      "Name": "Larson, Schuster and Schinner",
+      "ToolTip": "Sit dolores perspiciatis.",
       "Deleted": false,
-      "Rank": 956,
-      "Type": "quam",
-      "ColorBlock": 983,
-      "IconHint": "perferendis",
+      "Rank": 81,
+      "Type": "qui",
+      "ColorBlock": 462,
+      "IconHint": "veniam",
       "Selected": false,
-      "LastChanged": "2007-06-04T13:13:59.6881883+02:00",
+      "LastChanged": "2019-01-25T16:32:38.3678168+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ab",
-      "StyleHint": "eos",
-      "Hidden": true,
-      "FullName": "Miss Judah Cecelia Cassin Jr.",
+      "ExtraInfo": "enim",
+      "StyleHint": "fuga",
+      "Hidden": false,
+      "FullName": "Prof. Beverly Cornelius Fahey",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 496
+          "FieldLength": 757
         }
       }
     }
   ],
-  "TzLocationId": 120,
+  "TzLocationId": 579,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 145
+      "FieldType": "System.String",
+      "FieldLength": 503
     }
   }
 }

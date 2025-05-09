@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Lind-Wiza",
-  "EmailAddress": "deshawn@friesenschuppe.us",
-  "NumberOfContacts": 918,
-  "NumberOfPersons": 172
+  "Name": "Bogisich Group",
+  "EmailAddress": "franco_kovacek@kessler.name",
+  "NumberOfContacts": 844,
+  "NumberOfPersons": 571
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 952,
-    "FullName": "Ms. Lourdes Schumm Sr.",
-    "EmailAddress": "freddie_yundt@treutel.ca",
-    "ContactId": 629,
-    "ContactName": "Kub, Parker and Yost",
+    "PersonId": 988,
+    "FullName": "Rowan Morissette",
+    "EmailAddress": "rahul.howe@kuvalis.name",
+    "ContactId": 178,
+    "ContactName": "Herzog-Hirthe",
     "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Spencer, Mohr and McLaughlin",
+    "SortName": "Cassin Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 258
+        "FieldLength": 554
       }
     }
   }

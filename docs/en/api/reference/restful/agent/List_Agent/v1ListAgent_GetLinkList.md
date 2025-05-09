@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,17 +85,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Roberts, Kuhlman and Sawayn",
-    "Id": 464,
-    "Description": "Open-architected composite methodology",
+    "EntityName": "Kuhic-Brakus",
+    "Id": 923,
+    "Description": "Phased multimedia open architecture",
     "ExtraInfo": "consequatur",
-    "LinkId": 854,
+    "LinkId": 414,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 481
+        "FieldLength": 167
       }
     }
   }

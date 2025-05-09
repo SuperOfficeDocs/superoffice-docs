@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 945,
-  "FieldName": "Smith-Streich",
-  "Label": "rerum",
-  "Tooltip": "nesciunt",
+  "QuoteLineConfigurationId": 97,
+  "FieldName": "Goodwin-Witting",
+  "Label": "illum",
+  "Tooltip": "fugiat",
   "Editable": false,
   "InUse": true,
-  "Mandatory": false,
-  "Rank": 164,
-  "RestrictEdit": false,
+  "Mandatory": true,
+  "Rank": 142,
+  "RestrictEdit": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 552
+      "FieldType": "System.Int32",
+      "FieldLength": 728
     }
   }
 }

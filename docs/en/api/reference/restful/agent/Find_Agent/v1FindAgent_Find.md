@@ -81,15 +81,15 @@ OK
 POST /api/v1/Agents/Find/Find
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "sed",
-  "ProviderName": "McClure-McLaughlin",
-  "StorageKey": "accusamus",
-  "PageSize": 674,
-  "PageNumber": 651
+  "StorageType": "delectus",
+  "ProviderName": "Schmitt Group",
+  "StorageKey": "harum",
+  "PageSize": 42,
+  "PageNumber": 341
 }
 ```
 
@@ -102,51 +102,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Graham Group",
-      "DisplayTooltip": "aut",
-      "DisplayType": "perferendis",
+      "DisplayName": "Smith-Hagenes",
+      "DisplayTooltip": "pariatur",
+      "DisplayType": "quis",
       "CanOrderBy": false,
-      "Name": "Hoeger, Kuhlman and Funk",
-      "CanRestrictBy": false,
-      "RestrictionType": "culpa",
-      "RestrictionListName": "Franecki-Rosenbaum",
-      "IsVisible": false,
-      "ExtraInfo": "in",
-      "Width": "velit",
-      "IconHint": "et",
-      "HeadingIconHint": "rerum"
+      "Name": "Kassulke, Prohaska and Bernier",
+      "CanRestrictBy": true,
+      "RestrictionType": "illum",
+      "RestrictionListName": "VonRueden, Howe and Marvin",
+      "IsVisible": true,
+      "ExtraInfo": "consequatur",
+      "Width": "nemo",
+      "IconHint": "libero",
+      "HeadingIconHint": "a"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Bergstrom, Lehner and Kuvalis",
-      "PrimaryKey": 555,
+      "EntityName": "Dare-Osinski",
+      "PrimaryKey": 983,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ea",
-          "TooltipHint": "explicabo",
-          "LinkHint": "consequatur"
+          "DisplayValue": "nisi",
+          "TooltipHint": "dolores",
+          "LinkHint": "nam"
         }
       },
-      "LinkHint": "sed",
-      "StyleHint": "magnam",
+      "LinkHint": "sint",
+      "StyleHint": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 310
+          "FieldType": "System.Int32",
+          "FieldLength": 392
         }
       }
     }
   ],
-  "RowCount": 198,
+  "RowCount": 652,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 664
+      "FieldLength": 218
     }
   }
 }

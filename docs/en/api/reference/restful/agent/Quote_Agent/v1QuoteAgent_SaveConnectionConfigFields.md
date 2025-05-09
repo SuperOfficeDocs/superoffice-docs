@@ -73,10 +73,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 63,
+  "QuoteConnectionId": 164,
   "ConnectionConfigFields": {
-    "ConnectionConfigFields1": "assumenda",
-    "ConnectionConfigFields2": "nisi"
+    "ConnectionConfigFields1": "ab",
+    "ConnectionConfigFields2": "et"
   }
 }
 ```
@@ -88,7 +88,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "aut",
-  "2": "recusandae"
+  "1": "sed",
+  "2": "consequatur"
 }
 ```

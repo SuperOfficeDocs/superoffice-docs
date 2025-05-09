@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,34 +90,34 @@ Content-Type: application/json; charset=utf-8
 
 {
   "QuoteAlternativeId": 394,
-  "ERPQuoteAlternativeKey": "rerum",
-  "QuoteVersionId": 846,
-  "Name": "Parker Group",
-  "Description": "Expanded regional support",
+  "ERPQuoteAlternativeKey": "porro",
+  "QuoteVersionId": 3,
+  "Name": "Goyette Group",
+  "Description": "Implemented uniform projection",
   "Status": "Error",
-  "Reason": "grow mission-critical convergence",
-  "ERPDiscountPercent": 16256.057999999999,
-  "ERPDiscountAmount": 3472.4719999999998,
-  "DiscountPercent": 10552.178,
-  "DiscountAmount": 28143.32,
+  "Reason": "",
+  "ERPDiscountPercent": 1980.6879999999999,
+  "ERPDiscountAmount": 30769.611999999997,
+  "DiscountPercent": 19186.347999999998,
+  "DiscountAmount": 21035.408,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "dolores",
-  "VAT": 2231.408,
-  "EarningPercent": 30894.971999999998,
-  "EarningAmount": 21082.417999999998,
-  "SubTotal": 24636.374,
-  "TotalPrice": 21214.046,
-  "ExtraField1": "id",
-  "ExtraField2": "excepturi",
-  "ExtraField3": "temporibus",
-  "ExtraField4": "doloribus",
-  "ExtraField5": "ut",
+  "VATInfo": "aut",
+  "VAT": 14331.782,
+  "EarningPercent": 20016.858,
+  "EarningAmount": 20518.298,
+  "SubTotal": 11385.822,
+  "TotalPrice": 29572.424,
+  "ExtraField1": "ipsa",
+  "ExtraField2": "maiores",
+  "ExtraField3": "eveniet",
+  "ExtraField4": "minima",
+  "ExtraField5": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 891
+      "FieldType": "System.String",
+      "FieldLength": 258
     }
   }
 }

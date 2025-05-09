@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 173,
-    "Name": "Hettinger Group",
-    "ToolTip": "Odio cum et.",
-    "Deleted": true,
-    "Rank": 214,
-    "Type": "et",
-    "ColorBlock": 852,
-    "IconHint": "eum",
-    "Selected": true,
-    "LastChanged": "2007-05-21T13:14:10.1035433+02:00",
+    "Id": 382,
+    "Name": "Jenkins, Stark and Pfannerstill",
+    "ToolTip": "Deserunt cumque voluptate ut aspernatur.",
+    "Deleted": false,
+    "Rank": 840,
+    "Type": "eligendi",
+    "ColorBlock": 118,
+    "IconHint": "iste",
+    "Selected": false,
+    "LastChanged": "2009-06-29T16:32:49.008824+02:00",
     "ChildItems": [
       {
-        "Id": 978,
-        "Name": "Schmeler-Koss",
-        "ToolTip": "Vitae ipsa voluptatem dolor.",
+        "Id": 530,
+        "Name": "Prosacco-Raynor",
+        "ToolTip": "Voluptatum modi ex repellat.",
         "Deleted": false,
-        "Rank": 879,
-        "Type": "consequatur",
-        "ColorBlock": 928,
-        "IconHint": "corporis",
+        "Rank": 819,
+        "Type": "et",
+        "ColorBlock": 8,
+        "IconHint": "ab",
         "Selected": false,
-        "LastChanged": "2001-08-10T13:14:10.1035433+02:00",
+        "LastChanged": "2002-11-30T16:32:49.008824+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
-        "StyleHint": "vel",
-        "Hidden": false,
-        "FullName": "Miss Ocie Loren Stanton DVM"
+        "ExtraInfo": "aspernatur",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Everett Keebler"
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "eaque",
-    "Hidden": false,
-    "FullName": "Jacklyn Champlin"
+    "ExtraInfo": "soluta",
+    "StyleHint": "vel",
+    "Hidden": true,
+    "FullName": "King Grant"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 391,
-    "Name": "Harvey-Labadie",
-    "ToolTip": "Ut voluptatum modi vel ipsum occaecati quia praesentium.",
+    "Id": 819,
+    "Name": "Walker Group",
+    "ToolTip": "Animi provident molestiae dolorem qui consectetur.",
     "Deleted": false,
-    "Rank": 245,
-    "Type": "vitae",
-    "ColorBlock": 124,
-    "IconHint": "at",
-    "Selected": true,
-    "LastChanged": "2023-02-15T13:14:10.1191693+01:00",
+    "Rank": 807,
+    "Type": "rerum",
+    "ColorBlock": 649,
+    "IconHint": "maiores",
+    "Selected": false,
+    "LastChanged": "2001-05-14T16:32:49.008824+02:00",
     "ChildItems": [
       {
-        "Id": 368,
-        "Name": "Satterfield Inc and Sons",
-        "ToolTip": "Nobis officia quam ea deleniti enim nostrum at.",
+        "Id": 274,
+        "Name": "Bergnaum LLC",
+        "ToolTip": "Voluptas veritatis dolorem vel quia est eveniet in.",
         "Deleted": false,
-        "Rank": 31,
-        "Type": "optio",
-        "ColorBlock": 952,
-        "IconHint": "voluptas",
+        "Rank": 287,
+        "Type": "velit",
+        "ColorBlock": 461,
+        "IconHint": "laudantium",
         "Selected": false,
-        "LastChanged": "2008-08-26T13:14:10.1191693+02:00",
+        "LastChanged": "2011-06-15T16:32:49.008824+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "veniam",
-        "Hidden": false,
-        "FullName": "Dr. Flo Breitenberg II",
+        "ExtraInfo": "laudantium",
+        "StyleHint": "corporis",
+        "Hidden": true,
+        "FullName": "Vesta Ernser",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 980
+            "FieldLength": 312
           }
         }
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "amet",
+    "ExtraInfo": "debitis",
+    "StyleHint": "doloribus",
     "Hidden": false,
-    "FullName": "Hulda Kozey",
+    "FullName": "Rahsaan Isaiah Boehm MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 501
+        "FieldType": "System.String",
+        "FieldLength": 690
       }
     }
   }

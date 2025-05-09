@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 993,
-  "Name": "Halvorson, Bogisich and Gutmann",
-  "Description": "Implemented exuding model",
-  "DefaultHeight": 438,
-  "DefaultWidth": 844,
+  "DashboardTileDefinitionId": 714,
+  "Name": "Emmerich Inc and Sons",
+  "Description": "Streamlined encompassing groupware",
+  "DefaultHeight": 159,
+  "DefaultWidth": 302,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Hermiston-Carter",
-  "SelectionId": 927,
+  "EntityName": "Effertz-Carter",
+  "SelectionId": 697,
   "CurrencyMode": "Base",
-  "CurrencyCode": "aut",
+  "CurrencyCode": "omnis",
   "Measure": "Average",
-  "MeasureField": "ut",
-  "SortBy": "voluptate",
-  "LayoutConfig": "eum",
-  "SecondarySelectionId": 729,
-  "MeasureByField": "id",
+  "MeasureField": "quasi",
+  "SortBy": "omnis",
+  "LayoutConfig": "quas",
+  "SecondarySelectionId": 784,
+  "MeasureByField": "quibusdam",
   "Usage": "Dashboard",
-  "ProviderName": "Hoeger Inc and Sons",
+  "ProviderName": "Ziemann-Cole",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 397
+      "FieldType": "System.String",
+      "FieldLength": 892
     }
   }
 }

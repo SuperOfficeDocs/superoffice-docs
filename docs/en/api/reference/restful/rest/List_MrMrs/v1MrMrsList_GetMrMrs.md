@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 328,
-  "Name": "Rippin, Funk and Grady",
-  "Tooltip": "tempore",
+  "Id": 602,
+  "Name": "Casper Group",
+  "Tooltip": "voluptas",
   "Deleted": true,
-  "UdListDefinitionId": 189,
-  "Rank": 714,
+  "UdListDefinitionId": 261,
+  "Rank": 111,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 151
+      "FieldLength": 524
     }
   }
 }

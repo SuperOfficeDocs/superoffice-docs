@@ -42,6 +42,7 @@ items:
   - SuperOffice.CRM.Security.DashboardTileSentry
   - SuperOffice.CRM.Security.PersonSentry
   - SuperOffice.CRM.Security.ProjectSentry
+  - SuperOffice.CRM.Security.RelationsSentry
   - SuperOffice.CRM.Security.SaleSentry
   - SuperOffice.CRM.Security.SelectionSentry
   - SuperOffice.CRM.Security.TargetAssignmentInfoSentry

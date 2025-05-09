@@ -93,28 +93,28 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Gutkowski, Kub and Morissette",
-  "ListItemId": 242,
+  "UdListDefinitionName": "Balistreri Inc and Sons",
+  "ListItemId": 412,
   "UserGroups": [
     {
-      "Id": 177,
-      "Name": "Nader Group",
-      "ToolTip": "Maxime sint omnis eaque at.",
+      "Id": 145,
+      "Name": "Fahey Inc and Sons",
+      "ToolTip": "Nisi tempore maxime quis vero.",
       "Deleted": false,
-      "Rank": 381,
-      "Type": "exercitationem",
-      "ColorBlock": 760,
-      "IconHint": "perferendis",
-      "Selected": true,
-      "LastChanged": "2010-06-23T13:14:00.5949987+02:00",
+      "Rank": 268,
+      "Type": "ut",
+      "ColorBlock": 654,
+      "IconHint": "et",
+      "Selected": false,
+      "LastChanged": "1999-08-30T16:32:39.2426162+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "pariatur",
-      "StyleHint": "sequi",
+      "ExtraInfo": "quisquam",
+      "StyleHint": "omnis",
       "Hidden": false,
-      "FullName": "Chelsea Rohan"
+      "FullName": "Irving Pouros"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 526,
-    "Name": "Senger-Mayert",
-    "ToolTip": "Sapiente modi mollitia.",
+    "Id": 31,
+    "Name": "Orn-Ziemann",
+    "ToolTip": "Doloribus exercitationem repellendus aut omnis tempore sunt non.",
     "Deleted": false,
-    "Rank": 187,
-    "Type": "beatae",
-    "ColorBlock": 367,
-    "IconHint": "rem",
-    "Selected": true,
-    "LastChanged": "2008-12-19T13:14:00.5949987+01:00",
+    "Rank": 485,
+    "Type": "facere",
+    "ColorBlock": 704,
+    "IconHint": "tenetur",
+    "Selected": false,
+    "LastChanged": "2016-01-12T16:32:39.2426162+01:00",
     "ChildItems": [
       {
-        "Id": 606,
-        "Name": "Purdy, Howell and Smitham",
-        "ToolTip": "Rem autem modi sed.",
+        "Id": 656,
+        "Name": "Reilly, McKenzie and Roberts",
+        "ToolTip": "Quia fuga voluptatibus et.",
         "Deleted": false,
-        "Rank": 29,
-        "Type": "dolorem",
-        "ColorBlock": 140,
-        "IconHint": "ut",
+        "Rank": 637,
+        "Type": "dicta",
+        "ColorBlock": 596,
+        "IconHint": "sunt",
         "Selected": false,
-        "LastChanged": "2024-01-22T13:14:00.5949987+01:00",
+        "LastChanged": "2022-05-26T16:32:39.2426162+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "labore",
-        "Hidden": false,
-        "FullName": "Prof. Narciso Cory Rempel MD",
+        "ExtraInfo": "impedit",
+        "StyleHint": "reprehenderit",
+        "Hidden": true,
+        "FullName": "Eliezer Ferry",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 998
+            "FieldType": "System.String",
+            "FieldLength": 764
           }
         }
       }
     ],
-    "ExtraInfo": "veniam",
-    "StyleHint": "vel",
+    "ExtraInfo": "eligendi",
+    "StyleHint": "error",
     "Hidden": false,
-    "FullName": "Esperanza D'Amore",
+    "FullName": "Mrs. Adrian Braulio Crooks DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 126
+        "FieldLength": 388
       }
     }
   }

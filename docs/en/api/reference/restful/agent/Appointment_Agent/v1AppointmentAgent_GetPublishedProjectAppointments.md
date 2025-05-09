@@ -126,11 +126,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 950
+  "ProjectId": 692
 }
 ```
 
@@ -142,66 +142,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 434,
-    "StartDate": "2023-11-17T13:13:59.1407181+01:00",
-    "EndDate": "2006-02-17T13:13:59.1407181+01:00",
+    "AppointmentId": 761,
+    "StartDate": "2023-12-18T16:32:37.6490324+01:00",
+    "EndDate": "2004-02-19T16:32:37.6490324+01:00",
     "Type": "BookingForChecklist",
-    "Task": "et",
-    "AssociateFullName": "Mathew Flatley",
-    "ContactName": "Rosenbaum-Gulgowski",
-    "Description": "Reactive object-oriented process improvement",
-    "PersonFullName": "Ms. Mina Hermina Schaden",
-    "PersonId": 479,
-    "ContactId": 549,
-    "ProjectId": 164,
-    "ProjectName": "Barrows, Roberts and Schinner",
-    "IsPublished": true,
-    "AssociateId": 620,
-    "ColorIndex": 264,
-    "IsFree": true,
+    "Task": "corporis",
+    "AssociateFullName": "Ms. Adriel Gertrude Bayer PhD",
+    "ContactName": "Carter Inc and Sons",
+    "Description": "Decentralized global core",
+    "PersonFullName": "Talon Harber",
+    "PersonId": 678,
+    "ContactId": 18,
+    "ProjectId": 647,
+    "ProjectName": "Douglas-Murazik",
+    "IsPublished": false,
+    "AssociateId": 123,
+    "ColorIndex": 623,
+    "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 587,
-    "PriorityName": "Dietrich-Emard",
+    "PriorityId": 473,
+    "PriorityName": "Langworth LLC",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2013-07-17T13:13:59.1407181+02:00",
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "2014-03-07T16:32:37.6490324+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2013-12-15T13:13:59.1407181+01:00",
-    "RecurringEndDate": "2020-05-25T13:13:59.1407181+02:00",
-    "MotherId": 230,
-    "AssignedBy": 884,
-    "AssignedByFullName": "Neva Kris",
+    "RecurringStartDate": "2015-06-21T16:32:37.6490324+02:00",
+    "RecurringEndDate": "2003-05-14T16:32:37.6490324+02:00",
+    "MotherId": 670,
+    "AssignedBy": 559,
+    "AssignedByFullName": "Alexie Hartmann",
     "RejectReason": "",
-    "Location": "consequatur",
-    "AlarmLeadTime": "reiciendis",
-    "SaleId": 1000,
-    "SaleName": "Beier Inc and Sons",
-    "AssociateName": "Pacocha-Kshlerin",
-    "CreatedDate": "2023-12-09T13:13:59.1407181+01:00",
-    "CreatedBy": "omnis",
-    "CreatedByFullName": "Antonietta Becker V",
-    "CreatedByAssociateId": 459,
+    "Location": "quia",
+    "AlarmLeadTime": "minus",
+    "SaleId": 774,
+    "SaleName": "Mitchell Inc and Sons",
+    "AssociateName": "Cremin, Schulist and Block",
+    "CreatedDate": "2018-10-30T16:32:37.6490324+01:00",
+    "CreatedBy": "reiciendis",
+    "CreatedByFullName": "Harrison Ondricka",
+    "CreatedByAssociateId": 689,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 748,
-    "Title": "mollitia",
-    "Agenda": "asperiores",
-    "InternalNotes": "ipsum",
+    "PreferredTZLocation": 773,
+    "Title": "ipsa",
+    "Agenda": "error",
+    "InternalNotes": "ratione",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 930
+        "FieldType": "System.Int32",
+        "FieldLength": 32
       }
     }
   }

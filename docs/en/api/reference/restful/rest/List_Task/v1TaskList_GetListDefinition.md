@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Task
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 776,
-  "Name": "Nader Group",
-  "Tooltip": "numquam",
-  "Deleted": false,
-  "Rank": 234,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "similique",
-  "InUseByUserDefinedFields": false,
+  "Id": 504,
+  "Name": "Jakubowski Group",
+  "Tooltip": "fuga",
+  "Deleted": true,
+  "Rank": 330,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "nisi",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 446
+      "FieldType": "System.String",
+      "FieldLength": 31
     }
   },
   "_Links": {

@@ -61,7 +61,7 @@ OK
 GET /api/v1/Table/{tableName}/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,15 +72,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "assumenda",
-    "Values2": "et"
+    "Values1": "dolores",
+    "Values2": "aut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 411
+      "FieldLength": 535
     }
   }
 }

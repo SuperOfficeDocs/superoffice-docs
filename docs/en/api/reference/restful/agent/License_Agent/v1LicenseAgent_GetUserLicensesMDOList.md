@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/License/GetUserLicensesMDOList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,56 +90,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 216,
-    "Name": "Connelly LLC",
-    "ToolTip": "Doloremque enim.",
+    "Id": 281,
+    "Name": "Hirthe-Yundt",
+    "ToolTip": "Hic omnis repellat enim ab provident.",
     "Deleted": false,
-    "Rank": 476,
-    "Type": "quod",
-    "ColorBlock": 841,
-    "IconHint": "atque",
-    "Selected": true,
-    "LastChanged": "2011-06-14T13:14:00.532487+02:00",
+    "Rank": 971,
+    "Type": "saepe",
+    "ColorBlock": 112,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "1999-07-12T16:32:39.1957533+02:00",
     "ChildItems": [
       {
-        "Id": 380,
-        "Name": "Wunsch Group",
-        "ToolTip": "Optio voluptatem eaque consequatur id non et molestiae.",
+        "Id": 51,
+        "Name": "Zemlak, Schmeler and Price",
+        "ToolTip": "Harum impedit veniam voluptatibus et rerum nemo.",
         "Deleted": false,
-        "Rank": 514,
-        "Type": "fuga",
-        "ColorBlock": 698,
-        "IconHint": "et",
+        "Rank": 631,
+        "Type": "nostrum",
+        "ColorBlock": 605,
+        "IconHint": "veritatis",
         "Selected": false,
-        "LastChanged": "2009-10-22T13:14:00.532487+02:00",
+        "LastChanged": "2020-01-28T16:32:39.1957533+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
-        "StyleHint": "expedita",
+        "ExtraInfo": "officiis",
+        "StyleHint": "quam",
         "Hidden": false,
-        "FullName": "Sister Pfeffer",
+        "FullName": "Elbert Hintz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 446
+            "FieldType": "System.String",
+            "FieldLength": 711
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "adipisci",
-    "Hidden": false,
-    "FullName": "Jalen Beer",
+    "ExtraInfo": "eum",
+    "StyleHint": "eligendi",
+    "Hidden": true,
+    "FullName": "Katelynn Auer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 499
+        "FieldLength": 657
       }
     }
   }

@@ -26,8 +26,8 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Task/MDOItems?flat=False
-GET /api/v1/List/Task/MDOItems?query=quaerat
+GET /api/v1/List/Task/MDOItems?flat=True
+GET /api/v1/List/Task/MDOItems?query=unde
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Task/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 69,
-    "Name": "Greenfelder LLC",
-    "ToolTip": "Tempora illum corporis libero doloribus similique.",
-    "Deleted": true,
-    "Rank": 965,
-    "Type": "perspiciatis",
+    "Id": 669,
+    "Name": "Von, Zieme and Hirthe",
+    "ToolTip": "Molestiae modi aut minus eum quos nihil.",
+    "Deleted": false,
+    "Rank": 643,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 162,
-        "Name": "Ferry-Nitzsche",
-        "ToolTip": "Sit quae voluptatem.",
+        "Id": 270,
+        "Name": "Ankunding-O'Kon",
+        "ToolTip": "Fugit ea et.",
         "Deleted": true,
-        "Rank": 193,
-        "Type": "voluptatem",
+        "Rank": 481,
+        "Type": "eveniet",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "blanditiis",
-        "ColorBlock": 459,
-        "ExtraInfo": "ea",
-        "StyleHint": "velit",
-        "FullName": "Miss Julian Rae Williamson",
+        "IconHint": "commodi",
+        "ColorBlock": 770,
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "porro",
+        "FullName": "Zelda Katlynn Bogan IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 424
+            "FieldType": "System.Int32",
+            "FieldLength": 658
           }
         }
       }
     ],
-    "IconHint": "sunt",
-    "ColorBlock": 875,
-    "ExtraInfo": "quaerat",
-    "StyleHint": "neque",
-    "FullName": "Jevon VonRueden",
+    "IconHint": "cum",
+    "ColorBlock": 690,
+    "ExtraInfo": "ab",
+    "StyleHint": "blanditiis",
+    "FullName": "Edgardo Fisher",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 661
+        "FieldLength": 994
       }
     }
   }

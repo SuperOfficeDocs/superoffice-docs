@@ -75,10 +75,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 576,
+  "EmailFlowId": 277,
   "PersonIds": [
-    321,
-    710
+    185,
+    48
   ]
 }
 ```
@@ -90,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  false,
+  true,
   true
 ]
 ```

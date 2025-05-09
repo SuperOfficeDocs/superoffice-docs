@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 987,
-  "AttachmentId": "veniam"
+  "DocId": 361,
+  "AttachmentId": "architecto"
 }
 ```
 
@@ -103,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Inverse tangible neural-net",
-  "Filename": "porro",
-  "Size": 567,
-  "Type": "dolores",
-  "Encoding": "consequatur",
-  "Id": "autem",
-  "Disposition": "necessitatibus",
+  "Description": "Intuitive encompassing local area network",
+  "Filename": "nobis",
+  "Size": 959,
+  "Type": "distinctio",
+  "Encoding": "blanditiis",
+  "Id": "soluta",
+  "Disposition": "perspiciatis",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 82
+      "FieldType": "System.String",
+      "FieldLength": 642
     }
   }
 }

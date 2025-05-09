@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 215,
-    "Name": "Sawayn-Funk",
-    "Tooltip": "animi",
-    "Deleted": false,
-    "Rank": 818,
-    "UdListDefinitionId": 557
+    "HeadingId": 552,
+    "Name": "Kerluke-Kuvalis",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 542,
+    "UdListDefinitionId": 454
   },
   {
-    "HeadingId": 215,
-    "Name": "Sawayn-Funk",
-    "Tooltip": "animi",
-    "Deleted": false,
-    "Rank": 818,
-    "UdListDefinitionId": 557
+    "HeadingId": 552,
+    "Name": "Kerluke-Kuvalis",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 542,
+    "UdListDefinitionId": 454
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 718,
-    "Name": "Grady-Hintz",
-    "Tooltip": "voluptatibus",
-    "Deleted": false,
-    "Rank": 949,
-    "UdListDefinitionId": 573,
+    "HeadingId": 180,
+    "Name": "Hickle LLC",
+    "Tooltip": "corporis",
+    "Deleted": true,
+    "Rank": 754,
+    "UdListDefinitionId": 1002,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 676
+        "FieldLength": 356
       }
     }
   }

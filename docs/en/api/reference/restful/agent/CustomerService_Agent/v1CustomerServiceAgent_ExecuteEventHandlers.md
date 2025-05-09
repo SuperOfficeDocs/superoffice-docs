@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,42 +103,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "eos",
-    "InputValues2": "labore"
+    "InputValues1": "nihil",
+    "InputValues2": "facere"
   },
-  "BlockExecution": false,
-  "NavigateTo": "deleniti",
-  "Message": "recusandae",
-  "ShowDialog": "sed",
+  "BlockExecution": true,
+  "NavigateTo": "ut",
+  "Message": "libero",
+  "ShowDialog": "est",
   "OutputValues": {
-    "OutputValues1": "fuga",
-    "OutputValues2": "consequatur"
+    "OutputValues1": "cupiditate",
+    "OutputValues2": "quo"
   },
   "StateValues": {
-    "StateValues1": "molestiae",
-    "StateValues2": "expedita"
+    "StateValues1": "accusamus",
+    "StateValues2": "et"
   },
-  "Exception": "voluptatem",
+  "Exception": "nam",
   "ParserValues": {
-    "ParserValues1": "laboriosam",
-    "ParserValues2": "et"
+    "ParserValues1": "rerum",
+    "ParserValues2": "id"
   },
   "CgiVariables": {
-    "CgiVariables1": "aut",
-    "CgiVariables2": "commodi"
+    "CgiVariables1": "vel",
+    "CgiVariables2": "velit"
   },
-  "CgiContent": "iure",
+  "CgiContent": "ad",
   "Headers": {
-    "Headers1": "sit",
-    "Headers2": "sit"
+    "Headers1": "velit",
+    "Headers2": "culpa"
   },
-  "TraceExecution": false,
+  "TraceExecution": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 194
+      "FieldLength": 416
     }
   }
 }

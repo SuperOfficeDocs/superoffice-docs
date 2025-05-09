@@ -79,25 +79,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 775,
-  "Value": "culpa",
+  "TaskListItemId": 789,
+  "Value": "molestias",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "perspiciatis",
-  "Deleted": true,
-  "IntentId": 495,
-  "Rank": 1000,
+  "Tooltip": "deserunt",
+  "Deleted": false,
+  "IntentId": 122,
+  "Rank": 190,
   "IsDefaultAlldayEvent": true,
   "IsDefaultFree": false,
-  "IsDefaultPublished": false,
+  "IsDefaultPublished": true,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 514
+      "FieldType": "System.String",
+      "FieldLength": 578
     }
   }
 }

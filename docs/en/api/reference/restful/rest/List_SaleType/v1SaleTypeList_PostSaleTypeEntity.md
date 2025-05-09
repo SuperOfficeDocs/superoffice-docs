@@ -107,51 +107,51 @@ OK
 POST /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 931,
-  "Name": "Murazik, Bruen and Runte",
-  "Tooltip": "qui",
-  "Rank": 71,
+  "SaleTypeId": 878,
+  "Name": "Beer, Powlowski and Tremblay",
+  "Tooltip": "tempora",
+  "Rank": 689,
   "DurationUnit": "Century",
-  "SaleDuration": 456,
-  "SaleTypeCatId": 970,
-  "Deleted": true,
-  "HasGuide": true,
+  "SaleDuration": 209,
+  "SaleTypeCatId": 425,
+  "Deleted": false,
+  "HasGuide": false,
   "HasStakeholders": true,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 286,
-  "QuoteLinesTemplate": 377,
-  "ConfirmationLinesTemplate": 280,
+  "DefaultQuoteValidity": 888,
+  "QuoteLinesTemplate": 580,
+  "ConfirmationLinesTemplate": 588,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 361,
-  "MinEarningPercent": 333,
-  "GroupQuoteLinesBy": 180,
-  "SortGroupLinesBy": 912,
+  "MaxDiscountPercent": 926,
+  "MinEarningPercent": 631,
+  "GroupQuoteLinesBy": 795,
+  "SortGroupLinesBy": 4,
   "Stages": [
     {
-      "Id": 811,
-      "Name": "Stark, Fahey and Okuneva",
-      "ToolTip": "Sit aut laborum esse eius enim distinctio.",
+      "Id": 1000,
+      "Name": "Wyman-Wolf",
+      "ToolTip": "Et est repudiandae dolor nisi quae quia dicta.",
       "Deleted": false,
-      "Rank": 581,
-      "Type": "quae",
-      "ColorBlock": 550,
-      "IconHint": "quisquam",
-      "Selected": true,
-      "LastChanged": "2015-03-15T13:14:10.0566655+01:00",
+      "Rank": 413,
+      "Type": "fugit",
+      "ColorBlock": 811,
+      "IconHint": "quam",
+      "Selected": false,
+      "LastChanged": "2009-09-22T16:32:48.946344+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "quos",
+      "ExtraInfo": "est",
+      "StyleHint": "dolores",
       "Hidden": false,
-      "FullName": "Filiberto Bergstrom"
+      "FullName": "Peggie Morissette"
     }
   ]
 }
@@ -164,53 +164,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 876,
-  "Name": "Kirlin-Kuhic",
-  "Tooltip": "molestiae",
-  "Rank": 329,
+  "SaleTypeId": 443,
+  "Name": "Walter-Price",
+  "Tooltip": "quia",
+  "Rank": 993,
   "DurationUnit": "Century",
-  "SaleDuration": 602,
-  "SaleTypeCatId": 215,
-  "Deleted": false,
-  "HasGuide": false,
+  "SaleDuration": 496,
+  "SaleTypeCatId": 466,
+  "Deleted": true,
+  "HasGuide": true,
   "HasStakeholders": true,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 673,
-  "QuoteLinesTemplate": 899,
-  "ConfirmationLinesTemplate": 102,
+  "DefaultQuoteValidity": 159,
+  "QuoteLinesTemplate": 482,
+  "ConfirmationLinesTemplate": 340,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 159,
-  "MinEarningPercent": 433,
-  "GroupQuoteLinesBy": 340,
-  "SortGroupLinesBy": 449,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 180,
+  "MinEarningPercent": 255,
+  "GroupQuoteLinesBy": 580,
+  "SortGroupLinesBy": 465,
   "Stages": [
     {
-      "Id": 828,
-      "Name": "Mraz-Kautzer",
-      "ToolTip": "Consequatur voluptate non aut perspiciatis nihil.",
+      "Id": 899,
+      "Name": "Nolan-Dibbert",
+      "ToolTip": "Dolores expedita deserunt doloribus temporibus architecto voluptatem.",
       "Deleted": false,
-      "Rank": 348,
-      "Type": "et",
-      "ColorBlock": 516,
-      "IconHint": "cum",
-      "Selected": true,
-      "LastChanged": "2004-11-29T13:14:10.0566655+01:00",
+      "Rank": 962,
+      "Type": "odio",
+      "ColorBlock": 143,
+      "IconHint": "in",
+      "Selected": false,
+      "LastChanged": "2010-07-17T16:32:48.946344+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "omnis",
-      "StyleHint": "quis",
-      "Hidden": true,
-      "FullName": "Mr. Brant Fatima Flatley DVM",
+      "ExtraInfo": "quibusdam",
+      "StyleHint": "voluptas",
+      "Hidden": false,
+      "FullName": "Danny Predovic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 373
+          "FieldType": "System.Int32",
+          "FieldLength": 797
         }
       }
     }
@@ -219,8 +219,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 454
+      "FieldType": "System.Int32",
+      "FieldLength": 436
     }
   }
 }

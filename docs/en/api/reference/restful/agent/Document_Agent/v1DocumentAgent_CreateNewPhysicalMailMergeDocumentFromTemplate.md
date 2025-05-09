@@ -109,12 +109,12 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalMailMergeDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 212,
-  "UiCulture": "natus"
+  "DocumentId": 535,
+  "UiCulture": "ut"
 }
 ```
 
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 151,
+  "DocumentId": 186,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "tempore",
-  "Header": "magnam",
-  "Name": "Bayer Group",
-  "OurRef": "vitae",
-  "YourRef": "odit",
-  "CreatedDate": "2012-10-12T13:14:00.1725959+02:00",
-  "UpdatedDate": "2005-10-25T13:14:00.1725959+02:00",
-  "Description": "Centralized empowering artificial intelligence",
+  "Attention": "delectus",
+  "Header": "sequi",
+  "Name": "Nikolaus, Turner and Conroy",
+  "OurRef": "aut",
+  "YourRef": "sed",
+  "CreatedDate": "2008-08-01T16:32:38.8520814+02:00",
+  "UpdatedDate": "2003-01-13T16:32:38.8520814+01:00",
+  "Description": "Programmable fault-tolerant structure",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2002-05-07T13:14:00.1882219+02:00",
-  "ExternalRef": "facilis",
+  "Date": "1999-08-13T16:32:38.8520814+02:00",
+  "ExternalRef": "est",
   "Completed": "Completed",
-  "ActiveLinks": 609,
+  "ActiveLinks": 707,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Bosco, Jerde and Bergnaum",
-      "Id": 228,
-      "Description": "Quality-focused optimal budgetary management",
-      "ExtraInfo": "magnam",
-      "LinkId": 60,
+      "EntityName": "Rogahn Inc and Sons",
+      "Id": 756,
+      "Description": "Profit-focused multi-state database",
+      "ExtraInfo": "unde",
+      "LinkId": 464,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 851
+          "FieldLength": 467
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 910,
-  "Snum": 166,
+  "SuggestedDocumentId": 256,
+  "Snum": 856,
   "UserDefinedFields": {
-    "SuperOffice:1": "Rex Zieme",
-    "SuperOffice:2": "Dr. Terrence Torey Ferry"
+    "SuperOffice:1": "Julian Grady DVM",
+    "SuperOffice:2": "1549389236"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolorem",
-    "ExtraFields2": "nisi"
+    "ExtraFields1": "ducimus",
+    "ExtraFields2": "maxime"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "exercitationem"
+    "CustomFields1": "quibusdam",
+    "CustomFields2": "vel"
   },
-  "PublishEventDate": "1998-11-13T13:14:00.1882219+01:00",
-  "PublishTo": "2005-11-09T13:14:00.1882219+01:00",
-  "PublishFrom": "2023-08-25T13:14:00.1882219+02:00",
+  "PublishEventDate": "2003-02-25T16:32:38.8520814+01:00",
+  "PublishTo": "2000-03-14T16:32:38.8520814+01:00",
+  "PublishFrom": "2016-03-30T16:32:38.8520814+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 692,
+      "VisibleId": 319,
       "Visibility": "All",
-      "DisplayValue": "ducimus",
+      "DisplayValue": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 199
+          "FieldType": "System.Int32",
+          "FieldLength": 93
         }
       }
     },
     {
-      "VisibleId": 692,
+      "VisibleId": 319,
       "Visibility": "All",
-      "DisplayValue": "ducimus",
+      "DisplayValue": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 199
+          "FieldType": "System.Int32",
+          "FieldLength": 93
         }
       }
     }
@@ -216,7 +216,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 531
+      "FieldLength": 739
     }
   }
 }

@@ -78,26 +78,26 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 420,
-      "PrefDescId": 977,
-      "PrefValue": "qui",
-      "PrefShowValue": "et",
-      "Description": "Assimilated dynamic architecture",
-      "IsBuiltin": false
+      "PrefDescLineId": 954,
+      "PrefDescId": 795,
+      "PrefValue": "beatae",
+      "PrefShowValue": "tempore",
+      "Description": "Diverse bandwidth-monitored approach",
+      "IsBuiltin": true
     },
     {
-      "PrefDescLineId": 420,
-      "PrefDescId": 977,
-      "PrefValue": "qui",
-      "PrefShowValue": "et",
-      "Description": "Assimilated dynamic architecture",
-      "IsBuiltin": false
+      "PrefDescLineId": 954,
+      "PrefDescId": 795,
+      "PrefValue": "beatae",
+      "PrefShowValue": "tempore",
+      "Description": "Diverse bandwidth-monitored approach",
+      "IsBuiltin": true
     }
   ]
 }
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 206,
-    "PrefDescId": 198,
-    "PrefValue": "corporis",
-    "PrefShowValue": "et",
-    "Description": "Upgradable didactic application",
-    "IsBuiltin": false,
+    "PrefDescLineId": 149,
+    "PrefDescId": 286,
+    "PrefValue": "et",
+    "PrefShowValue": "molestiae",
+    "Description": "Optional disintermediate encryption",
+    "IsBuiltin": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 555
+        "FieldType": "System.Int32",
+        "FieldLength": 6
       }
     }
   }

@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 313,
-  "Name": "Metz LLC",
-  "AssociateId": 120,
-  "DetailsTable": 160,
-  "DetailsRecord": 519,
-  "IsSystemTask": true,
+  "Id": 838,
+  "Name": "Von-Koch",
+  "AssociateId": 451,
+  "DetailsTable": 945,
+  "DetailsRecord": 438,
+  "IsSystemTask": false,
   "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "error",
-    "ParameterObject2": "provident"
+    "ParameterObject1": "fugit",
+    "ParameterObject2": "porro"
   },
-  "LastStarted": "2016-07-25T13:14:09.3841564+02:00",
-  "Created": "2001-04-17T13:14:09.3841564+02:00",
-  "StartCount": 117,
-  "DatabaseSerialNumber": "655077",
-  "Context": "facere",
-  "Result": "est",
+  "LastStarted": "2024-05-18T16:32:48.2902385+02:00",
+  "Created": "2010-07-18T16:32:48.2902385+02:00",
+  "StartCount": 168,
+  "DatabaseSerialNumber": "339579",
+  "Context": "voluptatem",
+  "Result": "aliquam",
   "State": "All",
-  "Description": "Implemented grid-enabled pricing structure",
-  "Response": "excepturi",
-  "Request": "est",
-  "ProgressDescription": "Operative web-enabled adapter",
-  "ProgressPercent": 806,
-  "FileName": "Marks Inc and Sons",
+  "Description": "Proactive scalable implementation",
+  "Response": "et",
+  "Request": "quasi",
+  "ProgressDescription": "Programmable mission-critical infrastructure",
+  "ProgressPercent": 934,
+  "FileName": "Volkman Inc and Sons",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 1000
+      "FieldType": "System.Int32",
+      "FieldLength": 649
     }
   }
 }

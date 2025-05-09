@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 352,
-    "Name": "Nicolas-Jenkins",
-    "ToolTip": "Dolor sint cupiditate.",
-    "Deleted": false,
-    "Rank": 253,
-    "Type": "molestias",
-    "ColorBlock": 792,
-    "IconHint": "architecto",
-    "Selected": false,
-    "LastChanged": "2020-08-12T13:14:09.931658+02:00",
+    "Id": 522,
+    "Name": "Hilll Group",
+    "ToolTip": "Iusto molestiae repellendus ea.",
+    "Deleted": true,
+    "Rank": 528,
+    "Type": "omnis",
+    "ColorBlock": 888,
+    "IconHint": "quaerat",
+    "Selected": true,
+    "LastChanged": "2007-08-03T16:32:48.8213663+02:00",
     "ChildItems": [
       {
-        "Id": 607,
-        "Name": "Prohaska-Rath",
-        "ToolTip": "Iste et fugiat nulla.",
+        "Id": 94,
+        "Name": "Fahey-Reynolds",
+        "ToolTip": "Est sunt illo id ex soluta ad quo.",
         "Deleted": false,
-        "Rank": 273,
-        "Type": "temporibus",
-        "ColorBlock": 568,
-        "IconHint": "quia",
-        "Selected": false,
-        "LastChanged": "2019-05-08T13:14:09.931658+02:00",
+        "Rank": 318,
+        "Type": "molestias",
+        "ColorBlock": 688,
+        "IconHint": "atque",
+        "Selected": true,
+        "LastChanged": "2000-04-09T16:32:48.8213663+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsum",
-        "StyleHint": "et",
+        "ExtraInfo": "minima",
+        "StyleHint": "magni",
         "Hidden": false,
-        "FullName": "Haylee Cole",
+        "FullName": "Mohammed Mayert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 817
+            "FieldLength": 172
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "hic",
-    "Hidden": true,
-    "FullName": "Miss Marcel Georgianna Cassin",
+    "ExtraInfo": "odit",
+    "StyleHint": "sit",
+    "Hidden": false,
+    "FullName": "Francisco Treutel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 961
+        "FieldType": "System.Int32",
+        "FieldLength": 251
       }
     }
   }

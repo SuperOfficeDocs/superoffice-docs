@@ -33,6 +33,8 @@
     name: AppointmentEntity
   - uid: SuperOffice.CRM.Services.AppointmentInfo
     name: AppointmentInfo
+  - uid: SuperOffice.CRM.Services.AppointmentMoveData
+    name: AppointmentMoveData
   - uid: SuperOffice.CRM.Services.AppointmentSaveData
     name: AppointmentSaveData
   - uid: SuperOffice.CRM.Services.AppointmentSyncData
@@ -1069,6 +1071,8 @@
     name: UserPresenceStatus
   - uid: SuperOffice.CRM.Services.UserValidationResult
     name: UserValidationResult
+  - uid: SuperOffice.CRM.Services.VideoMeetingReservation
+    name: VideoMeetingReservation
   - uid: SuperOffice.CRM.Services.ViewStateAgent
     name: ViewStateAgent
   - uid: SuperOffice.CRM.Services.VisibleFor

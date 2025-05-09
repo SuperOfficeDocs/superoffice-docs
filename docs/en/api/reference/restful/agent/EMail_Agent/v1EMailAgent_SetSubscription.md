@@ -67,20 +67,20 @@ No Content
 POST /api/v1/Agents/EMail/SetSubscription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Ledner-Greenholt",
-      "Delimiter": "maiores",
-      "Flags": "dolorem",
-      "TotalItems": 411,
-      "UnreadItems": 689,
+      "Name": "Witting-Rau",
+      "Delimiter": "iure",
+      "Flags": "culpa",
+      "TotalItems": 500,
+      "UnreadItems": 778,
       "Subscribed": true,
-      "EmailFolderId": 980
+      "EmailFolderId": 12
     }
   ]
 }

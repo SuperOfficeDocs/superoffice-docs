@@ -132,15 +132,15 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 625,
-  "StartTime": "2019-07-18T13:13:58.9844587+02:00",
-  "EndTime": "2002-09-20T13:13:58.9844587+02:00",
-  "Count": 394,
-  "TaskId": 158
+  "ProjectId": 137,
+  "StartTime": "2015-01-11T16:32:37.6177894+01:00",
+  "EndTime": "2004-06-01T16:32:37.6177894+02:00",
+  "Count": 356,
+  "TaskId": 540
 }
 ```
 
@@ -152,66 +152,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 866,
-    "StartDate": "2024-04-19T13:13:58.9844587+02:00",
-    "EndDate": "1998-06-15T13:13:58.9844587+02:00",
+    "AppointmentId": 756,
+    "StartDate": "2013-01-26T16:32:37.6177894+01:00",
+    "EndDate": "2015-03-08T16:32:37.6177894+01:00",
     "Type": "BookingForChecklist",
-    "Task": "aliquid",
-    "AssociateFullName": "Juston Kassulke",
-    "ContactName": "Beer, Monahan and O'Connell",
-    "Description": "Versatile zero administration application",
-    "PersonFullName": "Roxanne Borer",
-    "PersonId": 523,
-    "ContactId": 709,
-    "ProjectId": 235,
-    "ProjectName": "Cummings LLC",
-    "IsPublished": true,
-    "AssociateId": 870,
-    "ColorIndex": 966,
+    "Task": "quia",
+    "AssociateFullName": "Miss Georgette Will MD",
+    "ContactName": "Hamill-Parisian",
+    "Description": "Synergistic impactful extranet",
+    "PersonFullName": "Anahi Witting",
+    "PersonId": 72,
+    "ContactId": 270,
+    "ProjectId": 455,
+    "ProjectName": "Durgan-Wiza",
+    "IsPublished": false,
+    "AssociateId": 868,
+    "ColorIndex": 696,
     "IsFree": false,
     "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 346,
-    "PriorityName": "Shields Group",
+    "PriorityId": 96,
+    "PriorityName": "Cormier-Heathcote",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2008-03-17T13:13:58.9844587+01:00",
+    "ActiveDate": "2023-12-05T16:32:37.6177894+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2003-11-09T13:13:58.9844587+01:00",
-    "RecurringEndDate": "2018-01-07T13:13:58.9844587+01:00",
-    "MotherId": 960,
-    "AssignedBy": 136,
-    "AssignedByFullName": "Phoebe Cruickshank",
+    "RecurringStartDate": "2000-11-25T16:32:37.6177894+01:00",
+    "RecurringEndDate": "2020-04-12T16:32:37.6177894+02:00",
+    "MotherId": 476,
+    "AssignedBy": 237,
+    "AssignedByFullName": "Chelsey Durgan",
     "RejectReason": "",
-    "Location": "magnam",
-    "AlarmLeadTime": "impedit",
-    "SaleId": 777,
-    "SaleName": "Kassulke, Hills and Heller",
-    "AssociateName": "Kassulke, Leannon and Rice",
-    "CreatedDate": "2009-06-06T13:13:58.9844587+02:00",
-    "CreatedBy": "qui",
-    "CreatedByFullName": "Cassandre Weber",
-    "CreatedByAssociateId": 304,
+    "Location": "sed",
+    "AlarmLeadTime": "officiis",
+    "SaleId": 956,
+    "SaleName": "Rath Group",
+    "AssociateName": "Oberbrunner, Donnelly and Kovacek",
+    "CreatedDate": "2007-07-26T16:32:37.6177894+02:00",
+    "CreatedBy": "laudantium",
+    "CreatedByFullName": "Adonis Murazik",
+    "CreatedByAssociateId": 843,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 288,
-    "Title": "et",
-    "Agenda": "quo",
-    "InternalNotes": "doloremque",
+    "PreferredTZLocation": 444,
+    "Title": "voluptatibus",
+    "Agenda": "sunt",
+    "InternalNotes": "repellendus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 678
+        "FieldLength": 841
       }
     }
   }

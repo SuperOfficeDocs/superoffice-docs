@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 419,
-  "CurrentAppointmentId": 501,
+  "SaleId": 374,
+  "CurrentAppointmentId": 819,
   "SkipCompleteCheck": true
 }
 ```
@@ -105,26 +105,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 932,
-  "Deleted": 791,
-  "DaysFuture": 391,
-  "Tooltip": "necessitatibus",
-  "Text": "excepturi",
-  "TaskId": 827,
-  "SuggestedAppointmentId": 293,
-  "SaleTypeStageLinkId": 404,
-  "RegisteredAssociateId": 646,
-  "Rank": 218,
-  "ProjectTypeStatusLinkId": 870,
-  "Name": "Willms Inc and Sons",
-  "Duration": 650,
+  "AutoSuggest": 852,
+  "Deleted": 873,
+  "DaysFuture": 62,
+  "Tooltip": "esse",
+  "Text": "dignissimos",
+  "TaskId": 720,
+  "SuggestedAppointmentId": 427,
+  "SaleTypeStageLinkId": 842,
+  "RegisteredAssociateId": 665,
+  "Rank": 364,
+  "ProjectTypeStatusLinkId": 410,
+  "Name": "Luettgen-Schuster",
+  "Duration": 634,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 412
+      "FieldLength": 719
     }
   }
 }

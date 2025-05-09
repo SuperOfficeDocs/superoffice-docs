@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Gutmann, Bahringer and Cormier",
+  "TableName": "Runolfsdottir, Lehner and Sauer",
   "Columns": [
-    "quod",
-    "repellat"
+    "iure",
+    "voluptatem"
   ],
   "Keys": [
-    "nobis",
-    "tempora"
+    "sint",
+    "velit"
   ],
   "Data": [
     [
@@ -118,41 +118,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "eius",
-  "Inserts": 809,
-  "Updates": 236,
-  "Deletes": 892,
+  "Success": true,
+  "Message": "unde",
+  "Inserts": 195,
+  "Updates": 118,
+  "Deletes": 790,
   "RowStatus": [
     {
-      "PrimaryKey": 156,
+      "PrimaryKey": 1002,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "ut",
-        "ut"
+        "distinctio",
+        "non"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 65
+          "FieldType": "System.String",
+          "FieldLength": 11
         }
       }
     },
     {
-      "PrimaryKey": 156,
+      "PrimaryKey": 1002,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "ut",
-        "ut"
+        "distinctio",
+        "non"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 65
+          "FieldType": "System.String",
+          "FieldLength": 11
         }
       }
     }
@@ -161,8 +161,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 941
+      "FieldType": "System.Int32",
+      "FieldLength": 289
     }
   }
 }

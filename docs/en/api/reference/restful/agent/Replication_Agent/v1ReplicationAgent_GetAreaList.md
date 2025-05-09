@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Replication/GetAreaList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,18 +88,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AreaId": 750,
-    "Name": "Braun Inc and Sons",
-    "MaxDataAge": 617,
-    "NumberOfUsers": 876,
-    "NumberOfLogins": 936,
-    "FreetextEnabeled": false,
+    "AreaId": 756,
+    "Name": "Jones Group",
+    "MaxDataAge": 140,
+    "NumberOfUsers": 4,
+    "NumberOfLogins": 809,
+    "FreetextEnabeled": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 322
+        "FieldLength": 916
       }
     }
   }

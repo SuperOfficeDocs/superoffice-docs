@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 74,
-    "Name": "Rice LLC",
-    "Tooltip": "occaecati",
+    "HeadingId": 135,
+    "Name": "Dare-Wehner",
+    "Tooltip": "amet",
     "Deleted": false,
-    "Rank": 899,
-    "UdListDefinitionId": 503,
+    "Rank": 178,
+    "UdListDefinitionId": 891,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 308
+        "FieldLength": 56
       }
     }
   }

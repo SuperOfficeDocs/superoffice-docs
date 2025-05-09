@@ -636,16 +636,19 @@ Activity archive provider for the Sale card
 |sale/probPercent|int|Probability as %: Probability as %| x |
 |sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
 |sale/stage|listAny|Stage: Displays the stage of the sale| x |
+|sale/stageName| *None* |Stage name: Displays the stage of the sale| x |
 |sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
 |sale/stageRank| *None* |Stage rank: Rank of the sale stage in the stage list| x |
 |sale/saleType|listAny|Sale type: Sale type, from list| x |
-|sale/nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
-|sale/reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
-|sale/stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
+|sale/saleTypeId| *None* |Sale type ID: Sale type, from list| x |
+|sale/stageId| *None* |Sale stage ID: Displays the stage of the sale| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
+|sale/reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
+|sale/stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
 |sale/saleTypeCategory|listAny|Sale type category: Sale type category| x |
 |sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
 |sale/saleNumber|string|Number: Number| x |
@@ -711,6 +714,7 @@ Activity archive provider for the Sale card
 |endDate|date|End date: Displays the deadline for a follow-up/sale| x |
 |priority|listAny|Priority: Displays the priority of the activity| x |
 |alarm|bool|Has alarm: Displays the alarm state of a follow-up| x |
+|isFree|bool|Is free: Displays whether the appointment should be considered free or busy| x |
 |recurring|bool|Repeating: Displays an icon indicating if the follow-up is part of a repeating follow-up| x |
 |booking|bool|Invitation: Displays an icon if the follow-up is an invitation. All invitations will be displayed in a tooltip.| x |
 |intention|listAny|Intention: Displays the intention of the follow-up type| x |
@@ -742,14 +746,14 @@ Activity archive provider for the Sale card
 |appointmentUdef/SuperOffice:8|decimal|followupdecimal| x |
 |appointment/description|positiveString|Text: Displays the text entered in the description field| x |
 |appointment/title|positiveString|Title| x |
-|appointment/titleHtml| *None* |!!Title Html| x |
-|appointment/agenda|positiveString|Agenda| x |
-|appointment/agendaHtml| *None* |!!Agenda Html| x |
-|appointment/isConverted| *None* |!!Is Converted|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|appointment/titleHtml| *None* |!!Title Html| x |
+|appointment/agenda|positiveString|Agenda| x |
+|appointment/agendaHtml| *None* |!!Agenda Html| x |
+|appointment/isConverted| *None* |!!Is Converted|  |
 |appointment/textId|int|Text ID| x |
 |appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
 |appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
@@ -757,7 +761,7 @@ Activity archive provider for the Sale card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleActivity?$select=person/personExtra/y_rental/id,contact/restrictionAddress/county,contact/contactAssociate/personId,project/projectUdef/SuperOffice:6,sale/registeredBy
+GET /api/v1/archive/SaleActivity?$select=contact/contactExtra/x_contact_contact,project/projectAssociate/assocName,project/projectAssociate/userName,project/project/textId,sale/stalledComment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

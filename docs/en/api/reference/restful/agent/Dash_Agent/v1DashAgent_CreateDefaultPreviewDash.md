@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,33 +72,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 883,
-  "Name": "Funk, Runte and Strosin",
-  "Description": "Seamless value-added intranet",
-  "OwnedByFullName": "Isabel Bartholome Wehner Sr.",
-  "Registered": "2021-08-22T13:14:00.0475885+02:00",
+  "DashboardId": 426,
+  "Name": "Eichmann-Strosin",
+  "Description": "Intuitive 4th generation neural-net",
+  "OwnedByFullName": "Mr. Susana Jermaine Dicki",
+  "Registered": "2002-12-10T16:32:38.602139+01:00",
   "Tiles": [
     {
-      "Name": "Wuckert LLC",
+      "Name": "Carroll-Connelly",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 382
+          "FieldLength": 584
         }
       }
     },
     {
-      "Name": "Wuckert LLC",
+      "Name": "Carroll-Connelly",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 382
+          "FieldLength": 584
         }
       }
     }
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 206
+      "FieldLength": 892
     }
   }
 }

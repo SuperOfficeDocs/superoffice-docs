@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 350,
-  "Name": "Kulas-Wiza",
-  "Tooltip": "neque",
+  "Id": 971,
+  "Name": "Hyatt Group",
+  "Tooltip": "autem",
   "Deleted": false,
-  "UdListDefinitionId": 62,
-  "Rank": 691,
+  "UdListDefinitionId": 635,
+  "Rank": 465,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 698
+      "FieldType": "System.Int32",
+      "FieldLength": 24
     }
   }
 }

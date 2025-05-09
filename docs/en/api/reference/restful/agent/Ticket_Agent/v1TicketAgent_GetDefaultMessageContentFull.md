@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Ticket/GetDefaultMessageContentFull
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 154,
+  "TicketId": 1002,
   "MessageActionType": "Forward",
-  "TicketMessageId": 771,
-  "TicketTypeId": 224
+  "TicketMessageId": 906,
+  "TicketTypeId": 242
 }
 ```
 
@@ -93,23 +93,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "aut",
+  "Body": "id",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 932,
-      "Name": "Morar, Rosenbaum and Maggio",
-      "ContentType": "iste",
-      "AttSize": 979,
+      "AttachmentId": 282,
+      "Name": "Turner-Fay",
+      "ContentType": "esse",
+      "AttSize": 390,
       "InlineImage": false,
-      "ContentId": "quam",
-      "AuthKey": "blanditiis",
+      "ContentId": "et",
+      "AuthKey": "odit",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 940
+          "FieldLength": 808
         }
       }
     }

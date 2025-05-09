@@ -12186,12 +12186,16 @@
       href: Services88/Appointment/CreateDefaultSuggestedAppointmentEntity.md
     - name: CreateDefaultTaskListItem
       href: Services88/Appointment/CreateDefaultTaskListItem.md
+    - name: CreateVideoMeetingReservation
+      href: Services88/Appointment/CreateVideoMeetingReservation.md
     - name: DeclineInvitationFromEmailItem
       href: Services88/Appointment/DeclineInvitationFromEmailItem.md
     - name: Delete
       href: Services88/Appointment/Delete.md
     - name: DeleteAppointmentEntity
       href: Services88/Appointment/DeleteAppointmentEntity.md
+    - name: DeleteVideoMeetingReservation
+      href: Services88/Appointment/DeleteVideoMeetingReservation.md
     - name: GenerateLead
       href: Services88/Appointment/GenerateLead.md
     - name: GetActivityInformationListByDatesAndAssociate
@@ -12306,6 +12310,8 @@
       href: Services88/Appointment/GetUIDFromAppointmentId.md
     - name: Move
       href: Services88/Appointment/Move.md
+    - name: MoveExtended
+      href: Services88/Appointment/MoveExtended.md
     - name: MoveWithEmail
       href: Services88/Appointment/MoveWithEmail.md
     - name: Reject
@@ -12960,6 +12966,8 @@
       href: Services88/CustomerService/DeleteCustomerCenterConfig.md
     - name: EventHandlerExists
       href: Services88/CustomerService/EventHandlerExists.md
+    - name: EventHandlersExists
+      href: Services88/CustomerService/EventHandlersExists.md
     - name: ExecuteEventHandlers
       href: Services88/CustomerService/ExecuteEventHandlers.md
     - name: FindTicketsByTitleOrId
@@ -13189,6 +13197,8 @@
       href: Services88/Diagnostics/GetWebAppUsagesForPeriod.md
     - name: LogViewState
       href: Services88/Diagnostics/LogViewState.md
+    - name: PerformTasksAfterCustomObjectTableDeleted
+      href: Services88/Diagnostics/PerformTasksAfterCustomObjectTableDeleted.md
     - name: PerformTasksAfterUpgrade
       href: Services88/Diagnostics/PerformTasksAfterUpgrade.md
     - name: RemoveExpiredSystemMessages
@@ -15439,8 +15449,12 @@
       href: Services88/Sale/SaveSaleStakeholder.md
     - name: SetAsLost
       href: Services88/Sale/SetAsLost.md
+    - name: SetAsLostWithReason
+      href: Services88/Sale/SetAsLostWithReason.md
     - name: SetAsSold
       href: Services88/Sale/SetAsSold.md
+    - name: SetAsSoldWithReason
+      href: Services88/Sale/SetAsSoldWithReason.md
     - name: UpdateSaleStakeholders
       href: Services88/Sale/UpdateSaleStakeholders.md
     - name: ValidateSaleEntity

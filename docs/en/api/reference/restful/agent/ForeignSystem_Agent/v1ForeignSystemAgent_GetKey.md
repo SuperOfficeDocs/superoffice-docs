@@ -90,11 +90,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Ruecker Group",
-  "DeviceName": "Keeling, Boyer and Rowe",
-  "KeyName": "Reichel, Feeney and Senger",
-  "TableName": "Stokes LLC",
-  "RecordId": 563
+  "ApplicationName": "Schmidt-Raynor",
+  "DeviceName": "Baumbach, Kuhic and Osinski",
+  "KeyName": "Bins, Dooley and Emard",
+  "TableName": "Hermann LLC",
+  "RecordId": 769
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "eligendi",
-  "Value": "quas",
-  "RecordId": 396,
-  "CreatedDate": "2012-05-01T13:14:00.5168611+02:00",
-  "UpdatedDate": "2016-05-29T13:14:00.5168611+02:00",
-  "UpdatedBy": "nihil",
-  "CreatedBy": "iusto",
-  "TableName": "Nicolas-Welch",
+  "Key": "est",
+  "Value": "similique",
+  "RecordId": 207,
+  "CreatedDate": "2011-09-21T16:32:39.1645096+02:00",
+  "UpdatedDate": "2000-03-01T16:32:39.1645096+01:00",
+  "UpdatedBy": "ut",
+  "CreatedBy": "et",
+  "TableName": "Kuhic, Walsh and Flatley",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 697
+      "FieldLength": 725
     }
   }
 }

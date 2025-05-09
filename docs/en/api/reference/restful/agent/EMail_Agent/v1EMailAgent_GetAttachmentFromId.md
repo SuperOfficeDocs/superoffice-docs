@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/EMail/GetAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 843,
-  "AttachmentId": "voluptas"
+  "MailItemId": 997,
+  "AttachmentId": "dignissimos"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Cross-group mobile monitoring",
-  "Filename": "et",
-  "Size": 547,
-  "Type": "voluptatem",
-  "Encoding": "repellendus",
-  "Id": "id",
-  "Disposition": "voluptatem",
-  "IsSafeFileExtension": true,
+  "Description": "Profit-focused modular project",
+  "Filename": "odio",
+  "Size": 893,
+  "Type": "sunt",
+  "Encoding": "facilis",
+  "Id": "vel",
+  "Disposition": "rem",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 632
+      "FieldLength": 54
     }
   }
 }

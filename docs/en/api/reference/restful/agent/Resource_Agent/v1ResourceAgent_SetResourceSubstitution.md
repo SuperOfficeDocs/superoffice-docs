@@ -67,13 +67,13 @@ No Content
 POST /api/v1/Agents/Resource/SetResourceSubstitution
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Gulgowski, Hartmann and Boyer",
-  "ResourceValues": "nulla",
-  "Culture": "impedit",
+  "ResourceName": "Kuhic LLC",
+  "ResourceValues": "veritatis",
+  "Culture": "sint",
   "IsActive": false
 }
 ```

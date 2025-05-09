@@ -81,24 +81,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 404,
-  "Name": "Altenwerth-Hane",
-  "Tooltip": "commodi",
+  "RoleId": 467,
+  "Name": "Brown-DuBuque",
+  "Tooltip": "aut",
   "RoleType": "Anonymous",
-  "Deleted": 197,
-  "Rank": 509,
-  "Created": "2003-07-29T13:14:01.6600684+02:00",
-  "UseCategories": 870,
+  "Deleted": 418,
+  "Rank": 891,
+  "Created": "1999-01-23T16:32:40.4144684+01:00",
+  "UseCategories": 972,
   "CreatedBy": null,
-  "Updated": "2017-10-31T13:14:01.6600684+01:00",
+  "Updated": "2007-05-19T16:32:40.4144684+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 909
+      "FieldType": "System.String",
+      "FieldLength": 415
     }
   }
 }

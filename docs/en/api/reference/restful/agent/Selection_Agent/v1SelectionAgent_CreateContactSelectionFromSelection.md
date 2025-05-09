@@ -116,14 +116,14 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 996,
-  "Name": "Howe, VonRueden and Dooley",
+  "SelectionId": 368,
+  "Name": "Heller, Brown and McGlynn",
   "TargetSelectionType": "Combined",
-  "CopyMembers": true
+  "CopyMembers": false
 }
 ```
 
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Upgradable attitude-oriented attitude",
-  "Postit": "aut",
+  "Description": "Object-based cohesive policy",
+  "Postit": "iste",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 885,
-  "IncludePerson": 43,
+  "GroupIdx": 533,
+  "IncludePerson": 597,
   "MemberCount": 99.99,
-  "Name": "Purdy-Weimann",
-  "PostitTextId": 200,
-  "CreatedDate": "2018-04-01T13:14:01.300672+02:00",
-  "SelectionId": 623,
-  "SoundEx": "et",
-  "Source": 60,
-  "TextId": 578,
-  "UpdatedDate": "2014-04-15T13:14:01.300672+02:00",
-  "UpdatedCount": 421,
-  "Visibility": 625,
+  "Name": "Haley LLC",
+  "PostitTextId": 582,
+  "CreatedDate": "2018-09-23T16:32:39.8989674+02:00",
+  "SelectionId": 907,
+  "SoundEx": "qui",
+  "Source": 736,
+  "TextId": 903,
+  "UpdatedDate": "2013-08-09T16:32:39.8989674+02:00",
+  "UpdatedCount": 61,
+  "Visibility": 749,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 576,
-  "TargetTableName": "Satterfield-Sporer",
-  "Completed": false,
-  "LeftSelectionId": 946,
-  "RightSelectionId": 406,
+  "CompanyUnique": true,
+  "TargetTableNumber": 32,
+  "TargetTableName": "Murazik-Upton",
+  "Completed": true,
+  "LeftSelectionId": 477,
+  "RightSelectionId": 692,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Jewess, Cole and Walker",
-  "ShadowProviderName": "Walter, Langosh and Beatty",
-  "ChartKey": "provident",
-  "LastLoaded": "2010-07-04T13:14:01.300672+02:00",
-  "LastLoadedBy": 540,
+  "MainProviderName": "Wiegand LLC",
+  "ShadowProviderName": "Little LLC",
+  "ChartKey": "tenetur",
+  "LastLoaded": "2019-11-29T16:32:39.8989674+01:00",
+  "LastLoadedBy": 753,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2013-12-15T13:14:01.300672+01:00",
-  "LastMembershipChangeBy": 126,
+  "LastMembershipChange": "2003-03-20T16:32:39.8989674+01:00",
+  "LastMembershipChangeBy": 487,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "beatae",
-  "MemberTabHeading": "adipisci",
-  "MailingsProviderName": "Lakin, Williamson and Dietrich",
-  "DashboardTileDefinitionId": 97,
+  "MainHeading": "deserunt",
+  "MemberTabHeading": "molestiae",
+  "MailingsProviderName": "Veum Inc and Sons",
+  "DashboardTileDefinitionId": 829,
   "VisibleFor": [
     {
-      "VisibleId": 977,
+      "VisibleId": 615,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 283
+          "FieldType": "System.Int32",
+          "FieldLength": 282
         }
       }
     },
     {
-      "VisibleId": 977,
+      "VisibleId": 615,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 283
+          "FieldType": "System.Int32",
+          "FieldLength": 282
         }
       }
     }
@@ -206,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 1001
+      "FieldType": "System.Int32",
+      "FieldLength": 754
     }
   }
 }

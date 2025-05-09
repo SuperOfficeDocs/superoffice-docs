@@ -69,7 +69,7 @@ OK
 GET /api/v1/Dash/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 702,
-  "UniqueId": "neque",
-  "Name": "Hyatt-D'Amore",
-  "Description": "Expanded exuding emulation",
-  "AssociateId": 646,
-  "Columns": 185,
+  "DashboardId": 641,
+  "UniqueId": "sed",
+  "Name": "Hickle, Reilly and Dicki",
+  "Description": "Managed zero defect project",
+  "AssociateId": 413,
+  "Columns": 545,
   "Theme": null,
-  "VisibleForAll": 769,
+  "VisibleForAll": 811,
   "VisibleForAssociates": [
-    290,
-    835
+    891,
+    507
   ],
   "VisibleForGroups": [
-    283,
-    145
+    384,
+    774
   ],
-  "PinForAll": 369,
+  "PinForAll": 227,
   "PinForAssociates": [
-    358,
-    676
+    177,
+    902
   ],
   "PinForGroups": [
-    585,
-    252
+    978,
+    233
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 934
+      "FieldLength": 198
     }
   }
 }

@@ -30,8 +30,8 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=aspernatur
-GET /api/v1/MDOList/{listname}/selectable?flat=False
+GET /api/v1/MDOList/{listname}/selectable?additional=iste
+GET /api/v1/MDOList/{listname}/selectable?flat=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 315,
-    "Name": "Gutkowski, McDermott and Bashirian",
-    "ToolTip": "Et error voluptatem tenetur nulla ipsum.",
+    "Id": 600,
+    "Name": "Leuschke LLC",
+    "ToolTip": "Vitae culpa praesentium magnam sit impedit velit.",
     "Deleted": false,
-    "Rank": 637,
-    "Type": "accusamus",
-    "ColorBlock": 998,
-    "IconHint": "tenetur",
+    "Rank": 318,
+    "Type": "dolores",
+    "ColorBlock": 36,
+    "IconHint": "quia",
     "Selected": true,
-    "LastChanged": "1998-11-16T13:14:09.8066418+01:00",
+    "LastChanged": "2009-03-30T16:32:48.7120179+02:00",
     "ChildItems": [
       {
-        "Id": 264,
-        "Name": "West Group",
-        "ToolTip": "Accusantium excepturi explicabo alias aspernatur.",
-        "Deleted": true,
-        "Rank": 685,
-        "Type": "dolor",
-        "ColorBlock": 690,
-        "IconHint": "autem",
-        "Selected": true,
-        "LastChanged": "2004-10-05T13:14:09.8066418+02:00",
+        "Id": 918,
+        "Name": "Farrell, Bauch and Volkman",
+        "ToolTip": "Repellendus numquam similique.",
+        "Deleted": false,
+        "Rank": 574,
+        "Type": "earum",
+        "ColorBlock": 129,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2007-08-19T16:32:48.7120179+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
-        "StyleHint": "quidem",
-        "Hidden": false,
-        "FullName": "Quincy Lemke",
+        "ExtraInfo": "velit",
+        "StyleHint": "nemo",
+        "Hidden": true,
+        "FullName": "Bailee Heathcote",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 540
+            "FieldType": "System.Int32",
+            "FieldLength": 747
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "non",
+    "ExtraInfo": "et",
+    "StyleHint": "similique",
     "Hidden": false,
-    "FullName": "Rozella Bednar",
+    "FullName": "Dudley Turner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 435
+        "FieldLength": 991
       }
     }
   }

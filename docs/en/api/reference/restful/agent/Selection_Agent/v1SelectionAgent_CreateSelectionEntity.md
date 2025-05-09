@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Heller Inc and Sons"
+  "TargetTableName": "Kreiger-Gutmann"
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Virtual systematic Graphical User Interface",
-  "Postit": "expedita",
+  "Description": "Sharable 24 hour Graphical User Interface",
+  "Postit": "iure",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 771,
-  "IncludePerson": 881,
+  "GroupIdx": 937,
+  "IncludePerson": 611,
   "MemberCount": 99.99,
-  "Name": "Roob, Nikolaus and Schuppe",
-  "PostitTextId": 433,
-  "CreatedDate": "2011-07-11T13:14:01.300672+02:00",
-  "SelectionId": 917,
-  "SoundEx": "non",
-  "Source": 133,
-  "TextId": 244,
-  "UpdatedDate": "2005-10-03T13:14:01.300672+02:00",
-  "UpdatedCount": 463,
-  "Visibility": 373,
+  "Name": "Stamm-Gorczany",
+  "PostitTextId": 527,
+  "CreatedDate": "2008-01-27T16:32:39.8989674+01:00",
+  "SelectionId": 688,
+  "SoundEx": "quia",
+  "Source": 930,
+  "TextId": 589,
+  "UpdatedDate": "2007-10-10T16:32:39.8989674+02:00",
+  "UpdatedCount": 1000,
+  "Visibility": 181,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 72,
-  "TargetTableName": "VonRueden-Zemlak",
-  "Completed": false,
-  "LeftSelectionId": 30,
-  "RightSelectionId": 725,
+  "CompanyUnique": false,
+  "TargetTableNumber": 337,
+  "TargetTableName": "Toy-Pouros",
+  "Completed": true,
+  "LeftSelectionId": 868,
+  "RightSelectionId": 697,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Yundt Group",
-  "ShadowProviderName": "Harber-Rowe",
-  "ChartKey": "omnis",
-  "LastLoaded": "2013-08-02T13:14:01.300672+02:00",
-  "LastLoadedBy": 731,
+  "MainProviderName": "Zemlak-Gutmann",
+  "ShadowProviderName": "Wolf-Toy",
+  "ChartKey": "sequi",
+  "LastLoaded": "2008-03-08T16:32:39.8989674+01:00",
+  "LastLoadedBy": 639,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-10-14T13:14:01.300672+02:00",
-  "LastMembershipChangeBy": 513,
+  "LastMembershipChange": "2018-05-30T16:32:39.8989674+02:00",
+  "LastMembershipChangeBy": 53,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "nam",
-  "MemberTabHeading": "culpa",
-  "MailingsProviderName": "Wilkinson-Cormier",
-  "DashboardTileDefinitionId": 96,
+  "MainHeading": "cum",
+  "MemberTabHeading": "ut",
+  "MailingsProviderName": "Hauck Inc and Sons",
+  "DashboardTileDefinitionId": 677,
   "VisibleFor": [
     {
-      "VisibleId": 975,
+      "VisibleId": 584,
       "Visibility": "All",
-      "DisplayValue": "illum",
+      "DisplayValue": "molestias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 377
+          "FieldLength": 927
         }
       }
     },
     {
-      "VisibleId": 975,
+      "VisibleId": 584,
       "Visibility": "All",
-      "DisplayValue": "illum",
+      "DisplayValue": "molestias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 377
+          "FieldLength": 927
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 138
+      "FieldType": "System.String",
+      "FieldLength": 535
     }
   }
 }

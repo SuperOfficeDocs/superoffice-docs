@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Brakus-Weimann",
-  "ListItemId": 903
+  "UdListDefinitionName": "Rau, Boyer and Lubowitz",
+  "ListItemId": 748
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 878,
-    "Name": "Jacobson, Kiehn and Heller",
-    "ToolTip": "Et dolores quae vitae.",
+    "Id": 353,
+    "Name": "Mraz Group",
+    "ToolTip": "Doloribus velit.",
     "Deleted": false,
-    "Rank": 263,
-    "Type": "temporibus",
-    "ColorBlock": 92,
-    "IconHint": "incidunt",
+    "Rank": 503,
+    "Type": "autem",
+    "ColorBlock": 761,
+    "IconHint": "necessitatibus",
     "Selected": false,
-    "LastChanged": "2022-11-29T13:14:00.5793728+01:00",
+    "LastChanged": "2020-03-03T16:32:39.2426162+01:00",
     "ChildItems": [
       {
-        "Id": 275,
-        "Name": "Nader-Leuschke",
-        "ToolTip": "Iure odit.",
-        "Deleted": true,
-        "Rank": 752,
-        "Type": "quaerat",
-        "ColorBlock": 199,
-        "IconHint": "eum",
+        "Id": 684,
+        "Name": "Bode LLC",
+        "ToolTip": "Enim praesentium deleniti.",
+        "Deleted": false,
+        "Rank": 525,
+        "Type": "voluptatibus",
+        "ColorBlock": 354,
+        "IconHint": "quibusdam",
         "Selected": false,
-        "LastChanged": "1998-10-04T13:14:00.5793728+02:00",
+        "LastChanged": "2001-09-06T16:32:39.2426162+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "asperiores",
-        "StyleHint": "nostrum",
-        "Hidden": true,
-        "FullName": "Darby Huels DVM",
+        "ExtraInfo": "impedit",
+        "StyleHint": "consequatur",
+        "Hidden": false,
+        "FullName": "Ruthe Cloyd Wiegand IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 6
+            "FieldLength": 737
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "architecto",
+    "ExtraInfo": "placeat",
+    "StyleHint": "earum",
     "Hidden": false,
-    "FullName": "Murray Harvey",
+    "FullName": "Mrs. Lupe Johnston IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 281
+        "FieldLength": 260
       }
     }
   }

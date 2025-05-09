@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/BLOB/CreateDefaultBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,25 +79,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 516,
-  "BlobSize": 123,
-  "Description": "Multi-channelled dynamic concept",
-  "ExtraInfo": "facere",
-  "IsEncrypted": false,
+  "BlobId": 637,
+  "BlobSize": 308,
+  "Description": "Realigned even-keeled project",
+  "ExtraInfo": "rem",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "consectetur",
-  "OriginalSize": 913,
-  "CreatedDate": "2014-04-10T13:13:59.5314453+02:00",
-  "UpdatedDate": "2015-03-31T13:13:59.5314453+02:00",
+  "MimeType": "animi",
+  "OriginalSize": 906,
+  "CreatedDate": "2001-08-15T16:32:38.2116027+02:00",
+  "UpdatedDate": "2004-03-05T16:32:38.2116027+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "corrupti",
+  "ConceptualType": "fuga",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 627
+      "FieldLength": 791
     }
   }
 }

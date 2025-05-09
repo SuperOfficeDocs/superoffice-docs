@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/AssignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 504,
-  "ModuleOwner": "voluptas",
+  "AssociateId": 952,
+  "ModuleOwner": "aut",
   "ModuleLicenseNames": [
-    "Nicolas, Boyer and Hermiston",
-    "Mohr-O'Connell"
+    "Hauck Inc and Sons",
+    "Price-Bernhard"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 555,
-    "Tooltip": "praesentium",
-    "CanAssign": true,
-    "Free": 628,
-    "InUse": 332,
+    "Total": 892,
+    "Tooltip": "animi",
+    "CanAssign": false,
+    "Free": 772,
+    "InUse": 690,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 762,
-    "Name": "Gutkowski, Quigley and Hickle",
-    "Description": "Stand-alone explicit parallelism",
-    "PrerequisiteModuleName": "Kunze-Mills",
-    "SortOrder": 234,
-    "ExtraFlags": 220,
+    "ModuleLicenseId": 144,
+    "Name": "Kerluke-Zboncak",
+    "Description": "Pre-emptive radical website",
+    "PrerequisiteModuleName": "Fahey, Lowe and Kassulke",
+    "SortOrder": 783,
+    "ExtraFlags": 586,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 926
+        "FieldType": "System.Int32",
+        "FieldLength": 450
       }
     }
   }

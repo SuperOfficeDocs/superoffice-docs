@@ -49,7 +49,9 @@ Service methods defined on <see cref='T:ISaleAgent'>SaleAgent</see> that can tri
 * [SaveSaleEntity](savesaleentity.md)
 * [SaveSaleStakeholder](savesalestakeholder.md)
 * [SetAsLost](setaslost.md)
+* [SetAsLostWithReason](setaslostwithreason.md)
 * [SetAsSold](setassold.md)
+* [SetAsSoldWithReason](setassoldwithreason.md)
 * [UpdateSaleStakeholders](updatesalestakeholders.md)
 * [ValidateSaleEntity](validatesaleentity.md)
 

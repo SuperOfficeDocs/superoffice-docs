@@ -120,18 +120,18 @@ TriggerScriptEntity  updated.
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ab",
+    "path": "expedita",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ab",
+    "path": "expedita",
     "value": {}
   }
 ]
@@ -144,27 +144,27 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 713,
-  "Name": "Ondricka LLC",
+  "ScreenChooserId": 989,
+  "Name": "Lehner, Sawayn and Friesen",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "omnis",
-  "Source": "possimus",
-  "Registered": "2023-11-04T13:14:09.3685305+01:00",
-  "RegisteredAssociateId": 981,
-  "Updated": "2010-04-15T13:14:09.3685305+02:00",
-  "UpdatedAssociateId": 348,
+  "UniqueIdentifier": "sed",
+  "Source": "et",
+  "Registered": "2010-01-07T16:32:48.2745849+01:00",
+  "RegisteredAssociateId": 30,
+  "Updated": "2004-12-27T16:32:48.2745849+01:00",
+  "UpdatedAssociateId": 472,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 57
+      "FieldType": "System.Int32",
+      "FieldLength": 756
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

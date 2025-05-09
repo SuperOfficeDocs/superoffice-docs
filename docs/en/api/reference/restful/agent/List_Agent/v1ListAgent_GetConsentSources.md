@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 242,
-    "Name": "Anderson Inc and Sons",
-    "Tooltip": "ut",
-    "Rank": 254,
-    "Key": "in",
-    "MailTemplateId": 534,
+    "ConsentSourceId": 14,
+    "Name": "Bednar LLC",
+    "Tooltip": "ea",
+    "Rank": 379,
+    "Key": "eos",
+    "MailTemplateId": 436,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 608
+        "FieldType": "System.Int32",
+        "FieldLength": 381
       }
     }
   }

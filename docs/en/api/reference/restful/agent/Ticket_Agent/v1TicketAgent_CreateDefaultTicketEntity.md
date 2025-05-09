@@ -114,7 +114,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -124,21 +124,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 5,
-  "Title": "qui",
-  "CreatedAt": "2012-01-09T13:14:01.4256794+01:00",
-  "LastChanged": "2022-07-30T13:14:01.4256794+02:00",
-  "ReadByOwner": "2020-09-14T13:14:01.4256794+02:00",
-  "ReadByCustomer": "2010-02-03T13:14:01.4256794+01:00",
-  "FirstReadByOwner": "2017-07-03T13:14:01.4256794+02:00",
-  "FirstReadByUser": "2023-06-22T13:14:01.4256794+02:00",
-  "Activate": "2021-03-16T13:14:01.4256794+01:00",
-  "ClosedAt": "2017-06-16T13:14:01.4256794+02:00",
-  "RepliedAt": "2010-03-22T13:14:01.4256794+01:00",
-  "AlertTimeout": "2006-04-02T13:14:01.4256794+02:00",
-  "Deadline": "2011-10-14T13:14:01.4256794+02:00",
+  "TicketId": 215,
+  "Title": "eligendi",
+  "CreatedAt": "2019-04-14T16:32:40.1801475+02:00",
+  "LastChanged": "2019-01-24T16:32:40.1801475+01:00",
+  "ReadByOwner": "2019-07-23T16:32:40.1801475+02:00",
+  "ReadByCustomer": "2002-10-13T16:32:40.1801475+02:00",
+  "FirstReadByOwner": "2019-10-08T16:32:40.1801475+02:00",
+  "FirstReadByUser": "2014-06-22T16:32:40.1801475+02:00",
+  "Activate": "2014-01-27T16:32:40.1801475+01:00",
+  "ClosedAt": "2017-04-18T16:32:40.1801475+02:00",
+  "RepliedAt": "2000-11-25T16:32:40.1801475+01:00",
+  "AlertTimeout": "2024-11-12T16:32:40.1801475+01:00",
+  "Deadline": "2018-11-30T16:32:40.1801475+01:00",
   "CreatedBy": null,
-  "Author": "sunt",
+  "Author": "cupiditate",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -149,163 +149,163 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "molestias",
-      "PersonId": 396,
-      "Mrmrs": "sed",
-      "Firstname": "Amelia",
-      "Lastname": "Treutel",
-      "MiddleName": "Wyman, Ryan and Price",
-      "Title": "reiciendis",
-      "Description": "Grass-roots transitional interface",
-      "Email": "coralie@champlinhamill.biz",
-      "FullName": "Kailee Robb Ratke Sr.",
-      "DirectPhone": "070.076.9461 x9483",
-      "FormalName": "Rosenbaum, Langosh and Hackett",
-      "CountryId": 980,
-      "ContactId": 844,
-      "ContactName": "Kiehn-Greenholt",
-      "Retired": 209,
-      "Rank": 437,
-      "ActiveInterests": 997,
+      "Position": "facere",
+      "PersonId": 432,
+      "Mrmrs": "distinctio",
+      "Firstname": "Brielle",
+      "Lastname": "Rau",
+      "MiddleName": "Orn, Ortiz and Dare",
+      "Title": "inventore",
+      "Description": "Automated modular migration",
+      "Email": "spencer@feilfritsch.co.uk",
+      "FullName": "Godfrey Rosenbaum",
+      "DirectPhone": "1-484-527-8023",
+      "FormalName": "Crist-Littel",
+      "CountryId": 574,
+      "ContactId": 347,
+      "ContactName": "Collins Group",
+      "Retired": 243,
+      "Rank": 413,
+      "ActiveInterests": 111,
       "ContactDepartment": "",
-      "ContactCountryId": 53,
-      "ContactOrgNr": "83059",
-      "FaxPhone": "144-129-4908",
-      "MobilePhone": "162-656-2747",
-      "ContactPhone": "1-016-513-5031 x23475",
-      "AssociateName": "Gaylord Inc and Sons",
-      "AssociateId": 954,
+      "ContactCountryId": 312,
+      "ContactOrgNr": "98343",
+      "FaxPhone": "845-697-0202 x00308",
+      "MobilePhone": "1-111-481-9209 x6471",
+      "ContactPhone": "685-636-6790",
+      "AssociateName": "Zieme-Collier",
+      "AssociateId": 199,
       "UsePersonAddress": false,
-      "ContactFax": "odio",
-      "Kanafname": "in",
-      "Kanalname": "rem",
-      "Post1": "aliquam",
-      "Post2": "placeat",
-      "Post3": "aut",
-      "EmailName": "johnny@padberglubowitz.info",
-      "ContactFullName": "Litzy Fritsch",
-      "ActiveErpLinks": 924,
-      "TicketPriorityId": 99,
-      "SupportLanguageId": 272,
-      "SupportAssociateId": 517,
+      "ContactFax": "voluptatem",
+      "Kanafname": "voluptas",
+      "Kanalname": "porro",
+      "Post1": "est",
+      "Post2": "laborum",
+      "Post3": "suscipit",
+      "EmailName": "madalyn@pollich.ca",
+      "ContactFullName": "Prof. Zetta Adelia Morar",
+      "ActiveErpLinks": 266,
+      "TicketPriorityId": 132,
+      "SupportLanguageId": 156,
+      "SupportAssociateId": 915,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "457306",
+      "PersonNumber": "465573",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 277
+          "FieldLength": 80
         }
       }
     }
   ],
-  "AlertLevel": 251,
-  "ConnectId": 352,
+  "AlertLevel": 935,
+  "ConnectId": 266,
   "ReadStatus": "Green",
-  "TimeToReply": 793,
-  "RealTimeToReply": 799,
-  "TimeToClose": 237,
-  "RealTimeToClose": 682,
-  "TimeSpentInternally": 796,
-  "TimeSpentExternally": 285,
-  "TimeSpentQueue": 563,
-  "RealTimeSpentInternally": 922,
-  "RealTimeSpentExternally": 596,
-  "RealTimeSpentQueue": 603,
-  "TimeSpent": 249,
+  "TimeToReply": 527,
+  "RealTimeToReply": 455,
+  "TimeToClose": 874,
+  "RealTimeToClose": 853,
+  "TimeSpentInternally": 431,
+  "TimeSpentExternally": 430,
+  "TimeSpentQueue": 48,
+  "RealTimeSpentInternally": 117,
+  "RealTimeSpentExternally": 710,
+  "RealTimeSpentQueue": 793,
+  "TimeSpent": 711,
   "HasAttachment": false,
-  "NumReplies": 46,
-  "NumMessages": 126,
-  "FromAddress": "dolores",
+  "NumReplies": 569,
+  "NumMessages": 369,
+  "FromAddress": "aliquid",
   "Messages": [
     {
-      "TicketMessageId": 299,
-      "CreatedAt": "2004-08-12T13:14:01.4256794+02:00",
+      "TicketMessageId": 835,
+      "CreatedAt": "1998-08-01T16:32:40.1801475+02:00",
       "Slevel": "External",
       "Important": false,
-      "Author": "dolor",
-      "PersonId": 150,
-      "PersonFullName": "Zella Brown",
-      "ContactId": 331,
-      "ContactName": "O'Kon, Zieme and Gusikowski",
+      "Author": "quia",
+      "PersonId": 750,
+      "PersonFullName": "Ms. Winston West MD",
+      "ContactId": 265,
+      "ContactName": "Cole-Kreiger",
       "ContactDepartment": "",
-      "NumAttachments": 58,
-      "EmailHeader": "trisha@ohara.ca",
+      "NumAttachments": 196,
+      "EmailHeader": "glenna.parker@trantowmraz.biz",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "consectetur",
-      "Sentiment": 543,
-      "SentimentConfidence": 351,
-      "CreatedBy": 587,
-      "ChangedAt": "2009-10-17T13:14:01.4256794+02:00",
+      "Language": "deserunt",
+      "Sentiment": 426,
+      "SentimentConfidence": 414,
+      "CreatedBy": 609,
+      "ChangedAt": "1998-05-27T16:32:40.1801475+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 749
+          "FieldLength": 212
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 617,
-      "Name": "Langosh-Veum",
-      "ToolTip": "Ut quae molestias iste consequuntur sit consequatur impedit.",
+      "Id": 538,
+      "Name": "Christiansen, Hermann and Gulgowski",
+      "ToolTip": "Sint numquam ea inventore voluptatem sed.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 575
+          "FieldLength": 930
         }
       }
     },
     {
-      "Id": 617,
-      "Name": "Langosh-Veum",
-      "ToolTip": "Ut quae molestias iste consequuntur sit consequatur impedit.",
+      "Id": 538,
+      "Name": "Christiansen, Hermann and Gulgowski",
+      "ToolTip": "Sint numquam ea inventore voluptatem sed.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 575
+          "FieldLength": 930
         }
       }
     }
   ],
-  "Language": "quia",
-  "Sentiment": 60,
-  "SentimentConfidence": 355,
-  "SuggestedCategoryId": 642,
+  "Language": "sit",
+  "Sentiment": 402,
+  "SentimentConfidence": 49,
+  "SuggestedCategoryId": 813,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 908,
-  "IconHint": "distinctio",
+  "OrigHumanCategoryId": 634,
+  "IconHint": "voluptatem",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 709,
+  "ActiveStatusMonitorId": 986,
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "distinctio"
+    "ExtraFields1": "odit",
+    "ExtraFields2": "delectus"
   },
   "CustomFields": {
-    "CustomFields1": "illum",
-    "CustomFields2": "adipisci"
+    "CustomFields1": "fuga",
+    "CustomFields2": "beatae"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 965
+      "FieldLength": 802
     }
   }
 }

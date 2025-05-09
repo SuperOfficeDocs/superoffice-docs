@@ -79,28 +79,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 94,
-  "Name": "Schumm LLC",
-  "Description": "Synergistic scalable installation",
-  "DeltaJson": "modi",
+  "ConfigurableScreenDeltaId": 810,
+  "Name": "Koch-Schiller",
+  "Description": "Ameliorated demand-driven contingency",
+  "DeltaJson": "minima",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "ipsa",
-  "UpdatedDate": "2015-10-16T13:13:59.6881883+02:00",
-  "CreatedDate": "2005-04-16T13:13:59.6881883+02:00",
+  "RecipeId": "eum",
+  "UpdatedDate": "2007-10-11T16:32:38.3678168+02:00",
+  "CreatedDate": "2005-09-14T16:32:38.3678168+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    621,
-    141
+    566,
+    397
   ],
-  "AppliesToKey": "sed",
+  "AppliesToKey": "nihil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 70
+      "FieldLength": 99
     }
   }
 }

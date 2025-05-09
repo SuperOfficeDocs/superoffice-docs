@@ -71,10 +71,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 247,
+  "ErpConnectionId": 409,
   "InternalKeyIds": [
-    718,
-    120
+    820,
+    412
   ]
 }
 ```

@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "NewEntity": null,
-  "Notify": true
+  "Notify": false
 }
 ```
 
@@ -115,79 +115,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 953,
+  "EjMessageId": 83,
   "Ticket": null,
-  "CreatedAt": "2024-12-04T13:14:01.6288165+01:00",
+  "CreatedAt": "2002-11-26T16:32:40.3832248+01:00",
   "CreatedBy": null,
-  "Author": "voluptatem",
+  "Author": "qui",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "non",
-  "TimeSpent": 248,
-  "Body": "nesciunt",
-  "HtmlBody": "est",
-  "EmailHeader": "ronny@sauer.co.uk",
-  "DebugInfo": "qui",
-  "MailSorter": "eius",
+  "MessageId": "qui",
+  "TimeSpent": 184,
+  "Body": "adipisci",
+  "HtmlBody": "praesentium",
+  "EmailHeader": "sylvan.zemlak@schimmel.ca",
+  "DebugInfo": "necessitatibus",
+  "MailSorter": "inventore",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "doloribus",
+  "SearchTitle": "sed",
   "MessageHeaders": [
     {
-      "Id": 616,
-      "Name": "Blick, Dooley and Friesen",
-      "Value": "vitae",
+      "Id": 91,
+      "Name": "Franecki, Simonis and Roob",
+      "Value": "iure",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 331
+          "FieldType": "System.String",
+          "FieldLength": 236
         }
       }
     }
   ],
   "Important": false,
-  "Language": "repellat",
-  "Sentiment": 95,
-  "SentimentConfidence": 269,
+  "Language": "sed",
+  "Sentiment": 237,
+  "SentimentConfidence": 925,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 861,
-      "Name": "Willms-Welch",
-      "ContentType": "voluptas",
-      "AttSize": 798,
-      "InlineImage": false,
-      "ContentId": "id",
-      "AuthKey": "sit",
+      "AttachmentId": 716,
+      "Name": "Schmitt-Rutherford",
+      "ContentType": "et",
+      "AttSize": 344,
+      "InlineImage": true,
+      "ContentId": "molestiae",
+      "AuthKey": "minima",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 875
+          "FieldLength": 999
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "dignissimos",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "cum",
-    "CustomFields2": "alias"
+    "CustomFields1": "dignissimos",
+    "CustomFields2": "quos"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 37
+      "FieldLength": 702
     }
   }
 }

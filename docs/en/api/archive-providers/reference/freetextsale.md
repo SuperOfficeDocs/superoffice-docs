@@ -72,9 +72,12 @@ as well as before any ORDER BY, are applied.
 |probPercent|int|Probability as %: Probability as %| x |
 |originalStage|listAny|Stage: Displays the stage of the sale| x |
 |stage|listAny|Stage: Displays the stage of the sale| x |
+|stageName| *None* |Stage name: Displays the stage of the sale| x |
 |saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
 |stageRank| *None* |Stage rank: Rank of the sale stage in the stage list| x |
 |saleType|listAny|Sale type: Sale type, from list| x |
+|saleTypeId| *None* |Sale type ID: Sale type, from list| x |
+|stageId| *None* |Sale stage ID: Displays the stage of the sale| x |
 |nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
 |reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
 |stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
@@ -131,13 +134,13 @@ as well as before any ORDER BY, are applied.
 |person/personRegisteredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |person/portraitThumbnail| *None* |Person image: Person image|  |
 |person/personActiveErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
-|person/ticketPriority|listAny|Service priority: Default service priority for this contact| x |
-|person/supportLanguage|listAny|Preferred language: Preferred language used for reply templates and more| x |
-|person/supportAssociate|associate|Our service contact: Default service contact for this contact| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/ticketPriority|listAny|Service priority: Default service priority for this contact| x |
+|person/supportLanguage|listAny|Preferred language: Preferred language used for reply templates and more| x |
+|person/supportAssociate|associate|Our service contact: Default service contact for this contact| x |
 |person/supportAssociateFullName|associate|Our service contact - Full name: Default service contact for this contact| x |
 |person/personAssociateId|associate|Our contact: Displays our contact| x |
 |person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
@@ -235,13 +238,13 @@ as well as before any ORDER BY, are applied.
 |person/personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
 |person/personExtra/y\_car/id|int|Car - id: Displays the row's primary key (y\_car)| x |
 |person/personAssociate/firstName|string|First name: Displays the contact's first name| x |
-|person/personAssociate/lastName|string|Last name: Displays the contact's last name| x |
-|person/personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
-|person/personAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personAssociate/lastName|string|Last name: Displays the contact's last name| x |
+|person/personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
+|person/personAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |person/personAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |person/personAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |person/personAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -339,13 +342,13 @@ as well as before any ORDER BY, are applied.
 |contact/phone/formattedNumber|string|Phone : Displays phone number|  |
 |contact/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |contact/deletedDate|datetime|Deleted date: Deleted date|  |
-|contact/mainContact| *None* |Main contact: Main contact for this company| x |
-|contact/contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
-|contact/contactPhone/description|string|Telephone - Description: Phone number description| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/mainContact| *None* |Main contact: Main contact for this company| x |
+|contact/contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
+|contact/contactPhone/description|string|Telephone - Description: Phone number description| x |
 |contact/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
 |contact/contactFax/description|string|Fax - Description: Phone number description| x |
 |contact/searchPhone/formattedNumber|string|Searchphone - Phone: Displays phone number|  |
@@ -443,13 +446,13 @@ as well as before any ORDER BY, are applied.
 |contact/contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
 |contact/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
 |contact/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
-|contact/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
-|contact/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
-|contact/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
+|contact/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
+|contact/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
 |contact/contactExtra/x\_contact\_dropdown|listAny|Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
 |contact/contactExtra/x\_contact\_date|date|Extra date: Custom date field. User current as default.| x |
 |contact/contactExtra/x\_contact\_datetime|datetime|Extra DateTime: Custom Date Time field. No default value. External| x |
@@ -547,13 +550,13 @@ as well as before any ORDER BY, are applied.
 |project/updatedBy|associate|Updated by: The user who last updated the data| x |
 |project/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |project/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
-|project/registeredBy|associate|Registered by: The user who registered the data| x |
-|project/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
-|project/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/registeredBy|associate|Registered by: The user who registered the data| x |
+|project/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
+|project/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |project/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |project/nextMilestone|date|Next milestone: Date of next non-completed activity that is marked as a milestone| x |
 |project/endDate|date|End date: End date of project| x |
@@ -651,13 +654,13 @@ as well as before any ORDER BY, are applied.
 |saleStakeholder/person/personHasInterests|bool|Stakeholder - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |saleStakeholder/person/mrMrs|string|Stakeholder - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |saleStakeholder/person/position|listAny|Stakeholder - Position| x |
-|saleStakeholder/person/personNumber|string|Stakeholder - Number: Displays the contact's number| x |
-|saleStakeholder/person/title|string|Stakeholder - Title: Displays the contact's job title| x |
-|saleStakeholder/person/personCountry|listAny|Stakeholder - Country: Country| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/person/personNumber|string|Stakeholder - Number: Displays the contact's number| x |
+|saleStakeholder/person/title|string|Stakeholder - Title: Displays the contact's job title| x |
+|saleStakeholder/person/personCountry|listAny|Stakeholder - Country: Country| x |
 |saleStakeholder/person/personCountryId|int|Stakeholder - Country ID: Country ID| x |
 |saleStakeholder/person/personNoMail|bool|Stakeholder - No Mailings: Displays the contact's No Mailings checkbox| x |
 |saleStakeholder/person/rank|int|Stakeholder - Rank: Displays a contact's current rank| x |
@@ -755,13 +758,13 @@ as well as before any ORDER BY, are applied.
 |saleStakeholder/person/personUdef/SuperOffice:9|string|Stakeholder - page1saleonly| x |
 |saleStakeholder/person/personUdef/SuperOffice:10|string|Stakeholder - page1marketingonly| x |
 |saleStakeholder/person/personUdef/SuperOffice:11|string|Stakeholder - page1adminonly| x |
-|saleStakeholder/person/personExtra/x\_person\_integer|int|Stakeholder - Extra Integer: Custom person integer| x |
-|saleStakeholder/person/personExtra/x\_person\_float|decimal|Stakeholder - Extra float: Custom float field| x |
-|saleStakeholder/person/personExtra/x\_person\_longtext|string|Stakeholder - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/person/personExtra/x\_person\_integer|int|Stakeholder - Extra Integer: Custom person integer| x |
+|saleStakeholder/person/personExtra/x\_person\_float|decimal|Stakeholder - Extra float: Custom float field| x |
+|saleStakeholder/person/personExtra/x\_person\_longtext|string|Stakeholder - Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |saleStakeholder/person/personExtra/x\_person\_date|date|Stakeholder - Extra date: Custom date field on person. Default value = 28.03.2019| x |
 |saleStakeholder/person/personExtra/x\_person\_datetime|datetime|Stakeholder - Extra DateTime: Custom person date and time field. No default| x |
 |saleStakeholder/person/personExtra/x\_person\_time| *None* |Stakeholder - Extra time: Custom time field on person. Current time as default| x |
@@ -859,13 +862,13 @@ as well as before any ORDER BY, are applied.
 |saleStakeholder/contact/contactId|int|Stakeholder - Company ID: Database ID of company| x |
 |saleStakeholder/contact/name|stringorPK|Stakeholder - Company name| x |
 |saleStakeholder/contact/department|string|Stakeholder - Department| x |
-|saleStakeholder/contact/nameDepartment| *None* |Stakeholder - Company: Displays the company an activity is linked to| x |
-|saleStakeholder/contact/hasInfoText|bool|Stakeholder - Has note: Displays an icon indicating if there is additional information available about the contact| x |
-|saleStakeholder/contact/hasInterests|bool|Stakeholder - Has interests: Displays an Icon indicating if the contact has active interests| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/contact/nameDepartment| *None* |Stakeholder - Company: Displays the company an activity is linked to| x |
+|saleStakeholder/contact/hasInfoText|bool|Stakeholder - Has note: Displays an icon indicating if there is additional information available about the contact| x |
+|saleStakeholder/contact/hasInterests|bool|Stakeholder - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |saleStakeholder/contact/associateId|associate|Stakeholder - Our contact: Displays our contact| x |
 |saleStakeholder/contact/category|listAny|Stakeholder - Category| x |
 |saleStakeholder/contact/business|listAny|Stakeholder - Business| x |
@@ -963,13 +966,13 @@ as well as before any ORDER BY, are applied.
 |saleStakeholder/contact/contactAssociate/ejDisplayName|string|Stakeholder - Nick name: User's nick name in Service| x |
 |saleStakeholder/contact/contactAssociate/ejStatus|int|Stakeholder - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |saleStakeholder/contact/contactAssociate/credentialType| *None* |Stakeholder - Auth. type: What type of credentials to use when this user logs in| x |
-|saleStakeholder/contact/contactAssociate/credentialDisplayValue| *None* |Stakeholder - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
-|saleStakeholder/contact/contactAssociate/isActive|bool|Stakeholder - Active: Is this user active, and should be able to log in?| x |
-|saleStakeholder/contact/contactAssociate/isActiveText|bool|Stakeholder - Active status: Is this user active, and should be able to log in?| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/contact/contactAssociate/credentialDisplayValue| *None* |Stakeholder - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
+|saleStakeholder/contact/contactAssociate/isActive|bool|Stakeholder - Active: Is this user active, and should be able to log in?| x |
+|saleStakeholder/contact/contactAssociate/isActiveText|bool|Stakeholder - Active status: Is this user active, and should be able to log in?| x |
 |saleStakeholder/contact/contactAssociate/portraitThumbnail| *None* |Stakeholder - Person image: Person image|  |
 |saleStakeholder/contact/contactAssociate/otherGroups|userGroup|Stakeholder - Other groups: Other groups|  |
 |saleStakeholder/contact/contactAssociate/userName|string|Stakeholder - User name: User name| x |
@@ -1067,13 +1070,13 @@ as well as before any ORDER BY, are applied.
 |quote/version/alternative/name|string|Name: Name of the quote alternative| x |
 |quote/version/alternative/description|string|Description: Description of the quote alternative| x |
 |quote/version/alternative/status|listAny|Quote status: Status field showing the status of each line.| x |
-|quote/version/alternative/reason|string|Quote reason: The reason or explanation for any status other than 'OK'.| x |
-|quote/version/alternative/erpDiscountPercent|decimal|ERP Discount %: Discount percentage suggested by ERP system| x |
-|quote/version/alternative/erpDiscountAmount|decimal|ERP Discount: Discount amount suggested by ERP system| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|quote/version/alternative/reason|string|Quote reason: The reason or explanation for any status other than 'OK'.| x |
+|quote/version/alternative/erpDiscountPercent|decimal|ERP Discount %: Discount percentage suggested by ERP system| x |
+|quote/version/alternative/erpDiscountAmount|decimal|ERP Discount: Discount amount suggested by ERP system| x |
 |quote/version/alternative/discountPercent|decimal|Discount %: Enter discount in percent for entire alternative| x |
 |quote/version/alternative/discountAmount|decimal|Discount: Enter total discount for entire alternative| x |
 |quote/version/alternative/vatInfo|string|VAT Info: Information about value-added and other taxes| x |
@@ -1137,7 +1140,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextSale?$select=completed,type,contact/contactAssociate/ejUserId,project/status,saleStakeholder/person/personRegisteredByFullName
+GET /api/v1/archive/FreetextSale?$select=recordType,person/correspondingAssociate/otherGroups,contact/contactExtra/x_contact_float,saleStakeholder/person/restrictionAddress/addressId,saleStakeholder/person/personExtra/x_person_category_relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

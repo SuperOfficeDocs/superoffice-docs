@@ -85,7 +85,7 @@ ContactEntity found.
 GET /api/v1/Contact/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,36 +95,36 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 955,
-  "Name": "Windler-Hamill",
-  "OrgNr": "1410381",
+  "ContactId": 630,
+  "Name": "Treutel-Volkman",
+  "OrgNr": "685996",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "animi",
-  "DirectPhone": "(460)454-6514",
-  "AssociateId": 993,
-  "CountryId": 223,
-  "EmailAddress": "zoe@jerderenner.co.uk",
-  "Kananame": "et",
-  "EmailAddressName": "francesca@goodwin.name",
+  "City": "ut",
+  "DirectPhone": "790-485-2874 x846",
+  "AssociateId": 279,
+  "CountryId": 326,
+  "EmailAddress": "rhoda@stehrkohler.name",
+  "Kananame": "quia",
+  "EmailAddressName": "graham@damorejones.co.uk",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Ubaldo Hamill",
+  "AssociateFullName": "Rosa Hubert Krajcik IV",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "dolores",
-  "FullName": "Claude Kihn",
-  "IsOwnerContact": false,
-  "ActiveErpLinks": 155,
-  "Number1": "1173507",
-  "Number2": "1251974",
+  "FormattedAddress": "iste",
+  "FullName": "Garrison Yost",
+  "IsOwnerContact": true,
+  "ActiveErpLinks": 678,
+  "Number1": "1700119",
+  "Number2": "1370571",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 391
+      "FieldType": "System.Int32",
+      "FieldLength": 45
     }
   }
 }

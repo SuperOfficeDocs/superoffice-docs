@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "earum"
+  "TriggerScriptUniqueId": "ullam"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 291,
-  "Name": "Kozey-Stroman",
+  "ScreenChooserId": 936,
+  "Name": "Senger, Mraz and Cruickshank",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "quia",
-  "Source": "molestiae",
-  "Registered": "2000-06-24T13:14:00.0163364+02:00",
-  "RegisteredAssociateId": 589,
-  "Updated": "2016-11-08T13:14:00.0163364+01:00",
-  "UpdatedAssociateId": 601,
+  "UniqueIdentifier": "eveniet",
+  "Source": "quia",
+  "Registered": "2002-08-08T16:32:38.570895+02:00",
+  "RegisteredAssociateId": 638,
+  "Updated": "2014-09-09T16:32:38.570895+02:00",
+  "UpdatedAssociateId": 701,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 120
+      "FieldLength": 35
     }
   }
 }

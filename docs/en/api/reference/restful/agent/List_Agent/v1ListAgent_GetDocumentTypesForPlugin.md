@@ -70,11 +70,11 @@ OK
 POST /api/v1/Agents/List/GetDocumentTypesForPlugin
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PluginId": 447
+  "PluginId": 827
 }
 ```
 
@@ -85,7 +85,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "sunt",
-  "2": "aut"
+  "1": "voluptatem",
+  "2": "molestiae"
 }
 ```

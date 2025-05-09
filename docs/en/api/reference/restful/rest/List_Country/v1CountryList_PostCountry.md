@@ -99,27 +99,27 @@ OK
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 621,
-  "Name": "Hilpert-Hayes",
-  "CurrencyId": 682,
-  "EnglishName": "Aufderhar Inc and Sons",
+  "CountryId": 405,
+  "Name": "Nader LLC",
+  "CurrencyId": 949,
+  "EnglishName": "Kuvalis, Littel and Swaniawski",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Customer-focused assymetric success",
-  "OrgNrText": "990351",
-  "InterAreaPrefix": "et",
-  "DialInPrefix": "placeat",
-  "ZipPrefix": "itaque",
-  "DomainName": "Labadie-Upton",
-  "AddressLayoutId": 678,
-  "DomesticAddressLayoutId": 432,
-  "ForeignAddressLayoutId": 73,
-  "Rank": 210,
-  "Tooltip": "vel",
+  "ImageDescription": "Visionary maximized core",
+  "OrgNrText": "1964942",
+  "InterAreaPrefix": "odio",
+  "DialInPrefix": "animi",
+  "ZipPrefix": "voluptas",
+  "DomainName": "Abernathy, King and Smith",
+  "AddressLayoutId": 587,
+  "DomesticAddressLayoutId": 38,
+  "ForeignAddressLayoutId": 1002,
+  "Rank": 410,
+  "Tooltip": "et",
   "Deleted": false
 }
 ```
@@ -131,30 +131,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 842,
-  "Name": "Sipes, Monahan and Sporer",
-  "CurrencyId": 502,
-  "EnglishName": "Torp-Reinger",
+  "CountryId": 776,
+  "Name": "Greenholt Inc and Sons",
+  "CurrencyId": 645,
+  "EnglishName": "Gerlach, Wisozk and Collins",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Upgradable reciprocal core",
-  "OrgNrText": "472730",
-  "InterAreaPrefix": "rerum",
-  "DialInPrefix": "omnis",
-  "ZipPrefix": "veritatis",
-  "DomainName": "Wuckert Inc and Sons",
-  "AddressLayoutId": 391,
-  "DomesticAddressLayoutId": 233,
-  "ForeignAddressLayoutId": 608,
-  "Rank": 455,
-  "Tooltip": "tempora",
+  "ImageDescription": "Mandatory neutral support",
+  "OrgNrText": "606894",
+  "InterAreaPrefix": "omnis",
+  "DialInPrefix": "vel",
+  "ZipPrefix": "non",
+  "DomainName": "Jewess Inc and Sons",
+  "AddressLayoutId": 954,
+  "DomesticAddressLayoutId": 478,
+  "ForeignAddressLayoutId": 126,
+  "Rank": 130,
+  "Tooltip": "earum",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 655
+      "FieldType": "System.String",
+      "FieldLength": 738
     }
   }
 }

@@ -114,28 +114,28 @@ ContactRelationEntity updated.
 PUT /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 71,
-  "SourcePersonId": 368,
-  "DestinationContactId": 969,
-  "DestinationPersonId": 827,
-  "RelationId": 19,
-  "Comment": "dicta",
-  "RelationDefinitionId": 475,
-  "Reversed": 551,
-  "UpdatedDate": "2014-08-21T13:14:08.6178742+02:00",
-  "CreatedDate": "2015-05-29T13:14:08.6178742+02:00",
+  "SourceContactId": 966,
+  "SourcePersonId": 706,
+  "DestinationContactId": 893,
+  "DestinationPersonId": 972,
+  "RelationId": 840,
+  "Comment": "a",
+  "RelationDefinitionId": 824,
+  "Reversed": 849,
+  "UpdatedDate": "2023-11-27T16:32:47.3996115+01:00",
+  "CreatedDate": "2014-09-05T16:32:47.3996115+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Boyer-Emard",
-  "SourcePersonName": "Zemlak Group",
-  "DestinationContactName": "Brekke-O'Reilly",
-  "DestinationPersonName": "Vandervort, Morar and Tromp",
-  "ActiveText": "facere",
-  "PassiveText": "sint"
+  "SourceContactName": "Huels-Sporer",
+  "SourcePersonName": "Konopelski, Bahringer and Purdy",
+  "DestinationContactName": "Nienow Inc and Sons",
+  "DestinationPersonName": "Champlin LLC",
+  "ActiveText": "cum",
+  "PassiveText": "dicta"
 }
 ```
 
@@ -146,30 +146,30 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 740,
-  "SourcePersonId": 795,
-  "DestinationContactId": 862,
-  "DestinationPersonId": 551,
-  "RelationId": 617,
-  "Comment": "odio",
-  "RelationDefinitionId": 699,
-  "Reversed": 2,
-  "UpdatedDate": "2016-10-07T13:14:08.6178742+02:00",
-  "CreatedDate": "2013-10-06T13:14:08.6178742+02:00",
+  "SourceContactId": 930,
+  "SourcePersonId": 520,
+  "DestinationContactId": 1000,
+  "DestinationPersonId": 253,
+  "RelationId": 936,
+  "Comment": "illum",
+  "RelationDefinitionId": 742,
+  "Reversed": 436,
+  "UpdatedDate": "2024-02-24T16:32:47.3996115+01:00",
+  "CreatedDate": "2020-07-14T16:32:47.3996115+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Kuhic Inc and Sons",
-  "SourcePersonName": "Hickle Group",
-  "DestinationContactName": "Koch-Rogahn",
-  "DestinationPersonName": "Dicki, Kreiger and Hoppe",
-  "ActiveText": "voluptate",
-  "PassiveText": "rerum",
+  "SourceContactName": "Kunde, Grant and Runolfsdottir",
+  "SourcePersonName": "Fritsch, Feil and Grant",
+  "DestinationContactName": "McLaughlin, Gottlieb and Jacobs",
+  "DestinationPersonName": "Cormier, Aufderhar and Waelchi",
+  "ActiveText": "a",
+  "PassiveText": "iusto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 883
+      "FieldLength": 512
     }
   },
   "_Links": {

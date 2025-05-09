@@ -77,7 +77,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 432,
-  "Section": "enim",
-  "Key": "sit",
-  "Name": "Hoeger-Hessel",
+  "PrefDescId": 961,
+  "Section": "et",
+  "Key": "non",
+  "Name": "Schaden LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Front-line stable info-mediaries",
+  "Description": "Cloned tangible task-force",
   "IsBuiltin": true,
-  "TableName": "Windler, Kuphal and Schinner",
-  "UserDefinedListId": 204,
-  "Rank": 62,
-  "SubGroup": "est",
-  "MinLevel": 192,
-  "MaxValue": 666,
-  "MinValue": 222,
-  "RequiredLicense": "repellat",
+  "TableName": "Predovic, Kunde and Kohler",
+  "UserDefinedListId": 188,
+  "Rank": 477,
+  "SubGroup": "qui",
+  "MinLevel": 173,
+  "MaxValue": 664,
+  "MinValue": 451,
+  "RequiredLicense": "aspernatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 640
+      "FieldLength": 172
     }
   }
 }

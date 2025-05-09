@@ -83,39 +83,39 @@ OK
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 36,
-  "Field": "dolor",
-  "RecordId": 4,
+  "RefCountsId": 613,
+  "Field": "qui",
+  "RecordId": 934,
   "SuggestedRecords": [
     {
-      "Id": 905,
-      "Name": "Toy Inc and Sons",
-      "ToolTip": "Rem cum unde ab non.",
+      "Id": 71,
+      "Name": "Moen, Haley and Ratke",
+      "ToolTip": "Doloremque repellat.",
       "Deleted": false,
-      "Rank": 706,
-      "Type": "et",
+      "Rank": 495,
+      "Type": "qui",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "repellat",
-      "ColorBlock": 332,
-      "ExtraInfo": "magni",
-      "StyleHint": "laudantium",
-      "FullName": "Wilfredo Hettinger"
+      "IconHint": "delectus",
+      "ColorBlock": 279,
+      "ExtraInfo": "sed",
+      "StyleHint": "qui",
+      "FullName": "Miss Colton Koss"
     }
   ],
-  "CurrentValue": 964,
-  "TravelPrefix": 592,
-  "SatPrefix": 417,
+  "CurrentValue": 481,
+  "TravelPrefix": 482,
+  "SatPrefix": 570,
   "Allocate": false,
-  "Unique": false,
+  "Unique": true,
   "ReadOnly": true,
-  "AllowBlank": false
+  "AllowBlank": true
 }
 ```
 
@@ -126,49 +126,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 481,
-  "Field": "quos",
-  "RecordId": 593,
+  "RefCountsId": 621,
+  "Field": "nostrum",
+  "RecordId": 433,
   "SuggestedRecords": [
     {
-      "Id": 450,
-      "Name": "West LLC",
-      "ToolTip": "Velit a et aut ut quia quia est.",
+      "Id": 338,
+      "Name": "Murphy, Emmerich and Grimes",
+      "ToolTip": "Beatae quaerat aut velit veritatis mollitia molestiae.",
       "Deleted": false,
-      "Rank": 444,
-      "Type": "ea",
+      "Rank": 259,
+      "Type": "maiores",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "est",
-      "ColorBlock": 123,
-      "ExtraInfo": "quas",
+      "IconHint": "magni",
+      "ColorBlock": 565,
+      "ExtraInfo": "doloremque",
       "StyleHint": "quo",
-      "FullName": "Marilie Rodriguez",
+      "FullName": "Kamille Audra Mann DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 692
+          "FieldType": "System.String",
+          "FieldLength": 390
         }
       }
     }
   ],
-  "CurrentValue": 509,
-  "TravelPrefix": 206,
-  "SatPrefix": 986,
+  "CurrentValue": 631,
+  "TravelPrefix": 497,
+  "SatPrefix": 75,
   "Allocate": false,
-  "Unique": false,
-  "ReadOnly": true,
+  "Unique": true,
+  "ReadOnly": false,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 971
+      "FieldLength": 643
     }
   }
 }

@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Replication/SaveSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 777,
-  "Created": "2006-07-31T13:14:01.033265+02:00",
+  "SatelliteId": 352,
+  "Created": "2018-08-25T16:32:39.7739903+02:00",
   "CreatedBy": null,
-  "Updated": "2004-03-09T13:14:01.033265+01:00",
+  "Updated": "2014-02-12T16:32:39.7739903+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Cruickshank LLC",
-      "Description": "Versatile demand-driven productivity",
+      "Name": "Gulgowski, Lueilwitz and Klein",
+      "Description": "User-centric scalable ability",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Cruickshank LLC",
-      "Description": "Versatile demand-driven productivity",
+      "Name": "Gulgowski, Lueilwitz and Klein",
+      "Description": "User-centric scalable ability",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -126,17 +126,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 876,
-  "Created": "2002-04-24T13:14:01.033265+02:00",
+  "SatelliteId": 325,
+  "Created": "2007-02-01T16:32:39.7739903+01:00",
   "CreatedBy": null,
-  "Updated": "2011-06-05T13:14:01.033265+02:00",
+  "Updated": "2020-10-23T16:32:39.7739903+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Gislason-Sporer",
-      "Description": "Persistent local approach",
+      "Name": "Torphy, Koch and Russel",
+      "Description": "Quality-focused asynchronous hub",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -149,14 +149,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 48
+          "FieldType": "System.Int32",
+          "FieldLength": 860
         }
       }
     },
     {
-      "Name": "Gislason-Sporer",
-      "Description": "Persistent local approach",
+      "Name": "Torphy, Koch and Russel",
+      "Description": "Quality-focused asynchronous hub",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 48
+          "FieldType": "System.Int32",
+          "FieldLength": 860
         }
       }
     }
@@ -180,7 +180,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 565
+      "FieldLength": 364
     }
   }
 }

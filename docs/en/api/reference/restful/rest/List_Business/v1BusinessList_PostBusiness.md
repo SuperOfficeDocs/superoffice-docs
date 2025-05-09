@@ -77,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 771,
-  "Name": "Dach, Marks and Lemke",
-  "Tooltip": "illum",
-  "Deleted": false,
-  "UdListDefinitionId": 908,
-  "Rank": 379
+  "Id": 774,
+  "Name": "Heller, Mraz and Cremin",
+  "Tooltip": "voluptatem",
+  "Deleted": true,
+  "UdListDefinitionId": 889,
+  "Rank": 83
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 922,
-  "Name": "Jenkins Inc and Sons",
-  "Tooltip": "officiis",
+  "Id": 619,
+  "Name": "Mraz-Raynor",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 634,
-  "Rank": 721,
+  "UdListDefinitionId": 666,
+  "Rank": 657,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 353
+      "FieldType": "System.Int32",
+      "FieldLength": 280
     }
   }
 }

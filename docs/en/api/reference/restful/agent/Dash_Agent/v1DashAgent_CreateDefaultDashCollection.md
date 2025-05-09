@@ -59,7 +59,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,111 +71,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 850,
-      "UniqueId": "officiis",
-      "Name": "Rogahn Group",
-      "Description": "Digitized analyzing hardware",
-      "AssociateId": 49,
-      "Columns": 278,
+      "DashboardId": 299,
+      "UniqueId": "aut",
+      "Name": "Breitenberg LLC",
+      "Description": "Adaptive fresh-thinking customer loyalty",
+      "AssociateId": 74,
+      "Columns": 858,
       "Theme": null,
-      "VisibleForAll": 797,
+      "VisibleForAll": 659,
       "VisibleForAssociates": [
-        648,
-        562
+        468,
+        92
       ],
       "VisibleForGroups": [
-        378,
-        641
+        220,
+        936
       ],
-      "PinForAll": 768,
+      "PinForAll": 710,
       "PinForAssociates": [
-        747,
-        524
+        852,
+        885
       ],
       "PinForGroups": [
-        896,
-        533
+        548,
+        193
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 62
+          "FieldLength": 726
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 571,
-      "UniqueId": "aut",
-      "Name": "Grant Group",
-      "Description": "Advanced local strategy",
-      "AssociateId": 872,
-      "Columns": 960,
+      "DashboardId": 952,
+      "UniqueId": "voluptatem",
+      "Name": "Kilback, Waelchi and Stokes",
+      "Description": "Extended analyzing hub",
+      "AssociateId": 428,
+      "Columns": 355,
       "Theme": null,
-      "VisibleForAll": 356,
+      "VisibleForAll": 471,
       "VisibleForAssociates": [
-        521,
-        732
+        433,
+        359
       ],
       "VisibleForGroups": [
-        647,
-        690
+        354,
+        979
       ],
-      "PinForAll": 399,
+      "PinForAll": 79,
       "PinForAssociates": [
-        891,
-        398
+        619,
+        903
       ],
       "PinForGroups": [
-        493,
-        469
+        213,
+        774
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 322
+          "FieldLength": 338
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 62,
-      "UniqueId": "nemo",
-      "Name": "Will Inc and Sons",
-      "Description": "Business-focused attitude-oriented frame",
-      "AssociateId": 926,
-      "Columns": 71,
+      "DashboardId": 220,
+      "UniqueId": "cumque",
+      "Name": "Casper-Blick",
+      "Description": "Assimilated zero defect concept",
+      "AssociateId": 865,
+      "Columns": 755,
       "Theme": null,
-      "VisibleForAll": 532,
+      "VisibleForAll": 765,
       "VisibleForAssociates": [
-        963,
-        686
+        987,
+        502
       ],
       "VisibleForGroups": [
-        394,
-        423
+        22,
+        355
       ],
-      "PinForAll": 980,
+      "PinForAll": 600,
       "PinForAssociates": [
-        21,
-        1002
+        662,
+        901
       ],
       "PinForGroups": [
-        261,
-        239
+        901,
+        367
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 1000
+          "FieldLength": 475
         }
       }
     }
@@ -185,7 +185,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 663
+      "FieldLength": 498
     }
   }
 }

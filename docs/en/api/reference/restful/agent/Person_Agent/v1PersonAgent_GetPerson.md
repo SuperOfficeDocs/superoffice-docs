@@ -26,7 +26,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=874
+POST /api/v1/Agents/Person/GetPerson?personId=951
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -117,53 +117,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "sequi",
-  "PersonId": 192,
-  "Mrmrs": "ducimus",
-  "Firstname": "Dana",
-  "Lastname": "Kertzmann",
-  "MiddleName": "Kiehn, Huels and Stokes",
-  "Title": "magnam",
-  "Description": "Integrated zero administration superstructure",
-  "Email": "brandyn.kutch@hamillbeatty.us",
-  "FullName": "Mrs. Mustafa Dayana Steuber",
-  "DirectPhone": "(521)623-2475 x98178",
-  "FormalName": "Price-Ruecker",
-  "CountryId": 823,
-  "ContactId": 986,
-  "ContactName": "Balistreri Group",
-  "Retired": 450,
-  "Rank": 573,
-  "ActiveInterests": 315,
+  "Position": "quis",
+  "PersonId": 822,
+  "Mrmrs": "laboriosam",
+  "Firstname": "Jermey",
+  "Lastname": "Romaguera",
+  "MiddleName": "Spencer Inc and Sons",
+  "Title": "iusto",
+  "Description": "Optional system-worthy service-desk",
+  "Email": "herman.grady@rogahnmetz.ca",
+  "FullName": "Ashlynn Jenkins",
+  "DirectPhone": "763-228-1890",
+  "FormalName": "Fadel Group",
+  "CountryId": 556,
+  "ContactId": 343,
+  "ContactName": "Klein-Heidenreich",
+  "Retired": 798,
+  "Rank": 379,
+  "ActiveInterests": 864,
   "ContactDepartment": "",
-  "ContactCountryId": 909,
-  "ContactOrgNr": "760340",
-  "FaxPhone": "992.988.8930 x9198",
-  "MobilePhone": "780.928.2545 x1221",
-  "ContactPhone": "498-409-9821",
-  "AssociateName": "Ondricka, Steuber and Mraz",
-  "AssociateId": 321,
-  "UsePersonAddress": false,
-  "ContactFax": "blanditiis",
-  "Kanafname": "doloribus",
-  "Kanalname": "ducimus",
-  "Post1": "aperiam",
-  "Post2": "sit",
-  "Post3": "quia",
-  "EmailName": "brook_jakubowski@doylerath.info",
-  "ContactFullName": "Blaise Effertz",
-  "ActiveErpLinks": 971,
-  "TicketPriorityId": 465,
-  "SupportLanguageId": 955,
-  "SupportAssociateId": 973,
+  "ContactCountryId": 738,
+  "ContactOrgNr": "784544",
+  "FaxPhone": "630.396.9022 x0519",
+  "MobilePhone": "(733)498-6158 x117",
+  "ContactPhone": "284-831-6653 x9558",
+  "AssociateName": "Bartoletti LLC",
+  "AssociateId": 410,
+  "UsePersonAddress": true,
+  "ContactFax": "sunt",
+  "Kanafname": "nostrum",
+  "Kanalname": "qui",
+  "Post1": "eos",
+  "Post2": "sed",
+  "Post3": "sint",
+  "EmailName": "elisa_raynor@wunschortiz.us",
+  "ContactFullName": "Abigayle Donnelly V",
+  "ActiveErpLinks": 920,
+  "TicketPriorityId": 155,
+  "SupportLanguageId": 690,
+  "SupportAssociateId": 853,
   "CategoryName": "VIP Customer",
-  "PersonNumber": "1547712",
+  "PersonNumber": "1257292",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 365
+      "FieldLength": 944
     }
   }
 }

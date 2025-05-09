@@ -119,7 +119,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -127,7 +127,7 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 13 Sep 2012 13:14:09 G9T
+Last-Modified: Sun, 14 Jan 2001 16:32:47 G1T
 
 {
   "Appointment": null,
@@ -136,7 +136,7 @@ Last-Modified: Thu, 13 Sep 2012 13:14:09 G9T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "quaerat",
+  "SaleText": "veniam",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -145,113 +145,113 @@ Last-Modified: Thu, 13 Sep 2012 13:14:09 G9T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2023-10-01T13:14:09.1029925+02:00",
-  "Amount": 21847.113999999998,
-  "SaleId": 979,
-  "Earning": 22702.696,
-  "EarningPercent": 17468.916,
-  "Heading": "deserunt",
-  "Number": "1351269",
-  "Probability": 872,
-  "CreatedDate": "2022-03-11T13:14:09.1029925+01:00",
-  "UpdatedDate": "2012-09-13T13:14:09.1029925+02:00",
+  "Saledate": "2021-02-20T16:32:47.9932265+01:00",
+  "Amount": 18998.308,
+  "SaleId": 590,
+  "Earning": 5700.746,
+  "EarningPercent": 6014.146,
+  "Heading": "ipsa",
+  "Number": "768603",
+  "Probability": 864,
+  "CreatedDate": "2016-10-26T16:32:47.9932265+02:00",
+  "UpdatedDate": "2001-01-14T16:32:47.9932265+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 19,
+  "ActiveLinks": 369,
   "Links": [
     {
-      "EntityName": "Runte LLC",
-      "Id": 517,
-      "Description": "Multi-tiered incremental productivity",
-      "ExtraInfo": "nostrum",
-      "LinkId": 649,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 82
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2024-09-27T13:14:09.1029925+02:00",
-  "Postit": "mollitia",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2009-05-28T13:14:09.1029925+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Sanford-Abernathy",
-      "Comment": "maxime",
-      "StakeholderRoleId": 249,
-      "CountryId": 864,
-      "PersonId": 682,
-      "EmailDescription": "chanel@glover.ca",
-      "EmailId": 609,
-      "EmailAddress": "juston@gloverlesch.uk",
-      "PhoneId": 556,
-      "ContactName": "Rodriguez, Boyle and D'Amore",
-      "ContactId": 880,
-      "SaleId": 18,
-      "Mrmrs": "blanditiis",
-      "Firstname": "Ashton",
-      "MiddleName": "Hoeger, Pollich and Watsica",
-      "Lastname": "Brakus",
-      "SaleStakeholderId": 958,
-      "Rank": 149,
-      "Phone": "660.861.8938",
+      "EntityName": "Roob-Gerhold",
+      "Id": 341,
+      "Description": "Stand-alone background projection",
+      "ExtraInfo": "commodi",
+      "LinkId": 326,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 187
+          "FieldLength": 1002
         }
       }
     }
   ],
-  "ActiveErpLinks": 482,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Dayne Rico Daugherty",
-    "SuperOffice:2": "727957242"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "velit",
-    "ExtraFields2": "magni"
-  },
-  "CustomFields": {
-    "CustomFields1": "error",
-    "CustomFields2": "saepe"
-  },
-  "PublishEventDate": "2006-07-16T13:14:09.1029925+02:00",
-  "PublishTo": "2020-03-07T13:14:09.1029925+01:00",
-  "PublishFrom": "2001-04-22T13:14:09.1029925+02:00",
-  "IsPublished": false,
-  "VisibleFor": [
+  "NextDueDate": "2022-09-19T16:32:47.9932265+02:00",
+  "Postit": "enim",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2019-05-10T16:32:47.9932265+02:00",
+  "SaleStakeholders": [
     {
-      "VisibleId": 659,
-      "Visibility": "All",
-      "DisplayValue": "iste",
+      "StakeholderRoleName": "Kuhic, Friesen and Dietrich",
+      "Comment": "voluptas",
+      "StakeholderRoleId": 32,
+      "CountryId": 611,
+      "PersonId": 751,
+      "EmailDescription": "ruby.konopelski@abshire.uk",
+      "EmailId": 27,
+      "EmailAddress": "edward@koss.us",
+      "PhoneId": 527,
+      "ContactName": "Kris Group",
+      "ContactId": 351,
+      "SaleId": 432,
+      "Mrmrs": "excepturi",
+      "Firstname": "Vern",
+      "MiddleName": "Thiel-Leannon",
+      "Lastname": "Ryan",
+      "SaleStakeholderId": 774,
+      "Rank": 759,
+      "Phone": "823.337.4186",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 248
+          "FieldLength": 265
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 143,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Mr. Verlie Jones DDS",
+    "SuperOffice:2": "1695830772"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "et",
+    "ExtraFields2": "illum"
+  },
+  "CustomFields": {
+    "CustomFields1": "id",
+    "CustomFields2": "accusantium"
+  },
+  "PublishEventDate": "2005-05-21T16:32:47.9932265+02:00",
+  "PublishTo": "2024-05-28T16:32:47.9932265+02:00",
+  "PublishFrom": "2003-09-25T16:32:47.9932265+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 71,
+      "Visibility": "All",
+      "DisplayValue": "earum",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 351
         }
       }
     },
     {
-      "VisibleId": 659,
+      "VisibleId": 71,
       "Visibility": "All",
-      "DisplayValue": "iste",
+      "DisplayValue": "earum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 248
+          "FieldType": "System.Int32",
+          "FieldLength": 351
         }
       }
     }
@@ -261,7 +261,7 @@ Last-Modified: Thu, 13 Sep 2012 13:14:09 G9T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 33
+      "FieldLength": 210
     }
   },
   "_Links": {

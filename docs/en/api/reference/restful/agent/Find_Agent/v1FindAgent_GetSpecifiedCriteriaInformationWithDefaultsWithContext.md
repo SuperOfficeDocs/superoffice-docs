@@ -83,22 +83,22 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nostrum",
-  "ProviderName": "Schoen, Ruecker and Huels",
-  "StorageKey": "occaecati",
+  "StorageType": "qui",
+  "ProviderName": "Dooley, Cartwright and Beer",
+  "StorageKey": "hic",
   "DesiredColumnNames": [
-    "Schultz, Bayer and Crist",
-    "Moen Group"
+    "Bernier-Balistreri",
+    "Steuber, McClure and Jerde"
   ],
   "StaticColumns": [
-    "nesciunt",
-    "enim"
+    "quos",
+    "blanditiis"
   ],
-  "Context": "quam"
+  "Context": "vitae"
 }
 ```
 
@@ -111,15 +111,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Runte-Weimann",
-      "Operator": "esse",
+      "Name": "Connelly-Carroll",
+      "Operator": "ut",
       "Values": [
-        "et",
-        "ut"
+        "id",
+        "non"
       ],
       "DisplayValues": [
-        "nihil",
-        "ex"
+        "ipsam",
+        "dignissimos"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -127,65 +127,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 31,
+      "InterParenthesis": 337,
       "InterOperator": "And",
-      "UniqueHash": 943
+      "UniqueHash": 793
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Keebler, Satterfield and Flatley",
-      "DisplayTooltip": "nulla",
-      "DisplayType": "in",
+      "DisplayName": "Kunze, O'Conner and Paucek",
+      "DisplayTooltip": "in",
+      "DisplayType": "saepe",
       "CanOrderBy": false,
-      "Name": "Welch, Schuppe and Torphy",
-      "CanRestrictBy": false,
-      "RestrictionType": "amet",
-      "RestrictionListName": "Kunde-Goodwin",
+      "Name": "Volkman-Pacocha",
+      "CanRestrictBy": true,
+      "RestrictionType": "nihil",
+      "RestrictionListName": "Ebert-Bayer",
       "IsVisible": false,
-      "ExtraInfo": "perferendis",
-      "Width": "quod",
-      "IconHint": "doloremque",
-      "HeadingIconHint": "id"
+      "ExtraInfo": "sed",
+      "Width": "temporibus",
+      "IconHint": "occaecati",
+      "HeadingIconHint": "sunt"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Bernhard, Abshire and Lynch",
-      "PrimaryKey": 561,
+      "EntityName": "Collier-Romaguera",
+      "PrimaryKey": 649,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "fuga",
-          "TooltipHint": "alias",
-          "LinkHint": "cupiditate"
+          "DisplayValue": "dolore",
+          "TooltipHint": "ut",
+          "LinkHint": "dignissimos"
         }
       },
-      "LinkHint": "nobis",
-      "StyleHint": "quos",
+      "LinkHint": "sed",
+      "StyleHint": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 999
+          "FieldLength": 763
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Lebsack Group",
-      "Description": "Cross-platform composite secured line",
-      "Rank": 740,
+      "Name": "Boyer-Buckridge",
+      "Description": "Extended high-level structure",
+      "Rank": 712,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Lebsack Group",
-      "Description": "Cross-platform composite secured line",
-      "Rank": 740,
+      "Name": "Boyer-Buckridge",
+      "Description": "Extended high-level structure",
+      "Rank": 712,
       "Restrictions": [
         {},
         {}
@@ -196,8 +196,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 840
+      "FieldType": "System.String",
+      "FieldLength": 918
     }
   }
 }

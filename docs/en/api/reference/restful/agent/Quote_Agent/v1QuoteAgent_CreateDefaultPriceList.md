@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 373,
-  "ERPPriceListKey": "id",
-  "QuoteConnectionId": 541,
-  "Name": "Pacocha-Nienow",
-  "Description": "Operative secondary functionalities",
-  "Currency": "iste",
-  "CurrencyName": "Brown-Hermiston",
-  "ValidFrom": "2018-07-05T13:14:00.9702863+02:00",
-  "ValidTo": "2000-09-29T13:14:00.9702863+02:00",
-  "IsActive": false,
+  "PriceListId": 634,
+  "ERPPriceListKey": "quasi",
+  "QuoteConnectionId": 760,
+  "Name": "Hilpert, Altenwerth and Prohaska",
+  "Description": "Automated system-worthy contingency",
+  "Currency": "ut",
+  "CurrencyName": "Bins-Shields",
+  "ValidFrom": "1999-06-12T16:32:39.6958859+02:00",
+  "ValidTo": "2013-07-06T16:32:39.6958859+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 812
+      "FieldLength": 754
     }
   }
 }

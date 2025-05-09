@@ -98,6 +98,7 @@ items:
   - SuperOffice.Util.UsedPrefKeysUtils
   - SuperOffice.Util.VideoMeetingHelper
   - SuperOffice.Util.VideoMeetingHelper.SoAppointment
+  - SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation
   - SuperOffice.Util.VisitorPatternHelper`1
   - SuperOffice.Util.WebAppUsageRecorder
   - SuperOffice.Util.Wrapper`1
@@ -1200,6 +1201,13 @@ references:
   name: VideoMeetingHelper.SoAppointment
   nameWithType: VideoMeetingHelper.SoAppointment
   fullName: SuperOffice.Util.VideoMeetingHelper.SoAppointment
+- uid: SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation
+  commentId: T:SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation
+  parent: SuperOffice.Util
+  isExternal: true
+  name: VideoMeetingHelper.VideoMeetingReservation
+  nameWithType: VideoMeetingHelper.VideoMeetingReservation
+  fullName: SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation
 - uid: SuperOffice.Util.WebAppUsageRecorder
   commentId: T:SuperOffice.Util.WebAppUsageRecorder
   isExternal: true

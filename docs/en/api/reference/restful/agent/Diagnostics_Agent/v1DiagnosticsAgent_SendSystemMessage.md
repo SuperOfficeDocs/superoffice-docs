@@ -68,14 +68,14 @@ No Content
 POST /api/v1/Agents/Diagnostics/SendSystemMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemMessageId": "ipsa",
-  "AssociateId": 388,
-  "MarkdownMessage": "harum",
-  "Expire": "2019-02-15T13:14:00.0788404+01:00",
+  "SystemMessageId": "et",
+  "AssociateId": 536,
+  "MarkdownMessage": "est",
+  "Expire": "2024-01-25T16:32:38.6333805+01:00",
   "Type": "Error"
 }
 ```

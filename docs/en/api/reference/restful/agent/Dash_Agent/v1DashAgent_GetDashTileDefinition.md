@@ -26,7 +26,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=471
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=312
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 645,
-  "Name": "Mayert Group",
-  "Description": "Polarised content-based website",
-  "DefaultHeight": 767,
-  "DefaultWidth": 795,
+  "DashboardTileDefinitionId": 871,
+  "Name": "Gleason-Hintz",
+  "Description": "Integrated user-facing flexibility",
+  "DefaultHeight": 774,
+  "DefaultWidth": 776,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Hermiston Group",
-  "SelectionId": 435,
+  "EntityName": "Herzog LLC",
+  "SelectionId": 127,
   "CurrencyMode": "Base",
-  "CurrencyCode": "iusto",
+  "CurrencyCode": "commodi",
   "Measure": "Average",
-  "MeasureField": "similique",
-  "SortBy": "voluptatum",
+  "MeasureField": "magnam",
+  "SortBy": "debitis",
   "LayoutConfig": "dolores",
-  "SecondarySelectionId": 107,
-  "MeasureByField": "ipsam",
+  "SecondarySelectionId": 64,
+  "MeasureByField": "aut",
   "Usage": "Dashboard",
-  "ProviderName": "Wolff Inc and Sons",
+  "ProviderName": "Predovic, Bahringer and Schinner",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 508
+      "FieldLength": 600
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a ContactEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=785
+POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=397
 POST /api/v1/Agents/Contact/GetContactEntity?$select=name,department,category/id
 ```
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -120,157 +120,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 421,
-  "Name": "Mann, Wehner and Wintheiser",
+  "ContactId": 133,
+  "Name": "Dibbert Group",
   "Department": "",
-  "OrgNr": "976955",
-  "Number1": "1448372",
-  "Number2": "463502",
-  "UpdatedDate": "2006-08-03T13:13:59.766318+02:00",
-  "CreatedDate": "2010-12-10T13:13:59.766318+01:00",
+  "OrgNr": "992871",
+  "Number1": "206293",
+  "Number2": "1374897",
+  "UpdatedDate": "2009-08-02T16:32:38.4459231+02:00",
+  "CreatedDate": "2000-01-26T16:32:38.4459231+01:00",
   "Emails": [
     {
-      "Value": "commodi",
-      "StrippedValue": "delectus",
-      "Description": "Re-contextualized zero administration leverage",
+      "Value": "cum",
+      "StrippedValue": "doloremque",
+      "Description": "Operative contextually-based data-warehouse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 394
+          "FieldLength": 90
         }
       }
     },
     {
-      "Value": "commodi",
-      "StrippedValue": "delectus",
-      "Description": "Re-contextualized zero administration leverage",
+      "Value": "cum",
+      "StrippedValue": "doloremque",
+      "Description": "Operative contextually-based data-warehouse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 394
+          "FieldLength": 90
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 471,
-      "Name": "Wehner Group",
-      "ToolTip": "Officiis a ut sed aut dignissimos reiciendis.",
+      "Id": 332,
+      "Name": "Keeling, Lockman and Orn",
+      "ToolTip": "Architecto facilis facere sapiente sequi et.",
       "Deleted": false,
-      "Rank": 222,
-      "Type": "porro",
-      "ColorBlock": 179,
-      "IconHint": "quod",
+      "Rank": 186,
+      "Type": "aut",
+      "ColorBlock": 552,
+      "IconHint": "labore",
       "Selected": false,
-      "LastChanged": "2007-05-12T13:13:59.766318+02:00",
+      "LastChanged": "2000-05-10T16:32:38.4459231+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aliquam",
-      "StyleHint": "quod",
-      "Hidden": true,
-      "FullName": "Tommie Turcotte",
+      "ExtraInfo": "et",
+      "StyleHint": "est",
+      "Hidden": false,
+      "FullName": "King Flatley",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 882
+          "FieldType": "System.Int32",
+          "FieldLength": 72
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "id",
-      "StrippedValue": "tempore",
-      "Description": "Adaptive zero defect data-warehouse",
+      "Value": "iste",
+      "StrippedValue": "adipisci",
+      "Description": "Compatible multimedia instruction set",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 345
+          "FieldLength": 959
         }
       }
     },
     {
-      "Value": "id",
-      "StrippedValue": "tempore",
-      "Description": "Adaptive zero defect data-warehouse",
+      "Value": "iste",
+      "StrippedValue": "adipisci",
+      "Description": "Compatible multimedia instruction set",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 345
+          "FieldLength": 959
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "sapiente",
-      "StrippedValue": "qui",
-      "Description": "Profound radical project",
+      "Value": "quis",
+      "StrippedValue": "modi",
+      "Description": "Seamless empowering pricing structure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 840
+          "FieldLength": 761
         }
       }
     },
     {
-      "Value": "sapiente",
-      "StrippedValue": "qui",
-      "Description": "Profound radical project",
+      "Value": "quis",
+      "StrippedValue": "modi",
+      "Description": "Seamless empowering pricing structure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 840
+          "FieldLength": 761
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "necessitatibus",
-      "StrippedValue": "quia",
-      "Description": "Re-engineered impactful adapter",
+      "Value": "harum",
+      "StrippedValue": "accusantium",
+      "Description": "Expanded upward-trending paradigm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 134
+          "FieldType": "System.Int32",
+          "FieldLength": 925
         }
       }
     },
     {
-      "Value": "necessitatibus",
-      "StrippedValue": "quia",
-      "Description": "Re-engineered impactful adapter",
+      "Value": "harum",
+      "StrippedValue": "accusantium",
+      "Description": "Expanded upward-trending paradigm",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 134
+          "FieldType": "System.Int32",
+          "FieldLength": 925
         }
       }
     }
   ],
-  "Description": "Universal neutral local area network",
+  "Description": "Future-proofed web-enabled definition",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -280,100 +280,100 @@ Content-Type: application/json; charset=utf-8
   "Persons": [
     {
       "Position": "et",
-      "PersonId": 370,
-      "Mrmrs": "dolore",
-      "Firstname": "Marcel",
-      "Lastname": "Kulas",
-      "MiddleName": "Roob-Larkin",
-      "Title": "ab",
-      "Description": "Visionary exuding approach",
-      "Email": "cali@bradtke.info",
-      "FullName": "Mrs. Dorris Mona Daniel",
-      "DirectPhone": "935-797-6325",
-      "FormalName": "O'Kon Inc and Sons",
-      "CountryId": 319,
-      "ContactId": 547,
-      "ContactName": "Adams, Stamm and Hirthe",
-      "Retired": 295,
-      "Rank": 395,
-      "ActiveInterests": 995,
+      "PersonId": 418,
+      "Mrmrs": "debitis",
+      "Firstname": "Ines",
+      "Lastname": "Johnson",
+      "MiddleName": "Kirlin, Glover and Jacobi",
+      "Title": "quod",
+      "Description": "Persevering directional productivity",
+      "Email": "allene.schiller@hodkiewicz.info",
+      "FullName": "Rudolph Brekke",
+      "DirectPhone": "787.234.5763 x2753",
+      "FormalName": "Hyatt-Bergstrom",
+      "CountryId": 214,
+      "ContactId": 327,
+      "ContactName": "Spinka-Doyle",
+      "Retired": 762,
+      "Rank": 72,
+      "ActiveInterests": 573,
       "ContactDepartment": "",
-      "ContactCountryId": 79,
-      "ContactOrgNr": "1170010",
-      "FaxPhone": "771-599-4661 x29323",
-      "MobilePhone": "504.572.3994 x387",
-      "ContactPhone": "980.350.5211 x8856",
-      "AssociateName": "Stehr-Kuhlman",
-      "AssociateId": 146,
+      "ContactCountryId": 410,
+      "ContactOrgNr": "1033348",
+      "FaxPhone": "1-383-446-6678 x31848",
+      "MobilePhone": "251-137-1001",
+      "ContactPhone": "456.548.0431",
+      "AssociateName": "Huel Group",
+      "AssociateId": 477,
       "UsePersonAddress": false,
-      "ContactFax": "esse",
-      "Kanafname": "ut",
-      "Kanalname": "excepturi",
-      "Post1": "vitae",
-      "Post2": "quaerat",
-      "Post3": "ipsum",
-      "EmailName": "janae_reichert@denesik.biz",
-      "ContactFullName": "Lila Stanton",
-      "ActiveErpLinks": 19,
-      "TicketPriorityId": 204,
-      "SupportLanguageId": 181,
-      "SupportAssociateId": 229,
+      "ContactFax": "aut",
+      "Kanafname": "labore",
+      "Kanalname": "perspiciatis",
+      "Post1": "eligendi",
+      "Post2": "deleniti",
+      "Post3": "ipsa",
+      "EmailName": "enrique@dibbert.name",
+      "ContactFullName": "Jaunita Morar",
+      "ActiveErpLinks": 514,
+      "TicketPriorityId": 976,
+      "SupportLanguageId": 988,
+      "SupportAssociateId": 307,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "1395162",
+      "PersonNumber": "1162769",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 682
+          "FieldType": "System.Int32",
+          "FieldLength": 194
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "recusandae",
+  "Kananame": "accusantium",
   "Xstop": false,
-  "ActiveInterests": 589,
-  "GroupId": 246,
-  "ActiveStatusMonitorId": 212,
+  "ActiveInterests": 714,
+  "GroupId": 721,
+  "ActiveStatusMonitorId": 810,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 28,
-  "DbiAgentId": 850,
-  "DbiLastSyncronized": "2008-12-13T13:13:59.766318+01:00",
-  "DbiKey": "provident",
-  "DbiLastModified": "2003-10-13T13:13:59.766318+02:00",
+  "Deleted": 441,
+  "DbiAgentId": 751,
+  "DbiLastSyncronized": "2016-11-03T16:32:38.4459231+01:00",
+  "DbiKey": "consectetur",
+  "DbiLastModified": "2018-09-12T16:32:38.4459231+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 639,
-  "ActiveErpLinks": 138,
+  "Source": 55,
+  "ActiveErpLinks": 972,
   "BounceEmails": [
-    "lorenza.von@larkin.ca",
-    "kiel.collier@mannrau.co.uk"
+    "reba_green@smith.info",
+    "leanne@feil.co.uk"
   ],
   "Domains": [
-    "accusamus",
-    "modi"
+    "dolores",
+    "tenetur"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Destin Lubowitz",
-    "SuperOffice:2": "Janis Parisian"
+    "SuperOffice:1": "754231090",
+    "SuperOffice:2": "280589339"
   },
   "ExtraFields": {
-    "ExtraFields1": "atque",
-    "ExtraFields2": "unde"
+    "ExtraFields1": "explicabo",
+    "ExtraFields2": "voluptates"
   },
   "CustomFields": {
-    "CustomFields1": "repellat",
-    "CustomFields2": "dolore"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "temporibus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 317
+      "FieldLength": 900
     }
   }
 }

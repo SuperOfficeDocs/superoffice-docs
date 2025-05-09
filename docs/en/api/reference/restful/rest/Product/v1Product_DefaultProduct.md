@@ -90,7 +90,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 365,
-  "ERPProductKey": "rerum",
-  "ERPPriceListKey": "rerum",
-  "Name": "Mueller Inc and Sons",
-  "Description": "Operative executive complexity",
-  "Code": "dolor",
-  "PriceUnit": "facilis",
-  "QuantityUnit": "ea",
-  "IsSubscription": true,
-  "SubscriptionUnit": "est",
-  "DefaultSubscriptionQuantity": 22282.739999999998,
-  "ItemNumber": "651903",
+  "ProductId": 710,
+  "ERPProductKey": "at",
+  "ERPPriceListKey": "aspernatur",
+  "Name": "D'Amore-Daniel",
+  "Description": "Distributed stable functionalities",
+  "Code": "possimus",
+  "PriceUnit": "aliquam",
+  "QuantityUnit": "consequatur",
+  "IsSubscription": false,
+  "SubscriptionUnit": "repudiandae",
+  "DefaultSubscriptionQuantity": 1331.95,
+  "ItemNumber": "1050395",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sint",
+  "ProductFamilyKey": "impedit",
   "ProductTypeKey": "voluptatibus",
-  "VAT": 30882.435999999998,
-  "VATInfo": "et",
-  "UnitCost": 19427.666,
-  "UnitMinimumPrice": 16472.304,
-  "UnitListPrice": 3046.248,
-  "InAssortment": true,
-  "Supplier": "facilis",
-  "SupplierCode": "in",
-  "Rights": "omnis",
-  "Rule": "aperiam",
+  "VAT": 1770.71,
+  "VATInfo": "fugit",
+  "UnitCost": 28074.372,
+  "UnitMinimumPrice": 25109.608,
+  "UnitListPrice": 14244.029999999999,
+  "InAssortment": false,
+  "Supplier": "atque",
+  "SupplierCode": "qui",
+  "Rights": "voluptas",
+  "Rule": "saepe",
   "ExtraInfo": [
     {
-      "Name": "Lemke Inc and Sons",
-      "Value": "rerum",
+      "Name": "Lemke, Breitenberg and Bayer",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 743
+          "FieldLength": 291
         }
       }
     },
     {
-      "Name": "Lemke Inc and Sons",
-      "Value": "rerum",
+      "Name": "Lemke, Breitenberg and Bayer",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 743
+          "FieldLength": 291
         }
       }
     }
   ],
-  "RawExtraInfo": "iusto",
-  "ExtraField1": "reiciendis",
-  "ExtraField2": "velit",
-  "ExtraField3": "dignissimos",
-  "ExtraField4": "consequuntur",
-  "ExtraField5": "itaque",
-  "InStock": 7719.0419999999995,
+  "RawExtraInfo": "omnis",
+  "ExtraField1": "atque",
+  "ExtraField2": "maiores",
+  "ExtraField3": "et",
+  "ExtraField4": "doloremque",
+  "ExtraField5": "soluta",
+  "InStock": 22141.71,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 388
+      "FieldLength": 425
     }
   }
 }

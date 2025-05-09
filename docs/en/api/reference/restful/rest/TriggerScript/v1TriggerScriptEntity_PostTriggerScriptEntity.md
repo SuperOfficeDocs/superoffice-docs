@@ -101,16 +101,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 874,
-  "Name": "Thompson-Blick",
+  "ScreenChooserId": 101,
+  "Name": "Kunze-Wolff",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "iste",
-  "Source": "saepe",
-  "Registered": "2019-10-08T13:14:09.3685305+02:00",
-  "RegisteredAssociateId": 888,
-  "Updated": "2017-03-30T13:14:09.3685305+02:00",
-  "UpdatedAssociateId": 690
+  "Enabled": false,
+  "UniqueIdentifier": "adipisci",
+  "Source": "inventore",
+  "Registered": "2000-09-21T16:32:48.2745849+02:00",
+  "RegisteredAssociateId": 621,
+  "Updated": "2019-04-13T16:32:48.2745849+02:00",
+  "UpdatedAssociateId": 373
 }
 ```
 
@@ -121,22 +121,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 374,
-  "Name": "Abbott Inc and Sons",
+  "ScreenChooserId": 824,
+  "Name": "Wilkinson Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "alias",
-  "Source": "sed",
-  "Registered": "2000-08-15T13:14:09.3685305+02:00",
-  "RegisteredAssociateId": 958,
-  "Updated": "2014-12-25T13:14:09.3685305+01:00",
-  "UpdatedAssociateId": 689,
+  "UniqueIdentifier": "natus",
+  "Source": "vel",
+  "Registered": "2014-03-17T16:32:48.2745849+01:00",
+  "RegisteredAssociateId": 47,
+  "Updated": "2024-09-25T16:32:48.2745849+02:00",
+  "UpdatedAssociateId": 628,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 35
+      "FieldType": "System.Int32",
+      "FieldLength": 826
     }
   },
   "_Links": {

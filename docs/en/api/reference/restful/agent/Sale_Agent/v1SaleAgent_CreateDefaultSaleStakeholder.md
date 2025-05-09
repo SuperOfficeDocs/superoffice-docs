@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Frami-Schmeler",
-  "Comment": "aliquam",
-  "StakeholderRoleId": 117,
-  "CountryId": 321,
-  "PersonId": 407,
-  "EmailDescription": "nelson@swiftroberts.us",
-  "EmailId": 597,
-  "EmailAddress": "jany_corkery@faysmitham.com",
-  "PhoneId": 101,
-  "ContactName": "Green-Jast",
-  "ContactId": 600,
-  "SaleId": 162,
-  "Mrmrs": "tempore",
-  "Firstname": "Justyn",
-  "MiddleName": "Dietrich-Predovic",
-  "Lastname": "Murphy",
-  "SaleStakeholderId": 951,
-  "Rank": 70,
-  "Phone": "1-921-312-2782 x060",
+  "StakeholderRoleName": "Heidenreich, Altenwerth and Toy",
+  "Comment": "est",
+  "StakeholderRoleId": 398,
+  "CountryId": 139,
+  "PersonId": 352,
+  "EmailDescription": "enoch.lueilwitz@windler.name",
+  "EmailId": 723,
+  "EmailAddress": "cedrick.medhurst@eichmann.biz",
+  "PhoneId": 490,
+  "ContactName": "Ryan, McGlynn and Bruen",
+  "ContactId": 791,
+  "SaleId": 129,
+  "Mrmrs": "quis",
+  "Firstname": "Elouise",
+  "MiddleName": "Marvin, Pfannerstill and Stiedemann",
+  "Lastname": "Wolff",
+  "SaleStakeholderId": 210,
+  "Rank": 457,
+  "Phone": "207-883-5777 x5554",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 302
+      "FieldLength": 384
     }
   }
 }

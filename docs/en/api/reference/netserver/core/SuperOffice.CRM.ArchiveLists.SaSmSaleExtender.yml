@@ -57,9 +57,12 @@ items:
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colProbPercent
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colOriginalStage
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStage
+  - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStageName
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colSaleStatus
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStageRank
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colSaleType
+  - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colSaleTypeId
+  - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStageId
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colNextDueDate
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colReopenDate
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStalledReason
@@ -602,6 +605,13 @@ references:
   name: _colStage
   nameWithType: SaleExtenderBase._colStage
   fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStage
+- uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStageName
+  commentId: F:SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStageName
+  parent: SuperOffice.CRM.ArchiveLists.SaleExtenderBase
+  isExternal: true
+  name: _colStageName
+  nameWithType: SaleExtenderBase._colStageName
+  fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStageName
 - uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colSaleStatus
   commentId: F:SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colSaleStatus
   parent: SuperOffice.CRM.ArchiveLists.SaleExtenderBase
@@ -623,6 +633,20 @@ references:
   name: _colSaleType
   nameWithType: SaleExtenderBase._colSaleType
   fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colSaleType
+- uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colSaleTypeId
+  commentId: F:SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colSaleTypeId
+  parent: SuperOffice.CRM.ArchiveLists.SaleExtenderBase
+  isExternal: true
+  name: _colSaleTypeId
+  nameWithType: SaleExtenderBase._colSaleTypeId
+  fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colSaleTypeId
+- uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStageId
+  commentId: F:SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStageId
+  parent: SuperOffice.CRM.ArchiveLists.SaleExtenderBase
+  isExternal: true
+  name: _colStageId
+  nameWithType: SaleExtenderBase._colStageId
+  fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStageId
 - uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colNextDueDate
   commentId: F:SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colNextDueDate
   parent: SuperOffice.CRM.ArchiveLists.SaleExtenderBase

@@ -77,17 +77,17 @@ OK
 POST /api/v1/Agents/Report/SaveReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 734,
+  "ReportId": 860,
   "ReportCategory": "All",
-  "Description": "Streamlined uniform support",
+  "Description": "Triple-buffered bi-directional info-mediaries",
   "ReportLayout": "CalendarMonth",
-  "Name": "Krajcik, Satterfield and Beatty",
-  "AssociateId": 634,
-  "TemplateId": 744,
+  "Name": "Lesch LLC",
+  "AssociateId": 318,
+  "TemplateId": 503,
   "Published": false
 }
 ```
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 433,
+  "ReportId": 599,
   "ReportCategory": "All",
-  "Description": "User-friendly fault-tolerant frame",
+  "Description": "Customizable upward-trending utilisation",
   "ReportLayout": "CalendarMonth",
-  "Name": "Rosenbaum Inc and Sons",
-  "AssociateId": 805,
-  "TemplateId": 470,
-  "Published": false,
+  "Name": "Bednar LLC",
+  "AssociateId": 192,
+  "TemplateId": 184,
+  "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 895
+      "FieldLength": 986
     }
   }
 }

@@ -76,15 +76,15 @@ OK
 POST /api/v1/Agents/Ticket/GetDefaultMessageContentWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 309,
+  "TicketId": 906,
   "MessageActionType": "Forward",
-  "TicketMessageId": 799,
-  "TicketTypeId": 850,
-  "ExcludeSignature": true
+  "TicketMessageId": 192,
+  "TicketTypeId": 858,
+  "ExcludeSignature": false
 }
 ```
 
@@ -95,23 +95,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "consequuntur",
+  "Body": "nemo",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 153,
-      "Name": "Yost Group",
-      "ContentType": "aut",
-      "AttSize": 285,
+      "AttachmentId": 896,
+      "Name": "King-Barton",
+      "ContentType": "est",
+      "AttSize": 509,
       "InlineImage": true,
-      "ContentId": "cupiditate",
-      "AuthKey": "perspiciatis",
-      "IsSafeFileExtension": true,
+      "ContentId": "consequatur",
+      "AuthKey": "tempora",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 530
+          "FieldLength": 702
         }
       }
     }

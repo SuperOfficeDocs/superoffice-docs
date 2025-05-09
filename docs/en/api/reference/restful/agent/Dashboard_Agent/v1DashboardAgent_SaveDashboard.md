@@ -75,22 +75,22 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 376,
-  "AssociateId": 364,
-  "Caption": "dolores",
+  "DashboardId": 18,
+  "AssociateId": 590,
+  "Caption": "aliquam",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 478,
-      "Caption": "omnis",
-      "Description": "Sharable coherent standardization",
-      "ChartName": "Fritsch-Beier",
-      "ChartId": "et",
-      "IsDefault": true,
-      "AssociateId": 728,
-      "GroupId": 826,
-      "SelectionId": 217,
-      "Config": "natus",
+      "DashboardTileId": 999,
+      "Caption": "aut",
+      "Description": "Front-line attitude-oriented attitude",
+      "ChartName": "Robel Group",
+      "ChartId": "ut",
+      "IsDefault": false,
+      "AssociateId": 799,
+      "GroupId": 977,
+      "SelectionId": 647,
+      "Config": "repellendus",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -113,22 +113,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 301,
-  "AssociateId": 392,
-  "Caption": "quod",
+  "DashboardId": 802,
+  "AssociateId": 556,
+  "Caption": "sed",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 55,
-      "Caption": "repellendus",
-      "Description": "Balanced motivating leverage",
-      "ChartName": "Renner-Halvorson",
-      "ChartId": "sit",
-      "IsDefault": true,
-      "AssociateId": 794,
-      "GroupId": 183,
-      "SelectionId": 225,
-      "Config": "id",
+      "DashboardTileId": 58,
+      "Caption": "labore",
+      "Description": "Realigned mobile open system",
+      "ChartName": "Kessler, Jaskolski and Howell",
+      "ChartId": "omnis",
+      "IsDefault": false,
+      "AssociateId": 774,
+      "GroupId": 189,
+      "SelectionId": 821,
+      "Config": "perferendis",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 270
+          "FieldLength": 697
         }
       }
     }
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 132
+      "FieldType": "System.Int32",
+      "FieldLength": 230
     }
   }
 }

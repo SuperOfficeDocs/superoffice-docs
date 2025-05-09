@@ -87,20 +87,20 @@ OK
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 493,
-  "Name": "Lang, Reichert and Bergnaum",
-  "Tooltip": "quidem",
+  "RoleId": 111,
+  "Name": "Weissnat, Hoeger and Bahringer",
+  "Tooltip": "eius",
   "RoleType": "Anonymous",
-  "Deleted": 664,
-  "Rank": 130,
-  "Created": "2017-01-05T13:14:01.6600684+01:00",
-  "UseCategories": 814,
+  "Deleted": 653,
+  "Rank": 237,
+  "Created": "2023-08-11T16:32:40.4144684+02:00",
+  "UseCategories": 208,
   "CreatedBy": null,
-  "Updated": "2007-11-13T13:14:01.6600684+01:00",
+  "Updated": "2005-11-28T16:32:40.4144684+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -113,16 +113,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 937,
-  "Name": "Purdy, Oberbrunner and Wilderman",
-  "Tooltip": "explicabo",
+  "RoleId": 894,
+  "Name": "Smitham-Franecki",
+  "Tooltip": "quia",
   "RoleType": "Anonymous",
-  "Deleted": 915,
-  "Rank": 684,
-  "Created": "2019-08-01T13:14:01.6600684+02:00",
-  "UseCategories": 503,
+  "Deleted": 603,
+  "Rank": 465,
+  "Created": "2013-05-20T16:32:40.4144684+02:00",
+  "UseCategories": 22,
   "CreatedBy": null,
-  "Updated": "2022-11-09T13:14:01.6600684+01:00",
+  "Updated": "2012-01-23T16:32:40.4144684+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 173
+      "FieldLength": 767
     }
   }
 }

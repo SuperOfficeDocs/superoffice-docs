@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Hamill-Thompson"
+  "ParameterName": "Cremin-Zulauf"
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 445,
-  "Name": "Hilll LLC",
-  "Value": "ducimus",
-  "CreatedDate": "2022-05-13T13:13:59.5158194+02:00",
-  "UpdatedDate": "2024-11-11T13:13:59.5158194+01:00",
-  "CreatedBy": "aut",
+  "AudienceLayoutId": 771,
+  "Name": "Botsford Group",
+  "Value": "natus",
+  "CreatedDate": "2022-03-05T16:32:38.1803616+01:00",
+  "UpdatedDate": "2001-03-06T16:32:38.1803616+01:00",
+  "CreatedBy": "qui",
   "UpdatedBy": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 498
+      "FieldLength": 790
     }
   }
 }

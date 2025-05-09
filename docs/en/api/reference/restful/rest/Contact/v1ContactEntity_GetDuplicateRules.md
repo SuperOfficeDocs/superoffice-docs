@@ -69,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Langosh Group",
-    "DisplayName": "Harris Group",
-    "DisplayTooltip": "ea",
-    "IsActive": false,
+    "Name": "Tremblay-Hoeger",
+    "DisplayName": "Kunze-Goodwin",
+    "DisplayTooltip": "ipsam",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 662
+        "FieldLength": 935
       }
     }
   },
   {
-    "Name": "Langosh Group",
-    "DisplayName": "Harris Group",
-    "DisplayTooltip": "ea",
-    "IsActive": false,
+    "Name": "Tremblay-Hoeger",
+    "DisplayName": "Kunze-Goodwin",
+    "DisplayTooltip": "ipsam",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 662
+        "FieldLength": 935
       }
     }
   }

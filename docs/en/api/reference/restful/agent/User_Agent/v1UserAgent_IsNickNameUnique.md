@@ -71,12 +71,12 @@ OK
 POST /api/v1/Agents/User/IsNickNameUnique
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 460,
-  "NickName": "Tromp Group"
+  "AssociateId": 329,
+  "NickName": "Predovic-Deckow"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

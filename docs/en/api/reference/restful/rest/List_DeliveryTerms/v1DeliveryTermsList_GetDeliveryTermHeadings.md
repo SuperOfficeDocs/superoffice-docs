@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 865,
-    "Name": "O'Kon, Bernhard and Little",
-    "Tooltip": "nihil",
+    "HeadingId": 328,
+    "Name": "Cronin LLC",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 971,
-    "UdListDefinitionId": 768,
+    "Rank": 60,
+    "UdListDefinitionId": 581,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 733
+        "FieldLength": 930
       }
     }
   }

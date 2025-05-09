@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/List/DeleteDocumentTemplateLanguage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 188,
-  "LanguageCode": "tenetur"
+  "DocumentTemplateId": 579,
+  "LanguageCode": "et"
 }
 ```
 

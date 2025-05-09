@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 950
+  "QuoteVersionId": 990
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 493,
-  "ERPQuoteVersionKey": "voluptatem",
-  "QuoteId": 867,
-  "Description": "Centralized attitude-oriented encryption",
-  "Number": "1675646",
+  "QuoteVersionId": 198,
+  "ERPQuoteVersionKey": "odio",
+  "QuoteId": 213,
+  "Description": "Advanced human-resource customer loyalty",
+  "Number": "597180",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 653,
-  "SentDate": "2000-06-29T13:14:00.9546603+02:00",
-  "FollowupId": 467,
-  "ExpirationDate": "2006-12-25T13:14:00.9546603+01:00",
-  "DeliveryCountryId": 281,
+  "LikelyQuoteAlternativeId": 84,
+  "SentDate": "2002-05-03T16:32:39.680262+02:00",
+  "FollowupId": 882,
+  "ExpirationDate": "2010-05-01T16:32:39.680262+02:00",
+  "DeliveryCountryId": 420,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 49,
-  "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "voluptatum",
-  "ERPPaymentTypeKey": "optio",
-  "ERPDeliveryTermsKey": "quis",
-  "ERPDeliveryTypeKey": "non",
-  "Rank": 594,
-  "ApprovedBy": 60,
-  "ApprovedText": "ab",
-  "ApprovedRegisteredBy": 547,
-  "ApprovedRegisteredDate": "2008-05-24T13:14:00.9546603+02:00",
-  "ExtraField1": "voluptatem",
-  "ExtraField2": "tenetur",
-  "ExtraField3": "pariatur",
-  "ExtraField4": "eius",
-  "ExtraField5": "quos",
-  "LastRecalculated": "2006-06-29T13:14:00.9546603+02:00",
-  "Updated": "2016-10-26T13:14:00.9546603+02:00",
-  "UpdatedAssociateId": 118,
-  "Registered": "2021-02-15T13:14:00.9546603+01:00",
-  "RegisteredAssociateId": 288,
-  "RequestAssociateId": 669,
-  "RequestComment": "minus",
+  "InvoiceCountryId": 539,
+  "HasOwnInvoiceAddress": false,
+  "ERPPaymentTermsKey": "placeat",
+  "ERPPaymentTypeKey": "vitae",
+  "ERPDeliveryTermsKey": "aut",
+  "ERPDeliveryTypeKey": "temporibus",
+  "Rank": 827,
+  "ApprovedBy": 151,
+  "ApprovedText": "aperiam",
+  "ApprovedRegisteredBy": 180,
+  "ApprovedRegisteredDate": "1999-03-04T16:32:39.680262+01:00",
+  "ExtraField1": "quia",
+  "ExtraField2": "facere",
+  "ExtraField3": "distinctio",
+  "ExtraField4": "odit",
+  "ExtraField5": "cupiditate",
+  "LastRecalculated": "2024-03-25T16:32:39.680262+01:00",
+  "Updated": "2014-12-16T16:32:39.680262+01:00",
+  "UpdatedAssociateId": 644,
+  "Registered": "2018-10-30T16:32:39.680262+01:00",
+  "RegisteredAssociateId": 427,
+  "RequestAssociateId": 292,
+  "RequestComment": "aut",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 23,
-      "ERPQuoteAlternativeKey": "qui",
-      "QuoteVersionId": 976,
-      "Name": "Harber-Schumm",
-      "Description": "Cloned transitional software",
+      "QuoteAlternativeId": 901,
+      "ERPQuoteAlternativeKey": "itaque",
+      "QuoteVersionId": 441,
+      "Name": "McDermott Inc and Sons",
+      "Description": "Exclusive logistical support",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 6891.666,
-      "ERPDiscountAmount": 9909.708,
-      "DiscountPercent": 10824.836,
-      "DiscountAmount": 18691.176,
+      "ERPDiscountPercent": 16914.198,
+      "ERPDiscountAmount": 31155.093999999997,
+      "DiscountPercent": 6951.2119999999995,
+      "DiscountAmount": 2297.2219999999998,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "omnis",
-      "VAT": 20067.002,
-      "EarningPercent": 17741.574,
-      "EarningAmount": 1585.8039999999999,
-      "SubTotal": 1222.26,
-      "TotalPrice": 17832.46,
-      "ExtraField1": "dolorem",
-      "ExtraField2": "sapiente",
-      "ExtraField3": "laudantium",
-      "ExtraField4": "est",
-      "ExtraField5": "possimus",
+      "VATInfo": "rem",
+      "VAT": 13871.083999999999,
+      "EarningPercent": 27920.806,
+      "EarningAmount": 30070.73,
+      "SubTotal": 25272.576,
+      "TotalPrice": 10100.882,
+      "ExtraField1": "porro",
+      "ExtraField2": "ut",
+      "ExtraField3": "error",
+      "ExtraField4": "hic",
+      "ExtraField5": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 525
+          "FieldType": "System.Int32",
+          "FieldLength": 78
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 795
+      "FieldLength": 646
     }
   }
 }

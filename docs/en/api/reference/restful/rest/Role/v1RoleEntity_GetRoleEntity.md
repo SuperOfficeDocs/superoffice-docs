@@ -97,24 +97,24 @@ HTTP/1.1 200 RoleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 249,
-  "Name": "Will-Goodwin",
-  "Tooltip": "reiciendis",
+  "RoleId": 545,
+  "Name": "Effertz-Little",
+  "Tooltip": "corrupti",
   "RoleType": "Anonymous",
-  "Deleted": 953,
-  "Rank": 424,
-  "Created": "2004-04-29T13:14:08.9461361+02:00",
-  "UseCategories": 355,
+  "Deleted": 182,
+  "Rank": 984,
+  "Created": "2024-11-17T16:32:47.7589038+01:00",
+  "UseCategories": 475,
   "CreatedBy": null,
-  "Updated": "2009-01-22T13:14:08.9461361+01:00",
+  "Updated": "2000-12-08T16:32:47.7589038+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 189
+      "FieldType": "System.String",
+      "FieldLength": 761
     }
   },
   "_Links": {

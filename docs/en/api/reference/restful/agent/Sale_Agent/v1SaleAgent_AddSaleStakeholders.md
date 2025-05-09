@@ -65,32 +65,32 @@ No Content
 POST /api/v1/Agents/Sale/AddSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 157,
+  "SaleId": 947,
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Kautzer LLC",
-      "Comment": "sit",
-      "StakeholderRoleId": 394,
-      "CountryId": 59,
-      "PersonId": 248,
-      "EmailDescription": "camille@kertzmann.info",
-      "EmailId": 61,
-      "EmailAddress": "jesse.kuhic@adams.biz",
-      "PhoneId": 383,
-      "ContactName": "Emmerich, Bechtelar and Kutch",
-      "ContactId": 149,
-      "SaleId": 599,
-      "Mrmrs": "illo",
-      "Firstname": "April",
-      "MiddleName": "Lebsack Inc and Sons",
-      "Lastname": "Connelly",
-      "SaleStakeholderId": 320,
-      "Rank": 220,
-      "Phone": "1-850-902-3551 x253"
+      "StakeholderRoleName": "Beier LLC",
+      "Comment": "eum",
+      "StakeholderRoleId": 254,
+      "CountryId": 892,
+      "PersonId": 565,
+      "EmailDescription": "loyal_kerluke@bauch.co.uk",
+      "EmailId": 764,
+      "EmailAddress": "ova.cronin@bailey.com",
+      "PhoneId": 818,
+      "ContactName": "Muller, Blick and Zulauf",
+      "ContactId": 736,
+      "SaleId": 798,
+      "Mrmrs": "quo",
+      "Firstname": "Ethel",
+      "MiddleName": "Bergnaum, Ruecker and Littel",
+      "Lastname": "Crooks",
+      "SaleStakeholderId": 529,
+      "Rank": 996,
+      "Phone": "(752)104-9204"
     }
   ]
 }

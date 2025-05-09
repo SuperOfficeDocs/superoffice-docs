@@ -26,7 +26,7 @@ Gets a ShipmentMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=834
+POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=555
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?$select=name,department,category/id
 ```
 
@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,33 +97,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 918,
-  "PlainMessage": "natus",
-  "HtmlMessage": "dolore",
-  "SmsMessage": "totam",
-  "Description": "Digitized real-time moderator",
-  "Subject": "inventore",
-  "FolderId": 553,
-  "HeaderField": "consectetur",
-  "Design": "ut",
+  "ShipmentMessageId": 812,
+  "PlainMessage": "delectus",
+  "HtmlMessage": "blanditiis",
+  "SmsMessage": "sunt",
+  "Description": "Down-sized neutral approach",
+  "Subject": "consequatur",
+  "FolderId": 896,
+  "HeaderField": "ut",
+  "Design": "omnis",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Vision-oriented reciprocal flexibility",
-  "AccessKey": "beatae",
-  "DocumentMessage": 390,
-  "Registered": "2011-01-21T13:14:00.6887452+01:00",
-  "RegisteredAssociateId": 997,
-  "Updated": "2013-03-23T13:14:00.6887452+01:00",
-  "UpdatedAssociateId": 477,
-  "UpdatedCount": 512,
+  "LongDescription": "Profound dynamic knowledge base",
+  "AccessKey": "pariatur",
+  "DocumentMessage": 292,
+  "Registered": "2010-06-25T16:32:39.3519666+02:00",
+  "RegisteredAssociateId": 240,
+  "Updated": "2002-12-15T16:32:39.3519666+01:00",
+  "UpdatedAssociateId": 202,
+  "UpdatedCount": 880,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 684
+      "FieldType": "System.String",
+      "FieldLength": 982
     }
   }
 }

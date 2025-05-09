@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 100,
-    "Name": "Parker, Medhurst and Ward",
-    "Tooltip": "sunt",
+    "HeadingId": 878,
+    "Name": "Kuhn Inc and Sons",
+    "Tooltip": "eligendi",
     "Deleted": false,
-    "Rank": 813,
-    "UdListDefinitionId": 700,
+    "Rank": 165,
+    "UdListDefinitionId": 176,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 719
+        "FieldLength": 6
       }
     }
   }

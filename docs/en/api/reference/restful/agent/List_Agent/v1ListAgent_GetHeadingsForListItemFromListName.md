@@ -93,8 +93,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Brakus, Goodwin and Schmitt",
-  "ListItemId": 781,
+  "UdListDefinitionName": "Ryan-Fisher",
+  "ListItemId": 748,
   "ShowDeleted": false
 }
 ```
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 274,
-    "Name": "Connelly Inc and Sons",
-    "ToolTip": "Modi assumenda ducimus aliquid minima magni quisquam molestiae.",
+    "Id": 872,
+    "Name": "Gerlach Inc and Sons",
+    "ToolTip": "Dolor nihil.",
     "Deleted": true,
-    "Rank": 480,
-    "Type": "at",
-    "ColorBlock": 206,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2016-04-17T13:14:00.5949987+02:00",
+    "Rank": 303,
+    "Type": "praesentium",
+    "ColorBlock": 401,
+    "IconHint": "reprehenderit",
+    "Selected": false,
+    "LastChanged": "2021-07-27T16:32:39.2582391+02:00",
     "ChildItems": [
       {
-        "Id": 748,
-        "Name": "Ziemann Inc and Sons",
-        "ToolTip": "Nulla non.",
+        "Id": 649,
+        "Name": "Spencer Group",
+        "ToolTip": "Provident vitae sit.",
         "Deleted": false,
-        "Rank": 474,
-        "Type": "vel",
-        "ColorBlock": 730,
-        "IconHint": "distinctio",
-        "Selected": true,
-        "LastChanged": "2009-04-16T13:14:00.5949987+02:00",
+        "Rank": 101,
+        "Type": "beatae",
+        "ColorBlock": 911,
+        "IconHint": "repellat",
+        "Selected": false,
+        "LastChanged": "2016-10-30T16:32:39.2582391+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "perspiciatis",
+        "ExtraInfo": "nihil",
+        "StyleHint": "molestias",
         "Hidden": true,
-        "FullName": "Alayna Dicki",
+        "FullName": "Zoie Johnston",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 191
+            "FieldLength": 871
           }
         }
       }
     ],
-    "ExtraInfo": "facere",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Shaniya Goldner I",
+    "ExtraInfo": "quia",
+    "StyleHint": "placeat",
+    "Hidden": true,
+    "FullName": "Ms. Judson Sipes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 537
+        "FieldLength": 867
       }
     }
   }

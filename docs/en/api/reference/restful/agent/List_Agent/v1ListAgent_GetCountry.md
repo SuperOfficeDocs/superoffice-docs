@@ -26,7 +26,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=773
+POST /api/v1/Agents/List/GetCountry?countryId=839
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 35,
-  "Name": "Heaney Group",
-  "CurrencyId": 855,
-  "EnglishName": "Brekke, Schaden and Conroy",
+  "CountryId": 154,
+  "Name": "Berge-Rodriguez",
+  "CurrencyId": 794,
+  "EnglishName": "Thiel Group",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Multi-layered non-volatile encryption",
-  "OrgNrText": "1229506",
-  "InterAreaPrefix": "omnis",
-  "DialInPrefix": "dolorem",
-  "ZipPrefix": "velit",
-  "DomainName": "Witting, Renner and Reinger",
-  "AddressLayoutId": 475,
-  "DomesticAddressLayoutId": 32,
-  "ForeignAddressLayoutId": 614,
-  "Rank": 980,
-  "Tooltip": "corrupti",
+  "ImageDescription": "Re-contextualized radical software",
+  "OrgNrText": "1204845",
+  "InterAreaPrefix": "facere",
+  "DialInPrefix": "voluptatum",
+  "ZipPrefix": "quo",
+  "DomainName": "Boyle-Wuckert",
+  "AddressLayoutId": 21,
+  "DomesticAddressLayoutId": 339,
+  "ForeignAddressLayoutId": 986,
+  "Rank": 67,
+  "Tooltip": "corporis",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 611
+      "FieldLength": 346
     }
   }
 }

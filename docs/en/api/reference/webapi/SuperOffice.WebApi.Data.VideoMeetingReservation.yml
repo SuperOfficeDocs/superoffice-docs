@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.VideoMeetingReservation
+  commentId: T:SuperOffice.WebApi.Data.VideoMeetingReservation
+  id: VideoMeetingReservation
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.VideoMeetingReservation.#ctor
+  - SuperOffice.WebApi.Data.VideoMeetingReservation.VideoMeetingId
+  - SuperOffice.WebApi.Data.VideoMeetingReservation.VideoMeetingUrl
+  langs:
+  - csharp
+  - vb
+  name: VideoMeetingReservation
+  nameWithType: VideoMeetingReservation
+  fullName: SuperOffice.WebApi.Data.VideoMeetingReservation
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for VideoMeetingReservation.\nVideoMeetingReservation - Create or delete a VideoMeetingReservation. The VideoMeetingReservation.MeetingId can be linked to an Appointment    \n"
+  syntax:
+    content: 'public class VideoMeetingReservation : Carrier'
+    content.vb: >-
+      Public Class VideoMeetingReservation
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.AppointmentAgent
+    commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.VideoMeetingReservation.#ctor
+  commentId: M:SuperOffice.WebApi.Data.VideoMeetingReservation.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.VideoMeetingReservation
+  langs:
+  - csharp
+  - vb
+  name: VideoMeetingReservation()
+  nameWithType: VideoMeetingReservation.VideoMeetingReservation()
+  fullName: SuperOffice.WebApi.Data.VideoMeetingReservation.VideoMeetingReservation()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public VideoMeetingReservation()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.VideoMeetingReservation.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.VideoMeetingReservation.VideoMeetingId
+  commentId: P:SuperOffice.WebApi.Data.VideoMeetingReservation.VideoMeetingId
+  id: VideoMeetingId
+  parent: SuperOffice.WebApi.Data.VideoMeetingReservation
+  langs:
+  - csharp
+  - vb
+  name: VideoMeetingId
+  nameWithType: VideoMeetingReservation.VideoMeetingId
+  fullName: SuperOffice.WebApi.Data.VideoMeetingReservation.VideoMeetingId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe ID for the meeting, as considered from the central meeting service, not SO\n"
+  syntax:
+    content: public virtual string VideoMeetingId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property VideoMeetingId As String
+  overload: SuperOffice.WebApi.Data.VideoMeetingReservation.VideoMeetingId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.VideoMeetingReservation.VideoMeetingUrl
+  commentId: P:SuperOffice.WebApi.Data.VideoMeetingReservation.VideoMeetingUrl
+  id: VideoMeetingUrl
+  parent: SuperOffice.WebApi.Data.VideoMeetingReservation
+  langs:
+  - csharp
+  - vb
+  name: VideoMeetingUrl
+  nameWithType: VideoMeetingReservation.VideoMeetingUrl
+  fullName: SuperOffice.WebApi.Data.VideoMeetingReservation.VideoMeetingUrl
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe URL for the meeting.\n"
+  syntax:
+    content: public virtual string VideoMeetingUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property VideoMeetingUrl As String
+  overload: SuperOffice.WebApi.Data.VideoMeetingReservation.VideoMeetingUrl*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.AppointmentAgent
+  commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
+  isExternal: true
+  name: AppointmentAgent
+  nameWithType: AppointmentAgent
+  fullName: SuperOffice.WebApi.Agents.AppointmentAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.VideoMeetingReservation.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.VideoMeetingReservation.#ctor
+  isExternal: true
+  name: VideoMeetingReservation
+  nameWithType: VideoMeetingReservation.VideoMeetingReservation
+  fullName: SuperOffice.WebApi.Data.VideoMeetingReservation.VideoMeetingReservation
+- uid: SuperOffice.WebApi.Data.VideoMeetingReservation.VideoMeetingId*
+  commentId: Overload:SuperOffice.WebApi.Data.VideoMeetingReservation.VideoMeetingId
+  isExternal: true
+  name: VideoMeetingId
+  nameWithType: VideoMeetingReservation.VideoMeetingId
+  fullName: SuperOffice.WebApi.Data.VideoMeetingReservation.VideoMeetingId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.VideoMeetingReservation.VideoMeetingUrl*
+  commentId: Overload:SuperOffice.WebApi.Data.VideoMeetingReservation.VideoMeetingUrl
+  isExternal: true
+  name: VideoMeetingUrl
+  nameWithType: VideoMeetingReservation.VideoMeetingUrl
+  fullName: SuperOffice.WebApi.Data.VideoMeetingReservation.VideoMeetingUrl

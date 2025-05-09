@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 740,
-    "Name": "Hyatt Inc and Sons",
-    "ToolTip": "Aperiam dolore.",
-    "Deleted": false,
-    "Rank": 78,
-    "Type": "voluptates",
-    "ColorBlock": 282,
-    "IconHint": "natus",
+    "Id": 195,
+    "Name": "Jast-Lebsack",
+    "ToolTip": "Ullam a nam ipsum.",
+    "Deleted": true,
+    "Rank": 471,
+    "Type": "impedit",
+    "ColorBlock": 564,
+    "IconHint": "minima",
     "Selected": false,
-    "LastChanged": "2009-02-12T13:14:09.7597728+01:00",
+    "LastChanged": "2016-01-12T16:32:48.6651528+01:00",
     "ChildItems": [
       {
-        "Id": 707,
-        "Name": "Jones-Parisian",
-        "ToolTip": "Voluptates quas non consequatur id.",
+        "Id": 722,
+        "Name": "Jerde, Runolfsson and Schinner",
+        "ToolTip": "Nihil vel laboriosam aspernatur blanditiis et et doloremque.",
         "Deleted": false,
-        "Rank": 864,
-        "Type": "fugiat",
-        "ColorBlock": 39,
-        "IconHint": "quo",
-        "Selected": true,
-        "LastChanged": "2007-05-28T13:14:09.7597728+02:00",
+        "Rank": 110,
+        "Type": "ut",
+        "ColorBlock": 703,
+        "IconHint": "hic",
+        "Selected": false,
+        "LastChanged": "2006-11-19T16:32:48.6651528+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odio",
-        "StyleHint": "sequi",
-        "Hidden": true,
-        "FullName": "Miss Kamille Boyer II"
+        "ExtraInfo": "eos",
+        "StyleHint": "expedita",
+        "Hidden": false,
+        "FullName": "Vladimir Shields"
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "unde",
+    "ExtraInfo": "similique",
+    "StyleHint": "maiores",
     "Hidden": false,
-    "FullName": "Titus Hamill"
+    "FullName": "Gladys Kshlerin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 650,
-    "Name": "Zemlak-Padberg",
-    "ToolTip": "Sunt ut esse error ut quos.",
-    "Deleted": true,
-    "Rank": 678,
-    "Type": "ipsum",
-    "ColorBlock": 609,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2009-10-13T13:14:09.7597728+02:00",
+    "Id": 96,
+    "Name": "Larkin, Brekke and Crona",
+    "ToolTip": "Est illum inventore blanditiis.",
+    "Deleted": false,
+    "Rank": 828,
+    "Type": "qui",
+    "ColorBlock": 632,
+    "IconHint": "minus",
+    "Selected": true,
+    "LastChanged": "2001-06-30T16:32:48.6651528+02:00",
     "ChildItems": [
       {
-        "Id": 160,
-        "Name": "Gorczany-Flatley",
-        "ToolTip": "Architecto perspiciatis.",
-        "Deleted": false,
-        "Rank": 595,
-        "Type": "accusamus",
-        "ColorBlock": 788,
-        "IconHint": "fugiat",
-        "Selected": false,
-        "LastChanged": "2024-02-24T13:14:09.7597728+01:00",
+        "Id": 145,
+        "Name": "Douglas, Zieme and Hayes",
+        "ToolTip": "Eum excepturi iusto optio asperiores excepturi sed.",
+        "Deleted": true,
+        "Rank": 18,
+        "Type": "eaque",
+        "ColorBlock": 246,
+        "IconHint": "officia",
+        "Selected": true,
+        "LastChanged": "2014-01-15T16:32:48.6651528+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "aut",
+        "ExtraInfo": "culpa",
+        "StyleHint": "reiciendis",
         "Hidden": false,
-        "FullName": "Dr. Drake Watsica",
+        "FullName": "Milo Rempel DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 565
+            "FieldLength": 444
           }
         }
       }
     ],
-    "ExtraInfo": "earum",
-    "StyleHint": "repellat",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "perferendis",
     "Hidden": false,
-    "FullName": "Dr. Braulio Alan Donnelly",
+    "FullName": "Prof. Abigail Harvey III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 712
+        "FieldLength": 455
       }
     }
   }

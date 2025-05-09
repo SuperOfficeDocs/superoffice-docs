@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 704,
-    "Name": "Vandervort-Jones",
-    "ToolTip": "Enim commodi ullam et laborum quam rerum.",
+    "Id": 632,
+    "Name": "Torphy, Brekke and Nienow",
+    "ToolTip": "Odit sed rerum.",
     "Deleted": false,
-    "Rank": 473,
-    "Type": "dignissimos",
-    "ColorBlock": 503,
-    "IconHint": "perspiciatis",
+    "Rank": 742,
+    "Type": "est",
+    "ColorBlock": 691,
+    "IconHint": "quas",
     "Selected": true,
-    "LastChanged": "2018-11-10T13:14:10.0097876+01:00",
+    "LastChanged": "2005-12-10T16:32:48.8994739+01:00",
     "ChildItems": [
       {
-        "Id": 253,
-        "Name": "Mann-Hamill",
-        "ToolTip": "Quas ea aut earum fugiat fuga.",
+        "Id": 506,
+        "Name": "Carroll, Deckow and Schowalter",
+        "ToolTip": "Culpa illo aut doloribus architecto alias qui ipsa.",
         "Deleted": false,
-        "Rank": 908,
-        "Type": "aut",
-        "ColorBlock": 902,
-        "IconHint": "iure",
-        "Selected": true,
-        "LastChanged": "2021-09-25T13:14:10.0097876+02:00",
+        "Rank": 140,
+        "Type": "enim",
+        "ColorBlock": 306,
+        "IconHint": "quisquam",
+        "Selected": false,
+        "LastChanged": "2019-10-14T16:32:48.8994739+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsam",
-        "StyleHint": "eos",
-        "Hidden": false,
-        "FullName": "Prof. Brannon Kulas"
+        "ExtraInfo": "totam",
+        "StyleHint": "cupiditate",
+        "Hidden": true,
+        "FullName": "Domenico King"
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "voluptatibus",
-    "Hidden": true,
-    "FullName": "Mrs. Susana Verona Leannon"
+    "ExtraInfo": "natus",
+    "StyleHint": "ducimus",
+    "Hidden": false,
+    "FullName": "Mrs. Buford Floy Mueller"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 388,
-    "Name": "Sawayn-Ryan",
-    "ToolTip": "Ut rerum fugiat vel velit eum id ad.",
-    "Deleted": true,
-    "Rank": 871,
-    "Type": "optio",
-    "ColorBlock": 382,
-    "IconHint": "a",
+    "Id": 606,
+    "Name": "Russel, Paucek and Abernathy",
+    "ToolTip": "Quasi qui et aut enim.",
+    "Deleted": false,
+    "Rank": 389,
+    "Type": "vero",
+    "ColorBlock": 481,
+    "IconHint": "ab",
     "Selected": false,
-    "LastChanged": "2007-06-26T13:14:10.0097876+02:00",
+    "LastChanged": "2003-07-02T16:32:48.8994739+02:00",
     "ChildItems": [
       {
-        "Id": 720,
-        "Name": "Orn Inc and Sons",
-        "ToolTip": "Occaecati doloribus beatae libero ut veritatis rem.",
+        "Id": 44,
+        "Name": "Mills-Haley",
+        "ToolTip": "Cum aperiam consequatur.",
         "Deleted": false,
-        "Rank": 328,
-        "Type": "laboriosam",
-        "ColorBlock": 347,
-        "IconHint": "reprehenderit",
-        "Selected": false,
-        "LastChanged": "2011-05-02T13:14:10.0097876+02:00",
+        "Rank": 664,
+        "Type": "perspiciatis",
+        "ColorBlock": 510,
+        "IconHint": "explicabo",
+        "Selected": true,
+        "LastChanged": "2015-02-26T16:32:48.8994739+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "similique",
-        "StyleHint": "inventore",
+        "ExtraInfo": "quis",
+        "StyleHint": "iste",
         "Hidden": false,
-        "FullName": "Tod Powlowski",
+        "FullName": "Eldred Corkery",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 389
+            "FieldLength": 732
           }
         }
       }
     ],
-    "ExtraInfo": "distinctio",
-    "StyleHint": "voluptatum",
+    "ExtraInfo": "quod",
+    "StyleHint": "vero",
     "Hidden": false,
-    "FullName": "Edd Shields",
+    "FullName": "Leila Stracke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 580
+        "FieldLength": 132
       }
     }
   }

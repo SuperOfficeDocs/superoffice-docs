@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 392
+  "UserGroupId": 384
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 654,
-    "ColumnId": 99,
-    "FieldDefault": "facilis",
-    "FieldHeight": 234,
-    "FieldLabel": "recusandae",
-    "FieldLeft": 376,
-    "FieldTop": 130,
+    "UDefFieldId": 899,
+    "ColumnId": 246,
+    "FieldDefault": "necessitatibus",
+    "FieldHeight": 629,
+    "FieldLabel": "dolor",
+    "FieldLeft": 422,
+    "FieldTop": 464,
     "FieldType": "Checkbox",
-    "FieldWidth": 635,
-    "FormatMask": "nihil",
-    "HideLabel": false,
+    "FieldWidth": 2,
+    "FormatMask": "quis",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 995,
-    "LabelLeft": 152,
-    "LabelTop": 984,
-    "LabelWidth": 805,
-    "LastVersionId": 990,
-    "ListTableId": 660,
-    "IsMandatory": false,
+    "LabelHeight": 977,
+    "LabelLeft": 517,
+    "LabelTop": 936,
+    "LabelWidth": 402,
+    "LastVersionId": 130,
+    "ListTableId": 889,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 17,
-    "ProgId": "nihil",
+    "Page1LineNo": 169,
+    "ProgId": "consequuntur",
     "IsReadOnly": false,
-    "ShortLabel": "illo",
-    "TabOrder": 275,
-    "TextLength": 417,
-    "Tooltip": "magni",
-    "UdefIdentity": 677,
-    "UDListDefinitionId": 94,
+    "ShortLabel": "dolores",
+    "TabOrder": 220,
+    "TextLength": 992,
+    "Tooltip": "qui",
+    "UdefIdentity": 764,
+    "UDListDefinitionId": 245,
     "Justification": "Center",
-    "Version": 118,
-    "TemplateVariableName": "Robel, Glover and Stehr",
-    "HasBeenPublished": false,
-    "MdoListName": "Batz-Schinner",
+    "Version": 713,
+    "TemplateVariableName": "Howe LLC",
+    "HasBeenPublished": true,
+    "MdoListName": "Lebsack, Erdman and Turcotte",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 728
+        "FieldType": "System.String",
+        "FieldLength": 115
       }
     }
   }

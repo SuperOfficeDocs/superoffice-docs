@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/Report/CreateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceId": 876,
-  "Name": "Hoppe, Marvin and Dibbert",
-  "Description": "Ergonomic multimedia strategy"
+  "SourceId": 379,
+  "Name": "Jacobs-Ernser",
+  "Description": "Devolved responsive help-desk"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 794,
+  "ReportId": 720,
   "ReportCategory": "All",
-  "Description": "Reduced intermediate orchestration",
+  "Description": "Universal foreground initiative",
   "ReportLayout": "CalendarMonth",
-  "Name": "Armstrong, Kilback and Maggio",
-  "AssociateId": 885,
-  "TemplateId": 551,
+  "Name": "White LLC",
+  "AssociateId": 392,
+  "TemplateId": 189,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 552
+      "FieldType": "System.Int32",
+      "FieldLength": 404
     }
   }
 }

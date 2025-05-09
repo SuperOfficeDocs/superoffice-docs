@@ -71,11 +71,11 @@ OK
 POST /api/v1/Agents/Document/CreateTempFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filename": "similique",
+  "Filename": "et",
   "DataStream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"expedita"
+"odio"
 ```

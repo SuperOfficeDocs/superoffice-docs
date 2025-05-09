@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 399,
-    "Name": "Hoppe Inc and Sons",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "UdListDefinitionId": 63,
-    "Rank": 715
+    "Id": 478,
+    "Name": "Lakin, Hansen and Spinka",
+    "Tooltip": "nemo",
+    "Deleted": true,
+    "UdListDefinitionId": 68,
+    "Rank": 422
   },
   {
-    "Id": 399,
-    "Name": "Hoppe Inc and Sons",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "UdListDefinitionId": 63,
-    "Rank": 715
+    "Id": 478,
+    "Name": "Lakin, Hansen and Spinka",
+    "Tooltip": "nemo",
+    "Deleted": true,
+    "UdListDefinitionId": 68,
+    "Rank": 422
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 133,
-    "Name": "Jones, VonRueden and Dach",
-    "Tooltip": "omnis",
-    "Deleted": true,
-    "UdListDefinitionId": 268,
-    "Rank": 38,
+    "Id": 715,
+    "Name": "Turner-Grimes",
+    "Tooltip": "eum",
+    "Deleted": false,
+    "UdListDefinitionId": 494,
+    "Rank": 897,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 903
+        "FieldType": "System.String",
+        "FieldLength": 469
       }
     }
   }

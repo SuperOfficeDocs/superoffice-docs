@@ -26,6 +26,7 @@ Download [WSDL file for Services88/CustomerService](../Services88-CustomerServic
 * [DeleteChatSessions](DeleteChatSessions.md)
 * [DeleteCustomerCenterConfig](DeleteCustomerCenterConfig.md)
 * [EventHandlerExists](EventHandlerExists.md)
+* [EventHandlersExists](EventHandlersExists.md)
 * [ExecuteEventHandlers](ExecuteEventHandlers.md)
 * [FindTicketsByTitleOrId](FindTicketsByTitleOrId.md)
 * [GetAllCustomerCenterConfigs](GetAllCustomerCenterConfigs.md)

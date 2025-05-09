@@ -73,7 +73,7 @@ OK
 GET /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 06 Apr 2019 13:14:09 G4T
+Last-Modified: Wed, 20 Dec 2000 16:32:48 G12T
 
 {
-  "BlobId": 207,
-  "BlobSize": 333,
-  "Description": "Innovative motivating structure",
-  "ExtraInfo": "temporibus",
-  "IsEncrypted": true,
+  "BlobId": 819,
+  "BlobSize": 476,
+  "Description": "Inverse fresh-thinking superstructure",
+  "ExtraInfo": "nisi",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "quia",
-  "OriginalSize": 961,
-  "CreatedDate": "2003-06-23T13:14:09.4467519+02:00",
-  "UpdatedDate": "2019-04-06T13:14:09.4467519+02:00",
+  "MimeType": "non",
+  "OriginalSize": 695,
+  "CreatedDate": "2017-03-08T16:32:48.3527308+01:00",
+  "UpdatedDate": "2000-12-20T16:32:48.3527308+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nemo",
+  "ConceptualType": "quam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 304
+      "FieldType": "System.Int32",
+      "FieldLength": 737
     }
   }
 }

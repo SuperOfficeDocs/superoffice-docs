@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 911,
-  "Name": "Veum Inc and Sons",
-  "Tooltip": "ab",
+  "HeadingId": 151,
+  "Name": "Little LLC",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 1002,
-  "UdListDefinitionId": 623
+  "Rank": 307,
+  "UdListDefinitionId": 180
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 331,
-  "Name": "McKenzie LLC",
-  "Tooltip": "expedita",
-  "Deleted": false,
-  "Rank": 622,
-  "UdListDefinitionId": 409,
+  "HeadingId": 82,
+  "Name": "Labadie-Gerlach",
+  "Tooltip": "amet",
+  "Deleted": true,
+  "Rank": 69,
+  "UdListDefinitionId": 133,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 527
+      "FieldType": "System.Int32",
+      "FieldLength": 968
     }
   }
 }

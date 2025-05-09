@@ -81,24 +81,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 897,
-  "Name": "Yundt-Cummerata",
-  "Tooltip": "eveniet",
+  "RoleId": 273,
+  "Name": "Adams Group",
+  "Tooltip": "temporibus",
   "RoleType": "Anonymous",
-  "Deleted": 740,
-  "Rank": 838,
-  "Created": "2018-04-20T13:14:08.9461361+02:00",
-  "UseCategories": 773,
+  "Deleted": 695,
+  "Rank": 764,
+  "Created": "2010-05-06T16:32:47.7589038+02:00",
+  "UseCategories": 464,
   "CreatedBy": null,
-  "Updated": "2017-06-26T13:14:08.9461361+02:00",
+  "Updated": "2011-09-09T16:32:47.7589038+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 12
+      "FieldType": "System.Int32",
+      "FieldLength": 651
     }
   }
 }

@@ -82,10 +82,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 305,
+  "DocumentTemplateId": 827,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "soluta",
-  "PluginId": 699
+  "LanguageCode": "velit",
+  "PluginId": 40
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kovacek, Armstrong and Schinner",
-  "Description": "Persistent local secured line",
-  "ExternalReference": "nesciunt",
-  "MimeType": "quaerat",
-  "PluginId": 846
+  "Name": "Balistreri, Mayert and Bernhard",
+  "Description": "Cloned dedicated infrastructure",
+  "ExternalReference": "distinctio",
+  "MimeType": "voluptatibus",
+  "PluginId": 569
 }
 ```

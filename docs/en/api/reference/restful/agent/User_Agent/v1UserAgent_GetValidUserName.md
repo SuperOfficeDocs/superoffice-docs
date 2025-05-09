@@ -73,14 +73,14 @@ OK
 POST /api/v1/Agents/User/GetValidUserName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 400,
+  "AssociateId": 340,
   "Type": "AnonymousAssociate",
-  "PersonId": 121,
-  "UserName": "Breitenberg, Batz and Rosenbaum"
+  "PersonId": 324,
+  "UserName": "Harris Group"
 }
 ```
 
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Hirthe-Ziemann"
+"Wilderman-Blanda"
 ```

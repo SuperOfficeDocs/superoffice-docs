@@ -105,7 +105,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 879,
+  "Id": 659,
   "EmbedImages": "Inline"
 }
 ```
@@ -117,79 +117,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 178,
+  "EjMessageId": 281,
   "Ticket": null,
-  "CreatedAt": "1998-06-11T13:14:01.3944274+02:00",
+  "CreatedAt": "2011-04-30T16:32:40.1645256+02:00",
   "CreatedBy": null,
-  "Author": "recusandae",
+  "Author": "pariatur",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "praesentium",
-  "TimeSpent": 163,
-  "Body": "nesciunt",
-  "HtmlBody": "repudiandae",
-  "EmailHeader": "meghan.hodkiewicz@schaefer.name",
-  "DebugInfo": "ut",
-  "MailSorter": "sed",
+  "MessageId": "facere",
+  "TimeSpent": 887,
+  "Body": "et",
+  "HtmlBody": "ut",
+  "EmailHeader": "elyse_keeling@corwinlarkin.com",
+  "DebugInfo": "fugiat",
+  "MailSorter": "pariatur",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "omnis",
+  "SearchTitle": "non",
   "MessageHeaders": [
     {
-      "Id": 174,
-      "Name": "Spencer-Ziemann",
-      "Value": "et",
+      "Id": 306,
+      "Name": "Conn Group",
+      "Value": "modi",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 66
+          "FieldType": "System.Int32",
+          "FieldLength": 769
         }
       }
     }
   ],
   "Important": true,
-  "Language": "reprehenderit",
-  "Sentiment": 113,
-  "SentimentConfidence": 389,
+  "Language": "consequuntur",
+  "Sentiment": 295,
+  "SentimentConfidence": 56,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 994,
-      "Name": "Kemmer-Kilback",
-      "ContentType": "iusto",
-      "AttSize": 843,
-      "InlineImage": false,
-      "ContentId": "dolorum",
-      "AuthKey": "illo",
+      "AttachmentId": 901,
+      "Name": "Morissette, Muller and Grady",
+      "ContentType": "laborum",
+      "AttSize": 955,
+      "InlineImage": true,
+      "ContentId": "tenetur",
+      "AuthKey": "doloremque",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 583
+          "FieldLength": 67
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "illum",
-    "ExtraFields2": "sit"
+    "ExtraFields1": "dolor",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "earum",
-    "CustomFields2": "quo"
+    "CustomFields1": "consectetur",
+    "CustomFields2": "placeat"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 691
+      "FieldType": "System.String",
+      "FieldLength": 118
     }
   }
 }

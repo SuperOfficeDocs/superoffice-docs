@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Heaney Inc and Sons",
-  "DeviceName": "Adams-Trantow",
-  "DeviceIdentifier": "architecto",
+  "ApplicationName": "Keeling Inc and Sons",
+  "DeviceName": "Stiedemann LLC",
+  "DeviceIdentifier": "nihil",
   "ForeignDevice": null
 }
 ```
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 477,
-  "Name": "Olson Inc and Sons",
-  "CreatedDate": "2025-03-17T13:14:00.5168611+01:00",
-  "UpdatedDate": "2023-01-11T13:14:00.5168611+01:00",
-  "AssociateFullName": "Jairo Lynch",
-  "CreatedBy": "atque",
-  "UpdatedBy": "quis",
-  "DeviceIdentifier": "nostrum",
-  "ForeignAppId": 582,
+  "ForeignDeviceId": 165,
+  "Name": "Wisoky-Mante",
+  "CreatedDate": "2001-02-06T16:32:39.1645096+01:00",
+  "UpdatedDate": "2022-08-15T16:32:39.1645096+02:00",
+  "AssociateFullName": "Greg Tyler Mann Jr.",
+  "CreatedBy": "blanditiis",
+  "UpdatedBy": "qui",
+  "DeviceIdentifier": "commodi",
+  "ForeignAppId": 505,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 40
+      "FieldType": "System.Int32",
+      "FieldLength": 573
     }
   }
 }

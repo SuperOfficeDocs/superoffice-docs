@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 62,
-  "Name": "Veum, Brekke and Skiles",
-  "Tooltip": "sed",
+  "HeadingId": 988,
+  "Name": "Roob-Hauck",
+  "Tooltip": "quo",
   "Deleted": false,
-  "Rank": 137,
-  "UdListDefinitionId": 533
+  "Rank": 900,
+  "UdListDefinitionId": 476
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 882,
-  "Name": "Bergstrom LLC",
-  "Tooltip": "maxime",
+  "HeadingId": 865,
+  "Name": "Swaniawski LLC",
+  "Tooltip": "commodi",
   "Deleted": false,
-  "Rank": 791,
-  "UdListDefinitionId": 654,
+  "Rank": 217,
+  "UdListDefinitionId": 475,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 794
+      "FieldType": "System.Int32",
+      "FieldLength": 271
     }
   }
 }

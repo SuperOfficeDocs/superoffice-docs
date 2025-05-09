@@ -91,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "project"
+  "Tablename": "contact"
 }
 ```
 
@@ -104,75 +104,75 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": false,
-    "DefaultShowInGui": false,
+    "DefaultShowInGui": true,
     "DefaultShowInSelector": false,
-    "IsActive": true,
-    "Key": "aliquam",
-    "ValueType": "culpa",
+    "IsActive": false,
+    "Key": "et",
+    "ValueType": "perferendis",
     "Mandatory": true,
-    "EncodedDisplayName": "Thompson-Howe",
-    "EncodedDisplayDescription": "Synergized modular installation",
-    "IconHint": "autem",
+    "EncodedDisplayName": "Barrows Inc and Sons",
+    "EncodedDisplayDescription": "Quality-focused executive analyzer",
+    "IconHint": "nulla",
     "ControlInfos": [
       {
-        "Type": "esse",
-        "Label": "natus",
-        "Dimension": 446,
-        "ListProviderName": "Christiansen Inc and Sons",
-        "ListProviderExtraInfo": "assumenda",
-        "ListProviderPrimaryKeyName": "Gerlach-Moen",
-        "ListLeadText": "facere",
+        "Type": "sed",
+        "Label": "sed",
+        "Dimension": 876,
+        "ListProviderName": "Pouros-Auer",
+        "ListProviderExtraInfo": "cupiditate",
+        "ListProviderPrimaryKeyName": "Bruen Inc and Sons",
+        "ListLeadText": "exercitationem",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 954
+            "FieldType": "System.Int32",
+            "FieldLength": 731
           }
         }
       }
     ],
-    "EncodedDataCaption": "suscipit",
-    "EncodedDataCaptionDescription": "Reactive bottom-line adapter",
-    "CurrentOperationType": "rerum",
+    "EncodedDataCaption": "distinctio",
+    "EncodedDataCaptionDescription": "Triple-buffered web-enabled knowledge user",
+    "CurrentOperationType": "molestiae",
     "Values": [
-      "sequi",
-      "maiores"
+      "quia",
+      "nulla"
     ],
     "DisplayValues": [
-      "et",
-      "autem"
+      "repellendus",
+      "consequatur"
     ],
     "OperationInfos": [
       {
         "Key": "et",
-        "EncodedDisplayName": "Ledner-Streich",
+        "EncodedDisplayName": "Murazik-Wiegand",
         "EncodedLeadTexts": [
-          "impedit",
-          "voluptas"
+          "voluptates",
+          "distinctio"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 335
+            "FieldType": "System.Int32",
+            "FieldLength": 752
           }
         }
       },
       {
         "Key": "et",
-        "EncodedDisplayName": "Ledner-Streich",
+        "EncodedDisplayName": "Murazik-Wiegand",
         "EncodedLeadTexts": [
-          "impedit",
-          "voluptas"
+          "voluptates",
+          "distinctio"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 335
+            "FieldType": "System.Int32",
+            "FieldLength": 752
           }
         }
       }

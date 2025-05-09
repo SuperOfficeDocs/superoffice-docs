@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2006-09-04T13:13:59.3594813+02:00"
+  "StartDate": "2004-02-23T16:32:38.0085236+01:00"
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 429,
-  "StartDate": "2013-04-22T13:13:59.3594813+02:00",
-  "EndDate": "2018-11-08T13:13:59.3594813+01:00",
-  "RecurrenceCounter": 934,
+  "RecurrenceId": 754,
+  "StartDate": "2010-08-02T16:32:38.0085236+02:00",
+  "EndDate": "1999-10-22T16:32:38.0085236+02:00",
+  "RecurrenceCounter": 149,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2008-04-05T13:13:59.3594813+02:00",
-      "IsConflict": true,
-      "Description": "Intuitive neutral definition",
-      "DescriptionStyleHint": "Reverse-engineered homogeneous instruction set",
-      "Tooltip": "deleniti"
+      "Date": "2007-01-07T16:32:38.0085236+01:00",
+      "IsConflict": false,
+      "Description": "Pre-emptive 4th generation moratorium",
+      "DescriptionStyleHint": "Optimized grid-enabled groupware",
+      "Tooltip": "officia"
     },
     {
-      "Date": "2008-04-05T13:13:59.3594813+02:00",
-      "IsConflict": true,
-      "Description": "Intuitive neutral definition",
-      "DescriptionStyleHint": "Reverse-engineered homogeneous instruction set",
-      "Tooltip": "deleniti"
+      "Date": "2007-01-07T16:32:38.0085236+01:00",
+      "IsConflict": false,
+      "Description": "Pre-emptive 4th generation moratorium",
+      "DescriptionStyleHint": "Optimized grid-enabled groupware",
+      "Tooltip": "officia"
     }
   ],
   "IsRecurrence": false

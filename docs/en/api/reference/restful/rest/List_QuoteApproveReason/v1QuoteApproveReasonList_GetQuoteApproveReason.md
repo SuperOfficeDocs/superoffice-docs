@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 832,
-  "Name": "Daugherty-Hilll",
-  "Tooltip": "fuga",
+  "Id": 766,
+  "Name": "Farrell, Toy and Green",
+  "Tooltip": "assumenda",
   "Deleted": true,
-  "UdListDefinitionId": 73,
-  "Rank": 613,
+  "UdListDefinitionId": 201,
+  "Rank": 748,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 415
+      "FieldType": "System.Int32",
+      "FieldLength": 375
     }
   }
 }

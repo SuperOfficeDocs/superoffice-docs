@@ -113,18 +113,18 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 882,
-      "ContactId": 434
+      "PersonId": 705,
+      "ContactId": 454
     },
     {
-      "PersonId": 882,
-      "ContactId": 434
+      "PersonId": 705,
+      "ContactId": 454
     }
   ]
 }
@@ -137,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Re-contextualized contextually-based groupware",
-  "Postit": "minima",
+  "Description": "Profound contextually-based project",
+  "Postit": "aut",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 832,
-  "IncludePerson": 357,
+  "GroupIdx": 992,
+  "IncludePerson": 229,
   "MemberCount": 99.99,
-  "Name": "Cormier-Kunze",
-  "PostitTextId": 589,
-  "CreatedDate": "2010-11-30T13:14:01.300672+01:00",
-  "SelectionId": 240,
-  "SoundEx": "earum",
-  "Source": 395,
-  "TextId": 94,
-  "UpdatedDate": "2003-05-09T13:14:01.300672+02:00",
-  "UpdatedCount": 467,
-  "Visibility": 811,
+  "Name": "Davis-Rosenbaum",
+  "PostitTextId": 651,
+  "CreatedDate": "2009-03-25T16:32:39.8989674+01:00",
+  "SelectionId": 415,
+  "SoundEx": "autem",
+  "Source": 651,
+  "TextId": 706,
+  "UpdatedDate": "2018-04-30T16:32:39.8989674+02:00",
+  "UpdatedCount": 809,
+  "Visibility": 314,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 434,
-  "TargetTableName": "Schultz-O'Conner",
-  "Completed": false,
-  "LeftSelectionId": 161,
-  "RightSelectionId": 557,
+  "TargetTableNumber": 188,
+  "TargetTableName": "Green-Torphy",
+  "Completed": true,
+  "LeftSelectionId": 826,
+  "RightSelectionId": 486,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Rempel, Welch and Lynch",
-  "ShadowProviderName": "Kreiger Inc and Sons",
-  "ChartKey": "voluptas",
-  "LastLoaded": "2001-04-09T13:14:01.300672+02:00",
-  "LastLoadedBy": 412,
+  "MainProviderName": "White-Douglas",
+  "ShadowProviderName": "Thiel Inc and Sons",
+  "ChartKey": "nesciunt",
+  "LastLoaded": "2022-04-07T16:32:39.8989674+02:00",
+  "LastLoadedBy": 419,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2002-09-24T13:14:01.300672+02:00",
-  "LastMembershipChangeBy": 583,
+  "LastMembershipChange": "2025-02-14T16:32:39.8989674+01:00",
+  "LastMembershipChangeBy": 189,
   "LastMembershipChangeByAssociate": null,
   "MainHeading": "autem",
-  "MemberTabHeading": "voluptatem",
-  "MailingsProviderName": "Shields, Hirthe and Leannon",
-  "DashboardTileDefinitionId": 369,
+  "MemberTabHeading": "labore",
+  "MailingsProviderName": "Predovic-Bernier",
+  "DashboardTileDefinitionId": 966,
   "VisibleFor": [
     {
-      "VisibleId": 979,
+      "VisibleId": 32,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "pariatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 208
+          "FieldType": "System.Int32",
+          "FieldLength": 859
         }
       }
     },
     {
-      "VisibleId": 979,
+      "VisibleId": 32,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "pariatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 208
+          "FieldType": "System.Int32",
+          "FieldLength": 859
         }
       }
     }
@@ -209,8 +209,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 833
+      "FieldType": "System.String",
+      "FieldLength": 154
     }
   }
 }

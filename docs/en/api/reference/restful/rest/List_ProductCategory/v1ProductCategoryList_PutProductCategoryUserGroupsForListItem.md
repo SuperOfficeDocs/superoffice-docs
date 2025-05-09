@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 354,
-    "Name": "Stiedemann Group",
-    "ToolTip": "Officia quis harum rerum voluptatibus.",
-    "Deleted": false,
-    "Rank": 468,
-    "Type": "fuga",
-    "ColorBlock": 879,
-    "IconHint": "dolorem",
+    "Id": 23,
+    "Name": "Pollich, Schneider and Kuhn",
+    "ToolTip": "Est ut nisi temporibus corporis earum.",
+    "Deleted": true,
+    "Rank": 456,
+    "Type": "beatae",
+    "ColorBlock": 889,
+    "IconHint": "ut",
     "Selected": true,
-    "LastChanged": "2002-06-24T13:14:09.9004061+02:00",
+    "LastChanged": "2021-04-01T16:32:48.7901236+02:00",
     "ChildItems": [
       {
-        "Id": 759,
-        "Name": "Jacobson-Dickens",
-        "ToolTip": "Ducimus dolores enim ad aut.",
-        "Deleted": false,
-        "Rank": 916,
-        "Type": "eligendi",
-        "ColorBlock": 244,
-        "IconHint": "alias",
+        "Id": 61,
+        "Name": "Shanahan-Conroy",
+        "ToolTip": "Ut consequatur id ex possimus eos pariatur.",
+        "Deleted": true,
+        "Rank": 619,
+        "Type": "quae",
+        "ColorBlock": 684,
+        "IconHint": "omnis",
         "Selected": true,
-        "LastChanged": "2006-09-11T13:14:09.9004061+02:00",
+        "LastChanged": "2015-05-02T16:32:48.7901236+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Mr. Barbara Wunsch"
+        "ExtraInfo": "beatae",
+        "StyleHint": "sapiente",
+        "Hidden": false,
+        "FullName": "Bryon Christiansen"
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "commodi",
+    "ExtraInfo": "enim",
+    "StyleHint": "iusto",
     "Hidden": false,
-    "FullName": "Rocky Fay"
+    "FullName": "Nettie Durgan"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 229,
-    "Name": "Senger LLC",
-    "ToolTip": "Eos cupiditate.",
-    "Deleted": false,
-    "Rank": 499,
-    "Type": "nisi",
-    "ColorBlock": 865,
-    "IconHint": "ad",
-    "Selected": false,
-    "LastChanged": "2001-11-03T13:14:09.9004061+01:00",
+    "Id": 410,
+    "Name": "Toy-Larkin",
+    "ToolTip": "Aut iusto exercitationem vero dolor voluptatem.",
+    "Deleted": true,
+    "Rank": 741,
+    "Type": "illo",
+    "ColorBlock": 856,
+    "IconHint": "eos",
+    "Selected": true,
+    "LastChanged": "2022-02-14T16:32:48.7901236+01:00",
     "ChildItems": [
       {
-        "Id": 293,
-        "Name": "Oberbrunner, Schulist and Braun",
-        "ToolTip": "Fugit dolorum iure et eum.",
-        "Deleted": true,
-        "Rank": 738,
-        "Type": "dolorem",
-        "ColorBlock": 287,
-        "IconHint": "ad",
+        "Id": 763,
+        "Name": "Nader-Walter",
+        "ToolTip": "Eos molestiae et ea tempora minus et sequi.",
+        "Deleted": false,
+        "Rank": 333,
+        "Type": "eius",
+        "ColorBlock": 381,
+        "IconHint": "veniam",
         "Selected": false,
-        "LastChanged": "2002-12-24T13:14:09.9004061+01:00",
+        "LastChanged": "2011-05-16T16:32:48.7901236+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "quo",
-        "Hidden": true,
-        "FullName": "Santos Crist",
+        "ExtraInfo": "eligendi",
+        "StyleHint": "exercitationem",
+        "Hidden": false,
+        "FullName": "Verlie Kerluke I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 682
+            "FieldLength": 193
           }
         }
       }
     ],
-    "ExtraInfo": "cum",
-    "StyleHint": "nobis",
+    "ExtraInfo": "alias",
+    "StyleHint": "incidunt",
     "Hidden": false,
-    "FullName": "Sandy Kemmer",
+    "FullName": "Randal Zboncak",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 517
+        "FieldType": "System.Int32",
+        "FieldLength": 550
       }
     }
   }

@@ -79,8 +79,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 718,
-  "LanguageCode": "modi"
+  "DashboardTileDefinitionId": 416,
+  "LanguageCode": "possimus"
 }
 ```
 
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageCode": "minus",
-  "Html": "enim",
+  "LanguageCode": "iste",
+  "Html": "tenetur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 99
+      "FieldLength": 612
     }
   }
 }

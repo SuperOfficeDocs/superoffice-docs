@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/List/GetAllInDomain
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 178,
+    "HierarchyId": 94,
     "Domain": "Dashboards",
-    "Name": "Boehm, Osinski and McKenzie",
-    "Fullname": "consequatur",
-    "ParentId": 579,
+    "Name": "Stiedemann, Mante and Welch",
+    "Fullname": "sed",
+    "ParentId": 66,
     "Children": [
       {
-        "HierarchyId": 772,
+        "HierarchyId": 226,
         "Domain": "Dashboards",
-        "Name": "Zieme-Heidenreich",
-        "Fullname": "quia",
-        "ParentId": 327,
+        "Name": "Ankunding, Hintz and Runolfsson",
+        "Fullname": "distinctio",
+        "ParentId": 825,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2019-05-04T13:14:00.6418764+02:00",
-        "RegisteredAssociateId": 349,
-        "Updated": "2009-04-15T13:14:00.6418764+02:00",
-        "UpdatedAssociateId": 306,
+        "Registered": "2002-11-16T16:32:39.2894842+01:00",
+        "RegisteredAssociateId": 881,
+        "Updated": "2011-07-16T16:32:39.2894842+02:00",
+        "UpdatedAssociateId": 786,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 468
+            "FieldType": "System.String",
+            "FieldLength": 855
           }
         }
       }
     ],
-    "Registered": "2019-10-14T13:14:00.6418764+02:00",
-    "RegisteredAssociateId": 633,
-    "Updated": "1999-07-14T13:14:00.6418764+02:00",
-    "UpdatedAssociateId": 329,
+    "Registered": "2024-01-19T16:32:39.2894842+01:00",
+    "RegisteredAssociateId": 76,
+    "Updated": "2012-12-21T16:32:39.2894842+01:00",
+    "UpdatedAssociateId": 568,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 368
+        "FieldLength": 846
       }
     }
   }

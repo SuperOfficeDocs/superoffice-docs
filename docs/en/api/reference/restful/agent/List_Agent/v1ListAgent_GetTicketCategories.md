@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,36 +93,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 775,
-    "ParentId": 605,
-    "Name": "Yundt, Russel and Walsh",
-    "Fullname": "ducimus",
-    "CategoryMaster": 15,
+    "TicketCategoryId": 113,
+    "ParentId": 928,
+    "Name": "Streich, Schneider and Emard",
+    "Fullname": "quibusdam",
+    "CategoryMaster": 495,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Little Inc and Sons",
+    "ExternalName": "Jacobi, Gleichner and Ullrich",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 257,
-    "ReplyTemplate": 216,
-    "NotificationEmail": "leopoldo_connelly@erdman.info",
+    "AssignmentLag": 287,
+    "ReplyTemplate": 782,
+    "NotificationEmail": "jules@sanford.name",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 796,
+    "EffectiveReplyTemplateId": 238,
     "ExtraFields": {
-      "ExtraFields1": "tempore",
-      "ExtraFields2": "ipsa"
+      "ExtraFields1": "quia",
+      "ExtraFields2": "perferendis"
     },
     "CustomFields": {
-      "CustomFields1": "corporis",
-      "CustomFields2": "earum"
+      "CustomFields1": "assumenda",
+      "CustomFields2": "libero"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 608
+        "FieldType": "System.Int32",
+        "FieldLength": 123
       }
     }
   }

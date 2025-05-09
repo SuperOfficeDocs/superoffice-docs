@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 326,
-  "Name": "Gusikowski Group",
-  "Tooltip": "natus",
-  "Deleted": true,
-  "UdListDefinitionId": 292,
-  "Rank": 391,
+  "Id": 240,
+  "Name": "Morar, Fisher and Kertzmann",
+  "Tooltip": "maiores",
+  "Deleted": false,
+  "UdListDefinitionId": 302,
+  "Rank": 174,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 379
+      "FieldType": "System.String",
+      "FieldLength": 819
     }
   }
 }

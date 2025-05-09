@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/TicketStatus/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,19 +71,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 653,
-  "Name": "Brown-Olson",
+  "TicketStatusId": 126,
+  "Name": "Bahringer-Ondricka",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
-  "IsDefault": true,
+  "IsDefault": false,
   "UsedInQueue": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 62
+      "FieldLength": 834
     }
   }
 }

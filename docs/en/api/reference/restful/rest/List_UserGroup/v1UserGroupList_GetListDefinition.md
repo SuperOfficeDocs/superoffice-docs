@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 332,
-  "Name": "Strosin Inc and Sons",
-  "Tooltip": "exercitationem",
+  "Id": 877,
+  "Name": "Blanda-Beier",
+  "Tooltip": "qui",
   "Deleted": true,
-  "Rank": 955,
+  "Rank": 438,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "asperiores",
+  "ListType": "qui",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 121
+      "FieldLength": 390
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

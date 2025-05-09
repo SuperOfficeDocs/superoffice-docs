@@ -29,7 +29,7 @@ Get summary of contact and its recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Contact/{contactId}/Summary?limit=779
+GET /api/v1/Contact/{contactId}/Summary?limit=499
 ```
 
 
@@ -85,79 +85,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 121,
-      "TicketStatus": 722,
-      "Title": "iste",
-      "Registered": "2019-07-27T13:14:08.5866221+02:00",
-      "IconHint": "explicabo"
+      "TicketId": 460,
+      "TicketStatus": 584,
+      "Title": "voluptatem",
+      "Registered": "2003-08-24T16:32:47.3839895+02:00",
+      "IconHint": "fugiat"
     },
     {
-      "TicketId": 121,
-      "TicketStatus": 722,
-      "Title": "iste",
-      "Registered": "2019-07-27T13:14:08.5866221+02:00",
-      "IconHint": "explicabo"
+      "TicketId": 460,
+      "TicketStatus": 584,
+      "Title": "voluptatem",
+      "Registered": "2003-08-24T16:32:47.3839895+02:00",
+      "IconHint": "fugiat"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 872,
-      "DocumentId": 71,
-      "Date": "2000-07-03T13:14:08.5866221+02:00",
-      "Description": "Digitized real-time matrices",
+      "AppointmentId": 973,
+      "DocumentId": 439,
+      "Date": "2015-02-14T16:32:47.3839895+01:00",
+      "Description": "Horizontal content-based adapter",
       "Completed": "Completed",
-      "Registered": "2017-04-11T13:14:08.5866221+02:00"
+      "Registered": "2022-08-11T16:32:47.3839895+02:00"
     },
     {
-      "AppointmentId": 872,
-      "DocumentId": 71,
-      "Date": "2000-07-03T13:14:08.5866221+02:00",
-      "Description": "Digitized real-time matrices",
+      "AppointmentId": 973,
+      "DocumentId": 439,
+      "Date": "2015-02-14T16:32:47.3839895+01:00",
+      "Description": "Horizontal content-based adapter",
       "Completed": "Completed",
-      "Registered": "2017-04-11T13:14:08.5866221+02:00"
+      "Registered": "2022-08-11T16:32:47.3839895+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 392,
-      "DocumentId": 334,
-      "Date": "2015-05-03T13:14:08.5866221+02:00",
-      "Description": "Upgradable human-resource secured line",
+      "AppointmentId": 685,
+      "DocumentId": 984,
+      "Date": "2019-01-16T16:32:47.3839895+01:00",
+      "Description": "Down-sized cohesive access",
       "Completed": "Completed",
-      "Registered": "2013-07-14T13:14:08.5866221+02:00"
+      "Registered": "2012-12-30T16:32:47.3839895+01:00"
     },
     {
-      "AppointmentId": 392,
-      "DocumentId": 334,
-      "Date": "2015-05-03T13:14:08.5866221+02:00",
-      "Description": "Upgradable human-resource secured line",
+      "AppointmentId": 685,
+      "DocumentId": 984,
+      "Date": "2019-01-16T16:32:47.3839895+01:00",
+      "Description": "Down-sized cohesive access",
       "Completed": "Completed",
-      "Registered": "2013-07-14T13:14:08.5866221+02:00"
+      "Registered": "2012-12-30T16:32:47.3839895+01:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 875,
-      "SaleDate": "2021-01-10T13:14:08.5866221+01:00",
-      "Probability": 519,
-      "Heading": "voluptas",
-      "Amount": 24605.034,
+      "SaleId": 869,
+      "SaleDate": "2008-03-01T16:32:47.3839895+01:00",
+      "Probability": 319,
+      "Heading": "facere",
+      "Amount": 23191.6,
       "Currency": "rerum",
-      "AmountInBaseCurrency": 12394.97,
+      "AmountInBaseCurrency": 10878.114,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2006-01-06T13:14:08.5866221+01:00"
+      "Registered": "2009-08-25T16:32:47.3839895+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 653,
-      "Name": "O'Keefe-Schneider",
-      "CompanyName": "Green-Upton",
-      "FirstMessage": "est",
-      "LastMessage": "neque",
-      "WhenRequested": "2023-02-24T13:14:08.5866221+01:00",
-      "WhenEnded": "2012-09-09T13:14:08.5866221+02:00"
+      "ChatSessionId": 970,
+      "Name": "Hackett, Purdy and Hickle",
+      "CompanyName": "Russel-Torphy",
+      "FirstMessage": "reprehenderit",
+      "LastMessage": "ut",
+      "WhenRequested": "2014-12-14T16:32:47.3839895+01:00",
+      "WhenEnded": "2008-12-01T16:32:47.3839895+01:00"
     }
   ]
 }

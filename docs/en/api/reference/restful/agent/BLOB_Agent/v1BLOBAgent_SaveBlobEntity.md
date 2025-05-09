@@ -91,19 +91,19 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 445,
-  "BlobSize": 830,
-  "Description": "Universal empowering frame",
-  "ExtraInfo": "perferendis",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "hic",
-  "OriginalSize": 152,
-  "CreatedDate": "2013-10-22T13:13:59.5314453+02:00",
-  "UpdatedDate": "2023-08-26T13:13:59.5314453+02:00",
+  "BlobId": 358,
+  "BlobSize": 163,
+  "Description": "User-friendly bifurcated orchestration",
+  "ExtraInfo": "facilis",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "dignissimos",
+  "OriginalSize": 956,
+  "CreatedDate": "2004-08-24T16:32:38.2116027+02:00",
+  "UpdatedDate": "2008-01-24T16:32:38.2116027+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nostrum"
+  "ConceptualType": "dolorum"
 }
 ```
 
@@ -114,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 545,
-  "BlobSize": 616,
-  "Description": "Organic cohesive info-mediaries",
-  "ExtraInfo": "quo",
-  "IsEncrypted": false,
+  "BlobId": 719,
+  "BlobSize": 530,
+  "Description": "Persistent system-worthy website",
+  "ExtraInfo": "voluptas",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "officiis",
-  "OriginalSize": 131,
-  "CreatedDate": "2020-10-17T13:13:59.5314453+02:00",
-  "UpdatedDate": "2018-12-14T13:13:59.5314453+01:00",
+  "MimeType": "voluptatibus",
+  "OriginalSize": 680,
+  "CreatedDate": "2004-01-30T16:32:38.2116027+01:00",
+  "UpdatedDate": "2004-08-15T16:32:38.2116027+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "rerum",
+  "ConceptualType": "exercitationem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 312
+      "FieldLength": 99
     }
   }
 }

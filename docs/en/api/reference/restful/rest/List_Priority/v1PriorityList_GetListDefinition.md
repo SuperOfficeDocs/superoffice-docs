@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 348,
-  "Name": "Heathcote-Welch",
-  "Tooltip": "vero",
-  "Deleted": false,
-  "Rank": 438,
+  "Id": 404,
+  "Name": "Hilpert, Ullrich and Keeling",
+  "Tooltip": "officia",
+  "Deleted": true,
+  "Rank": 715,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "maxime",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "sit",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 979
+      "FieldLength": 675
     }
   },
   "_Links": {

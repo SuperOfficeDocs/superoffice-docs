@@ -26,8 +26,8 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentSource/MDOItems?flat=True
-GET /api/v1/List/ConsentSource/MDOItems?query=enim
+GET /api/v1/List/ConsentSource/MDOItems?flat=False
+GET /api/v1/List/ConsentSource/MDOItems?query=sit
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 258,
-    "Name": "Hessel Inc and Sons",
-    "ToolTip": "Enim dolorum ut.",
+    "Id": 951,
+    "Name": "Koch, Spinka and Ward",
+    "ToolTip": "Velit omnis sit.",
     "Deleted": false,
-    "Rank": 162,
-    "Type": "officia",
+    "Rank": 789,
+    "Type": "laboriosam",
     "ChildItems": [
       {
-        "Id": 963,
-        "Name": "Schmitt, Kshlerin and Monahan",
-        "ToolTip": "Aperiam sit qui fuga voluptas molestias ad tempore.",
+        "Id": 117,
+        "Name": "Corkery Inc and Sons",
+        "ToolTip": "Quo consequatur.",
         "Deleted": false,
-        "Rank": 890,
-        "Type": "ad",
+        "Rank": 581,
+        "Type": "maiores",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ipsum",
-        "ColorBlock": 143,
-        "ExtraInfo": "molestiae",
-        "StyleHint": "quas",
-        "FullName": "Jade Bins",
+        "IconHint": "voluptate",
+        "ColorBlock": 55,
+        "ExtraInfo": "officiis",
+        "StyleHint": "eaque",
+        "FullName": "Sister Cummings",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 344
+            "FieldLength": 892
           }
         }
       }
     ],
-    "IconHint": "sint",
-    "ColorBlock": 244,
-    "ExtraInfo": "sequi",
-    "StyleHint": "maxime",
-    "FullName": "Marcelle Stroman",
+    "IconHint": "sed",
+    "ColorBlock": 340,
+    "ExtraInfo": "quis",
+    "StyleHint": "reiciendis",
+    "FullName": "Katlyn Cronin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 989
+        "FieldLength": 280
       }
     }
   }

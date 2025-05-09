@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Schinner, Carter and Kuhic"
+  "OwnerName": "Mann-Smitham"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 145,
-      "NumberOfLicensesFree": 693,
-      "NumberOfLicensesAdded": 790,
-      "NumberOfLicensesNewTotal": 847,
-      "NumberOfLicensesNewFree": 293,
-      "NumberOfLicensesTotal": 717
+      "NumberOfLicensesInUse": 385,
+      "NumberOfLicensesFree": 547,
+      "NumberOfLicensesAdded": 733,
+      "NumberOfLicensesNewTotal": 749,
+      "NumberOfLicensesNewFree": 148,
+      "NumberOfLicensesTotal": 145
     }
   ],
-  "AccumulatedNextCheckDate": "2002-11-13T13:14:00.532487+01:00"
+  "AccumulatedNextCheckDate": "2017-08-21T16:32:39.180141+02:00"
 }
 ```

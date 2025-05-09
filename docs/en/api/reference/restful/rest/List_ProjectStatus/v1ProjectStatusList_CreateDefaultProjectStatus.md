@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 809,
-  "Name": "Ondricka, Wuckert and Schultz",
-  "Tooltip": "expedita",
+  "Id": 462,
+  "Name": "Kuhlman LLC",
+  "Tooltip": "exercitationem",
   "Deleted": false,
-  "UdListDefinitionId": 675,
-  "Rank": 575,
+  "UdListDefinitionId": 195,
+  "Rank": 710,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 449
+      "FieldType": "System.Int32",
+      "FieldLength": 604
     }
   }
 }

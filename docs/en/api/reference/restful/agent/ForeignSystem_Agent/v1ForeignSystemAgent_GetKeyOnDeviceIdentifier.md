@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Wiza LLC",
-  "DeviceName": "Koepp Group",
-  "DeviceIdentifier": "repellendus",
-  "KeyName": "Hegmann Inc and Sons",
-  "TableName": "O'Keefe-Metz",
-  "RecordId": 438
+  "ApplicationName": "Rosenbaum-Hamill",
+  "DeviceName": "Green Group",
+  "DeviceIdentifier": "et",
+  "KeyName": "Daniel-Walsh",
+  "TableName": "Walter, Haley and Breitenberg",
+  "RecordId": 189
 }
 ```
 
@@ -107,20 +107,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ipsa",
-  "Value": "dolorum",
-  "RecordId": 985,
-  "CreatedDate": "2014-03-25T13:14:00.5168611+01:00",
-  "UpdatedDate": "1999-02-04T13:14:00.5168611+01:00",
-  "UpdatedBy": "fugit",
-  "CreatedBy": "explicabo",
-  "TableName": "Fritsch-Effertz",
+  "Key": "delectus",
+  "Value": "itaque",
+  "RecordId": 230,
+  "CreatedDate": "2001-11-17T16:32:39.1645096+01:00",
+  "UpdatedDate": "2000-03-15T16:32:39.1645096+01:00",
+  "UpdatedBy": "eius",
+  "CreatedBy": "aspernatur",
+  "TableName": "Willms, Dietrich and McDermott",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 890
+      "FieldType": "System.String",
+      "FieldLength": 37
     }
   }
 }

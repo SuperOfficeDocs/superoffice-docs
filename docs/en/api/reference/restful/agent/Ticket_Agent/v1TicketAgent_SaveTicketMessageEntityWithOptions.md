@@ -101,15 +101,15 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
   "Notify": false,
   "AttachmentIds": [
-    110,
-    706
+    162,
+    621
   ],
   "UpdateRepliedAt": false
 }
@@ -122,28 +122,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 1001,
+  "EjMessageId": 864,
   "Ticket": null,
-  "CreatedAt": "2006-02-03T13:14:01.6288165+01:00",
+  "CreatedAt": "2011-02-18T16:32:40.3832248+01:00",
   "CreatedBy": null,
-  "Author": "qui",
+  "Author": "et",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "aut",
-  "TimeSpent": 817,
-  "Body": "rerum",
-  "HtmlBody": "et",
-  "EmailHeader": "arnaldo.gleason@schadenebert.co.uk",
-  "DebugInfo": "non",
-  "MailSorter": "vel",
+  "MessageId": "est",
+  "TimeSpent": 214,
+  "Body": "aperiam",
+  "HtmlBody": "in",
+  "EmailHeader": "elisa@lemke.biz",
+  "DebugInfo": "magnam",
+  "MailSorter": "iste",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "rerum",
+  "SearchTitle": "a",
   "MessageHeaders": [
     {
-      "Id": 969,
-      "Name": "Klein-Murray",
-      "Value": "sapiente",
+      "Id": 699,
+      "Name": "Eichmann LLC",
+      "Value": "voluptatem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -151,50 +151,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 638
+          "FieldLength": 160
         }
       }
     }
   ],
   "Important": false,
-  "Language": "non",
-  "Sentiment": 855,
-  "SentimentConfidence": 509,
+  "Language": "ut",
+  "Sentiment": 407,
+  "SentimentConfidence": 22,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 4,
-      "Name": "Morar, Schamberger and Casper",
-      "ContentType": "excepturi",
-      "AttSize": 430,
-      "InlineImage": false,
-      "ContentId": "expedita",
-      "AuthKey": "nihil",
+      "AttachmentId": 310,
+      "Name": "Herzog Group",
+      "ContentType": "officiis",
+      "AttSize": 1000,
+      "InlineImage": true,
+      "ContentId": "nulla",
+      "AuthKey": "quaerat",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 858
+          "FieldLength": 64
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "sit",
-    "ExtraFields2": "sit"
+    "ExtraFields1": "sint",
+    "ExtraFields2": "sed"
   },
   "CustomFields": {
-    "CustomFields1": "illo",
-    "CustomFields2": "explicabo"
+    "CustomFields1": "modi",
+    "CustomFields2": "aliquid"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 164
+      "FieldType": "System.Int32",
+      "FieldLength": 261
     }
   }
 }

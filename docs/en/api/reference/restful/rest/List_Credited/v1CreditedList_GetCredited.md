@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Credited/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 169,
-  "Name": "Tremblay LLC",
-  "Tooltip": "quia",
+  "Id": 314,
+  "Name": "Batz, Moen and Mraz",
+  "Tooltip": "cumque",
   "Deleted": false,
-  "UdListDefinitionId": 263,
-  "Rank": 539,
+  "UdListDefinitionId": 383,
+  "Rank": 931,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 511
+      "FieldType": "System.String",
+      "FieldLength": 158
     }
   }
 }

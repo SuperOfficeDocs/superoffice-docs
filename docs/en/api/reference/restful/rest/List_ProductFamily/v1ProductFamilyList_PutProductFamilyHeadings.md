@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 679,
-    "Name": "Wunsch, Kuhlman and Ziemann",
-    "Tooltip": "vel",
-    "Deleted": false,
-    "Rank": 506,
-    "UdListDefinitionId": 381
+    "HeadingId": 881,
+    "Name": "Torphy, Rolfson and Schmidt",
+    "Tooltip": "ut",
+    "Deleted": true,
+    "Rank": 795,
+    "UdListDefinitionId": 444
   },
   {
-    "HeadingId": 679,
-    "Name": "Wunsch, Kuhlman and Ziemann",
-    "Tooltip": "vel",
-    "Deleted": false,
-    "Rank": 506,
-    "UdListDefinitionId": 381
+    "HeadingId": 881,
+    "Name": "Torphy, Rolfson and Schmidt",
+    "Tooltip": "ut",
+    "Deleted": true,
+    "Rank": 795,
+    "UdListDefinitionId": 444
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 801,
-    "Name": "Bechtelar-Schmitt",
-    "Tooltip": "voluptatum",
-    "Deleted": true,
-    "Rank": 604,
-    "UdListDefinitionId": 510,
+    "HeadingId": 651,
+    "Name": "Bergstrom Group",
+    "Tooltip": "veritatis",
+    "Deleted": false,
+    "Rank": 310,
+    "UdListDefinitionId": 808,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 36
+        "FieldType": "System.Int32",
+        "FieldLength": 174
       }
     }
   }

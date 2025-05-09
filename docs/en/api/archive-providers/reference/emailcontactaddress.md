@@ -372,7 +372,7 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/emailcontactaddress?$select=contactSource,streetAddress/line1,restrictionAddress/formattedMultiLineAddress,contactSupportAssociate/title,contactSupportAssociate/assocType
+GET /api/v1/archive/emailcontactaddress?$select=restrictionPostalAddress/formattedAddress,contactSupportAssociate/locationAddress,NumberOfTickets,saintSaleStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

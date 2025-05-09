@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 570,
-  "WorkflowId": 648,
+  "WorkflowTriggerId": 381,
+  "WorkflowId": 390,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Rosenbaum, Murray and Kuhlman",
-      "Description": "Multi-layered optimizing firmware",
-      "Rank": 694,
+      "Name": "Price LLC",
+      "Description": "User-friendly empowering moderator",
+      "Rank": 140,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Rosenbaum, Murray and Kuhlman",
-      "Description": "Multi-layered optimizing firmware",
-      "Rank": 694,
+      "Name": "Price LLC",
+      "Description": "User-friendly empowering moderator",
+      "Rank": 140,
       "Restrictions": [
         {},
         {}
@@ -97,8 +97,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 548
+      "FieldType": "System.String",
+      "FieldLength": 155
     }
   }
 }

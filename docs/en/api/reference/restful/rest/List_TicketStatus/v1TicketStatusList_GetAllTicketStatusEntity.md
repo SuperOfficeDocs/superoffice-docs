@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/TicketStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,11 +74,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 381,
-    "Name": "Hirthe, DuBuque and Yost",
+    "TicketStatusId": 413,
+    "Name": "O'Reilly, Reilly and Reilly",
     "Status": "Active",
     "TimeCounter": "Externally",
-    "NoEmailReopen": true,
+    "NoEmailReopen": false,
     "IsDefault": true,
     "UsedInQueue": false,
     "TableRight": null,
@@ -86,7 +86,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 132
+        "FieldLength": 367
       }
     }
   }

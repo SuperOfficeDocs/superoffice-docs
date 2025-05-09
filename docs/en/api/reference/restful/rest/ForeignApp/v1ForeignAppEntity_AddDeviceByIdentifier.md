@@ -79,21 +79,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 978,
-  "Name": "Bradtke, Dibbert and Donnelly",
-  "CreatedDate": "2005-04-28T13:14:08.7585151+02:00",
-  "UpdatedDate": "2021-05-17T13:14:08.7585151+02:00",
-  "AssociateFullName": "Trent Bayer",
-  "CreatedBy": "recusandae",
-  "UpdatedBy": "quos",
-  "DeviceIdentifier": "beatae",
-  "ForeignAppId": 425,
+  "ForeignDeviceId": 220,
+  "Name": "Halvorson, Oberbrunner and Kuhlman",
+  "CreatedDate": "2004-10-02T16:32:47.5558268+02:00",
+  "UpdatedDate": "2001-08-30T16:32:47.5558268+02:00",
+  "AssociateFullName": "Agustina Wuckert",
+  "CreatedBy": "qui",
+  "UpdatedBy": "enim",
+  "DeviceIdentifier": "optio",
+  "ForeignAppId": 359,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 709
+      "FieldLength": 288
     }
   }
 }

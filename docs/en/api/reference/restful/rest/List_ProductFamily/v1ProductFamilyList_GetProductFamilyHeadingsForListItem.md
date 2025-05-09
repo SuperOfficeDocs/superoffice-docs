@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 971,
-    "Name": "Pagac, Lindgren and Crist",
-    "ToolTip": "Adipisci ipsa voluptates.",
-    "Deleted": false,
-    "Rank": 833,
-    "Type": "velit",
-    "ColorBlock": 35,
-    "IconHint": "est",
-    "Selected": true,
-    "LastChanged": "2009-01-30T13:14:09.9160322+01:00",
+    "Id": 164,
+    "Name": "D'Amore-Schumm",
+    "ToolTip": "Reiciendis architecto enim inventore et.",
+    "Deleted": true,
+    "Rank": 294,
+    "Type": "laborum",
+    "ColorBlock": 939,
+    "IconHint": "reiciendis",
+    "Selected": false,
+    "LastChanged": "2025-03-15T16:32:48.8057473+01:00",
     "ChildItems": [
       {
-        "Id": 274,
-        "Name": "Larson-Cole",
-        "ToolTip": "Dolores impedit quisquam porro consectetur excepturi.",
-        "Deleted": true,
-        "Rank": 666,
-        "Type": "velit",
-        "ColorBlock": 1002,
-        "IconHint": "laudantium",
+        "Id": 964,
+        "Name": "Borer Inc and Sons",
+        "ToolTip": "Dolor tempore hic voluptates enim.",
+        "Deleted": false,
+        "Rank": 515,
+        "Type": "nemo",
+        "ColorBlock": 280,
+        "IconHint": "qui",
         "Selected": true,
-        "LastChanged": "2010-02-17T13:14:09.9160322+01:00",
+        "LastChanged": "2025-03-13T16:32:48.8057473+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "dolorem",
-        "Hidden": false,
-        "FullName": "Erika Waelchi",
+        "ExtraInfo": "quisquam",
+        "StyleHint": "minima",
+        "Hidden": true,
+        "FullName": "Mrs. Albina Winfield Swift",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 52
+            "FieldLength": 326
           }
         }
       }
     ],
-    "ExtraInfo": "consectetur",
-    "StyleHint": "assumenda",
-    "Hidden": true,
-    "FullName": "Larry Rippin",
+    "ExtraInfo": "ab",
+    "StyleHint": "ab",
+    "Hidden": false,
+    "FullName": "Mrs. Alanis Keebler V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 560
+        "FieldLength": 417
       }
     }
   }

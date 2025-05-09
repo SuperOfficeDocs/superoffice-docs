@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 450,
-    "Name": "Funk-Heller",
-    "ToolTip": "Rem sint quia.",
+    "Id": 372,
+    "Name": "Schmidt-Bahringer",
+    "ToolTip": "Est ullam.",
     "Deleted": true,
-    "Rank": 378,
-    "Type": "vitae",
-    "ColorBlock": 564,
-    "IconHint": "voluptatem",
-    "Selected": true,
-    "LastChanged": "2024-12-13T13:14:09.6816431+01:00",
+    "Rank": 268,
+    "Type": "facilis",
+    "ColorBlock": 692,
+    "IconHint": "ab",
+    "Selected": false,
+    "LastChanged": "2009-06-27T16:32:48.5870472+02:00",
     "ChildItems": [
       {
-        "Id": 435,
-        "Name": "Boyer Inc and Sons",
-        "ToolTip": "Nisi ipsam natus nam perspiciatis impedit est.",
+        "Id": 869,
+        "Name": "Cartwright, Stokes and Bahringer",
+        "ToolTip": "Quisquam assumenda unde.",
         "Deleted": false,
-        "Rank": 578,
-        "Type": "debitis",
-        "ColorBlock": 877,
-        "IconHint": "a",
+        "Rank": 880,
+        "Type": "aliquid",
+        "ColorBlock": 348,
+        "IconHint": "quasi",
         "Selected": false,
-        "LastChanged": "1999-11-07T13:14:09.6816431+01:00",
+        "LastChanged": "2007-07-24T16:32:48.5870472+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "hic",
+        "ExtraInfo": "illo",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Vicenta Bednar",
+        "FullName": "Jermey Quitzon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 213
+            "FieldType": "System.String",
+            "FieldLength": 727
           }
         }
       }
     ],
-    "ExtraInfo": "inventore",
-    "StyleHint": "porro",
+    "ExtraInfo": "ut",
+    "StyleHint": "sint",
     "Hidden": true,
-    "FullName": "Mrs. Devante Aiden Nienow",
+    "FullName": "Jeremy King",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 259
+        "FieldLength": 955
       }
     }
   }

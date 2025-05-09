@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/MDO/GetListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Greenfelder-Toy",
-  "Id": 562
+  "ListName": "Abernathy, Kunze and Bauch",
+  "Id": 372
 }
 ```
 
@@ -101,50 +101,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 834,
-  "Name": "Klein Group",
-  "ToolTip": "Dolorem rerum ratione neque numquam consectetur enim.",
-  "Deleted": false,
-  "Rank": 108,
-  "Type": "sunt",
+  "Id": 105,
+  "Name": "Ratke-Harber",
+  "ToolTip": "Laudantium tempore repellendus quia et repudiandae sed.",
+  "Deleted": true,
+  "Rank": 286,
+  "Type": "perferendis",
   "ChildItems": [
     {
-      "Id": 353,
-      "Name": "Carter Group",
-      "ToolTip": "Voluptatem eligendi qui commodi.",
+      "Id": 462,
+      "Name": "Borer LLC",
+      "ToolTip": "Voluptatem nesciunt.",
       "Deleted": false,
-      "Rank": 11,
-      "Type": "qui",
+      "Rank": 170,
+      "Type": "placeat",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "reprehenderit",
-      "ColorBlock": 465,
-      "ExtraInfo": "modi",
-      "StyleHint": "qui",
-      "FullName": "Cornelius Lockman",
+      "IconHint": "doloribus",
+      "ColorBlock": 181,
+      "ExtraInfo": "et",
+      "StyleHint": "est",
+      "FullName": "Jo Thompson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 948
+          "FieldType": "System.String",
+          "FieldLength": 499
         }
       }
     }
   ],
-  "IconHint": "et",
-  "ColorBlock": 170,
-  "ExtraInfo": "molestias",
-  "StyleHint": "porro",
-  "FullName": "Kristy Abbott",
+  "IconHint": "quaerat",
+  "ColorBlock": 745,
+  "ExtraInfo": "voluptatem",
+  "StyleHint": "enim",
+  "FullName": "Ms. Meda Dorothea Collier",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 908
+      "FieldLength": 826
     }
   }
 }

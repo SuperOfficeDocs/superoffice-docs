@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 838,
+  "TargetAssignmentInfoId": 784,
   "Values": [
-    895,
-    199
+    659,
+    930
   ],
-  "Locked": true,
+  "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 974,
-  "DimensionListItemDisplayName": "Waelchi Group",
+  "DimensionListItem": 440,
+  "DimensionListItemDisplayName": "Barrows-Trantow",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 466
+      "FieldType": "System.String",
+      "FieldLength": 665
     }
   }
 }

@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatSession/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 5,
-  "TopicId": 964,
+  "ChatSessionId": 824,
+  "TopicId": 736,
   "User": null,
   "Person": null,
-  "CustomerAlias": "optio",
-  "CustomerHost": "sed",
-  "CustomerName": "Bayer-Kihn",
-  "CustomerEmail": "mireille@schmidt.uk",
-  "CustomerPhone": "133-730-6964 x53920",
+  "CustomerAlias": "rerum",
+  "CustomerHost": "ut",
+  "CustomerName": "Goodwin-Nitzsche",
+  "CustomerEmail": "tamara@heathcoteklocko.ca",
+  "CustomerPhone": "678.065.1234 x77074",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Lynch-McKenzie",
+  "CustomerCompanyName": "Spencer, Prohaska and Brown",
   "Status": "Closed",
-  "FirstMessage": "nam",
-  "LastMessage": "quam",
-  "WhenRequested": "2012-12-23T13:14:08.3522383+01:00",
-  "WhenStarted": "2007-06-30T13:14:08.3522383+02:00",
-  "WhenEnded": "2014-07-20T13:14:08.3522383+02:00",
-  "WhenIdle": "2016-07-23T13:14:08.3522383+02:00",
-  "WhenFetched": "1998-12-03T13:14:08.3522383+01:00",
-  "SessionKey": "sed",
-  "InitialQueuePos": 728,
-  "AlertLevel": 625,
-  "Rank": 748,
+  "FirstMessage": "sed",
+  "LastMessage": "et",
+  "WhenRequested": "2014-06-07T16:32:47.1180368+02:00",
+  "WhenStarted": "2006-02-07T16:32:47.1180368+01:00",
+  "WhenEnded": "2007-09-30T16:32:47.1180368+02:00",
+  "WhenIdle": "2011-10-28T16:32:47.1180368+02:00",
+  "WhenFetched": "2004-07-20T16:32:47.1180368+02:00",
+  "SessionKey": "esse",
+  "InitialQueuePos": 571,
+  "AlertLevel": 69,
+  "Rank": 122,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -127,13 +127,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 978,
+  "Rating": 294,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 281
+      "FieldLength": 175
     }
   }
 }

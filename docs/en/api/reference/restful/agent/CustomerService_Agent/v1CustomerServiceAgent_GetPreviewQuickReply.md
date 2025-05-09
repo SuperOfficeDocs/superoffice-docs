@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuickReplyId": 938
+  "QuickReplyId": 328
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Wiegand, Luettgen and Beatty",
-  "UpdatedByFullName": "Imogene McClure DDS",
-  "Updated": "2014-11-04T13:14:00.0319625+01:00",
-  "HtmlBody": "deleniti",
+  "Name": "Kunde-Hilll",
+  "UpdatedByFullName": "Marvin Ullrich",
+  "Updated": "2012-04-14T16:32:38.5865163+02:00",
+  "HtmlBody": "voluptatum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 341
+      "FieldType": "System.Int32",
+      "FieldLength": 417
     }
   }
 }

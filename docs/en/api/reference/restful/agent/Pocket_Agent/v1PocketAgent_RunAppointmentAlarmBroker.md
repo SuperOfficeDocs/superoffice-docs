@@ -56,7 +56,7 @@ No Content
 POST /api/v1/Agents/Pocket/RunAppointmentAlarmBroker
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

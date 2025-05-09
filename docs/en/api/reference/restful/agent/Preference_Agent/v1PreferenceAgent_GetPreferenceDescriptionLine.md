@@ -26,7 +26,7 @@ Gets a PreferenceDescriptionLine object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Preference/GetPreferenceDescriptionLine?preferenceDescriptionLineId=266
+POST /api/v1/Agents/Preference/GetPreferenceDescriptionLine?preferenceDescriptionLineId=233
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLine?$select=name,department,category/id
 ```
 
@@ -82,18 +82,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 529,
-  "PrefDescId": 667,
-  "PrefValue": "et",
-  "PrefShowValue": "est",
-  "Description": "User-centric systematic definition",
-  "IsBuiltin": true,
+  "PrefDescLineId": 372,
+  "PrefDescId": 740,
+  "PrefValue": "excepturi",
+  "PrefShowValue": "quis",
+  "Description": "Enhanced context-sensitive policy",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 127
+      "FieldType": "System.String",
+      "FieldLength": 462
     }
   }
 }

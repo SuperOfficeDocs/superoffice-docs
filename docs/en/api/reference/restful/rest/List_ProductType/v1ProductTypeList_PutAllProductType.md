@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 342,
-    "Name": "Armstrong-Swift",
-    "Tooltip": "quis",
+    "Id": 630,
+    "Name": "Tillman-Klein",
+    "Tooltip": "illum",
     "Deleted": false,
-    "UdListDefinitionId": 471,
-    "Rank": 809
+    "UdListDefinitionId": 113,
+    "Rank": 250
   },
   {
-    "Id": 342,
-    "Name": "Armstrong-Swift",
-    "Tooltip": "quis",
+    "Id": 630,
+    "Name": "Tillman-Klein",
+    "Tooltip": "illum",
     "Deleted": false,
-    "UdListDefinitionId": 471,
-    "Rank": 809
+    "UdListDefinitionId": 113,
+    "Rank": 250
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 359,
-    "Name": "Prohaska Inc and Sons",
-    "Tooltip": "temporibus",
+    "Id": 406,
+    "Name": "Conn Inc and Sons",
+    "Tooltip": "est",
     "Deleted": false,
-    "UdListDefinitionId": 578,
-    "Rank": 535,
+    "UdListDefinitionId": 849,
+    "Rank": 531,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 304
+        "FieldLength": 252
       }
     }
   }

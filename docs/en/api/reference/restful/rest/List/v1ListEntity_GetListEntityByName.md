@@ -78,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 724,
-  "Name": "Mayert, Schmitt and Murphy",
-  "Tooltip": "qui",
+  "Id": 405,
+  "Name": "Rutherford-Jenkins",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 254,
+  "Rank": 169,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ullam",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "perspiciatis",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 524
+      "FieldType": "System.Int32",
+      "FieldLength": 960
     }
   }
 }

@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Lakin, Altenwerth and Hettinger",
-  "ListItemId": 955,
+  "UdListDefinitionName": "Lesch Inc and Sons",
+  "ListItemId": 774,
   "Headings": [
     {
-      "Id": 797,
-      "Name": "Wilkinson, Lynch and Cole",
-      "ToolTip": "Nesciunt voluptatem cumque alias commodi ipsam eaque.",
-      "Deleted": false,
-      "Rank": 236,
-      "Type": "ea",
-      "ColorBlock": 377,
-      "IconHint": "dolorem",
-      "Selected": true,
-      "LastChanged": "2023-04-14T13:14:00.5949987+02:00",
+      "Id": 396,
+      "Name": "Abernathy, Miller and Mraz",
+      "ToolTip": "Vitae incidunt et id debitis voluptatibus voluptatem.",
+      "Deleted": true,
+      "Rank": 625,
+      "Type": "qui",
+      "ColorBlock": 482,
+      "IconHint": "quibusdam",
+      "Selected": false,
+      "LastChanged": "2012-12-29T16:32:39.2582391+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quia",
-      "StyleHint": "debitis",
-      "Hidden": false,
-      "FullName": "Reyes Daugherty MD"
+      "ExtraInfo": "voluptatem",
+      "StyleHint": "necessitatibus",
+      "Hidden": true,
+      "FullName": "Trent Wuckert"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 670,
-    "Name": "Lesch, Kihn and O'Reilly",
-    "ToolTip": "Consequatur et qui.",
-    "Deleted": false,
-    "Rank": 222,
-    "Type": "ut",
-    "ColorBlock": 362,
-    "IconHint": "est",
+    "Id": 737,
+    "Name": "Lindgren, Grimes and Connelly",
+    "ToolTip": "Non velit voluptatem nisi facilis.",
+    "Deleted": true,
+    "Rank": 667,
+    "Type": "aut",
+    "ColorBlock": 787,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2018-10-24T13:14:00.5949987+02:00",
+    "LastChanged": "2021-12-13T16:32:39.2582391+01:00",
     "ChildItems": [
       {
-        "Id": 65,
-        "Name": "Bernhard, Cartwright and Gerhold",
-        "ToolTip": "Aut veniam omnis dicta ad est iusto.",
-        "Deleted": true,
-        "Rank": 888,
-        "Type": "similique",
-        "ColorBlock": 687,
-        "IconHint": "aliquam",
+        "Id": 788,
+        "Name": "Hirthe, Batz and Senger",
+        "ToolTip": "Provident minus maxime ut assumenda blanditiis laudantium.",
+        "Deleted": false,
+        "Rank": 470,
+        "Type": "qui",
+        "ColorBlock": 320,
+        "IconHint": "amet",
         "Selected": false,
-        "LastChanged": "2015-05-16T13:14:00.5949987+02:00",
+        "LastChanged": "2012-05-06T16:32:39.2582391+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorum",
-        "StyleHint": "fugiat",
-        "Hidden": true,
-        "FullName": "Prof. Antwan Damion Parker I",
+        "ExtraInfo": "suscipit",
+        "StyleHint": "cupiditate",
+        "Hidden": false,
+        "FullName": "Audrey Crist",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 306
+            "FieldLength": 996
           }
         }
       }
     ],
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "porro",
-    "Hidden": true,
-    "FullName": "Alison Aglae Collins PhD",
+    "ExtraInfo": "ut",
+    "StyleHint": "quidem",
+    "Hidden": false,
+    "FullName": "Ally O'Keefe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 568
+        "FieldType": "System.Int32",
+        "FieldLength": 770
       }
     }
   }

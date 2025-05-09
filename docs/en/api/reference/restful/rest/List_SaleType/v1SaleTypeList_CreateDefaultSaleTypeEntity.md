@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,53 +86,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 958,
-  "Name": "Hegmann Group",
-  "Tooltip": "quisquam",
-  "Rank": 19,
+  "SaleTypeId": 242,
+  "Name": "Powlowski, Legros and Schroeder",
+  "Tooltip": "rerum",
+  "Rank": 756,
   "DurationUnit": "Century",
-  "SaleDuration": 11,
-  "SaleTypeCatId": 785,
+  "SaleDuration": 197,
+  "SaleTypeCatId": 1000,
   "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": true,
+  "HasGuide": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 900,
-  "QuoteLinesTemplate": 934,
-  "ConfirmationLinesTemplate": 817,
-  "MaxDiscountPercentSet": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 39,
+  "QuoteLinesTemplate": 149,
+  "ConfirmationLinesTemplate": 683,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 76,
-  "MinEarningPercent": 512,
-  "GroupQuoteLinesBy": 676,
-  "SortGroupLinesBy": 605,
+  "MaxDiscountPercent": 647,
+  "MinEarningPercent": 992,
+  "GroupQuoteLinesBy": 988,
+  "SortGroupLinesBy": 797,
   "Stages": [
     {
-      "Id": 145,
-      "Name": "Effertz, Reynolds and Altenwerth",
-      "ToolTip": "Ea exercitationem repellat quo laudantium.",
+      "Id": 411,
+      "Name": "Keeling, Dach and Stoltenberg",
+      "ToolTip": "Quae voluptas impedit eos eos ut.",
       "Deleted": false,
-      "Rank": 942,
-      "Type": "exercitationem",
-      "ColorBlock": 814,
-      "IconHint": "provident",
-      "Selected": true,
-      "LastChanged": "2002-03-31T13:14:10.0566655+02:00",
+      "Rank": 981,
+      "Type": "quo",
+      "ColorBlock": 985,
+      "IconHint": "sed",
+      "Selected": false,
+      "LastChanged": "2021-05-07T16:32:48.946344+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quo",
-      "StyleHint": "dolor",
+      "ExtraInfo": "non",
+      "StyleHint": "minus",
       "Hidden": false,
-      "FullName": "Miss Reed Kerluke II",
+      "FullName": "Mr. Emilia Delbert Champlin III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 970
+          "FieldType": "System.String",
+          "FieldLength": 173
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 750
+      "FieldLength": 122
     }
   }
 }

@@ -32,9 +32,12 @@ items:
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colSaleStatus
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colSaleType
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colSaleTypeCategory
+  - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colSaleTypeId
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colSoldReason
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colSource
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStage
+  - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStageId
+  - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStageName
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStageRank
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStalledReason
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colWeightedAmountInBaseCurrency
@@ -635,6 +638,32 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStageName
+  commentId: F:SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStageName
+  id: _colStageName
+  parent: SuperOffice.CRM.ArchiveLists.SaleExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colStageName
+  nameWithType: SaleExtenderBase._colStageName
+  fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStageName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colStageName
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colStageName As ArchiveColumnInfo
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colSaleStatus
   commentId: F:SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colSaleStatus
   id: _colSaleStatus
@@ -709,6 +738,58 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colSaleType As ArchiveColumnInfo
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colSaleTypeId
+  commentId: F:SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colSaleTypeId
+  id: _colSaleTypeId
+  parent: SuperOffice.CRM.ArchiveLists.SaleExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colSaleTypeId
+  nameWithType: SaleExtenderBase._colSaleTypeId
+  fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colSaleTypeId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colSaleTypeId
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colSaleTypeId As ArchiveColumnInfo
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStageId
+  commentId: F:SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStageId
+  id: _colStageId
+  parent: SuperOffice.CRM.ArchiveLists.SaleExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colStageId
+  nameWithType: SaleExtenderBase._colStageId
+  fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colStageId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colStageId
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colStageId As ArchiveColumnInfo
   modifiers.csharp:
   - protected
   modifiers.vb:

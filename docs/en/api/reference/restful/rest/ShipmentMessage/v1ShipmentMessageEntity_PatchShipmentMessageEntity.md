@@ -128,18 +128,18 @@ ShipmentMessageEntity  updated.
 PATCH /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "quis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "quis",
     "value": {}
   }
 ]
@@ -152,33 +152,33 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 829,
-  "PlainMessage": "sapiente",
-  "HtmlMessage": "molestiae",
-  "SmsMessage": "reiciendis",
-  "Description": "Re-engineered bifurcated policy",
-  "Subject": "nisi",
-  "FolderId": 950,
-  "HeaderField": "in",
-  "Design": "est",
+  "ShipmentMessageId": 284,
+  "PlainMessage": "ratione",
+  "HtmlMessage": "minima",
+  "SmsMessage": "facilis",
+  "Description": "De-engineered high-level open system",
+  "Subject": "quae",
+  "FolderId": 461,
+  "HeaderField": "distinctio",
+  "Design": "ducimus",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Up-sized local synergy",
-  "AccessKey": "omnis",
-  "DocumentMessage": 268,
-  "Registered": "2002-10-01T13:14:09.1966452+02:00",
-  "RegisteredAssociateId": 608,
-  "Updated": "2015-06-04T13:14:09.1966452+02:00",
-  "UpdatedAssociateId": 565,
-  "UpdatedCount": 486,
+  "InlineImages": true,
+  "LongDescription": "Multi-lateral non-volatile function",
+  "AccessKey": "sed",
+  "DocumentMessage": 588,
+  "Registered": "2017-02-06T16:32:48.1025764+01:00",
+  "RegisteredAssociateId": 843,
+  "Updated": "2003-01-24T16:32:48.1025764+01:00",
+  "UpdatedAssociateId": 772,
+  "UpdatedCount": 42,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 76
+      "FieldLength": 31
     }
   },
   "_Links": {

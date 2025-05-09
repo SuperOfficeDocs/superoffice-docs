@@ -134,12 +134,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "in",
+    "path": "sed",
     "value": {}
   },
   {
     "op": "add",
-    "path": "in",
+    "path": "sed",
     "value": {}
   }
 ]
@@ -152,57 +152,57 @@ HTTP/1.1 200 CRMScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 844,
-  "UniqueIdentifier": "perspiciatis",
-  "Name": "Hodkiewicz, Spencer and Grady",
-  "Description": "Virtual explicit approach",
-  "IncludeId": "saepe",
-  "AccessKey": "nulla",
-  "HierarchyId": 449,
-  "Source": "harum",
-  "SourceCode": "minima",
+  "EjscriptId": 525,
+  "UniqueIdentifier": "est",
+  "Name": "Kuhn-Heaney",
+  "Description": "Devolved grid-enabled capability",
+  "IncludeId": "et",
+  "AccessKey": "soluta",
+  "HierarchyId": 889,
+  "Source": "ea",
+  "SourceCode": "nobis",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 461,
+  "HtmlOutput": 194,
   "Includes": [
-    509,
-    808
+    777,
+    470
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 232,
-      "LineNumberTo": 133,
-      "Delta": 59,
-      "IncludeId": "expedita",
+      "LineNumberFrom": 756,
+      "LineNumberTo": 911,
+      "Delta": 956,
+      "IncludeId": "ad",
       "IncludedFrom": [
-        "ipsa",
-        "temporibus"
+        "eius",
+        "voluptas"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 748
+          "FieldLength": 580
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2019-02-10T13:14:08.6334998+01:00",
-  "RegisteredAssociateId": 402,
-  "Updated": "2008-08-22T13:14:08.6334998+02:00",
-  "UpdatedAssociateId": 923,
+  "Registered": "2024-04-03T16:32:47.4152322+02:00",
+  "RegisteredAssociateId": 950,
+  "Updated": "2020-06-24T16:32:47.4152322+02:00",
+  "UpdatedAssociateId": 513,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 181
+      "FieldLength": 391
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```
