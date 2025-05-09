@@ -2,65 +2,73 @@
 uid: mobile-crm-sale-update
 title: Update sale
 description: How to update a sale in SuperOffice Mobile CRM.
+keywords: open, sold, lost, stalled, stage, sale
 author: Bergfrid Dias
-date: 07.26.2023
-keywords: sale, open, sold, lost, stalled, stage
+date: 05.31.2025
+version: 11
 topic: howto
-language: en
-version: 10
 client: mobile
+language: en
 ---
 
 # Update sale
 
-## Steps
+You can update sales information, change its status, or link it to other records directly from SuperOffice Mobile CRM. To add or remove stakeholders, open the sale in SuperOffice CRM.
+
+## Steps to update a sale
 
 1. Locate and open the sale.
-2. Tap the **Edit** icon (<i class="ph ph-pencil-simple" aria-label="Edit icon"></i>) in the footer.
-3. Update the information as necessary.
+1. Tap <i class="ph ph-pencil-simple" aria-label="Edit icon"></i> in the upper-right corner.
+1. Update the information as necessary.
+1. Tap **Save**.
 
     ![Mobile CRM: Edit sale -app-screen][img2]
-
-4. Tap **Save**.
-
-> [!NOTE]
-> To add or remove stakeholders, open the sale in SuperOffice CRM.
 
 ## Change status of a sale
 
 1. Open the sale.
-2. Tap the status icon below the sale header.
-3. Select one of the options:
+
+1. Tap **Mark** in the action bar.
+
+1. Select one of the following options:
 
     * Move to next stage
+    * Move to previous stage
     * Set as sold
     * Set as lost
     * Mark as stalled
 
-    You can also swipe left on the sale in a list, tap the **Task** icon, and select a status.
+    Alternatively, you can swipe left on the sale in a list, tap <i class="ph ph-list" aria-label="Main menu"></i>, and select a status.
 
-4. Go to the **Details** tab, tap **Edit**, and update any other fields with new information. For example:
+### Update details for status change
 
-    * Update the **Reason (sold)** field with the reason for the sale.
-    * Update the **Reason (lost)** field with the reason why the sale was lost.
-    * Update the **Reason (stalled)** field with the reason why the sale was stalled. Also set the **Re-open date**.
+When changing a sale's status, you can update additional information in the **Details** section:
 
-## Link to an incoming request
+1. Tap <i class="ph ph-pencil-simple" aria-label="Edit icon"></i> to enter edit mode.
 
-When you are in a sales process, consider linking the sale to relevant incoming requests to have it show up in the **Requests** tab on that sale.
+1. Flick to the **Details** section and add or modify the relevant fields:
+    * **Reason (sold):** Specify why the sale was successful.
+    * **Reason (lost):** Document why the sale did not close.
+    * **Reason (stalled):** Provide details on why the sale stalled. You can also set a **Re-open date** if applicable.
+
+1. Tap **Save** to apply the changes.
+
+## Link to an incoming request **Not yet available**
+
+When available, you will be able to link a sale to an **incoming request** for better traceability.
 
 1. Go to the main **Request** page.
 1. Search for the request by name or ID.
-1. Tap **Edit** on the selected request.
-1. Scroll down, then tap **Sale** and select the sale you want to link.
-1. Save. The next time someone views that sale, the item you linked is included on the **Requests** tab.
+1. Tap <i class="ph ph-pencil-simple" aria-label="Edit icon"></i> to enter edit mode.
+1. Flick down and tap **Sale**, then select the relevant sale.
+1. Tap **Save**. The linked request will then appear in the **Requests** tab of that sale.
 
 ## Related content
 
-* [Create sale (in Mobile CRM)][1]
 * [About stages][3]
+* [Create a sale (in Mobile CRM)][1]
 * [Delete a sale (in SuperOffice CRM)][2]
-* [Update request][4]
+* [Update a request][4]
 
 <!-- Referenced links -->
 [1]: create.md
@@ -69,4 +77,4 @@ When you are in a sales process, consider linking the sale to relevant incoming 
 [4]: ../request/update.md
 
 <!-- Referenced images -->
-[img2]: media/sale-details.png
+[img2]: ../../../../media/loc/en/mobile/sale-details.png
