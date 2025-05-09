@@ -140,10 +140,14 @@ When editing reply templates and mailings, you can insert template variables by 
 | ticket.ownerFullName | The request's owner, full name |
 | ticket.ownerUsername | The request's owner, user name |
 | ticket.priority | Priority |
+| ticket.project.id | Project ID |
+| ticket.project.name | Project Name |
 | ticket.readByCustomer | The date/time when the request was read by the customer in the user's default format |
 | ticket.readByCustomerRaw | The date/time when the request was read by the customer in YYYY-MM-DD HH |
 | ticket.readByOwner | The date/time when the request was read by the owner in the user's default format |
 | ticket.readByOwnerRaw | The date/time when the request was read by the owner in YYYY-MM-DD HH |
+| ticket.sale.id | Sale ID |
+| ticket.sale.heading | Sale Heading |
 | ticket.slevel | The access level of the ticket (1 = Internal, 2 = External) |
 | ticket.status | The name of the status (Open, Closed, Postponed) |
 | ticket.ticketStatus | The name of the user defined status |
