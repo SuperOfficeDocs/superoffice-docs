@@ -93,6 +93,7 @@ items:
   - SuperOffice.Data.SQL.HasAll
   - SuperOffice.Data.SQL.HasAny
   - SuperOffice.Data.SQL.HasFlag
+  - SuperOffice.Data.SQL.HasNoFlag
   - SuperOffice.Data.SQL.Having
   - SuperOffice.Data.SQL.Hour
   - SuperOffice.Data.SQL.In
@@ -1510,6 +1511,13 @@ references:
   name: HasFlag
   nameWithType: HasFlag
   fullName: SuperOffice.Data.SQL.HasFlag
+- uid: SuperOffice.Data.SQL.HasNoFlag
+  commentId: T:SuperOffice.Data.SQL.HasNoFlag
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: HasNoFlag
+  nameWithType: HasNoFlag
+  fullName: SuperOffice.Data.SQL.HasNoFlag
 - uid: SuperOffice.Data.SQL.Having
   commentId: T:SuperOffice.Data.SQL.Having
   isExternal: true

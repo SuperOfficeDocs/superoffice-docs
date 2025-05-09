@@ -19,6 +19,7 @@ items:
   - SuperOffice.CRM.Services.AppointmentAgent
   - SuperOffice.CRM.Services.AppointmentEntity
   - SuperOffice.CRM.Services.AppointmentInfo
+  - SuperOffice.CRM.Services.AppointmentMoveData
   - SuperOffice.CRM.Services.AppointmentSaveData
   - SuperOffice.CRM.Services.AppointmentSyncData
   - SuperOffice.CRM.Services.ApproveRejectResponse
@@ -537,6 +538,7 @@ items:
   - SuperOffice.CRM.Services.UserInfo
   - SuperOffice.CRM.Services.UserPresenceStatus
   - SuperOffice.CRM.Services.UserValidationResult
+  - SuperOffice.CRM.Services.VideoMeetingReservation
   - SuperOffice.CRM.Services.ViewStateAgent
   - SuperOffice.CRM.Services.VisibleFor
   - SuperOffice.CRM.Services.WebAppUsage
@@ -1465,6 +1467,13 @@ references:
   name: AppointmentInfo
   nameWithType: AppointmentInfo
   fullName: SuperOffice.CRM.Services.AppointmentInfo
+- uid: SuperOffice.CRM.Services.AppointmentMoveData
+  commentId: T:SuperOffice.CRM.Services.AppointmentMoveData
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: AppointmentMoveData
+  nameWithType: AppointmentMoveData
+  fullName: SuperOffice.CRM.Services.AppointmentMoveData
 - uid: SuperOffice.CRM.Services.AppointmentSaveData
   commentId: T:SuperOffice.CRM.Services.AppointmentSaveData
   parent: SuperOffice.CRM.Services
@@ -4176,6 +4185,13 @@ references:
   name: UserValidationResult
   nameWithType: UserValidationResult
   fullName: SuperOffice.CRM.Services.UserValidationResult
+- uid: SuperOffice.CRM.Services.VideoMeetingReservation
+  commentId: T:SuperOffice.CRM.Services.VideoMeetingReservation
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: VideoMeetingReservation
+  nameWithType: VideoMeetingReservation
+  fullName: SuperOffice.CRM.Services.VideoMeetingReservation
 - uid: SuperOffice.CRM.Services.VisibleFor
   commentId: T:SuperOffice.CRM.Services.VisibleFor
   parent: SuperOffice.CRM.Services

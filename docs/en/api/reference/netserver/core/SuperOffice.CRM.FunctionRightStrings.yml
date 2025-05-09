@@ -70,6 +70,7 @@ items:
   - SuperOffice.CRM.FunctionRightStrings.HideReporter
   - SuperOffice.CRM.FunctionRightStrings.HideSale
   - SuperOffice.CRM.FunctionRightStrings.HideSelection
+  - SuperOffice.CRM.FunctionRightStrings.HideService
   - SuperOffice.CRM.FunctionRightStrings.LockUnlockTargetAssignment
   - SuperOffice.CRM.FunctionRightStrings.MailingConsentOverride
   - SuperOffice.CRM.FunctionRightStrings.ManageEntities
@@ -599,6 +600,35 @@ items:
   modifiers.vb:
   - Public
   - Const
+- uid: SuperOffice.CRM.FunctionRightStrings.HideService
+  commentId: F:SuperOffice.CRM.FunctionRightStrings.HideService
+  id: HideService
+  parent: SuperOffice.CRM.FunctionRightStrings
+  langs:
+  - csharp
+  - vb
+  name: HideService
+  nameWithType: FunctionRightStrings.HideService
+  fullName: SuperOffice.CRM.FunctionRightStrings.HideService
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: "\nA user who has this right will NOT see the service (tickets). This supersedes the corresponding &apos;Cripple&apos; preference\n"
+  syntax:
+    content: public const string HideService = "hide-service"
+    return:
+      type: System.String
+    content.vb: Public Const HideService As String = "hide-service"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.HideReporter
   commentId: F:SuperOffice.CRM.FunctionRightStrings.HideReporter
   id: HideReporter
@@ -616,7 +646,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: "\nA user who has this right will NOT see the reporter panel. This supersedes the corresponding &apos;Cripple&apos; preference.\nNOTE: This right can be programmatically set if the featuretoggle DisableReporter is on, OR we are running in Azure.\nIt&apos;s injected into the FunctionRightCache by code in its OnLoad; if that happens then it will also not be visible in Admin.\nIf such programmatic setting is not triggered, ordinary settings through Admin still work.\n"
+  summary: "\nA user who has this right will NOT see the reporter panel. This supersedes the corresponding &apos;Cripple&apos; preference.\nNOTE: This right can be programmatically set if we are running in Azure.\nIt&apos;s injected into the FunctionRightCache by code in its OnLoad; if that happens then it will also not be visible in Admin.\nIf such programmatic setting is not triggered, ordinary settings through Admin still work.\n"
   syntax:
     content: public const string HideReporter = "hide-reporter"
     return:

@@ -82,6 +82,7 @@ items:
   - SuperOffice.CRM.Tooltips.SelectionTooltipPlugin
   - SuperOffice.CRM.Tooltips.TextTooltipPlugin
   - SuperOffice.CRM.Tooltips.TicketPriorityTooltipPlugin
+  - SuperOffice.CRM.Tooltips.TicketReadStatusTooltipPlugin
   - SuperOffice.CRM.Tooltips.TicketStatusTooltipPlugin
   - SuperOffice.CRM.Tooltips.TicketTooltipPlugin
   - SuperOffice.CRM.Tooltips.TicketTypeTooltipPlugin

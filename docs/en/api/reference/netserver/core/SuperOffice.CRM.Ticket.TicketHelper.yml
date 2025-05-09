@@ -5,6 +5,7 @@ items:
   id: TicketHelper
   parent: SuperOffice.CRM.Ticket
   children:
+  - SuperOffice.CRM.Ticket.TicketHelper.AddRestrictionToOwnCategories(SuperOffice.Data.SQL.Select,SuperOffice.CRM.Data.TicketTableInfo,System.Int32)
   - SuperOffice.CRM.Ticket.TicketHelper.DemandAdminPermissions
   - SuperOffice.CRM.Ticket.TicketHelper.GetFacadeAssociateId(System.Int32)
   - SuperOffice.CRM.Ticket.TicketHelper.GetIconHint(System.String,SuperOffice.Data.TicketBaseStatus,System.DateTime)
@@ -622,6 +623,40 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.CRM.Ticket.TicketHelper.AddRestrictionToOwnCategories(SuperOffice.Data.SQL.Select,SuperOffice.CRM.Data.TicketTableInfo,System.Int32)
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.AddRestrictionToOwnCategories(SuperOffice.Data.SQL.Select,SuperOffice.CRM.Data.TicketTableInfo,System.Int32)
+  id: AddRestrictionToOwnCategories(SuperOffice.Data.SQL.Select,SuperOffice.CRM.Data.TicketTableInfo,System.Int32)
+  parent: SuperOffice.CRM.Ticket.TicketHelper
+  langs:
+  - csharp
+  - vb
+  name: AddRestrictionToOwnCategories(Select, TicketTableInfo, Int32)
+  nameWithType: TicketHelper.AddRestrictionToOwnCategories(Select, TicketTableInfo, Int32)
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.AddRestrictionToOwnCategories(SuperOffice.Data.SQL.Select, SuperOffice.CRM.Data.TicketTableInfo, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public static void AddRestrictionToOwnCategories(Select sql, TicketTableInfo ti, int userId)
+    parameters:
+    - id: sql
+      type: SuperOffice.Data.SQL.Select
+    - id: ti
+      type: SuperOffice.CRM.Data.TicketTableInfo
+    - id: userId
+      type: System.Int32
+    content.vb: Public Shared Sub AddRestrictionToOwnCategories(sql As  Select, ti As TicketTableInfo, userId As Integer)
+  overload: SuperOffice.CRM.Ticket.TicketHelper.AddRestrictionToOwnCategories*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 references:
 - uid: SuperOffice.CRM.Ticket
   commentId: N:SuperOffice.CRM.Ticket
@@ -838,3 +873,35 @@ references:
   name: UpdateEjMessageSearchTitle
   nameWithType: TicketHelper.UpdateEjMessageSearchTitle
   fullName: SuperOffice.CRM.Ticket.TicketHelper.UpdateEjMessageSearchTitle
+- uid: SuperOffice.CRM.Ticket.TicketHelper.AddRestrictionToOwnCategories*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.AddRestrictionToOwnCategories
+  isExternal: true
+  name: AddRestrictionToOwnCategories
+  nameWithType: TicketHelper.AddRestrictionToOwnCategories
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.AddRestrictionToOwnCategories
+- uid: SuperOffice.Data.SQL.Select
+  commentId: T:SuperOffice.Data.SQL.Select
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: Select
+  nameWithType: Select
+  fullName: SuperOffice.Data.SQL.Select
+- uid: SuperOffice.CRM.Data.TicketTableInfo
+  commentId: T:SuperOffice.CRM.Data.TicketTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: TicketTableInfo
+  nameWithType: TicketTableInfo
+  fullName: SuperOffice.CRM.Data.TicketTableInfo
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data

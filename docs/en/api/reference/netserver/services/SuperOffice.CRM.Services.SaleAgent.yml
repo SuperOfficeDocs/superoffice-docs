@@ -43,7 +43,9 @@ items:
   - SuperOffice.CRM.Services.SaleAgent.SaveSaleEntity(SuperOffice.CRM.Services.SaleEntity)
   - SuperOffice.CRM.Services.SaleAgent.SaveSaleStakeholder(SuperOffice.CRM.Services.SaleStakeholder)
   - SuperOffice.CRM.Services.SaleAgent.SetAsLost(System.Int32[])
+  - SuperOffice.CRM.Services.SaleAgent.SetAsLostWithReason(System.Int32[],System.Int32)
   - SuperOffice.CRM.Services.SaleAgent.SetAsSold(System.Int32[])
+  - SuperOffice.CRM.Services.SaleAgent.SetAsSoldWithReason(System.Int32[],System.Int32)
   - SuperOffice.CRM.Services.SaleAgent.UpdateSaleStakeholders(SuperOffice.CRM.Services.SaleStakeholder[])
   - SuperOffice.CRM.Services.SaleAgent.ValidateSaleEntity(SuperOffice.CRM.Services.SaleEntity)
   langs:
@@ -1089,6 +1091,44 @@ items:
   - Public
   fullName.vb: SuperOffice.CRM.Services.SaleAgent.SetAsSold(System.Int32())
   name.vb: SetAsSold(Int32())
+- uid: SuperOffice.CRM.Services.SaleAgent.SetAsSoldWithReason(System.Int32[],System.Int32)
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.SetAsSoldWithReason(System.Int32[],System.Int32)
+  id: SetAsSoldWithReason(System.Int32[],System.Int32)
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: SetAsSoldWithReason(Int32[], Int32)
+  nameWithType: SaleAgent.SetAsSoldWithReason(Int32[], Int32)
+  fullName: SuperOffice.CRM.Services.SaleAgent.SetAsSoldWithReason(System.Int32[], System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nChange the status of one or more Sales to Sold. Note that this does not mark them as Completed.\n"
+  syntax:
+    content: public void SetAsSoldWithReason(int[] saleIds, int reasonId)
+    parameters:
+    - id: saleIds
+      type: System.Int32[]
+      description: Array of sale ids to be marked as lost. All the normal write access rules apply.
+    - id: reasonId
+      type: System.Int32
+      description: The ID of the sold reason.
+    content.vb: Public Sub SetAsSoldWithReason(saleIds As Integer(), reasonId As Integer)
+  overload: SuperOffice.CRM.Services.SaleAgent.SetAsSoldWithReason*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.SetAsSoldWithReason(System.Int32[],System.Int32)
+  nameWithType.vb: SaleAgent.SetAsSoldWithReason(Int32(), Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.SaleAgent.SetAsSoldWithReason(System.Int32(), System.Int32)
+  name.vb: SetAsSoldWithReason(Int32(), Int32)
 - uid: SuperOffice.CRM.Services.SaleAgent.SetAsLost(System.Int32[])
   commentId: M:SuperOffice.CRM.Services.SaleAgent.SetAsLost(System.Int32[])
   id: SetAsLost(System.Int32[])
@@ -1124,6 +1164,44 @@ items:
   - Public
   fullName.vb: SuperOffice.CRM.Services.SaleAgent.SetAsLost(System.Int32())
   name.vb: SetAsLost(Int32())
+- uid: SuperOffice.CRM.Services.SaleAgent.SetAsLostWithReason(System.Int32[],System.Int32)
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.SetAsLostWithReason(System.Int32[],System.Int32)
+  id: SetAsLostWithReason(System.Int32[],System.Int32)
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: SetAsLostWithReason(Int32[], Int32)
+  nameWithType: SaleAgent.SetAsLostWithReason(Int32[], Int32)
+  fullName: SuperOffice.CRM.Services.SaleAgent.SetAsLostWithReason(System.Int32[], System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nChange the status of one or more sales to Lost. Note that this does not affect the Completed state of the sale.\n"
+  syntax:
+    content: public void SetAsLostWithReason(int[] saleIds, int reasonId)
+    parameters:
+    - id: saleIds
+      type: System.Int32[]
+      description: Array of sale ids to be marked as lost. All normal write access rules apply.
+    - id: reasonId
+      type: System.Int32
+      description: The ID of the lost reason.
+    content.vb: Public Sub SetAsLostWithReason(saleIds As Integer(), reasonId As Integer)
+  overload: SuperOffice.CRM.Services.SaleAgent.SetAsLostWithReason*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.SetAsLostWithReason(System.Int32[],System.Int32)
+  nameWithType.vb: SaleAgent.SetAsLostWithReason(Int32(), Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.SaleAgent.SetAsLostWithReason(System.Int32(), System.Int32)
+  name.vb: SetAsLostWithReason(Int32(), Int32)
 - uid: SuperOffice.CRM.Services.SaleAgent.GetSalesFromContact(System.Int32,System.Boolean)
   commentId: M:SuperOffice.CRM.Services.SaleAgent.GetSalesFromContact(System.Int32,System.Boolean)
   id: GetSalesFromContact(System.Int32,System.Boolean)
@@ -3340,6 +3418,78 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Services.SaleAgent.SetAsSoldWithReason*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.SetAsSoldWithReason
+  isExternal: true
+  name: SetAsSoldWithReason
+  nameWithType: SaleAgent.SetAsSoldWithReason
+  fullName: SuperOffice.CRM.Services.SaleAgent.SetAsSoldWithReason
+- uid: SuperOffice.CRM.Services.ISaleAgent.SetAsSoldWithReason(System.Int32[],System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.SetAsSoldWithReason(System.Int32[],System.Int32)
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: SetAsSoldWithReason(Int32[], Int32)
+  nameWithType: ISaleAgent.SetAsSoldWithReason(Int32[], Int32)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.SetAsSoldWithReason(System.Int32[], System.Int32)
+  nameWithType.vb: ISaleAgent.SetAsSoldWithReason(Int32(), Int32)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.SetAsSoldWithReason(System.Int32(), System.Int32)
+  name.vb: SetAsSoldWithReason(Int32(), Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.SetAsSoldWithReason(System.Int32[],System.Int32)
+    name: SetAsSoldWithReason
+    nameWithType: ISaleAgent.SetAsSoldWithReason
+    fullName: SuperOffice.CRM.Services.ISaleAgent.SetAsSoldWithReason
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.SetAsSoldWithReason(System.Int32[],System.Int32)
+    name: SetAsSoldWithReason
+    nameWithType: ISaleAgent.SetAsSoldWithReason
+    fullName: SuperOffice.CRM.Services.ISaleAgent.SetAsSoldWithReason
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.SaleAgent.SetAsLost*
   commentId: Overload:SuperOffice.CRM.Services.SaleAgent.SetAsLost
   isExternal: true
@@ -3393,6 +3543,78 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SaleAgent.SetAsLostWithReason*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.SetAsLostWithReason
+  isExternal: true
+  name: SetAsLostWithReason
+  nameWithType: SaleAgent.SetAsLostWithReason
+  fullName: SuperOffice.CRM.Services.SaleAgent.SetAsLostWithReason
+- uid: SuperOffice.CRM.Services.ISaleAgent.SetAsLostWithReason(System.Int32[],System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.SetAsLostWithReason(System.Int32[],System.Int32)
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: SetAsLostWithReason(Int32[], Int32)
+  nameWithType: ISaleAgent.SetAsLostWithReason(Int32[], Int32)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.SetAsLostWithReason(System.Int32[], System.Int32)
+  nameWithType.vb: ISaleAgent.SetAsLostWithReason(Int32(), Int32)
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.SetAsLostWithReason(System.Int32(), System.Int32)
+  name.vb: SetAsLostWithReason(Int32(), Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.SetAsLostWithReason(System.Int32[],System.Int32)
+    name: SetAsLostWithReason
+    nameWithType: ISaleAgent.SetAsLostWithReason
+    fullName: SuperOffice.CRM.Services.ISaleAgent.SetAsLostWithReason
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.SetAsLostWithReason(System.Int32[],System.Int32)
+    name: SetAsLostWithReason
+    nameWithType: ISaleAgent.SetAsLostWithReason
+    fullName: SuperOffice.CRM.Services.ISaleAgent.SetAsLostWithReason
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_DeleteVideoMeetingReservationRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_DeleteVideoMeetingReservationRequest
+  id: Appointment_DeleteVideoMeetingReservationRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_DeleteVideoMeetingReservationRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_DeleteVideoMeetingReservationRequest.VideoMeetingId
+  langs:
+  - csharp
+  - vb
+  name: Appointment_DeleteVideoMeetingReservationRequest
+  nameWithType: Appointment_DeleteVideoMeetingReservationRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_DeleteVideoMeetingReservationRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_DeleteVideoMeetingReservationRequest : Object'
+    content.vb: >-
+      Public Class Appointment_DeleteVideoMeetingReservationRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_DeleteVideoMeetingReservationRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_DeleteVideoMeetingReservationRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_DeleteVideoMeetingReservationRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_DeleteVideoMeetingReservationRequest()
+  nameWithType: Appointment_DeleteVideoMeetingReservationRequest.Appointment_DeleteVideoMeetingReservationRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_DeleteVideoMeetingReservationRequest.Appointment_DeleteVideoMeetingReservationRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_DeleteVideoMeetingReservationRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_DeleteVideoMeetingReservationRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_DeleteVideoMeetingReservationRequest.VideoMeetingId
+  commentId: P:SuperOffice.WebApi.Data.Appointment_DeleteVideoMeetingReservationRequest.VideoMeetingId
+  id: VideoMeetingId
+  parent: SuperOffice.WebApi.Data.Appointment_DeleteVideoMeetingReservationRequest
+  langs:
+  - csharp
+  - vb
+  name: VideoMeetingId
+  nameWithType: Appointment_DeleteVideoMeetingReservationRequest.VideoMeetingId
+  fullName: SuperOffice.WebApi.Data.Appointment_DeleteVideoMeetingReservationRequest.VideoMeetingId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string VideoMeetingId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property VideoMeetingId As String
+  overload: SuperOffice.WebApi.Data.Appointment_DeleteVideoMeetingReservationRequest.VideoMeetingId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_DeleteVideoMeetingReservationRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_DeleteVideoMeetingReservationRequest.#ctor
+  isExternal: true
+  name: Appointment_DeleteVideoMeetingReservationRequest
+  nameWithType: Appointment_DeleteVideoMeetingReservationRequest.Appointment_DeleteVideoMeetingReservationRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_DeleteVideoMeetingReservationRequest.Appointment_DeleteVideoMeetingReservationRequest
+- uid: SuperOffice.WebApi.Data.Appointment_DeleteVideoMeetingReservationRequest.VideoMeetingId*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_DeleteVideoMeetingReservationRequest.VideoMeetingId
+  isExternal: true
+  name: VideoMeetingId
+  nameWithType: Appointment_DeleteVideoMeetingReservationRequest.VideoMeetingId
+  fullName: SuperOffice.WebApi.Data.Appointment_DeleteVideoMeetingReservationRequest.VideoMeetingId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

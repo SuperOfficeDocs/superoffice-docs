@@ -8,6 +8,7 @@ items:
   - SuperOffice.CRM.Documents.ArchiveTempFileProvider.#ctor
   - SuperOffice.CRM.Documents.ArchiveTempFileProvider.CheckIfFileExists(System.String)
   - SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFile(System.String)
+  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileForAppending(System.String)
   - SuperOffice.CRM.Documents.ArchiveTempFileProvider.DeleteFile(System.String)
   - SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileChunk(System.String,System.Int64,System.Byte[])
   - SuperOffice.CRM.Documents.ArchiveTempFileProvider.ReadFileComplete(System.String)
@@ -85,6 +86,38 @@ items:
   overload: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFile*
   implements:
   - SuperOffice.IO.ITempFileProvider.CreateFile(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileForAppending(System.String)
+  commentId: M:SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileForAppending(System.String)
+  id: CreateFileForAppending(System.String)
+  parent: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+  langs:
+  - csharp
+  - vb
+  name: CreateFileForAppending(String)
+  nameWithType: ArchiveTempFileProvider.CreateFileForAppending(String)
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileForAppending(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public string CreateFileForAppending(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function CreateFileForAppending(name As String) As String
+  overload: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileForAppending*
+  implements:
+  - SuperOffice.IO.ITempFileProvider.CreateFileForAppending(System.String)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -752,6 +785,53 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileForAppending*
+  commentId: Overload:SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileForAppending
+  isExternal: true
+  name: CreateFileForAppending
+  nameWithType: ArchiveTempFileProvider.CreateFileForAppending
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileForAppending
+- uid: SuperOffice.IO.ITempFileProvider.CreateFileForAppending(System.String)
+  commentId: M:SuperOffice.IO.ITempFileProvider.CreateFileForAppending(System.String)
+  parent: SuperOffice.IO.ITempFileProvider
+  isExternal: true
+  name: CreateFileForAppending(String)
+  nameWithType: ITempFileProvider.CreateFileForAppending(String)
+  fullName: SuperOffice.IO.ITempFileProvider.CreateFileForAppending(System.String)
+  spec.csharp:
+  - uid: SuperOffice.IO.ITempFileProvider.CreateFileForAppending(System.String)
+    name: CreateFileForAppending
+    nameWithType: ITempFileProvider.CreateFileForAppending
+    fullName: SuperOffice.IO.ITempFileProvider.CreateFileForAppending
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.ITempFileProvider.CreateFileForAppending(System.String)
+    name: CreateFileForAppending
+    nameWithType: ITempFileProvider.CreateFileForAppending
+    fullName: SuperOffice.IO.ITempFileProvider.CreateFileForAppending
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CheckIfFileExists*
   commentId: Overload:SuperOffice.CRM.Documents.ArchiveTempFileProvider.CheckIfFileExists
   isExternal: true

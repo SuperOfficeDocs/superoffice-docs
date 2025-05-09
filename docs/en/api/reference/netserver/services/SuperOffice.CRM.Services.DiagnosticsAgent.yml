@@ -22,6 +22,7 @@ items:
   - SuperOffice.CRM.Services.DiagnosticsAgent.GetSystemMessages(System.Int32)
   - SuperOffice.CRM.Services.DiagnosticsAgent.GetWebAppUsagesForPeriod(System.DateTime,System.DateTime,System.String)
   - SuperOffice.CRM.Services.DiagnosticsAgent.LogViewState(System.String)
+  - SuperOffice.CRM.Services.DiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted(System.String)
   - SuperOffice.CRM.Services.DiagnosticsAgent.PerformTasksAfterUpgrade
   - SuperOffice.CRM.Services.DiagnosticsAgent.RemoveExpiredSystemMessages
   - SuperOffice.CRM.Services.DiagnosticsAgent.RemoveSystemMessage(System.Int32,System.String)
@@ -731,6 +732,38 @@ items:
   overload: SuperOffice.CRM.Services.DiagnosticsAgent.PerformTasksAfterUpgrade*
   implements:
   - SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.DiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted(System.String)
+  commentId: M:SuperOffice.CRM.Services.DiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted(System.String)
+  id: PerformTasksAfterCustomObjectTableDeleted(System.String)
+  parent: SuperOffice.CRM.Services.DiagnosticsAgent
+  langs:
+  - csharp
+  - vb
+  name: PerformTasksAfterCustomObjectTableDeleted(String)
+  nameWithType: DiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted(String)
+  fullName: SuperOffice.CRM.Services.DiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA temporary method to be used from c++ until CustomObjectsAgent.DeleteTable implemented in NetServer\n"
+  syntax:
+    content: public void PerformTasksAfterCustomObjectTableDeleted(string tableName)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: Name of DB table of the custom object that was deleted. E.g., &apos;y_car&apos;
+    content.vb: Public Sub PerformTasksAfterCustomObjectTableDeleted(tableName As String)
+  overload: SuperOffice.CRM.Services.DiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted*
+  implements:
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted(System.String)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -2284,6 +2317,53 @@ references:
   - name: (
     nameWithType: (
     fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.DiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted*
+  commentId: Overload:SuperOffice.CRM.Services.DiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted
+  isExternal: true
+  name: PerformTasksAfterCustomObjectTableDeleted
+  nameWithType: DiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted
+  fullName: SuperOffice.CRM.Services.DiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted(System.String)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted(System.String)
+  parent: SuperOffice.CRM.Services.IDiagnosticsAgent
+  isExternal: true
+  name: PerformTasksAfterCustomObjectTableDeleted(String)
+  nameWithType: IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted(String)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted(System.String)
+    name: PerformTasksAfterCustomObjectTableDeleted
+    nameWithType: IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted(System.String)
+    name: PerformTasksAfterCustomObjectTableDeleted
+    nameWithType: IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )

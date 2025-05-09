@@ -37,18 +37,22 @@ items:
   example:
   - "\nRelationsRow r = new RelationsRow.IdxRelationsId(1234);\nr.Sentries.GetFieldRight( p.Sentries );\n"
   syntax:
-    content: 'public class RelationsSentry : Sentry<RelationsTableInfo>, ICloneable'
+    content: 'public class RelationsSentry : RoleRightsSentry<RelationsTableInfo>, ICloneable'
     content.vb: >-
       Public Class RelationsSentry
-          Inherits Sentry(Of RelationsTableInfo)
+          Inherits RoleRightsSentry(Of RelationsTableInfo)
           Implements ICloneable
   inheritance:
   - System.Object
   - SuperOffice.CRM.Security.Sentry
   - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.RelationsTableInfo}
+  - SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.RelationsTableInfo}
   implements:
   - System.ICloneable
   inheritedMembers:
+  - SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.RelationsTableInfo}.GetMainRight
+  - SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.RelationsTableInfo}.RoleTableRights
+  - SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.RelationsTableInfo}.VisibleForRights
   - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.RelationsTableInfo}.GetInterestingFieldsInTable(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.RelationsTableInfo}.InterestedInAnyInstanceOf``1
   - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.RelationsTableInfo}.ComputeDerivedTableRights
@@ -62,7 +66,6 @@ items:
   - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.RelationsTableInfo}.IsTableCovered(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.RelationsTableInfo}.SetAllTableRights(SuperOffice.Data.ETableRight,System.String)
   - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.RelationsTableInfo}.GetOwnerFieldRight
-  - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.RelationsTableInfo}.GetMainRight
   - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.RelationsTableInfo}.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
   - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.RelationsTableInfo}.ToString
   - SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.RelationsTableInfo}.InterestingFields
@@ -625,11 +628,106 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.RelationsTableInfo}
+  commentId: T:SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.RelationsTableInfo}
+  parent: SuperOffice.CRM.Security
+  definition: SuperOffice.CRM.Security.RoleRightsSentry`1
+  name: RoleRightsSentry<RelationsTableInfo>
+  nameWithType: RoleRightsSentry<RelationsTableInfo>
+  fullName: SuperOffice.CRM.Security.RoleRightsSentry<SuperOffice.CRM.Data.RelationsTableInfo>
+  nameWithType.vb: RoleRightsSentry(Of RelationsTableInfo)
+  fullName.vb: SuperOffice.CRM.Security.RoleRightsSentry(Of SuperOffice.CRM.Data.RelationsTableInfo)
+  name.vb: RoleRightsSentry(Of RelationsTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.RoleRightsSentry`1
+    name: RoleRightsSentry
+    nameWithType: RoleRightsSentry
+    fullName: SuperOffice.CRM.Security.RoleRightsSentry
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Data.RelationsTableInfo
+    name: RelationsTableInfo
+    nameWithType: RelationsTableInfo
+    fullName: SuperOffice.CRM.Data.RelationsTableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.RoleRightsSentry`1
+    name: RoleRightsSentry
+    nameWithType: RoleRightsSentry
+    fullName: SuperOffice.CRM.Security.RoleRightsSentry
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Data.RelationsTableInfo
+    name: RelationsTableInfo
+    nameWithType: RelationsTableInfo
+    fullName: SuperOffice.CRM.Data.RelationsTableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.ICloneable
   isExternal: true
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
+- uid: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.RelationsTableInfo}.GetMainRight
+  commentId: M:SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.RelationsTableInfo}.GetMainRight
+  parent: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.RelationsTableInfo}
+  definition: SuperOffice.CRM.Security.RoleRightsSentry`1.GetMainRight
+  name: GetMainRight()
+  nameWithType: RoleRightsSentry<RelationsTableInfo>.GetMainRight()
+  fullName: SuperOffice.CRM.Security.RoleRightsSentry<SuperOffice.CRM.Data.RelationsTableInfo>.GetMainRight()
+  nameWithType.vb: RoleRightsSentry(Of RelationsTableInfo).GetMainRight()
+  fullName.vb: SuperOffice.CRM.Security.RoleRightsSentry(Of SuperOffice.CRM.Data.RelationsTableInfo).GetMainRight()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.RoleRightsSentry`1.GetMainRight
+    name: GetMainRight
+    nameWithType: RoleRightsSentry<RelationsTableInfo>.GetMainRight
+    fullName: SuperOffice.CRM.Security.RoleRightsSentry<SuperOffice.CRM.Data.RelationsTableInfo>.GetMainRight
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.RoleRightsSentry`1.GetMainRight
+    name: GetMainRight
+    nameWithType: RoleRightsSentry(Of RelationsTableInfo).GetMainRight
+    fullName: SuperOffice.CRM.Security.RoleRightsSentry(Of SuperOffice.CRM.Data.RelationsTableInfo).GetMainRight
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.RelationsTableInfo}.RoleTableRights
+  commentId: P:SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.RelationsTableInfo}.RoleTableRights
+  parent: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.RelationsTableInfo}
+  definition: SuperOffice.CRM.Security.RoleRightsSentry`1.RoleTableRights
+  name: RoleTableRights
+  nameWithType: RoleRightsSentry<RelationsTableInfo>.RoleTableRights
+  fullName: SuperOffice.CRM.Security.RoleRightsSentry<SuperOffice.CRM.Data.RelationsTableInfo>.RoleTableRights
+  nameWithType.vb: RoleRightsSentry(Of RelationsTableInfo).RoleTableRights
+  fullName.vb: SuperOffice.CRM.Security.RoleRightsSentry(Of SuperOffice.CRM.Data.RelationsTableInfo).RoleTableRights
+- uid: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.RelationsTableInfo}.VisibleForRights
+  commentId: P:SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.RelationsTableInfo}.VisibleForRights
+  parent: SuperOffice.CRM.Security.RoleRightsSentry{SuperOffice.CRM.Data.RelationsTableInfo}
+  definition: SuperOffice.CRM.Security.RoleRightsSentry`1.VisibleForRights
+  name: VisibleForRights
+  nameWithType: RoleRightsSentry<RelationsTableInfo>.VisibleForRights
+  fullName: SuperOffice.CRM.Security.RoleRightsSentry<SuperOffice.CRM.Data.RelationsTableInfo>.VisibleForRights
+  nameWithType.vb: RoleRightsSentry(Of RelationsTableInfo).VisibleForRights
+  fullName.vb: SuperOffice.CRM.Security.RoleRightsSentry(Of SuperOffice.CRM.Data.RelationsTableInfo).VisibleForRights
 - uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.RelationsTableInfo}.GetInterestingFieldsInTable(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.RelationsTableInfo}.GetInterestingFieldsInTable(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.RelationsTableInfo}
@@ -1136,39 +1234,6 @@ references:
     name: GetOwnerFieldRight
     nameWithType: Sentry(Of RelationsTableInfo).GetOwnerFieldRight
     fullName: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.RelationsTableInfo).GetOwnerFieldRight
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.RelationsTableInfo}.GetMainRight
-  commentId: M:SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.RelationsTableInfo}.GetMainRight
-  parent: SuperOffice.CRM.Security.Sentry{SuperOffice.CRM.Data.RelationsTableInfo}
-  definition: SuperOffice.CRM.Security.Sentry`1.GetMainRight
-  name: GetMainRight()
-  nameWithType: Sentry<RelationsTableInfo>.GetMainRight()
-  fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.RelationsTableInfo>.GetMainRight()
-  nameWithType.vb: Sentry(Of RelationsTableInfo).GetMainRight()
-  fullName.vb: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.RelationsTableInfo).GetMainRight()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Security.Sentry`1.GetMainRight
-    name: GetMainRight
-    nameWithType: Sentry<RelationsTableInfo>.GetMainRight
-    fullName: SuperOffice.CRM.Security.Sentry<SuperOffice.CRM.Data.RelationsTableInfo>.GetMainRight
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Security.Sentry`1.GetMainRight
-    name: GetMainRight
-    nameWithType: Sentry(Of RelationsTableInfo).GetMainRight
-    fullName: SuperOffice.CRM.Security.Sentry(Of SuperOffice.CRM.Data.RelationsTableInfo).GetMainRight
     isExternal: true
   - name: (
     nameWithType: (
@@ -2916,6 +2981,93 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.Security.RoleRightsSentry`1
+  commentId: T:SuperOffice.CRM.Security.RoleRightsSentry`1
+  isExternal: true
+  name: RoleRightsSentry<TMainTable>
+  nameWithType: RoleRightsSentry<TMainTable>
+  fullName: SuperOffice.CRM.Security.RoleRightsSentry<TMainTable>
+  nameWithType.vb: RoleRightsSentry(Of TMainTable)
+  fullName.vb: SuperOffice.CRM.Security.RoleRightsSentry(Of TMainTable)
+  name.vb: RoleRightsSentry(Of TMainTable)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.RoleRightsSentry`1
+    name: RoleRightsSentry
+    nameWithType: RoleRightsSentry
+    fullName: SuperOffice.CRM.Security.RoleRightsSentry
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TMainTable
+    nameWithType: TMainTable
+    fullName: TMainTable
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.RoleRightsSentry`1
+    name: RoleRightsSentry
+    nameWithType: RoleRightsSentry
+    fullName: SuperOffice.CRM.Security.RoleRightsSentry
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TMainTable
+    nameWithType: TMainTable
+    fullName: TMainTable
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.RoleRightsSentry`1.GetMainRight
+  commentId: M:SuperOffice.CRM.Security.RoleRightsSentry`1.GetMainRight
+  isExternal: true
+  name: GetMainRight()
+  nameWithType: RoleRightsSentry<TMainTable>.GetMainRight()
+  fullName: SuperOffice.CRM.Security.RoleRightsSentry<TMainTable>.GetMainRight()
+  nameWithType.vb: RoleRightsSentry(Of TMainTable).GetMainRight()
+  fullName.vb: SuperOffice.CRM.Security.RoleRightsSentry(Of TMainTable).GetMainRight()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.RoleRightsSentry`1.GetMainRight
+    name: GetMainRight
+    nameWithType: RoleRightsSentry<TMainTable>.GetMainRight
+    fullName: SuperOffice.CRM.Security.RoleRightsSentry<TMainTable>.GetMainRight
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.RoleRightsSentry`1.GetMainRight
+    name: GetMainRight
+    nameWithType: RoleRightsSentry(Of TMainTable).GetMainRight
+    fullName: SuperOffice.CRM.Security.RoleRightsSentry(Of TMainTable).GetMainRight
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.RoleRightsSentry`1.RoleTableRights
+  commentId: P:SuperOffice.CRM.Security.RoleRightsSentry`1.RoleTableRights
+  isExternal: true
+  name: RoleTableRights
+  nameWithType: RoleRightsSentry<TMainTable>.RoleTableRights
+  fullName: SuperOffice.CRM.Security.RoleRightsSentry<TMainTable>.RoleTableRights
+  nameWithType.vb: RoleRightsSentry(Of TMainTable).RoleTableRights
+  fullName.vb: SuperOffice.CRM.Security.RoleRightsSentry(Of TMainTable).RoleTableRights
+- uid: SuperOffice.CRM.Security.RoleRightsSentry`1.VisibleForRights
+  commentId: P:SuperOffice.CRM.Security.RoleRightsSentry`1.VisibleForRights
+  isExternal: true
+  name: VisibleForRights
+  nameWithType: RoleRightsSentry<TMainTable>.VisibleForRights
+  fullName: SuperOffice.CRM.Security.RoleRightsSentry<TMainTable>.VisibleForRights
+  nameWithType.vb: RoleRightsSentry(Of TMainTable).VisibleForRights
+  fullName.vb: SuperOffice.CRM.Security.RoleRightsSentry(Of TMainTable).VisibleForRights
 - uid: SuperOffice.CRM.Security.Sentry`1.GetInterestingFieldsInTable(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.CRM.Security.Sentry`1.GetInterestingFieldsInTable(SuperOffice.Data.SQL.TableInfo)
   isExternal: true
@@ -3409,38 +3561,6 @@ references:
     name: GetOwnerFieldRight
     nameWithType: Sentry(Of TMainTable).GetOwnerFieldRight
     fullName: SuperOffice.CRM.Security.Sentry(Of TMainTable).GetOwnerFieldRight
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Security.Sentry`1.GetMainRight
-  commentId: M:SuperOffice.CRM.Security.Sentry`1.GetMainRight
-  isExternal: true
-  name: GetMainRight()
-  nameWithType: Sentry<TMainTable>.GetMainRight()
-  fullName: SuperOffice.CRM.Security.Sentry<TMainTable>.GetMainRight()
-  nameWithType.vb: Sentry(Of TMainTable).GetMainRight()
-  fullName.vb: SuperOffice.CRM.Security.Sentry(Of TMainTable).GetMainRight()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Security.Sentry`1.GetMainRight
-    name: GetMainRight
-    nameWithType: Sentry<TMainTable>.GetMainRight
-    fullName: SuperOffice.CRM.Security.Sentry<TMainTable>.GetMainRight
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Security.Sentry`1.GetMainRight
-    name: GetMainRight
-    nameWithType: Sentry(Of TMainTable).GetMainRight
-    fullName: SuperOffice.CRM.Security.Sentry(Of TMainTable).GetMainRight
     isExternal: true
   - name: (
     nameWithType: (

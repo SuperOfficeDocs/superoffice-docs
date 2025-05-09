@@ -61,7 +61,6 @@ items:
   - SuperOffice.CRM.Security.QuoteLineSentry
   - SuperOffice.CRM.Security.QuoteSentry
   - SuperOffice.CRM.Security.QuoteVersionSentry
-  - SuperOffice.CRM.Security.RelationsSentry
   - SuperOffice.CRM.Security.ReplyTemplateSentry
   - SuperOffice.CRM.Security.RoleRightsSentry`1
   - SuperOffice.CRM.Security.SatelliteSentry

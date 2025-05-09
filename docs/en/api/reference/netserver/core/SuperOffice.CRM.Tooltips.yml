@@ -45,6 +45,7 @@ items:
   - SuperOffice.CRM.Tooltips.SelectionTooltipPlugin
   - SuperOffice.CRM.Tooltips.TextTooltipPlugin
   - SuperOffice.CRM.Tooltips.TicketPriorityTooltipPlugin
+  - SuperOffice.CRM.Tooltips.TicketReadStatusTooltipPlugin
   - SuperOffice.CRM.Tooltips.TicketStatusTooltipPlugin
   - SuperOffice.CRM.Tooltips.TicketTooltipPlugin
   - SuperOffice.CRM.Tooltips.TicketTypeTooltipPlugin
@@ -319,6 +320,12 @@ references:
   name: TicketPriorityTooltipPlugin
   nameWithType: TicketPriorityTooltipPlugin
   fullName: SuperOffice.CRM.Tooltips.TicketPriorityTooltipPlugin
+- uid: SuperOffice.CRM.Tooltips.TicketReadStatusTooltipPlugin
+  commentId: T:SuperOffice.CRM.Tooltips.TicketReadStatusTooltipPlugin
+  isExternal: true
+  name: TicketReadStatusTooltipPlugin
+  nameWithType: TicketReadStatusTooltipPlugin
+  fullName: SuperOffice.CRM.Tooltips.TicketReadStatusTooltipPlugin
 - uid: SuperOffice.CRM.Tooltips.TicketStatusTooltipPlugin
   commentId: T:SuperOffice.CRM.Tooltips.TicketStatusTooltipPlugin
   isExternal: true

@@ -149,6 +149,7 @@ items:
   - SuperOffice.CRM.Lists.RatingSmileysProvider
   - SuperOffice.CRM.Lists.RatingStarsProvider
   - SuperOffice.CRM.Lists.RatingThumbsProvider
+  - SuperOffice.CRM.Lists.RecipientFavoriteListProvider
   - SuperOffice.CRM.Lists.RecurrenceEveryMonthProvider
   - SuperOffice.CRM.Lists.RecurrenceWeekCycleProvider
   - SuperOffice.CRM.Lists.ReplyTemplateProvider

@@ -116,6 +116,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.QuoteConnectionProvider
   - SuperOffice.CRM.ArchiveLists.QuoteLineProvider
   - SuperOffice.CRM.ArchiveLists.QuoteVersionAttachmentProvider
+  - SuperOffice.CRM.ArchiveLists.RecipientFavouritesProvider
   - SuperOffice.CRM.ArchiveLists.RecycleContactsProvider
   - SuperOffice.CRM.ArchiveLists.RecyclePersonProvider
   - SuperOffice.CRM.ArchiveLists.RecycleTicketProvider

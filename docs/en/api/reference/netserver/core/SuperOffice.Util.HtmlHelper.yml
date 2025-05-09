@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.Util
   children:
   - SuperOffice.Util.HtmlHelper.EscapePercentageSymbols(System.String)
+  - SuperOffice.Util.HtmlHelper.ExtractBodyFromHtml(System.String,System.Boolean)
   - SuperOffice.Util.HtmlHelper.GetHTMLBodyFromPlainText(System.String,System.Boolean)
   - SuperOffice.Util.HtmlHelper.GetPlainHTMLBody(System.String)
   - SuperOffice.Util.HtmlHelper.IsHtml(System.String)
@@ -176,6 +177,40 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: SuperOffice.Util.HtmlHelper.ExtractBodyFromHtml(System.String,System.Boolean)
+  commentId: M:SuperOffice.Util.HtmlHelper.ExtractBodyFromHtml(System.String,System.Boolean)
+  id: ExtractBodyFromHtml(System.String,System.Boolean)
+  parent: SuperOffice.Util.HtmlHelper
+  langs:
+  - csharp
+  - vb
+  name: ExtractBodyFromHtml(String, Boolean)
+  nameWithType: HtmlHelper.ExtractBodyFromHtml(String, Boolean)
+  fullName: SuperOffice.Util.HtmlHelper.ExtractBodyFromHtml(System.String, System.Boolean)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static string ExtractBodyFromHtml(string html, bool wrap)
+    parameters:
+    - id: html
+      type: System.String
+    - id: wrap
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Shared Function ExtractBodyFromHtml(html As String, wrap As Boolean) As String
+  overload: SuperOffice.Util.HtmlHelper.ExtractBodyFromHtml*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
@@ -234,3 +269,9 @@ references:
   name: EscapePercentageSymbols
   nameWithType: HtmlHelper.EscapePercentageSymbols
   fullName: SuperOffice.Util.HtmlHelper.EscapePercentageSymbols
+- uid: SuperOffice.Util.HtmlHelper.ExtractBodyFromHtml*
+  commentId: Overload:SuperOffice.Util.HtmlHelper.ExtractBodyFromHtml
+  isExternal: true
+  name: ExtractBodyFromHtml
+  nameWithType: HtmlHelper.ExtractBodyFromHtml
+  fullName: SuperOffice.Util.HtmlHelper.ExtractBodyFromHtml

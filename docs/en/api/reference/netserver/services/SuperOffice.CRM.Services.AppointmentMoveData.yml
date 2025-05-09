@@ -1,0 +1,528 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.AppointmentMoveData
+  commentId: T:SuperOffice.CRM.Services.AppointmentMoveData
+  id: AppointmentMoveData
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.AppointmentMoveData.#ctor
+  - SuperOffice.CRM.Services.AppointmentMoveData.AppointmentId
+  - SuperOffice.CRM.Services.AppointmentMoveData.ImapEMailConnectionInfo
+  - SuperOffice.CRM.Services.AppointmentMoveData.IsAlldayEvent
+  - SuperOffice.CRM.Services.AppointmentMoveData.IsFree
+  - SuperOffice.CRM.Services.AppointmentMoveData.NewStartTime
+  - SuperOffice.CRM.Services.AppointmentMoveData.SendEmailToParticipants
+  - SuperOffice.CRM.Services.AppointmentMoveData.SmtpEMailConnectionInfo
+  - SuperOffice.CRM.Services.AppointmentMoveData.ToString
+  - SuperOffice.CRM.Services.AppointmentMoveData.ToString(System.String)
+  - SuperOffice.CRM.Services.AppointmentMoveData.UpdateMode
+  langs:
+  - csharp
+  - vb
+  name: AppointmentMoveData
+  nameWithType: AppointmentMoveData
+  fullName: SuperOffice.CRM.Services.AppointmentMoveData
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nParameter data for moving an appointment.\n<p></p>\nCarrier object for AppointmentMoveData.\nServices for the AppointmentMoveData Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IAppointmentAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class AppointmentMoveData : Carrier'
+    content.vb: >-
+      Public Class AppointmentMoveData
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.AppointmentAgent
+    commentId: T:SuperOffice.CRM.Services.AppointmentAgent
+  - linkId: SuperOffice.CRM.Services.IAppointmentAgent
+    commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.AppointmentMoveData.#ctor
+  commentId: M:SuperOffice.CRM.Services.AppointmentMoveData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.AppointmentMoveData
+  langs:
+  - csharp
+  - vb
+  name: AppointmentMoveData()
+  nameWithType: AppointmentMoveData.AppointmentMoveData()
+  fullName: SuperOffice.CRM.Services.AppointmentMoveData.AppointmentMoveData()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public AppointmentMoveData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.AppointmentMoveData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.AppointmentMoveData.ToString
+  commentId: M:SuperOffice.CRM.Services.AppointmentMoveData.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.AppointmentMoveData
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: AppointmentMoveData.ToString()
+  fullName: SuperOffice.CRM.Services.AppointmentMoveData.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.AppointmentMoveData.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.AppointmentMoveData.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.AppointmentMoveData.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.AppointmentMoveData
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: AppointmentMoveData.ToString(String)
+  fullName: SuperOffice.CRM.Services.AppointmentMoveData.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.AppointmentMoveData.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.AppointmentMoveData.AppointmentId
+  commentId: P:SuperOffice.CRM.Services.AppointmentMoveData.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.CRM.Services.AppointmentMoveData
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: AppointmentMoveData.AppointmentId
+  fullName: SuperOffice.CRM.Services.AppointmentMoveData.AppointmentId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe appointmentId. Both master and child record ids are accepted. \n"
+  syntax:
+    content: public virtual int AppointmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AppointmentId As Integer
+  overload: SuperOffice.CRM.Services.AppointmentMoveData.AppointmentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentMoveData.NewStartTime
+  commentId: P:SuperOffice.CRM.Services.AppointmentMoveData.NewStartTime
+  id: NewStartTime
+  parent: SuperOffice.CRM.Services.AppointmentMoveData
+  langs:
+  - csharp
+  - vb
+  name: NewStartTime
+  nameWithType: AppointmentMoveData.NewStartTime
+  fullName: SuperOffice.CRM.Services.AppointmentMoveData.NewStartTime
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe new start time for the moved booking. \n"
+  syntax:
+    content: public virtual DateTime NewStartTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property NewStartTime As DateTime
+  overload: SuperOffice.CRM.Services.AppointmentMoveData.NewStartTime*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentMoveData.UpdateMode
+  commentId: P:SuperOffice.CRM.Services.AppointmentMoveData.UpdateMode
+  id: UpdateMode
+  parent: SuperOffice.CRM.Services.AppointmentMoveData
+  langs:
+  - csharp
+  - vb
+  name: UpdateMode
+  nameWithType: AppointmentMoveData.UpdateMode
+  fullName: SuperOffice.CRM.Services.AppointmentMoveData.UpdateMode
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdate mode for a recurring appointment. \n"
+  syntax:
+    content: public virtual RecurrenceUpdateMode UpdateMode { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.RecurrenceUpdateMode
+    content.vb: Public Overridable Property UpdateMode As RecurrenceUpdateMode
+  overload: SuperOffice.CRM.Services.AppointmentMoveData.UpdateMode*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentMoveData.SendEmailToParticipants
+  commentId: P:SuperOffice.CRM.Services.AppointmentMoveData.SendEmailToParticipants
+  id: SendEmailToParticipants
+  parent: SuperOffice.CRM.Services.AppointmentMoveData
+  langs:
+  - csharp
+  - vb
+  name: SendEmailToParticipants
+  nameWithType: AppointmentMoveData.SendEmailToParticipants
+  fullName: SuperOffice.CRM.Services.AppointmentMoveData.SendEmailToParticipants
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIf true, emails will be sent to all participants that is marked with send email flag if deemed necessary. If false no mails will be sent even if the send email flag is true. \n"
+  syntax:
+    content: public virtual bool SendEmailToParticipants { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property SendEmailToParticipants As Boolean
+  overload: SuperOffice.CRM.Services.AppointmentMoveData.SendEmailToParticipants*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentMoveData.SmtpEMailConnectionInfo
+  commentId: P:SuperOffice.CRM.Services.AppointmentMoveData.SmtpEMailConnectionInfo
+  id: SmtpEMailConnectionInfo
+  parent: SuperOffice.CRM.Services.AppointmentMoveData
+  langs:
+  - csharp
+  - vb
+  name: SmtpEMailConnectionInfo
+  nameWithType: AppointmentMoveData.SmtpEMailConnectionInfo
+  fullName: SuperOffice.CRM.Services.AppointmentMoveData.SmtpEMailConnectionInfo
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLogin information for outgoing smtp email server. Will be null if no login information is relevant. \n"
+  syntax:
+    content: public virtual EMailConnectionInfo SmtpEMailConnectionInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.EMailConnectionInfo
+    content.vb: Public Overridable Property SmtpEMailConnectionInfo As EMailConnectionInfo
+  overload: SuperOffice.CRM.Services.AppointmentMoveData.SmtpEMailConnectionInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentMoveData.ImapEMailConnectionInfo
+  commentId: P:SuperOffice.CRM.Services.AppointmentMoveData.ImapEMailConnectionInfo
+  id: ImapEMailConnectionInfo
+  parent: SuperOffice.CRM.Services.AppointmentMoveData
+  langs:
+  - csharp
+  - vb
+  name: ImapEMailConnectionInfo
+  nameWithType: AppointmentMoveData.ImapEMailConnectionInfo
+  fullName: SuperOffice.CRM.Services.AppointmentMoveData.ImapEMailConnectionInfo
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLogin information for imap server. Will be null if no login information is relevant. \n"
+  syntax:
+    content: public virtual EMailConnectionInfo ImapEMailConnectionInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.EMailConnectionInfo
+    content.vb: Public Overridable Property ImapEMailConnectionInfo As EMailConnectionInfo
+  overload: SuperOffice.CRM.Services.AppointmentMoveData.ImapEMailConnectionInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentMoveData.IsAlldayEvent
+  commentId: P:SuperOffice.CRM.Services.AppointmentMoveData.IsAlldayEvent
+  id: IsAlldayEvent
+  parent: SuperOffice.CRM.Services.AppointmentMoveData
+  langs:
+  - csharp
+  - vb
+  name: IsAlldayEvent
+  nameWithType: AppointmentMoveData.IsAlldayEvent
+  fullName: SuperOffice.CRM.Services.AppointmentMoveData.IsAlldayEvent
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIf true, the appointment should be set to all day \n"
+  syntax:
+    content: public virtual bool IsAlldayEvent { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsAlldayEvent As Boolean
+  overload: SuperOffice.CRM.Services.AppointmentMoveData.IsAlldayEvent*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AppointmentMoveData.IsFree
+  commentId: P:SuperOffice.CRM.Services.AppointmentMoveData.IsFree
+  id: IsFree
+  parent: SuperOffice.CRM.Services.AppointmentMoveData
+  langs:
+  - csharp
+  - vb
+  name: IsFree
+  nameWithType: AppointmentMoveData.IsFree
+  fullName: SuperOffice.CRM.Services.AppointmentMoveData.IsFree
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIf true, the time is free (not busy). \n"
+  syntax:
+    content: public virtual bool IsFree { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsFree As Boolean
+  overload: SuperOffice.CRM.Services.AppointmentMoveData.IsFree*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.AppointmentAgent
+  commentId: T:SuperOffice.CRM.Services.AppointmentAgent
+  isExternal: true
+  name: AppointmentAgent
+  nameWithType: AppointmentAgent
+  fullName: SuperOffice.CRM.Services.AppointmentAgent
+- uid: SuperOffice.CRM.Services.IAppointmentAgent
+  commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAppointmentAgent
+  nameWithType: IAppointmentAgent
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent
+- uid: SuperOffice.CRM.Services.AppointmentMoveData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentMoveData.#ctor
+  isExternal: true
+  name: AppointmentMoveData
+  nameWithType: AppointmentMoveData.AppointmentMoveData
+  fullName: SuperOffice.CRM.Services.AppointmentMoveData.AppointmentMoveData
+- uid: SuperOffice.CRM.Services.AppointmentMoveData.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentMoveData.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: AppointmentMoveData.ToString
+  fullName: SuperOffice.CRM.Services.AppointmentMoveData.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.AppointmentMoveData.AppointmentId*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentMoveData.AppointmentId
+  isExternal: true
+  name: AppointmentId
+  nameWithType: AppointmentMoveData.AppointmentId
+  fullName: SuperOffice.CRM.Services.AppointmentMoveData.AppointmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.AppointmentMoveData.NewStartTime*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentMoveData.NewStartTime
+  isExternal: true
+  name: NewStartTime
+  nameWithType: AppointmentMoveData.NewStartTime
+  fullName: SuperOffice.CRM.Services.AppointmentMoveData.NewStartTime
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.AppointmentMoveData.UpdateMode*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentMoveData.UpdateMode
+  isExternal: true
+  name: UpdateMode
+  nameWithType: AppointmentMoveData.UpdateMode
+  fullName: SuperOffice.CRM.Services.AppointmentMoveData.UpdateMode
+- uid: SuperOffice.Data.RecurrenceUpdateMode
+  isExternal: true
+  name: RecurrenceUpdateMode
+  nameWithType: RecurrenceUpdateMode
+  fullName: SuperOffice.Data.RecurrenceUpdateMode
+- uid: SuperOffice.CRM.Services.AppointmentMoveData.SendEmailToParticipants*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentMoveData.SendEmailToParticipants
+  isExternal: true
+  name: SendEmailToParticipants
+  nameWithType: AppointmentMoveData.SendEmailToParticipants
+  fullName: SuperOffice.CRM.Services.AppointmentMoveData.SendEmailToParticipants
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.AppointmentMoveData.SmtpEMailConnectionInfo*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentMoveData.SmtpEMailConnectionInfo
+  isExternal: true
+  name: SmtpEMailConnectionInfo
+  nameWithType: AppointmentMoveData.SmtpEMailConnectionInfo
+  fullName: SuperOffice.CRM.Services.AppointmentMoveData.SmtpEMailConnectionInfo
+- uid: SuperOffice.CRM.Services.EMailConnectionInfo
+  commentId: T:SuperOffice.CRM.Services.EMailConnectionInfo
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: EMailConnectionInfo
+  nameWithType: EMailConnectionInfo
+  fullName: SuperOffice.CRM.Services.EMailConnectionInfo
+- uid: SuperOffice.CRM.Services.AppointmentMoveData.ImapEMailConnectionInfo*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentMoveData.ImapEMailConnectionInfo
+  isExternal: true
+  name: ImapEMailConnectionInfo
+  nameWithType: AppointmentMoveData.ImapEMailConnectionInfo
+  fullName: SuperOffice.CRM.Services.AppointmentMoveData.ImapEMailConnectionInfo
+- uid: SuperOffice.CRM.Services.AppointmentMoveData.IsAlldayEvent*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentMoveData.IsAlldayEvent
+  isExternal: true
+  name: IsAlldayEvent
+  nameWithType: AppointmentMoveData.IsAlldayEvent
+  fullName: SuperOffice.CRM.Services.AppointmentMoveData.IsAlldayEvent
+- uid: SuperOffice.CRM.Services.AppointmentMoveData.IsFree*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentMoveData.IsFree
+  isExternal: true
+  name: IsFree
+  nameWithType: AppointmentMoveData.IsFree
+  fullName: SuperOffice.CRM.Services.AppointmentMoveData.IsFree

@@ -21,6 +21,7 @@ items:
   - SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessages(System.Int32)
   - SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriod(System.DateTime,System.DateTime,System.String)
   - SuperOffice.CRM.Services.IDiagnosticsAgent.LogViewState(System.String)
+  - SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted(System.String)
   - SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade
   - SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessages
   - SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessage(System.Int32,System.String)
@@ -616,6 +617,32 @@ items:
       description: Message that can be shown to the user, summarizing what has been done, if anything.
     content.vb: Function PerformTasksAfterUpgrade As String
   overload: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade*
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted(System.String)
+  commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted(System.String)
+  id: PerformTasksAfterCustomObjectTableDeleted(System.String)
+  parent: SuperOffice.CRM.Services.IDiagnosticsAgent
+  langs:
+  - csharp
+  - vb
+  name: PerformTasksAfterCustomObjectTableDeleted(String)
+  nameWithType: IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted(String)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA temporary method to be used from c++ until CustomObjectsAgent.DeleteTable implemented in NetServer\n"
+  syntax:
+    content: void PerformTasksAfterCustomObjectTableDeleted(string tableName)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: Name of DB table of the custom object that was deleted. E.g., &apos;y_car&apos;
+    content.vb: Sub PerformTasksAfterCustomObjectTableDeleted(tableName As String)
+  overload: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted*
 - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsage(SuperOffice.CRM.Services.WebAppUsage[])
   commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsage(SuperOffice.CRM.Services.WebAppUsage[])
   id: AddWebAppUsage(SuperOffice.CRM.Services.WebAppUsage[])
@@ -980,6 +1007,12 @@ references:
   name: PerformTasksAfterUpgrade
   nameWithType: IDiagnosticsAgent.PerformTasksAfterUpgrade
   fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade
+- uid: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted*
+  commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted
+  isExternal: true
+  name: PerformTasksAfterCustomObjectTableDeleted
+  nameWithType: IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted
 - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsage*
   commentId: Overload:SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsage
   isExternal: true

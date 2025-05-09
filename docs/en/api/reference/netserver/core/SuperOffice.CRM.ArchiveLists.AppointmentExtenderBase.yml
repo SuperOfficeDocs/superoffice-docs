@@ -18,6 +18,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colId
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colIntention
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colInvitedPersonId
+  - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colIsFree
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colIsMilestone
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colJoinVideomeetUrl
   - SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colLocation
@@ -593,6 +594,32 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colAlarm As ArchiveColumnInfo
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colIsFree
+  commentId: F:SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colIsFree
+  id: _colIsFree
+  parent: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colIsFree
+  nameWithType: AppointmentExtenderBase._colIsFree
+  fullName: SuperOffice.CRM.ArchiveLists.AppointmentExtenderBase._colIsFree
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colIsFree
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colIsFree As ArchiveColumnInfo
   modifiers.csharp:
   - protected
   modifiers.vb:

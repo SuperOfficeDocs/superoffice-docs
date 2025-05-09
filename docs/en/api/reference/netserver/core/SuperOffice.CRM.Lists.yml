@@ -211,6 +211,7 @@ items:
   - SuperOffice.CRM.Lists.RatingSmileysProvider
   - SuperOffice.CRM.Lists.RatingStarsProvider
   - SuperOffice.CRM.Lists.RatingThumbsProvider
+  - SuperOffice.CRM.Lists.RecipientFavoriteListProvider
   - SuperOffice.CRM.Lists.RecurrenceEveryMonthProvider
   - SuperOffice.CRM.Lists.RecurrenceWeekCycleProvider
   - SuperOffice.CRM.Lists.RelatedDataFieldsProvider
@@ -924,6 +925,12 @@ references:
   name: PersonFavouriteListProvider
   nameWithType: PersonFavouriteListProvider
   fullName: SuperOffice.CRM.Lists.PersonFavouriteListProvider
+- uid: SuperOffice.CRM.Lists.RecipientFavoriteListProvider
+  commentId: T:SuperOffice.CRM.Lists.RecipientFavoriteListProvider
+  isExternal: true
+  name: RecipientFavoriteListProvider
+  nameWithType: RecipientFavoriteListProvider
+  fullName: SuperOffice.CRM.Lists.RecipientFavoriteListProvider
 - uid: SuperOffice.CRM.Lists.PersonContactFavouriteListProvider
   commentId: T:SuperOffice.CRM.Lists.PersonContactFavouriteListProvider
   isExternal: true

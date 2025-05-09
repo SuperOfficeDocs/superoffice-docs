@@ -625,6 +625,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.QuoteVersionExtenderBase
   - SuperOffice.CRM.ArchiveLists.QuoteVersionQuoteAlternativeExtender
   - SuperOffice.CRM.ArchiveLists.QuoteVersionQuoteExtender
+  - SuperOffice.CRM.ArchiveLists.RecipientFavouritesProvider
   - SuperOffice.CRM.ArchiveLists.RecordTypeProvider
   - SuperOffice.CRM.ArchiveLists.RecursionInfo
   - SuperOffice.CRM.ArchiveLists.RecycleContactExtender
@@ -1599,6 +1600,12 @@ references:
   name: PersonFavouritesProvider
   nameWithType: PersonFavouritesProvider
   fullName: SuperOffice.CRM.ArchiveLists.PersonFavouritesProvider
+- uid: SuperOffice.CRM.ArchiveLists.RecipientFavouritesProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.RecipientFavouritesProvider
+  isExternal: true
+  name: RecipientFavouritesProvider
+  nameWithType: RecipientFavouritesProvider
+  fullName: SuperOffice.CRM.ArchiveLists.RecipientFavouritesProvider
 - uid: SuperOffice.CRM.ArchiveLists.ProjectFavouritesProvider
   commentId: T:SuperOffice.CRM.ArchiveLists.ProjectFavouritesProvider
   isExternal: true

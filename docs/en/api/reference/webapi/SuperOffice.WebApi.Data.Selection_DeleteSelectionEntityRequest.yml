@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Selection_DeleteSelectionEntityRequest
+  commentId: T:SuperOffice.WebApi.Data.Selection_DeleteSelectionEntityRequest
+  id: Selection_DeleteSelectionEntityRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Selection_DeleteSelectionEntityRequest.#ctor
+  - SuperOffice.WebApi.Data.Selection_DeleteSelectionEntityRequest.SelectionEntityId
+  langs:
+  - csharp
+  - vb
+  name: Selection_DeleteSelectionEntityRequest
+  nameWithType: Selection_DeleteSelectionEntityRequest
+  fullName: SuperOffice.WebApi.Data.Selection_DeleteSelectionEntityRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Selection_DeleteSelectionEntityRequest : Object'
+    content.vb: >-
+      Public Class Selection_DeleteSelectionEntityRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Selection_DeleteSelectionEntityRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Selection_DeleteSelectionEntityRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Selection_DeleteSelectionEntityRequest
+  langs:
+  - csharp
+  - vb
+  name: Selection_DeleteSelectionEntityRequest()
+  nameWithType: Selection_DeleteSelectionEntityRequest.Selection_DeleteSelectionEntityRequest()
+  fullName: SuperOffice.WebApi.Data.Selection_DeleteSelectionEntityRequest.Selection_DeleteSelectionEntityRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Selection_DeleteSelectionEntityRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Selection_DeleteSelectionEntityRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_DeleteSelectionEntityRequest.SelectionEntityId
+  commentId: P:SuperOffice.WebApi.Data.Selection_DeleteSelectionEntityRequest.SelectionEntityId
+  id: SelectionEntityId
+  parent: SuperOffice.WebApi.Data.Selection_DeleteSelectionEntityRequest
+  langs:
+  - csharp
+  - vb
+  name: SelectionEntityId
+  nameWithType: Selection_DeleteSelectionEntityRequest.SelectionEntityId
+  fullName: SuperOffice.WebApi.Data.Selection_DeleteSelectionEntityRequest.SelectionEntityId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SelectionEntityId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SelectionEntityId As Integer
+  overload: SuperOffice.WebApi.Data.Selection_DeleteSelectionEntityRequest.SelectionEntityId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Selection_DeleteSelectionEntityRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_DeleteSelectionEntityRequest.#ctor
+  isExternal: true
+  name: Selection_DeleteSelectionEntityRequest
+  nameWithType: Selection_DeleteSelectionEntityRequest.Selection_DeleteSelectionEntityRequest
+  fullName: SuperOffice.WebApi.Data.Selection_DeleteSelectionEntityRequest.Selection_DeleteSelectionEntityRequest
+- uid: SuperOffice.WebApi.Data.Selection_DeleteSelectionEntityRequest.SelectionEntityId*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_DeleteSelectionEntityRequest.SelectionEntityId
+  isExternal: true
+  name: SelectionEntityId
+  nameWithType: Selection_DeleteSelectionEntityRequest.SelectionEntityId
+  fullName: SuperOffice.WebApi.Data.Selection_DeleteSelectionEntityRequest.SelectionEntityId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

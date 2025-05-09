@@ -204,37 +204,6 @@ items:
       description: New or updated SelectionEntity
     content.vb: Function SaveSelectionEntityAsync(selectionEntity As SelectionEntity, requestOptions As RequestOptions = Nothing) As Task(Of SelectionEntity)
   overload: SuperOffice.WebApi.Agents.ISelectionAgent.SaveSelectionEntityAsync*
-- uid: SuperOffice.WebApi.Agents.ISelectionAgent.DeleteSelectionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.DeleteSelectionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  id: DeleteSelectionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  parent: SuperOffice.WebApi.Agents.ISelectionAgent
-  langs:
-  - csharp
-  - vb
-  name: DeleteSelectionEntityAsync(Int32, RequestOptions)
-  nameWithType: ISelectionAgent.DeleteSelectionEntityAsync(Int32, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.DeleteSelectionEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
-  type: Method
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Agents
-  summary: "\nDeletes the SelectionEntity\n"
-  syntax:
-    content: Task DeleteSelectionEntityAsync(int selectionEntityId, RequestOptions requestOptions = null)
-    parameters:
-    - id: selectionEntityId
-      type: System.Int32
-      description: The identity of the SelectionEntity
-    - id: requestOptions
-      type: SuperOffice.WebApi.RequestOptions
-      description: 'Override language/culture codes on this request. '
-    return:
-      type: System.Threading.Tasks.Task
-    content.vb: Function DeleteSelectionEntityAsync(selectionEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task
-  overload: SuperOffice.WebApi.Agents.ISelectionAgent.DeleteSelectionEntityAsync*
 - uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetSelectionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -1889,6 +1858,38 @@ items:
   nameWithType.vb: ISelectionAgent.SetDynamicSelectionCriteriaGroupsAsync(Int32, ArchiveRestrictionGroup(), RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.ISelectionAgent.SetDynamicSelectionCriteriaGroupsAsync(System.Int32, SuperOffice.WebApi.Data.ArchiveRestrictionGroup(), SuperOffice.WebApi.RequestOptions)
   name.vb: SetDynamicSelectionCriteriaGroupsAsync(Int32, ArchiveRestrictionGroup(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.DeleteSelectionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.DeleteSelectionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteSelectionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteSelectionEntityAsync(Int32, RequestOptions)
+  nameWithType: ISelectionAgent.DeleteSelectionEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.DeleteSelectionEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDeletes the SelectionEntity\n"
+  syntax:
+    content: Task DeleteSelectionEntityAsync(int selectionEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: selectionEntityId
+      type: System.Int32
+      description: The identity of the SelectionEntity
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function DeleteSelectionEntityAsync(selectionEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ISelectionAgent.DeleteSelectionEntityAsync*
 - uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionForFindAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionForFindAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetSelectionForFindAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -2215,12 +2216,12 @@ references:
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: SuperOffice.WebApi.Agents.ISelectionAgent.DeleteSelectionEntityAsync*
-  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.DeleteSelectionEntityAsync
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionEntityAsync
   isExternal: true
-  name: DeleteSelectionEntityAsync
-  nameWithType: ISelectionAgent.DeleteSelectionEntityAsync
-  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.DeleteSelectionEntityAsync
+  name: GetSelectionEntityAsync
+  nameWithType: ISelectionAgent.GetSelectionEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionEntityAsync
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -2228,23 +2229,12 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Threading.Tasks.Task
-  isExternal: true
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
 - uid: System
   commentId: N:System
   isExternal: true
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionEntityAsync*
-  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionEntityAsync
-  isExternal: true
-  name: GetSelectionEntityAsync
-  nameWithType: ISelectionAgent.GetSelectionEntityAsync
-  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionEntityAsync
 - uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateSelectionEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.CreateSelectionEntityAsync
   isExternal: true
@@ -2322,6 +2312,11 @@ references:
   name: CopyContactSelectionMembersAsync
   nameWithType: ISelectionAgent.CopyContactSelectionMembersAsync
   fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CopyContactSelectionMembersAsync
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetRecipientStatisticsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.GetRecipientStatisticsAsync
   isExternal: true
@@ -3129,6 +3124,12 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.DeleteSelectionEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.DeleteSelectionEntityAsync
+  isExternal: true
+  name: DeleteSelectionEntityAsync
+  nameWithType: ISelectionAgent.DeleteSelectionEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.DeleteSelectionEntityAsync
 - uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionForFindAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ISelectionAgent.GetSelectionForFindAsync
   isExternal: true
