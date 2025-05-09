@@ -1,113 +1,114 @@
 ---
 uid: mobile-crm-sale
 title: Sale
-description: Learn about working with sales in SuperOffice Mobile CRM.
+description: Learn how to create, view, and update sales in SuperOffice Mobile CRM.
+keywords: opportunity, manage sales, sale, upcoming, closed, overdue
 author: Bergfrid Dias
-date: 07.26.2023
-keywords: mobile, sale
-topic: reference
-version: 10
-language: en
+date: 05.31.2025
+version: 11
+topic: concept
 client: mobile
+language: en
 ---
 
-# Sale <i class="ph ph-currency-circle-dollar" aria-label="Sale icon"></i>
+# Sale <i class="ph ph-currency-circle-dollar" aria-hidden="true"></i>
 
-From Sale, you can update forecasts for future sales, conclude sales, and create new ones. Also, track the status of all sales that you and your colleagues are responsible for.
+In SuperOffice Mobile CRM, you can easily create, view, and update sales records while on the go. Sales are linked to contacts or companies and allow you to track opportunities, progress, and revenue.
 
 ![Mobile CRM: Sale -app-screen][img1]
 
+## Sale statuses
+
+| Symbol | Status | Description |
+|:-:|---|---|
+| <i class="ph ph-currency-circle-dollar" aria-label="Sale icon"></i> | **Open** | The sale is active. In the **Stage** field, you can see how far through the sales process you are and which stage the sale has reached (for example, first meeting, prospect, quotation). |
+| <i class="ph ph-check" aria-label="Check icon"></i> | **Sold** | The sale is completed successfully. |
+| <i class="ph ph-x" aria-label="X icon"></i> | **Lost** | The sale did not close successfully. |
+| <i class="ph ph-triangle" aria-label="Red triangle icon"></i> | **Stalled** | Progress has stopped, and the sale is on hold. |
+
 ## Tabs in the main Sale screen
 
-| Icon | Tab | Description |
-|:-:|---|---|
-| <i class="ph ph-magnifying-glass" aria-label="Search icon"></i> | Search | Search field and history list. |
-| <i class="ph ph-star" aria-label="Star icon"></i> | Favorites | Sales marked as a favorite (yellow star). |
-| | Upcoming | A list of sales with the date of today or ahead. Select a sale to view details about it. |
-| <i class="ph ph-check" aria-label="Check icon"></i> | Closed | Sold or lost sales. |
-| | Overdue | A sale is overdue if it has a sale date earlier than today, but its status is neither *sold* nor *lost*. |
+| Tab | Description |
+|---|---|
+| Search | Search field and history list. |
+| Favorites | Sales marked as a favorite (yellow star). |
+| Upcoming | A list of sales with the date of today or ahead. Select a sale to view details about it. |
+| Closed | Sold or lost sales. |
+| Overdue | A sale is overdue if it has a sale date earlier than today, but its status is neither *sold* nor *lost*. |
 
-## Sales information
+## Viewing sales and pipelines
 
-**Header:**
+You can view your own sales or explore sales belonging to other users or user groups.
 
-* 1 of 4 major statuses (open, lost, stalled, sold)
-* Currency amount, sale date
-* Company (if set; otherwise, contact)
-* Sale title
-
-Icons in the action bar: New appointment, Call, Send email, Go to website, Update status (Move to next stage/set as sold/set as lost/ edit sale)
-
-**Tabs:**
-
-| Icon | Tab | Description |
-|:-:|---|---|
-| <i class="ph ph-list-bullets" aria-label="List icon"></i> | Details | Description and info. Edit to update info or mark as lost/sold/open/stalled. |
-| <i class="ph ph-calendar-blank" aria-label="Follow-up icon"></i> | | Appointments, tasks, and phone calls linked to the sale. |
-| <i class="ph ph-file" aria-label="Document"></i> | Documents | Documents and emails linked to the sale. |
-| <i class="ph ph-ticket" aria-label="Request icon"></i> | Requests | Requests linked to the sale. |
-| <i class="ph ph-users-three" aria-label="Group icon"></i> | Stakeholders | A list of contacts involved in the sale. |
-| <i class="ph ph-barcode" aria-label="Barcode icon"></i> | Quote/products | |
-
-## Sale stages
-
-| Symbol | Description |
-|:-:|---|
-| <i class="ph ph-currency-circle-dollar" aria-label="Sale icon"></i> | Open. In the Stage field, you will also see how far through the sales process you are and which stage the sale has reached (for example, first meeting, prospect, quotation). |
-| <i class="ph ph-check" aria-label="Check icon"></i> | Sold |
-| <i class="ph ph-x" aria-label="X icon"></i> | Lost |
-| <i class="ph ph-triangle" aria-label="Red triangle icon"></i> | Stalled |
-
-The number in the red circle next to the sale icon in the navigator shows how many overdue sales you have. If there is a plus sign (+) in the red circle, this means that you have 10 or more overdue sales.
-
-## View your own sales
-
-1. Go to **Sale** <i class="ph ph-currency-circle-dollar" aria-hidden="true"></i>.
-2. Check that your name appears at the top.
-
-    If another person's name is shown in red, this means that you are looking at another person's sales. Select the person's name and switch to your own pipeline.
-
-3. Select the **Upcoming**, **Closed**, or **Overdue** tab.
-
-4. Optionally, filter the time period from the **Task** menu.
-
-5. Select a sale to examine it.
-
-[!include[Configure visible fields](../includes/tip-visible-fields.md)]
-
-## View sales belonging to a colleague or a user group
-
-Keeping an eye on the team or internal competition? You can track sales by user group, for example, all sales belonging to users in the Salespersons user group.
-
-> [!NOTE]
-> When viewing other users' sales, only information that you have the rights to see is shown. Their name is shown in red above the a list.
+### View your own sales
 
 1. Go to **Sale**.
+1. Select the **Upcoming**, **Closed**, or **Overdue** tab.
+1. Ensure your name is displayed at the top.
+    * If another person's name is shown, tap it to switch back to your own pipeline.
+1. Optionally, filter the time period from the **Task menu** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>).
+1. Select a sale to examine its details.
 
-2. Select the name just below the row of tabs.
+### View sales belonging to a colleague or a user group
 
-3. Select who's sales you want to view:
+To monitor team progress or internal competition, you can view sales by colleague or user group.
 
-    * Select the **Group** tab, and select the user group you want in the list.
-    * Or, select the **Associate** tab and choose a person from the history list or search for a name.
+> [!NOTE]
+> When viewing other users' sales, only information you have the rights to see is displayed. The user's name is shown above the list.
 
-    > [!TIP]
-    > To get a list of all groups or associates, tap **Search** leaving the search box empty.
+1. Go to **Sale** and select the **Upcoming**, **Closed**, or **Overdue** tab.
 
-4. Explore their sales as described above.
+1. Tap the text just below the row of tabs.
+
+1. Choose between:
+    * **Group tab:** Select a user group from the list.
+    * **Associate tab:** Choose a person from the history list or search for a name.
+
+    To see a complete list of groups or associates, tap **Search** with the search box left empty.
+
+1. Explore their sales as described above.
+
+## Sale header
+
+* **Status:** Indicates the sale's current state (Open, Sold, Lost, or Stalled) with a status icon.
+* **Title:** Name of the sale
+* **Currency amount:** Expected value
+* Company (if set; otherwise, contact)
+* **Edit** button (<i class="ph ph-pencil-simple" aria-label="Pencil icon"></i>)
+* Action bar: Call, Email, Mark (Move to next/previous stage, Set as sold, Set as lost, Mark as stalled)
+
+## Sections
+
+| Icon | Tab | Description |
+|:-:|---|---|
+| | Progress bar and contact | Displays the current step in the sales process and who the customer is. |
+| <i class="ph ph-list-bullets" aria-label="List"></i> | Details | Shows basic information like type, owner, and next activity. |
+| | Description | An optional summary of the sale. |
+| | Info | Free text area to add notes about the sale. |
+| | Links | Connect relevant activities, documents, or opportunities to the sale. |
+| <i class="ph ph-calendar-blank" aria-label="Calendar"></i> | Activities | Meetings, todos, and phone calls linked to the sale. |
+| <i class="ph ph-files" aria-label="Stack of files"></i> | Documents | All related documents and emails. |
+| <i class="ph ph-ticket" aria-label="Ticket"></i> | Requests | Requests linked to the sale. **Not yet available** |
+| <i class="ph ph-users-three" aria-label="Group icon"></i> | Stakeholders | A list of contacts involved in the sale. |
+
+### Tips
+
+* Tap a linked item (such as person, activity, document) to open it.
+* Each section shows only a few items. Tap <i class="ph ph-caret-right" aria-label="Chevron"></i> to expand and view the full list.
+* Expand the **Details** section and tap the cogwheel (<i class="ph ph-gear" aria-hidden="true"></i>) to configure visible fields.
 
 ## Related content
 
-* [Create sale][1]
-* [Update sale][2]
-* [Quote approval flow][3]
+* [Create a sale][1]
+* [Update a sale][2]
 * [About sales guides][4]
+* [Quote approval flow][3]
 
 <!-- Referenced links -->
 [1]: create.md
 [2]: update.md
 [3]: approve-quote.md
-[4]: ../../../sale/learn/sales-guide/index.md
+[4]: ../../../sale/learn/sales-guides.md
 
 <!-- Referenced images -->
-[img1]: media/sale.png
+[img1]: ../../../../media/loc/en/mobile/store-sale.png
