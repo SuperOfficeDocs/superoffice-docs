@@ -4,8 +4,8 @@ title: Overvåg din pipeline, og forudsig salg
 description: Sådan overvåger du din salgspipeline og forudsiger dit salg ved hjælp af dashboards og udvalg.
 keywords: salg
 author: Bergfrid Dias
-date: 12.10.2024
-version: 10
+date: 05.12.2025
+version: 10.4
 topic: howto
 language: da
 ---
@@ -38,9 +38,9 @@ Ruden **Mit aktivitetstempo** gør det muligt for dig at se dine aktiviteter sor
 
 ![Eksempel på ruden Mit aktivitetstempo -screenshot][img4]
 
-Ruden **Salg indtil nu i år sammenlignet med sidste år for min gruppe** er en fantastisk måde at holde øje med, om dit teams salg vokser.
+Ruden **Salg indtil nu i år for min gruppe** er en fantastisk måde at holde øje med, om dit teams salg vokser.
 
-![Eksempel på Salg indtil nu i år sammenlignet med sidste år for min gruppe -screenshot][img5]
+![Eksempel på Salg indtil nu i år for min gruppe -screenshot][img5]
 
 ## Brug udvalg til at forudsige salg
 

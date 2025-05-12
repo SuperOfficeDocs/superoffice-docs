@@ -4,8 +4,8 @@ title: Pipeline überwachen und Umsatz prognostizieren
 description: Wie man seine Vertriebspipeline überwacht und Verkäufe mit Hilfe von Dashboards und Selektionen prognostiziert.
 keywords: Verkauf
 author: Bergfrid Dias
-date: 12.10.2024
-version: 10
+date: 05.12.2025
+version: 10.4
 topic: howto
 language: de
 ---
@@ -38,9 +38,9 @@ Auf der Kachel **Mein Aktivitätstempo** können Sie Ihre Aktivitäten sortiert 
 
 ![Beispiel für die Kachel Mein Aktivitätentempo -screenshot][img4]
 
-Die Kachel **Verkäufe seit Jahresbeginn verglichen mit letztem Jahr für meine Gruppe** ist eine großartige Möglichkeit, um im Auge zu behalten, ob die Verkäufe Ihrer Teams steigen.
+Die Kachel **Verkäufe seit Jahresbeginn für meine Gruppe** ist eine großartige Möglichkeit, um im Auge zu behalten, ob die Verkäufe Ihrer Teams steigen.
 
-![Beispiel für die Kachel Verkäufe seit Jahresbeginn verglichen mit letztem Jahr für meine Gruppe -screenshot][img5]
+![Beispiel für die Kachel Verkäufe seit Jahresbeginn für meine Gruppe -screenshot][img5]
 
 ## Verwenden Sie Selektionen, um Verkäufe zu prognostizieren
 

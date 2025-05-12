@@ -4,8 +4,8 @@ title: Monitor your pipeline and forecast sales
 description: How to monitor your sales pipeline and forecast your sales with the help of dashboards and selections.
 keywords: sale, forecast, pipeline
 author: Bergfrid Dias
-date: 12.10.2024
-version: 10
+date: 05.12.2025
+version: 10.4
 topic: howto
 language: en
 ---
@@ -38,9 +38,9 @@ The **My activity pace** tile will let you see your activities sorted by type. T
 
 ![Example of My activity pace tile -screenshot][img4]
 
-The **Sales YTD compared to last year for my group tile** is a great way to keep an eye on if your teams' sales are growing.
+The **Sales YTD for my group** tile is a great way to keep an eye on if your team's sales are growing.
 
-![Example of the Sales YTD compared to last year for my group tile -screenshot][img5]
+![Example of the Sales YTD for my group tile -screenshot][img5]
 
 ## Use selections to forecast sales
 
