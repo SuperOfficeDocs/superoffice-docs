@@ -1,10 +1,10 @@
 ---
-title: Localization requirements
 uid: app-localization-requirements
-description: "Localization and language support requirements for certifying standard applications."
-author: Margrethe Romnes
-date: 02.02.2022
+title: Localization requirements
+description: Localization and language support requirements for certifying standard applications.
 keywords: certification, apps
+author: Margrethe Romnes
+date: 05.12.2025
 topic: reference
 envir: cloud
 client: online
@@ -35,4 +35,4 @@ The application should support the **SuperOffice core languages** in [group A][1
 We recommend using a professional agency for translation. SuperOffice AS can offer partners access to the agency we use.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/product-releases/product-info/language-support/
+[1]: https://community.superoffice.com/en/product-releases/language-support/
