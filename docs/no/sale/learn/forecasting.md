@@ -4,8 +4,8 @@ title: Overvåk pipelinen, og forutsi salg
 description: Slik kan du overvåke salgspipelinen din og forutsi salget ditt ved hjelp av dashbord og utvalg.
 keywords: salg
 author: Bergfrid Dias
-date: 12.10.2024
-version: 10
+date: 05.12.2025
+version: 10.4
 topic: howto
 language: no
 ---
@@ -38,9 +38,9 @@ Figuren **Mitt aktivitetstempo** lar deg se aktivitetene dine sortert etter type
 
 ![Eksempel på Mitt aktivitetstempo-figur -screenshot][img4]
 
-Figuren **Salg hittil i år sammenlignet med forrige år for min gruppe** er en fin måte å holde øye med om teamets salg vokser.
+Figuren **Salg hittil i år for min gruppe** er en fin måte å holde øye med om teamets salg vokser.
 
-![Eksempel på figuren Salg hittil i år sammenlignet med forrige år for min gruppe -screenshot][img5]
+![Eksempel på figuren Salg hittil i år for min gruppe -screenshot][img5]
 
 ## Bruke utvalg til å forutsi salg
 

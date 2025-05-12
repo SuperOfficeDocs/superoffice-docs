@@ -4,8 +4,8 @@ title: Bewaak uw pijplijn en maak een prognose van de verkopen
 description: Hoe u uw verkooppijplijn kunt bewaken en uw verkopen kunt voorspellen met behulp van dashboards en selecties.
 keywords: verkoop
 author: Bergfrid Dias
-date: 12.10.2024
-version: 10
+date: 05.12.2025
+version: 10.4
 topic: howto
 language: nl
 ---
@@ -38,9 +38,9 @@ Met de tegel **Mijn activiteitentempo** kunt u uw activiteiten gesorteerd op typ
 
 ![Voorbeeld van de tegel Mijn activiteitentempo -screenshot][img4]
 
-De **tegel Verkoop dit jaar tot nu toe voor mijn groep vergeleken met vorig jaar** is een geweldige manier om te in de gaten te houden of de omzet van uw teams groeit.
+De tegel **Verkoop dit jaar tot nu toe voor mijn groep** is een geweldige manier om te in de gaten te houden of de omzet van uw teams groeit.
 
-![Voorbeeld van de tegel Verkoop dit jaar tot nu toe voor mijn groep vergeleken met vorig jaar -screenshot][img5]
+![Voorbeeld van de tegel Verkoop dit jaar tot nu toe voor mijn groep -screenshot][img5]
 
 ## Selecties gebruiken om de verkoop te voorspellen
 

@@ -4,8 +4,8 @@ title: Övervaka din pipeline och skapa prognoser för försäljningen
 description: Hur du övervakar din försäljningspipeline och skapar prognoser för din försäljning med hjälp av dashboards och urval.
 keywords: försäljning
 author: Bergfrid Dias
-date: 12.10.2024
-version: 10
+date: 05.12.2025
+version: 10.4
 topic: howto
 language: sv
 ---
@@ -38,9 +38,9 @@ Med figuren **Mitt aktivitetstempo** kan du se dina aktiviteter ordnade efter ty
 
 ![Exempel på figuren Mitt aktivitetstempo -screenshot][img4]
 
-Figuren **Försäljningar hittills i år jämfört med förra året för min grupp** är ett utmärkt sätt att hålla koll på om ditt teams försäljning växer.
+Figuren **Försäljningar hittills i år för min grupp** är ett utmärkt sätt att hålla koll på om ditt teams försäljning växer.
 
-![Exempel på figuren Försäljningar hittills i år jämfört med förra året för min grupp -screenshot][img5]
+![Exempel på figuren Försäljningar hittills i år för min grupp -screenshot][img5]
 
 ## Använd urval för att prognostisera försäljningen
 
