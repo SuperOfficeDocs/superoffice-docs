@@ -3,8 +3,9 @@ uid: help-nl-email-inbox-setup
 title: SuperOffice Postvak IN instellen
 description: SuperOffice Postvak IN is een alternatieve manier om uw e-mail te verbinden met uw SuperOffice CRM voor e-mailclients die niet via WebTools kunnen worden verbonden. Leer hoe u het instelt en voor de eerste keer inlogt.
 keywords: e-mail, postvak IN
-author: SuperOffice RnD
-date: 02.14.2023
+author: SuperOffice Product and Engineering
+date: 05.12.2025
+version: 10.4
 topic: howto
 language: nl
 ---
@@ -25,14 +26,7 @@ SuperOffice Postvak IN is een alternatieve manier om uw e-mail te verbinden met 
 
 Als u toegang wilt tot e-mail, moet u eerst details over uw e-mailaccount opgeven.
 
-Bekijk deze video om te zien hoe snel en eenvoudig u uw SuperOffice Postvak IN kunt instellen of volg de onderstaande stappen:
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/QoAanZgQs5A]
-
-(videolengte -1:34)
-
-### Stappen
+<!-- Prev YT video tag QoAanZgQs5A -->
 
 1. Klik op het pictogram Postvak IN in het navigatiemenu. Het scherm **E-mailaccount instellen** wordt weergegeven als u Postvak IN voor de eerste keer opent.
 

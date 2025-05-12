@@ -3,8 +3,9 @@ uid: help-da-email-inbox-setup
 title: Opsætning af SuperOffice Indbakke
 description: SuperOffice-indbakken er en alternativ måde at forbinde din e-mail til din SuperOffice CRM til e-mailklienter, der ikke kan forbindes via WebTools. Lær, hvordan du konfigurerer det og logger ind første gang.
 keywords: e-mail, indbakke
-author: SuperOffice RnD
-date: 02.14.2023
+author: SuperOffice Product and Engineering
+date: 05.12.2025
+version: 10.4
 topic: howto
 language: da
 ---
@@ -25,14 +26,7 @@ SuperOffice-indbakken er en alternativ måde at forbinde din e-mail til din Supe
 
 For at få adgang til e-mail skal du først angive detaljer om din e-mail-konto.
 
-Se denne video for at se, hvor hurtigt og nemt du kan konfigurere din SuperOffice-indbakke, eller følg nedenstående trin:
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/QoAanZgQs5A]
-
-(videoens længde: 1:34)
-
-### Trin
+<!-- Prev YT video tag QoAanZgQs5A -->
 
 1. Klik på ikonet Indbakke i navigatormenuen. Skærmbilledet **Konfigurer e-mail-konto** vises, første gang du åbner indbakken.
 

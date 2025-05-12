@@ -1,10 +1,11 @@
 ---
 uid: help-de-email-inbox-setup
 title: SuperOffice Posteingang einrichten
-description: "Der SuperOffice Posteingang ist eine alternative Möglichkeit, Ihre E-Mails mit Ihrem SuperOffice CRM für E-Mail-Clients zu verbinden, die nicht über WebTools verbunden werden können. Lernen Sie, wie Sie ihn einrichten und zum ersten Mal einloggen."
-author: SuperOffice RnD
-date: 02.14.2023
+description: Der SuperOffice Posteingang ist eine alternative Möglichkeit, Ihre E-Mails mit Ihrem SuperOffice CRM für E-Mail-Clients zu verbinden, die nicht über WebTools verbunden werden können. Lernen Sie, wie Sie ihn einrichten und zum ersten Mal einloggen.
 keywords: E-Mail, E-Mail
+author: SuperOffice Product and Engineering
+date: 05.12.2025
+version: 10.4
 topic: howto
 language: de
 ---
@@ -25,12 +26,7 @@ Der SuperOffice Posteingang ist eine alternative Möglichkeit, Ihre E-Mails mit 
 
 Um auf E-Mails zugreifen zu können, müssen Sie zunächst Details über Ihr E-Mail-Konto angeben.
 
-Sehen Sie sich dieses Video an, um zu sehen, wie schnell und einfach Sie Ihren SuperOffice-Posteingang einrichten können, oder führen Sie die folgenden Schritte aus (Videolänge -1:34):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/QoAanZgQs5A]
-
-### Schritte
+<!-- Prev YT video tag QoAanZgQs5A -->
 
 1. Klicken Sie auf das Symbol Posteingang im Navigator-Menü. Wenn Sie die E-Mail-Funktion zum ersten Mal aufrufen, wird die Ansicht **E-Mail-Konto einrichten** angezeigt.
 
