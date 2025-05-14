@@ -18,6 +18,29 @@ These events are fired when appointment/document rows are changed:
 * `activity.changed`
 * `activity.deleted`
 
+## Included FieldValues for activity events
+
+The following fields are included in the `FieldValues` property of the webhook payload for activity events:
+
+* `activeDate` - date of the activity
+* `associate_id` - ID of the associate who created the activity
+* `contact_id` - ID of the contact
+* `do_by` - date when the activity should be done
+* `document_id` - ID of the document
+* `endDate` - date when the activity ends
+* `modified_appointment_fields` - modified appointment fields
+* `mother_id` - ID of the mother activity
+* `person_id` - ID of the person
+* `private` - private activity
+* `project_id` - ID of the project
+* `sale_id` - ID of the sale
+* `status` - status of the activity
+* `task_idx` - task index
+* `type` - type of the activity
+* `updated` - date of the last update
+* `userdef2_id` - user-defined field 2
+* `userdef_id` - user-defined field 1
+
 ## Activity.created
 
 ```json
@@ -84,7 +107,27 @@ X-Superoffice-Signature: X1FmmRIXuzH8o0MDanva1lnuNZXoix6M0US1S64s+e8=
   "Entity": "activity",
   "ContextIdentifier": "Default",
   "ChangedByAssociateId": 37201,
-  "WebhookName": "Name you provided"
+  "WebhookName": "Name you provided",
+  "FieldValues": {
+    "activeDate": "2025-05-14T16:04:09.1213772+02:00",
+    "associate_id": 5,
+    "contact_id": 1,
+    "do_by": "2025-05-14T16:04:09.1213772+02:00",
+    "document_id": 168,
+    "endDate": "0001-01-01T00:00:00",
+    "modified_appointment_fields": 0,
+    "mother_id": 0,
+    "person_id": 4,
+    "private": 0,
+    "project_id": 0,
+    "sale_id": 8,
+    "status": 3,
+    "task_idx": 54,
+    "type": 4,
+    "updated": "0001-01-01T00:00:00",
+    "userdef2_id": 0,
+    "userdef_id": 0
+  }
 }
 ```
 
