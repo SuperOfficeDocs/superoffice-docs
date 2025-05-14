@@ -41,6 +41,11 @@ items:
 - name: API
   href: api/index.md
   items:
+  - name: 10.5.5 update
+    href: api/10.5.5.md
+    items:
+    - name: Database changes 10.5.5
+      href: ../database/changes-10.5.5.md
   - name: 10.5.4 update
     href: api/10.5.4.md
     items:
