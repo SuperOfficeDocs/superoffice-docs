@@ -18,10 +18,11 @@ Now that webhooks have been created and saved in SuperOffice, notifications can 
 |---|---|
 | EventId | A GUID that uniquely identifies this event. |
 | Timestamp | The datetime when the event occurred. |
-| Changes | An array of fields that are connected to the change. |
 | Event | The name of the event. |
-| PrimaryKey | The entity identity that was affected |
 | Entity | The type of entity that was affected, activity, associate, contact, person |
+| PrimaryKey | The entity identity that was affected |
+| Changes | An array of fields that are connected to the change. |
+| FieldValues| List of key-value pairs that contain non-sensitive data from the data record |
 | ContextIdentifier | Customer ID for Online users: "Cust1234". Not used for On-site installations. |
 | ChangedByAssociateId | Associate ID of the user that triggered the event. |
 | WebhookName | The given name of the webhook. |
@@ -31,14 +32,29 @@ A webhook payload for the event `contact.changed` is send as the following JSON 
 ```json
 UserAgent: NetServer-Webhook/8.2.123.456X-SuperOffice-Signature: abcXyz123==X-SuperOffice-Event: contact.changedX-SuperOffice-EventId: 88f91933-edce-4c1a-8ded-ade8e2f72434{
     "EventId":"88f91933-edce-4c1a-8ded-ade8e2f72434",
-    "Timestamp":"2018-04-05T08:28:01.5732501Z",
+    "Timestamp":"2025-05-14T10:48:07.8912039Z",
     "Changes":["contact_id","updated_associate_id","soundEx","updated","name"],
     "Event":"contact.changed",
     "PrimaryKey":18,
     "Entity":"contact",
     "ContextIdentifier":"Cust54321",
     "ChangedByAssociateId":5,
-    "WebhookName":"Tonys Contact Handler"
+    "WebhookName":"Tonys Contact Handler",
+    "FieldValues": {
+        "activeInterests": 0,
+        "associate_id": 12,
+        "business_idx": 2,
+        "category_idx": 4,
+        "country_id": 826,
+        "deleted": 0,
+        "DeletedDate": "0001-01-01T00:00:00",
+        "registered": "2020-02-16T17:50:17",
+        "registered_associate_id": 5,
+        "source": 0,
+        "updated": "2025-05-14T10:48:07.8912039+02:00",
+        "userdef2_id": 0,
+        "userdef_id": 22
+    }
 }
 ```
 
