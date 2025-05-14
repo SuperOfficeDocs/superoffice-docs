@@ -16,6 +16,21 @@ These events are fired when Relation rows are changed:
 * `relation.changed`
 * `relation.deleted`
 
+## FieldValues for relation events
+
+The following fields are included in the `FieldValues` property of the webhook payload for relation events:
+
+* `associate_id` - ID of the associate who created the relation
+* `destination_record` - ID of the destination record
+* `destination_table` - ID of the destination table
+* `registered` - date of the relation registration
+* `registered_associate_id` - ID of the associate who registered the relation
+* `reldef_id` - ID of the relation definition
+* `source_record` - ID of the source record
+* `source_table` - ID of the source table
+* `updated` - date of the last update
+* `updated_associate_id` - ID of the associate who last updated the relation
+
 ## Relation.created
 
 ```json
@@ -54,7 +69,19 @@ X-Superoffice-Signature: X1FmmRIXuzH8o0MDanva1lnuNZXoix6M0US1S64s+e8=
   "Entity": "relation",
   "ContextIdentifier": "Cust26759",
   "ChangedByAssociateId": 5,
-  "WebhookName": "Relation Webhook"
+  "WebhookName": "Relation Webhook",
+  "FieldValues": {
+    "associateId": 5,
+    "destination_record": 2,
+    "destination_table": 5,
+    "registered": "2025-05-14T16:07:50.9437543+02:00",
+    "registered_associate_id": 5,
+    "reldef_id": 7,
+    "source_record": 1,
+    "source_table": 5,
+    "updated": "0001-01-01T00:00:00",
+    "updated_associate_id": 0
+  }
 }
 ```
 

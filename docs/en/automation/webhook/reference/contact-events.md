@@ -19,6 +19,24 @@ These webhook events are fired when contact rows are changed:
 * `contact.softdeleted` - when deleted in the user interface.
 * `contact.deleted` - when permanently deleted by the system.
 
+## Included FieldValues for contact events
+
+The following fields are included in the `FieldValues` property of the webhook payload for contact events:
+
+* `activeInterests`
+* `associate_id`
+* `business_idx`
+* `category_idx`
+* `country_id`
+* `deleted`
+* `DeletedDate`
+* `registered`
+* `registered_associate_id`
+* `source`
+* `updated`
+* `userdef2_id`
+* `userdef_id`
+
 ## Contact.Created
 
 ```json
@@ -76,7 +94,22 @@ X-Superoffice-Signature: X1FmmRIXuzH8o0MDanva1lnuNZXoix6M0US1S64s+e8=
   "Entity": "contact",
   "ContextIdentifier": "Cust1234",
   "ChangedByAssociateId": 316,
-  "WebhookName":"Name you provided"
+  "WebhookName":"Name you provided",
+  "FieldValues": {
+    "activeInterests": 0,
+    "associate_id": 12,
+    "business_idx": 2,
+    "category_idx": 4,
+    "country_id": 826,
+    "deleted": 0,
+    "DeletedDate": "0001-01-01T00:00:00",
+    "registered": "2020-02-16T17:50:17",
+    "registered_associate_id": 5,
+    "source": 0,
+    "updated": "2025-05-14T10:48:07.8912039+02:00",
+    "userdef2_id": 0,
+    "userdef_id": 22
+  }
 }
 ```
 

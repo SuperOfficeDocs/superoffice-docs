@@ -18,6 +18,19 @@ These webhook events are fired when `salestakeholder` rows are changed:
 * `salestakeholder.changed`
 * `salestakeholder.deleted`
 
+## FieldValues for sale stakeholder events
+
+The following fields are included in the `FieldValues` property of the webhook payload for sale stakeholder events:
+
+* `contact_id` - ID of the contact
+* `person_id` - ID of the person
+* `registered` - date of the sale stakeholder registration
+* `registered_associate_id` - ID of the associate who registered the sale stakeholder
+* `sale_id` - ID of the sale
+* `stakeholderrole_id` - ID of the stakeholder role
+* `updated` - date of the last update
+* `updated_associate_id` - ID of the associate who last updated the sale stakeholder
+
 ## SaleStakeholder.created
 
 ```json
@@ -50,7 +63,17 @@ X-Superoffice-Signature: X1FmmRIXuzH8o0MDanva1lnuNZXoix6M0US1S64s+e8=
   "Entity": "salestakeholder",
   "ContextIdentifier": "Default",
   "ChangedByAssociateId": 316,
-  "WebhookName":"Name you provided"
+  "WebhookName":"Name you provided",
+  "FieldValues": {
+    "contact_id": 1,
+    "person_id": 4,
+    "registered": "2025-05-14T16:11:02.4593434+02:00",
+    "registered_associate_id": 5,
+    "sale_id": 8,
+    "stakeholderrole_id": 1,
+    "updated": "0001-01-01T00:00:00",
+    "updated_associate_id": 0
+  }
 }
 ```
 

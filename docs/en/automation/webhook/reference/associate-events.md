@@ -18,6 +18,19 @@ These events are fired when associate rows are changed:
 * `associate.changed`
 * `associate.deleted`
 
+## ## FieldValues for associate events
+
+The following fields are included in the `FieldValues` property of the webhook payload for associate events:
+
+* `deleted` - deleted flag
+* `group_idx` - ID of the group
+* `person_id` - ID of the person
+* `registered_associate_id` - date of the associate registration
+* `type` - type of the associate
+* `updated` - date of the last update
+* `updated_associate_id` - ID of the associate who last updated the associate
+* `waiting_for_approval` - waiting for approval flag
+
 ## Associate.created
 
 ```json
@@ -60,7 +73,17 @@ X-Superoffice-Signature: X1FmmRIXuzH8o0MDanva1lnuNZXoix6M0US1S64s+e8=
   "Entity": "associate",
   "ContextIdentifier": "Cust1234",
   "ChangedByAssociateId": 316,
-  "WebhookName": "Name you provided"
+  "WebhookName": "Name you provided",
+  "FieldValues": {
+    "deleted": 0,
+    "group_idx": 4,
+    "person_id": 21,
+    "registered_associate_id": 5,
+    "type": 0,
+    "updated": "2025-05-14T16:19:57.1436004+02:00",
+    "updated_associate_id": 5,
+    "waiting_for_approval": 0
+  }
 }
 ```
 

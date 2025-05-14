@@ -20,6 +20,29 @@ These webhook events are fired when person rows are changed:
 * `person.consented` - when consent is added or changed.
 * `person.unconsented` - when consent is removed or marked as withdrawn.
 
+## FieldValues for person events
+
+The following fields are included in the `FieldValues` property of the webhook payload for person events:
+
+* `activeInterests`
+* `associate_id`
+* `business_idx`
+* `category_idx`
+* `contact_id`
+* `country_id`
+* `DeletedDate`
+* `group_id`
+* `person_id`
+* `position_idx`
+* `registered`
+* `registered_associate_id`
+* `retired`
+* `source`
+* `updated`
+* `updated_associate_id`
+* `userdef2_id`
+* `userdef_id`
+
 ## Person.created
 
 ```json
@@ -94,7 +117,27 @@ X-Superoffice-Signature: X1FmmRIXuzH8o0MDanva1lnuNZXoix6M0US1S64s+e8=
   "Entity": "person",
   "ContextIdentifier": "Cust1234",
   "ChangedByAssociateId": 316,
-  "WebhookName":"Name you provided"
+  "WebhookName":"Name you provided",
+  "FieldValues": {
+    "activeInterests": 0,
+    "associate_id": 5,
+    "business_idx": 6,
+    "category_idx": 0,
+    "contact_id": 7179,
+    "country_id": 756,
+    "DeletedDate": "0001-01-01T00:00:00",
+    "group_id": 5,
+    "person_id": 74361,
+    "position_idx": 0,
+    "registered": "2021-08-13T10:11:47",
+    "registered_associate_id": 9,
+    "retired": 0,
+    "source": 0,
+    "updated": "2025-05-14T14:43:04.3832901+02:00",
+    "updated_associate_id": 5,
+    "userdef2_id": 0,
+    "userdef_id": 0
+  }
 }
 ```
 

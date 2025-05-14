@@ -23,6 +23,37 @@ These webhook events are fired when `sale` rows are changed:
 
 See also [quote events][1]
 
+## FieldValues for sale events
+
+The following fields are included in the `FieldValues` property of the webhook payload for sale events:
+
+* `activeLinks` - active links
+* `appointment_id` - ID of the appointment
+* `associate_id` - ID of the associate who created the sale
+* `comptr_id` - ID of the competitor
+* `contact_id` - ID of the contact
+* `credited_id` - ID of the credited sale
+* `currency_id` - ID of the currency
+* `done` - sale is done
+* `group_idx` - ID of the group
+* `person_id` - ID of the person
+* `probability_idx` - probability index
+* `project_id` - ID of the project
+* `reason_id` - ID of the reason
+* `reasonSold_id` - ID of the reason sold
+* `reasonStalled_id` - ID of the reason stalled
+* `registered` - date of the sale registration
+* `registered_associate_id` - ID of the associate who registered the sale
+* `saleTypeCat_id` - ID of the sale type category
+* `saleType_id` - ID of the sale type
+* `saledate` - date of the sale
+* `source_id` - ID of the source
+* `status` - status of the sale
+* `updated` - date of the last update
+* `updated_associate_id` - ID of the associate who last updated the sale
+* `userdef2_id` - user-defined field 2
+* `userdef_id` - user-defined field 1
+
 ## Sale.Created
 
 ```json
@@ -85,7 +116,35 @@ X-Superoffice-Signature: X1FmmRIXuzH8o0MDanva1lnuNZXoix6M0US1S64s+e8=
   "Entity": "sale",
   "ContextIdentifier": "Default",
   "ChangedByAssociateId": 37201,
-  "WebhookName": "Name you provided"
+  "WebhookName": "Name you provided",
+  "FieldValues": {
+    "activeLinks": 0,
+    "appointment_id": 0,
+    "associate_id": 5,
+    "comptr_id": 0,
+    "contact_id": 5,
+    "credited_id": 0,
+    "currency_id": 36,
+    "done": 1,
+    "group_idx": 2,
+    "person_id": 8,
+    "probability_idx": 1,
+    "project_id": 0,
+    "reason_id": 0,
+    "reasonSold_id": 0,
+    "reasonStalled_id": 0,
+    "registered": "2020-01-20T13:39:40",
+    "registered_associate_id": 5,
+    "saleTypeCat_id": 3,
+    "saleType_id": 3,
+    "saledate": "2020-02-13T00:00:00",
+    "source_id": 4,
+    "status": 1,
+    "updated": "2025-05-14T15:56:39.5450964+02:00",
+    "updated_associate_id": 5,
+    "userdef2_id": 0,
+    "userdef_id": 0
+  }
 }
 ```
 

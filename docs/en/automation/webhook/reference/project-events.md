@@ -18,6 +18,22 @@ These events are fired when project rows are changed:
 * `project.changed`
 * `project.deleted`
 
+## Included FieldValues for project events
+
+The following fields are included in the `FieldValues` property of the webhook payload for project events:
+
+* `activeLinks` - active links  
+* `associate_id` - ID of the associate who created the project
+* `done` - project is done
+* `registered` - end date of the project
+* `registered_associate_id` - ID of the group the project belongs to
+* `status_idx` - status of the project
+* `type_idx` - type of the project
+* `updated` - date of the last update
+* `updated_associate_id` - ID of the associate who last updated the project
+* `userdef2_id` - user-defined field
+* `userdef_id` - user-defined field
+
 ## Project.created
 
 ```json
@@ -63,7 +79,20 @@ X-Superoffice-Signature: X1FmmRIXuzH8o0MDanva1lnuNZXoix6M0US1S64s+e8=
   "Entity": "project",
   "ContextIdentifier": "Default",
   "ChangedByAssociateId": 316,
-  "WebhookName": "Name you provided"
+  "WebhookName": "Name you provided",
+  "FieldValues": {
+    "activeLinks": 0,
+    "associate_id": 5,
+    "done": 0,
+    "registered": "2021-08-13T17:53:18",
+    "registered_associate_id": 9,
+    "status_idx": 2,
+    "type_idx": 2,
+    "updated": "2025-05-14T15:03:04.0652995+02:00",
+    "updated_associate_id": 5,
+    "userdef2_id": 0,
+    "userdef_id": 0
+  }
 }
 ```
 

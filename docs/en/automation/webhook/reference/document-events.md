@@ -18,6 +18,20 @@ These events are fired when appointment/document rows are changed, or when docum
 * `document.deleted`
 * `document.edited` - document content has changed
 
+## FieldValues for document events
+
+The following fields are included in the `FieldValues` property of the webhook payload for document events:
+
+* `application_id`
+* `appointment_id`
+* `document_id`
+* `registered`
+* `registered_associate_id`
+* `updated`
+* `updated_associate_id`
+* `userdef2_id`
+* `userdef_id`
+
 ## Document.created
 
 ```json
@@ -56,7 +70,18 @@ X-SuperOffice-EventId: 1848cc1f-d395-49ba-9b35-04a9269996d4
   "Entity": "document",
   "ContextIdentifier": "Default",
   "ChangedByAssociateId": 18,
-  "WebhookName": "Name you provided"
+  "WebhookName": "Name you provided",
+  "FieldValues": {
+    "application_id": 0,
+    "appointment_id": 301,
+    "document_id": 166,
+    "registered": "2025-02-12T14:35:27",
+    "registered_associate_id": 5,
+    "updated": "2025-05-14T14:53:50.6738629+02:00",
+    "updated_associate_id": 5,
+    "userdef2_id": 0,
+    "userdef_id": 0
+  }
 }
 ```
 

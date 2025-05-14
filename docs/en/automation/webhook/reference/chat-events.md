@@ -18,6 +18,24 @@ These events are fired when chat sessions and messages change:
 * `chatsession.message` - new message added to chat
 * `chatsession.changed` - session has changed state
 
+## ## FieldValues for chat events
+
+The following fields are included in the `FieldValues` property of the webhook payload for chat events:
+
+* `alertLevel` - alert level of the chat session
+* `chatbotIsactive` - whether the chatbot is active or not
+* `consented` - whether the customer has consented to the chat
+* `contactId` - ID of the contact associated with the chat session
+* `customerAlias` - alias of the customer
+* `customerId` - ID of the customer
+* `projectId` - ID of the project associated with the chat session
+* `rating` - rating of the chat session
+* `saleId` - ID of the sale associated with the chat session
+* `status` - status of the chat session 
+* `ticketId` - ID of the ticket associated with the chat session
+* `topicId` - ID of the topic associated with the chat session
+* `userId` - ID of the user associated with the chat session
+
 ## ChatSession.Created
 
 ```json
@@ -38,7 +56,22 @@ X-Superoffice-Signature: X1FmmRIXuzH8o0MDanva1lnuNZXoix6M0US1S64s+e8=
   "Entity": "chatsession",
   "ContextIdentifier": "Default",
   "ChangedByAssociateId": 316,
-  "WebhookName": "Name you provided"
+  "WebhookName": "Name you provided",
+  "FieldValues": {
+    "AlertLevel": 0,
+    "ChatbotIsactive": false,
+    "Consented": false,
+    "ContactId": "21",
+    "CustomerAlias": 5,
+    "CustomerId": "12",
+    "ProjectId": 5,
+    "Rating": 0,
+    "SaleId": 0,
+    "Status": 0,
+    "TicketId": 0,
+    "TopicId": 0,
+    "UserId": 0,
+  }
 }
 ```
 

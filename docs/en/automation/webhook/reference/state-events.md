@@ -24,6 +24,17 @@ When webhook 123 is disabled, signal **webhook123.stopped**
 
 When webhook 123 is disabled by errors, signal **webhook123.errors**
 
+## FieldValues for webhook events
+
+The following fields are included in the `FieldValues` property of the webhook payload for webhook events:
+
+* `events` - number of events sent to the webhook
+* `registered` - date of the webhook registration
+* `registered_associate_id` - ID of the associate who registered the webhook
+* `state` - state of the webhook (0 = Active, 1 = Stopped, 2 = TooManyErrors)
+* `updated` - date of the last update
+* `updated_associate_id` - ID of the associate who last updated the webhook
+
 ## webhook{webhookId}.started
 
 ```json
@@ -41,7 +52,15 @@ X-SuperOffice-EventId: 1848cc1f-d395-49ba-9b35-04a9269996d4
   "PrimaryKey": 66,
   "ContextIdentifier": "Cust12345",
   "ChangedByAssociateId": 0,
-  "WebhookName": "Name you provided"
+  "WebhookName": "Name you provided",
+  "FieldValues": {
+    "events": 1,
+    "registered": "2025-05-14T16:11:02.4593434+02:00",
+    "registered_associate_id": 5,
+    "state": 2,
+    "updated": "0001-01-01T00:00:00",
+    "updated_associate_id": 0
+  }
 }
 ```
 

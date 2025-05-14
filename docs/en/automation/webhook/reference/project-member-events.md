@@ -18,6 +18,20 @@ These webhook events are fired when `projectmember` rows are changed:
 * `projectmember.changed`
 * `projectmember.deleted`
 
+## FieldValues for project member events
+
+The following fields are included in the `FieldValues` property of the webhook payload for project member events:
+
+* `contact_id` - ID of the contact
+* `mtype_idx` - type of the project member
+* `person_id` - ID of the person
+* `project_id` - ID of the project
+* `projectmember_id` - ID of the project member
+* `registered` - date of the project member registration
+* `registered_associate_id` - ID of the associate who registered the project member
+* `updated` - date of the last update
+* `updated_associate_id` - ID of the associate who last updated the project member
+
 ## ProjectMember.created
 
 ```json
@@ -50,7 +64,18 @@ X-Superoffice-Signature: X1FmmRIXuzH8o0MDanva1lnuNZXoix6M0US1S64s+e8=
   "Entity": "projectmember",
   "ContextIdentifier": "Default",
   "ChangedByAssociateId": 316,
-  "WebhookName": "Name you provided"
+  "WebhookName": "Name you provided",
+  "FieldValues": {
+    "contact_id": 0,
+    "mtype_idx": 4,
+    "person_id": 174651,
+    "project_id": 327845,
+    "projectmember_id": 410041,
+    "registered": "2021-08-16T09:28:33",
+    "registered_associate_id": 9,
+    "updated": "2025-05-14T15:09:02.7234871+02:00",
+    "updated_associate_id": 5
+  }
 }
 ```
 
