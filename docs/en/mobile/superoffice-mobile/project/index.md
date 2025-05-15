@@ -2,90 +2,98 @@
 uid: mobile-crm-project
 title: Project
 description: Learn about working with projects in SuperOffice Mobile CRM.
+keywords: project member, project
 author: Bergfrid Dias
-date: 07.26.2023
-keywords: mobile, project
-topic: reference
-version: 10
-language: en
+date: 05.31.2025
+version: 11
+topic: concept
 client: mobile
+language: en
 ---
 
-# Project <i class="ph ph-clipboard-text" aria-hidden="true"></i>
+# Projects <i class="ph ph-clipboard-text" aria-hidden="true"></i>
+
+Use the **Projects** screen in Mobile CRM to manage workflows, track activities, and collaborate with team members—wherever you are.
 
 ![Mobile CRM: Project -app-screen][img1]
 
 ## Tabs in the main Project screen
 
-| Icon | Tab | Description |
-|:-:|---|---|
-| <i class="ph ph-magnifying-glass" aria-label="Search icon"></i> | Search | Search field and history list |
-| <i class="ph ph-star" aria-label="Star icon"></i> | Favorites | A list of projects you have defined as favorites (yellow star). Used to access to projects you work with a lot or want to keep track of.|
-| <i class="ph ph-clipboard-text" aria-label="Project icon"></i> | My open projects | A list of projects not marked as completed. Select a project to view details about it. |
+| Tab | Description |
+|---|---|
+| Search | Search for a project by name or browse your recent history. |
+| Favorites | Projects marked as a favorite (yellow star).|
+| My open projects | Projects you own that are not marked as completed. Tap a project to view details. |
 
-## Project information
+## Viewing projects
 
-**Header:**
+### View your own projects
 
-* Icon. A project image or placeholder
+1. Go to **Projects**.
+
+1. Select the **My open projects** tab.
+
+1. Tap a project to view its details.
+
+    The **Stage** field shows how far the project has progressed.
+
+### View any project (not your own)
+
+When viewing other users' projects, only the data you have permission to see is shown.
+
+1. Go to **Projects**.
+1. Use **Search**, **Favorites**, or your **history list** to find the project.
+
+> [!TIP]
+> To list all projects, tap **Search** with the search field left empty.
+
+## Project header
+
+* Project image or placeholder icon
 * Project name (title)
 * Responsible (owner)
-* Type, status, date
+* Type and date
+* **Edit** button (<i class="ph ph-pencil-simple" aria-label="Pencil icon"></i>)
+* Action bar: Email, Web, Status (Move to next/previous status)
 
-Icons in the action bar: New appointment, Send email, Go to website, Set stage
-
-**Tabs:**
+## Sections
 
 | Icon | Tab | Description |
 |:-:|---|---|
-| <i class="ph ph-list-bullets" aria-label="List icon"></i> | Details | Description and info. Edit to update info or mark as lost/sold/open/stalled |
-| <i class="ph ph-users-three" aria-label="Group icon"></i> | Project members | Persons associated with the project. |
-| <i class="ph ph-calendar-blank" aria-label="Follow-up icon"></i> | | Appointments, tasks, and phone calls linked to the project. |
-| <i class="ph ph-file" aria-label="Document"></i> | Documents | Documents and emails linked to the project. |
-| <i class="ph ph-currency-circle-dollar" aria-label="Sale icon"></i> | Sales | Any sales linked to the project. |
-| <i class="ph ph-ticket" aria-label="Request icon"></i> | Requests | Any requests linked to the project. |
+| | Progress bar | Shows the current phase in the project. |
+| <i class="ph ph-list-bullets" aria-label="List"></i> | Details | Basic project details. Edit to update info or change status. |
+| | Description | Optional summary of the project. |
+| | Info | Free text area to add notes about the project. |
+| <i class="ph ph-users-three" aria-label="Group icon"></i> | Project members | Contacts involved in the project. |
+| <i class="ph ph-calendar-blank" aria-label="Calendar"></i> | Activities | Meetings, todos, and phone calls linked to the project. |
+| <i class="ph ph-files" aria-label="Stack of files"></i> | Documents | Linked files and emails. |
+| <i class="ph ph-currency-circle-dollar" aria-label="Sale icon"></i> | Sales | Sales connected to the project. |
+| <i class="ph ph-ticket" aria-label="Ticket"></i> | Requests | Requests related to the project. |
 
-The number in the red circle next to the Project icon in the navigator shows how many overdue projects you have. A plus sign (+) in the red circle, means *10 or more*.
+### Tips
 
-## View your own projects
-
-1. Go to **Project**.
-
-2. Select the **My open projects** tab.
-
-3. Select a project to examine it.
-
-The **Stage** field shows how far in the process you are and which stage the project has reached. For example, first meeting, prospect, or quotation.
-
-[!include[Configure visible fields](../includes/tip-visible-fields.md)]
-
-## View any project (not your own)
-
-When viewing other users' projects, only information that you have the rights to see is shown.
-
-1. Go to **Project**.
-
-2. Search for a project by its name (or select a project from the history list or from the favorites).
-
-    > [!TIP]
-    > To get a list of all projects, tap **Search** leaving the search box empty.
+* Tap a linked item (such as person, activity, document) to open it.
+* Each section shows only a few items. Tap <i class="ph ph-caret-right" aria-label="Chevron"></i> to expand and view the full list.
+* Expand the **Details** section and tap the cogwheel (<i class="ph ph-gear" aria-hidden="true"></i>) to configure visible fields.
 
 ## Related content
 
 * [Create project][1]
 * [Update project][2]
 * [Delete project][5] (in SuperOffice CRM)
+* [About project guides][3]
+* [About project members][7]
 * [Send SMS and email to project members][6]
 * [Send a document to project members (as mailing)][4]
-* [About project guides][3]
 
 <!-- Referenced links -->
 [1]: create.md
 [2]: update.md
-[3]: ../../../../en/project/learn/project-guide/index.md
-[4]: ../../../../en/project/learn/project-members/create-mailing.md
-[5]: ../../../../en/project/learn/delete.md
+[3]: ../../../project/learn/project-guide/index.md
+[4]: ../../../project/learn/project-members/create-mailing.md
+[7]: ../../../project/learn/project-members/index.md
+[5]: ../../../project/learn/delete.md
 [6]: ../send-email-sms.md#project-screen
 
 <!-- Referenced images -->
-[img1]: media/project.png
+[img1]: ../../../../media/loc/en/mobile/store-project.png

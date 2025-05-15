@@ -2,67 +2,69 @@
 uid: mobile-crm-project-update
 title: Update project
 description: How to update a project in SuperOffice Mobile CRM.
+keywords: edit project, update project, add project member, remove project member, change status, next status, previous status, project phase, project
 author: Bergfrid Dias
-date: 07.26.2023
-keywords: project, mobile, member
+date: 05.31.2025
+version: 11
 topic: howto
-language: en
-version: 10
 client: mobile
+language: en
 ---
 
 # Update project
 
-## Steps
+You can update a project's information, change its status, or manage project members directly in Mobile CRM.
+
+## Steps to update a project
 
 1. Locate and open the project.
-2. Tap the **Edit** icon (<i class="ph ph-pencil-simple" aria-label="Edit icon"></i>) in the footer.
-3. Update the information as necessary.
+2. Tap <i class="ph ph-pencil-simple" aria-label="Edit icon"></i> in the upper-right corner.
+3. Update the necessary fields.
 4. Tap **Save**.
 
 ## Add project member
 
-1. Go to the project.
-1. Select the **Project members** tab (<i class="ph ph-users-three" aria-label="Group icon"></i>).
-1. Tap **Edit project members**.
-1. Find and tap the person.
+1. Open the project.
+1. Expand the **Project members** section (<i class="ph ph-users-three" aria-label="Group icon"></i>).
+1. Tap **+**.
+1. Find and select the person.
+1. Enter their function (project role).
 1. Tap **Save**.
 
 > [!TIP]
-> You can also look up persons in the **Company/contact** screen and add them directly to your project.
+> You can also add members from the **Contacts** and screen or directly from a company card.
 
-## Remove project member
+## Remove project member TBD
 
-On the **Project members** tab, do one of the following:
+In the expanded **Project members** section, do one of the following:
 
-* Swipe left on the member, tap the **Task** button, and select **Remove project member**.
+* Swipe left on the member, tap <i class="ph ph-list" aria-label="Main menu"></i>, and select **Remove project member**.
 * Select **Edit project members**. Then swipe left on the member and tap the red x.
 
-## Assign function to project member
+## Assign function to project member TBD
 
 On the **Project members** tab, do one of the following:
 
-* Swipe left on a member and select **Edit**. Then tap and select a function and save.
+* Swipe left on a member and select **Edit**, then choose a function and tap **Save**.
 * Select **Edit project members**. Then swipe left on the member, tap the **Task** button, and select **Set function**.
 
 ## Change status of a project
 
 1. Open the project.
-2. Tap the status icon on the action bar.
-3. Select **Move to next status** or **Move to previous status**.
-4. Go to the **Details** tab (<i class="ph ph-list-bullets" aria-label="List icon"></i>), tap **Edit**, and update any other fields with new information.
+1. Tap **Status** in the action bar.
+1. Select **Move to next status** or **Move to previous status**.
+1. (Optional) Tap <i class="ph ph-pencil-simple" aria-label="Edit icon"></i> to update additional fields as needed.
+1. Tap **Save**.
 
-## Link to an incoming request
+## Link to an incoming request **Not yet available**
 
-When you are working with a project, consider linking the the project to relevant incoming requests to have it show up in the **Requests** tab on that project.
+When you are working with a project, consider linking the project to relevant incoming requests to have them show up in the **Requests** tab on that project.
 
 1. Go to the main **Requests** page.
 1. Search for the request by name or ID.
-1. Tap **Edit** on the selected request.
-1. Scroll down, then tap **Project** and select the project you want to link.
-1. Save. The next time someone views that project, the item you linked is included on the **Requests** tab.
-
-![Mobile CRM: link project to request -app-screen][img3]
+1. Tap <i class="ph ph-pencil-simple" aria-label="Edit icon"></i> to enter edit mode.
+1. Flick down and tap **Project**, then select the relevant project.
+1. Tap **Save**. The request will then appear in the project's **Requests** section.
 
 ## Related content
 
@@ -72,8 +74,7 @@ When you are working with a project, consider linking the the project to relevan
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: ../../../../en/project/learn/delete.md
+[2]: ../../../project/learn/delete.md
 [3]: ../request/update.md
 
 <!-- Referenced images -->
-[img3]: ../../../../../release-notes/mobile/media/mobile-crm-sale-request-tab.png
