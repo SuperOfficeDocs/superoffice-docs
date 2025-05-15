@@ -2,41 +2,48 @@
 uid: mobile-crm-project-create
 title: Create project
 description: How to create projects in SuperOffice Mobile CRM.
+keywords: create project, add project, new project, project
 author: Bergfrid Dias
-date: 07.26.2023
-keywords: project
+date: 05.31.2025
+version: 11
 topic: howto
-language: en
-version: 10
 client: mobile
+language: en
 ---
 
 # Create project
 
-When you are out visiting, you can register projects directly from Mobile CRM.
+When you're on the go, you can register new projects directly from Mobile CRM.
 
 ## Steps
 
-1. Go to the main **Project** page (<i class="ph ph-clipboard-text" aria-hidden="true"></i>).
-2. Tap **+**.
-3. For **Project name**, enter a descriptive name.
-4. Select responsible (project owner), a project type, and status.
-5. Add other details as necessary.
-6. [Add project members][4].
-7. Tap **Save**. Now you can add appointments and documents.
+1. Go to the main **Projects** page.
+1. Tap **+**.
+1. Fill in the basic details:
+    * **Project name:** Enter a descriptive title.
+    * **Responsible:** Choose the project owner.
+    * **Type:** Select the type of project.
+    * **Status:** Set the current status.
+1. (Optional) Add other project details.
+1. [Add project members][4] if applicable.
+1. Tap **Save** to register the project
+
+After saving, you can:
+
+* Add follow-ups and documents
+* Link sales and requests
+* Track progress using project stages
 
 ## Related content
 
 * [Update project][1]
-* [Create appointment][2]
+* [Create follow-up][2]
 * [Create document][5]
-* [About project members][3]
 
 <!-- Referenced links -->
 [1]: update.md
-[2]: ../diary/create-appointment.md
-[3]: ../../../project/learn/project-members/index.md
 [4]: update.md#add-project-member
+[2]: ../diary/create-appointment.md
 [5]: ../document/create.md
 
 <!-- Referenced images -->
