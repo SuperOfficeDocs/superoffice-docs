@@ -2,7 +2,7 @@
 uid: mobile-crm-contact-update
 title: Update contact or company
 description: How to update a company or contact in SuperOffice Mobile CRM.
-keywords: mobile, company, contact, person
+keywords: company, contact, person
 author: Bergfrid Dias
 date: 05.31.2025
 version: 11
@@ -16,9 +16,9 @@ language: en
 ## Steps
 
 1. Locate and open the company or contact.
-2. Tap the **Edit** icon (<i class="ph ph-pencil-simple" aria-label="true"></i>) in the upper-right corner.
-3. Update the information as necessary.
-4. Tap **Save**.
+1. Tap the **Edit** button (<i class="ph ph-pencil-simple" aria-label="true"></i>) in the upper-right corner.
+1. Update the information as necessary.
+1. Tap **Save**.
 
 ## Remove image
 

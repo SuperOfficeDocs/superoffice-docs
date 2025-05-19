@@ -57,7 +57,7 @@ When changing a sale's status, you can update additional information in the **De
 
 When available, you will be able to link a sale to an **incoming request** for better traceability.
 
-1. Go to the main **Request** page.
+1. Go to the main **Requests** page.
 1. Search for the request by name or ID.
 1. Tap <i class="ph ph-pencil-simple" aria-label="Edit icon"></i> to enter edit mode.
 1. Flick down and tap **Sale**, then select the relevant sale.

@@ -2,7 +2,7 @@
 uid: mobile-crm-show-address-in-map
 title: Show address in map
 description: How to manage notifications in SuperOffice Mobile CRM.
-keywords: mobile, address, location, map
+keywords: address, location, map
 author: Bergfrid Dias
 date: 05.31.2025
 version: 11
