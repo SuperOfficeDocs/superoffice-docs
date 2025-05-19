@@ -1,90 +1,119 @@
 ---
 uid: help-en-email-inbox-setup
 title: Set up SuperOffice Inbox
-description: The SuperOffice Inbox is an alternative way to connect your email to your SuperOffice CRM for email clients that cannot be connected via WebTools. Learn how to set it up and log in for the first time.
-keywords: email, inbox
-author: SuperOffice Product and Engineering
-date: 05.12.2025
-version: 10.4
-topic: howto
+description: Learn how to set up and log in to the SuperOffice Inbox. This feature is an alternative to WebTools for connecting your email account to SuperOffice CRM.
+keywords: SuperOffice Inbox, set up inbox, email setup, IMAP, email connection
+author: Bergfrid Dias
+date: 05.28.2025
+version: 10.5
+topic: concept
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
 # Set up SuperOffice Inbox
 
-The SuperOffice Inbox is an alternative way to connect your email to your SuperOffice CRM for email clients that cannot be connected via WebTools.
+The SuperOffice Inbox is an alternative method for connecting your email account to SuperOffice CRM. It is designed for users who cannot use [WebTools][9]. The inbox supports IMAP accounts only.
+
+> [!NOTE]
+> SuperOffice Inbox supports only **one** email account per user. If WebTools is installed and connected to your email, the Inbox feature is not available.
 
 ## Before you begin
 
-* Make sure IMAP is enabled in your email client. SuperOffice Inbox supports most of the IMAP email servers.
+* Check that **SuperOffice CRM** is selected as your [preferred email client][8] in **Local settings**.
 
-* To be able to send out emails from SuperOffice CRM, make sure that the email address you are going to use with SuperOffice Inbox is same as the first email registered in your Contact card/screen.
+* Ensure that **IMAP is enabled** in your email client.
 
-![You can check which email you have registered in your Contact card -screenshot][img2]
+* Confirm that the **email address** you intend to use matches the primary email address registered on your [contact card][1] in SuperOffice.
 
-## Set up email account
+## Connect your email account
 
-To access email, you must first specify details about your email account.
+1. Click <i class="ph ph-at" aria-hidden="true"></i> **Inbox** in the navigator.
 
-<!-- Prev YT video tag QoAanZgQs5A -->
+    The first time you open the inbox, the **Set up email account** dialog appears.
 
-1. Click on the Inbox icon in the navigator menu. The **Set up email account** screen appears the first time you open your inbox.
+    ![Set up email account dialog showing email field and Next button -screenshot][img1]
 
-1. In the **Email account** field, enter the email address of the account you want to use in SuperOffice.
+1. In the **E-mail account** field, enter the email address you want to use.
 
-    ![x -screenshot][img3]
+1. Click **Next**.
 
-1. To enter information for incoming and outgoing email, click **Advanced settings**. If not, click **Next**. SuperOffice will then try to set up this information for you.
+    * SuperOffice will try to detect your email provider and redirect you to sign in.
+    * If your password is saved with the provider, authentication may complete automatically.
+    * If not, you will be prompted to enter your password directly with the provider (for example, Microsoft or Google).
+    * After successful authentication, you are returned to SuperOffice and the inbox opens.
 
-1. In the **Password** field, enter your password.
+1. If authentication fails or the provider cannot be detected, the **Advanced settings** dialog appears. You can then enter server settings manually.
 
-1. Click **Log in**.
+## Configure advanced settings
 
-    * If SuperOffice recognizes the email provider (such as Gmail), the server settings are set up automatically and the inbox loads.
-    * If it does nnt get the details correct or the email address and password you entered are not correct, the **Advanced settings** dialog opens. Manually enter or check configuration information for incoming and outgoing servers.
+If automatic setup fails, you must enter your email server details manually. All required fields must be filled in to ensure that email can be received and sent using SuperOffice Inbox.
 
-## How to manually add server information
+1. Enter incoming email settings:
 
-### Incoming email settings
+    * **Incoming e-mail server:** Your IMAP server address
+    * **User name:** Usually your full email address
+    * **Password:** Your email account password
+    * **SSL:** Turn on or off depending on your provider's requirements
 
-To get your emails imported into SuperOffice CRM, enter your IMAP server details found in your email client's settings.
+1. Enter outgoing email settings:
 
-* User name: your full email address
-* Password: your email account password
-* SSL: On/Off - depends on your email provider's settings (see settings for Outlook and Gmail)
+    * **Outgoing e-mail server:** Your SMTP server address
+    * **User name**, **Password**, and **SSL**: similar to incoming.
 
-### Outgoing email settings
+1. Click **Save** to connect your account.
 
-To send emails from SuperOffice CRM, enter your SMTP server details.
+![Advanced settings for email account -screenshot][img4]
 
-* User name: your full email address
-* Password: your email account password
-* SSL: depends on your email provider's settings (see settings for Outlook and Gmail)
+## Disconnect or change your email account
 
-![Advanced settings - go to Inbox to manually add correct email server information -screenshot][img4]
+You can disconnect your current email account and optionally update it by reconnecting.
 
-## Change email configuration in SuperOffice Inbox
+1. Click <i class="ph ph-user-circle" aria-label="Personal settings"></i> in the top bar and select **Email options**.
 
-1. If you want to edit or remove your associated email account, click on your profile icon in the upper-right corner and choose **Email options**.
+1. Go to the **E-mail account** tab.
 
-    ![Email options -screenshot][img5]
+    ![Email account tab with Edit/remove button -screenshot][img6]
 
-1. Select **Email account** tab and press the **Edit/remove** button.
+1. Click **Edit/remove** to disconnect the current email account.
 
-    ![Email options -screenshot][img6]
+    * This opens the same setup dialog used when first connecting your email account.
+    * To remove the connection, simply close the dialog.
+    * To reconnect, enter a new email address and follow the setup steps.
 
-## Why is the email list is not updated?
+> [!NOTE]
+> Removing the email account does **not** delete your actual email account (for example, your Gmail or Outlook account). It only disconnects it from SuperOffice.
 
-Some email providers, such as Gmail, will block login attempts from unknown apps. Check your inbox to see if your email provider has sent you information about an unauthorized login attempt. Follow the instructions in the email to allow SuperOffice to access your account.
+## Troubleshooting tips
+
+* The SuperOffice Inbox does not support **POP3** email accounts. Only IMAP is supported.
+
+* If your inbox is not updating, your email provider may be blocking the connection.
+  * Check your email account for a message about a blocked or unauthorized login attempt.
+  * Follow the instructions to allow SuperOffice to access your account.
+
+* **Gmail users:** As of January 2025, IMAP is permanently enabled by default. If you are asked for a password, use an **app password** instead of your regular Gmail password.
 
 > [!TIP]
-> To access the email options, go to <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** > **Email options**.
+> To adjust layout, font, or behavior for messages, go to <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** > **Email options** > **General** tab.
+
+## Related content
+
+* [How to enable IMAP on Office 365 account][11] - FAQ
+* [How to generate a Google app password to use 2-step verification with SuperOffice Inbox][12] - FAQ
+* [Change default email client in SuperOffice][8]
 
 <!-- Referenced links -->
+[1]: ../../../contact/learn/index.md
+[8]: ../../learn/change-default-mail-client.md
+[9]: ../../../webtools/learn/index.md
+[11]: https://learn.microsoft.com/en-au/exchange/troubleshoot/user-and-shared-mailboxes/pop3-imap-owa-activesync-office-365
+[12]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-generate-a-googleapp-password-to-use-2-step-verification-with-superoffice-inbox/
 
 <!-- Referenced images -->
-[img2]: ../../../../media/loc/en/email/getstarted-contact-mycontactcard.png
-[img3]: ../../../../media/loc/en/email/getstarted-inbox-login.png
+[img1]: ../../../../media/loc/en/email/inbox-setup-dialog.png
 [img4]: ../../../../media/loc/en/email/so-inbox-advanced-settings.png
-[img5]: ../../../../media/loc/en/email/email-options-general.png
 [img6]: ../../../../media/loc/en/email/email-options-account.png
+<!-- Prev YT video tag QoAanZgQs5A -->
