@@ -2,7 +2,7 @@
 uid: mobile-crm-company
 title: Companies
 description: Learn about working with companies in SuperOffice Mobile CRM.
-keywords: mobile, company, companies
+keywords: company, companies
 author: Bergfrid Dias
 date: 05.31.2025
 version: 11
@@ -50,10 +50,10 @@ Tap a company to open and examine it.
 | <i class="ph ph-currency-circle-dollar" aria-label="Dollar in circle"></i> | Sales | A list of all sales linked to the company. |
 | <i class="ph ph-push-pin" aria-label="Pin"></i> | Interests | Company interests for selections or campaigns. |
 
-Each section shows only a few items.
+### Tips
 
 * Tap a linked item, such as a person, an activity or a sale, to open and examine it.
-* Tap <i class="ph ph-caret-right" aria-label="Chevron"></i> to expand a section to view the full list.
+* Each section shows only a few items. Tap <i class="ph ph-caret-right" aria-label="Chevron"></i> to expand and view the full list.
 * Expand the **Details** section and tap the cogwheel (<i class="ph ph-gear" aria-hidden="true"></i>) to configure visible fields.
 
 ## Show former employees

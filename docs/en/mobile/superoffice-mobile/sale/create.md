@@ -13,11 +13,11 @@ language: en
 
 # Create sale
 
-When you are out visiting, you can register new sales directly from Mobile CRM. A sale can be created from the main **Sale** page or while viewing a company, contact, or project.
+When you are out visiting, you can register new sales directly from Mobile CRM. A sale can be created from the main **Sales** page or while viewing a company, contact, or project.
 
 ## Steps
 
-1. Go to the main **Sale** page.
+1. Go to the main **Sales** page.
 1. Tap **+** and select **New sale**.
 1. Enter a descriptive title for the sale and select the company or contact it pertains to.
 1. Specify the expected date for closing the sale and the estimated sale amount.

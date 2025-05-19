@@ -11,7 +11,7 @@ client: mobile
 language: en
 ---
 
-# Sale <i class="ph ph-currency-circle-dollar" aria-hidden="true"></i>
+# Sales <i class="ph ph-currency-circle-dollar" aria-hidden="true"></i>
 
 In SuperOffice Mobile CRM, you can easily create, view, and update sales records while on the go. Sales are linked to contacts or companies and allow you to track opportunities, progress, and revenue.
 
@@ -32,7 +32,7 @@ In SuperOffice Mobile CRM, you can easily create, view, and update sales records
 |---|---|
 | Search | Search field and history list. |
 | Favorites | Sales marked as a favorite (yellow star). |
-| Upcoming | A list of sales with the date of today or ahead. Select a sale to view details about it. |
+| Upcoming | A list of sales with the date of today or ahead. Tap a sale to view details about it. |
 | Closed | Sold or lost sales. |
 | Overdue | A sale is overdue if it has a sale date earlier than today, but its status is neither *sold* nor *lost*. |
 
@@ -42,12 +42,12 @@ You can view your own sales or explore sales belonging to other users or user gr
 
 ### View your own sales
 
-1. Go to **Sale**.
+1. Go to **Sales**.
 1. Select the **Upcoming**, **Closed**, or **Overdue** tab.
 1. Ensure your name is displayed at the top.
     * If another person's name is shown, tap it to switch back to your own pipeline.
 1. Optionally, filter the time period from the **Task menu** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>).
-1. Select a sale to examine its details.
+1. Tap a sale to examine its details.
 
 ### View sales belonging to a colleague or a user group
 
@@ -88,7 +88,7 @@ To monitor team progress or internal competition, you can view sales by colleagu
 | | Links | Connect relevant activities, documents, or opportunities to the sale. |
 | <i class="ph ph-calendar-blank" aria-label="Calendar"></i> | Activities | Meetings, todos, and phone calls linked to the sale. |
 | <i class="ph ph-files" aria-label="Stack of files"></i> | Documents | All related documents and emails. |
-| <i class="ph ph-ticket" aria-label="Ticket"></i> | Requests | Requests linked to the sale. **Not yet available** |
+| <i class="ph ph-ticket" aria-label="Ticket"></i> | Requests | Requests linked to the sale. |
 | <i class="ph ph-users-three" aria-label="Group icon"></i> | Stakeholders | A list of contacts involved in the sale. |
 
 ### Tips

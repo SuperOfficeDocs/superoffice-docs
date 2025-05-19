@@ -2,7 +2,7 @@
 uid: mobile-crm-contact
 title: Contact
 description: Learn about working with contacts in SuperOffice Mobile CRM.
-keywords: mobile, contact, person, associate
+keywords: contact, person, associate
 author: Bergfrid Dias
 date: 05.31.2025
 version: 11
@@ -52,10 +52,10 @@ Tap a person to open and examine their info.
 | <i class="ph ph-at" aria-label="Email icon"></i> | E-marketing subscriptions | For legal consent on email campaigns. |
 | <i class="ph ph-ticket" aria-label="Request icon"></i> | Requests | A list of the person's open requests. **Not yet available** |
 
-Each section shows only a few items.
+### Tips
 
 * Tap a linked item, such as an activity, a request, or a sale, to open and examine it.
-* Tap <i class="ph ph-caret-right" aria-label="Chevron"></i> to expand a section to view the full list.
+* Each section shows only a few items. Tap <i class="ph ph-caret-right" aria-label="Chevron"></i> to expand and view the full list.
 * Expand the **Details** section and tap the cogwheel (<i class="ph ph-gear" aria-hidden="true"></i>) to configure visible fields.
 
 ## Related content
