@@ -4,6 +4,9 @@ items:
 - name: Mobile CRM (app)
   href: mobile/toc.yml
   topicHref: mobile/index.md
+- name: "SuperOffice 11"
+  href: 11/toc.yml
+  topicHref: 11/index.md
 - name: "SuperOffice 10.5"
   href: 10.5/toc.yml
   topicHref: 10.5/index.md
