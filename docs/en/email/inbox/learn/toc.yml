@@ -14,10 +14,6 @@ items:
     href: compose.md
   - name: Manage senders
     href: manage-senders.md
-  - name: Move email to folder
-    href: move-email-to-folder.md
-  - name: Mark email as read/unread
-    href: mark-as-read.md
   - name: Accept invitation
     href: invitations.md
   - name: Archive email
@@ -26,5 +22,3 @@ items:
     href: create-task.md
   - name: Create request
     href: create-request.md
-  - name: Print email
-    href: print.md
