@@ -11,7 +11,7 @@ topic: reference
 
 # New and improved Settings and maintenance
 
-* [Screen designer - Set a field as read-only (11.1)][1]
+* [System design - Set a field as read-only (11.1)][1]
 
 <!-- Referenced links-->
 [1]: 11.1-update.md
