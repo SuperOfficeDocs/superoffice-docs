@@ -22,9 +22,8 @@ Check out our **Product release** overview for more details in our [Community][1
 ### SuperOffice CRM
 
 * 11.1 (27.05.2025):
-  * [Screen designer - Set a field as read-only][1] in Settings and maintenance
-  * [Request - Search for all contact details][3] in Service
-  * [Request - Reply message and get all attachment][3] in Service
+  * [System design - Set a field as read-only][1] in Settings and maintenance
+  * [Request - Search will give same result as in navigator search][3] in Service
 
 ### Mobile CRM
 
