@@ -35,7 +35,7 @@ To save a received email to SuperOffice:
 
 1. The [Document dialog][1] opens with the email file (.somail) attached.
 
-   ![Document dialog with .somail file attached -screenshot][img2]
+    ![Document dialog with .somail file attached -screenshot][img2]
 
 1. Make any changes if needed, such as linking the email to a sale, project, or category.
 
