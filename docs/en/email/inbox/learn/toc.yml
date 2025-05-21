@@ -16,7 +16,7 @@ items:
     href: manage-senders.md
   - name: Accept invitation
     href: invitations.md
-  - name: Archive email
+  - name: Archive email and attachments
     href: archive.md
   - name: Create task
     href: create-task.md

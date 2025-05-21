@@ -36,6 +36,18 @@ To display inline images in the preview pane:
 
 ![Email options: General tab -screenshot][img2]
 
+### Open an attachment
+
+Attachments are listed below the email header when a message is selected.
+
+1. Click the <i class="ph ph-caret-down" aria-label="Chevron"></i> next to the attachment name.
+1. Select **Preview** to open the file directly in your browser.
+
+    Browser behavior may vary depending on file type and settings. For example, PDFs might open in a new tab.
+
+> [!TIP]
+> You can also choose **Download** to save the file, or **Archive** to [store it as a document in SuperOffice CRM][2].
+
 ## <a id="mark-as-read"></a>Mark emails as read or unread
 
 Emails are **not marked as read automatically** unless you enable this setting.
@@ -92,7 +104,6 @@ The list of folders comes from your email provider (for example, Outlook or Gmai
 ## Related content
 
 * [Manage senders][1]
-* [Archive or open attachments][2]
 * [Receive invitations][3]
 * [Create task][4]
 * [Create request][5]
