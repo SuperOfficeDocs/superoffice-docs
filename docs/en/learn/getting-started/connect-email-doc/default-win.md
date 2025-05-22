@@ -4,12 +4,12 @@ title: SuperOffice as your solution (Windows)
 description: How to connect your email account, documents, and calendar to SuperOffice on Windows.
 keywords: email, document, diary, invitation, Windows
 author: Kirsti Aakerholt
-date: 08.28.2023
-version: 10
+date: 05.28.2025
+version: 10.5
 topic: howto
-language: en
 audience: person
 audience_tooltip: SuperOffice CRM
+language: en
 ---
 
 # SuperOffice as your solution (Windows)
@@ -29,7 +29,7 @@ Choose one of the following options:
 
 * [WebTools][2] (default).
 
-* [SuperOffice Inbox][1] - if you are unable to use WebTools. [Watch this video to get started][10].
+* [SuperOffice Inbox][1] - if you are unable to use WebTools.
 
 * [!include[ALT](includes/why-superoffice-for-outlook.md)]
 
@@ -49,4 +49,3 @@ Choose one of the following options:
 [1]: ../../../email/inbox/learn/setup.md
 [2]: ../../../webtools/learn/install.md
 [9]: default-mac.md
-[10]: https://www.youtube.com/embed/QoAanZgQs5A
