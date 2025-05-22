@@ -26,7 +26,7 @@ Finds the extra fields that are connected to customer, company, or ticket. The s
 | Parameter | Description |
 |---|---|
 | errorCode | [See list of codes][1] |
- extraFields | The available extra fields. Contained in the structure are the following fields: |
+| extraFields | The available extra fields. Contained in the structure are the following fields: |
 
 | extraFields | Description |
 |---|---|

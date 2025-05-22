@@ -39,7 +39,7 @@ The `Authenticate` method must return an `AuthenticationResponse`, which contain
 | Property | Description |
 |----------|-------------|
 | SignedApplicationToken | represents the ERPConnectors signed JWT security token |
-| Succeeded | indicates whether validation was successful or not
+| Succeeded | indicates whether validation was successful or not |
 | Reason | contains a message only if Succeeded is false, indicating why validation failed |
 
 ```csharp

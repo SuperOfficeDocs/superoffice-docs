@@ -105,8 +105,6 @@ The `EventID` remains consistent for each attempt, facilitating accurate trackin
 
 Following `TooManyErrors` status, it is the responsibility of the receiver to manage the webhook state. The receiver can reset the state to `Active (1)` to resume the sending of webhook payloads. The `EmailErrors` notification system is designed to promptly inform the receiver of any critical issues that might prevent successful data delivery.
 
-
-
 <!-- Referenced links -->
 [1]: ../../database/tables/appointment.md
 [2]: ../../database/tables/associate.md

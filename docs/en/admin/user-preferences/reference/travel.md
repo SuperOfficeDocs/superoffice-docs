@@ -20,7 +20,7 @@ Travel preferences affect how the Travel Gateway works, and how travel is shown 
 | Preference | Description | Default | Control type | Access |
 |---|---|---|---|---|
 | AdvancedTravelMenu | Should the Travel icon/menu display the advanced Travel options | | Bool | Wizard |
-| EnableTravel | Is Travel enabled? | Bool | Wizard |
+| EnableTravel | Is Travel enabled? | | Bool | Wizard |
 | FlushAfterReadAll | If Yes, the Travel Gateway will force a refresh on all clients after the Read update from all users event has been executed. | YES | Bool | Admin, Admin users, Wizard |
 | GWSilent | Should progress dialogs be displayed when Travel Gateway is executing activities? | NO | Bool | Admin, Admin users, Wizard |
 | OfferBlockCentralLogin | Allows Remote Travel users to prevent SuperOffice from trying to perform a Central update even if the central database is available when SuperOffice is started while the Remote Travel user is travelling. | NO | Bool | Admin, Admin users, Wizard |

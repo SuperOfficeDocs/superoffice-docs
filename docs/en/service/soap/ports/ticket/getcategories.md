@@ -18,7 +18,7 @@ Retrieves all categories that are available in the system. If you wish to build 
 
 | Parameter | Description |
 |---|---|
-| sessionKey | A valid session key |.
+| sessionKey | A valid session key. |
 
 ## Out parameters
 

@@ -19,7 +19,7 @@ Retrieves information about an FAQ category
 | Parameter | Description |
 |---|---|
 | sessionKey | A valid session key. If empty the category has to be public. |
-| categoryId - The ID of the category. -1 if you want the top node |
+| categoryId | The ID of the category. -1 if you want the top node |
 
 ## Out parameters
 

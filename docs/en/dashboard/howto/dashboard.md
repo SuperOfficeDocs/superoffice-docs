@@ -9,6 +9,7 @@ topic: howto
 language: en
 ---
 
+<!-- markdownlint-disable-file MD013 -->
 # Working with dashboards
 
 In this how-to guide, you will learn how to get all dashboards, and all tiles for a given dashboard.
@@ -128,5 +129,3 @@ Response:
 
 <!-- links -->
 [0]: ../../database/tables/dashboard.md
-[1]: ../../database/tables/dashboard-tile.md
-[3]: ../../database/tables/dashboard-tile-definition.md

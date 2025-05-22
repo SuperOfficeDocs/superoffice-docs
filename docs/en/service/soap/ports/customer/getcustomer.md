@@ -19,7 +19,7 @@ Retrieve information about a customer. You specify which fields you wish to retr
 | Parameter | Description |
 |---|---|
 | sessionKey | A valid session key |
-| customerFields | A list of the fields you wish to retrieve. You can specify standard fields or extra fields. Extra fields are given on the form "customer.x\_2"  |where the number is the ID on the extra field. |
+| customerFields | A list of the fields you wish to retrieve. You can specify standard fields or extra fields. Extra fields are given on the form "customer.x\_2" where the number is the ID on the extra field. |
 
 **Valid customerFields fields:**
 

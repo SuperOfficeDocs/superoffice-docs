@@ -27,7 +27,7 @@ In the application config file, we can allow [external users][2] as shown below.
 
 Like with [anonymous users][1], we can also set data rights to the external user through SOAdmin. External users can access different data objects (like Company, Contact, Project) owned by different users like this particular external user, other associates, other external users, and so on.
 
-Before running the following example, the SOAdmin had created an external user with username *EXTERNAL1@SuperOffice.COM*. This user is allowed to read data belonging to the contact data object that this external person is registered on.
+Before running the following example, the SOAdmin had created an external user with username *[EXTERNAL1@SuperOffice.COM](EXTERNAL1@SuperOffice.COM)*. This user is allowed to read data belonging to the contact data object that this external person is registered on.
 
 The following example demonstrates how to log in as an external user and call the `ContactAgent`.
 

@@ -75,8 +75,8 @@ To connect a SuperOffice entity :
 
   Example input:
 
-  * erpKeys: [0] = "erp831"
-  * fieldKeys: [0] = "NAME", [1] = "NUMBER1", [2] = "SUPPLIERLIMIT", [3] = "STDTERMS", [4] = "ADDRESS1"
+  * `erpKeys: [0] = "erp831"`
+  * `fieldKeys: [0] = "NAME", [1] = "NUMBER1", [2] = "SUPPLIERLIMIT", [3] = "STDTERMS", [4] = "ADDRESS1"`
 
   Example result:
 
@@ -182,8 +182,8 @@ The connection links the SuperOffice ID with the ERP's actor type and ERP key. O
 
     Example input:
 
-    * erpKeys: [0] = "erp831"
-    * fieldKeys: [0] = "CUSTGR", [1] = "NUMBER1", [2] = "DOUBLE", [3] = "DATE"
+    * `erpKeys: [0] = "erp831"`
+    * `fieldKeys: [0] = "CUSTGR", [1] = "NUMBER1", [2] = "DOUBLE", [3] = "DATE"`
 
     Example result:
 

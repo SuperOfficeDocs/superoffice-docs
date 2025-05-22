@@ -16,8 +16,8 @@ The `ErpActor` class describes the primary carrier that is passed to and from a 
 
 ## ErpActor members
 
-| Member | Description |
-|---|---|
+| Member | Type | Description |
+|---|---|---|
 | ActorType | string | The actor’s type (subset of a known list).<br>Although passed as a string, it is a textual representation of the internal enumerator `ErpActorType`. |
 | ErpKey | string | The local identifier (primary key) for the actor in the given connection. This is proprietary and will only need to be readable by the connector itself. Erp Sync will store the value locally for mapping purposes, but will not need to parse it or understand it. |
 | LastModified | string | Describes when the actor was last changed/modified. 100% mandatory. Used for timestamp comparison and sync loop retrieval. (see below) |

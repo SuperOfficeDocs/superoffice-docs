@@ -227,4 +227,3 @@ See [User-Defined Fields][1].
 
 <!-- Referenced links -->
 [1]: user-defined-fields.md
-[2]: ../../../../admin/license/user-plans.md

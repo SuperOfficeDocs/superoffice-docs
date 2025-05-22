@@ -143,7 +143,7 @@ Accept: application/json
 }
 ```
 
-<!-- POST https://sod.superoffice.com/Cust26759/api/v1/Agents/Selection/GetSelectionForFind -->
+<!-- POST https://sod.SuperOffice.com/Cust26759/api/v1/Agents/Selection/GetSelectionForFind -->
 
 ### [WebApi Client](#tab/get-archive-provider-2)
 

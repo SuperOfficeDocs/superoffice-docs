@@ -18,7 +18,7 @@ Same as [getExtraTables][2], but returns only one extra table.
 
 | Parameter | Description |
 |---|---|
-| sessionKey | A valid session key |.
+| sessionKey | A valid session key. |
 | tableId | The ID of the table you want to retrieve |
 
 ## Out parameters

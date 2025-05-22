@@ -24,7 +24,7 @@ The example shows how to retrieve the message ID and iterate over the result.
 | Parameter | Description |
 |---|---|
 | sessionKey | A valid session key |
-| messageId - Internal ID of the message. This is the ID retrieved from `getTicket()`. |
+| messageId | Internal ID of the message. This is the ID retrieved from `getTicket()`. |
 | messageFields | A list of fields that you wish to retrieve. |
 
 **Valid messageFields fields:**

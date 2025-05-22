@@ -129,10 +129,10 @@ It’s easy to specify an additional group level with the integer modifier. Buil
 | 9 (3) | \[footer:2\] | 1 | 1 | | | Doe | 3 |
 | 10 (5) | \[header:2\] | 1 | 2 | | | Smith | 9 |
 | 11 (362) | \[person\] | 1 | 1 | Mary | | | |
-| 12 (363) | \[person\] | 1 | 2 | Tabby | | |
+| 12 (363) | \[person\] | 1 | 2 | Tabby | | | |
 | 13 (4) | \[footer:2\] | 1 | 2 | | | Smith | 9 |
 | 14 (5) | \[footer:1\] | 1 | 3 | | Sue | | 12 |
-| 15 (1) | \[grandtotal\] | 2 | 5 | | | | | 15 |
+| 15 (1) | \[grandtotal\] | 2 | 5 | | | | 15 |
 
 The output includes two first-level groups; one for each of the two different middle names. The first band is grouped by `middleName` and contains two people with the middle name Ray. Because both of these people share the same last name, there are no nested levels grouped by `lastName`. The second group contains three people with the same second name. However, only two share the same last name and so there becomes two nested groups; one for `lastName` Doe and one for last name Smith.
 

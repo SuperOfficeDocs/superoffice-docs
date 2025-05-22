@@ -27,7 +27,6 @@ MD013:
   code_blocks: true
   tables: false
   headings: true
-  headers: true
   strict: false
   stern: false
 MD014: true
@@ -40,7 +39,6 @@ MD022:
   lines_below: 1
 MD023: true
 MD024:
-  allow_different_nesting: false
   siblings_only: true
 MD025:
   level: 1
@@ -76,7 +74,6 @@ MD041:
 MD042: true
 MD043:
   headings: ["*"]
-  headers: ["*"]
 MD044:
   names: ["SuperOffice", "NetServer", "JavaScript", "CRMScript"]
   code_blocks: false
@@ -94,3 +91,15 @@ MD050:
 MD051: true
 MD052: true
 MD053: true
+MD054:
+  autolink: false
+  inline: true
+  full: true
+  collapsed: false
+  shortcut: false
+  url_inline: false
+MD055:
+  style: leading_and_trailing
+MD056: true
+MD058: true
+MD059: false

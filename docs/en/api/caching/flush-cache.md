@@ -34,6 +34,7 @@ If confirmed as an [General Administrator][1], the system executes the Diagnosti
 Additionally, layouts are reconstructed through the ConfigurationAgent ClearConfigurationCache and RebuildUdefDeltas methods.
 
 The process also:
+
 * Clears the SuperState for all current sessions.
 * Removes all items from HttpContext.Cache.
 * Refreshes all language resources.
