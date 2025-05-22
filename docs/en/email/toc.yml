@@ -8,7 +8,7 @@ items:
     - name: Debug
       href: mail-link/debug.md
   - name: SuperOffice for Outlook
-    topicHef: superoffice-for-outlook/learn/index.md
+    topicHref: superoffice-for-outlook/learn/index.md
     items:
     - name: User guide
       topicHref: superoffice-for-outlook/learn/index.md
@@ -20,7 +20,11 @@ items:
     href: mailgun/toc.yml
     topicHref: mailgun/index.yml
   - name: SuperOffice Inbox
-    href: inbox/index.md
+    items:
+    - name: User guide
+      topicHref: inbox/learn/index.md
+    - name: MailKit
+      href: inbox/it/index.md
   - name: Service and Marketing
     href: service/index.md
     items:
