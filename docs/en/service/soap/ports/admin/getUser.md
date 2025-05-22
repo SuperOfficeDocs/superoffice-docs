@@ -38,7 +38,7 @@ With this method, you can get various information about the logged-in user (usin
 | Parameter | Description |
 |---|---|
 | errorCode | [See list of codes][1] |
-| userResult - An array of ResultStruct where each element is of the form:<br>field (name of the requested field)<br>value (the value of the requested field)<br>type (the type of the requested field) |
+| userResult | An array of ResultStruct where each element is of the form:<br>field (name of the requested field)<br>value (the value of the requested field)<br>type (the type of the requested field) |
 
 ## Example
 
@@ -49,7 +49,7 @@ ticket.ticketService ticketService = new ticket.ticketService();
 string sessionKey;
 string errorCode = ticketService.login("egon", "pass1234", out sessionKey);
 
-if (errorCode.Equals("0")
+if (errorCode.Equals("0"))
 {
   admin.ResultStruct[] userResult;
   string[] userFields = new string[2];

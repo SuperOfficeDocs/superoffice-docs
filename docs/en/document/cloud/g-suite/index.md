@@ -52,7 +52,7 @@ Google Workspace is a set of Google applications that brings together essential 
 
 For instance, if you own the domain example.com and you sign up for Google Workspace services, everyone at your organization will get:
 
-* A custom email address (user@example.com)
+* A custom email address (`user@example.com`)
 * Tools for word processing
 * Spreadsheets and presentations
 * A shared calendaring system

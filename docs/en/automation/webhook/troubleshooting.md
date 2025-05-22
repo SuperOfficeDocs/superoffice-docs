@@ -10,6 +10,8 @@ audience: api
 audience_tooltip: Troubleshooting webhooks
 ---
 
+<!-- markdownlint-disable-file MD013 -->
+
 # Troubleshooting webhooks
 
 As developers, it's important to ensure the seamless operation of our applications, and troubleshooting issues is a key part of that process. Lets focus on troubleshooting webhooks, essential components that enable real-time data exchange between applications.
@@ -29,10 +31,10 @@ When things go awry, and your application doesn't seem to be receiving webhook n
 
 First and foremost, check the status of your webhooks. This can be accomplished by calling one of the following APIs:
 
-- `/api/v1/Webhook` (RESTful REST API)
-- `/api/v1/Agents/Webhook/GetAllWebhooks` (HTTP RPC Agent API)
-- `WebhookAgent.GetAllWebhooks` (Proxy Clients)
-- `NSWebhookAgent.GetAllWebhooks` (CRMScript)
+* `/api/v1/Webhook` (RESTful REST API)
+* `/api/v1/Agents/Webhook/GetAllWebhooks` (HTTP RPC Agent API)
+* `WebhookAgent.GetAllWebhooks` (Proxy Clients)
+* `NSWebhookAgent.GetAllWebhooks` (CRMScript)
 
 These endpoints will return the details of your webhooks, including a key property, `State`, which indicates the current status of the webhook. There are four possible states:
 
@@ -63,16 +65,16 @@ Accept: application/json
 
 The response will contain the following information:
 
-- `total_calls`: The total number of calls made to the webhook
-- `total_errors`: The total number of errors encountered by the webhook
-- `consecutive_errors`: The number of consecutive errors encountered by the webhook
-- `last_error`: The last error encountered by the webhook
+* `total_calls`: The total number of calls made to the webhook
+* `total_errors`: The total number of errors encountered by the webhook
+* `consecutive_errors`: The number of consecutive errors encountered by the webhook
+* `last_error`: The last error encountered by the webhook
 
 This request will return information about the specific webhook, such as the total number of calls made, the total number of errors, the number of consecutive errors, and the most recent error. This detailed insight can help identify recurring or critical issues that might be causing the webhook to fail.
 
 ## Unresolved issues
 
-In some cases, the webhook may be in an Active state, without any errors, yet you suspect it's not delivering notifications as expected. If this happens, please let us know by sending an email to appdev at superoffice dot com. It could indicate a more complex issue requiring further investigation.
+In some cases, the webhook may be in an Active state, without any errors, yet you suspect it's not delivering notifications as expected. If this happens, please let us know by sending an email to appdev at SuperOffice dot com. It could indicate a more complex issue requiring further investigation.
 
 To summarize, troubleshooting webhooks requires understanding their current status and digging deeper into the error messages if necessary. Equipped with the right endpoints, you can systematically diagnose and resolve issues, ensuring the smooth operation of your application.
 

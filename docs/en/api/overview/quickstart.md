@@ -450,7 +450,6 @@ If you encounter difficulties in communicating with our API, we highly value you
 [3]: ../reference/restful/rest/index.md
 [4]: ../reference/restful/rest/Appointment/v1AppointmentEntity_PostAppointmentEntity.md
 [5]: ../reference/restful/rest/Appointment/v1AppointmentEntity_PatchAppointmentEntity.md
-[6]: ../../onsite/install/netserver/setup-rest.md
 [7]: ../../developer-portal/getting-started/get-access-to-sod.md
 [8]: ../../developer-portal/create-app/index.md
 [9]: https://github.com/SuperOffice

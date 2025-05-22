@@ -18,7 +18,7 @@ Gets all the available external priorities. The lowest ordered priority will be 
 
 | Parameter | Description |
 |---|---|
- sessionKey | A valid session key |
+| sessionKey | A valid session key |
 
 ## Out parameters
 

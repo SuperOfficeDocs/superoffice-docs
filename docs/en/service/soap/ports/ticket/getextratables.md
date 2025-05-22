@@ -27,13 +27,13 @@ The flags returned for extra fields are a bit-combination of the following:
 | FlagReadable | (1<<6) | The field is directly readable from the database |
 | FlagDontEscape | (1<<7) | Do not HTML-escape the value when displaying field |
 | FlagDeleted | (1<<8) | The field is deleted |
-| FlagIsId | (1<<9)   The field is the ID |
+| FlagIsId | (1<<9) | The field is the ID |
 | FlagIsForeignId | (1<<10) | The field is a foreign ID |
 | FlagReadOnly | (1<<11) | The field is not writeable |
 | FlagUseDefault | (1<<12) | Use default value for field if no value is supplied |
 | FlagListRelations | (1<<13) | List relations |
 | FlagViewInList | (1<<14) | View this field when listing rows |
-| FlagHideHeaderIfEmpty | (1<<15)   Hide the header for this list if there are no entries |
+| FlagHideHeaderIfEmpty | (1<<15) | Hide the header for this list if there are no entries |
 
 ## In parameters
 

@@ -44,7 +44,7 @@ Mail sent from your customer to your SuperOffice Service:
 
 ### Cons
 
-* Separate domain name for emails from these 'shared' accounts (x@domain.suocrm.com vs. x@domain.com)
+* Separate domain name for emails from these 'shared' accounts (`x@domain.suocrm.com` vs. `x@domain.com`)
 * Other users of Mailgun (incl. CRM Online customer) can spoof this email address
 
 ## Alternative 2: CRM Online email service with own domain name and 'mail forward'
@@ -138,7 +138,6 @@ Use your own email server for outgoing SuperOffice Service to your customers. Yo
 
 > [!WARNING]
 > Be aware of the consequences of running your own SMTP server and not using Mailgun. In this case the automated bounce handling will not work because there is no webhook from your SMTP server to our SuperOffice Online platform. The only way to handle bounces is to import bounce emails back to SuperOffice via inbox. That means the email address from which the emails are sent out needs to be configured as a mailbox in Service.
-
 
 ### How to configure your CRM Online site to use your own SMTP (outgoing) mail server?
 

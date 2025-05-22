@@ -152,7 +152,7 @@ For the time being, a user can have either password or AD authentication. The da
 
 | Id | Assoc | Type | SearchName | Secret | ValidFrom | ValidTo | LastUsed |
 |---|---|---|---|---|---|---|---|
-| 92 | 104 | CRM5/PASSWORD | ADM0 | 7P:DnYq1bcQ9eys2z9WkgpxYBpP63M= | 2010-05-11 00:00:00 | 9999-12-31 23:59:59 | SUPEROFFICE_ASA\marekv on DEV-MAREK-2: SOCRM.exe (Logging in to SuperOffice CRM) |
+| 92 | 104 | CRM5/PASSWORD | ADM0 | 7P:DnYq1bcQ9eys2z9WkgpxYBpP63M= | 2010-05-11 00:00:00 | 9999-12-31 23:59:59 | SuperOffice_ASA\marekv on DEV-MAREK-2: SOCRM.exe (Logging in to SuperOffice CRM) |
 | 93 | 17 | Ticket | d3989fc9-4d3a-44da-8f5b-85b0456103ef | 7S:IA087dxXBlSDMkRPqbigesOiIQA= | 2010-05-13 07:09:20 | 2010-05-14 13:09:20 | |
 | 96 | 105 | ActiveDirectory | S-1-5-21-2132039509-1139229262-60295696-6555 | | 2010-05-14 00:00:00 | 9999-12-31 23:59:59 | |
 

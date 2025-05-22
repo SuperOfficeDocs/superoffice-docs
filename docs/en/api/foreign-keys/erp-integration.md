@@ -36,6 +36,7 @@ Then we create a dummy device - since the ERP system does not travel around on m
 | foreigndevice_id | name | device_id | foreignapp_id | owner_id | lastsynced |
 |---|---|---|---|---|---|
 | 461 | erp | | 461 | 0 | |
+
 Finally, we add a foreign key entry for the ERP ID for the contact
 
 | foreignkey_id | foreigndevice_id | table_id | record_id | subkey | subvalue |

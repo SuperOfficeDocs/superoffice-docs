@@ -8,6 +8,8 @@ keywords: quote
 topic: howto
 ---
 
+<!-- markdownlint-disable-file MD013 -->
+
 # IQuoteConnector
 
 This is the interface SuperOffice will call to integrate against an ERP system in the realm of quotes and orders.
@@ -17,19 +19,19 @@ If an ERP system does not provide products, or if the ERP system is not availabl
 the SuperOffice IProductRegisterCache object that is provided at startup.
 
 Currencies are specified in ISO three letter codes: USD, NOK, SEK, EUR, GBP, etc.
-See <http://www.currency-iso.org/dl_iso_table_a1.xls> for details.
+See [http://www.currency-iso.org/dl_iso_table_a1.xls][1] for details.
 
 The user may click the TEST button in the configuration dialog, which calls the TestConnection method.
 
 ## int CRMConnectionId
 
 The id of this connection in the CRM system
-<!-- markdownlint-disable MD051 -->
-## Dictionary&lt;string, FieldMetadataInfo> GetConfigurationFields()
+
+## <a id="get-configuration-fields"></a>Dictionary&lt;string, FieldMetadataInfo> GetConfigurationFields()
 
 This is a request for metadata needed to populate the Quote connection configuration admin dialog that takes in the information needed to create a connection to an ERP system.
 The values entered in the dialog are stored in the SuperOffice db and used when
-[`InitializeConnection`](#pluginresponseinfo-initializeconnectionsuperofficecrmquoteconnectioninfo-connectiondata-superofficecrmuserinfo-user-bool-isontravel-dictionaryltstring-string-connectionconfigfields-iproductregistercache-productregister) is called by the client.
+[`InitializeConnection`](#init-connection) is called by the client.
 Returns: [FieldMetdataInfo](./data-carriers/fieldmetadatainfo.md) dictionary. A list of field descriptions for the GUI to use when populating the config dialog. Make sure that the FieldMetadataInfo.Rank is set.
 
 ## PluginResponseInfo TestConnection(Dictionary&lt;string, string> connectionData)
@@ -40,15 +42,15 @@ Testing if the connection data is sufficient to get a connection with the ERP sy
 The Connector should try to do some operations to check if the connection has sufficient rights
 to run. The connection has not been created yet.
 
-* connectionData: {"name" = "value"}. The names are defined by the [FieldMetadata](data-carriers/fieldmetadatainfo.md) returned by the [GetConfigurationFields](#dictionaryltstring-fieldmetadatainfo-getconfigurationfields). The values are what the user typed into the fields in the configure connection dialog.
+* connectionData: {"name" = "value"}. The names are defined by the [FieldMetadata](data-carriers/fieldmetadatainfo.md) returned by the [GetConfigurationFields](#get-configuration-fields). The values are what the user typed into the fields in the configure connection dialog.
 
 Returns: Ok or not + a status or error message. This message is shown in a result dialog.
 
-## PluginResponseInfo InitializeConnection(SuperOffice.CRM.QuoteConnectionInfo connectionData, SuperOffice.CRM.UserInfo user, bool isOnTravel, Dictionary&lt;string, string> connectionConfigFields, IProductRegisterCache productRegister)
+## <a id="init-connection"></a>PluginResponseInfo InitializeConnection(SuperOffice.CRM.QuoteConnectionInfo connectionData, SuperOffice.CRM.UserInfo user, bool isOnTravel, Dictionary&lt;string, string> connectionConfigFields, IProductRegisterCache productRegister)
 
  Set up the connection to the ERP system.
  Will be called as part of SuperOffice client startup for each installed connection.
- Configuration data comes from the configuration dialog shown in the Admin client (see [`GetConfigurationFields`](#dictionaryltstring-fieldmetadatainfo-getconfigurationfields))
+ Configuration data comes from the configuration dialog shown in the Admin client (see [`GetConfigurationFields`](#get-configuration-fields))
 
 * [QuoteConnectionInfo](./data-carriers/quoteconnectioninfo.md) connectionData: Contains the configuration values defined in the Admin client.
 * UserInfo user: Information about the logged in user
@@ -286,7 +288,7 @@ This interface defines alternative **b)** of the above list.
 
 * restrictions: Array of restrictions chosen by the user; see `SearchRestrictionInfo` for details
 
-Returns: Array (possibly empty) of hits, populated as fully as reasonably possible (should follow same policy as `FindProducts`.
+Returns: Array (possibly empty) of hits, populated as fully as reasonably possible (should follow same policy as `FindProducts`).
 
 ## FieldMetadataInfo[] GetSearchableFields()
 
@@ -409,8 +411,8 @@ To create a new QuoteVersion, set OrderResponseInfo.CRMQuoteVersion.QuoteVersion
 
 Returns two addresses:
 
-* [0] = the invoice address.
-* [1] = the delivery address.
+* \[0\] = the invoice address.
+* \[1\] = the delivery address.
 
 The addresses are used in the generated quote document.
 
@@ -419,3 +421,5 @@ The addresses are used in the generated quote document.
 Returns: Returns null if no address was found.
 
 <!-- markdownlint-restore -->
+<!-- Referenced links -->
+[1]: http://www.currency-iso.org/dl_iso_table_a1.xls

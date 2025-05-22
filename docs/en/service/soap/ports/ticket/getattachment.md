@@ -18,7 +18,7 @@ Retrieves an attachment. Attachment can be linked to various types of eJournal e
 
 | Parameter | Description |
 |---|---|
-| sessionKey | A valid session key |, or empty if the attachment is linked to a public FAQ entry.
+| sessionKey | A valid session key , or empty if the attachment is linked to a public FAQ entry. |
 | attachmentId | ID of the attachment to retrieve. |
 | attachmentKey | The unique key identifying this attachment, for security reasons |
 

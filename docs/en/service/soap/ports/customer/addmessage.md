@@ -21,7 +21,7 @@ Adds a message to an existing ticket. You are only allowed to add messages to a 
 | sessionKey | A valid session key |
 | messageBody | The text in the message. |
 | ticketId | The ticket to attach the message to. |
-| sLevel | Security level of the ticket. Can be:<br>1 – Internal<br>2 – Externala<br>Other values will result in an error. |
+| sLevel | Security level of the ticket. Can be:<br>1 – Internal<br>2 – External<br>Other values will result in an error. |
 | attachmentIds | An array of the IDs of all attachments that you wish to connect to this message.<br>The ID is received from `addAttachment()`. |
 
 ## Out parameters
@@ -29,7 +29,7 @@ Adds a message to an existing ticket. You are only allowed to add messages to a 
 | Parameter | Description |
 |---|---|
 | errorCode | [See list of codes][1] |
-| messageId  The internal ID of the new message |
+| messageId | The internal ID of the new message |
 
 ## Example
 

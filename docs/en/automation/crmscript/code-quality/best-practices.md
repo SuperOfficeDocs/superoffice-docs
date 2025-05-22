@@ -65,7 +65,7 @@ Don't use **USEC** variable as login_secret or preview_secret in web panels. Thi
 If the script is intended to run as a [scheduled task][1]:
 
 * Consider **how often** you really need to run the script. Running a script every minute is not recommended. Take other tasks also set up to run into account.
-  
+
 * Consider using a [webhook][3] instead of a schedule task.
 
 * Review scheduled tasks regularly at **Settings and maintenance** > **CRMScript** > **Scheduled tasks**. Is the task still needed? Update the schedule or disable the task to reflect current demands.

@@ -41,7 +41,6 @@ The SPF '_spf.online.superoffice.com' includes:
 **All SuperOffice Online customers should add SPF '_spf.online.superoffice.com' for the domains they use as sender's email or in custom DKIM.**
 <!-- markdownlint-restore -->
 
-
 <!-- Referenced links -->
 [1]: https://en.wikipedia.org/wiki/Domain_Name_System
 [2]: https://en.wikipedia.org/wiki/MX_record

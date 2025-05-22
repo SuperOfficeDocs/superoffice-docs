@@ -29,7 +29,7 @@ Valid data field to retrieve:
 | Parameter | Description |
 |---|---|
 | sessionKey | A valid session key |
-|  messageId - The message ID |
+|  messageId | The message ID |
 | messageField | A list of the fields you wish to retrieve. |
 
 ## Out parameters
@@ -54,7 +54,7 @@ ticket.ticketService ticketService = new ticket.ticketService();
 string sessionKey;
 string errorCode = ticketService.login("egon", "norges bank", out sessionKey);
 
-if (errorCode.Equals("0")
+if (errorCode.Equals("0"))
 {
   string[] messageFields = new string[1];
   messageFields[0] = "message.body";

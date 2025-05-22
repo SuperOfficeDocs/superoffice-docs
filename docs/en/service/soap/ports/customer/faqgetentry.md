@@ -33,7 +33,7 @@ Gets details about an FAQ entry.
 | attachmentInfo | Array of information about attachments connected to this FAQ entry. Each element contains the fields: `attachmentId`, `attachmentName`, and `contentType`. |
 | hasHtml | This indicates if the answer is formatted with HTML. |
 | score | The score this entry has received. This is a number is between 1 and 100 |
-| faqParents - All parents to this entry, listed in a top-down matter.<br>id (of the parent folder)<br>name (of the parent folder) |
+| faqParents | All parents to this entry, listed in a top-down matter.<br>id (of the parent folder)<br>name (of the parent folder) |
 
 ## Example
 

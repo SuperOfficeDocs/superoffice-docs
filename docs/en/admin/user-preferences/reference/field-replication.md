@@ -26,7 +26,7 @@ Enables replication of user-defined fields at field level instead of at record l
 | udprojectlarge | Enables replication at field level for user-defined fields of the large strings on the **Project** card | | Bool|  Admin, Admin users, Wizard |
 | udprojectsmall | Enable replication at field level for user-defined fields on the **Project** card. | NO | Bool | Admin, Admin users, Wizard |
 | udsalelarge | Enables replication at field level for user-defined fields of the large strings on the sale dialog | | Bool | Admin, Admin users, Wizard |
-| udsalesmall | Enables replication at field level for user-defined fields in the **Sale** dialog. | NO | Bool | Admin, Admin users, Wizard*
+| udsalesmall | Enables replication at field level for user-defined fields in the **Sale** dialog. | NO | Bool | Admin, Admin users, Wizard |
 
 > [!NOTE]
 > Activating **udcontactsmall**, **udpersonsmall**, **udprojectsmall**, or **udsalesmall** may affect the speed at which UP and DWN files are read and written.

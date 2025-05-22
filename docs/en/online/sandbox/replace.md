@@ -44,7 +44,7 @@ In the following example, cust34506 is the sandbox environment, cust21513 is the
 
     ![OC Replace sandbox, map users and licenses -screenshot][img4]
 
-5. To reduce the risk of sending emails from the sandbox, we invalidate all email addresses by default. For example, jenny@company.com is change to jenny_company.com@mailinator.com. You may specify another email domain, **default is mailinator.com**.
+5. To reduce the risk of sending emails from the sandbox, we invalidate all email addresses by default. For example, `jenny@company.com` is change to `jenny_company.com@mailinator.com`. You may specify another email domain, **default is mailinator.com**.
 
     ![OC Replace sandbox, invalidate email addresses -screenshot][img5]
 

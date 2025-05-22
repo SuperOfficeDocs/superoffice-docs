@@ -31,7 +31,7 @@ The following fields are included in the `FieldValues` property of the webhook p
 * `projectId` - ID of the project associated with the chat session
 * `rating` - rating of the chat session
 * `saleId` - ID of the sale associated with the chat session
-* `status` - status of the chat session 
+* `status` - status of the chat session
 * `ticketId` - ID of the ticket associated with the chat session
 * `topicId` - ID of the topic associated with the chat session
 * `userId` - ID of the user associated with the chat session

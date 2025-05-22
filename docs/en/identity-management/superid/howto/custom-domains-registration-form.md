@@ -14,4 +14,5 @@ client: online
 
 Fill in the form to register sub-domains and additional domains for your IDP.
 
+<!-- markdownlint-disable-next-line MD044 -->
 <script src='https://online2.superoffice.com/Cust1990/CS/scripts/customer.fcgi?action=form&id=F-CPikjXvi'></script>

@@ -18,7 +18,7 @@ ed.setNavigateTo("soprotocol:sale.document?document_id=0");
 ```
 
 > [!NOTE]
-> The [NSViewStateAgent][3] contains information about which archive tab is currently open. This can be usefull to construct the correct soprotocol and refresh the correct parts.
+> The [NSViewStateAgent][3] contains information about which archive tab is currently open. This can be useful to construct the correct soprotocol and refresh the correct parts.
 
 <!-- Referenced links -->
 [1]: ../../automation/crmscript/reference/CRMScript.Native.EventData.yml
