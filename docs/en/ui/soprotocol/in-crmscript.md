@@ -2,17 +2,15 @@
 title: Using SOProtocol in CRMScript
 uid: so_protocol_crmscript
 description: Using SOProtocol in CRMScript
-author:
-date: 
+author: Eivind Fasting
+date: 05.23.2025
 keywords: soprotocol, deeplinking, CRMScript
 topic: reference
 ---
 
 # Using SOProtocol in CRMScript
 
-In CRMScript, you can use `setNavigateTo()` and `getNavigateTo()` of the [EventData][1] object to work with SOProtocol URLs.
-
-Please refer to [SOProtocol documentation][2] for how to structure the protocol itself.
+In CRMScript, you can use `setNavigateTo()` and `getNavigateTo()` of the [EventData][1] object to work with [SOProtocol URLs][2].
 
 ```crmscript
 EventData ed = getEventData();
