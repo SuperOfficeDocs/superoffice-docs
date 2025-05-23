@@ -3,11 +3,9 @@
 
 | Statusnamn | Kriterier | Förklaring | Uppgift |
 |---|---|---|---|
-| Dyr kund | **Antal aktiviteter i period** med typen **Marknadsföring** är högt.
-**Antal försäljningar i period** med statusen **Såld** är lågt. | Du har mycket marknadsföringskommunikation med kunden, men det har lett till låg eller ingen försäljning. | Planera ett internmöte för att ta reda på vad som kan göras för att få kunden lönsam. |
+| Dyr kund | **Antal aktiviteter i period** med typen **Marknadsföring** är högt. **Antal försäljningar i period** med statusen **Såld** är lågt. | Du har mycket marknadsföringskommunikation med kunden, men det har lett till låg eller ingen försäljning. | Planera ett internmöte för att ta reda på vad som kan göras för att få kunden lönsam. |
 | Försummad kund | **Antal aktiviteter** med riktning **Utgående** i perioden är lågt. | Du har haft ytterst lite kontakt med kunden. | Planera ett samtal med kunden för att underhålla kundrelationen. |
-| Vilande kund | **Antal aktiviteter i period** med riktningen **Inkommande** är lågt eller noll.
-**Antal aktiviteter i period** med riktningen **Utgående** är högt. | Du försöker ta kontakt med kunden, men får liten eller ingen respons. | Boka ett möte med kunden för att ta reda på varför kunden inte vill kommunicera. |
+| Vilande kund | **Antal aktiviteter i period** med riktningen **Inkommande** är lågt eller noll. **Antal aktiviteter i period** med riktningen **Utgående** är högt. | Du försöker ta kontakt med kunden, men får liten eller ingen respons. | Boka ett möte med kunden för att ta reda på varför kunden inte vill kommunicera. |
 
 ## Projekt
 

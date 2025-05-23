@@ -26,7 +26,7 @@ Du kan oprette en e-mailkonto, der bruges til at importere e-mail i SuperOffice 
 1. I feltet **Adresse** skal du angive navnet uden @domæne.xx og trykke på **TAB** for at føje CRM online-indstillingerne til e-mailadressen.
 
     > [!NOTE]
-    > Kaldenavne for e-mailadresser kan føjes til adresser ved at tilføje ("kaldenavn") ved slutningen af e-mail-adressen.Eksempel: <info@company.com> (Customer Ltd.).
+    > Kaldenavne for e-mailadresser kan føjes til adresser ved at tilføje ("kaldenavn") ved slutningen af e-mail-adressen. Eksempel: `info@company.com` (Customer Ltd.).
 
 1. Vælg kategori, prioritet, og sagstype:
 
@@ -56,7 +56,7 @@ Du kan oprette en e-mailkonto, der bruges til at importere e-mail i SuperOffice 
 1. I feltet **Adresse** skal du indtaste den e-mailadresse, du vil bruge til e-mailkontoen.
 
     > [!NOTE]
-    > Konfigurer videresendelse til denne e-mail-konto, hvis du vil bruge din virksomheds e-mailadresse (f.eks. <info@company.com>). Brug **Videresendelsesadresse** i skærmbilledet**E-mail-konti**.
+    > Konfigurer videresendelse til denne e-mail-konto, hvis du vil bruge din virksomheds e-mailadresse (f.eks. `info@company.com`). Brug **Videresendelsesadresse** i skærmbilledet**E-mail-konti**.
 
 1. I rullemenuen **Protokol** skal du vælge, hvilken protokol der skal bruges til at kommunikere med e-mailserveren. Nogle af protokollerne kan kræve yderligere konfiguration.
 
@@ -80,7 +80,7 @@ Du kan oprette en e-mailkonto, der bruges til at importere e-mail i SuperOffice 
 
     [!include[Common steps](includes/step-set-reply.md)]
 
-1. Gå til fanen **Alias**. Her kan du indtaste ethvert e-mail-alias for en postkasse (for eksempel hvis <sales@company.com> og <sale@company.com> gå til den samme postkasse). Du tilføjer et alias ved at indtaste en e-mailadresse og derefter klikke på **+**.
+1. Gå til fanen **Alias**. Her kan du indtaste ethvert e-mail-alias for en postkasse (for eksempel hvis `sales@company.com` og `sale@company.com` gå til den samme postkasse). Du tilføjer et alias ved at indtaste en e-mailadresse og derefter klikke på **+**.
 
 1. [!include[Import stuff](includes/step-import.md)]
 

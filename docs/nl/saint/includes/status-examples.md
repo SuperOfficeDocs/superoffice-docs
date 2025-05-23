@@ -3,11 +3,9 @@
 
 | Statusnaam | Criteria | Uitleg | Taak |
 |---|---|---|---|
-| Dure klant | **Aantal activiteiten** van het type **Marketing** gedurende de periode is hoog.
-**Aantal verkopen** met status **Verkocht** gedurende de periode is laag. | U hebt veel marketingactiviteiten uitgevoerd met betrekking tot deze klant, maar dit heeft niet geleid tot veel verkopen (of zelfs geen). | Plan een interne vergadering om uit te zoeken wat er kan worden gedaan om winst te behalen. |
+| Dure klant | **Aantal activiteiten** van het type **Marketing** gedurende de periode is hoog. **Aantal verkopen** met status **Verkocht** gedurende de periode is laag. | U hebt veel marketingactiviteiten uitgevoerd met betrekking tot deze klant, maar dit heeft niet geleid tot veel verkopen (of zelfs geen). | Plan een interne vergadering om uit te zoeken wat er kan worden gedaan om winst te behalen. |
 | Verwaarloosde klant | **Aantal activiteiten** met richting **Uitgaand** gedurende de periode is laag. | U hebt erg weinig contact gehad met de klant. | Plan een telefoongesprek met de klant om een goede relatie te onderhouden. |
-| Slapende klant | **Aantal activiteiten** met richting **Binnenkomend** gedurende de periode is laag.
-**Aantal activiteiten** met richting **Uitgaand** gedurende de periode is hoog. | U wilt contact opnemen met de klant, maar krijgt weinig of geen reactie. | Plan een afspraak met de klant om uit te zoeken waarom hij niet wil communiceren. |
+| Slapende klant | **Aantal activiteiten** met richting **Binnenkomend** gedurende de periode is laag. **Aantal activiteiten** met richting **Uitgaand** gedurende de periode is hoog. | U wilt contact opnemen met de klant, maar krijgt weinig of geen reactie. | Plan een afspraak met de klant om uit te zoeken waarom hij niet wil communiceren. |
 
 ## Projecten
 

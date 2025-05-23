@@ -15,7 +15,7 @@ Wenn eine neue Person eine Anfrage einsendet, versucht SuperOffice zu entscheide
 
 ## Szenario 1
 
-1. John, eine neue Person, registriert eine neue Anfrage im Kundenzentrum cs.liberty.com mit der E-Mail-Adresse <john@coca-cola.se>.
+1. John, eine neue Person, registriert eine neue Anfrage im Kundenzentrum cs.liberty.com mit der E-Mail-Adresse `john@coca-cola.se`.
 
 2. Die neue Anfrage wird an das System gesendet, wo Johns E-Mail-Domäne (coca-cola.se) geprüft wird. coca-cola.se ist als Domäne für die Firma Coca-Cola erfasst.
 
@@ -31,7 +31,7 @@ Wenn eine neue Person eine Anfrage einsendet, versucht SuperOffice zu entscheide
 
 ## Szenario 2
 
-1. Maria, eine neue Person, registriert eine neue Anfrage im Kundenzentrum cs.liberty.com mit der E-Mail-Adresse <maria@coca-cola.nl>.
+1. Maria, eine neue Person, registriert eine neue Anfrage im Kundenzentrum cs.liberty.com mit der E-Mail-Adresse `maria@coca-cola.nl`.
 2. SuperOffice prüft die E-Mail-Domäne und diese wird für die Firma Coca-Cola erfasst.
 3. Maria wird als neue Person für Coca-Cola hinzugefügt.
 4. Dann prüft SuperOffice, ob die E-Mail-Domäne .nl mit einer der erfassten Kundensprachen verknüpft ist. Die E-Mail-Domäne .nl ist *nicht* mit einer Kundensprache verknüpft, sodass für Maria keine Kundensprache festgelegt werden kann.

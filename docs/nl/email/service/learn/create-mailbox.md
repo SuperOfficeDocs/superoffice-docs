@@ -26,7 +26,7 @@ U kunt een postbus maken voor het importeren van e-mailberichten in SuperOffice 
 1. in het veld **Adres** voert u de naam zonder @domein.xx in en drukt u op **TAB** om de instellingen van CRM Online aan het e-mailadres toe te voegen.
 
     > [!NOTE]
-    > Een gebruiksvriendelijk e-mailadres kan aan het adres worden toegevoegd door toevoeging van ("gebruiksvriendelijke naam") aan het einde van het e-mailadres. Voorbeeld: <info@company.com> (Klant B.V.).
+    > Een gebruiksvriendelijk e-mailadres kan aan het adres worden toegevoegd door toevoeging van ("gebruiksvriendelijke naam") aan het einde van het e-mailadres. Voorbeeld: `info@company.com` (Klant B.V.).
 
 1. Selecteer categorie, prioriteit, en verzoektype:
 
@@ -56,7 +56,7 @@ U kunt een postbus maken voor het importeren van e-mailberichten in SuperOffice 
 1. Voer in het veld **Adres** het e-mailadres in dat u wilt gebruiken voor de postbus.
 
     > [!NOTE]
-    > Stel doorsturen in naar dit postbusadres als u het e-mailadres van uw bedrijf gaat gebruiken (bijvoorbeeld <info@company.com>). Gebruik **Doorstuuradres** in het scherm **Postbussen**.
+    > Stel doorsturen in naar dit postbusadres als u het e-mailadres van uw bedrijf gaat gebruiken (bijvoorbeeld `info@company.com`). Gebruik **Doorstuuradres** in het scherm **Postbussen**.
 
 1. Selecteer in de keuzelijst **Protocol** het protocol dat moet worden gebruikt voor communicatie met de e-mailserver. Voor sommige protocollen is mogelijk verdere configuratie vereist.
 
@@ -80,7 +80,7 @@ U kunt een postbus maken voor het importeren van e-mailberichten in SuperOffice 
 
     [!include[Common steps](includes/step-set-reply.md)]
 
-1. Ga naar het tabblad **Alias**. Hier kunt u elke e-mailalias voor een postvak invoeren (bijvoorbeeld als <sales@company.com> en <sale@company.com> ga naar hetzelfde postvak). U voegt een alias toe door een e-mailadres in te vullen en vervolgens op **+** te klikken.
+1. Ga naar het tabblad **Alias**. Hier kunt u elke e-mailalias voor een postvak invoeren (bijvoorbeeld als `sales@company.com` en `sale@company.com` ga naar hetzelfde postvak). U voegt een alias toe door een e-mailadres in te vullen en vervolgens op **+** te klikken.
 
 1. [!include[Import stuff](includes/step-import.md)]
 

@@ -55,7 +55,7 @@ Det første du må gjøre, er å velge hvilken type utsendelse du vil sende. Nå
 
 Emnelinjen påvirker åpningsfrekvensen for utsendelsen din. Folk bestemmer om de skal åpne og lese e-posten din basert på emnelinjen din. Så sørg for at emnelinjen din skiller seg ut.
 
-Avsenderen spiller også en rolle for åpningsraten. Det er større sannsynlighet for at folk åpner e-posten din hvis de gjenkjenner navnet på avsenderen. Du kontrollerer hvordan avsenderen vises ved å angi avsenderens navn og e-postadresse på denne måten: "Navn"<email@address.com>
+Avsenderen spiller også en rolle for åpningsraten. Det er større sannsynlighet for at folk åpner e-posten din hvis de gjenkjenner navnet på avsenderen. Du kontrollerer hvordan avsenderen vises ved å angi avsenderens navn og e-postadresse på denne måten: `"Navn"<email@address.com>`
 
 Hvis du bruker Google Analytics til å analysere trafikk og brukeratferd på nettstedet ditt, kan du knytte utsendelsene dine til Google Analytics-rapportene dine.
 

@@ -69,7 +69,7 @@ Via dit scherm kunt u de eigenschappen van een nieuw of bestaand schema voor een
 | Naam | hier kunt u de naam van het schema invoeren. |
 | ejScript/CRMScript | Hier kunt u de CRMScript selecteren die door het schema wordt geactiveerd. |
 | Parameters | parameters die worden gebruikt door CRMScript of de Gegevensuitwisselingsagent. |
-| OK (Alt-O): Klik op deze knop om op te slaan. |
+| OK (Alt-O) | Klik op deze knop om op te slaan. |
 | Annuleren | Klik op deze knop om te annuleren. |
 | Verwijderen | Klik op deze knop om te verwijderen. |
 | Herstellen | wanneer de uitvoering van de agenttaak niet wordt gestopt, klikt u op deze knop om de taak opnieuw in te stellen. |

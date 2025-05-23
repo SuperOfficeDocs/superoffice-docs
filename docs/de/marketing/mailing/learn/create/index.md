@@ -55,7 +55,7 @@ Als erstes müssen Sie den Typ für die Kampagne auswählen, die Sie senden möc
 
 Ihre Betreffzeile wirkt sich auf die Öffnungsraten Ihrer Kampagne aus. Personen bestimmen anhand Ihrer Betreffzeile, ob sie Ihre E-Mail öffnen und lesen werden. Stellen Sie also sicher, dass Ihre Betreffzeile auffällt.
 
-Auch der Absender spielt eine Rolle bei den Öffnungsraten. Es ist wahrscheinlicher, dass Personen Ihre E-Mail öffnen, wenn sie den Namen des Absenders kennen. Sie legen fest, wie der Absender angezeigt wird, indem Sie den Namen und die E-Mail-Adresse des Absenders wie folgt angeben: "Name"<email@address.com>
+Auch der Absender spielt eine Rolle bei den Öffnungsraten. Es ist wahrscheinlicher, dass Personen Ihre E-Mail öffnen, wenn sie den Namen des Absenders kennen. Sie legen fest, wie der Absender angezeigt wird, indem Sie den Namen und die E-Mail-Adresse des Absenders wie folgt angeben: `"Name"<email@address.com>`
 
 Wenn Sie Google Analytics verwenden, um den Datenverkehr und das Nutzerverhalten auf Ihrer Website zu analysieren, können Sie Ihre Kampagnen mit Ihren Google Analytics-Berichten verknüpfen.
 

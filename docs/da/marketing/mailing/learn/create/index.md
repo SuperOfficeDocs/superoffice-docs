@@ -55,7 +55,7 @@ Hvis du har påbegyndt mailen ved at sammensætte fra udvalget i SuperOffice CRM
 
 Din emnelinje har indflydelse på din mails åbningsrate. På grundlag af emnelinjen afgør folk, om de vil åbne og læse en e-mail. Så sørg for, at din emnelinje skiller sig ud.
 
-Afsenderen spiller også en rolle for åbningsraten. Folk er mere tilbøjelige til at åbne din e-mail, hvis de genkender dit navn som afsender. Du kan styre, hvordan afsenderen vises, ved at angive afsenderens navn og e-mailadresse på denne måde: "Navn"<email@address.com>
+Afsenderen spiller også en rolle for åbningsraten. Folk er mere tilbøjelige til at åbne din e-mail, hvis de genkender dit navn som afsender. Du kan styre, hvordan afsenderen vises, ved at angive afsenderens navn og e-mailadresse på denne måde: `"Navn"<email@address.com>`
 
 Hvis du bruger Google Analytics til at analysere trafik og brugeradfærd på dit websted, kan du koble dine mailudsendelser til dine Google Analytics-rapporter.
 

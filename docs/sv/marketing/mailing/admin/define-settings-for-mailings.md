@@ -36,7 +36,7 @@ Följande inställningar finns för e-postutskick:
 
 * **SMTP-trådar**: Här kan du ange hur många samtidiga bakgrundsprocesser som ska skicka ut e-postmeddelandena i ett utskick. Genom att höja antalet kan du uppnå en snabbare genomströmning men det ökar även belastningen på servern och e-postservern.
 
-* **Standardavsändare**: Systemet standardavsändare för e-post. Denna adress åsidosätts normalt av adresser som läggs till i e-postlådor. Detta måste vara en e-postadress som har importerats i SuperOffice Service. Till exempel <support@company.com>.
+* **Standardavsändare**: Systemet standardavsändare för e-post. Denna adress åsidosätts normalt av adresser som läggs till i e-postlådor. Detta måste vara en e-postadress som har importerats i SuperOffice Service. Till exempel [support@company.com](support@company.com).
 
 [!include[List of fields for mailings](../../learn/includes/mailing-smtp-fields.md)]
 
