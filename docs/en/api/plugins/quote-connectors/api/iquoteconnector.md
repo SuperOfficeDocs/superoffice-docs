@@ -32,7 +32,7 @@ The id of this connection in the CRM system
 This is a request for metadata needed to populate the Quote connection configuration admin dialog that takes in the information needed to create a connection to an ERP system.
 The values entered in the dialog are stored in the SuperOffice db and used when
 [`InitializeConnection`](#init-connection) is called by the client.
-Returns: [FieldMetdataInfo](./data-carriers/fieldmetadatainfo.md) dictionary. A list of field descriptions for the GUI to use when populating the config dialog. Make sure that the FieldMetadataInfo.Rank is set.
+Returns: [FieldMetadataInfo][2] dictionary. A list of field descriptions for the GUI to use when populating the config dialog. Make sure that the FieldMetadataInfo.Rank is set.
 
 ## PluginResponseInfo TestConnection(Dictionary&lt;string, string> connectionData)
 
@@ -42,7 +42,7 @@ Testing if the connection data is sufficient to get a connection with the ERP sy
 The Connector should try to do some operations to check if the connection has sufficient rights
 to run. The connection has not been created yet.
 
-* connectionData: {"name" = "value"}. The names are defined by the [FieldMetadata](data-carriers/fieldmetadatainfo.md) returned by the [GetConfigurationFields](#get-configuration-fields). The values are what the user typed into the fields in the configure connection dialog.
+* connectionData: {"name" = "value"}. The names are defined by the [FieldMetadata][2] returned by the [GetConfigurationFields](#get-configuration-fields). The values are what the user typed into the fields in the configure connection dialog.
 
 Returns: Ok or not + a status or error message. This message is shown in a result dialog.
 
@@ -52,11 +52,11 @@ Returns: Ok or not + a status or error message. This message is shown in a resul
  Will be called as part of SuperOffice client startup for each installed connection.
  Configuration data comes from the configuration dialog shown in the Admin client (see [`GetConfigurationFields`](#get-configuration-fields))
 
-* [QuoteConnectionInfo](./data-carriers/quoteconnectioninfo.md) connectionData: Contains the configuration values defined in the Admin client.
+* [QuoteConnectionInfo][3] connectionData: Contains the configuration values defined in the Admin client.
 * UserInfo user: Information about the logged in user
 * bool isOnTravel: Is the user on Travel?
-* Dictionary connectionConfigFields: `{"name" = "value"}`. The names are defined by the [FieldMetadata](./data-carriers/fieldmetadatainfo.md). The values are what the user typed into the fields in the configure connection dialog.
-* [IProductRegisterCache](iproductregistercache.md) productRegister: Product caching object that allows connectors to stash product information in the SuperOffice database for off-line use.
+* Dictionary connectionConfigFields: `{"name" = "value"}`. The names are defined by the [FieldMetadata][2]. The values are what the user typed into the fields in the configure connection dialog.
+* [IProductRegisterCache][8] productRegister: Product caching object that allows connectors to stash product information in the SuperOffice database for off-line use.
 
 Returns: IsOk set to false if connector can’t provide service (no network)
  The connector is then ignored until the application restarts.
@@ -67,13 +67,13 @@ Return a set of capability name &gt; status pairs that tell the system what capa
 
 If a capability is missing, then the corresponding parts of the quote UI are disabled.
 
-Returns: List of all capabilities that the connector supports. Capabilty names must match [the list of capability names](../capability-names.md).
+Returns: List of all capabilities that the connector supports. Capability names must match [the list of capability names][10].
 
 ## bool CanProvideCapability(string capabilityName)
 
 Check if one named capability can be provided by this connector.
 
-* capabilityName: Name of the capability, see [the list](../capability-names.md) for valid names.
+* capabilityName: Name of the capability, see the list for [valid names][10].
 
 Returns: True if connector has this capability
 
@@ -83,7 +83,7 @@ Called when a user is creating a quote.
 The Quote does not exist in database at this time;
 any changes in the returned QuoteResponseInfo will be saved and the GUI updated.
 
-* [QuoteAlternativeContextInfo](./data-carriers/quotealternativecontextinfo.md) context: The quote and its parts.
+* [QuoteAlternativeContextInfo][4] context: The quote and its parts.
 
 Returns:QuoteResponseInfo An updated quote. If returns IsOk = false, then quote creation is aborted.
 
@@ -92,24 +92,24 @@ Returns:QuoteResponseInfo An updated quote. If returns IsOk = false, then quote 
 Called when a user is creating a new quote version.
 The version does not exist in database at this time; any changes in the returned QuoteVersionResponseInfo will be saved and the GUI updated.
 
-* [QuoteVersionContextInfo](data-carriers/quoteversioncontextinfo.md) context: The quote and its parts.
+* [QuoteVersionContextInfo][5] context: The quote and its parts.
 
-Returns: [QuoteVersionResponseInfo](data-carriers/quoteversionresponseinfo.md) An updated quote version. If returns IsOk = false, then quoteversion creation is aborted.
+Returns: [QuoteVersionResponseInfo][6] An updated quote version. If returns IsOk = false, then quoteversion creation is aborted.
 
 ## QuoteAlternativeResponseInfo OnBeforeCreateQuoteAlternative(QuoteAlternativeContextInfo context)
 
 Called when a user is creating a quote alternative.
 The quote alternative does not exist in database at this time; any changes in the returned Quote alternative will be saved and the GUI updated.
 
-* [QuoteAlternativeContextInfo](data-carriers/quotealternativecontextinfo.md) context: The quote and its parts.
+* [QuoteAlternativeContextInfo][4] context: The quote and its parts.
 
-Returns: [QuoteAlternativeResponseInfo](data-carriers/quotealternativeinfo.md) An updated quote alternative. If returns IsOk = false, then quote alternative creation is aborted.
+Returns: [QuoteAlternativeResponseInfo][7] An updated quote alternative. If returns IsOk = false, then quote alternative creation is aborted.
 
 ## void OnAfterSaveQuote(QuoteAlternativeContextInfo context)
 
 Called after a sale containing a quote is saved or created. (Notice that new items have now gotten their ids in the CRM system.)
 
-* [QuoteAlternativeContextInfo](data-carriers/quotealternativecontextinfo.md) context: The quote and its parts. The context is read-only. The records have been written to the database.
+* [QuoteAlternativeContextInfo][4] context: The quote and its parts. The context is read-only. The records have been written to the database.
 
 ## void OnBeforeDeleteQuote(QuoteInfo quote, ISaleInfo sale, IContactInfo contact)
 
@@ -166,11 +166,11 @@ Returns: Return array of QuoteListItems. Return NULL if the given list is not su
 
 ## int GetNumberOfActivePriceLists(string isoCurrencyCode)
 
-Is used to warn the user if there is no active pricelists in a given currency.
+Is used to warn the user if there is no active price lists in a given currency.
 
 * isoCurrencyCode: Iso currency code like: USD or NOK. Case insensitive.
 Returns:
-Return all pricelists if isoCurrencyCode is empty.
+Return all price lists if isoCurrencyCode is empty.
 Return an empty array if there is no PriceList with the stated currency available.
 
 ## PriceListInfo[] GetActivePriceLists(string isoCurrencyCode)
@@ -182,7 +182,7 @@ Gets the available active PriceLists in a specific currency.
 
 Returns:
 Return empty array if there is no PriceList available in the currency.
-Return all pricelists if isoCurrencyCode is empty.
+Return all price lists if isoCurrencyCode is empty.
 
 ## PriceListInfo[] GetAllPriceLists(string isoCurrencyCode)
 
@@ -193,7 +193,7 @@ Gets the all PriceLists in the given currency, including those inactive.
 
 Returns:
 Return empty array if there is no PriceList available.
-Return all pricelists if isoCurrencyCode is empty.
+Return all price lists if isoCurrencyCode is empty.
 
 ## ProductInfo[] FindProduct(QuoteAlternativeContextInfo context, string currencyCode, string userinput, string priceListKey)
 
@@ -208,7 +208,7 @@ The fast searcher in the add product dialog calls this function to populate the 
 * context:
 * currencyCode:
 * userinput:
-* priceListKey: If the pricelist is empty, the function will search in all active pricelists.
+* priceListKey: If the price list is empty, the function will search in all active price  lists.
 
 Returns: An array of products matching the search words
 
@@ -232,7 +232,7 @@ See `GetProduct` above for details
 * context: the quote alternative
 * erpProductKey: the product id to get details on.
 
-Returns: Return products based on an array of unique ERP keys; handy when you’ve found products through archiveproviders or other mechanisms that leave you holding an ERPKey
+Returns: Return products based on an array of unique ERP keys; handy when you’ve found products through archive providers or other mechanisms that leave you holding an ERPKey
 
 ## QuoteLineInfo[] GetQuoteLinesFromProduct(QuoteAlternativeContextInfo context, string erpProductKey)
 
@@ -353,7 +353,7 @@ Note that recalculate may also be called when the quote is Approved, or Archived
 The connector may signal problems with the quote by setting the Quote Version Status
 to Error, Warning or OkWithInfo, and fill in the version's Reason field with an explanation.
 
-The [QuoteConnectorBase](quoteconnectorbase.md) implementation of this method defines methods for validating - see `QuoteConnectorBase.ValidateQuoteLine`.
+The [QuoteConnectorBase][9] implementation of this method defines methods for validating - see `QuoteConnectorBase.ValidateQuoteLine`.
 
 * context: The context as it appears to the user
 * action: The action that started this call; the context it is called in, like place order or send quote
@@ -362,15 +362,15 @@ Returns: The updated Context, with changes to State and UserExplanation if neede
 
 ## QuoteVersionResponseInfo UpdateQuoteVersionPrices(QuoteVersionContextInfo context, HashSet< string > writeableFields)
 
-Fetch new prices from the pricelist for all the alternatives in the quote.
+Fetch new prices from the price list for all the alternatives in the quote.
 This method is explicitly triggered by the user clicking the UPDATE PRICES button in the quote dialog.
 
-The connector should update all the quotelines on all the alternatives with new list prices, minimum prices, cost prices, etc from the pricelist, and update the ERP discount suggestions.
+The connector should update all the quotelines on all the alternatives with new list prices, minimum prices, cost prices, etc from the price list, and update the ERP discount suggestions.
 
 The system will call `ValidateQuoteVersion` after calling this method to determine the new version state.
 
 * context: The quote version, with alternatives and quote lines
-* writeableFields: Collection of quoteline fieldnames that are writeable according to the QuotelineConfiguration table. Fieldnames are all lowercase.
+* writeableFields: Collection of quoteline field names that are writeable according to the QuotelineConfiguration table. Field names are all lowercase.
 
 Returns: Updated quote version, with alternatives and quote lines.
 
@@ -380,7 +380,7 @@ Some ERP systems will be able to turn quotes into orders. The user selects a quo
 After the Quote has been accepted/sold, then the user can check the delivery status with the ERP system.
 
 Place the order in the ERP system.
-If the operation retuns successfully, the Quote will be locked (completed) in the CRM system
+If the operation returns successfully, the Quote will be locked (completed) in the CRM system
 and all updates will come from the ERP system thru the GetOrderState function.
 
 Requires that the Create-Order capability is true. If the Create-Order capability is false, then this
@@ -420,6 +420,14 @@ The addresses are used in the generated quote document.
 
 Returns: Returns null if no address was found.
 
-<!-- markdownlint-restore -->
 <!-- Referenced links -->
 [1]: http://www.currency-iso.org/dl_iso_table_a1.xls
+[2]: data-carriers/fieldmetadatainfo.md
+[3]: data-carriers/quoteconnectioninfo.md
+[4]: data-carriers/quotealternativecontextinfo.md
+[5]: data-carriers/quoteversioncontextinfo.md
+[6]: data-carriers/quoteversionresponseinfo.md
+[7]: data-carriers/quotealternativeinfo.md
+[8]: iproductregistercache.md
+[9]: quoteconnectorbase.md
+[10]: ../capability-names.md

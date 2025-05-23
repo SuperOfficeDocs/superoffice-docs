@@ -41,7 +41,7 @@ SuperOffice APIs offer a rich and flexible set of capabilities designed to suppo
   SuperOffice offers multiple client libraries (available via platforms like NPM and NuGet), OpenAPI and WSDL files and detailed documentation to help developers get started quickly. The APIs are designed to integrate seamlessly with a variety of programming languages and development environments.
 
 * **Enhanced Security and Session Management:**
-  With support for modern authentication standards like OAuth 2.0 and OpenID Connect, the CRM Online (cloud-based) APIs ensure secure and efficient session management, including mechanisms for token refresh and secure credential handling. Onsite installations do not use OAuth 2.0, but instead rely on [NetServer client session management](../../api/authentication/onsite/sosession/index.md).
+  With support for modern authentication standards like OAuth 2.0 and OpenID Connect, the CRM Online (cloud-based) APIs ensure secure and efficient session management, including mechanisms for token refresh and secure credential handling. Onsite installations do not use OAuth 2.0, but instead rely on [NetServer client session management][11].
 
 Overall, SuperOffice APIs provide the tools needed to build robust integrations, whether you’re looking to enhance a web application, automate backend processes, or synchronize data across platforms. This versatility makes them well-suited for everything from simple data retrieval tasks to complex, multi-user operations in a dynamic CRM environment.
 
@@ -454,3 +454,4 @@ If you encounter difficulties in communicating with our API, we highly value you
 [8]: ../../developer-portal/create-app/index.md
 [9]: https://github.com/SuperOffice
 [10]: https://www.geeksforgeeks.org/difference-between-rest-api-and-rpc-api/
+[11]: ../../api/authentication/onsite/sosession/index.md
