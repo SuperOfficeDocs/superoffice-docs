@@ -2,7 +2,7 @@
 uid: create-contact
 title: Create a new company
 description: How to create a new company
-keywords: contact, company, services, API, rest, RPC
+keywords: contact, company, services, WebApi, API, rest, RPC, JavaScript CreateDefaultContactEntity, ContactAgent
 author: Eivind Fasting
 date: 05.23.2025
 topic: howto
