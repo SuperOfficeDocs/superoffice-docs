@@ -72,7 +72,7 @@ After you set a custom value, it can be accessed - also by other `EventData` obj
 > [!NOTE]
 > From version 10.5.2, we support listening for a command in StateValue to close Ticket tabs from CRMScript triggers in the Sales client.
 
-This can be done by adding a StateValue **command:ticket.tab.close**, read more details [here][16].
+This can be done by [adding a StateValue][16] **command:ticket.tab.close**.
 
 ## Open dialog to handle user interaction
 

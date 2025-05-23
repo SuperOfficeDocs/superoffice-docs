@@ -33,6 +33,7 @@ If you select a project type for which a [project guide][1] is defined, the **Pr
 
 ## Tabs on the Project card
 
+<!-- markdownlint-disable-file MD059 -->
 | Tab | Description |
 |---|---|
 | [Project][2] | Contains information about the active project. |

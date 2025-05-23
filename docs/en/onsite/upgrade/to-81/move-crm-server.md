@@ -152,7 +152,7 @@ update crm7.KB_ENTRY set answer = replace(answer,'/scripts/customer.exe/getAttac
 ```
 
 > [!NOTE]
-> The last 2 queries will set the current URLs in FAQ texts if Service has been moved manually to a service sub-folder as described [here][3]. Make sure you use the correct extension, customer.fcgi, or customer.exe.
+> The last 2 queries will set the current URLs in FAQ texts if [Service has been moved manually to a service sub-folder][3]. Make sure you use the correct extension, customer.fcgi, or customer.exe.
 
 ## Links in eMarketing messages
 

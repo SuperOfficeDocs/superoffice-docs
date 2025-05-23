@@ -26,10 +26,12 @@ SuperOffice will choose the first valid value and if you have this language pack
 | 1030 | Danish |
 | 1053 | Swedish |
 
-You can find [here][2] a full list of languages.
-
 > [!NOTE]
 > You need to do this for every user on the server as the setting is user-specific.
+
+## Related content
+
+* [Complete list of languages][2]
 
 <!-- Referenced links -->
 [2]: http://technet.microsoft.com/en-us/library/cc179219.aspx

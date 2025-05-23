@@ -16,8 +16,6 @@ client: online
 
 This blog post will give you an overview on how to use the `SearchEngine` class in ejscript. `SearchEngine` is probably one of the most commonly used ejScript classes.
 
-The ejscript language is documented [here][1]. The different methods are described [here][2].
-
 The `SearchEngine` is one of the core-classes in ejScript, and has existed for a long time. Back in the day when Customer Service was still called Ejournal 4.x the SearchEngine would use T-SQL and ODBC to talk to the database. During the conversion from Ejournal 4.x to Customer Service 7.x the SearchEngine switched over to use the SuperOffice NetServer web services to read from and write to the database. This has a few advantages. SearchEngine no longer needs to worry about what type of database engine SuperOffice is running on. It doesn't really care if it is Oracle or MSSQL. One other advantage, which is important for consultants to know about, is that all queries that pass through the web services are subjected to various business rules in SuperOffice. For instance, the web services will make sure that all Sentry rules are respected, and will not give out information the user is not allowed to see.
 
 But even if there are advantages to SearchEngine talking via the web services there are also some drawbacks. One is that NetServer (i.e. the web services) doesn't handle aggregated functions. So if you want to do a COUNT, SUM, MAX, etc then you need to bypass NetServer and use the old ODBC+SQL approach. This is simple to do, and you'll see how it works a bit further down.
@@ -124,6 +122,11 @@ Oh, and one final thing. Notice how I've capitalized the T in the table Task? Th
 This has been a walk-through of some of the most common usages of the SearchEngine class. The SearchEngine has lots of other methods that I haven't covered here, so feel free to explore the documentation linked at the top of the blog post.
 
 Good luck!
+
+## Related content
+
+* [Documentation for the ejscript language][1]
+* [Description of methods][2]
 
 <!-- Referenced links -->
 [1]: ../overview/index.md

@@ -83,7 +83,6 @@ Assuming webhook ID is `123`:
 }
 ```
 
-
 ### Save
 
 Save: **POST api/v1/Webhook**

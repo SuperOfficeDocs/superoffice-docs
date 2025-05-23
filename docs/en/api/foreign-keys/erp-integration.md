@@ -36,11 +36,12 @@ Then we create a dummy device - since the ERP system does not travel around on m
 | foreigndevice_id | name | device_id | foreignapp_id | owner_id | lastsynced |
 |---|---|---|---|---|---|
 | 461 | erp | | 461 | 0 | |
+
 Finally, we add a foreign key entry for the ERP ID for the contact
 
 | foreignkey_id | foreigndevice_id | table_id | record_id | subkey | subvalue |
 |---|---|---|---|---|---|
-| 96734 | 461 | 5 | 56200 | 0 | erp-id | 1234 |
+| 96734 | 461 | 5 | 56200 | erp-id | 1234 |
 
 We can retrieve the SuperOffice contact ID using the ERP ID 1234 like this:
 

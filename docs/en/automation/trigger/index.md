@@ -22,7 +22,7 @@ If you are new to CRMScript, check out [the fundamentals][1].
 
 ## What is a trigger?
 
-Several areas in SuperOffice support triggers, such as **Before saving a sale** or **Import mail before processing**. You can find a complete list [here][2].
+Several areas in SuperOffice support triggers, such as **Before saving a sale** or **Import mail before processing**. You can find a complete list in the [trigger reference][2].
 
 The concept of triggers is to allow some custom logic to be executed together with the standard out-of-the-box functionality, without having to customize the whole process. Since triggers can be executed for several different events, the contextual information passed to the triggers will also vary. For instance, a trigger for the "Before saving a sale" will receive information about the sale you are editing or creating. The trigger for "Import mail before processing" will receive completely different input values, such as the subject and body of the email. So, when writing CRMScript trigger handlers, you need to consider which input values you receive.
 

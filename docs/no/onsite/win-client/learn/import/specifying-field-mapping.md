@@ -24,7 +24,7 @@ envir: onsite
     > [!NOTE]
     >Du kan også dobbeltklikke på feltet du vil importere.
 
-1. Navnet på det aktuelle feltet i importfilen vises i feltet **Felt i importfil **i dialogboksen **Felttilordning**. l I listeboksen **Velg felt fra tabell** velger du hvilken type data du vil importere til SuperOffice-databasen, for eksempel firmaer.
+1. Navnet på det aktuelle feltet i importfilen vises i feltet **Felt i importfil**i dialogboksen **Felttilordning**. l I listeboksen **Velg felt fra tabell** velger du hvilken type data du vil importere til SuperOffice-databasen, for eksempel firmaer.
 
 1. I tabellen under **Navn** vises alle tilgjengelige felt, minus de som allerede er tilordnet, for datatypen du valgte i listeboksen **Velg felt fra tabell**. Velg et felt du vil tilordne.
 

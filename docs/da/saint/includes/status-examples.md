@@ -3,11 +3,9 @@
 
 | Statusnavn | Kriterier | Forklaring | Opgave |
 |---|---|---|---|
-| Dyr kunde | **Antal aktiviteter i perioden** med typen **Marketing** er højt.
-**Antal salg i perioden** med status **Solgt** er lavt. | Du har haft meget markedsføringskommunikation med kunden, men det har kun ført til en smule eller intet salg. | Planlæg et internt møde for at finde ud af, hvad der kan gøres for at gøre kunden rentabel: |
+| Dyr kunde | **Antal aktiviteter i perioden** med typen **Marketing** er højt. **Antal salg i perioden** med status **Solgt** er lavt. | Du har haft meget markedsføringskommunikation med kunden, men det har kun ført til en smule eller intet salg. | Planlæg et internt møde for at finde ud af, hvad der kan gøres for at gøre kunden rentabel: |
 | Forsømt kunde | **Antal aktiviteter** med retningen **Udgående** i perioden er lavt. | Du har haft meget lidt kontakt med kunden. | Planlæg en samtale med kunden for at holde kundeforholdet ved lige. |
-| Sovende kunde | **Antal aktiviteter i perioden** med retningen **Indgående** er lavt eller nul.
-**Antal aktiviteter i perioden** med retningen **Udgående** er højt. | Du prøver at komme i kontakt med kunden, men får kun lidt eller ingen respons. | Aftal et møde med kunden for at finde ud af, hvorfor kunden ikke vil kommunikere. |
+| Sovende kunde | **Antal aktiviteter i perioden** med retningen **Indgående** er lavt eller nul. **Antal aktiviteter i perioden** med retningen **Udgående** er højt. | Du prøver at komme i kontakt med kunden, men får kun lidt eller ingen respons. | Aftal et møde med kunden for at finde ud af, hvorfor kunden ikke vil kommunikere. |
 
 ## Projekter
 

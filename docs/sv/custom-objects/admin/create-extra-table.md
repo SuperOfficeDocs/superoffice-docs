@@ -49,7 +49,7 @@ Du kan nu öppna tabellen i användargränssnittet för att lägga till innehål
 |---|---|
 | Mapp | Om du vill placera tabellen i en befintlig väljer du en mapp i listan. |
 | Namn | Tabellens namn. |
-| Databastabell   Databastabellens namn. Kan endast anges när tabellen skapas och kan inte ändras. Tabellnamnet får bara innehålla understreck, bokstäverna a–z eller siffror, och namnet måste börja med "y_". Ett logiskt namn är bäst eftersom det då blir enklare att se vad databasen innehåller. |
+| Databastabell | Databastabellens namn. Kan endast anges när tabellen skapas och kan inte ändras. Tabellnamnet får bara innehålla understreck, bokstäverna a–z eller siffror, och namnet måste börja med "y_". Ett logiskt namn är bäst eftersom det då blir enklare att se vad databasen innehåller. |
 | Rubrik för sökning | Används i sökfönstret för tabellen. |
 | Rubrik för visning av post | Används när du visar en post i den här tabellen. |
 | Rubrik för ny post | Används när du skapar en ny post i den här tabellen. |

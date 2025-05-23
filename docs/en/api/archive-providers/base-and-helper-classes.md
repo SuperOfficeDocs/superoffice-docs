@@ -26,11 +26,11 @@ To illustrate actual usage, the bottom of the diagram shows examples of concrete
 | Class | Description |
 |---|---|
 | `RelationProvider` | a many-channel provider that feeds the relation archive on the company card |
-| `PersonProvider`| a single query provider that is used in the Person archive on the company card
+| `PersonProvider`| a single query provider that is used in the Person archive on the company card |
 | `TextExtenderBase` | an Extender that handles records from the text table |
 | `ContactInfoTextExtender` | a joiner that adds the text info field to a contact extender, by doing two things - it generates the proper join, and restricts the type member of the text record to exclude other kinds of text than the Info (paperclip note). |
 
-The base classes generally follow the **Template Method** pattern. See [Wikipedia]][1], and [C\# definition][2]. This means that the base class implements the methods of the interface, while derived classes fill in the blanks by implementing specific abstract methods defined by the base class to handle specific tasks.
+The base classes generally follow the **Template Method** pattern. See [Wikipedia][1], and [C\# definition][2]. This means that the base class implements the methods of the interface, while derived classes fill in the blanks by implementing specific abstract methods defined by the base class to handle specific tasks.
 
 As an example, the `ExtenderBase` class defines the abstract methods `InnerModifyQuery`, `InnerPopulateRowFromReade`, and `SetJoin`. A class such as `AddressExtenderBase` above will implement `InnerModifyQuery` to map its columns to actual table fields, and possibly do other query processing (add some extra fields it needs). It may also put logic into `InnerPopulateRowFromReader` to handle column population that is not handled by the base class. However, it does not implement `SetJoin()`, since that is the province of a joiner. And for that reason, `AddressExtenderBase` is still an abstract class.
 

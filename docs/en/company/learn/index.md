@@ -29,6 +29,7 @@ The screen also lets you search for companies, create new records, manage contac
 
 ## Tabs on the Company card
 
+<!-- markdownlint-disable-file MD059 -->
 | Tab | Description |
 |---|---|
 | [Company][2] | Main tab for entering key company information, including address and contact fields. |

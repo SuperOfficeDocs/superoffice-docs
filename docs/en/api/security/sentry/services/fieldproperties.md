@@ -19,7 +19,7 @@ A typical use of this property is to check the data rights of the user before ma
 
 We can use several properties provided by the `FieldRight` property (of a field) to check for rights. The most commonly used ones are listed below.
 
-| Property | Description
+| Property | Description |
 |---|---|
 | IsActive | whether this field is active for the logged-in user: Does the user have the right to this field? |
 | HasAll | whether the user has all the rights to the field |

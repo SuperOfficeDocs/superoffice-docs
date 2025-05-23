@@ -116,7 +116,7 @@ width = 100%
 |:---------------------|:------------|
 |1|FieldTypeDatabase|
 |2|FieldTypeStatic|
-|3|FieldTypeFunction
+|3|FieldTypeFunction|
 |4|FieldTypeGroup|
 |5|FieldTypeBreak|
 |6|FieldTypeStatusMonitor|

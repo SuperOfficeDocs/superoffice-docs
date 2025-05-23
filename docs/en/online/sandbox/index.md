@@ -52,8 +52,8 @@ Yes, almost. All the customer data, such as company, contact, sale, and project 
   * csbl - URL to *blogic.fcgi*
 
 * All scheduled tasks have been marked as disabled unless you chose to enable them in the wizard.
-  
-* All webhooks are deleted, this means both of type HTTP POST nofitications and CRMScript.
+
+* All webhooks are deleted, this means both of type HTTP POST notifications and CRMScript.
 
 * Any SuperOffice App Store app that was authorized on your production database will not work in the sandbox and you will have to sign up again if you want to use it here. The authorization/approval for the app to access a specific installation is a one-to-one link.
 

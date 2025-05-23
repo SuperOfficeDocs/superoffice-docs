@@ -25,7 +25,7 @@ Returns all active tickets for the user and their read/unread status.
 | Parameter | Description |
 |---|---|
 | errorCode | [See list of codes][1] |
-| ticketStatusResult - An array containing the active tickets:<br>ticketId<br>readStatus – {1=green (read), 2=yellow(new info), 3=red(unread)} |
+| ticketStatusResult | An array containing the active tickets:<br>ticketId<br>readStatus – {1=green (read), 2=yellow(new info), 3=red(unread)} |
 
 ## Example
 
@@ -34,7 +34,7 @@ ticket.ticketService ticketService = new ticket.ticketService();
 string sessionKey;
 string errorCode = ticketService.login("egon", "norges bank", out sessionKey);
 
-if (errorCode.Equals("0")
+if (errorCode.Equals("0"))
 {
   ticket.ActiveTicketsStruct[] tickets;
 

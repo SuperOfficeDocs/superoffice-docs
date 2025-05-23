@@ -26,7 +26,7 @@ Sie können ein Postfach erstellen, das zum Importieren von E-Mails in SuperOffi
 1. Geben Sie in das Feld **Adresse** den Namen ohne @domain.xx ein und drücken Sie die **TAB-Taste**, um die CRM Online-Einstellungen zur E-Mail-Adresse hinzuzufügen.
 
     > [!NOTE]
-    > Der Adresse kann eine freundliche E-Mail-Adresse hinzugefügt werden, indem ("Anzeigename") am Ende der E-Mail-Adresse hinzugefügt wird. Zum Beispiel: <info@company.com> (Customer Ltd.).
+    > Der Adresse kann eine freundliche E-Mail-Adresse hinzugefügt werden, indem ("Anzeigename") am Ende der E-Mail-Adresse hinzugefügt wird. Zum Beispiel: `info@company.com` (Customer Ltd.).
 
 1. Wählen Sie Kategorie, Priorität, und Anfragetyp aus:
 
@@ -56,7 +56,7 @@ Sie können ein Postfach erstellen, das zum Importieren von E-Mails in SuperOffi
 1. Geben Sie im Feld **Adresse** die E-Mail-Adresse ein, die Sie für das Postfach verwenden möchten.
 
     > [!NOTE]
-    > Richten Sie die Weiterleitung an diese Postfachadresse ein, wenn Sie die E-Mail-Adresse Ihrer Firma (zum Beispiel <info@company.com>) verwenden möchten. Verwenden Sie **Weiterleitungsadresse** in der Ansicht **Postfächer**.
+    > Richten Sie die Weiterleitung an diese Postfachadresse ein, wenn Sie die E-Mail-Adresse Ihrer Firma (zum Beispiel `info@company.com`) verwenden möchten. Verwenden Sie **Weiterleitungsadresse** in der Ansicht **Postfächer**.
 
 1. Wählen Sie im Listenfeld **Protokoll** das Protokoll für die Kommunikation mit dem E-Mail-Server aus. Für einige Protokolle sind ggf. weitere Konfigurationsschritte erforderlich.
 
@@ -80,7 +80,7 @@ Sie können ein Postfach erstellen, das zum Importieren von E-Mails in SuperOffi
 
     [!include[Common steps](includes/step-set-reply.md)]
 
-1. Wechseln Sie zur Registerkarte **Alias**. Hier können Sie einen beliebigen E-Mail-Alias für ein Postfach eingeben (zum Beispiel, gehen Sei zum selben Postfach, wenn <sales@company.com> und <sale@company.com>). Um einen Alias hinzuzufügen, müssen Sie eine E-Mail-Adresse angeben und anschließend auf **+** klicken.
+1. Wechseln Sie zur Registerkarte **Alias**. Hier können Sie einen beliebigen E-Mail-Alias für ein Postfach eingeben (zum Beispiel, gehen Sei zum selben Postfach, wenn `sales@company.com` und `sale@company.com`). Um einen Alias hinzuzufügen, müssen Sie eine E-Mail-Adresse angeben und anschließend auf **+** klicken.
 
 1. [!include[Import stuff](includes/step-import.md)]
 

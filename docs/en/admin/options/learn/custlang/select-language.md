@@ -15,7 +15,7 @@ When a new contact sends in a request, SuperOffice tries to decide which custome
 
 ## Scenario 1
 
-1. John, a new contact, registers a new request in the customer centre cs.liberty.com with the email address john@coca-cola.se.
+1. John, a new contact, registers a new request in the customer centre cs.liberty.com with the email address `john@coca-cola.se`.
 
 2. The new request is sent to the system, where John's email domain (coca-cola.se) is checked. coca-cola.se is registered as domain for the company Coca-Cola.
 
@@ -31,7 +31,7 @@ When a new contact sends in a request, SuperOffice tries to decide which custome
 
 ## Scenario 2
 
-1. Maria, a new contact, registers a new request in the customer centre cs.liberty.com with the email address maria@coca-cola.nl.
+1. Maria, a new contact, registers a new request in the customer centre cs.liberty.com with the email address `maria@coca-cola.nl`.
 2. SuperOffice checks the email domain and this is registered to the company Coca-Cola.
 3. Maria is added as a new contact for Coca-Cola.
 4. SuperOffice then checks if the email domain .nl is linked to one of the registered customer languages. The email domain .nl is *not* linked to a customer language and no customer language can therefore be decided for Maria.

@@ -22,7 +22,7 @@ These events are fired when project rows are changed:
 
 The following fields are included in the `FieldValues` property of the webhook payload for project events:
 
-* `activeLinks` - active links  
+* `activeLinks` - active links
 * `associate_id` - ID of the associate who created the project
 * `done` - project is done
 * `registered` - end date of the project

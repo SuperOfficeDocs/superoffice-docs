@@ -27,7 +27,7 @@ This method will search for a FAQ entry. The search words are given as a string,
 |---|---|
 | sessionKey | A valid session key. If empty only public FAQ entries will be found. |
 | searchWords | A space-separated list of words that you wish to search for. |
-| categoryId - The ID of the top node category you wish to search below. All subcategories will be searched too.<br>"-1" = search the whole tree<br>"0" = the root node of the language of the user will be used (only when the customer language module is installed). |
+| categoryId | The ID of the top node category you wish to search below. All subcategories will be searched too.<br>"-1" = search the whole tree<br>"0" = the root node of the language of the user will be used (only when the customer language module is installed). |
 
 ## Out parameters
 

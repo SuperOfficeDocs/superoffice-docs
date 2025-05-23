@@ -49,6 +49,7 @@ When the code generation is complete, a Visual Studio solution with one project 
 * A folder with class files for supporting the data access layer
 * A folder for supporting Rows
 
+<!-- markdownlint-disable-next-line MD044 -->
 <!-- This utility application is available for download from DevNet. See <http://devnet.superoffice.com/Library/Articles/NetServer-SDK/Archived-Articles/Generate-User-Defined-Table-Classes-For-Use-in-NetServer/> for more information. -->
 
 ## Create the Sentry plugin

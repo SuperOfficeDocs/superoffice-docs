@@ -58,12 +58,12 @@ Dit geldt bijvoorbeeld in de volgende gevallen:
 
 | | Bedrijf | Adres | BTW-nr. | Code |
 |---|---|---|---|---|
-| **Excel/Outlook/Gmail importeren** | ACME Inc | Broadway 123 11223344 | - |
+| **Excel/Outlook/Gmail importeren** | ACME Inc | Broadway 123 | 11223344 | - |
 | **SuperOffice** | ACME Inc. | Main street 456 | - | ACME1 |
 
 **Actie:**
 
-| Actie | Bedrijf | Adres | BTW-nr. | Code
+| Actie | Bedrijf | Adres | BTW-nr. | Code |
 |---|---|---|---|---|
 | **Samenvoegen** | ACME Inc. | Broadway 123 | 11223344 | ACME1 |
 | **Vervangen** | ACME Inc. | Main street 456 | 11223344 | - |

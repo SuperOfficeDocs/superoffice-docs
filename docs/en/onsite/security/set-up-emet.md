@@ -25,6 +25,7 @@ The following changes should be made to the settings:
 Next, we want to use EMET to protect some more applications than those that are protected by default. Depending on which sort of server this is, different settings should be applied. There are setting files available on the website that will protect SuperOffice executables. There are 2 different files at the moment:
 
 * <a href="../../../assets/downloads/emet_config_CS_v0.2.zip" download>emet_config_CS_v0.2.xml</a>
+<!-- markdownlint-disable-next-line MD044 -->
 * <a href="../../../assets/downloads/emet_config_superoffice_general_including_netserver_v0.1.zip" download>emet_config_superoffice_general_including_netserver_v0.1.xml</a>
 
 This is because Customer Service is packaged into executables and all of these need to be configured to be protected by EMET, the first file addresses this. The second file can be used on web servers in general including the NetServer. It configures EMET to protect IIS in addition to all the default EMET protection rules.

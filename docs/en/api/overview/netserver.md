@@ -109,8 +109,6 @@ This has been a high-level view of NetServer. As you can see, there is a vast di
 [17]: ../mdo-providers/reference/index.md
 [18]: ../plugins/sentry/index.md
 [19]: https://online.superoffice.com/appstore
-[20]: <xref:SuperOffice.CRM.Entities>
-[21]: <xref:SuperOffice.CRM.Rows>
 [22]: https://www.nuget.org/packages/superoffice.netserver.core
 [23]: https://www.nuget.org/packages/superoffice.netserver.services
 [24]: https://www.nuget.org/packages/superoffice.webapi

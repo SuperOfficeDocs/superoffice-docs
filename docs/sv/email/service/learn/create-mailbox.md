@@ -26,7 +26,7 @@ Du kan skapa en brevlåda som ska användas för att importera e-post till Super
 1. I fältet **Adress** anger du namnet utan @domän.xx och trycker på **tabbtangenten** för att lägga till CRM Online-inställningarna till e-postadressen.
 
     > [!NOTE]
-    > En vänlig e-postadress kan läggas till på adressen genom att ("vänligt namn") läggs till i slutet av e-postadressen. Exempel: <info@company.com> (Kund AB).
+    > En vänlig e-postadress kan läggas till på adressen genom att ("vänligt namn") läggs till i slutet av e-postadressen. Exempel: `info@company.com` (Kund AB).
 
 1. Välj kategori, prioritet, och ärendetyp:
 
@@ -56,7 +56,7 @@ Du kan skapa en brevlåda som ska användas för att importera e-post till Super
 1. I fältet **Adress** anger du den e-postadress du vill använda för brevlådan.
 
     > [!NOTE]
-    > Konfigurera vidarebefordran till denna e-postadress om du tänker använda ditt företags e-postadress (till exempel <info@company.com>). Använd **Adress för vidarebefordran** på skärmen **Brevlådor**.
+    > Konfigurera vidarebefordran till denna e-postadress om du tänker använda ditt företags e-postadress (till exempel `info@company.com`). Använd **Adress för vidarebefordran** på skärmen **Brevlådor**.
 
 1. I listrutan **Protokoll** väljer du vilket protokoll som ska användas för att kommunicera med e-postservern. Några av protokollen kan behöva ytterligare konfigurering.
 
@@ -80,7 +80,7 @@ Du kan skapa en brevlåda som ska användas för att importera e-post till Super
 
     [!include[Common steps](includes/step-set-reply.md)]
 
-1. Gå till fliken **Alias**. Här kan du ange ett e-postalias för en brevlåda (till exempel om <sales@company.com> och <sale@company.com> går till samma brevlåda). Du lägger till ett alias genom att ange en e-postadress och sedan klicka på **+**.
+1. Gå till fliken **Alias**. Här kan du ange ett e-postalias för en brevlåda (till exempel om `sales@company.com` och `sale@company.com` går till samma brevlåda). Du lägger till ett alias genom att ange en e-postadress och sedan klicka på **+**.
 
 1. [!include[Import stuff](includes/step-import.md)]
 

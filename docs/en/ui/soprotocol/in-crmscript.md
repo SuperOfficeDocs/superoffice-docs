@@ -24,6 +24,5 @@ EventData ed = getEventData();
 ed.setNavigateTo("soprotocol:main[refresh=true]");
 ```
 
-
 <!-- Referenced links -->
 [1]: ../../automation/crmscript/reference/CRMScript.Native.EventData.yml

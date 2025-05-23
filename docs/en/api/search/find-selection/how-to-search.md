@@ -10,6 +10,7 @@ client: netserver
 version: 9.2
 ---
 
+<!-- markdownlint-disable-file MD051 MD044 -->
 # How to Search using Find Selections
 
 > [!NOTE]
@@ -40,7 +41,6 @@ The Find page dynamically displays all entities that support the new Find system
 
 To determine which entities are available, use the MDO endpoint to get a list of available entities using the `SelectionMemberTypeV2` MDOList provider.
 
-<!-- markdownlint-disable MD051 -->
 ### [REST](#tab/find-panel-1)
 
 ```http
@@ -79,7 +79,6 @@ MDOListItem[] findEntities = await mdoAgent.GetListAsync("selectionmembertypev2"
 ```
 
 ***
-<!-- markdownlint-restore -->
 
 The result is an array of [MDOListItem][2] and contains the following details. Use the name of the `ExtraInfo` property to define the search entity.
 
@@ -128,7 +127,6 @@ The value of `typicalSearchId` determines some internal logic.
 | 0 | Gets the working set and doesn’t do anything else.|
 | 1 or higher | Gets a selection with criteria set from the typical search of the given ID. |
 
-<!-- markdownlint-disable MD051 -->
 ### [HTTP RPC Agent](#tab/get-archive-provider-1)
 
 ```http
@@ -162,7 +160,6 @@ SelectionForFind selectionForFind = await selectionAgent.GetSelectionForFind(ent
 ```
 
 ***
-<!-- markdownlint-restore -->
 
 ### SelectionForFind properties
 
@@ -252,7 +249,6 @@ To specify a field restriction you first need to get an [ArchiveColumnInfo][4] i
 
 #### Get archive provider columns
 
-<!-- markdownlint-disable MD051 -->
 ### [HTTP RPC Agent](#tab/get-archive-provider-columns-1)
 
 ```http
@@ -282,7 +278,6 @@ ArchiveColumnInfo[] availableColumns = await archiveAgent.GetAvailableColumns(pr
 ```
 
 ***
-<!-- markdownlint-restore -->
 
 #### Get archive provider column results
 
@@ -321,7 +316,6 @@ A field operator determines what type of operation the criteria performs, such a
 | listInterest   | Yes |
 | userGroup      | Yes |
 
-<!-- markdownlint-disable MD051 -->
 ### [REST](#tab/get-operators-1)
 
 ```http
@@ -365,7 +359,6 @@ MDOListItem[] listItems = await mdoAgent.GetList("restrictionOperators","true","
 ```
 
 ***
-<!-- markdownlint-restore -->
 
 #### REST JSON results
 
@@ -400,7 +393,6 @@ Selection criteria are fetched and stored using the `GetDynamicSelectionCriteria
 
 This example demonstrates how to get existing CriteriaGroups for a given selection.
 
-<!-- markdownlint-disable MD051 -->
 #### [REST](#tab/get-criteriagroups-1)
 
 ```http
@@ -439,7 +431,6 @@ ArchiveRestrictionGroup[] criteriaGroups = await selectionAgent.GetDynamicSelect
 ```
 
 ***
-<!-- markdownlint-restore -->
 
 The following example demonstrates how to set the criteria for the personalized person entity. The criteria say to return all persons where the first name starts with B and ends with Y, or the first name starts with R and ends with Y.
 
@@ -454,7 +445,6 @@ WHERE (fName LIKE 'B%' AND lName LIKE 'Y%')
 
 This code sets the criteria for the personalized selection equal to the `SelectionForFind.SelectionId`. The `SetDynamicSelectionCriteriaGroups[Async]` method returns the criteria groups that were passed in.
 
-<!-- markdownlint-disable MD051 -->
 ### [REST](#tab/set-criteria-groups-1)
 
 [!code-http[HTTP](includes/set-criteria-groups-rest.http)]
@@ -468,7 +458,6 @@ This code sets the criteria for the personalized selection equal to the `Selecti
 [!code-csharp[CS](includes/set-criteria-groups-webapi.cs)]
 
 ***
-<!-- markdownlint-restore -->
 
 ## Perform the search
 
@@ -484,7 +473,6 @@ The search is performed using the Archive endpoint, which facilitates passing co
 
 The `selectionId` in these examples is obtained from the `SelectionForFind.SelectionId` property in previous snippets.
 
-<!-- markdownlint-disable MD051 -->
 ### [REST](#tab/perform-search-1)
 
 ```http
@@ -574,7 +562,6 @@ foreach (var listItem in results)
 ```
 
 ***
-<!-- markdownlint-restore -->
 
 ## Summary
 

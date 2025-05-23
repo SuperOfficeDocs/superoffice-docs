@@ -8,7 +8,6 @@ keywords: Tjeneste, mappe
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
-
 language: no
 ---
 
@@ -34,8 +33,7 @@ Du kan endre både navnet på en mappe og informasjonen du oppga da du opprettet
 
 ## Slett mapper
 
-Når du sletter en mappe, slettes også alt innholdet (for eksempel utvalg, FAQ-oppføringer, 
-svarmaler, tabeller, skript og makroer) i mappen fra SuperOffice.
+Når du sletter en mappe, slettes også alt innholdet (for eksempel utvalg, FAQ-oppføringer, svarmaler, tabeller, skript og makroer) i mappen fra SuperOffice.
 
 1. Gå til ønsket mappe.
 2. Klikk på mappenavnet.

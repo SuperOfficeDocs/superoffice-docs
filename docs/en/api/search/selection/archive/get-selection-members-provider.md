@@ -36,7 +36,7 @@ Once the Rows have been selected with the `GetRows` method exposed in the `Provi
 
 | SelectionId | ContactId | Name | NameDepartment |
 |---|---|---|---|
-| [I:58] | [I:127] | Ghost Rider, | entity dept |
+| [I:58] | [I:127] | Ghost Rider | entity dept |
 | [I:58] | [I:126] | Frank Hardy | |
-| [I:58] | [I:123] | Japanese Company,  Tokyo |
-| [I:58] | [I:43]  | Uniformeffekter AS, UAvdeling |
+| [I:58] | [I:123] | Japanese Company | Tokyo |
+| [I:58] | [I:43]  | Uniformeffekter AS | UAvdeling |
