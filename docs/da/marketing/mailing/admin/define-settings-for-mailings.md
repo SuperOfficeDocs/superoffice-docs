@@ -36,7 +36,7 @@ Følgende indstillinger er tilgængelige for e-mail-forsendelser:
 
 * **SMTP-tråde**: Her kan du indtaste det ønskede antal samtidige baggrundsprocesser, der kan sende mailudsendelser ud. Ved at øge antallet kan du få et højere gennemløb, men det vil også øge belastningen på serveren og mailserveren.
 
-* **Standardafsender**: Systemets standardafsenderadresse til e-mails. Denne adresse vil normalt blive tilsidesat af de adresser, der figurerer som mailkonti. Der skal være tale om en e-mailadresse, som er importeret til SuperOffice Service. For eksempel, [support@company.com](support@company.com).
+* **Standardafsender**: Systemets standardafsenderadresse til e-mails. Denne adresse vil normalt blive tilsidesat af de adresser, der figurerer som mailkonti. Der skal være tale om en e-mailadresse, som er importeret til SuperOffice Service. For eksempel, `support@company.com`.
 
 [!include[List of fields for mailings](../../learn/includes/mailing-smtp-fields.md)]
 
