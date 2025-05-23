@@ -6,5 +6,5 @@ keywords: contact, company, services, API, WebAPI, agents, CreateDefaultContactE
 author: Eivind Fasting
 date: 05.23.2021
 topic: howto
-redirect_url: https://docs.superoffice.com/en/api/netserver/web-services/howto/company/create-contact.html
+redirect_url: https://docs.superoffice.com/en/api/netserver/web-services/howto/company/create-contact.html?tabs=rpc
 ---
