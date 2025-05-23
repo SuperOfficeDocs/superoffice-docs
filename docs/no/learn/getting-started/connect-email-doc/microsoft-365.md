@@ -4,12 +4,12 @@ title: Microsoft 365-integrasjon som din løsning
 description: Slik kobler du  Microsoft 365 e-postkontoen, dokumenter og kalenderen til SuperOffice.
 keywords: Microsoft 365, SharePoint, Outlook, epost, dokument, kalender, invitasjon
 author: Bergfrid Dias
-date: 08.28.2023
-version: 10
+date: 05.28.2025
+version: 10.5
 topic: howto
-language: no
 audience: person
 audience_tooltip: SuperOffice CRM
+language: no
 ---
 
 # Microsoft 365-integrasjon som din løsning
@@ -22,7 +22,7 @@ Med Microsoft 365 som din løsning finnes det flere måter å koble e-postkontoe
 
 Velg et av følgende alternativer:
 
-* [SuperOffice Inbox][1] (standard). [Se denne videoen for å komme i gang][10].
+* [SuperOffice Inbox][1] (standard).
 
 * [!include[SuperOffice for Outlook](includes/why-superoffice-for-outlook.md)]
 
@@ -46,4 +46,3 @@ Velg et av følgende alternativer:
 <!-- Referenced links -->
 [1]: ../../../email/inbox/learn/setup.md
 [3]: ../../../../en/document/cloud/sharepoint-documents/set-up.md
-[10]: https://www.youtube.com/embed/QoAanZgQs5A
