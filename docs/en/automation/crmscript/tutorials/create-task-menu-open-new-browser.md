@@ -15,7 +15,7 @@ Opening a new browser tab/window from a task menu can be achieved by [creating a
 
 Please refer to the [documentation][1] for how to create a CRMScript.
 
-* Add the following script to the script content:
+* Add the following code to the script content:
 
 ```crmscript
 #setLanguageLevel 4;
@@ -46,7 +46,7 @@ Please refer to the [documentation][2] for how to create a tab menu item.
 * Type: Select URL. Specifying CRMScript, and therefore executing the CRMScript directly, prevents you from opening an URL in a new tab.
 * URL: Set URI to `<csbl>?_sf=4&action=doScript&includeId=openContactExternal&contactId=<cuid>`
 
-The URL defined contains 2 template variables: [csbl][3] and [cuid][4]. It is important to note that `<cuid>` will in this context be passed as `contactId` to our [script](#step-1-creating-the-crmscript), which expects this value on line3.
+The URL defined contains 2 variables: [csbl][3] and [cuid][4]. It is important to note that `<cuid>` will in this context be passed as `contactId` to our [script](#step-1-creating-the-crmscript), which expects this value on line3.
 
 With these properties the list item should look like this:
 ![task-item-definition -screenshot][img1]
