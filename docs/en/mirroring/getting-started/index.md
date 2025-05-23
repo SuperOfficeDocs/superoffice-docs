@@ -72,7 +72,7 @@ If you believe you have a great case for an application, navigate to the [applic
 [1]: ../../api/authentication/online/certificates/override-resolver.md
 [2]: ../../api/authentication/online/certificates/index.md
 [3]: ../blocked-tables.md
-[4]: https://www.nuget.org/packages/SuperOffice.Crm.Online.Mirroring
+[4]: https://www.nuget.org/packages/SuperOffice.Online.Mirroring
 [7]: ../order-database-mirroring.md
 [6]: ../../developer-portal/getting-started/get-access-to-sod.md
 [8]: ../../developer-portal/faq/update-app.md
