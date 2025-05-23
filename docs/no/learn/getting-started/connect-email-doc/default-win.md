@@ -4,12 +4,12 @@ title: SuperOffice som din løsning (Windows)
 description: Slik kobler du e-postkontoen, dokumenter og kalenderen til SuperOffice på Windows.
 keywords: epost, dokument, kalender, invitasjon, Windows
 author: Bergfrid Dias
-date: 08.28.2023
-version: 10
+date: 05.28.2025
+version: 10.5
 topic: howto
-language: no
 audience: person
 audience_tooltip: SuperOffice CRM
+language: no
 ---
 
 # SuperOffice som din løsning (Windows)
@@ -27,7 +27,7 @@ Velg et av følgende alternativer:
 
 * [WebTools][2] (standard).
 
-* [SuperOffice Inbox][1] - hvis du ikke kan bruke WebTools. [Se denne videoen for å komme i gang][10].
+* [SuperOffice Inbox][1] - hvis du ikke kan bruke WebTools.
 
 * [!include[SuperOffice for Outlook](includes/why-superoffice-for-outlook.md)]
 
@@ -47,4 +47,3 @@ Velg et av følgende alternativer:
 [1]: ../../../email/inbox/learn/setup.md
 [2]: ../../../webtools/learn/install.md
 [9]: default-mac.md
-[10]: https://www.youtube.com/embed/QoAanZgQs5A

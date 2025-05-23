@@ -1,37 +1,47 @@
 ---
 uid: help-no-email-inbox-invitations
-title: Motta invitasjoner
-description: Motta invitasjoner
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: E-post
+title: Godta invitasjoner
+description: Lær hvordan du godtar kalenderinvitasjoner i SuperOffice-innboksen og legger dem til i dagboken din
+keywords: invitasjon, ical, ics, kalender, dagbok, godta møte, godta og varsle, innboks, oppfølging
+author: Bergfrid Dias
+date: 05.28.2025
+version: 10.5
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
 # Godta invitasjoner
 
-Du kan motta invitasjoner fra en person utenfor organisasjonen din og raskt godta den og legge den til i dagboken din. Dette krever at e-postinvitasjonen inneholder en iCal-fil (.ics.) med invitasjonsdataene. I innboksen vises e-postmeldinger med iCal-invitasjoner med disse symbolene: <i class="ph ph-paperclip" aria-label="Paperclip"></i> og <i class="ph ph-calendar-blank" aria-label="Calendar"></i>.
+Du kan motta kalenderinvitasjoner fra personer utenfor organisasjonen og legge oppfølgingene til i dagboken din i SuperOffice. Invitasjonen må inneholde en iCal-fil (`.ics`). E-postmeldinger med invitasjoner vises med disse ikonene:
+<i class="ph ph-paperclip" aria-label="Paperclip"></i>
+<i class="ph ph-calendar-blank" aria-label="Calendar"></i>
 
-> [!NOTE]
-> Hvis avsenderen/arrangøren er en registrert (unik) person i SuperOffice CRM, blir invitasjoner automatisk lagt til som foreløpige oppfølginger i dagboken din. Foreløpige oppfølginger kan også opprettes for andre medarbeidere, avhengig av om preferansen **Administrere innkommende invitasjoner, deaktiver foreløpige** (under **e-post**) er aktiv.
+Hvis møtelederen er en unik registrert person i SuperOffice CRM, blir invitasjonen automatisk lagt til som en foreløpig oppfølging i dagboken din. Om dette også skjer for andre brukere, avhenger av e-postinnstillingene i **Innstillinger og vedlikehold**.
 
-## Slik godtar du en invitasjon
+## Trinn
 
-1. Gå til innboksen.
+1. Velg e-posten med invitasjonen i innboksen.
 
-2. Velg en melding som inneholder en invitasjon.
+1. Se gjennom eventuelle vedlegg før du godtar.
 
-    > [!NOTE]
-    > Hvis meldingen inneholder vedlegg (i tillegg til iCal/.ics-filen) som du vil beholde, må du arkivere eller laste dem ned *før* du svarer på invitasjonen. Når du godtar eller avslår invitasjonen, fjernes meldingen fra innboksen og sendes til **Slettet**-mappen.
-    >
-    > Klikk på pilen ved siden av vedlegget du vil lagre, og velg **Last ned** eller **Arkiver**.
+    > [!CAUTION]
+    > Når du godtar eller avslår invitasjonen, blir e-posten fjernet fra innboksen og flyttet til **Slettet**-mappen. Hvis du vil beholde vedlegg, må du [arkivere eller laste dem ned først][1].
 
-3. Klikk på knappen **Godta**.
+1. Klikk på **Godta** og velg ett av følgende alternativer:
 
-4. Velg et av følgende alternativer:
+    * **Godta og varsle avsender**
+    * **Godta uten å varsle avsender**
 
-    * Godta med bekreftelse til avsender
-    * Godta uten å informere avsender
+Oppfølgingen legges til i dagboken din, og meldingen fjernes fra innboksen.
 
-Meldingen fjernes fra innboksen, og oppfølgingen legges til i dagboken din.
+## Relatert innhold
+
+* [Arkivere e-postmeldinger][1]
+* [Om invitasjoner][2]
+
+<!-- Refererte lenker -->
+[1]: archive.md#attachment
+[2]: ../../../diary/learn/invitation/index.md

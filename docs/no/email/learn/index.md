@@ -21,7 +21,7 @@ Innboksfunksjonen i SuperOffice CRM avhenger av SuperOffice-klienten og e-postkl
 
 * [SuperOffice-innboksen][1]
 * [Gmail Link][2] – SuperOffice Gmail Link
-* [SuperOffice Mail Link][6] - SuperOffice Mail Link (Outlook og Notes-integrasjon)
+* [SuperOffice Mail Link][6] - SuperOffice Mail Link (Outlook-integrasjon)
 
 ## Sende en e-post
 

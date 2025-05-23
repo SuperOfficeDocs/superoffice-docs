@@ -1,25 +1,55 @@
 ---
 uid: help-no-email-inbox-create-task
-title: Opprette oppgave
-description: Opprette oppgave
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: E-post
+title: Opprett oppgave
+description: Lær hvordan du oppretter en oppgave i SuperOffice CRM basert på en e-postmelding
+keywords: oppgave, oppfølging, arkivere e-post, innboks, opprett oppgave, oppfølging fra e-post, e-post
+author: Bergfrid Dias
+date: 05.28.2025
+version: 10.5
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
 ---
 
-# Opprette oppgave
+# Opprett oppgave
 
-Denne funksjonen lar deg raskt legge til en oppgave i SuperOffice CRM basert på avsenderen og tekstinnholdet i e-postmeldingen.
+Du kan raskt opprette en oppgave basert på en e-postmelding i SuperOffice-innboksen. Den nye oppgaven kobles automatisk til avsenderen, og du kan også knytte den til et prosjekt, salg eller annen kontekst.
 
-1. Gå til innboksen.
-2. Merk ønsket melding i innboksen.
-3. Klikk på <i class="ph ph-archive" aria-hidden="true"></i>**Arkiv**.
-4. Klikk på **Opprett oppgave**. Dialogboksen **Oppfølging** åpnes.
-5. [Fyll ut de andre feltene med ønsket informasjon][2].
+## Trinn
 
-[!include[Add contact](includes/add-contact-opens.md)]
+1. Velg en melding i innboksen.
 
-<!-- Referenced links -->
-[2]: ../../../diary/learn/create-follow-up.md#fields
+1. Klikk på **Arkiv**-knappen (<i class="ph ph-archive" aria-hidden="true"></i>) og velg **Opprett oppgave**.
+
+1. Hvis avsenderen er ukjent, åpnes dialogboksen **Legg til person i SuperOffice**.
+
+    * Begynn å skrive for å søke etter et eksisterende firma eller person.
+    * Eller klikk på **Opprett nytt firma og ny person** for å registrere dem.
+    * Klikk på **Ikke legg til** for å hoppe over registreringen.
+
+1. [Dialogboksen for oppfølging][3] åpnes med felter forhåndsutfylt basert på e-posten. Oppdater informasjonen etter behov.
+
+    * **Firma** og **Person** foreslås automatisk.
+    * Koble oppgaven til et **Salg** eller **Prosjekt** om ønskelig.
+    * Velg en **Type**, angi **Dato** og **Tid**, og skriv inn en **Beskrivelse**.
+
+    ![Dialog for oppfølging med e-postinnhold lagt til som agenda -screenshot][img1]
+
+1. Klikk på **Lagre** for å opprette oppgaven.
+
+## Relatert innhold
+
+* [Arkivere e-post og vedlegg][1]
+* [Opprett sak][2]
+* [Om oppfølginger][4]
+
+<!-- Refererte lenker -->
+[1]: archive.md
+[2]: create-request.md
+[3]: ../../../diary/learn/create-follow-up.md#fields
+[4]: ../../../diary/learn/follow-ups.md
+
+<!-- Refererte bilder -->
+[img1]: ../../../../media/loc/en/email/inbox-create-task.png
