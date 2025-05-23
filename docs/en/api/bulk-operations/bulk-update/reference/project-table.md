@@ -15,7 +15,7 @@ client: online
 Project fields. Key constants are in `BulkUpdateSystem.ProjectFieldValueKeys`.
 
 > [!NOTE]
-> Project management requires either a Sales Premium, Service Premium, or Marketing license. For details, see the [list of user plans][1].
+> Project management requires either a Sales Premium, Service Premium, or Marketing license. For details, see the [list of user plans][2].
 
 <!-- markdownlint-disable-file MD033 -->
 <table>
@@ -227,3 +227,4 @@ See [User-Defined Fields][1].
 
 <!-- Referenced links -->
 [1]: user-defined-fields.md
+[2]: ../../../../admin/license/user-plans.md

@@ -155,7 +155,7 @@ The values used to populate validation parameters will vary depending on which S
 
 | Scenario                   | Issuer                        | Audience                 | SigningKey         |
 | -------------------------- | ----------------------------- | ------------------------ | ------------------ |
-| OAuth 2.0 / OpenID Connect | [https://{env}.SuperOffice.com](https://{env}.superoffice.com) | Application ID           | Public certificate |
+| OAuth 2.0 / OpenID Connect | `https://{env}.SuperOffice.com` | Application ID         | Public certificate |
 | System User                | SuperOffice AS                | spn:{serial claim value} | Public certificate |
 | Connectors                 | SuperOffice AS                | spn:Application ID       | Public certificate |
 | Database Mirroring         | SuperOffice AS                | spn:Application ID       | Public certificate |
