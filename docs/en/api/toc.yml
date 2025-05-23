@@ -291,11 +291,7 @@ items:
             href: web-services/howto/company/index.md
             items:
               - name: Create contact
-                href: web-services/howto/company/create-contact-services.md
-              - name: Create contact (REST)
-                href: web-services/howto/company/create-contact-rest.md
-              - name: Create contact (Agents WebApi)
-                href: web-services/howto/company/create-contact-webapi-agents.md
+                href: web-services/howto/company/create-contact.md
               - name: Get contact
                 href: web-services/howto/company/get-contact-via-services-layer.md
               - name: Get all contacts (REST)
