@@ -1,12 +1,14 @@
 ---
 uid: news-service-11
 title: What's new in SuperOffice 11
-description: Release notes. What's new in SuperOffice 11
+description: Release notes. What's new in SuperOffice Service 11
 keywords: service
 author: SuperOffice AS – Research and Development
-date: 
+date: 05.27.2025
 version: 11
 topic: reference
+audience: person
+audience_tooltip: SuperOffice Service
 ---
 
 # New and improved Service
