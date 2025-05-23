@@ -22,9 +22,9 @@ Today there are three well-defined ways to enforce validation. They are:
 * Write a validation component that implements the SuperOffice.DCF.Web.UI.IValidation interface.
 * Write application server-side NetServer Services event handlers.
 
-The JavaScript solution, which I'm not going to talk anymore about in this article, is discussed in further detail [here][1].
+The JavaScript solution, which I'm not going to talk anymore about in this article, is discussed in further detail in this [override sample][1].
 
-NetServer web service event handing is discussed in further detail in [this article][2], and will not be discussed here.
+NetServer web service event handing is discussed in further detail in the [Scripting in NetServer services article][2], and will not be discussed here.
 
 Validation components, which I am going to be discussing in this article, are well documented in the SDK. Read more about them reviewing the [documentation covering the ValidationBase class][3].
 

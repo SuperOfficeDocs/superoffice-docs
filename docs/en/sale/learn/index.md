@@ -35,6 +35,7 @@ The Sale screen organizes sales like index cards, providing a detailed overview 
 
 ## Tabs on the Sale card
 
+<!-- markdownlint-disable-file MD059 -->
 | Tab | Description |
 |---|---|
 | [Sale][4] | Contains the main fields for the sale, such as Title (mandatory), Stage, and Amount. |
