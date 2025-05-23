@@ -70,4 +70,4 @@ These changes are part of our ongoing effort to modernize the SuperOffice user i
 [2]: ../../docs/en/dashboard/learn/index.md
 [3]: ../../docs/en/search-options/selection/learn/howto/print-labels.md
 [4]: ../../docs/en/learn/section-tabs/configure-columns.md#calculate
-[5]: ../../docs/en/company/learn/print.md
+[5]: ../../docs/en/learn/basics/print.md

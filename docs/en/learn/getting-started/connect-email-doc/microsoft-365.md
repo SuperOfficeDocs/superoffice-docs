@@ -4,12 +4,12 @@ title: Microsoft 365 integration as your solution
 description: How to connect your Microsoft 365 email account, documents, and calendar to SuperOffice.
 keywords: Microsoft 365, SharePoint, Outlook, email, document, diary, invitation
 author: Kirsti Aakerholt
-date: 08.28.2023
-version: 10
+date: 05.28.2025
+version: 10.5
 topic: howto
-language: en
 audience: person
 audience_tooltip: SuperOffice CRM
+language: en
 ---
 
 # Microsoft 365 integration as your solution
@@ -24,7 +24,7 @@ With Microsoft 365 as your solution, there are several ways to connect your emai
 
 Choose one of the following options:
 
-* [SuperOffice Inbox][1] (default) [Watch this video to get started][10].
+* [SuperOffice Inbox][1] (default).
 
 * [!include[ALT](includes/why-superoffice-for-outlook.md)]
 
@@ -48,4 +48,3 @@ Choose one of the following options:
 <!-- Referenced links -->
 [1]: ../../../email/inbox/learn/setup.md
 [3]: ../../../../en/document/cloud/sharepoint-documents/set-up.md
-[10]: https://www.youtube.com/embed/QoAanZgQs5A

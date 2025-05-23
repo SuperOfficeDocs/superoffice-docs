@@ -3,7 +3,7 @@ uid: help-en-webtools
 title: WebTools
 description: Introduction to SuperOffice WebTools.
 author: SuperOffice RnD, Miriam Eirin Hiorth Johnson, Bergfrid Dias
-date: 12.04.2023
+date: 28.05.2025
 keywords: WebTools, document, email, Mail Link
 topic: concept
 language: en
@@ -76,7 +76,7 @@ Double-click the SuperOffice owl in your toolbar to open WebTools on a Mac.
 
 ## Related content
 
-* [How to use SuperOffice Inbox][7] - FAQ
+* [How to use SuperOffice Inbox][7]
 * [Connect email, documents and diary][8]
 * [Save an email in SuperOffice CRM][4]
 * [Create a document in SuperOffice CRM][5]
@@ -88,7 +88,7 @@ Double-click the SuperOffice owl in your toolbar to open WebTools on a Mac.
 [3]: https://community.superoffice.com/no/support-faqs/faq/what-to-do-when-superoffice-archiving-button-has-disappeared-from-outlook/
 [4]: ../../email/learn/index.md
 [5]: ../../document/learn/create.md
-[7]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-start-using-the-superoffice-inbox/
+[7]: ../../email/inbox/learn/index.md
 [8]: ../../learn/getting-started/connect-email-doc/index.md
 [9]: https://community.superoffice.com/en/product-releases/nyheter/produkt/document-locking/
 [10]: ../../../en/ui/soprotocol/index.md

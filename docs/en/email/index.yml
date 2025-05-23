@@ -12,7 +12,7 @@ metadata:
   so.collection: collection
   author: Bergfrid Dias
   so.author: digitaldiina
-  so.date: 09.17.2024
+  so.date: 05.25.2025
 
 # highlightedContent section (optional)
 # Maximum of 8 items
@@ -39,7 +39,7 @@ highlightedContent:
     - title: "SuperOffice Inbox"
       itemType: map
       typeDesc: overview
-      url: inbox/index.md
+      url: inbox/it/index.md
     # Card
     - title: "Email in Service and Marketing"
       itemType: map

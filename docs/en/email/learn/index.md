@@ -21,7 +21,7 @@ The inbox feature in SuperOffice CRM will depend on the SuperOffice client and e
 
 * [SuperOffice Inbox][1]
 * [Gmail Link][2] – SuperOffice Gmail Link
-* [SuperOffice Mail Link][6] - SuperOffice Mail Link (Outlook and Notes integration)
+* [SuperOffice Mail Link][6] - SuperOffice Mail Link (Outlook integration)
 
 ## Send an email
 
