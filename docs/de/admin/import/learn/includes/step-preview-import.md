@@ -3,7 +3,7 @@
 
 1. In **Vorschau des Imports anzeigen** können Sie die Importdaten durchsuchen, bevor der Import beginnt.
 
-    | Symbol | Beschreibung
+    | Symbol | Beschreibung |
     |:-:|---|
     | ![Symbol - Firma neu][img1] | Die Firma ist nicht vorhanden und wird hinzugefügt. |
     | ![Symbol - Firma geändert][img2] | Die Firma ist bereits vorhanden und wird aktualisiert. |

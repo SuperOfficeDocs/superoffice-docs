@@ -15,7 +15,7 @@ När en ny kontakt skickar in ett ärende försöker SuperOffice avgöra vilket 
 
 ## Scenario 1
 
-1. John är en ny kontakt som registrerar ett nytt ärende i kundcentret cs.liberty.com med e-postadressen <john@coca-cola.se>.
+1. John är en ny kontakt som registrerar ett nytt ärende i kundcentret cs.liberty.com med e-postadressen `john@coca-cola.se`.
 
 2. Det nya ärendet skickas till systemet där Johns e-postdomän (coca-cola.se) kontrolleras. coca-cola.se är registrerad som domän för företaget Coca-Cola.
 
@@ -31,7 +31,7 @@ När en ny kontakt skickar in ett ärende försöker SuperOffice avgöra vilket 
 
 ## Scenario 2
 
-1. Maria är en ny kontakt som registrerar ett nytt ärende i kundcentret cs.liberty.com med e-postadressen <maria@coca-cola.nl>.
+1. Maria är en ny kontakt som registrerar ett nytt ärende i kundcentret cs.liberty.com med e-postadressen `maria@coca-cola.nl`.
 2. SuperOffice kontrollerar e-postdomänen, som är registrerad på företaget Coca-Cola.
 3. Maria läggs till som ny kontakt för Coca-Cola.
 4. SuperOffice kontrollerar sedan om e-postdomänen .nl är kopplad till något av de registrerade kundspråken. E-postdomänen .nl är *inte* kopplad till något kundspråk och systemet kan därför inte fastställa något kundspråk för Maria.

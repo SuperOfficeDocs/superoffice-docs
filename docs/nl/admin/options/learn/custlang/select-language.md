@@ -15,7 +15,7 @@ Wanneer een nieuwe contactpersoon verzoek stuurt, probeert SuperOffice te bepale
 
 ## Scenario 1
 
-1. John, een nieuwe contactpersoon, registreert een nieuw verzoek in het Customer Centre cs.liberty.com met het e-mailadres <john@coca-cola.se>.
+1. John, een nieuwe contactpersoon, registreert een nieuw verzoek in het Customer Centre cs.liberty.com met het e-mailadres `john@coca-cola.se`.
 
 2. Het nieuwe verzoek wordt verzonden naar het systeem, waar het e-maildomein van John (coca-cola.se) wordt gecontroleerd. Coca-cola.se is geregistreerd als domein voor het bedrijf Coca-Cola.
 
@@ -31,7 +31,7 @@ Wanneer een nieuwe contactpersoon verzoek stuurt, probeert SuperOffice te bepale
 
 ## Scenario 2
 
-1. Maria een nieuwe contactpersoon, registreert een nieuw verzoek in het Customer Centre cs.liberty.com met het e-mailadres <maria@coca-cola.nl>.
+1. Maria een nieuwe contactpersoon, registreert een nieuw verzoek in het Customer Centre cs.liberty.com met het e-mailadres `maria@coca-cola.nl`.
 2. SuperOffice verifieert vervolgens het e-maildomein en dit wordt geregistreerd onder het bedrijf Coca-Cola.
 3. Maria wordt geregistreerd als nieuwe persoon voor Coca-Cola.
 4. SuperOffice verifieert vervolgens of het e-maildomein .nl gekoppeld is aan een van de geregistreerde klanttalen. Het e-maildomein .nl is *niet* gekoppeld aan een klanttaal en daarom kan er geen enkele klanttaal worden bepaald voor Maria.

@@ -3,11 +3,9 @@
 
 | Statusname | Kriterien | Erläuterung | Aufgabe |
 |---|---|---|---|
-| Kostenaufwändiger Kunde | **Anzahl von Aktivitäten** vom Typ **Marketing** innerhalb des Zeitraums ist hoch.
-**Anzahl von Verkäufen** mit dem Status **Verkauft** innerhalb des Zeitraums ist gering. | Sie haben in Bezug auf den Kunden einiges an Marketing-Arbeit geleistet, was jedoch kaum oder gar keine Verkäufe erbracht hat. | Planen Sie eine interne Besprechung, um herauszufinden, wie Sie eine rentable Kundenbeziehung herstellen können. |
+| Kostenaufwändiger Kunde | **Anzahl von Aktivitäten** vom Typ **Marketing** innerhalb des Zeitraums ist hoch. **Anzahl von Verkäufen** mit dem Status **Verkauft** innerhalb des Zeitraums ist gering. | Sie haben in Bezug auf den Kunden einiges an Marketing-Arbeit geleistet, was jedoch kaum oder gar keine Verkäufe erbracht hat. | Planen Sie eine interne Besprechung, um herauszufinden, wie Sie eine rentable Kundenbeziehung herstellen können. |
 | Vernachlässigter Kunde | **Anzahl von Aktivitäten** mit der Richtung **Ausgehende** innerhalb des Zeitraums ist niedrig. | Sie haben sehr wenig Kontakt zu dem Kunden gehabt. | Planen Sie einen Anruf bei dem Kunden, um die Kundenbeziehung aufrecht zu erhalten. |
-| Ruhender Kunde | **Anzahl von Aktivitäten** mit der Richtung **Eingehende** innerhalb des Zeitraums ist niedrig oder null.
-**Anzahl von Aktivitäten** mit der Richtung **Ausgehende** innerhalb des Zeitraums ist hoch. | Sie versuchen, mit dem Kunden in Kontakt zu treten, erhalten jedoch kaum oder gar keine Antwort. | Vereinbaren Sie eine Besprechung mit dem Kunden, um den Grund für die schwache Kundenbeziehung zu ermitteln. |
+| Ruhender Kunde | **Anzahl von Aktivitäten** mit der Richtung **Eingehende** innerhalb des Zeitraums ist niedrig oder null. **Anzahl von Aktivitäten** mit der Richtung **Ausgehende** innerhalb des Zeitraums ist hoch. | Sie versuchen, mit dem Kunden in Kontakt zu treten, erhalten jedoch kaum oder gar keine Antwort. | Vereinbaren Sie eine Besprechung mit dem Kunden, um den Grund für die schwache Kundenbeziehung zu ermitteln. |
 
 ## Projekte
 

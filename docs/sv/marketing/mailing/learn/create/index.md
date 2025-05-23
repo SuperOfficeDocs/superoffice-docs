@@ -55,7 +55,7 @@ Det första du måste göra är att välja vilken typ av utskick du vill skicka.
 
 Din ämnesrad påverkar öppningsfrekvensen för ditt utskick. Människor bestämmer om de ska öppna och läsa din e-post baserat på din ämnesrad. Så se till att din ämnesrad väcker uppmärksamhet.
 
-Avsändaren spelar också en roll för öppningsfrekvensen. Det är mer troligt att personer öppnar din e-post om de känner igen avsändarens namn. Du styr hur avsändaren visas genom att ange avsändarens namn och e-postadress så här: "Namn"<email@address.com>
+Avsändaren spelar också en roll för öppningsfrekvensen. Det är mer troligt att personer öppnar din e-post om de känner igen avsändarens namn. Du styr hur avsändaren visas genom att ange avsändarens namn och e-postadress så här: `"Namn"<email@address.com>`
 
 Om du använder Google Analytics för att analysera trafik och användarbeteende på din webbplats kan du koppla dina utskick till dina Google Analytics-rapporter.
 

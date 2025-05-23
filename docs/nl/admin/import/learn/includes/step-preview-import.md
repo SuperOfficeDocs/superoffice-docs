@@ -3,7 +3,7 @@
 
 1. In het venster **Voorbeeld van import** kunt u bladeren door de importgegevens voordat de import begint.
 
-    | Pictogram | Beschrijving
+    | Pictogram | Beschrijving |
     |:-:|---|
     | ![Pictogram - bedrijf nieuw][img1] | Het bedrijf bestaat niet en zal worden toegevoegd. |
     | ![Pictogram - bedrijf gewijzigd][img2] | Het bedrijf bestaat al en zal worden bijgewerkt. |

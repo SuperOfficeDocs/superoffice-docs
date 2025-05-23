@@ -11,9 +11,8 @@ client: win
 envir: onsite
 ---
 
-# Tilbakestille felttilordning
 <!-- markdownlint-disable-file MD029 -->
-
+# Tilbakestille felttilordning
 
 1. [!include[How to open import](includes/open-import.md)]
 

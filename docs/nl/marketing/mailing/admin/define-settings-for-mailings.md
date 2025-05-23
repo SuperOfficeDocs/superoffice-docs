@@ -36,7 +36,7 @@ De volgende instellingen zijn beschikbaar voor mailings per e-mail:
 
 * **SMTP-threads**: Hier kunt u het aantal gelijktijdige achtergrondprocessen invoeren voor de verzending van de e-mails in een mailing. Als u dit aantal verhoogt, wordt de doorvoer hoger, maar worden ook de server en de mailserver zwaarder belast.
 
-* **Standaard Van-adres**: Het standaard afzenderadres van de e-mail van het systeem. Dit adres wordt meestal vervangen door de adressen die in de postbussen zijn ingevoerd. Dit moet een e-mailadres zijn dat in SuperOffice Service is geïmporteerd. Bijvoorbeeld, <support@company.com>.
+* **Standaard Van-adres**: Het standaard afzenderadres van de e-mail van het systeem. Dit adres wordt meestal vervangen door de adressen die in de postbussen zijn ingevoerd. Dit moet een e-mailadres zijn dat in SuperOffice Service is geïmporteerd. Bijvoorbeeld, [support@company.com](support@company.com).
 
 [!include[List of fields for mailings](../../learn/includes/mailing-smtp-fields.md)]
 

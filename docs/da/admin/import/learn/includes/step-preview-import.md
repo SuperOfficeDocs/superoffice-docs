@@ -3,7 +3,7 @@
 
 1. I **Forhåndsvisning** kan du gennemse importdataene, før importen starter.
 
-    | Ikon | Beskrivelse
+    | Ikon | Beskrivelse |
     |:-:|---|
     | ![Ikon - firma nyt][img1] | Firmaet findes ikke og vil blive tilføjet. |
     | ![Ikon - firma ændret][img2] | Firmaet findes allerede og vil blive opdateret. |
