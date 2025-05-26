@@ -8,14 +8,14 @@ items:
   - crmscript
   children:
   - CRMScript.NetServer.NSWorkflowStepBase.#ctor
-  - CRMScript.NetServer.NSWorkflowStepBase.GetWorkflowStepId()
-  - CRMScript.NetServer.NSWorkflowStepBase.SetWorkflowStepId(Integer)
-  - CRMScript.NetServer.NSWorkflowStepBase.GetWorkflowId()
-  - CRMScript.NetServer.NSWorkflowStepBase.SetWorkflowId(Integer)
-  - CRMScript.NetServer.NSWorkflowStepBase.GetStepType()
-  - CRMScript.NetServer.NSWorkflowStepBase.SetStepType(NSWorkflowStepType)
   - CRMScript.NetServer.NSWorkflowStepBase.GetRank()
+  - CRMScript.NetServer.NSWorkflowStepBase.GetStepType()
+  - CRMScript.NetServer.NSWorkflowStepBase.GetWorkflowId()
+  - CRMScript.NetServer.NSWorkflowStepBase.GetWorkflowStepId()
   - CRMScript.NetServer.NSWorkflowStepBase.SetRank(Integer)
+  - CRMScript.NetServer.NSWorkflowStepBase.SetStepType(NSWorkflowStepType)
+  - CRMScript.NetServer.NSWorkflowStepBase.SetWorkflowId(Integer)
+  - CRMScript.NetServer.NSWorkflowStepBase.SetWorkflowStepId(Integer)
   name: NSWorkflowStepBase
   nameWithType: NSWorkflowStepBase
   fullName: CRMScript.NetServer.NSWorkflowStepBase

@@ -8,14 +8,14 @@ items:
   - crmscript
   children:
   - CRMScript.NetServer.NSWorkflowGoal.#ctor
-  - CRMScript.NetServer.NSWorkflowGoal.GetWorkflowGoalId()
-  - CRMScript.NetServer.NSWorkflowGoal.SetWorkflowGoalId(Integer)
-  - CRMScript.NetServer.NSWorkflowGoal.GetWorkflowId()
-  - CRMScript.NetServer.NSWorkflowGoal.SetWorkflowId(Integer)
   - CRMScript.NetServer.NSWorkflowGoal.GetGoalType()
-  - CRMScript.NetServer.NSWorkflowGoal.SetGoalType(NSWorkflowGoalType)
   - CRMScript.NetServer.NSWorkflowGoal.GetRestrictionGroups()
+  - CRMScript.NetServer.NSWorkflowGoal.GetWorkflowGoalId()
+  - CRMScript.NetServer.NSWorkflowGoal.GetWorkflowId()
+  - CRMScript.NetServer.NSWorkflowGoal.SetGoalType(NSWorkflowGoalType)
   - CRMScript.NetServer.NSWorkflowGoal.SetRestrictionGroups(NSArchiveRestrictionGroup[])
+  - CRMScript.NetServer.NSWorkflowGoal.SetWorkflowGoalId(Integer)
+  - CRMScript.NetServer.NSWorkflowGoal.SetWorkflowId(Integer)
   name: NSWorkflowGoal
   nameWithType: NSWorkflowGoal
   fullName: CRMScript.NetServer.NSWorkflowGoal
@@ -216,3 +216,17 @@ references:
   name: NSArchiveRestrictionGroup
   nameWithType: NSArchiveRestrictionGroup
   fullName: CRMScript.NetServer.NSArchiveRestrictionGroup
+- uid: CRMScript.NetServer.NSArchiveRestrictionGroup[]
+  isExternal: true
+  name: NSArchiveRestrictionGroup[]
+  nameWithType: NSArchiveRestrictionGroup[]
+  fullName: CRMScript.NetServer.NSArchiveRestrictionGroup[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSArchiveRestrictionGroup
+    isExternal: true
+    name: NSArchiveRestrictionGroup
+    nameWithType: NSArchiveRestrictionGroup
+    fullName: CRMScript.NetServer.NSArchiveRestrictionGroup
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'

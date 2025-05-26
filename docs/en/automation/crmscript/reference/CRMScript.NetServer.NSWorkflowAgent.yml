@@ -8,40 +8,40 @@ items:
   - crmscript
   children:
   - CRMScript.NetServer.NSWorkflowAgent.#ctor
+  - CRMScript.NetServer.NSWorkflowAgent.AddAfterWorkflowStep(Integer,NSWorkflowStepBase)
+  - CRMScript.NetServer.NSWorkflowAgent.ConnectEmailFlowContent(Integer,Integer)
+  - CRMScript.NetServer.NSWorkflowAgent.CopyEmailFlow(Integer,String)
+  - CRMScript.NetServer.NSWorkflowAgent.CopyEmailFlowContent(Integer,Integer)
   - CRMScript.NetServer.NSWorkflowAgent.CreateDefaultEmailFlow()
-  - CRMScript.NetServer.NSWorkflowAgent.SaveEmailFlow(NSEmailFlow)
-  - CRMScript.NetServer.NSWorkflowAgent.DeleteEmailFlow(Integer)
   - CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowEvent()
   - CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowEventResult()
   - CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowFilter()
   - CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowGoal()
-  - CRMScript.NetServer.NSWorkflowAgent.SaveWorkflowGoal(NSWorkflowGoal)
-  - CRMScript.NetServer.NSWorkflowAgent.DeleteWorkflowGoal(Integer)
-  - CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowTrigger()
-  - CRMScript.NetServer.NSWorkflowAgent.SaveWorkflowTrigger(NSWorkflowTrigger)
-  - CRMScript.NetServer.NSWorkflowAgent.DeleteWorkflowTrigger(Integer)
-  - CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowWaitForAction()
-  - CRMScript.NetServer.NSWorkflowAgent.SaveWorkflowWaitForAction(NSWorkflowWaitForAction)
-  - CRMScript.NetServer.NSWorkflowAgent.DeleteWorkflowWaitForAction(Integer)
-  - CRMScript.NetServer.NSWorkflowAgent.GetEmailFlow(Integer)
-  - CRMScript.NetServer.NSWorkflowAgent.TryAddPersonsToEmailFlow(Integer,Integer[])
-  - CRMScript.NetServer.NSWorkflowAgent.RemoveParticipantsFromEmailFlow(Integer,Integer[])
-  - CRMScript.NetServer.NSWorkflowAgent.CreateEmailFlowContent(Integer,String)
-  - CRMScript.NetServer.NSWorkflowAgent.ConnectEmailFlowContent(Integer,Integer)
-  - CRMScript.NetServer.NSWorkflowAgent.CopyEmailFlowContent(Integer,Integer)
-  - CRMScript.NetServer.NSWorkflowAgent.UpdateFormSubmissions(Integer)
-  - CRMScript.NetServer.NSWorkflowAgent.SetStatusOnWorkflow(Integer,WorkflowDefinitionStatus)
-  - CRMScript.NetServer.NSWorkflowAgent.CopyEmailFlow(Integer,String)
-  - CRMScript.NetServer.NSWorkflowAgent.Run()
-  - CRMScript.NetServer.NSWorkflowAgent.SendEvent(NSWorkflowEvent)
-  - CRMScript.NetServer.NSWorkflowAgent.GetWorkflowGoal(Integer)
-  - CRMScript.NetServer.NSWorkflowAgent.GetWorkflowStep(Integer)
-  - CRMScript.NetServer.NSWorkflowAgent.AddAfterWorkflowStep(Integer,NSWorkflowStepBase)
   - CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowStepFromType(WorkflowStepType)
   - CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowStepOptionFromType(WorkflowSplitOptionType)
+  - CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowTrigger()
+  - CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowWaitForAction()
+  - CRMScript.NetServer.NSWorkflowAgent.CreateEmailFlowContent(Integer,String)
+  - CRMScript.NetServer.NSWorkflowAgent.DeleteEmailFlow(Integer)
+  - CRMScript.NetServer.NSWorkflowAgent.DeleteWorkflowGoal(Integer)
+  - CRMScript.NetServer.NSWorkflowAgent.DeleteWorkflowTrigger(Integer)
+  - CRMScript.NetServer.NSWorkflowAgent.DeleteWorkflowWaitForAction(Integer)
+  - CRMScript.NetServer.NSWorkflowAgent.GetEmailFlow(Integer)
+  - CRMScript.NetServer.NSWorkflowAgent.GetWorkflowGoal(Integer)
+  - CRMScript.NetServer.NSWorkflowAgent.GetWorkflowStep(Integer)
   - CRMScript.NetServer.NSWorkflowAgent.GetWorkflowStepOption(Integer)
   - CRMScript.NetServer.NSWorkflowAgent.GetWorkflowTrigger(Integer)
   - CRMScript.NetServer.NSWorkflowAgent.GetWorkflowWaitForAction(Integer)
+  - CRMScript.NetServer.NSWorkflowAgent.RemoveParticipantsFromEmailFlow(Integer,Integer[])
+  - CRMScript.NetServer.NSWorkflowAgent.Run()
+  - CRMScript.NetServer.NSWorkflowAgent.SaveEmailFlow(NSEmailFlow)
+  - CRMScript.NetServer.NSWorkflowAgent.SaveWorkflowGoal(NSWorkflowGoal)
+  - CRMScript.NetServer.NSWorkflowAgent.SaveWorkflowTrigger(NSWorkflowTrigger)
+  - CRMScript.NetServer.NSWorkflowAgent.SaveWorkflowWaitForAction(NSWorkflowWaitForAction)
+  - CRMScript.NetServer.NSWorkflowAgent.SendEvent(NSWorkflowEvent)
+  - CRMScript.NetServer.NSWorkflowAgent.SetStatusOnWorkflow(Integer,WorkflowDefinitionStatus)
+  - CRMScript.NetServer.NSWorkflowAgent.TryAddPersonsToEmailFlow(Integer,Integer[])
+  - CRMScript.NetServer.NSWorkflowAgent.UpdateFormSubmissions(Integer)
   name: NSWorkflowAgent
   nameWithType: NSWorkflowAgent
   fullName: CRMScript.NetServer.NSWorkflowAgent
@@ -856,3 +856,31 @@ references:
   name: WorkflowDefinitionStatus
   nameWithType: WorkflowDefinitionStatus
   fullName: CRMScript.NetServer.WorkflowDefinitionStatus
+- uid: CRMScript.Global.Integer[]
+  isExternal: true
+  name: Integer[]
+  nameWithType: Integer[]
+  fullName: CRMScript.Global.Integer[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Integer
+    isExternal: true
+    name: Integer
+    nameWithType: Integer
+    fullName: CRMScript.Global.Integer
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Bool[]
+  isExternal: true
+  name: Bool[]
+  nameWithType: Bool[]
+  fullName: CRMScript.Global.Bool[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Bool
+    isExternal: true
+    name: Bool
+    nameWithType: Bool
+    fullName: CRMScript.Global.Bool
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'

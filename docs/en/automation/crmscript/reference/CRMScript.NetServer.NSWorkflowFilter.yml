@@ -66,3 +66,30 @@ items:
       description: "The restrictions to set."
     return:
       type: CRMScript.Global.Void
+references:
+- uid: CRMScript.NetServer.NSWorkflowFilter
+  commentId: T:CRMScript.NetServer.NSWorkflowFilter
+  isExternal: true
+  name: NSWorkflowFilter
+  nameWithType: NSWorkflowFilter
+  fullName: CRMScript.NetServer.NSWorkflowFilter
+- uid: CRMScript.NetServer.NSArchiveRestrictionGroup[]
+  isExternal: true
+  name: NSArchiveRestrictionGroup[]
+  nameWithType: NSArchiveRestrictionGroup[]
+  fullName: CRMScript.NetServer.NSArchiveRestrictionGroup[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSArchiveRestrictionGroup
+    isExternal: true
+    name: NSArchiveRestrictionGroup
+    nameWithType: NSArchiveRestrictionGroup
+    fullName: CRMScript.NetServer.NSArchiveRestrictionGroup
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
