@@ -1,9 +1,9 @@
 ---
-uid: create-contact
+uid: api-create-contact
 title: Create a new company
 description: How to create a new company
 keywords: contact, company, services, WebApi, API, rest, RPC, JavaScript CreateDefaultContactEntity, ContactAgent
-author: Eivind Fasting
+author: Tony Yates, Eivind Fasting
 date: 05.23.2025
 topic: howto
 ---
@@ -12,7 +12,7 @@ topic: howto
 
 # Create a new company
 
-These example shows how to create a new default contact, assign values to the properties of the entity and save it.
+These examples show how to create a new default contact, assign values to the properties of the entity and save it using the different integration points in SuperOffice.
 
 ## [Restful REST](#tab/rest)
 
