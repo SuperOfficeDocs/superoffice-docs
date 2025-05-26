@@ -13,95 +13,96 @@ metadata:
 # itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
 
 landingContent:
+
   # Card
   - title: Learn about CRMScript
     linkLists:
       - itemType: map
         typeDesc: overview
         links:
-          - text: What is CRMSCript?
-            url: overview/index.md
-          - text: SuperOffice view of the world
-            url: ../../contact/reference/index.md
-          - text: What can I do with CRMScript?
-            url: overview/crmscript-usage.md
+        - text: What is CRMSCript?
+          url: overview/index.md
+        - text: SuperOffice view of the world
+          url: ../../contact/reference/index.md
+        - text: What can I do with CRMScript?
+          url: overview/crmscript-usage.md
   # Card
   - title: Getting started
     linkLists:
       - itemType: power_settings_new
         typeDesc: get-started
         links:
-          - text: Getting started
-            url: overview/getting-started.md
-          - text: How do I create and run CRMScripts?
-            url: overview/envir-and-tools.md
+        - text: Getting started
+          url: overview/getting-started.md
+        - text: How do I create and run CRMScripts?
+          url: overview/envir-and-tools.md
   # Card
   - title: Fundamentals 1
     linkLists:
       - itemType: school
         typeDesc: learn
         links:
-          - text: Code structure
-            url: fundamentals/syntax.md
-          - text: Reserved words
-            url: fundamentals/reserved.md
-          - text: Variables
-            url: fundamentals/variables.md
-          - text: Operators
-            url: fundamentals/operators.md
-          - text: Intro to data types
-            url: fundamentals/datatypes-intro.md
-          - text: Functions
-            url: fundamentals/functions.md
-          - text: Structs
-            url: fundamentals/structs.md
-          - text: Arrays
-            url: fundamentals/arrays.md
-          - text: Write output
-            url: fundamentals/output.md
+        - text: Code structure
+          url: fundamentals/syntax.md
+        - text: Reserved words
+          url: fundamentals/reserved.md
+        - text: Variables
+          url: fundamentals/variables.md
+        - text: Operators
+          url: fundamentals/operators.md
+        - text: Intro to data types
+          url: fundamentals/datatypes-intro.md
+        - text: Functions
+          url: fundamentals/functions.md
+        - text: Structs
+          url: fundamentals/structs.md
+        - text: Arrays
+          url: fundamentals/arrays.md
+        - text: Write output
+          url: fundamentals/output.md
   # Card
   - title: Fundamentals 2 - control and loops
     linkLists:
       - itemType: school
         typeDesc: learn
         links:
-          - text: Conditions
-            url: fundamentals/conditions.md
-          - text: Try catch
-            url: fundamentals/try-catch.md
-          - text: For loops
-            url: fundamentals/for-loops.md
-          - text: Foreach loops
-            url: fundamentals/foreach-loops.md
-          - text: While loops
-            url: fundamentals/while-loops.md
-          - text: Break and continue
-            url: fundamentals/loop-control.md
+        - text: Conditions
+          url: fundamentals/conditions.md
+        - text: Try catch
+          url: fundamentals/try-catch.md
+        - text: For loops
+          url: fundamentals/for-loops.md
+        - text: Foreach loops
+          url: fundamentals/foreach-loops.md
+        - text: While loops
+          url: fundamentals/while-loops.md
+        - text: Break and continue
+          url: fundamentals/loop-control.md
   # Card
   - title: Data types
     linkLists:
       - itemType: explore
         typeDesc: concept
         links:
-          - text: Bool
-            url: datatypes/bool-type.md
-          - text: Integer
-            url: datatypes/integer-type.md
-          - text: Float
-            url: datatypes/float-type.md
-          - text: Map
-            url: datatypes/map-type.md
-          - text: String
-            url: datatypes/string-type.md
-          - text: Date
-            url: datatypes/date-type.md
-          - text: Time
-            url: datatypes/time-type.md
-          - text: DateTime
-            url: datatypes/datetime-type.md
-          - text: Generic
-            url: datatypes/generic-type.md
-    # Card
+        - text: Bool
+          url: datatypes/bool-type.md
+        - text: Integer
+          url: datatypes/integer-type.md
+        - text: Float
+          url: datatypes/float-type.md
+        - text: Map
+          url: datatypes/map-type.md
+        - text: String
+          url: datatypes/string-type.md
+        - text: Date
+          url: datatypes/date-type.md
+        - text: Time
+          url: datatypes/time-type.md
+        - text: DateTime
+          url: datatypes/datetime-type.md
+        - text: Generic
+          url: datatypes/generic-type.md
+   # Card
   - title: Code quality
     linkLists:
       - itemType: explore
@@ -121,61 +122,61 @@ landingContent:
       - itemType: explore
         typeDesc: concept
         links:
-          - text: Built in debugger
-            url: debugging/built-in-debugger.md
-          - text: Log messages
-            url: debugging/log-messages.md
-          - text: Print debug
-            url: debugging/print-debug.md
-          - text: Development mode
-            url: debugging/development-mode.md
-          - text: Using trace
-            url: debugging/using-trace.md
-          - text: Helper functions for logging
-            url: debugging/helper-functions-for-logging.md
-          - text: Troubleshooting
-            url: debugging/troubleshooting.md
+            - text: Built in debugger
+              url: debugging/built-in-debugger.md
+            - text: Log messages
+              url: debugging/log-messages.md
+            - text: Print debug
+              url: debugging/print-debug.md
+            - text: Development mode
+              url: debugging/development-mode.md
+            - text: Using trace
+              url: debugging/using-trace.md
+            - text: Helper functions for logging
+              url: debugging/helper-functions-for-logging.md
+            - text: Troubleshooting
+              url: debugging/troubleshooting.md
   # Card
   - title: Tutorials
     linkLists:
       - itemType: dvr
         typeDesc: tutorial
         links:
-          - text: Script-based selections
-            url: tutorials/script-based-selections.md
-          - text: Udef agent
-            url: tutorials/udef-agent.md
-          - text: Build custom rest API methods
-            url: tutorials/build-custom-rest-api-methods.md
-          - text: Open new browser window from task menu
-            url: tutorials/create-task-menu-open-new-browser.md
+        - text: Script-based selections
+          url: tutorials/script-based-selections.md
+        - text: Udef agent
+          url: tutorials/udef-agent.md
+        - text: Build custom rest API methods
+          url: tutorials/build-custom-rest-api-methods.md
+        - text: Open new browser window from task menu
+          url: tutorials/create-task-menu-open-new-browser.md
   # Card
   - title: Chatbot
     linkLists:
       - itemType: map
         typeDesc: overview
         links:
-          - text: Intro
-            url: ../chatbot/index.md
-          - text: Registration
-            url: ../chatbot/registration.md
-          - text: Chat sessions
-            url: ../chatbot/sessions.md
-          - text: Messages
-            url: ../chatbot/messages.md
-          - text: Script reference
-            url: ../chatbot/reference.md
+        - text: Intro
+          url: ../chatbot/index.md
+        - text: Registration
+          url: ../chatbot/registration.md
+        - text: Chat sessions
+          url: ../chatbot/sessions.md
+        - text: Messages
+          url: ../chatbot/messages.md
+        - text: Script reference
+          url: ../chatbot/reference.md
   # Card
   - title: API reference
     linkLists:
       - itemType: library_books
         typeDesc: reference
         links:
-          - text: Classes (native)
-            url: reference/CRMScript.Native.yml
-          - text: Classes (NetServer)
-            url: reference/CRMScript.NetServer.yml
-          - text: Global functions
-            url: reference/CRMScript.Global.Void.yml
-          - text: Trigger scripts
-            url: ../trigger/reference/CRMScript.Event.Trigger.yml
+        - text: Classes (native)
+          url: reference/CRMScript.Native.yml
+        - text: Classes (NetServer)
+          url: reference/CRMScript.NetServer.yml
+        - text: Global functions
+          url: reference/CRMScript.Global.Void.yml
+        - text: Trigger scripts
+          url: ../trigger/reference/CRMScript.Event.Trigger.yml

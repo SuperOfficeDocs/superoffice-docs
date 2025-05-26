@@ -1,4 +1,5 @@
 ---
+uid: crmscript-task-menu-external-tutorial
 title: create-task-menu-open-new-browser
 description: Open new browser window from task menu
 author: Eivind Fasting
