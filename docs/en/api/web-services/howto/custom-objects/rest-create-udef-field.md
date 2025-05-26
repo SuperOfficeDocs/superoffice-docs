@@ -370,6 +370,7 @@ These examples demonstrate how to create a Number user-defined field. First, a r
 
 #### [CRMScript API](#tab/create-crmscript)
 
+```crmscript
 NSUserDefinedFieldInfoAgent udefAgent;
 NSConfigurationAgent configAgent;
 
@@ -390,6 +391,7 @@ udefAgent.Publish(NSUDefType.Contact);
 // flush udefs caches (need this to appear in the UI)
 
 configAgent.RebuildUdefDeltas();
+```
 
 ***
 <!-- markdownlint-restore -->
