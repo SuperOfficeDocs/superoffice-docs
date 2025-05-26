@@ -342,6 +342,8 @@ items:
     href: tutorials/crmscript-trigger-outbox.md
   - name: Task menu - Mark request as spam
     href: tutorials/closing-request-tabs-in-triggers.md
+  - name: Task menu - Open new browser window
+    href: tutorials/create-task-menu-open-new-browser.md
 - name: Reference
   href: reference/toc.yml
   topicHref: reference/index.md
