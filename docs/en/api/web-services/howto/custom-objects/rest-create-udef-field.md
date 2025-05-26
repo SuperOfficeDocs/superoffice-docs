@@ -126,6 +126,16 @@ These examples demonstrate how to create a Number user-defined field. First, a r
     Accept: application/json; charset=utf-8
     ```
 
+1. Finally issue the RebuildUdefDeltas request to force the field to appear in the UI.
+
+   Use the HTTP RPC Agent endpoint as there is no RESTful equivalent.
+   
+    ```http
+    POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/Configuration/RebuildUdefDeltas
+    Authorization: Bearer {{token}}
+    Accept: application/json; charset=utf-8
+    ```
+
 #### [HTTP RPC Agent API](#tab/create-agent)
 
 1. First get the JSON structure that represents a user-defined field. **This is a POST request.**
@@ -293,7 +303,7 @@ These examples demonstrate how to create a Number user-defined field. First, a r
     }
     ```
 
-    Finally issue the publish the request to activate the new field changes.
+    Publish the user-defined fields to activate the new field changes.
 
     ```http
     POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/UserDefinedFieldInfo/Publish
@@ -306,6 +316,14 @@ These examples demonstrate how to create a Number user-defined field. First, a r
     }
     ```
 
+    Finally issue the RebuildUdefDeltas request to force the field to appear in the UI.
+
+    ```http
+    POST https://{{env}}.superoffice.com/{{tenant}}/api/v1/Agents/Configuration/RebuildUdefDeltas
+    Authorization: Bearer {{token}}
+    Accept: application/json; charset=utf-8
+    ```
+
 ##### [SuperOffice.WebApi](#tab/create-webapi)
 
 1. First create the UserDefinedFieldInfo instance that represents a user-defined field.
@@ -315,6 +333,8 @@ These examples demonstrate how to create a Number user-defined field. First, a r
     config.Authorization = new AuthorizationSystemUserTicket(sysUserInfo, sysUserTicket);
 
     var udefAgent = new UserDefinedFieldInfoAgent(config);
+    var configAgent = new ConfigurationAgent(tenant.WebApiUrl);
+    
     var udef = await udefAgent.CreateUserDefinedFieldInfoAsync(
         UDefType.Contact, 
         UDefFieldType.Number
@@ -340,10 +360,36 @@ These examples demonstrate how to create a Number user-defined field. First, a r
         await udefAgent.SetPublishStartSystemEventAsync(UDefType.Contact);
         // publish user-defined field changes by entity type
         var result = await udefAgent.PublishAsync(UDefType.Contact);
+
+        //force rebuilding udefs so they appear in the UI
+        configAgent.RebuildUdefDeltas();
     }
     ```
 
     If the fields are not immediately observable in the client user interface (UI), navigate to the application with the ´?flush´ query string parameter at the end of the URL as an authenticated user. The fields should then appear in the UI.
+
+#### [CRMScript API](#tab/create-crmscript)
+
+NSUserDefinedFieldInfoAgent udefAgent;
+NSConfigurationAgent configAgent;
+
+// create the udef by entity type and data type. 
+// this will predefine location and version
+
+NSUserDefinedFieldInfo udef = udefAgent.CreateUserDefinedFieldInfo(NSUDefType.Contact, NSUDefFieldType.Number);
+udef.SetFieldLabel("CRMScript Number");
+udef.SetShortLabel("CRMScript Number");
+udef.SetTooltip("CRMScript Number Tooltip");
+udef = udefAgent.SaveUserDefinedFieldInfo(udef);
+
+// publish the udefs by entity type
+
+udefAgent.SetPublishStartSystemEvent(NSUDefType.Contact);
+udefAgent.Publish(NSUDefType.Contact);
+
+// flush udefs caches (need this to appear in the UI)
+
+configAgent.RebuildUdefDeltas();
 
 ***
 <!-- markdownlint-restore -->
