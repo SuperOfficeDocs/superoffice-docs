@@ -2975,6 +2975,12 @@ references:
   name: NSTask
   nameWithType: NSTask
   fullName: CRMScript.NetServer.NSTask
+- uid: CRMScript.NetServer.NSTaskListItem
+  commentId: T:CRMScript.NetServer.NSTaskListItem
+  isExternal: true
+  name: NSTaskListItem
+  nameWithType: NSTaskListItem
+  fullName: CRMScript.NetServer.NSTaskListItem
 - uid: CRMScript.NetServer.ColorIndex
   commentId: T:CRMScript.NetServer.ColorIndex
   isExternal: true

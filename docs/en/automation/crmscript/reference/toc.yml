@@ -368,7 +368,7 @@ items:
   - name: NSEMailConnectionInfo
     href: CRMScript.NetServer.NSEMailConnectionInfo.yml
   - name: NSEmailFlow
-    href: CRMScript.NetServer.NSEmailFlowt.yml
+    href: CRMScript.NetServer.NSEmailFlow.yml
   - name: NSEntityElement
     href: CRMScript.NetServer.NSEntityElement.yml
   - name: NSEntityName
@@ -877,6 +877,7 @@ items:
     href: CRMScript.NetServer.NSWorkflowTrigger.yml
   - name: NSWorkflowWaitForAction
     href: CRMScript.NetServer.NSWorkflowWaitForAction.yml
+  - name: Enums
     items:
     - name: ActivityStatus
       href: CRMScript.NetServer.ActivityStatus.yml
