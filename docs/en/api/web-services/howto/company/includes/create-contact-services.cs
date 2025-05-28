@@ -3,7 +3,7 @@ using SuperOffice;
 
 using(SoSession newSession = SoSession.Authenticate("SAL0", ""))
 {
-  //Retrieve a ContacttAgent
+  //Retrieve a ContactAgent
   using(ContactAgent contactAgent = new ContactAgent())
   {
     //Create a new contact Entity with default values set to its properties

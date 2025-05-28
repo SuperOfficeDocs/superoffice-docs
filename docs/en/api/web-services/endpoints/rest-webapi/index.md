@@ -1,11 +1,13 @@
 ---
+uid: rest-api
 title: REST WebAPI
-uid: rest_api
 description: SuperOffice REST Web API exposes objects as entities that can be manipulated using the HTTP verbs GET, PUT, POST, and DELETE.
-author: Bergfrid Dias
-date: 12.03.2021
 keywords: API, web services, endpoints, WebAPI, REST, ODATA, SO-AppToken, SOTicket
+author: Bergfrid Dias
+date: 05.23.2025
 topic: concept
+audience: api
+audience_tooltip: SuperOffice APIs and database
 ---
 
 # REST WebAPI
@@ -310,7 +312,7 @@ Registering a webhook is covered in the [Webhook overview][8]. [Webhook callback
 
 <!-- Referenced links -->
 [1]: ../agents-webapi/index.md
-[2]: ../../howto/company/create-contact-rest.md
+[2]: ../../howto/company/create-contact.md
 [3]: ../../howto/company/add-catlist-item-rest.md
 [4]: ../../howto/document/rest-add-document-template.md
 [5]: ../../howto/document/rest-generate-document.md
