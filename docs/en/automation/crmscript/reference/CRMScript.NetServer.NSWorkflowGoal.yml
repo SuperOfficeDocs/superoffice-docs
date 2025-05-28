@@ -1,0 +1,232 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSWorkflowGoal
+  commentId: T:CRMScript.NetServer.NSWorkflowGoal
+  id: NSWorkflowGoal
+  so.version: 11.2
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSWorkflowGoal.#ctor
+  - CRMScript.NetServer.NSWorkflowGoal.GetGoalType()
+  - CRMScript.NetServer.NSWorkflowGoal.GetRestrictionGroups()
+  - CRMScript.NetServer.NSWorkflowGoal.GetWorkflowGoalId()
+  - CRMScript.NetServer.NSWorkflowGoal.GetWorkflowId()
+  - CRMScript.NetServer.NSWorkflowGoal.SetGoalType(NSWorkflowGoalType)
+  - CRMScript.NetServer.NSWorkflowGoal.SetRestrictionGroups(NSArchiveRestrictionGroup[])
+  - CRMScript.NetServer.NSWorkflowGoal.SetWorkflowGoalId(Integer)
+  - CRMScript.NetServer.NSWorkflowGoal.SetWorkflowId(Integer)
+  name: NSWorkflowGoal
+  nameWithType: NSWorkflowGoal
+  fullName: CRMScript.NetServer.NSWorkflowGoal
+  type: Class
+  summary: "Carrier object for WorkflowGoal."
+  example: []
+- uid: CRMScript.NetServer.NSWorkflowGoal.#ctor
+  commentId: M:CRMScript.NetServer.NSWorkflowGoal.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSWorkflowGoal
+  langs:
+  - crmscript
+  name: NSWorkflowGoal()
+  nameWithType: NSWorkflowGoal.#ctor
+  fullName: CRMScript.NetServer.NSWorkflowGoal.#ctor
+  type: Constructor
+  summary: "Initializes a new instance of the NSWorkflowGoal class."
+  syntax:
+    content: NSWorkflowGoal
+- uid: CRMScript.NetServer.NSWorkflowGoal.GetWorkflowGoalId()
+  commentId: M:CRMScript.NetServer.NSWorkflowGoal.GetWorkflowGoalId()
+  id: 'GetWorkflowGoalId()'
+  so.intellisense: NSWorkflowGoal.GetWorkflowGoalId
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetWorkflowGoalId()'
+  nameWithType: NSWorkflowGoal.GetWorkflowGoalId()
+  fullName: CRMScript.NetServer.NSWorkflowGoal.GetWorkflowGoalId()
+  type: Method
+  summary: "Gets the primary key (ID) for the WorkflowGoal."
+  syntax:
+    content: Integer GetWorkflowGoalId()
+    return:
+      type: CRMScript.Global.Integer
+      description: "WorkflowGoal Id."
+
+- uid: CRMScript.NetServer.NSWorkflowGoal.SetWorkflowGoalId(Integer)
+  commentId: M:CRMScript.NetServer.NSWorkflowGoal.SetWorkflowGoalId(Integer)
+  id: 'SetWorkflowGoalId(Integer)'
+  so.intellisense: NSWorkflowGoal.SetWorkflowGoalId
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetWorkflowGoalId(Integer)'
+  nameWithType: NSWorkflowGoal.SetWorkflowGoalId(Integer)
+  fullName: CRMScript.NetServer.NSWorkflowGoal.SetWorkflowGoalId(Integer)
+  type: Method
+  summary: "Sets the primary key (ID) for the WorkflowGoal."
+  syntax:
+    content: Void SetWorkflowGoalId(Integer workflowGoalId)
+    parameters:
+    - id: workflowGoalId
+      type: CRMScript.Global.Integer
+      description: "The workflow goal ID to set."
+    return:
+      type: CRMScript.Global.Void
+
+- uid: CRMScript.NetServer.NSWorkflowGoal.GetWorkflowId()
+  commentId: M:CRMScript.NetServer.NSWorkflowGoal.GetWorkflowId()
+  id: 'GetWorkflowId()'
+  so.intellisense: NSWorkflowGoal.GetWorkflowId
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetWorkflowId()'
+  nameWithType: NSWorkflowGoal.GetWorkflowId()
+  fullName: CRMScript.NetServer.NSWorkflowGoal.GetWorkflowId()
+  type: Method
+  summary: "Gets the ID of the flow this goal belongs to."
+  syntax:
+    content: Integer GetWorkflowId()
+    return:
+      type: CRMScript.Global.Integer
+      description: "Workflow ID."
+
+- uid: CRMScript.NetServer.NSWorkflowGoal.SetWorkflowId(Integer)
+  commentId: M:CRMScript.NetServer.NSWorkflowGoal.SetWorkflowId(Integer)
+  id: 'SetWorkflowId(Integer)'
+  so.intellisense: NSWorkflowGoal.SetWorkflowId
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetWorkflowId(Integer)'
+  nameWithType: NSWorkflowGoal.SetWorkflowId(Integer)
+  fullName: CRMScript.NetServer.NSWorkflowGoal.SetWorkflowId(Integer)
+  type: Method
+  summary: "Sets the ID of the flow this goal belongs to."
+  syntax:
+    content: Void SetWorkflowId(Integer workflowId)
+    parameters:
+    - id: workflowId
+      type: CRMScript.Global.Integer
+      description: "The workflow ID to set."
+    return:
+      type: CRMScript.Global.Void
+
+- uid: CRMScript.NetServer.NSWorkflowGoal.GetGoalType()
+  commentId: M:CRMScript.NetServer.NSWorkflowGoal.GetGoalType()
+  id: 'GetGoalType()'
+  so.intellisense: NSWorkflowGoal.GetGoalType
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetGoalType()'
+  nameWithType: NSWorkflowGoal.GetGoalType()
+  fullName: CRMScript.NetServer.NSWorkflowGoal.GetGoalType()
+  type: Method
+  summary: "Gets the workflow goal type."
+  syntax:
+    content: NSWorkflowGoalType GetGoalType()
+    return:
+      type: CRMScript.NetServer.NSWorkflowGoalType
+      description: "Goal type."
+
+- uid: CRMScript.NetServer.NSWorkflowGoal.SetGoalType(NSWorkflowGoalType)
+  commentId: M:CRMScript.NetServer.NSWorkflowGoal.SetGoalType(NSWorkflowGoalType)
+  id: 'SetGoalType(NSWorkflowGoalType)'
+  so.intellisense: NSWorkflowGoal.SetGoalType
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetGoalType(NSWorkflowGoalType)'
+  nameWithType: NSWorkflowGoal.SetGoalType(NSWorkflowGoalType)
+  fullName: CRMScript.NetServer.NSWorkflowGoal.SetGoalType(NSWorkflowGoalType)
+  type: Method
+  summary: "Sets the workflow goal type."
+  syntax:
+    content: Void SetGoalType(NSWorkflowGoalType goalType)
+    parameters:
+    - id: goalType
+      type: CRMScript.NetServer.NSWorkflowGoalType
+      description: "The goal type to set."
+    return:
+      type: CRMScript.Global.Void
+
+- uid: CRMScript.NetServer.NSWorkflowGoal.GetRestrictionGroups()
+  commentId: M:CRMScript.NetServer.NSWorkflowGoal.GetRestrictionGroups()
+  id: 'GetRestrictionGroups()'
+  so.intellisense: NSWorkflowGoal.GetRestrictionGroups
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetRestrictionGroups()'
+  nameWithType: NSWorkflowGoal.GetRestrictionGroups()
+  fullName: CRMScript.NetServer.NSWorkflowGoal.GetRestrictionGroups()
+  type: Method
+  summary: "Gets the restrictions (can be multiple groups) that make up the Workflow goal criteria."
+  syntax:
+    content: NSArchiveRestrictionGroup[] GetRestrictionGroups()
+    return:
+      type: CRMScript.NetServer.NSArchiveRestrictionGroup[]
+      description: "Array of restriction groups."
+
+- uid: CRMScript.NetServer.NSWorkflowGoal.SetRestrictionGroups(NSArchiveRestrictionGroup[])
+  commentId: M:CRMScript.NetServer.NSWorkflowGoal.SetRestrictionGroups(NSArchiveRestrictionGroup[])
+  id: 'SetRestrictionGroups(NSArchiveRestrictionGroup[])'
+  so.intellisense: NSWorkflowGoal.SetRestrictionGroups
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetRestrictionGroups(NSArchiveRestrictionGroup[])'
+  nameWithType: NSWorkflowGoal.SetRestrictionGroups(NSArchiveRestrictionGroup[])
+  fullName: CRMScript.NetServer.NSWorkflowGoal.SetRestrictionGroups(NSArchiveRestrictionGroup[])
+  type: Method
+  summary: "Sets the restrictions that make up the Workflow goal criteria."
+  syntax:
+    content: Void SetRestrictionGroups(NSArchiveRestrictionGroup[] restrictionGroups)
+    parameters:
+    - id: restrictionGroups
+      type: CRMScript.NetServer.NSArchiveRestrictionGroup[]
+      description: "The restriction groups to set."
+    return:
+      type: CRMScript.Global.Void
+
+references:
+- uid: CRMScript.NetServer.NSWorkflowGoal
+  commentId: T:CRMScript.NetServer.NSWorkflowGoal
+  isExternal: true
+  name: NSWorkflowGoal
+  nameWithType: NSWorkflowGoal
+  fullName: CRMScript.NetServer.NSWorkflowGoal
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.NetServer.NSWorkflowGoalType
+  commentId: T:CRMScript.NetServer.NSWorkflowGoalType
+  isExternal: true
+  name: NSWorkflowGoalType
+  nameWithType: NSWorkflowGoalType
+  fullName: CRMScript.NetServer.NSWorkflowGoalType
+- uid: CRMScript.NetServer.NSArchiveRestrictionGroup
+  commentId: T:CRMScript.NetServer.NSArchiveRestrictionGroup
+  isExternal: true
+  name: NSArchiveRestrictionGroup
+  nameWithType: NSArchiveRestrictionGroup
+  fullName: CRMScript.NetServer.NSArchiveRestrictionGroup
+- uid: CRMScript.NetServer.NSArchiveRestrictionGroup[]
+  isExternal: true
+  name: NSArchiveRestrictionGroup[]
+  nameWithType: NSArchiveRestrictionGroup[]
+  fullName: CRMScript.NetServer.NSArchiveRestrictionGroup[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSArchiveRestrictionGroup
+    isExternal: true
+    name: NSArchiveRestrictionGroup
+    nameWithType: NSArchiveRestrictionGroup
+    fullName: CRMScript.NetServer.NSArchiveRestrictionGroup
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'

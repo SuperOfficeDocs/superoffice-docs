@@ -169,6 +169,7 @@ items:
   - CRMScript.NetServer.NSDuplicateEntry
   - CRMScript.NetServer.NSDuplicateRule
   - CRMScript.NetServer.NSEMailConnectionInfo
+  - CRMScript.NetServer.NSEMailFlow
   - CRMScript.NetServer.NSEntityElement
   - CRMScript.NetServer.NSEntityName
   - CRMScript.NetServer.NSEventData
@@ -430,6 +431,14 @@ items:
   - CRMScript.NetServer.NSWebhookResult
   - CRMScript.NetServer.NSWebPanelEntity
   - CRMScript.NetServer.NSWindowPosSize
+  - CRMScript.NetServer.NSWorkflowAgent
+  - CRMScript.NetServer.NSWorkflowEvent
+  - CRMScript.NetServer.NSWorkflowFilter
+  - CRMScript.NetServer.NSWorkflowGoal
+  - CRMScript.NetServer.NSWorkflowStepBase
+  - CRMScript.NetServer.NSWorkflowStepOptionBase
+  - CRMScript.NetServer.NSWorkflowTrigger
+  - CRMScript.NetServer.NSWorkflowWaitForAction
   - CRMScript.NetServer.PersonGender
   - CRMScript.NetServer.PrefDescAccessFlags
   - CRMScript.NetServer.PrefDescValueType
@@ -3362,3 +3371,57 @@ references:
   name: PersonGender
   nameWithType: PersonGender
   fullName: CRMScript.NetServer.PersonGender
+- uid: CRMScript.NetServer.NSEmailFlow
+  commentId: T:CRMScript.NetServer.NSEmailFlow
+  isExternal: true
+  name: NSEmailFlow
+  nameWithType: NSEmailFlow
+  fullName: CRMScript.NetServer.NSEmailFlow
+- uid: CRMScript.NetServer.NSWorkflowAgent
+  commentId: T:CRMScript.NetServer.NSWorkflowAgent 
+  isExternal: true
+  name: NSWorkflowAgent
+  nameWithType: NSWorkflowAgent
+  fullName: CRMScript.NetServer.NSWorkflowAgent
+- uid: CRMScript.NetServer.NSWorkflowEvent
+  commentId: T:CRMScript.NetServer.NSWorkflowEvent
+  isExternal: true 
+  name: NSWorkflowEvent
+  nameWithType: NSWorkflowEvent
+  fullName: CRMScript.NetServer.NSWorkflowEvent
+- uid: CRMScript.NetServer.NSWorkflowFilter
+  commentId: T:CRMScript.NetServer.NSWorkflowFilter
+  isExternal: true
+  name: NSWorkflowFilter 
+  nameWithType: NSWorkflowFilter
+  fullName: CRMScript.NetServer.NSWorkflowFilter
+- uid: CRMScript.NetServer.NSWorkflowGoal
+  commentId: T:CRMScript.NetServer.NSWorkflowGoal
+  isExternal: true
+  name: NSWorkflowGoal
+  nameWithType: NSWorkflowGoal
+  fullName: CRMScript.NetServer.NSWorkflowGoal
+- uid: CRMScript.NetServer.NSWorkflowStepBase
+  commentId: T:CRMScript.NetServer.NSWorkflowStepBase
+  isExternal: true
+  name: NSWorkflowStepBase
+  nameWithType: NSWorkflowStepBase
+  fullName: CRMScript.NetServer.NSWorkflowStepBase
+- uid: CRMScript.NetServer.NSWorkflowStepOptionBase
+  commentId: T:CRMScript.NetServer.NSWorkflowStepOptionBase
+  isExternal: true
+  name: NSWorkflowStepOptionBase
+  nameWithType: NSWorkflowStepOptionBase
+  fullName: CRMScript.NetServer.NSWorkflowStepOptionBase
+- uid: CRMScript.NetServer.NSWorkflowTrigger
+  commentId: T:CRMScript.NetServer.NSWorkflowTrigger
+  isExternal: true
+  name: NSWorkflowTrigger
+  nameWithType: NSWorkflowTrigger
+  fullName: CRMScript.NetServer.NSWorkflowTrigger
+- uid: CRMScript.NetServer.NSWorkflowWaitForAction
+  commentId: T:CRMScript.NetServer.NSWorkflowWaitForAction
+  isExternal: true
+  name: NSWorkflowWaitForAction
+  nameWithType: NSWorkflowWaitForAction
+  fullName: CRMScript.NetServer.NSWorkflowWaitForAction

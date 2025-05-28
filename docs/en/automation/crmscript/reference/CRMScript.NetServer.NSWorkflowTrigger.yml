@@ -1,0 +1,246 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSWorkflowTrigger
+  commentId: T:CRMScript.NetServer.NSWorkflowTrigger
+  id: NSWorkflowTrigger
+  so.version: 11.2
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSWorkflowTrigger.#ctor
+  - CRMScript.NetServer.NSWorkflowTrigger.GetRestrictionGroups()
+  - CRMScript.NetServer.NSWorkflowTrigger.GetTriggerType()
+  - CRMScript.NetServer.NSWorkflowTrigger.GetWorkflowId()
+  - CRMScript.NetServer.NSWorkflowTrigger.GetWorkflowTriggerId()
+  - CRMScript.NetServer.NSWorkflowTrigger.SetRestrictionGroups(NSArchiveRestrictionGroup[])
+  - CRMScript.NetServer.NSWorkflowTrigger.SetTriggerType(NSWorkflowTriggerType)
+  - CRMScript.NetServer.NSWorkflowTrigger.SetWorkflowId(Integer)
+  - CRMScript.NetServer.NSWorkflowTrigger.SetWorkflowTriggerId(Integer)
+  name: NSWorkflowTrigger
+  nameWithType: NSWorkflowTrigger
+  fullName: CRMScript.NetServer.NSWorkflowTrigger
+  type: Class
+  summary: "Carrier object for WorkflowTrigger."
+  example: []
+
+- uid: CRMScript.NetServer.NSWorkflowTrigger.#ctor
+  commentId: M:CRMScript.NetServer.NSWorkflowTrigger.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSWorkflowTrigger
+  langs:
+  - crmscript
+  name: NSWorkflowTrigger()
+  nameWithType: NSWorkflowTrigger.#ctor
+  fullName: CRMScript.NetServer.NSWorkflowTrigger.#ctor
+  type: Constructor
+  summary: "Initializes a new instance of the NSWorkflowTrigger class."
+  syntax:
+    content: NSWorkflowTrigger
+
+- uid: CRMScript.NetServer.NSWorkflowTrigger.GetWorkflowTriggerId()
+  commentId: M:CRMScript.NetServer.NSWorkflowTrigger.GetWorkflowTriggerId()
+  id: 'GetWorkflowTriggerId()'
+  so.intellisense: NSWorkflowTrigger.GetWorkflowTriggerId
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetWorkflowTriggerId()'
+  nameWithType: NSWorkflowTrigger.GetWorkflowTriggerId()
+  fullName: CRMScript.NetServer.NSWorkflowTrigger.GetWorkflowTriggerId()
+  type: Method
+  summary: "Gets the primary key (ID) for the WorkflowTrigger."
+  syntax:
+    content: Integer GetWorkflowTriggerId()
+    return:
+      type: CRMScript.Global.Integer
+      description: "WorkflowTrigger Id."
+
+- uid: CRMScript.NetServer.NSWorkflowTrigger.SetWorkflowTriggerId(Integer)
+  commentId: M:CRMScript.NetServer.NSWorkflowTrigger.SetWorkflowTriggerId(Integer)
+  id: 'SetWorkflowTriggerId(Integer)'
+  so.intellisense: NSWorkflowTrigger.SetWorkflowTriggerId
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetWorkflowTriggerId(Integer)'
+  nameWithType: NSWorkflowTrigger.SetWorkflowTriggerId(Integer)
+  fullName: CRMScript.NetServer.NSWorkflowTrigger.SetWorkflowTriggerId(Integer)
+  type: Method
+  summary: "Sets the primary key (ID) for the WorkflowTrigger."
+  syntax:
+    content: Void SetWorkflowTriggerId(Integer workflowTriggerId)
+    parameters:
+    - id: workflowTriggerId
+      type: CRMScript.Global.Integer
+      description: "The workflow trigger ID to set."
+    return:
+      type: CRMScript.Global.Void
+
+- uid: CRMScript.NetServer.NSWorkflowTrigger.GetWorkflowId()
+  commentId: M:CRMScript.NetServer.NSWorkflowTrigger.GetWorkflowId()
+  id: 'GetWorkflowId()'
+  so.intellisense: NSWorkflowTrigger.GetWorkflowId
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetWorkflowId()'
+  nameWithType: NSWorkflowTrigger.GetWorkflowId()
+  fullName: CRMScript.NetServer.NSWorkflowTrigger.GetWorkflowId()
+  type: Method
+  summary: "Gets the ID of the workflow this trigger belongs to."
+  syntax:
+    content: Integer GetWorkflowId()
+    return:
+      type: CRMScript.Global.Integer
+      description: "Workflow ID."
+
+- uid: CRMScript.NetServer.NSWorkflowTrigger.SetWorkflowId(Integer)
+  commentId: M:CRMScript.NetServer.NSWorkflowTrigger.SetWorkflowId(Integer)
+  id: 'SetWorkflowId(Integer)'
+  so.intellisense: NSWorkflowTrigger.SetWorkflowId
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetWorkflowId(Integer)'
+  nameWithType: NSWorkflowTrigger.SetWorkflowId(Integer)
+  fullName: CRMScript.NetServer.NSWorkflowTrigger.SetWorkflowId(Integer)
+  type: Method
+  summary: "Sets the ID of the workflow this trigger belongs to."
+  syntax:
+    content: Void SetWorkflowId(Integer workflowId)
+    parameters:
+    - id: workflowId
+      type: CRMScript.Global.Integer
+      description: "The workflow ID to set."
+    return:
+      type: CRMScript.Global.Void
+
+- uid: CRMScript.NetServer.NSWorkflowTrigger.GetTriggerType()
+  commentId: M:CRMScript.NetServer.NSWorkflowTrigger.GetTriggerType()
+  id: 'GetTriggerType()'
+  so.intellisense: NSWorkflowTrigger.GetTriggerType
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetTriggerType()'
+  nameWithType: NSWorkflowTrigger.GetTriggerType()
+  fullName: CRMScript.NetServer.NSWorkflowTrigger.GetTriggerType()
+  type: Method
+  summary: "Gets the type of trigger."
+  syntax:
+    content: NSWorkflowTriggerType GetTriggerType()
+    return:
+      type: CRMScript.NetServer.NSWorkflowTriggerType
+      description: "Trigger type."
+
+- uid: CRMScript.NetServer.NSWorkflowTrigger.SetTriggerType(NSWorkflowTriggerType)
+  commentId: M:CRMScript.NetServer.NSWorkflowTrigger.SetTriggerType(NSWorkflowTriggerType)
+  id: 'SetTriggerType(NSWorkflowTriggerType)'
+  so.intellisense: NSWorkflowTrigger.SetTriggerType
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetTriggerType(NSWorkflowTriggerType)'
+  nameWithType: NSWorkflowTrigger.SetTriggerType(NSWorkflowTriggerType)
+  fullName: CRMScript.NetServer.NSWorkflowTrigger.SetTriggerType(NSWorkflowTriggerType)
+  type: Method
+  summary: "Sets the type of trigger."
+  syntax:
+    content: Void SetTriggerType(NSWorkflowTriggerType triggerType)
+    parameters:
+    - id: triggerType
+      type: CRMScript.NetServer.NSWorkflowTriggerType
+      description: "The trigger type to set."
+    return:
+      type: CRMScript.Global.Void
+
+- uid: CRMScript.NetServer.NSWorkflowTrigger.GetRestrictionGroups()
+  commentId: M:CRMScript.NetServer.NSWorkflowTrigger.GetRestrictionGroups()
+  id: 'GetRestrictionGroups()'
+  so.intellisense: NSWorkflowTrigger.GetRestrictionGroups
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetRestrictionGroups()'
+  nameWithType: NSWorkflowTrigger.GetRestrictionGroups()
+  fullName: CRMScript.NetServer.NSWorkflowTrigger.GetRestrictionGroups()
+  type: Method
+  summary: "Gets the restrictions (can be multiple groups) that make up the trigger criteria."
+  syntax:
+    content: NSArchiveRestrictionGroup[] GetRestrictionGroups()
+    return:
+      type: CRMScript.NetServer.NSArchiveRestrictionGroup[]
+      description: "Array of restriction groups."
+
+- uid: CRMScript.NetServer.NSWorkflowTrigger.SetRestrictionGroups(NSArchiveRestrictionGroup[])
+  commentId: M:CRMScript.NetServer.NSWorkflowTrigger.SetRestrictionGroups(NSArchiveRestrictionGroup[])
+  id: 'SetRestrictionGroups(NSArchiveRestrictionGroup[])'
+  so.intellisense: NSWorkflowTrigger.SetRestrictionGroups
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetRestrictionGroups(NSArchiveRestrictionGroup[])'
+  nameWithType: NSWorkflowTrigger.SetRestrictionGroups(NSArchiveRestrictionGroup[])
+  fullName: CRMScript.NetServer.NSWorkflowTrigger.SetRestrictionGroups(NSArchiveRestrictionGroup[])
+  type: Method
+  summary: "Sets the restrictions that make up the trigger criteria."
+  syntax:
+    content: Void SetRestrictionGroups(NSArchiveRestrictionGroup[] restrictionGroups)
+    parameters:
+    - id: restrictionGroups
+      type: CRMScript.NetServer.NSArchiveRestrictionGroup[]
+      description: "The restriction groups to set."
+    return:
+      type: CRMScript.Global.Void
+
+references:
+- uid: CRMScript.NetServer.NSWorkflowTrigger
+  commentId: T:CRMScript.NetServer.NSWorkflowTrigger
+  isExternal: true
+  name: NSWorkflowTrigger
+  nameWithType: NSWorkflowTrigger
+  fullName: CRMScript.NetServer.NSWorkflowTrigger
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSWorkflowTriggerType
+  commentId: T:CRMScript.NetServer.NSWorkflowTriggerType
+  isExternal: true
+  name: NSWorkflowTriggerType
+  nameWithType: NSWorkflowTriggerType
+  fullName: CRMScript.NetServer.NSWorkflowTriggerType
+- uid: CRMScript.NetServer.NSArchiveRestrictionGroup
+  commentId: T:CRMScript.NetServer.NSArchiveRestrictionGroup
+  isExternal: true
+  name: NSArchiveRestrictionGroup
+  nameWithType: NSArchiveRestrictionGroup
+  fullName: CRMScript.NetServer.NSArchiveRestrictionGroup
+- uid: CRMScript.NetServer.NSArchiveRestrictionGroup[]
+  isExternal: true
+  name: NSArchiveRestrictionGroup[]
+  nameWithType: NSArchiveRestrictionGroup[]
+  fullName: CRMScript.NetServer.NSArchiveRestrictionGroup[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSArchiveRestrictionGroup
+    isExternal: true
+    name: NSArchiveRestrictionGroup
+    nameWithType: NSArchiveRestrictionGroup
+    fullName: CRMScript.NetServer.NSArchiveRestrictionGroup
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'

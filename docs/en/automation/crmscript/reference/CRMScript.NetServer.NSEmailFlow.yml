@@ -1,0 +1,1507 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSEmailFlow
+  commentId: T:CRMScript.NetServer.NSEmailFlow
+  id: NSEmailFlow
+  so.version: 11.2
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSEmailFlow.#ctor
+  - CRMScript.NetServer.NSEmailFlow.GetAssociate()
+  - CRMScript.NetServer.NSEmailFlow.GetBlockLists()
+  - CRMScript.NetServer.NSEmailFlow.GetContentInfo()
+  - CRMScript.NetServer.NSEmailFlow.GetCreatedBy()
+  - CRMScript.NetServer.NSEmailFlow.GetCreatedDate()
+  - CRMScript.NetServer.NSEmailFlow.GetDescription()
+  - CRMScript.NetServer.NSEmailFlow.GetEmailFlowId()
+  - CRMScript.NetServer.NSEmailFlow.GetEnrollmentEnd()
+  - CRMScript.NetServer.NSEmailFlow.GetExitFlowId()
+  - CRMScript.NetServer.NSEmailFlow.GetExitSuccessFlowId()
+  - CRMScript.NetServer.NSEmailFlow.GetFilter()
+  - CRMScript.NetServer.NSEmailFlow.GetFolder()
+  - CRMScript.NetServer.NSEmailFlow.GetFromAddr()
+  - CRMScript.NetServer.NSEmailFlow.GetFromName()
+  - CRMScript.NetServer.NSEmailFlow.GetFromType()
+  - CRMScript.NetServer.NSEmailFlow.GetGaCampaign()
+  - CRMScript.NetServer.NSEmailFlow.GetGaSource()
+  - CRMScript.NetServer.NSEmailFlow.GetGoals()
+  - CRMScript.NetServer.NSEmailFlow.GetJumpToFinish()
+  - CRMScript.NetServer.NSEmailFlow.GetName()
+  - CRMScript.NetServer.NSEmailFlow.GetOverrideConsentSubscription()
+  - CRMScript.NetServer.NSEmailFlow.GetRemoveFromFlows()
+  - CRMScript.NetServer.NSEmailFlow.GetReplyToAddr()
+  - CRMScript.NetServer.NSEmailFlow.GetReplyToName()
+  - CRMScript.NetServer.NSEmailFlow.GetReplyToType()
+  - CRMScript.NetServer.NSEmailFlow.GetSelectedDays()
+  - CRMScript.NetServer.NSEmailFlow.GetShipmentType()
+  - CRMScript.NetServer.NSEmailFlow.GetSmsSender()
+  - CRMScript.NetServer.NSEmailFlow.GetStartOnlyOnce()
+  - CRMScript.NetServer.NSEmailFlow.GetStatus()
+  - CRMScript.NetServer.NSEmailFlow.GetSteps()
+  - CRMScript.NetServer.NSEmailFlow.GetTimeframeEnd()
+  - CRMScript.NetServer.NSEmailFlow.GetTimeframeStart()
+  - CRMScript.NetServer.NSEmailFlow.GetTriggers()
+  - CRMScript.NetServer.NSEmailFlow.GetTzLocation()
+  - CRMScript.NetServer.NSEmailFlow.GetUpdatedBy()
+  - CRMScript.NetServer.NSEmailFlow.GetUpdatedDate()
+  - CRMScript.NetServer.NSEmailFlow.GetUseEnrollmentEnd()
+  - CRMScript.NetServer.NSEmailFlow.GetUseGoogleAnalytics()
+  - CRMScript.NetServer.NSEmailFlow.GetUseTimeframe()
+  - CRMScript.NetServer.NSEmailFlow.GetUseWorkflowStart()
+  - CRMScript.NetServer.NSEmailFlow.GetWorkflowStart()
+  - CRMScript.NetServer.NSEmailFlow.SetAssociate(NSAssociate)
+  - CRMScript.NetServer.NSEmailFlow.SetBlockLists(Vector)
+  - CRMScript.NetServer.NSEmailFlow.SetDescription(String)
+  - CRMScript.NetServer.NSEmailFlow.SetEmailFlowId(Integer)
+  - CRMScript.NetServer.NSEmailFlow.SetEnrollmentEnd(String)
+  - CRMScript.NetServer.NSEmailFlow.SetExitFlowId(Integer)
+  - CRMScript.NetServer.NSEmailFlow.SetExitSuccessFlowId(Integer)
+  - CRMScript.NetServer.NSEmailFlow.SetFilter(NSWorkflowFilter)
+  - CRMScript.NetServer.NSEmailFlow.SetFolder(NSHierarchyEntity)
+  - CRMScript.NetServer.NSEmailFlow.SetFromAddr(String)
+  - CRMScript.NetServer.NSEmailFlow.SetFromName(String)
+  - CRMScript.NetServer.NSEmailFlow.SetFromType(NSEmailFromType)
+  - CRMScript.NetServer.NSEmailFlow.SetGaCampaign(String)
+  - CRMScript.NetServer.NSEmailFlow.SetGaSource(String)
+  - CRMScript.NetServer.NSEmailFlow.SetGoals(Vector)
+  - CRMScript.NetServer.NSEmailFlow.SetJumpToFinish(Bool)
+  - CRMScript.NetServer.NSEmailFlow.SetName(String)
+  - CRMScript.NetServer.NSEmailFlow.SetOverrideConsentSubscription(Bool)
+  - CRMScript.NetServer.NSEmailFlow.SetRemoveFromFlows(Vector)
+  - CRMScript.NetServer.NSEmailFlow.SetReplyToAddr(String)
+  - CRMScript.NetServer.NSEmailFlow.SetReplyToName(String)
+  - CRMScript.NetServer.NSEmailFlow.SetReplyToType(NSEmailReplyToType)
+  - CRMScript.NetServer.NSEmailFlow.SetSelectedDays(NSWeekday)
+  - CRMScript.NetServer.NSEmailFlow.SetShipmentType(NSMDOListItem)
+  - CRMScript.NetServer.NSEmailFlow.SetSmsSender(String)
+  - CRMScript.NetServer.NSEmailFlow.SetStartOnlyOnce(Bool)
+  - CRMScript.NetServer.NSEmailFlow.SetStatus(NSWorkflowDefinitionStatus)
+  - CRMScript.NetServer.NSEmailFlow.SetSteps(Vector)
+  - CRMScript.NetServer.NSEmailFlow.SetTimeframeEnd(String)
+  - CRMScript.NetServer.NSEmailFlow.SetTimeframeStart(String)
+  - CRMScript.NetServer.NSEmailFlow.SetTriggers(Vector)
+  - CRMScript.NetServer.NSEmailFlow.SetTzLocation(NSTimeZoneData)
+  - CRMScript.NetServer.NSEmailFlow.SetUpdatedBy(NSAssociate)
+  - CRMScript.NetServer.NSEmailFlow.SetUseEnrollmentEnd(Bool)
+  - CRMScript.NetServer.NSEmailFlow.SetUseGoogleAnalytics(Bool)
+  - CRMScript.NetServer.NSEmailFlow.SetUseTimeframe(Bool)
+  - CRMScript.NetServer.NSEmailFlow.SetUseWorkflowStart(Bool)
+  - CRMScript.NetServer.NSEmailFlow.SetWorkflowStart(String)
+  name: NSEmailFlow
+  nameWithType: NSEmailFlow
+  fullName: CRMScript.NetServer.NSEmailFlow
+  type: Class
+  summary: "Carrier object for EmailFlow."
+  example: []
+- uid: CRMScript.NetServer.NSEmailFlow.#ctor
+  commentId: M:CRMScript.NetServer.NSEmailFlow.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSEmailFlow
+  langs:
+  - crmscript
+  name: NSEmailFlow()
+  nameWithType: NSEmailFlow.#ctor
+  fullName: CRMScript.NetServer.NSEmailFlow.#ctor
+  type: Constructor
+  summary: "Initializes a new instance of the NSEmailFlow class."
+  syntax:
+    content: NSEmailFlow
+- uid: CRMScript.NetServer.NSEmailFlow.GetEmailFlowId()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetEmailFlowId()
+  id: 'GetEmailFlowId()'
+  so.intellisense: NSEmailFlow.GetEmailFlowId
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetEmailFlowId()'
+  nameWithType: NSEmailFlow.GetEmailFlowId()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetEmailFlowId()
+  type: Method
+  summary: "Gets the primary key (ID) for the EmailFlow."
+  syntax:
+    content: Integer GetEmailFlowId()
+    return:
+      type: CRMScript.Global.Integer
+      description: "EmailFlow Id."
+- uid: CRMScript.NetServer.NSEmailFlow.SetEmailFlowId(Integer)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetEmailFlowId(Integer)
+  id: 'SetEmailFlowId(Integer)'
+  so.intellisense: NSEmailFlow.SetEmailFlowId
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetEmailFlowId(Integer)'
+  nameWithType: NSEmailFlow.SetEmailFlowId(Integer)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetEmailFlowId(Integer)
+  type: Method
+  summary: "Sets the primary key (ID) for the EmailFlow."
+  syntax:
+    content: Void SetEmailFlowId(Integer emailFlowId)
+    parameters:
+    - id: emailFlowId
+      type: CRMScript.Global.Integer
+      description: "The EmailFlow ID to set."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.GetStartOnlyOnce()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetStartOnlyOnce()
+  id: 'GetStartOnlyOnce()'
+  so.intellisense: NSEmailFlow.GetStartOnlyOnce
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetStartOnlyOnce()'
+  nameWithType: NSEmailFlow.GetStartOnlyOnce()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetStartOnlyOnce()
+  type: Method
+  summary: "Gets whether a contact can start this flow only once."
+  syntax:
+    content: Bool GetStartOnlyOnce()
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if contact can only start once."
+- uid: CRMScript.NetServer.NSEmailFlow.SetStartOnlyOnce(Bool)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetStartOnlyOnce(Bool)
+  id: 'SetStartOnlyOnce(Bool)'
+  so.intellisense: NSEmailFlow.SetStartOnlyOnce
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetStartOnlyOnce(Bool)'
+  nameWithType: NSEmailFlow.SetStartOnlyOnce(Bool)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetStartOnlyOnce(Bool)
+  type: Method
+  summary: "Sets whether a contact can start this flow only once."
+  syntax:
+    content: Void SetStartOnlyOnce(Bool startOnlyOnce)
+    parameters:
+    - id: startOnlyOnce
+      type: CRMScript.Global.Bool
+      description: "True if contact can only start once."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.GetOverrideConsentSubscription()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetOverrideConsentSubscription()
+  id: 'GetOverrideConsentSubscription()'
+  so.intellisense: NSEmailFlow.GetOverrideConsentSubscription
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetOverrideConsentSubscription()'
+  nameWithType: NSEmailFlow.GetOverrideConsentSubscription()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetOverrideConsentSubscription()
+  type: Method
+  summary: "Gets whether to override consent subscription."
+  syntax:
+    content: Bool GetOverrideConsentSubscription()
+    return:
+      type: CRMScript.Global.Bool
+      description: "True to override consent subscription."
+- uid: CRMScript.NetServer.NSEmailFlow.SetOverrideConsentSubscription(Bool)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetOverrideConsentSubscription(Bool)
+  id: 'SetOverrideConsentSubscription(Bool)'
+  so.intellisense: NSEmailFlow.SetOverrideConsentSubscription
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetOverrideConsentSubscription(Bool)'
+  nameWithType: NSEmailFlow.SetOverrideConsentSubscription(Bool)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetOverrideConsentSubscription(Bool)
+  type: Method
+  summary: "Sets whether to override consent subscription."
+  syntax:
+    content: Void SetOverrideConsentSubscription(Bool overrideConsentSubscription)
+    parameters:
+    - id: overrideConsentSubscription
+      type: CRMScript.Global.Bool
+      description: "True to override consent subscription."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.GetFromType()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetFromType()
+  id: 'GetFromType()'
+  so.intellisense: NSEmailFlow.GetFromType
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetFromType()'
+  nameWithType: NSEmailFlow.GetFromType()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetFromType()
+  type: Method
+  summary: "Gets the type of sender for the EmailFlow."
+  syntax:
+    content: NSEmailFromType GetFromType()
+    return:
+      type: CRMScript.NetServer.NSEmailFromType
+      description: "Sender type."
+- uid: CRMScript.NetServer.NSEmailFlow.SetFromType(NSEmailFromType)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetFromType(NSEmailFromType)
+  id: 'SetFromType(NSEmailFromType)'
+  so.intellisense: NSEmailFlow.SetFromType
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetFromType(NSEmailFromType)'
+  nameWithType: NSEmailFlow.SetFromType(NSEmailFromType)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetFromType(NSEmailFromType)
+  type: Method
+  summary: "Sets the type of sender for the EmailFlow."
+  syntax:
+    content: Void SetFromType(NSEmailFromType fromType)
+    parameters:
+    - id: fromType
+      type: CRMScript.NetServer.NSEmailFromType
+      description: "The sender type to set."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.GetFromName()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetFromName()
+  id: 'GetFromName()'
+  so.intellisense: NSEmailFlow.GetFromName
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetFromName()'
+  nameWithType: NSEmailFlow.GetFromName()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetFromName()
+  type: Method
+  summary: "Gets the name of the sender for the EmailFlow."
+  syntax:
+    content: String GetFromName()
+    return:
+      type: CRMScript.Global.String
+      description: "Sender name."
+- uid: CRMScript.NetServer.NSEmailFlow.SetFromName(String)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetFromName(String)
+  id: 'SetFromName(String)'
+  so.intellisense: NSEmailFlow.SetFromName
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetFromName(String)'
+  nameWithType: NSEmailFlow.SetFromName(String)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetFromName(String)
+  type: Method
+  summary: "Sets the name of the sender for the EmailFlow."
+  syntax:
+    content: Void SetFromName(String fromName)
+    parameters:
+    - id: fromName
+      type: CRMScript.Global.String
+      description: "The sender name to set."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.GetFromAddr()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetFromAddr()
+  id: 'GetFromAddr()'
+  so.intellisense: NSEmailFlow.GetFromAddr
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetFromAddr()'
+  nameWithType: NSEmailFlow.GetFromAddr()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetFromAddr()
+  type: Method
+  summary: "Gets the email address of the sender for the EmailFlow."
+  syntax:
+    content: String GetFromAddr()
+    return:
+      type: CRMScript.Global.String
+      description: "Sender email address."
+- uid: CRMScript.NetServer.NSEmailFlow.SetFromAddr(String)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetFromAddr(String)
+  id: 'SetFromAddr(String)'
+  so.intellisense: NSEmailFlow.SetFromAddr
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetFromAddr(String)'
+  nameWithType: NSEmailFlow.SetFromAddr(String)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetFromAddr(String)
+  type: Method
+  summary: "Sets the email address of the sender for the EmailFlow."
+  syntax:
+    content: Void SetFromAddr(String fromAddr)
+    parameters:
+    - id: fromAddr
+      type: CRMScript.Global.String
+      description: "The sender email address to set."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.GetReplyToType()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetReplyToType()
+  id: 'GetReplyToType()'
+  so.intellisense: NSEmailFlow.GetReplyToType
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetReplyToType()'
+  nameWithType: NSEmailFlow.GetReplyToType()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetReplyToType()
+  type: Method
+  summary: "Gets the reply-to type for the EmailFlow."
+  syntax:
+    content: NSEmailReplyToType GetReplyToType()
+    return:
+      type: CRMScript.NetServer.NSEmailReplyToType
+      description: "Reply-to type."
+- uid: CRMScript.NetServer.NSEmailFlow.SetReplyToType(NSEmailReplyToType)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetReplyToType(NSEmailReplyToType)
+  id: 'SetReplyToType(NSEmailReplyToType)'
+  so.intellisense: NSEmailFlow.SetReplyToType
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetReplyToType(NSEmailReplyToType)'
+  nameWithType: NSEmailFlow.SetReplyToType(NSEmailReplyToType)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetReplyToType(NSEmailReplyToType)
+  type: Method
+  summary: "Sets the reply-to type for the EmailFlow."
+  syntax:
+    content: Void SetReplyToType(NSEmailReplyToType replyToType)
+    parameters:
+    - id: replyToType
+      type: CRMScript.NetServer.NSEmailReplyToType
+      description: "The reply-to type to set."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.GetReplyToAddr()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetReplyToAddr()
+  id: 'GetReplyToAddr()'
+  so.intellisense: NSEmailFlow.GetReplyToAddr
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetReplyToAddr()'
+  nameWithType: NSEmailFlow.GetReplyToAddr()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetReplyToAddr()
+  type: Method
+  summary: "Gets the reply-to email address for the EmailFlow."
+  syntax:
+    content: String GetReplyToAddr()
+    return:
+      type: CRMScript.Global.String
+      description: "Reply-to email address."
+- uid: CRMScript.NetServer.NSEmailFlow.SetReplyToAddr(String)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetReplyToAddr(String)
+  id: 'SetReplyToAddr(String)'
+  so.intellisense: NSEmailFlow.SetReplyToAddr
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetReplyToAddr(String)'
+  nameWithType: NSEmailFlow.SetReplyToAddr(String)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetReplyToAddr(String)
+  type: Method
+  summary: "Sets the reply-to email address for the EmailFlow."
+  syntax:
+    content: Void SetReplyToAddr(String replyToAddr)
+    parameters:
+    - id: replyToAddr
+      type: CRMScript.Global.String
+      description: "The reply-to email address to set."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.GetReplyToName()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetReplyToName()
+  id: 'GetReplyToName()'
+  so.intellisense: NSEmailFlow.GetReplyToName
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetReplyToName()'
+  nameWithType: NSEmailFlow.GetReplyToName()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetReplyToName()
+  type: Method
+  summary: "Gets the name for the reply-to address in the EmailFlow."
+  syntax:
+    content: String GetReplyToName()
+    return:
+      type: CRMScript.Global.String
+      description: "Reply-to name."
+- uid: CRMScript.NetServer.NSEmailFlow.SetReplyToName(String)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetReplyToName(String)
+  id: 'SetReplyToName(String)'
+  so.intellisense: NSEmailFlow.SetReplyToName
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetReplyToName(String)'
+  nameWithType: NSEmailFlow.SetReplyToName(String)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetReplyToName(String)
+  type: Method
+  summary: "Sets the name for the reply-to address in the EmailFlow."
+  syntax:
+    content: Void SetReplyToName(String replyToName)
+    parameters:
+    - id: replyToName
+      type: CRMScript.Global.String
+      description: "The reply-to name to set."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.GetSmsSender()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetSmsSender()
+  id: 'GetSmsSender()'
+  so.intellisense: NSEmailFlow.GetSmsSender
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetSmsSender()'
+  nameWithType: NSEmailFlow.GetSmsSender()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetSmsSender()
+  type: Method
+  summary: "Gets the SMS sender information for the EmailFlow."
+  syntax:
+    content: String GetSmsSender()
+    return:
+      type: CRMScript.Global.String
+      description: "SMS sender information."
+- uid: CRMScript.NetServer.NSEmailFlow.SetSmsSender(String)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetSmsSender(String)
+  id: 'SetSmsSender(String)'
+  so.intellisense: NSEmailFlow.SetSmsSender
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetSmsSender(String)'
+  nameWithType: NSEmailFlow.SetSmsSender(String)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetSmsSender(String)
+  type: Method
+  summary: "Sets the SMS sender information for the EmailFlow."
+  syntax:
+    content: Void SetSmsSender(String smsSender)
+    parameters:
+    - id: smsSender
+      type: CRMScript.Global.String
+      description: "The SMS sender information to set."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.GetUseGoogleAnalytics()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetUseGoogleAnalytics()
+  id: 'GetUseGoogleAnalytics()'
+  so.intellisense: NSEmailFlow.GetUseGoogleAnalytics
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetUseGoogleAnalytics()'
+  nameWithType: NSEmailFlow.GetUseGoogleAnalytics()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetUseGoogleAnalytics()
+  type: Method
+  summary: "Gets whether to use Google Analytics for the EmailFlow."
+  syntax:
+    content: Bool GetUseGoogleAnalytics()
+    return:
+      type: CRMScript.Global.Bool
+      description: "True to use Google Analytics."
+- uid: CRMScript.NetServer.NSEmailFlow.SetUseGoogleAnalytics(Bool)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetUseGoogleAnalytics(Bool)
+  id: 'SetUseGoogleAnalytics(Bool)'
+  so.intellisense: NSEmailFlow.SetUseGoogleAnalytics
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetUseGoogleAnalytics(Bool)'
+  nameWithType: NSEmailFlow.SetUseGoogleAnalytics(Bool)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetUseGoogleAnalytics(Bool)
+  type: Method
+  summary: "Sets whether to use Google Analytics for the EmailFlow."
+  syntax:
+    content: Void SetUseGoogleAnalytics(Bool useGoogleAnalytics)
+    parameters:
+    - id: useGoogleAnalytics
+      type: CRMScript.Global.Bool
+      description: "True to use Google Analytics."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.GetGaSource()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetGaSource()
+  id: 'GetGaSource()'
+  so.intellisense: NSEmailFlow.GetGaSource
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetGaSource()'
+  nameWithType: NSEmailFlow.GetGaSource()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetGaSource()
+  type: Method
+  summary: "Gets the Google Analytics source for the EmailFlow."
+  syntax:
+    content: String GetGaSource()
+    return:
+      type: CRMScript.Global.String
+      description: "Google Analytics source."
+- uid: CRMScript.NetServer.NSEmailFlow.SetGaSource(String)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetGaSource(String)
+  id: 'SetGaSource(String)'
+  so.intellisense: NSEmailFlow.SetGaSource
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetGaSource(String)'
+  nameWithType: NSEmailFlow.SetGaSource(String)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetGaSource(String)
+  type: Method
+  summary: "Sets the Google Analytics source for the EmailFlow."
+  syntax:
+    content: Void SetGaSource(String gaSource)
+    parameters:
+    - id: gaSource
+      type: CRMScript.Global.String
+      description: "The Google Analytics source to set."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.GetGaCampaign()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetGaCampaign()
+  id: 'GetGaCampaign()'
+  so.intellisense: NSEmailFlow.GetGaCampaign
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetGaCampaign()'
+  nameWithType: NSEmailFlow.GetGaCampaign()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetGaCampaign()
+  type: Method
+  summary: "Gets the Google Analytics campaign for the EmailFlow."
+  syntax:
+    content: String GetGaCampaign()
+    return:
+      type: CRMScript.Global.String
+      description: "Google Analytics campaign."
+- uid: CRMScript.NetServer.NSEmailFlow.SetGaCampaign(String)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetGaCampaign(String)
+  id: 'SetGaCampaign(String)'
+  so.intellisense: NSEmailFlow.SetGaCampaign
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetGaCampaign(String)'
+  nameWithType: NSEmailFlow.SetGaCampaign(String)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetGaCampaign(String)
+  type: Method
+  summary: "Sets the Google Analytics campaign for the EmailFlow."
+  syntax:
+    content: Void SetGaCampaign(String gaCampaign)
+    parameters:
+    - id: gaCampaign
+      type: CRMScript.Global.String
+      description: "The Google Analytics campaign to set."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.GetUseTimeframe()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetUseTimeframe()
+  id: 'GetUseTimeframe()'
+  so.intellisense: NSEmailFlow.GetUseTimeframe
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetUseTimeframe()'
+  nameWithType: NSEmailFlow.GetUseTimeframe()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetUseTimeframe()
+  type: Method
+  summary: "Gets whether to use sender timeframe settings."
+  syntax:
+    content: Bool GetUseTimeframe()
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if using timeframe settings."
+- uid: CRMScript.NetServer.NSEmailFlow.SetUseTimeframe(Bool)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetUseTimeframe(Bool)
+  id: 'SetUseTimeframe(Bool)'
+  so.intellisense: NSEmailFlow.SetUseTimeframe
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetUseTimeframe(Bool)'
+  nameWithType: NSEmailFlow.SetUseTimeframe(Bool)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetUseTimeframe(Bool)
+  type: Method
+  summary: "Sets whether to use sender timeframe settings."
+  syntax:
+    content: Void SetUseTimeframe(Bool useTimeframe)
+    parameters:
+    - id: useTimeframe
+      type: CRMScript.Global.Bool
+      description: "True to use sender timeframe settings."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.GetSelectedDays()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetSelectedDays()
+  id: 'GetSelectedDays()'
+  so.intellisense: NSEmailFlow.GetSelectedDays
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetSelectedDays()'
+  nameWithType: NSEmailFlow.GetSelectedDays()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetSelectedDays()
+  type: Method
+  summary: "Gets the selected days for the sender timeframe."
+  syntax:
+    content: NSWeekday GetSelectedDays()
+    return:
+      type: CRMScript.NetServer.NSWeekday
+      description: "Selected days."
+- uid: CRMScript.NetServer.NSEmailFlow.SetSelectedDays(NSWeekday)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetSelectedDays(NSWeekday)
+  id: 'SetSelectedDays(NSWeekday)'
+  so.intellisense: NSEmailFlow.SetSelectedDays
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetSelectedDays(NSWeekday)'
+  nameWithType: NSEmailFlow.SetSelectedDays(NSWeekday)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetSelectedDays(NSWeekday)
+  type: Method
+  summary: "Sets the selected days for the sender timeframe."
+  syntax:
+    content: Void SetSelectedDays(NSWeekday selectedDays)
+    parameters:
+    - id: selectedDays
+      type: CRMScript.NetServer.NSWeekday
+      description: "The selected days to set."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.GetTimeframeStart()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetTimeframeStart()
+  id: 'GetTimeframeStart()'
+  so.intellisense: NSEmailFlow.GetTimeframeStart
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetTimeframeStart()'
+  nameWithType: NSEmailFlow.GetTimeframeStart()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetTimeframeStart()
+  type: Method
+  summary: "Gets the start time for the sender timeframe."
+  syntax:
+    content: String GetTimeframeStart()
+    return:
+      type: CRMScript.Global.String
+      description: "Start time."
+- uid: CRMScript.NetServer.NSEmailFlow.SetTimeframeStart(String)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetTimeframeStart(String)
+  id: 'SetTimeframeStart(String)'
+  so.intellisense: NSEmailFlow.SetTimeframeStart
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetTimeframeStart(String)'
+  nameWithType: NSEmailFlow.SetTimeframeStart(String)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetTimeframeStart(String)
+  type: Method
+  summary: "Sets the start time for the sender timeframe."
+  syntax:
+    content: Void SetTimeframeStart(String timeframeStart)
+    parameters:
+    - id: timeframeStart
+      type: CRMScript.Global.String
+      description: "The start time to set."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.GetTimeframeEnd()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetTimeframeEnd()
+  id: 'GetTimeframeEnd()'
+  so.intellisense: NSEmailFlow.GetTimeframeEnd
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetTimeframeEnd()'
+  nameWithType: NSEmailFlow.GetTimeframeEnd()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetTimeframeEnd()
+  type: Method
+  summary: "Gets the end time for the sender timeframe."
+  syntax:
+    content: String GetTimeframeEnd()
+    return:
+      type: CRMScript.Global.String
+      description: "End time."
+- uid: CRMScript.NetServer.NSEmailFlow.SetTimeframeEnd(String)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetTimeframeEnd(String)
+  id: 'SetTimeframeEnd(String)'
+  so.intellisense: NSEmailFlow.SetTimeframeEnd
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetTimeframeEnd(String)'
+  nameWithType: NSEmailFlow.SetTimeframeEnd(String)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetTimeframeEnd(String)
+  type: Method
+  summary: "Sets the end time for the sender timeframe."
+  syntax:
+    content: Void SetTimeframeEnd(String timeframeEnd)
+    parameters:
+    - id: timeframeEnd
+      type: CRMScript.Global.String
+      description: "The end time to set."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.GetUseWorkflowStart()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetUseWorkflowStart()
+  id: 'GetUseWorkflowStart()'
+  so.intellisense: NSEmailFlow.GetUseWorkflowStart
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetUseWorkflowStart()'
+  nameWithType: NSEmailFlow.GetUseWorkflowStart()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetUseWorkflowStart()
+  type: Method
+  summary: "Gets whether to use workflow start settings."
+  syntax:
+    content: Bool GetUseWorkflowStart()
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if using workflow start settings."
+- uid: CRMScript.NetServer.NSEmailFlow.SetUseWorkflowStart(Bool)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetUseWorkflowStart(Bool)
+  id: 'SetUseWorkflowStart(Bool)'
+  so.intellisense: NSEmailFlow.SetUseWorkflowStart
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetUseWorkflowStart(Bool)'
+  nameWithType: NSEmailFlow.SetUseWorkflowStart(Bool)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetUseWorkflowStart(Bool)
+  type: Method
+  summary: "Sets whether to use workflow start settings."
+  syntax:
+    content: Void SetUseWorkflowStart(Bool useWorkflowStart)
+    parameters:
+    - id: useWorkflowStart
+      type: CRMScript.Global.Bool
+      description: "True to use workflow start settings."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.GetWorkflowStart()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetWorkflowStart()
+  id: 'GetWorkflowStart()'
+  so.intellisense: NSEmailFlow.GetWorkflowStart
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetWorkflowStart()'
+  nameWithType: NSEmailFlow.GetWorkflowStart()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetWorkflowStart()
+  type: Method
+  summary: "Gets the workflow start settings."
+  syntax:
+    content: String GetWorkflowStart()
+    return:
+      type: CRMScript.Global.String
+      description: "Workflow start settings."
+- uid: CRMScript.NetServer.NSEmailFlow.SetWorkflowStart(String)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetWorkflowStart(String)
+  id: 'SetWorkflowStart(String)'
+  so.intellisense: NSEmailFlow.SetWorkflowStart
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetWorkflowStart(String)'
+  nameWithType: NSEmailFlow.SetWorkflowStart(String)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetWorkflowStart(String)
+  type: Method
+  summary: "Sets the workflow start settings."
+  syntax:
+    content: Void SetWorkflowStart(String workflowStart)
+    parameters:
+    - id: workflowStart
+      type: CRMScript.Global.String
+      description: "The workflow start settings to set."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.GetUseEnrollmentEnd()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetUseEnrollmentEnd()
+  id: 'GetUseEnrollmentEnd()'
+  so.intellisense: NSEmailFlow.GetUseEnrollmentEnd
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetUseEnrollmentEnd()'
+  nameWithType: NSEmailFlow.GetUseEnrollmentEnd()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetUseEnrollmentEnd()
+  type: Method
+  summary: "Gets whether to use enrollment end settings."
+  syntax:
+    content: Bool GetUseEnrollmentEnd()
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if using enrollment end settings."
+- uid: CRMScript.NetServer.NSEmailFlow.SetUseEnrollmentEnd(Bool)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetUseEnrollmentEnd(Bool)
+  id: 'SetUseEnrollmentEnd(Bool)'
+  so.intellisense: NSEmailFlow.SetUseEnrollmentEnd
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetUseEnrollmentEnd(Bool)'
+  nameWithType: NSEmailFlow.SetUseEnrollmentEnd(Bool)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetUseEnrollmentEnd(Bool)
+  type: Method
+  summary: "Sets whether to use enrollment end settings."
+  syntax:
+    content: Void SetUseEnrollmentEnd(Bool useEnrollmentEnd)
+    parameters:
+    - id: useEnrollmentEnd
+      type: CRMScript.Global.Bool
+      description: "True to use enrollment end settings."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.GetEnrollmentEnd()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetEnrollmentEnd()
+  id: 'GetEnrollmentEnd()'
+  so.intellisense: NSEmailFlow.GetEnrollmentEnd
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetEnrollmentEnd()'
+  nameWithType: NSEmailFlow.GetEnrollmentEnd()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetEnrollmentEnd()
+  type: Method
+  summary: "Gets the enrollment end settings."
+  syntax:
+    content: String GetEnrollmentEnd()
+    return:
+      type: CRMScript.Global.String
+      description: "Enrollment end settings."
+- uid: CRMScript.NetServer.NSEmailFlow.SetEnrollmentEnd(String)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetEnrollmentEnd(String)
+  id: 'SetEnrollmentEnd(String)'
+  so.intellisense: NSEmailFlow.SetEnrollmentEnd
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetEnrollmentEnd(String)'
+  nameWithType: NSEmailFlow.SetEnrollmentEnd(String)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetEnrollmentEnd(String)
+  type: Method
+  summary: "Sets the enrollment end settings."
+  syntax:
+    content: Void SetEnrollmentEnd(String enrollmentEnd)
+    parameters:
+    - id: enrollmentEnd
+      type: CRMScript.Global.String
+      description: "The enrollment end settings to set."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.GetRemoveFromFlows()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetRemoveFromFlows()
+  id: 'GetRemoveFromFlows()'
+  so.intellisense: NSEmailFlow.GetRemoveFromFlows
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetRemoveFromFlows()'
+  nameWithType: NSEmailFlow.GetRemoveFromFlows()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetRemoveFromFlows()
+  type: Method
+  summary: "Gets the flows to remove the sender from."
+  syntax:
+    content: Vector GetRemoveFromFlows()
+    return:
+      type: CRMScript.Global.Vector
+      description: "Flows to remove from."
+- uid: CRMScript.NetServer.NSEmailFlow.SetRemoveFromFlows(Vector)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetRemoveFromFlows(Vector)
+  id: 'SetRemoveFromFlows(Vector)'
+  so.intellisense: NSEmailFlow.SetRemoveFromFlows
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetRemoveFromFlows(Vector)'
+  nameWithType: NSEmailFlow.SetRemoveFromFlows(Vector)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetRemoveFromFlows(Vector)
+  type: Method
+  summary: "Sets the flows to remove the sender from."
+  syntax:
+    content: Void SetRemoveFromFlows(Vector removeFromFlows)
+    parameters:
+    - id: removeFromFlows
+      type: CRMScript.Global.Vector
+      description: "The flows to remove from."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.GetTzLocation()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetTzLocation()
+  id: 'GetTzLocation()'
+  so.intellisense: NSEmailFlow.GetTzLocation
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetTzLocation()'
+  nameWithType: NSEmailFlow.GetTzLocation()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetTzLocation()
+  type: Method
+  summary: "Gets the workflow timezone setting."
+  syntax:
+    content: NSTimeZoneData GetTzLocation()
+    return:
+      type: CRMScript.NetServer.NSTimeZoneData
+      description: "Timezone data."
+- uid: CRMScript.NetServer.NSEmailFlow.GetFolder()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetFolder()
+  id: 'GetFolder()'
+  so.intellisense: NSEmailFlow.GetFolder
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetFolder()'
+  nameWithType: NSEmailFlow.GetFolder()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetFolder()
+  type: Method
+  summary: "Gets the folder setting for the EmailFlow."
+  syntax:
+    content: NSHierarchyEntity GetFolder()
+    return:
+      type: CRMScript.NetServer.NSHierarchyEntity
+      description: "Folder entity."
+- uid: CRMScript.NetServer.NSEmailFlow.SetFolder(NSHierarchyEntity)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetFolder(NSHierarchyEntity)
+  id: 'SetFolder(NSHierarchyEntity)'
+  so.intellisense: NSEmailFlow.SetFolder
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetFolder(NSHierarchyEntity)'
+  nameWithType: NSEmailFlow.SetFolder(NSHierarchyEntity)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetFolder(NSHierarchyEntity)
+  type: Method
+  summary: "Sets the folder setting for the EmailFlow."
+  syntax:
+    content: Void SetFolder(NSHierarchyEntity folder)
+    parameters:
+    - id: folder
+      type: CRMScript.NetServer.NSHierarchyEntity
+      description: "The folder entity to set."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.GetAssociate()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetAssociate()
+  id: 'GetAssociate()'
+  so.intellisense: NSEmailFlow.GetAssociate
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetAssociate()'
+  nameWithType: NSEmailFlow.GetAssociate()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetAssociate()
+  type: Method
+  summary: "Gets the associate setting for the EmailFlow."
+  syntax:
+    content: NSAssociate GetAssociate()
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description: "Associate entity."
+- uid: CRMScript.NetServer.NSEmailFlow.SetAssociate(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetAssociate(NSAssociate)
+  id: 'SetAssociate(NSAssociate)'
+  so.intellisense: NSEmailFlow.SetAssociate
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetAssociate(NSAssociate)'
+  nameWithType: NSEmailFlow.SetAssociate(NSAssociate)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetAssociate(NSAssociate)
+  type: Method
+  summary: "Sets the associate setting for the EmailFlow."
+  syntax:
+    content: Void SetAssociate(NSAssociate associate)
+    parameters:
+    - id: associate
+      type: CRMScript.NetServer.NSAssociate
+      description: "The associate entity to set."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.GetShipmentType()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetShipmentType()
+  id: 'GetShipmentType()'
+  so.intellisense: NSEmailFlow.GetShipmentType
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetShipmentType()'
+  nameWithType: NSEmailFlow.GetShipmentType()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetShipmentType()
+  type: Method
+  summary: "Gets the shipment type setting for the EmailFlow."
+  syntax:
+    content: NSMDOListItem GetShipmentType()
+    return:
+      type: CRMScript.NetServer.NSMDOListItem
+      description: "Shipment type item."
+- uid: CRMScript.NetServer.NSEmailFlow.SetShipmentType(NSMDOListItem)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetShipmentType(NSMDOListItem)
+  id: 'SetShipmentType(NSMDOListItem)'
+  so.intellisense: NSEmailFlow.SetShipmentType
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetShipmentType(NSMDOListItem)'
+  nameWithType: NSEmailFlow.SetShipmentType(NSMDOListItem)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetShipmentType(NSMDOListItem)
+  type: Method
+  summary: "Sets the shipment type setting for the EmailFlow."
+  syntax:
+    content: Void SetShipmentType(NSMDOListItem shipmentType)
+    parameters:
+    - id: shipmentType
+      type: CRMScript.NetServer.NSMDOListItem
+      description: "The shipment type item to set."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.GetSteps()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetSteps()
+  id: 'GetSteps()'
+  so.intellisense: NSEmailFlow.GetSteps
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetSteps()'
+  nameWithType: NSEmailFlow.GetSteps()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetSteps()
+  type: Method
+  summary: "Gets the workflow steps for the EmailFlow."
+  syntax:
+    content: Vector GetSteps()
+    return:
+      type: CRMScript.Global.Vector
+      description: "Vector of workflow steps."
+- uid: CRMScript.NetServer.NSEmailFlow.SetSteps(Vector)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetSteps(Vector)
+  id: 'SetSteps(Vector)'
+  so.intellisense: NSEmailFlow.SetSteps
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetSteps(Vector)'
+  nameWithType: NSEmailFlow.SetSteps(Vector)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetSteps(Vector)
+  type: Method
+  summary: "Sets the workflow steps for the EmailFlow."
+  syntax:
+    content: Void SetSteps(Vector steps)
+    parameters:
+    - id: steps
+      type: CRMScript.Global.Vector
+      description: "The workflow steps to set."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.GetTriggers()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetTriggers()
+  id: 'GetTriggers()'
+  so.intellisense: NSEmailFlow.GetTriggers
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetTriggers()'
+  nameWithType: NSEmailFlow.GetTriggers()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetTriggers()
+  type: Method
+  summary: "Gets the triggers for the EmailFlow."
+  syntax:
+    content: Vector GetTriggers()
+    return:
+      type: CRMScript.Global.Vector
+      description: "Vector of triggers."
+- uid: CRMScript.NetServer.NSEmailFlow.SetTriggers(Vector)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetTriggers(Vector)
+  id: 'SetTriggers(Vector)'
+  so.intellisense: NSEmailFlow.SetTriggers
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetTriggers(Vector)'
+  nameWithType: NSEmailFlow.SetTriggers(Vector)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetTriggers(Vector)
+  type: Method
+  summary: "Sets the triggers for the EmailFlow."
+  syntax:
+    content: Void SetTriggers(Vector triggers)
+    parameters:
+    - id: triggers
+      type: CRMScript.Global.Vector
+      description: "The triggers to set."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.GetGoals()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetGoals()
+  id: 'GetGoals()'
+  so.intellisense: NSEmailFlow.GetGoals
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetGoals()'
+  nameWithType: NSEmailFlow.GetGoals()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetGoals()
+  type: Method
+  summary: "Gets the goals for the EmailFlow."
+  syntax:
+    content: Vector GetGoals()
+    return:
+      type: CRMScript.Global.Vector
+      description: "Vector of goals."
+- uid: CRMScript.NetServer.NSEmailFlow.SetGoals(Vector)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetGoals(Vector)
+  id: 'SetGoals(Vector)'
+  so.intellisense: NSEmailFlow.SetGoals
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetGoals(Vector)'
+  nameWithType: NSEmailFlow.SetGoals(Vector)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetGoals(Vector)
+  type: Method
+  summary: "Sets the goals for the EmailFlow."
+  syntax:
+    content: Void SetGoals(Vector goals)
+    parameters:
+    - id: goals
+      type: CRMScript.Global.Vector
+      description: "The goals to set."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.GetFilter()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetFilter()
+  id: 'GetFilter()'
+  so.intellisense: NSEmailFlow.GetFilter
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetFilter()'
+  nameWithType: NSEmailFlow.GetFilter()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetFilter()
+  type: Method
+  summary: "Gets the filter for the EmailFlow."
+  syntax:
+    content: NSWorkflowFilter GetFilter()
+    return:
+      type: CRMScript.NetServer.NSWorkflowFilter
+      description: "Workflow filter."
+- uid: CRMScript.NetServer.NSEmailFlow.SetFilter(NSWorkflowFilter)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetFilter(NSWorkflowFilter)
+  id: 'SetFilter(NSWorkflowFilter)'
+  so.intellisense: NSEmailFlow.SetFilter
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetFilter(NSWorkflowFilter)'
+  nameWithType: NSEmailFlow.SetFilter(NSWorkflowFilter)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetFilter(NSWorkflowFilter)
+  type: Method
+  summary: "Sets the filter for the EmailFlow."
+  syntax:
+    content: Void SetFilter(NSWorkflowFilter filter)
+    parameters:
+    - id: filter
+      type: CRMScript.NetServer.NSWorkflowFilter
+      description: "The workflow filter to set."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.GetBlockLists()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetBlockLists()
+  id: 'GetBlockLists()'
+  so.intellisense: NSEmailFlow.GetBlockLists
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetBlockLists()'
+  nameWithType: NSEmailFlow.GetBlockLists()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetBlockLists()
+  type: Method
+  summary: "Gets the block lists for the EmailFlow."
+  syntax:
+    content: Vector GetBlockLists()
+    return:
+      type: CRMScript.Global.Vector
+      description: "Vector of block lists."
+- uid: CRMScript.NetServer.NSEmailFlow.SetBlockLists(Vector)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetBlockLists(Vector)
+  id: 'SetBlockLists(Vector)'
+  so.intellisense: NSEmailFlow.SetBlockLists
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetBlockLists(Vector)'
+  nameWithType: NSEmailFlow.SetBlockLists(Vector)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetBlockLists(Vector)
+  type: Method
+  summary: "Sets the block lists for the EmailFlow."
+  syntax:
+    content: Void SetBlockLists(Vector blockLists)
+    parameters:
+    - id: blockLists
+      type: CRMScript.Global.Vector
+      description: "The block lists to set."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.GetContentInfo()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetContentInfo()
+  id: 'GetContentInfo()'
+  so.intellisense: NSEmailFlow.GetContentInfo
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetContentInfo()'
+  nameWithType: NSEmailFlow.GetContentInfo()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetContentInfo()
+  type: Method
+  summary: "Gets the content information for the EmailFlow."
+  syntax:
+    content: NSContentInfo GetContentInfo()
+    return:
+      type: CRMScript.NetServer.NSContentInfo
+      description: "Content information."
+- uid: CRMScript.NetServer.NSEmailFlow.GetExitFlowId()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetExitFlowId()
+  id: 'GetExitFlowId()'
+  so.intellisense: NSEmailFlow.GetExitFlowId
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetExitFlowId()'
+  nameWithType: NSEmailFlow.GetExitFlowId()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetExitFlowId()
+  type: Method
+  summary: "Gets the exit flow ID for the EmailFlow."
+  syntax:
+    content: Integer GetExitFlowId()
+    return:
+      type: CRMScript.Global.Integer
+      description: "Exit flow ID."
+- uid: CRMScript.NetServer.NSEmailFlow.SetExitFlowId(Integer)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetExitFlowId(Integer)
+  id: 'SetExitFlowId(Integer)'
+  so.intellisense: NSEmailFlow.SetExitFlowId
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetExitFlowId(Integer)'
+  nameWithType: NSEmailFlow.SetExitFlowId(Integer)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetExitFlowId(Integer)
+  type: Method
+  summary: "Sets the exit flow ID for the EmailFlow."
+  syntax:
+    content: Void SetExitFlowId(Integer exitFlowId)
+    parameters:
+    - id: exitFlowId
+      type: CRMScript.Global.Integer
+      description: "The exit flow ID to set."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.GetExitSuccessFlowId()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetExitSuccessFlowId()
+  id: 'GetExitSuccessFlowId()'
+  so.intellisense: NSEmailFlow.GetExitSuccessFlowId
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetExitSuccessFlowId()'
+  nameWithType: NSEmailFlow.GetExitSuccessFlowId()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetExitSuccessFlowId()
+  type: Method
+  summary: "Gets the exit success flow ID for the EmailFlow."
+  syntax:
+    content: Integer GetExitSuccessFlowId()
+    return:
+      type: CRMScript.Global.Integer
+      description: "Exit success flow ID."
+- uid: CRMScript.NetServer.NSEmailFlow.SetExitSuccessFlowId(Integer)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetExitSuccessFlowId(Integer)
+  id: 'SetExitSuccessFlowId(Integer)'
+  so.intellisense: NSEmailFlow.SetExitSuccessFlowId
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetExitSuccessFlowId(Integer)'
+  nameWithType: NSEmailFlow.SetExitSuccessFlowId(Integer)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetExitSuccessFlowId(Integer)
+  type: Method
+  summary: "Sets the exit success flow ID for the EmailFlow."
+  syntax:
+    content: Void SetExitSuccessFlowId(Integer exitSuccessFlowId)
+    parameters:
+    - id: exitSuccessFlowId
+      type: CRMScript.Global.Integer
+      description: "The exit success flow ID to set."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.GetCreatedBy()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetCreatedBy()
+  id: 'GetCreatedBy()'
+  so.intellisense: NSEmailFlow.GetCreatedBy
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetCreatedBy()'
+  nameWithType: NSEmailFlow.GetCreatedBy()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetCreatedBy()
+  type: Method
+  summary: "Gets the associate that first created the EmailFlow. Read-only property."
+  syntax:
+    content: NSAssociate GetCreatedBy()
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description: "The associate who created the flow."
+- uid: CRMScript.NetServer.NSEmailFlow.GetUpdatedBy()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetUpdatedBy()
+  id: 'GetUpdatedBy()'
+  so.intellisense: NSEmailFlow.GetUpdatedBy
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetUpdatedBy()'
+  nameWithType: NSEmailFlow.GetUpdatedBy()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetUpdatedBy()
+  type: Method
+  summary: "Gets the associate that last updated the EmailFlow. Read-only property."
+  syntax:
+    content: NSAssociate GetUpdatedBy()
+    return:
+      type: CRMScript.NetServer.NSAssociate
+      description: "The associate who last updated the flow."
+- uid: CRMScript.NetServer.NSEmailFlow.SetUpdatedBy(NSAssociate)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetUpdatedBy(NSAssociate)
+  id: 'SetUpdatedBy(NSAssociate)'
+  so.intellisense: NSEmailFlow.SetUpdatedBy
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetUpdatedBy(NSAssociate)'
+  nameWithType: NSEmailFlow.SetUpdatedBy(NSAssociate)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetUpdatedBy(NSAssociate)
+  type: Method
+  summary: "Sets the associate that last updated the EmailFlow. Read-only property."
+  syntax:
+    content: Void SetUpdatedBy(NSAssociate updatedBy)
+    parameters:
+    - id: updatedBy
+      type: CRMScript.NetServer.NSAssociate
+      description: "The associate who last updated the flow."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.GetCreatedDate()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetCreatedDate()
+  id: 'GetCreatedDate()'
+  so.intellisense: NSEmailFlow.GetCreatedDate
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetCreatedDate()'
+  nameWithType: NSEmailFlow.GetCreatedDate()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetCreatedDate()
+  type: Method
+  summary: "Gets the date and time when the EmailFlow was created. Read-only property."
+  syntax:
+    content: NSDateTime GetCreatedDate()
+    return:
+      type: CRMScript.NetServer.NSDateTime
+      description: "The creation date and time."
+- uid: CRMScript.NetServer.NSEmailFlow.GetUpdatedDate()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetUpdatedDate()
+  id: 'GetUpdatedDate()'
+  so.intellisense: NSEmailFlow.GetUpdatedDate
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetUpdatedDate()'
+  nameWithType: NSEmailFlow.GetUpdatedDate()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetUpdatedDate()
+  type: Method
+  summary: "Gets the date and time when the EmailFlow was last updated. Read-only property."
+  syntax:
+    content: NSDateTime GetUpdatedDate()
+    return:
+      type: CRMScript.NetServer.NSDateTime
+      description: "The last updated date and time."
+
+references:
+- uid: CRMScript.NetServer.NSEmailFlow
+  commentId: T:CRMScript.NetServer.NSEmailFlow
+  isExternal: true
+  name: NSEmailFlow
+  nameWithType: NSEmailFlow
+  fullName: CRMScript.NetServer.NSEmailFlow
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  isExternal: true
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.NetServer.NSEmailFromType
+  commentId: T:CRMScript.NetServer.NSEmailFromType
+  isExternal: true
+  name: NSEmailFromType
+  nameWithType: NSEmailFromType
+  fullName: CRMScript.NetServer.NSEmailFromType
+- uid: CRMScript.NetServer.NSEmailReplyToType
+  commentId: T:CRMScript.NetServer.NSEmailReplyToType
+  isExternal: true
+  name: NSEmailReplyToType
+  nameWithType: NSEmailReplyToType
+  fullName: CRMScript.NetServer.NSEmailReplyToType
+- uid: CRMScript.NetServer.NSWeekday
+  commentId: T:CRMScript.NetServer.NSWeekday
+  isExternal: true
+  name: NSWeekday
+  nameWithType: NSWeekday
+  fullName: CRMScript.NetServer.NSWeekday
+- uid: CRMScript.NetServer.NSTimeZoneData
+  commentId: T:CRMScript.NetServer.NSTimeZoneData
+  isExternal: true
+  name: NSTimeZoneData
+  nameWithType: NSTimeZoneData
+  fullName: CRMScript.NetServer.NSTimeZoneData
+- uid: CRMScript.NetServer.NSHierarchyEntity
+  commentId: T:CRMScript.NetServer.NSHierarchyEntity
+  isExternal: true
+  name: NSHierarchyEntity
+  nameWithType: NSHierarchyEntity
+  fullName: CRMScript.NetServer.NSHierarchyEntity
+- uid: CRMScript.NetServer.NSAssociate
+  commentId: T:CRMScript.NetServer.NSAssociate
+  isExternal: true
+  name: NSAssociate
+  nameWithType: NSAssociate
+  fullName: CRMScript.NetServer.NSAssociate
+- uid: CRMScript.NetServer.NSMDOListItem
+  commentId: T:CRMScript.NetServer.NSMDOListItem
+  isExternal: true
+  name: NSMDOListItem
+  nameWithType: NSMDOListItem
+  fullName: CRMScript.NetServer.NSMDOListItem
+- uid: CRMScript.NetServer.NSWorkflowFilter
+  commentId: T:CRMScript.NetServer.NSWorkflowFilter
+  isExternal: true
+  name: NSWorkflowFilter
+  nameWithType: NSWorkflowFilter
+  fullName: CRMScript.NetServer.NSWorkflowFilter
+- uid: CRMScript.Global.Vector
+  commentId: T:CRMScript.Global.Vector
+  isExternal: true
+  name: Vector
+  nameWithType: Vector
+  fullName: CRMScript.Global.Vector
+- uid: CRMScript.NetServer.NSDateTime
+  commentId: T:CRMScript.NetServer.NSDateTime
+  isExternal: true
+  name: NSDateTime
+  nameWithType: NSDateTime
+  fullName: CRMScript.NetServer.NSDateTime
