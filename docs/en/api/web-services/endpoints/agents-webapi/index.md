@@ -1,11 +1,14 @@
 ---
+uid: webapi-agents
 title: Agents WebAPI
-uid: webapi_agents
-description: "The Agents API contains everything in the normal web service API but does not attempt to model entities."
-author: Bergfrid Dias
-date: 12.02.2021
+description: The Agents API contains everything in the normal web service API but does not attempt to model entities.
 keywords: API, web services, endpoints, WebAPI, REST, Agents
+author: Bergfrid Dias
+date: 05.23.2025
+version: 10
 topic: concept
+audience: api
+audience_tooltip: SuperOffice APIs and database
 ---
 
 # Agents WebAPI
@@ -103,7 +106,7 @@ Happens when the request succeeds but the data is invalid. For example, a requir
 
 <!-- Referenced links -->
 [1]: ../rest-webapi/index.md
-[2]: ../../howto/company/create-contact-webapi-agents.md
+[2]: ../../howto/company/create-contact.md
 [3]: ../../howto/company/add-catlist-item-webapi-agents.md
 [4]: ../../howto/document/rest-add-document-template.md
 [5]: ../../howto/document/rest-generate-document.md

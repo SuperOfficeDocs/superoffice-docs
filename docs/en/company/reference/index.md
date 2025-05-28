@@ -4,7 +4,7 @@ title: Working with companies
 description: The company card uses the contact table and its related tables. There are multiple person records for any contact.
 keywords: company, person, contact, interest, contactinterest, ContInt
 author: Bergfrid Skaara Dias
-date: 10.22.2024
+date: 05.23.2025
 version: 10
 topic: reference
 audience: api
@@ -57,8 +57,7 @@ You can get a `Contact` entity either by using the [classes provided in the enti
 
 ## Create contact
 
-* [Create contact (REST)][11]
-* [Create contact WebApi agents][12]
+* [Create contact (REST) / WebApi agents][11]
 
 ## Interests
 
@@ -163,8 +162,7 @@ Explore the options and select the most appropriate method for your application.
 [9]: ../../sale/index.yml
 
 [10]: ../../api/web-services/howto/company/index.md
-[11]: ../../api/web-services/howto/company/create-contact-rest.md
-[12]: ../../api/web-services/howto/company/create-contact-webapi-agents.md
+[11]: ../../api/web-services/howto/company/create-contact.md
 [13]: ../../api/web-services/howto/company/get-contact-via-services-layer.md
 [14]: ../../api/web-services/howto/company/get-catlist-listagent.md
 [15]: ../../api/web-services/howto/company/get-catlist-mdoagent.md

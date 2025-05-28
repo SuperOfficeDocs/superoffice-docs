@@ -2,13 +2,16 @@
 uid: api-create-contact
 title: Create a new company
 description: How to create a new company
-keywords: contact, company, services, WebApi, API, rest, RPC, JavaScript CreateDefaultContactEntity, ContactAgent
+keywords: contact, company, services, WebApi, rest, RPC, JavaScript CreateDefaultContactEntity, ContactAgent
 author: Tony Yates, Eivind Fasting
 date: 05.23.2025
+version: 10
 topic: howto
+audience: api
+audience_tooltip: SuperOffice APIs and database
 ---
 
-<!-- markdownlint-disable-file MD051 MD032 -->
+<!-- markdownlint-disable-file MD051 -->
 
 # Create a new company
 

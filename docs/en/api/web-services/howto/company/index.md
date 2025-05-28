@@ -4,8 +4,11 @@ title: Contact - services
 description: Working with companies (contact) in API with services.
 keywords: contact, company, services, API
 author: Bergfrid Skaara Dias
-date: 02.22.2022
+date: 05.23.2025
+version: 10
 topic: howto
+audience: api
+audience_tooltip: SuperOffice APIs and database
 ---
 
 # Contact - services
