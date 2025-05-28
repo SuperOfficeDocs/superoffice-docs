@@ -150,6 +150,7 @@ For the time being, a user can have either password or AD authentication. The da
 
 ### Example
 
+<!-- markdownlint-disable-file MD044 -->
 | Id | Assoc | Type | SearchName | Secret | ValidFrom | ValidTo | LastUsed |
 |---|---|---|---|---|---|---|---|
 | 92 | 104 | CRM5/PASSWORD | ADM0 | 7P:DnYq1bcQ9eys2z9WkgpxYBpP63M= | 2010-05-11 00:00:00 | 9999-12-31 23:59:59 | SUPEROFFICE_ASA\marekv on DEV-MAREK-2: SOCRM.exe (Logging in to SuperOffice CRM) |

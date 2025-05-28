@@ -69,7 +69,7 @@ In diesem Bildschirm können Sie die Eigenschaften eines neuen oder vorhandenen 
 | Name | Hier können Sie einen Namen für den Zeitplan eingeben. |
 | ejScript/CRMScript | Hier können Sie das CRMScript auswählen, das den Zeitplan aktiviert. |
 | Parameter | Die von CRMScript oder dem Data Exchange Agenten verwendeten Parameter. |
-| OK (Alt-O): Klicken Sie auf diese Schaltfläche, um zu speichern. |
+| OK (Alt-O) | Klicken Sie auf diese Schaltfläche, um zu speichern. |
 | Abbrechen | Klicken Sie auf diese Schaltfläche, um abzubrechen. |
 | Löschen | Klicken Sie auf diese Schaltfläche, um zu löschen. |
 | Zurücksetzen | Wenn die Agentenaufgabe nicht angehalten wird, klicken Sie auf diese Schaltfläche, um sie zurückzusetzen. |

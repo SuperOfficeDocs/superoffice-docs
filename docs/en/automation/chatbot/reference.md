@@ -91,7 +91,7 @@ The script name must match the pattern `'%bot%message%receive%'`.
 
 | Value | Description |
 |---|---|
-| chatSession.topicId |
+| chatSession.topicId | |
 | chatSession.status | pre-chat form, in-queue, user message, and so on |
 | chatSession.userId | the SuperOffice user handling the session, not set for bots |
 | chatSession.botActive | 1 for bots |

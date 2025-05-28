@@ -17,7 +17,6 @@ You can perform centralized deployment through the Microsoft 365 Admin Center.
 > [!TIP]
 > Install for a single user instead? [Go to the user guide][5].
 
-
 ## Deploy via Microsoft 365 admin center
 
 To deploy SuperOffice for Outlook using the Microsoft 365 admin center, see [Microsoft's documentation][3].

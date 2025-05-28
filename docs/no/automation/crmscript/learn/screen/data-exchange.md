@@ -70,7 +70,7 @@ I dette bildet kan du redigere egenskapene til en ny eller eksisterende tidsplan
 | Navn | Her kan du skrive inn navnet på tidsplanen. |
 | ejScript/CRMScript | Her kan du velge CRMScript som tidsplanen aktiverer. |
 | Parametere | Parametere som brukes av CRMScript eller Data Exchange-agenten. |
-| OK (Alt-O): Klikk på denne knappen for å lagre. |
+| OK (Alt-O) | Klikk på denne knappen for å lagre. |
 | Avbryt | Klikk på denne knappen for å avbryte. |
 | Slett | Klikk på denne knappen for å slette. |
 | Tilbakestille | Hvis agentoppgaven ikke stopper, kan du klikke på denne knappen for å tilbakestille den. |

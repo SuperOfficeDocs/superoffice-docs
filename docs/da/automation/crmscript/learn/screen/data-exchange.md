@@ -69,7 +69,7 @@ I dette skærmbillede kan du redigere egenskaberne for Data Exchange agentens ti
 | Navn | Her kan du angive navnet på tidsplanen. |
 | ejScript/CRMScript | Her kan du vælge det CRMScript, som tidsplanen aktiverer. |
 | Parametre | De parametre, der kan anvendes af CRMScript eller af Data Exchange agenten. |
-| OK (Alt-O): Klik på denne knap for at gemme. |
+| OK (Alt-O) | Klik på denne knap for at gemme. |
 | Annuller | Klik på denne knap for at annullere. |
 | Slet | Klik på denne knap for at slette. |
 | Nulstil | Hvis agentopgaven ikke stopper, kan du klikke på denne knap for at nulstille den. |

@@ -33,8 +33,8 @@ To ensure that values in the `value` field are correctly displayed according to 
 | Valuetype | Symbol | Comment | Example |
 |---|---|---|---|
 | Date | D | Use [D:mm/dd/yyyy] | [D:01/01/2009] |
-| DateTime | DT | Use [DT:MM/DD/YYYY] | DT:00:00:00.0000000]
-| double | F | | Use period (.) as decimal separator | [F:123.45] |
+| DateTime | DT | Use [DT:MM/DD/YYYY] | [DT:00:00:00.0000000] |
+| double | F | Use period (.) as decimal separator | [F:123.45] |
 | Integer | I | | [I:123] |
 | Money | M | Use period (.) as decimal separator | [M:123.98] |
 

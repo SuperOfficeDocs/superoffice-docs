@@ -222,7 +222,7 @@ A UPN is not the same as an email address. Sometimes, a UPN can match a user's e
 
 A workaround can be to use the full 'onmicrosoft' user name (or any other microsoft user name to initiate the redirect).
 
-For example, if you have email address and login to Microsoft 365: support@company.com, enter `support@company.mail.onmicrosoft.com` as the username in the Service mailbox dialog.
+For example, if you have email address and login to Microsoft 365: `support@company.com`, enter `support@company.mail.onmicrosoft.com` as the username in the Service mailbox dialog.
 
 If the browser caches an existing valid authentication-cookie, this can result in a direct redirect back to Service without the needed user interaction to get the needed details back. Clear the cookies or use an incognito-session in the browser.
 

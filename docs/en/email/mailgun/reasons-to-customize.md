@@ -59,7 +59,7 @@ This change will affect where the emails are processed and stored, and if the ne
 
 ### The best solution for using email together with SuperOffice Online is to use the email addresses we supply as part of the mailing-service
 
-In our product, the customer can create addresses such as info@companyname.suocrm.eu and support@companyname.suocrm.eu. If the customer accepts that replies to customer inquiries or mailings originate from these addresses, then there is no need to configure SPF and little risk of being caught by spam filters. You can still publish your own info@companyname.no address, but set it up to be forwarded to the address we supply. The end customer will experience that the reply is originating from another address than the one they sent to, but this should be of little concern.
+In our product, the customer can create addresses such as `info@companyname.suocrm.eu` and `support@companyname.suocrm.eu`. If the customer accepts that replies to customer inquiries or mailings originate from these addresses, then there is no need to configure SPF and little risk of being caught by spam filters. You can still publish your own `info@companyname.no` address, but set it up to be forwarded to the address we supply. The end customer will experience that the reply is originating from another address than the one they sent to, but this should be of little concern.
 
 See the option [ALTERNATIVE 1: CRM Online email service only][1].
 

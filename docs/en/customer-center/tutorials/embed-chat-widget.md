@@ -30,9 +30,10 @@ Your customer has an external website that allows their customers to log in and 
 
 It is possible to expand the script tag with data-attributes to pass values into the pre-chat form. The following 4 attributes are supported:
 
+<!-- markdownlint-disable-file MD034 -->
 * Name: **data-customerName** = "John Rowling"
-* Email: **data-customerEmail** ="john@mailinator.com"
-* Phone: **data-customerPhone** = "‪12345678"
+* Email: **data-customerEmail** = "john@mailinator.com"
+* Phone: **data-customerPhone** = "12345678"
 * Company: **data-companyName** = "Liberty Inc"
 
 The contextual page might have these values available as either local JavaScript variables, cookie values, or URL parameters. Therefore, it should be possible to use the following syntax:

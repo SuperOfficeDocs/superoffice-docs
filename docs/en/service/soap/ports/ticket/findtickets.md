@@ -51,7 +51,7 @@ This method will search for tickets/requests and return information about the ti
 
 | Parameter | Description |
 |---|---|
-| sessionKey - A valid sessionKey |
+| sessionKey | A valid sessionKey |
 | searchCriteria | A list of criteria (field, operator, value) |
 | searchFields | A list of fields that you want to have returned. |
 | maxRows | Maximum number of rows returned. |

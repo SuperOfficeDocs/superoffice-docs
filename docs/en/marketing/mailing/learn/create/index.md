@@ -58,7 +58,7 @@ The first thing you must do, is to select what type of mailing you want to send.
 
 Your subject line affects the opening rates of your mailing. People determine whether they are going to open and read your email based on your subject line. So make sure your subject line stands out.
 
-The sender also plays a part in the opening rates. People are more likely to open your email if they recognize the sender's name. You control how the sender appears by specifying the sender's name and email address like this: "Name"<email@address.com>
+The sender also plays a part in the opening rates. People are more likely to open your email if they recognize the sender's name. You control how the sender appears by specifying the sender's name and email address like this: `"Name"<email@address.com>`
 
 If you use Google Analytics to analyze traffic and user behavior on your website, you can connect your mailings to your Google Analytics reports.
 

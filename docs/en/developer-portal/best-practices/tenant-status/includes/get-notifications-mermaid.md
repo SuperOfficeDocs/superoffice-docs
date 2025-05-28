@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-file MD041 -->
 ```mermaid
 sequenceDiagram
     participant SuperOffice

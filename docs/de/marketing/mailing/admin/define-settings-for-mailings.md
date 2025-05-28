@@ -36,7 +36,7 @@ Für E-Mail-Kampagnen stehen die folgenden Einstellungen zur Verfügung:
 
 * **SMTP-Threads**: Hier können Sie die Anzahl der gleichzeitigen Hintergrundprozesse eingeben, mit denen die E-Mails der Kampagne gesendet werden sollen. Durch Erhöhen der Zahl können Sie einen höheren Durchsatz erzielen. Es erhöht sich jedoch auch die Last des Servers und des E-Mail-Servers.
 
-* **Standardabsender**: Die Absenderadresse der Standard-E-Mail des Systems. Diese Adresse wird normalerweise durch die Adressen ersetzt, die für die Postfächer eingegeben wurden. Hierbei muss es sich um eine E-Mail-Adresse handeln, die in SuperOffice Service importiert wurde. Zum Beispiel, <support@company.com>.
+* **Standardabsender**: Die Absenderadresse der Standard-E-Mail des Systems. Diese Adresse wird normalerweise durch die Adressen ersetzt, die für die Postfächer eingegeben wurden. Hierbei muss es sich um eine E-Mail-Adresse handeln, die in SuperOffice Service importiert wurde. Zum Beispiel, `support@company.com`.
 
 [!include[List of fields for mailings](../../learn/includes/mailing-smtp-fields.md)]
 

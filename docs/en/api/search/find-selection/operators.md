@@ -39,7 +39,7 @@ Why? The current dynamic date ranges for selections in SuperOffice CRM do not co
 
 ### Operators
 
-There are two types of operators, period and relative operators. 
+There are two types of operators, period and relative operators.
 
 Period specific accept one argument, the period type.
 
@@ -62,7 +62,7 @@ Relative operators take 2 arguments; the number of periods and the period type.
 | 5 | halfyear, halfyears, hyr, hyrs |
 | 6 | year, years, yr, yrs    |
 
-In this way, you can express  `next` 2 weeks or `thisAndNext` 2 months or `thisAndPrevious` 2 years. 
+In this way, you can express  `next` 2 weeks or `thisAndNext` 2 months or `thisAndPrevious` 2 years.
 
 Period type names are eqivalent, meaning  `next` 2 week, `next` 2 weeks, `next` 2 wk and `next` 2 wks mean the same criteria.
 
@@ -79,7 +79,6 @@ Period type names are eqivalent, meaning  `next` 2 week, `next` 2 weeks, `next` 
 > The old operators still exist within the code and will work. However, their use is **strongly discouraged**.
 >
 > If saved through the criteria API, they will be converted to the new, equivalent operators and values.
-
 
 ### Changed types
 

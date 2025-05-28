@@ -15,7 +15,7 @@ Når en ny person indsender en sag, forsøger SuperOffice at bestemme, hvilket k
 
 ## Scenarie 1
 
-1. John, en ny person, registrerer en ny sag i kundecentret cs.liberty.com med e-mailadressen <john@coca-cola.se>.
+1. John, en ny person, registrerer en ny sag i kundecentret cs.liberty.com med e-mailadressen `john@coca-cola.se`.
 
 2. Den nye sag sendes til systemets, hvor Johns e-maildomæne (coca-cola.se) bliver kontrolleret. coca-cola.se er registreret som domænenavn for firmaet Coca-Cola.
 
@@ -31,7 +31,7 @@ Når en ny person indsender en sag, forsøger SuperOffice at bestemme, hvilket k
 
 ## Scenarie 2
 
-1. Maria, en ny person, registrerer en ny sag i kundecentret cs.liberty.com med e-mailadressen <maria@coca-cola.nl>.
+1. Maria, en ny person, registrerer en ny sag i kundecentret cs.liberty.com med e-mailadressen `maria@coca-cola.nl`.
 2. SuperOffice kontrollerer e-maildomænet, som er registreret til firmaet Coca-Cola.
 3. Maria tilføjes som ny person for Coca-Cola.
 4. SuperOffice kontrollerer derefter, om e-maildomænet .nl er knyttet til et af de registrerede kundesprog. E-maildomænet .nl er *ikke* knyttet til et kundesprog, og derfor kan der ikke bestemmes noget kundesprog for Maria.

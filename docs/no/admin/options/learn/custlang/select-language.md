@@ -15,7 +15,7 @@ Når en ny person sender inn en sak, prøver SuperOffice å finne ut hvilket kun
 
 ## Scenario 1
 
-1. John, en ny person, registrerer en ny sak i kundesenteret cs.liberty.com med e-postadressen john@coca-cola.se.
+1. John, en ny person, registrerer en ny sak i kundesenteret cs.liberty.com med e-postadressen `john@coca-cola.se`.
 
 2. Den nye saken sendes til systemet, der Johns e-postdomene (coca-cola.se) kontrolleres. coca-cola.se er registrert som domene for selskapet Coca-Cola.
 
@@ -31,7 +31,7 @@ Når en ny person sender inn en sak, prøver SuperOffice å finne ut hvilket kun
 
 ## Scenario 2
 
-1. Maria, en ny person, registrerer en ny sak i kundesenteret cs.liberty.com med e-postadressen maria@coca-cola.nl.
+1. Maria, en ny person, registrerer en ny sak i kundesenteret cs.liberty.com med e-postadressen `maria@coca-cola.nl`.
 2. SuperOffice undersøker e-postdomenet, og det er tilhører selskapet Coca-Cola.
 3. Maria legges til som ny person for Coca-Cola.
 4. SuperOffice undersøker deretter om e-postdomenet .nl er knyttet til et av de registrerte kundespråkene. E-postdomenet .nl er *ikke* knyttet til et kundespråk, og dermed er det ikke mulig å fastsette et kundespråk for Maria.

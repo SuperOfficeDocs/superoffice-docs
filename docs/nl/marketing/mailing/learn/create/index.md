@@ -55,7 +55,7 @@ U moet eerst selecteren welk type mailing u wilt verzenden. Wanneer u uw mailing
 
 Uw onderwerpregel heeft invloed op de openingspercentages van uw mailing. Mensen bepalen of ze uw e-mail gaan openen en lezen op basis van uw onderwerpregel. Zorg er dus voor dat uw onderwerpregel opvalt.
 
-De afzender speelt ook een rol in de openingspercentages. Mensen zullen uw e-mail eerder openen als ze de naam van de afzender herkennen. U bepaalt hoe de afzender wordt weergegeven door de naam en het e-mailadres van de afzender als volgt op te geven: "Naam"<email@address.com>
+De afzender speelt ook een rol in de openingspercentages. Mensen zullen uw e-mail eerder openen als ze de naam van de afzender herkennen. U bepaalt hoe de afzender wordt weergegeven door de naam en het e-mailadres van de afzender als volgt op te geven: `"Naam"<email@address.com>`
 
 Als u Google Analytics gebruikt om verkeer en gebruikersgedrag op uw website te analyseren, kunt u uw mailings koppelen aan uw Google Analytics-rapporten.
 

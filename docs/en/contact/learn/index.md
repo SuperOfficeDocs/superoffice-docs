@@ -26,6 +26,7 @@ Use the **Search** function to find specific contacts or filter records. From th
 
 ## Tabs on the Contact card
 
+<!-- markdownlint-disable-file MD059 -->
 | Tab | Description |
 |---|---|
 | [Contact][2] | Main tab for entering key contact information, including title, phone, email, and address fields. |
