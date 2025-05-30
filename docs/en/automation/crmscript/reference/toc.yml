@@ -367,6 +367,8 @@ items:
     href: CRMScript.NetServer.NSDuplicateRule.yml
   - name: NSEMailConnectionInfo
     href: CRMScript.NetServer.NSEMailConnectionInfo.yml
+  - name: NSEmailFlow
+    href: CRMScript.NetServer.NSEmailFlow.yml
   - name: NSEntityElement
     href: CRMScript.NetServer.NSEntityElement.yml
   - name: NSEntityName
@@ -859,6 +861,22 @@ items:
     href: CRMScript.NetServer.NSWebPanelEntity.yml
   - name: NSWindowPosSize
     href: CRMScript.NetServer.NSWindowPosSize.yml
+  - name: NSWorkflowAgent
+    href: CRMScript.NetServer.NSWorkflowAgent.yml
+  - name: NSWorkflowEvent
+    href: CRMScript.NetServer.NSWorkflowEvent.yml
+  - name: NSWorkflowFilter
+    href: CRMScript.NetServer.NSWorkflowFilter.yml
+  - name: NSWorkflowGoal
+    href: CRMScript.NetServer.NSWorkflowGoal.yml
+  - name: NSWorkflowStepBase
+    href: CRMScript.NetServer.NSWorkflowStepBase.yml
+  - name: NSWorkflowStepOptionBase
+    href: CRMScript.NetServer.NSWorkflowStepOptionBase.yml
+  - name: NSWorkflowTrigger
+    href: CRMScript.NetServer.NSWorkflowTrigger.yml
+  - name: NSWorkflowWaitForAction
+    href: CRMScript.NetServer.NSWorkflowWaitForAction.yml
   - name: Enums
     items:
     - name: ActivityStatus

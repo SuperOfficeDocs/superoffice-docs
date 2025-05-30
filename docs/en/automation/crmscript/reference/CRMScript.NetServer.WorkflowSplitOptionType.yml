@@ -1,0 +1,105 @@
+﻿### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.WorkflowSplitOptionType
+  children:
+  - CRMScript.NetServer.WorkflowSplitOptionType.None
+  - CRMScript.NetServer.WorkflowSplitOptionType.PersonData
+  - CRMScript.NetServer.WorkflowSplitOptionType.FormSubmission
+  - CRMScript.NetServer.WorkflowSplitOptionType.LinkClicked
+  - CRMScript.NetServer.WorkflowSplitOptionType.ProjectMembership
+  - CRMScript.NetServer.WorkflowSplitOptionType.SelectionMembership
+  - CRMScript.NetServer.WorkflowSplitOptionType.FormData
+  langs:
+  - crmscript
+  type: Enum
+  so.intellisense: WorkflowSplitOptionType
+  syntax: 
+    content: WorkflowSplitOptionType
+  summary: "Workflow Split Option type"
+  name: WorkflowSplitOptionType
+  nameWithType: WorkflowSplitOptionType
+  fullName: CRMScript.NetServer.WorkflowSplitOptionType
+- uid: CRMScript.NetServer.WorkflowSplitOptionType.None
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowSplitOptionType.None
+  syntax: 
+    content: WorkflowSplitOptionType.None
+  summary: "None"
+  name: None
+  nameWithType: None
+  fullName: CRMScript.NetServer.WorkflowSplitOptionType.None
+- uid: CRMScript.NetServer.WorkflowSplitOptionType.PersonData
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowSplitOptionType.PersonData
+  syntax: 
+    content: WorkflowSplitOptionType.PersonData
+  summary: "PersonData"
+  name: PersonData
+  nameWithType: PersonData
+  fullName: CRMScript.NetServer.WorkflowSplitOptionType.PersonData
+- uid: CRMScript.NetServer.WorkflowSplitOptionType.FormSubmission
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowSplitOptionType.FormSubmission
+  syntax: 
+    content: WorkflowSplitOptionType.FormSubmission
+  summary: "FormSubmission"
+  name: FormSubmission
+  nameWithType: FormSubmission
+  fullName: CRMScript.NetServer.WorkflowSplitOptionType.FormSubmission
+- uid: CRMScript.NetServer.WorkflowSplitOptionType.LinkClicked
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowSplitOptionType.LinkClicked
+  syntax: 
+    content: WorkflowSplitOptionType.LinkClicked
+  summary: "LinkClicked"
+  name: LinkClicked
+  nameWithType: LinkClicked
+  fullName: CRMScript.NetServer.WorkflowSplitOptionType.LinkClicked
+- uid: CRMScript.NetServer.WorkflowSplitOptionType.ProjectMembership
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowSplitOptionType.ProjectMembership
+  syntax: 
+    content: WorkflowSplitOptionType.ProjectMembership
+  summary: "ProjectMembership"
+  name: ProjectMembership
+  nameWithType: ProjectMembership
+  fullName: CRMScript.NetServer.WorkflowSplitOptionType.ProjectMembership
+- uid: CRMScript.NetServer.WorkflowSplitOptionType.SelectionMembership
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowSplitOptionType.SelectionMembership
+  syntax: 
+    content: WorkflowSplitOptionType.SelectionMembership
+  summary: "SelectionMembership"
+  name: SelectionMembership
+  nameWithType: SelectionMembership
+  fullName: CRMScript.NetServer.WorkflowSplitOptionType.SelectionMembership
+- uid: CRMScript.NetServer.WorkflowSplitOptionType.FormData
+  langs:
+  - crmscript
+  type: Field
+  so.intellisense: WorkflowSplitOptionType.FormData
+  syntax: 
+    content: WorkflowSplitOptionType.FormData
+  summary: "FormData"
+  name: FormData
+  nameWithType: FormData
+  fullName: CRMScript.NetServer.WorkflowSplitOptionType.FormData
+references:
+- uid: CRMScript.NetServer.WorkflowSplitOptionType
+  commentId: T:CRMScript.NetServer.WorkflowSplitOptionType
+  isExternal: true
+  name: WorkflowSplitOptionType
+  nameWithType: WorkflowSplitOptionType
+  fullName: CRMScript.NetServer.WorkflowSplitOptionType

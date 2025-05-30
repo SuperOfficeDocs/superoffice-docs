@@ -1,0 +1,95 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSWorkflowFilter
+  commentId: T:CRMScript.NetServer.NSWorkflowFilter
+  id: NSWorkflowFilter
+  so.version: 11.2
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSWorkflowFilter.#ctor
+  - CRMScript.NetServer.NSWorkflowFilter.GetRestrictionGroups()
+  - CRMScript.NetServer.NSWorkflowFilter.SetRestrictionGroups(NSArchiveRestrictionGroup[])
+  name: NSWorkflowFilter
+  nameWithType: NSWorkflowFilter
+  fullName: CRMScript.NetServer.NSWorkflowFilter
+  type: Class
+  summary: "Carrier object for WorkflowFilter."
+  example: []
+- uid: CRMScript.NetServer.NSWorkflowFilter.#ctor
+  commentId: M:CRMScript.NetServer.NSWorkflowFilter.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSWorkflowFilter
+  langs:
+  - crmscript
+  name: NSWorkflowFilter()
+  nameWithType: NSWorkflowFilter.#ctor
+  fullName: CRMScript.NetServer.NSWorkflowFilter.#ctor
+  type: Constructor
+  summary: "Initializes a new instance of the NSWorkflowFilter class."
+  syntax:
+    content: NSWorkflowFilter
+- uid: CRMScript.NetServer.NSWorkflowFilter.GetRestrictionGroups()
+  commentId: M:CRMScript.NetServer.NSWorkflowFilter.GetRestrictionGroups()
+  id: 'GetRestrictionGroups()'
+  so.intellisense: NSWorkflowFilter.GetRestrictionGroups
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetRestrictionGroups()'
+  nameWithType: NSWorkflowFilter.GetRestrictionGroups()
+  fullName: CRMScript.NetServer.NSWorkflowFilter.GetRestrictionGroups()
+  type: Method
+  summary: "Gets the restrictions (can be multiple groups) that make up the Workflow filter"
+  syntax:
+    content: NSArchiveRestrictionGroup[] GetRestrictionGroups()
+    return:
+      type: CRMScript.NetServer.NSArchiveRestrictionGroup
+      description: "Get the restrictions"
+- uid: CRMScript.NetServer.NSWorkflowFilter.SetRestrictionGroups(NSArchiveRestrictionGroup[])
+  commentId: M:CRMScript.NetServer.NSWorkflowFilter.SetRestrictionGroups(NSArchiveRestrictionGroup[])
+  id: 'SetRestrictionGroups(NSArchiveRestrictionGroup[])'
+  so.intellisense: NSWorkflowFilter.SetRestrictionGroups
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetRestrictionGroups(NSArchiveRestrictionGroup[])'
+  nameWithType: NSWorkflowFilter.SetRestrictionGroups(NSArchiveRestrictionGroup[])
+  fullName: CRMScript.NetServer.NSWorkflowFilter.SetRestrictionGroups(NSArchiveRestrictionGroup[])
+  type: Method
+  summary: "Sets the restrictions (can be multiple groups) that make up the Workflow filter"
+  syntax:
+    content: Void SetRestrictionGroups(NSArchiveRestrictionGroup[] eventType)
+    parameters:
+    - id: eventType
+      type: CRMScript.NetServer.NSArchiveRestrictionGroup[]
+      description: "The restrictions to set."
+    return:
+      type: CRMScript.Global.Void
+references:
+- uid: CRMScript.NetServer.NSWorkflowFilter
+  commentId: T:CRMScript.NetServer.NSWorkflowFilter
+  isExternal: true
+  name: NSWorkflowFilter
+  nameWithType: NSWorkflowFilter
+  fullName: CRMScript.NetServer.NSWorkflowFilter
+- uid: CRMScript.NetServer.NSArchiveRestrictionGroup[]
+  isExternal: true
+  name: NSArchiveRestrictionGroup[]
+  nameWithType: NSArchiveRestrictionGroup[]
+  fullName: CRMScript.NetServer.NSArchiveRestrictionGroup[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSArchiveRestrictionGroup
+    isExternal: true
+    name: NSArchiveRestrictionGroup
+    nameWithType: NSArchiveRestrictionGroup
+    fullName: CRMScript.NetServer.NSArchiveRestrictionGroup
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

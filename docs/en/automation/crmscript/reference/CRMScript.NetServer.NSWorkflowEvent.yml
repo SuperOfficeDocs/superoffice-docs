@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSWorkflowEvent
+  commentId: T:CRMScript.NetServer.NSWorkflowEvent
+  id: NSWorkflowEvent
+  so.version: 11.2
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSWorkflowEvent.#ctor
+  - CRMScript.NetServer.NSWorkflowEvent.GetAttributes()
+  - CRMScript.NetServer.NSWorkflowEvent.GetEventType()
+  - CRMScript.NetServer.NSWorkflowEvent.SetAttributes(String)
+  - CRMScript.NetServer.NSWorkflowEvent.SetEventType(NSWorkflowEventType)
+  name: NSWorkflowEvent
+  nameWithType: NSWorkflowEvent
+  fullName: CRMScript.NetServer.NSWorkflowEvent
+  type: Class
+  summary: "Carrier object for WorkflowEvent."
+  example: []
+- uid: CRMScript.NetServer.NSWorkflowEvent.#ctor
+  commentId: M:CRMScript.NetServer.NSWorkflowEvent.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSWorkflowEvent
+  langs:
+  - crmscript
+  name: NSWorkflowEvent()
+  nameWithType: NSWorkflowEvent.#ctor
+  fullName: CRMScript.NetServer.NSWorkflowEvent.#ctor
+  type: Constructor
+  summary: "Initializes a new instance of the NSWorkflowEvent class."
+  syntax:
+    content: NSWorkflowEvent
+- uid: CRMScript.NetServer.NSWorkflowEvent.GetEventType()
+  commentId: M:CRMScript.NetServer.NSWorkflowEvent.GetEventType()
+  id: 'GetEventType()'
+  so.intellisense: NSWorkflowEvent.GetEventType
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetEventType()'
+  nameWithType: NSWorkflowEvent.GetEventType()
+  fullName: CRMScript.NetServer.NSWorkflowEvent.GetEventType()
+  type: Method
+  summary: "Gets the workflow event type"
+  syntax:
+    content: NSWorkflowEventType GetEventType()
+    return:
+      type: CRMScript.NetServer.NSWorkflowEventType
+      description: "Get workflow event type"
+- uid: CRMScript.NetServer.NSWorkflowEvent.SetEventType(NSWorkflowEventType)
+  commentId: M:CRMScript.NetServer.NSWorkflowEvent.SetEventType(NSWorkflowEventType)
+  id: 'SetEventType(NSWorkflowEventType)'
+  so.intellisense: NSWorkflowEvent.SetEventType
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetEventType(NSWorkflowEventType)'
+  nameWithType: NSWorkflowEvent.SetEventType(NSWorkflowEventType)
+  fullName: CRMScript.NetServer.NSWorkflowEvent.SetEventType(NSWorkflowEventType)
+  type: Method
+  summary: "Sets the primary key (ID) for the EmailFlow."
+  syntax:
+    content: Void SetEventType(NSWorkflowEventType eventType)
+    parameters:
+    - id: eventType
+      type: CRMScript.NetServer.NSWorkflowEventType
+      description: "The workflow event type to set."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSWorkflowEvent.GetAttributes()
+  commentId: M:CRMScript.NetServer.NSWorkflowEvent.GetAttributes()
+  id: 'GetAttributes()'
+  so.intellisense: NSWorkflowEvent.GetAttributes
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetAttributes()'
+  nameWithType: NSWorkflowEvent.GetAttributes()
+  fullName: CRMScript.NetServer.NSWorkflowEvent.GetAttributes()
+  type: Method
+  summary: "Gets the workflow event type"
+  syntax:
+    content: NSWorkflowEventType GetAttributes()
+    return:
+      type: CRMScript.Global.String
+      description: "Get event info"
+- uid: CRMScript.NetServer.NSWorkflowEvent.SetAttributes(String)
+  commentId: M:CRMScript.NetServer.NSWorkflowEvent.SetAttributes(String)
+  id: 'SetAttributes(String)'
+  so.intellisense: NSWorkflowEvent.SetAttributes
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetAttributes(String)'
+  nameWithType: NSWorkflowEvent.SetAttributes(String)
+  fullName: CRMScript.NetServer.NSWorkflowEvent.SetAttributes(String)
+  type: Method
+  summary: "Sets the primary key (ID) for the EmailFlow."
+  syntax:
+    content: Void SetAttributes(String attributes)
+    parameters:
+    - id: eventType
+      type: CRMScript.Global.String
+      description: "The attributes to set."
+    return:
+      type: CRMScript.Global.Void
+references:
+- uid: CRMScript.NetServer.NSWorkflowEvent
+  commentId: T:CRMScript.NetServer.NSWorkflowEvent
+  isExternal: true
+  name: NSWorkflowEvent
+  nameWithType: NSWorkflowEvent
+  fullName: CRMScript.NetServer.NSWorkflowEvent
+- uid: CRMScript.NetServer.NSWorkflowEventType
+  commentId: T:CRMScript.NetServer.NSWorkflowEventType
+  isExternal: true
+  name: NSWorkflowEventType
+  nameWithType: NSWorkflowEventType
+  fullName: CRMScript.NetServer.NSWorkflowEventType
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void

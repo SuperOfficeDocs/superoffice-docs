@@ -1,0 +1,220 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSWorkflowStepBase
+  commentId: T:CRMScript.NetServer.NSWorkflowStepBase
+  id: NSWorkflowStepBase
+  so.version: 11.2
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSWorkflowStepBase.#ctor
+  - CRMScript.NetServer.NSWorkflowStepBase.GetRank()
+  - CRMScript.NetServer.NSWorkflowStepBase.GetStepType()
+  - CRMScript.NetServer.NSWorkflowStepBase.GetWorkflowId()
+  - CRMScript.NetServer.NSWorkflowStepBase.GetWorkflowStepId()
+  - CRMScript.NetServer.NSWorkflowStepBase.SetRank(Integer)
+  - CRMScript.NetServer.NSWorkflowStepBase.SetStepType(NSWorkflowStepType)
+  - CRMScript.NetServer.NSWorkflowStepBase.SetWorkflowId(Integer)
+  - CRMScript.NetServer.NSWorkflowStepBase.SetWorkflowStepId(Integer)
+  name: NSWorkflowStepBase
+  nameWithType: NSWorkflowStepBase
+  fullName: CRMScript.NetServer.NSWorkflowStepBase
+  type: Class
+  summary: "Carrier object for WorkflowStepBase."
+  example: []
+
+- uid: CRMScript.NetServer.NSWorkflowStepBase.#ctor
+  commentId: M:CRMScript.NetServer.NSWorkflowStepBase.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSWorkflowStepBase
+  langs:
+  - crmscript
+  name: NSWorkflowStepBase()
+  nameWithType: NSWorkflowStepBase.#ctor
+  fullName: CRMScript.NetServer.NSWorkflowStepBase.#ctor
+  type: Constructor
+  summary: "Initializes a new instance of the NSWorkflowStepBase class."
+  syntax:
+    content: NSWorkflowStepBase
+
+- uid: CRMScript.NetServer.NSWorkflowStepBase.GetWorkflowStepId()
+  commentId: M:CRMScript.NetServer.NSWorkflowStepBase.GetWorkflowStepId()
+  id: 'GetWorkflowStepId()'
+  so.intellisense: NSWorkflowStepBase.GetWorkflowStepId
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetWorkflowStepId()'
+  nameWithType: NSWorkflowStepBase.GetWorkflowStepId()
+  fullName: CRMScript.NetServer.NSWorkflowStepBase.GetWorkflowStepId()
+  type: Method
+  summary: "Gets the primary key (ID) for the WorkflowStepBase."
+  syntax:
+    content: Integer GetWorkflowStepId()
+    return:
+      type: CRMScript.Global.Integer
+      description: "WorkflowStep Id."
+
+- uid: CRMScript.NetServer.NSWorkflowStepBase.SetWorkflowStepId(Integer)
+  commentId: M:CRMScript.NetServer.NSWorkflowStepBase.SetWorkflowStepId(Integer)
+  id: 'SetWorkflowStepId(Integer)'
+  so.intellisense: NSWorkflowStepBase.SetWorkflowStepId
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetWorkflowStepId(Integer)'
+  nameWithType: NSWorkflowStepBase.SetWorkflowStepId(Integer)
+  fullName: CRMScript.NetServer.NSWorkflowStepBase.SetWorkflowStepId(Integer)
+  type: Method
+  summary: "Sets the primary key (ID) for the WorkflowStepBase."
+  syntax:
+    content: Void SetWorkflowStepId(Integer workflowStepId)
+    parameters:
+    - id: workflowStepId
+      type: CRMScript.Global.Integer
+      description: "The workflow step ID to set."
+    return:
+      type: CRMScript.Global.Void
+
+- uid: CRMScript.NetServer.NSWorkflowStepBase.GetWorkflowId()
+  commentId: M:CRMScript.NetServer.NSWorkflowStepBase.GetWorkflowId()
+  id: 'GetWorkflowId()'
+  so.intellisense: NSWorkflowStepBase.GetWorkflowId
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetWorkflowId()'
+  nameWithType: NSWorkflowStepBase.GetWorkflowId()
+  fullName: CRMScript.NetServer.NSWorkflowStepBase.GetWorkflowId()
+  type: Method
+  summary: "Gets the ID of the workflow this step belongs to."
+  syntax:
+    content: Integer GetWorkflowId()
+    return:
+      type: CRMScript.Global.Integer
+      description: "The workflow ID."
+
+- uid: CRMScript.NetServer.NSWorkflowStepBase.SetWorkflowId(Integer)
+  commentId: M:CRMScript.NetServer.NSWorkflowStepBase.SetWorkflowId(Integer)
+  id: 'SetWorkflowId(Integer)'
+  so.intellisense: NSWorkflowStepBase.SetWorkflowId
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetWorkflowId(Integer)'
+  nameWithType: NSWorkflowStepBase.SetWorkflowId(Integer)
+  fullName: CRMScript.NetServer.NSWorkflowStepBase.SetWorkflowId(Integer)
+  type: Method
+  summary: "Sets the ID of the workflow this step belongs to."
+  syntax:
+    content: Void SetWorkflowId(Integer workflowId)
+    parameters:
+    - id: workflowId
+      type: CRMScript.Global.Integer
+      description: "The workflow ID to set."
+    return:
+      type: CRMScript.Global.Void
+
+- uid: CRMScript.NetServer.NSWorkflowStepBase.GetStepType()
+  commentId: M:CRMScript.NetServer.NSWorkflowStepBase.GetStepType()
+  id: 'GetStepType()'
+  so.intellisense: NSWorkflowStepBase.GetStepType
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetStepType()'
+  nameWithType: NSWorkflowStepBase.GetStepType()
+  fullName: CRMScript.NetServer.NSWorkflowStepBase.GetStepType()
+  type: Method
+  summary: "Gets the type of workflow step."
+  syntax:
+    content: NSWorkflowStepType GetStepType()
+    return:
+      type: CRMScript.NetServer.NSWorkflowStepType
+      description: "The step type."
+
+- uid: CRMScript.NetServer.NSWorkflowStepBase.SetStepType(NSWorkflowStepType)
+  commentId: M:CRMScript.NetServer.NSWorkflowStepBase.SetStepType(NSWorkflowStepType)
+  id: 'SetStepType(NSWorkflowStepType)'
+  so.intellisense: NSWorkflowStepBase.SetStepType
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetStepType(NSWorkflowStepType)'
+  nameWithType: NSWorkflowStepBase.SetStepType(NSWorkflowStepType)
+  fullName: CRMScript.NetServer.NSWorkflowStepBase.SetStepType(NSWorkflowStepType)
+  type: Method
+  summary: "Sets the type of workflow step."
+  syntax:
+    content: Void SetStepType(NSWorkflowStepType stepType)
+    parameters:
+    - id: stepType
+      type: CRMScript.NetServer.NSWorkflowStepType
+      description: "The step type to set."
+    return:
+      type: CRMScript.Global.Void
+
+- uid: CRMScript.NetServer.NSWorkflowStepBase.GetRank()
+  commentId: M:CRMScript.NetServer.NSWorkflowStepBase.GetRank()
+  id: 'GetRank()'
+  so.intellisense: NSWorkflowStepBase.GetRank
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSWorkflowStepBase.GetRank()
+  fullName: CRMScript.NetServer.NSWorkflowStepBase.GetRank()
+  type: Method
+  summary: "Gets the order/rank of the step in the workflow."
+  syntax:
+    content: Integer GetRank()
+    return:
+      type: CRMScript.Global.Integer
+      description: "The step rank."
+
+- uid: CRMScript.NetServer.NSWorkflowStepBase.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSWorkflowStepBase.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSWorkflowStepBase.SetRank
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSWorkflowStepBase.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSWorkflowStepBase.SetRank(Integer)
+  type: Method
+  summary: "Sets the order/rank of the step in the workflow."
+  syntax:
+    content: Void SetRank(Integer rank)
+    parameters:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: "The step rank to set."
+    return:
+      type: CRMScript.Global.Void
+
+references:
+- uid: CRMScript.NetServer.NSWorkflowStepBase
+  commentId: T:CRMScript.NetServer.NSWorkflowStepBase
+  isExternal: true
+  name: NSWorkflowStepBase
+  nameWithType: NSWorkflowStepBase
+  fullName: CRMScript.NetServer.NSWorkflowStepBase
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSWorkflowStepType
+  commentId: T:CRMScript.NetServer.NSWorkflowStepType
+  isExternal: true
+  name: NSWorkflowStepType
+  nameWithType: NSWorkflowStepType
+  fullName: CRMScript.NetServer.NSWorkflowStepType

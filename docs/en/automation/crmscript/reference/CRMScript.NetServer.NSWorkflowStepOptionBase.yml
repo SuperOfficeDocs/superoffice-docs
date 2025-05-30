@@ -1,0 +1,369 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSWorkflowStepOptionBase
+  commentId: T:CRMScript.NetServer.NSWorkflowStepOptionBase
+  id: NSWorkflowStepOptionBase
+  so.version: 11.2
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSWorkflowStepOptionBase.#ctor
+  - CRMScript.NetServer.NSWorkflowStepOptionBase.GetName()
+  - CRMScript.NetServer.NSWorkflowStepOptionBase.GetOptionType()
+  - CRMScript.NetServer.NSWorkflowStepOptionBase.GetRank()
+  - CRMScript.NetServer.NSWorkflowStepOptionBase.GetSteps()
+  - CRMScript.NetServer.NSWorkflowStepOptionBase.GetWorkflowId()
+  - CRMScript.NetServer.NSWorkflowStepOptionBase.GetWorkflowStepId()
+  - CRMScript.NetServer.NSWorkflowStepOptionBase.GetWorkflowStepOptionId()
+  - CRMScript.NetServer.NSWorkflowStepOptionBase.SetName(String)
+  - CRMScript.NetServer.NSWorkflowStepOptionBase.SetOptionType(WorkflowSplitOptionType)
+  - CRMScript.NetServer.NSWorkflowStepOptionBase.SetRank(Integer)
+  - CRMScript.NetServer.NSWorkflowStepOptionBase.SetSteps(NSWorkflowStepBase[])
+  - CRMScript.NetServer.NSWorkflowStepOptionBase.SetWorkflowId(Integer)
+  - CRMScript.NetServer.NSWorkflowStepOptionBase.SetWorkflowStepId(Integer)
+  - CRMScript.NetServer.NSWorkflowStepOptionBase.SetWorkflowStepOptionId(Integer)
+  name: NSWorkflowStepOptionBase
+  nameWithType: NSWorkflowStepOptionBase
+  fullName: CRMScript.NetServer.NSWorkflowStepOptionBase
+  type: Class
+  summary: "Carrier object for WorkflowStepOptionBase."
+  example: []
+
+- uid: CRMScript.NetServer.NSWorkflowStepOptionBase.#ctor
+  commentId: M:CRMScript.NetServer.NSWorkflowStepOptionBase.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSWorkflowStepOptionBase
+  langs:
+  - crmscript
+  name: NSWorkflowStepOptionBase()
+  nameWithType: NSWorkflowStepOptionBase.#ctor
+  fullName: CRMScript.NetServer.NSWorkflowStepOptionBase.#ctor
+  type: Constructor
+  summary: "Initializes a new instance of the NSWorkflowStepOptionBase class."
+  syntax:
+    content: NSWorkflowStepOptionBase
+
+- uid: CRMScript.NetServer.NSWorkflowStepOptionBase.GetWorkflowStepOptionId()
+  commentId: M:CRMScript.NetServer.NSWorkflowStepOptionBase.GetWorkflowStepOptionId()
+  id: 'GetWorkflowStepOptionId()'
+  so.intellisense: NSWorkflowStepOptionBase.GetWorkflowStepOptionId
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetWorkflowStepOptionId()'
+  nameWithType: NSWorkflowStepOptionBase.GetWorkflowStepOptionId()
+  fullName: CRMScript.NetServer.NSWorkflowStepOptionBase.GetWorkflowStepOptionId()
+  type: Method
+  summary: "Gets the primary key (ID) for the WorkflowStepOption."
+  syntax:
+    content: Integer GetWorkflowStepOptionId()
+    return:
+      type: CRMScript.Global.Integer
+      description: "WorkflowStepOption Id."
+
+- uid: CRMScript.NetServer.NSWorkflowStepOptionBase.SetWorkflowStepOptionId(Integer)
+  commentId: M:CRMScript.NetServer.NSWorkflowStepOptionBase.SetWorkflowStepOptionId(Integer)
+  id: 'SetWorkflowStepOptionId(Integer)'
+  so.intellisense: NSWorkflowStepOptionBase.SetWorkflowStepOptionId
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetWorkflowStepOptionId(Integer)'
+  nameWithType: NSWorkflowStepOptionBase.SetWorkflowStepOptionId(Integer)
+  fullName: CRMScript.NetServer.NSWorkflowStepOptionBase.SetWorkflowStepOptionId(Integer)
+  type: Method
+  summary: "Sets the primary key (ID) for the WorkflowStepOption."
+  syntax:
+    content: Void SetWorkflowStepOptionId(Integer workflowStepOptionId)
+    parameters:
+    - id: workflowStepOptionId
+      type: CRMScript.Global.Integer
+      description: "The workflow step option ID to set."
+    return:
+      type: CRMScript.Global.Void
+
+- uid: CRMScript.NetServer.NSWorkflowStepOptionBase.GetWorkflowStepId()
+  commentId: M:CRMScript.NetServer.NSWorkflowStepOptionBase.GetWorkflowStepId()
+  id: 'GetWorkflowStepId()'
+  so.intellisense: NSWorkflowStepOptionBase.GetWorkflowStepId
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetWorkflowStepId()'
+  nameWithType: NSWorkflowStepOptionBase.GetWorkflowStepId()
+  fullName: CRMScript.NetServer.NSWorkflowStepOptionBase.GetWorkflowStepId()
+  type: Method
+  summary: "Gets the workflow step this instance belongs to."
+  syntax:
+    content: Integer GetWorkflowStepId()
+    return:
+      type: CRMScript.Global.Integer
+      description: "WorkflowStep Id."
+
+- uid: CRMScript.NetServer.NSWorkflowStepOptionBase.SetWorkflowStepId(Integer)
+  commentId: M:CRMScript.NetServer.NSWorkflowStepOptionBase.SetWorkflowStepId(Integer)
+  id: 'SetWorkflowStepId(Integer)'
+  so.intellisense: NSWorkflowStepOptionBase.SetWorkflowStepId
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetWorkflowStepId(Integer)'
+  nameWithType: NSWorkflowStepOptionBase.SetWorkflowStepId(Integer)
+  fullName: CRMScript.NetServer.NSWorkflowStepOptionBase.SetWorkflowStepId(Integer)
+  type: Method
+  summary: "Sets the workflow step this instance belongs to."
+  syntax:
+    content: Void SetWorkflowStepId(Integer workflowStepId)
+    parameters:
+    - id: workflowStepId
+      type: CRMScript.Global.Integer
+      description: "The workflow step ID to set."
+    return:
+      type: CRMScript.Global.Void
+
+- uid: CRMScript.NetServer.NSWorkflowStepOptionBase.GetWorkflowId()
+  commentId: M:CRMScript.NetServer.NSWorkflowStepOptionBase.GetWorkflowId()
+  id: 'GetWorkflowId()'
+  so.intellisense: NSWorkflowStepOptionBase.GetWorkflowId
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetWorkflowId()'
+  nameWithType: NSWorkflowStepOptionBase.GetWorkflowId()
+  fullName: CRMScript.NetServer.NSWorkflowStepOptionBase.GetWorkflowId()
+  type: Method
+  summary: "Gets the workflow id."
+  syntax:
+    content: Integer GetWorkflowId()
+    return:
+      type: CRMScript.Global.Integer
+      description: "Workflow Id."
+
+- uid: CRMScript.NetServer.NSWorkflowStepOptionBase.SetWorkflowId(Integer)
+  commentId: M:CRMScript.NetServer.NSWorkflowStepOptionBase.SetWorkflowId(Integer)
+  id: 'SetWorkflowId(Integer)'
+  so.intellisense: NSWorkflowStepOptionBase.SetWorkflowId
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetWorkflowId(Integer)'
+  nameWithType: NSWorkflowStepOptionBase.SetWorkflowId(Integer)
+  fullName: CRMScript.NetServer.NSWorkflowStepOptionBase.SetWorkflowId(Integer)
+  type: Method
+  summary: "Sets the workflow id."
+  syntax:
+    content: Void SetWorkflowId(Integer workflowId)
+    parameters:
+    - id: workflowId
+      type: CRMScript.Global.Integer
+      description: "The workflow ID to set."
+    return:
+      type: CRMScript.Global.Void
+
+- uid: CRMScript.NetServer.NSWorkflowStepOptionBase.GetName()
+  commentId: M:CRMScript.NetServer.NSWorkflowStepOptionBase.GetName()
+  id: 'GetName()'
+  so.intellisense: NSWorkflowStepOptionBase.GetName
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSWorkflowStepOptionBase.GetName()
+  fullName: CRMScript.NetServer.NSWorkflowStepOptionBase.GetName()
+  type: Method
+  summary: "Gets the name of this option."
+  syntax:
+    content: String GetName()
+    return:
+      type: CRMScript.Global.String
+      description: "Option name."
+
+- uid: CRMScript.NetServer.NSWorkflowStepOptionBase.SetName(String)
+  commentId: M:CRMScript.NetServer.NSWorkflowStepOptionBase.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSWorkflowStepOptionBase.SetName
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSWorkflowStepOptionBase.SetName(String)
+  fullName: CRMScript.NetServer.NSWorkflowStepOptionBase.SetName(String)
+  type: Method
+  summary: "Sets the name of this option."
+  syntax:
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The name to set."
+    return:
+      type: CRMScript.Global.Void
+
+- uid: CRMScript.NetServer.NSWorkflowStepOptionBase.GetRank()
+  commentId: M:CRMScript.NetServer.NSWorkflowStepOptionBase.GetRank()
+  id: 'GetRank()'
+  so.intellisense: NSWorkflowStepOptionBase.GetRank
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSWorkflowStepOptionBase.GetRank()
+  fullName: CRMScript.NetServer.NSWorkflowStepOptionBase.GetRank()
+  type: Method
+  summary: "Gets the step order."
+  syntax:
+    content: Integer GetRank()
+    return:
+      type: CRMScript.Global.Integer
+      description: "Step order."
+
+- uid: CRMScript.NetServer.NSWorkflowStepOptionBase.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSWorkflowStepOptionBase.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSWorkflowStepOptionBase.SetRank
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSWorkflowStepOptionBase.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSWorkflowStepOptionBase.SetRank(Integer)
+  type: Method
+  summary: "Sets the step order."
+  syntax:
+    content: Void SetRank(Integer rank)
+    parameters:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: "The rank to set."
+    return:
+      type: CRMScript.Global.Void
+
+- uid: CRMScript.NetServer.NSWorkflowStepOptionBase.GetOptionType()
+  commentId: M:CRMScript.NetServer.NSWorkflowStepOptionBase.GetOptionType()
+  id: 'GetOptionType()'
+  so.intellisense: NSWorkflowStepOptionBase.GetOptionType
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetOptionType()'
+  nameWithType: NSWorkflowStepOptionBase.GetOptionType()
+  fullName: CRMScript.NetServer.NSWorkflowStepOptionBase.GetOptionType()
+  type: Method
+  summary: "Gets the type of option."
+  syntax:
+    content: WorkflowSplitOptionType GetOptionType()
+    return:
+      type: CRMScript.NetServer.WorkflowSplitOptionType
+      description: "Option type."
+
+- uid: CRMScript.NetServer.NSWorkflowStepOptionBase.SetOptionType(WorkflowSplitOptionType)
+  commentId: M:CRMScript.NetServer.NSWorkflowStepOptionBase.SetOptionType(WorkflowSplitOptionType)
+  id: 'SetOptionType(WorkflowSplitOptionType)'
+  so.intellisense: NSWorkflowStepOptionBase.SetOptionType
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetOptionType(WorkflowSplitOptionType)'
+  nameWithType: NSWorkflowStepOptionBase.SetOptionType(WorkflowSplitOptionType)
+  fullName: CRMScript.NetServer.NSWorkflowStepOptionBase.SetOptionType(WorkflowSplitOptionType)
+  type: Method
+  summary: "Sets the type of option."
+  syntax:
+    content: Void SetOptionType(WorkflowSplitOptionType optionType)
+    parameters:
+    - id: optionType
+      type: CRMScript.NetServer.WorkflowSplitOptionType
+      description: "The option type to set."
+    return:
+      type: CRMScript.Global.Void
+
+- uid: CRMScript.NetServer.NSWorkflowStepOptionBase.GetSteps()
+  commentId: M:CRMScript.NetServer.NSWorkflowStepOptionBase.GetSteps()
+  id: 'GetSteps()'
+  so.intellisense: NSWorkflowStepOptionBase.GetSteps
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetSteps()'
+  nameWithType: NSWorkflowStepOptionBase.GetSteps()
+  fullName: CRMScript.NetServer.NSWorkflowStepOptionBase.GetSteps()
+  type: Method
+  summary: "Gets the steps to execute if this option/path is selected."
+  syntax:
+    content: NSWorkflowStepBase[] GetSteps()
+    return:
+      type: CRMScript.NetServer.NSWorkflowStepBase[]
+      description: "Array of workflow steps."
+
+- uid: CRMScript.NetServer.NSWorkflowStepOptionBase.SetSteps(NSWorkflowStepBase[])
+  commentId: M:CRMScript.NetServer.NSWorkflowStepOptionBase.SetSteps(NSWorkflowStepBase[])
+  id: 'SetSteps(NSWorkflowStepBase[])'
+  so.intellisense: NSWorkflowStepOptionBase.SetSteps
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetSteps(NSWorkflowStepBase[])'
+  nameWithType: NSWorkflowStepOptionBase.SetSteps(NSWorkflowStepBase[])
+  fullName: CRMScript.NetServer.NSWorkflowStepOptionBase.SetSteps(NSWorkflowStepBase[])
+  type: Method
+  summary: "Sets the steps to execute if this option/path is selected."
+  syntax:
+    content: Void SetSteps(NSWorkflowStepBase[] steps)
+    parameters:
+    - id: steps
+      type: CRMScript.NetServer.NSWorkflowStepBase[]
+      description: "The workflow steps to set."
+    return:
+      type: CRMScript.Global.Void
+
+references:
+- uid: CRMScript.NetServer.NSWorkflowStepOptionBase
+  commentId: T:CRMScript.NetServer.NSWorkflowStepOptionBase
+  isExternal: true
+  name: NSWorkflowStepOptionBase
+  nameWithType: NSWorkflowStepOptionBase
+  fullName: CRMScript.NetServer.NSWorkflowStepOptionBase
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.WorkflowSplitOptionType
+  commentId: T:CRMScript.NetServer.WorkflowSplitOptionType
+  isExternal: true
+  name: WorkflowSplitOptionType
+  nameWithType: WorkflowSplitOptionType
+  fullName: CRMScript.NetServer.WorkflowSplitOptionType
+- uid: CRMScript.NetServer.NSWorkflowStepBase
+  commentId: T:CRMScript.NetServer.NSWorkflowStepBase
+  isExternal: true
+  name: NSWorkflowStepBase
+  nameWithType: NSWorkflowStepBase
+  fullName: CRMScript.NetServer.NSWorkflowStepBase
+- uid: CRMScript.NetServer.NSWorkflowStepBase[]
+  isExternal: true
+  name: NSWorkflowStepBase[]
+  nameWithType: NSWorkflowStepBase[]
+  fullName: CRMScript.NetServer.NSWorkflowStepBase[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSWorkflowStepBase
+    isExternal: true
+    name: NSWorkflowStepBase
+    nameWithType: NSWorkflowStepBase
+    fullName: CRMScript.NetServer.NSWorkflowStepBase
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'

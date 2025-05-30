@@ -1,0 +1,315 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSWorkflowWaitForAction
+  commentId: T:CRMScript.NetServer.NSWorkflowWaitForAction
+  id: NSWorkflowWaitForAction
+  so.version: 11.2
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSWorkflowWaitForAction.#ctor
+  - CRMScript.NetServer.NSWorkflowWaitForAction.GetActionType()
+  - CRMScript.NetServer.NSWorkflowWaitForAction.GetRank()
+  - CRMScript.NetServer.NSWorkflowWaitForAction.GetRestrictionGroups()
+  - CRMScript.NetServer.NSWorkflowWaitForAction.GetWorkflowId()
+  - CRMScript.NetServer.NSWorkflowWaitForAction.GetWorkflowStepId()
+  - CRMScript.NetServer.NSWorkflowWaitForAction.GetWorkflowWaitForActionId()
+  - CRMScript.NetServer.NSWorkflowWaitForAction.SetActionType(NSWorkflowWaitForActionType)
+  - CRMScript.NetServer.NSWorkflowWaitForAction.SetRank(Integer)
+  - CRMScript.NetServer.NSWorkflowWaitForAction.SetRestrictionGroups(NSArchiveRestrictionGroup[])
+  - CRMScript.NetServer.NSWorkflowWaitForAction.SetWorkflowId(Integer)
+  - CRMScript.NetServer.NSWorkflowWaitForAction.SetWorkflowStepId(Integer)
+  - CRMScript.NetServer.NSWorkflowWaitForAction.SetWorkflowWaitForActionId(Integer)
+  name: NSWorkflowWaitForAction
+  nameWithType: NSWorkflowWaitForAction
+  fullName: CRMScript.NetServer.NSWorkflowWaitForAction
+  type: Class
+  summary: "Carrier object for WorkflowWaitForAction."
+  example: []
+
+- uid: CRMScript.NetServer.NSWorkflowWaitForAction.#ctor
+  commentId: M:CRMScript.NetServer.NSWorkflowWaitForAction.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSWorkflowWaitForAction
+  langs:
+  - crmscript
+  name: NSWorkflowWaitForAction()
+  nameWithType: NSWorkflowWaitForAction.#ctor
+  fullName: CRMScript.NetServer.NSWorkflowWaitForAction.#ctor
+  type: Constructor
+  summary: "Initializes a new instance of the NSWorkflowWaitForAction class."
+  syntax:
+    content: NSWorkflowWaitForAction
+
+- uid: CRMScript.NetServer.NSWorkflowWaitForAction.GetWorkflowWaitForActionId()
+  commentId: M:CRMScript.NetServer.NSWorkflowWaitForAction.GetWorkflowWaitForActionId()
+  id: 'GetWorkflowWaitForActionId()'
+  so.intellisense: NSWorkflowWaitForAction.GetWorkflowWaitForActionId
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetWorkflowWaitForActionId()'
+  nameWithType: NSWorkflowWaitForAction.GetWorkflowWaitForActionId()
+  fullName: CRMScript.NetServer.NSWorkflowWaitForAction.GetWorkflowWaitForActionId()
+  type: Method
+  summary: "Gets the primary key (ID) for the WorkflowWaitForAction."
+  syntax:
+    content: Integer GetWorkflowWaitForActionId()
+    return:
+      type: CRMScript.Global.Integer
+      description: "WorkflowWaitForAction Id."
+
+- uid: CRMScript.NetServer.NSWorkflowWaitForAction.SetWorkflowWaitForActionId(Integer)
+  commentId: M:CRMScript.NetServer.NSWorkflowWaitForAction.SetWorkflowWaitForActionId(Integer)
+  id: 'SetWorkflowWaitForActionId(Integer)'
+  so.intellisense: NSWorkflowWaitForAction.SetWorkflowWaitForActionId
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetWorkflowWaitForActionId(Integer)'
+  nameWithType: NSWorkflowWaitForAction.SetWorkflowWaitForActionId(Integer)
+  fullName: CRMScript.NetServer.NSWorkflowWaitForAction.SetWorkflowWaitForActionId(Integer)
+  type: Method
+  summary: "Sets the primary key (ID) for the WorkflowWaitForAction."
+  syntax:
+    content: Void SetWorkflowWaitForActionId(Integer workflowWaitForActionId)
+    parameters:
+    - id: workflowWaitForActionId
+      type: CRMScript.Global.Integer
+      description: "The workflow wait for action ID to set."
+    return:
+      type: CRMScript.Global.Void
+
+- uid: CRMScript.NetServer.NSWorkflowWaitForAction.GetWorkflowStepId()
+  commentId: M:CRMScript.NetServer.NSWorkflowWaitForAction.GetWorkflowStepId()
+  id: 'GetWorkflowStepId()'
+  so.intellisense: NSWorkflowWaitForAction.GetWorkflowStepId
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetWorkflowStepId()'
+  nameWithType: NSWorkflowWaitForAction.GetWorkflowStepId()
+  fullName: CRMScript.NetServer.NSWorkflowWaitForAction.GetWorkflowStepId()
+  type: Method
+  summary: "Gets the ID of the workflow step this instance belongs to."
+  syntax:
+    content: Integer GetWorkflowStepId()
+    return:
+      type: CRMScript.Global.Integer
+      description: "Workflow step ID."
+
+- uid: CRMScript.NetServer.NSWorkflowWaitForAction.SetWorkflowStepId(Integer)
+  commentId: M:CRMScript.NetServer.NSWorkflowWaitForAction.SetWorkflowStepId(Integer)
+  id: 'SetWorkflowStepId(Integer)'
+  so.intellisense: NSWorkflowWaitForAction.SetWorkflowStepId
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetWorkflowStepId(Integer)'
+  nameWithType: NSWorkflowWaitForAction.SetWorkflowStepId(Integer)
+  fullName: CRMScript.NetServer.NSWorkflowWaitForAction.SetWorkflowStepId(Integer)
+  type: Method
+  summary: "Sets the ID of the workflow step this instance belongs to."
+  syntax:
+    content: Void SetWorkflowStepId(Integer workflowStepId)
+    parameters:
+    - id: workflowStepId
+      type: CRMScript.Global.Integer
+      description: "The workflow step ID to set."
+    return:
+      type: CRMScript.Global.Void
+
+- uid: CRMScript.NetServer.NSWorkflowWaitForAction.GetWorkflowId()
+  commentId: M:CRMScript.NetServer.NSWorkflowWaitForAction.GetWorkflowId()
+  id: 'GetWorkflowId()'
+  so.intellisense: NSWorkflowWaitForAction.GetWorkflowId
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetWorkflowId()'
+  nameWithType: NSWorkflowWaitForAction.GetWorkflowId()
+  fullName: CRMScript.NetServer.NSWorkflowWaitForAction.GetWorkflowId()
+  type: Method
+  summary: "Gets the ID of the workflow this action is part of."
+  syntax:
+    content: Integer GetWorkflowId()
+    return:
+      type: CRMScript.Global.Integer
+      description: "Workflow ID."
+
+- uid: CRMScript.NetServer.NSWorkflowWaitForAction.SetWorkflowId(Integer)
+  commentId: M:CRMScript.NetServer.NSWorkflowWaitForAction.SetWorkflowId(Integer)
+  id: 'SetWorkflowId(Integer)'
+  so.intellisense: NSWorkflowWaitForAction.SetWorkflowId
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetWorkflowId(Integer)'
+  nameWithType: NSWorkflowWaitForAction.SetWorkflowId(Integer)
+  fullName: CRMScript.NetServer.NSWorkflowWaitForAction.SetWorkflowId(Integer)
+  type: Method
+  summary: "Sets the ID of the workflow this action is part of."
+  syntax:
+    content: Void SetWorkflowId(Integer workflowId)
+    parameters:
+    - id: workflowId
+      type: CRMScript.Global.Integer
+      description: "The workflow ID to set."
+    return:
+      type: CRMScript.Global.Void
+
+- uid: CRMScript.NetServer.NSWorkflowWaitForAction.GetRank()
+  commentId: M:CRMScript.NetServer.NSWorkflowWaitForAction.GetRank()
+  id: 'GetRank()'
+  so.intellisense: NSWorkflowWaitForAction.GetRank
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetRank()'
+  nameWithType: NSWorkflowWaitForAction.GetRank()
+  fullName: CRMScript.NetServer.NSWorkflowWaitForAction.GetRank()
+  type: Method
+  summary: "Gets the rank of the action in the workflow."
+  syntax:
+    content: Integer GetRank()
+    return:
+      type: CRMScript.Global.Integer
+      description: "Action rank."
+
+- uid: CRMScript.NetServer.NSWorkflowWaitForAction.SetRank(Integer)
+  commentId: M:CRMScript.NetServer.NSWorkflowWaitForAction.SetRank(Integer)
+  id: 'SetRank(Integer)'
+  so.intellisense: NSWorkflowWaitForAction.SetRank
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetRank(Integer)'
+  nameWithType: NSWorkflowWaitForAction.SetRank(Integer)
+  fullName: CRMScript.NetServer.NSWorkflowWaitForAction.SetRank(Integer)
+  type: Method
+  summary: "Sets the rank of the action in the workflow."
+  syntax:
+    content: Void SetRank(Integer rank)
+    parameters:
+    - id: rank
+      type: CRMScript.Global.Integer
+      description: "The rank to set."
+    return:
+      type: CRMScript.Global.Void
+
+- uid: CRMScript.NetServer.NSWorkflowWaitForAction.GetActionType()
+  commentId: M:CRMScript.NetServer.NSWorkflowWaitForAction.GetActionType()
+  id: 'GetActionType()'
+  so.intellisense: NSWorkflowWaitForAction.GetActionType
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetActionType()'
+  nameWithType: NSWorkflowWaitForAction.GetActionType()
+  fullName: CRMScript.NetServer.NSWorkflowWaitForAction.GetActionType()
+  type: Method
+  summary: "Gets the type of the action."
+  syntax:
+    content: NSWorkflowWaitForActionType GetActionType()
+    return:
+      type: CRMScript.NetServer.NSWorkflowWaitForActionType
+      description: "Action type."
+
+- uid: CRMScript.NetServer.NSWorkflowWaitForAction.SetActionType(NSWorkflowWaitForActionType)
+  commentId: M:CRMScript.NetServer.NSWorkflowWaitForAction.SetActionType(NSWorkflowWaitForActionType)
+  id: 'SetActionType(NSWorkflowWaitForActionType)'
+  so.intellisense: NSWorkflowWaitForAction.SetActionType
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetActionType(NSWorkflowWaitForActionType)'
+  nameWithType: NSWorkflowWaitForAction.SetActionType(NSWorkflowWaitForActionType)
+  fullName: CRMScript.NetServer.NSWorkflowWaitForAction.SetActionType(NSWorkflowWaitForActionType)
+  type: Method
+  summary: "Sets the type of the action."
+  syntax:
+    content: Void SetActionType(NSWorkflowWaitForActionType actionType)
+    parameters:
+    - id: actionType
+      type: CRMScript.NetServer.NSWorkflowWaitForActionType
+      description: "The action type to set."
+    return:
+      type: CRMScript.Global.Void
+
+- uid: CRMScript.NetServer.NSWorkflowWaitForAction.GetRestrictionGroups()
+  commentId: M:CRMScript.NetServer.NSWorkflowWaitForAction.GetRestrictionGroups()
+  id: 'GetRestrictionGroups()'
+  so.intellisense: NSWorkflowWaitForAction.GetRestrictionGroups
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetRestrictionGroups()'
+  nameWithType: NSWorkflowWaitForAction.GetRestrictionGroups()
+  fullName: CRMScript.NetServer.NSWorkflowWaitForAction.GetRestrictionGroups()
+  type: Method
+  summary: "Gets the restriction groups for the action."
+  syntax:
+    content: NSArchiveRestrictionGroup[] GetRestrictionGroups()
+    return:
+      type: CRMScript.NetServer.NSArchiveRestrictionGroup
+      description: "Restriction groups."
+
+- uid: CRMScript.NetServer.NSWorkflowWaitForAction.SetRestrictionGroups(NSArchiveRestrictionGroup[])
+  commentId: M:CRMScript.NetServer.NSWorkflowWaitForAction.SetRestrictionGroups(NSArchiveRestrictionGroup[])
+  id: 'SetRestrictionGroups(NSArchiveRestrictionGroup[])'
+  so.intellisense: NSWorkflowWaitForAction.SetRestrictionGroups
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetRestrictionGroups(NSArchiveRestrictionGroup[])'
+  nameWithType: NSWorkflowWaitForAction.SetRestrictionGroups(NSArchiveRestrictionGroup[])
+  fullName: CRMScript.NetServer.NSWorkflowWaitForAction.SetRestrictionGroups(NSArchiveRestrictionGroup[])
+  type: Method
+  summary: "Sets the restriction groups for the action."
+  syntax:
+    content: Void SetRestrictionGroups(NSArchiveRestrictionGroup[] restrictionGroups)
+    parameters:
+    - id: restrictionGroups
+      type: CRMScript.NetServer.NSArchiveRestrictionGroup
+      description: "The restriction groups to set."
+    return:
+      type: CRMScript.Global.Void
+references:
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  isExternal: true
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.Void
+  commentId: T:CRMScript.Global.Void
+  isExternal: true
+  name: Void
+  nameWithType: Void
+  fullName: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSWorkflowWaitForActionType
+  commentId: T:CRMScript.NetServer.NSWorkflowWaitForActionType
+  isExternal: true
+  name: NSWorkflowWaitForActionType
+  nameWithType: NSWorkflowWaitForActionType
+  fullName: CRMScript.NetServer.NSWorkflowWaitForActionType
+- uid: CRMScript.NetServer.NSArchiveRestrictionGroup
+  commentId: T:CRMScript.NetServer.NSArchiveRestrictionGroup
+  isExternal: true
+  name: NSArchiveRestrictionGroup
+  nameWithType: NSArchiveRestrictionGroup
+  fullName: CRMScript.NetServer.NSArchiveRestrictionGroup
+- uid: CRMScript.NetServer.NSArchiveRestrictionGroup[]
+  isExternal: true
+  name: NSArchiveRestrictionGroup[]
+  nameWithType: NSArchiveRestrictionGroup[]
+  fullName: CRMScript.NetServer.NSArchiveRestrictionGroup[]
+  spec.crmscript:
+  - uid: CRMScript.NetServer.NSArchiveRestrictionGroup
+    isExternal: true
+    name: NSArchiveRestrictionGroup
+    nameWithType: NSArchiveRestrictionGroup
+    fullName: CRMScript.NetServer.NSArchiveRestrictionGroup
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
