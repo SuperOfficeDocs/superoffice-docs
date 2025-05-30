@@ -16,7 +16,7 @@ items:
   - CRMScript.NetServer.NSWorkflowStepOptionBase.GetWorkflowStepId()
   - CRMScript.NetServer.NSWorkflowStepOptionBase.GetWorkflowStepOptionId()
   - CRMScript.NetServer.NSWorkflowStepOptionBase.SetName(String)
-  - CRMScript.NetServer.NSWorkflowStepOptionBase.SetOptionType(NSWorkflowSplitOptionType)
+  - CRMScript.NetServer.NSWorkflowStepOptionBase.SetOptionType(WorkflowSplitOptionType)
   - CRMScript.NetServer.NSWorkflowStepOptionBase.SetRank(Integer)
   - CRMScript.NetServer.NSWorkflowStepOptionBase.SetSteps(NSWorkflowStepBase[])
   - CRMScript.NetServer.NSWorkflowStepOptionBase.SetWorkflowId(Integer)
@@ -251,28 +251,28 @@ items:
   type: Method
   summary: "Gets the type of option."
   syntax:
-    content: NSWorkflowSplitOptionType GetOptionType()
+    content: WorkflowSplitOptionType GetOptionType()
     return:
-      type: CRMScript.NetServer.NSWorkflowSplitOptionType
+      type: CRMScript.NetServer.WorkflowSplitOptionType
       description: "Option type."
 
-- uid: CRMScript.NetServer.NSWorkflowStepOptionBase.SetOptionType(NSWorkflowSplitOptionType)
-  commentId: M:CRMScript.NetServer.NSWorkflowStepOptionBase.SetOptionType(NSWorkflowSplitOptionType)
-  id: 'SetOptionType(NSWorkflowSplitOptionType)'
+- uid: CRMScript.NetServer.NSWorkflowStepOptionBase.SetOptionType(WorkflowSplitOptionType)
+  commentId: M:CRMScript.NetServer.NSWorkflowStepOptionBase.SetOptionType(WorkflowSplitOptionType)
+  id: 'SetOptionType(WorkflowSplitOptionType)'
   so.intellisense: NSWorkflowStepOptionBase.SetOptionType
   so.version: 11.2
   langs:
   - crmscript
-  name: 'SetOptionType(NSWorkflowSplitOptionType)'
-  nameWithType: NSWorkflowStepOptionBase.SetOptionType(NSWorkflowSplitOptionType)
-  fullName: CRMScript.NetServer.NSWorkflowStepOptionBase.SetOptionType(NSWorkflowSplitOptionType)
+  name: 'SetOptionType(WorkflowSplitOptionType)'
+  nameWithType: NSWorkflowStepOptionBase.SetOptionType(WorkflowSplitOptionType)
+  fullName: CRMScript.NetServer.NSWorkflowStepOptionBase.SetOptionType(WorkflowSplitOptionType)
   type: Method
   summary: "Sets the type of option."
   syntax:
-    content: Void SetOptionType(NSWorkflowSplitOptionType optionType)
+    content: Void SetOptionType(WorkflowSplitOptionType optionType)
     parameters:
     - id: optionType
-      type: CRMScript.NetServer.NSWorkflowSplitOptionType
+      type: CRMScript.NetServer.WorkflowSplitOptionType
       description: "The option type to set."
     return:
       type: CRMScript.Global.Void
@@ -341,12 +341,12 @@ references:
   name: Void
   nameWithType: Void
   fullName: CRMScript.Global.Void
-- uid: CRMScript.NetServer.NSWorkflowSplitOptionType
-  commentId: T:CRMScript.NetServer.NSWorkflowSplitOptionType
+- uid: CRMScript.NetServer.WorkflowSplitOptionType
+  commentId: T:CRMScript.NetServer.WorkflowSplitOptionType
   isExternal: true
-  name: NSWorkflowSplitOptionType
-  nameWithType: NSWorkflowSplitOptionType
-  fullName: CRMScript.NetServer.NSWorkflowSplitOptionType
+  name: WorkflowSplitOptionType
+  nameWithType: WorkflowSplitOptionType
+  fullName: CRMScript.NetServer.WorkflowSplitOptionType
 - uid: CRMScript.NetServer.NSWorkflowStepBase
   commentId: T:CRMScript.NetServer.NSWorkflowStepBase
   isExternal: true

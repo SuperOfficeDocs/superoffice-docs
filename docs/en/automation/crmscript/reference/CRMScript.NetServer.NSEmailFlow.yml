@@ -61,7 +61,7 @@ items:
   - CRMScript.NetServer.NSEmailFlow.SetFolder(NSHierarchyEntity)
   - CRMScript.NetServer.NSEmailFlow.SetFromAddr(String)
   - CRMScript.NetServer.NSEmailFlow.SetFromName(String)
-  - CRMScript.NetServer.NSEmailFlow.SetFromType(NSEmailFromType)
+  - CRMScript.NetServer.NSEmailFlow.SetFromType(EmailFromType)
   - CRMScript.NetServer.NSEmailFlow.SetGaCampaign(String)
   - CRMScript.NetServer.NSEmailFlow.SetGaSource(String)
   - CRMScript.NetServer.NSEmailFlow.SetGoals(Vector)
@@ -71,8 +71,8 @@ items:
   - CRMScript.NetServer.NSEmailFlow.SetRemoveFromFlows(Vector)
   - CRMScript.NetServer.NSEmailFlow.SetReplyToAddr(String)
   - CRMScript.NetServer.NSEmailFlow.SetReplyToName(String)
-  - CRMScript.NetServer.NSEmailFlow.SetReplyToType(NSEmailReplyToType)
-  - CRMScript.NetServer.NSEmailFlow.SetSelectedDays(NSWeekday)
+  - CRMScript.NetServer.NSEmailFlow.SetReplyToType(EmailReplyToType)
+  - CRMScript.NetServer.NSEmailFlow.SetSelectedDays(Weekday)
   - CRMScript.NetServer.NSEmailFlow.SetShipmentType(NSMDOListItem)
   - CRMScript.NetServer.NSEmailFlow.SetSmsSender(String)
   - CRMScript.NetServer.NSEmailFlow.SetStartOnlyOnce(Bool)
@@ -231,27 +231,27 @@ items:
   type: Method
   summary: "Gets the type of sender for the EmailFlow."
   syntax:
-    content: NSEmailFromType GetFromType()
+    content: EmailFromType GetFromType()
     return:
-      type: CRMScript.NetServer.NSEmailFromType
+      type: CRMScript.NetServer.EmailFromType
       description: "Sender type."
-- uid: CRMScript.NetServer.NSEmailFlow.SetFromType(NSEmailFromType)
-  commentId: M:CRMScript.NetServer.NSEmailFlow.SetFromType(NSEmailFromType)
-  id: 'SetFromType(NSEmailFromType)'
+- uid: CRMScript.NetServer.NSEmailFlow.SetFromType(EmailFromType)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetFromType(EmailFromType)
+  id: 'SetFromType(EmailFromType)'
   so.intellisense: NSEmailFlow.SetFromType
   so.version: 11.2
   langs:
   - crmscript
-  name: 'SetFromType(NSEmailFromType)'
-  nameWithType: NSEmailFlow.SetFromType(NSEmailFromType)
-  fullName: CRMScript.NetServer.NSEmailFlow.SetFromType(NSEmailFromType)
+  name: 'SetFromType(EmailFromType)'
+  nameWithType: NSEmailFlow.SetFromType(EmailFromType)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetFromType(EmailFromType)
   type: Method
   summary: "Sets the type of sender for the EmailFlow."
   syntax:
-    content: Void SetFromType(NSEmailFromType fromType)
+    content: Void SetFromType(EmailFromType fromType)
     parameters:
     - id: fromType
-      type: CRMScript.NetServer.NSEmailFromType
+      type: CRMScript.NetServer.EmailFromType
       description: "The sender type to set."
     return:
       type: CRMScript.Global.Void
@@ -342,27 +342,27 @@ items:
   type: Method
   summary: "Gets the reply-to type for the EmailFlow."
   syntax:
-    content: NSEmailReplyToType GetReplyToType()
+    content: EmailReplyToType GetReplyToType()
     return:
-      type: CRMScript.NetServer.NSEmailReplyToType
+      type: CRMScript.NetServer.EmailReplyToType
       description: "Reply-to type."
-- uid: CRMScript.NetServer.NSEmailFlow.SetReplyToType(NSEmailReplyToType)
-  commentId: M:CRMScript.NetServer.NSEmailFlow.SetReplyToType(NSEmailReplyToType)
-  id: 'SetReplyToType(NSEmailReplyToType)'
+- uid: CRMScript.NetServer.NSEmailFlow.SetReplyToType(EmailReplyToType)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetReplyToType(EmailReplyToType)
+  id: 'SetReplyToType(EmailReplyToType)'
   so.intellisense: NSEmailFlow.SetReplyToType
   so.version: 11.2
   langs:
   - crmscript
-  name: 'SetReplyToType(NSEmailReplyToType)'
-  nameWithType: NSEmailFlow.SetReplyToType(NSEmailReplyToType)
-  fullName: CRMScript.NetServer.NSEmailFlow.SetReplyToType(NSEmailReplyToType)
+  name: 'SetReplyToType(EmailReplyToType)'
+  nameWithType: NSEmailFlow.SetReplyToType(EmailReplyToType)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetReplyToType(EmailReplyToType)
   type: Method
   summary: "Sets the reply-to type for the EmailFlow."
   syntax:
-    content: Void SetReplyToType(NSEmailReplyToType replyToType)
+    content: Void SetReplyToType(EmailReplyToType replyToType)
     parameters:
     - id: replyToType
-      type: CRMScript.NetServer.NSEmailReplyToType
+      type: CRMScript.NetServer.EmailReplyToType
       description: "The reply-to type to set."
     return:
       type: CRMScript.Global.Void
@@ -638,27 +638,27 @@ items:
   type: Method
   summary: "Gets the selected days for the sender timeframe."
   syntax:
-    content: NSWeekday GetSelectedDays()
+    content: Weekday GetSelectedDays()
     return:
-      type: CRMScript.NetServer.NSWeekday
+      type: CRMScript.NetServer.Weekday
       description: "Selected days."
-- uid: CRMScript.NetServer.NSEmailFlow.SetSelectedDays(NSWeekday)
-  commentId: M:CRMScript.NetServer.NSEmailFlow.SetSelectedDays(NSWeekday)
-  id: 'SetSelectedDays(NSWeekday)'
+- uid: CRMScript.NetServer.NSEmailFlow.SetSelectedDays(Weekday)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetSelectedDays(Weekday)
+  id: 'SetSelectedDays(Weekday)'
   so.intellisense: NSEmailFlow.SetSelectedDays
   so.version: 11.2
   langs:
   - crmscript
-  name: 'SetSelectedDays(NSWeekday)'
-  nameWithType: NSEmailFlow.SetSelectedDays(NSWeekday)
-  fullName: CRMScript.NetServer.NSEmailFlow.SetSelectedDays(NSWeekday)
+  name: 'SetSelectedDays(Weekday)'
+  nameWithType: NSEmailFlow.SetSelectedDays(Weekday)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetSelectedDays(Weekday)
   type: Method
   summary: "Sets the selected days for the sender timeframe."
   syntax:
-    content: Void SetSelectedDays(NSWeekday selectedDays)
+    content: Void SetSelectedDays(Weekday selectedDays)
     parameters:
     - id: selectedDays
-      type: CRMScript.NetServer.NSWeekday
+      type: CRMScript.NetServer.Weekday
       description: "The selected days to set."
     return:
       type: CRMScript.Global.Void
@@ -1445,24 +1445,24 @@ references:
   name: Bool
   nameWithType: Bool
   fullName: CRMScript.Global.Bool
-- uid: CRMScript.NetServer.NSEmailFromType
-  commentId: T:CRMScript.NetServer.NSEmailFromType
+- uid: CRMScript.NetServer.EmailFromType
+  commentId: T:CRMScript.NetServer.EmailFromType
   isExternal: true
-  name: NSEmailFromType
-  nameWithType: NSEmailFromType
-  fullName: CRMScript.NetServer.NSEmailFromType
-- uid: CRMScript.NetServer.NSEmailReplyToType
-  commentId: T:CRMScript.NetServer.NSEmailReplyToType
+  name: EmailFromType
+  nameWithType: EmailFromType
+  fullName: CRMScript.NetServer.EmailFromType
+- uid: CRMScript.NetServer.EmailReplyToType
+  commentId: T:CRMScript.NetServer.EmailReplyToType
   isExternal: true
-  name: NSEmailReplyToType
-  nameWithType: NSEmailReplyToType
-  fullName: CRMScript.NetServer.NSEmailReplyToType
-- uid: CRMScript.NetServer.NSWeekday
-  commentId: T:CRMScript.NetServer.NSWeekday
+  name: EmailReplyToType
+  nameWithType: EmailReplyToType
+  fullName: CRMScript.NetServer.EmailReplyToType
+- uid: CRMScript.NetServer.Weekday
+  commentId: T:CRMScript.NetServer.Weekday
   isExternal: true
-  name: NSWeekday
-  nameWithType: NSWeekday
-  fullName: CRMScript.NetServer.NSWeekday
+  name: Weekday
+  nameWithType: Weekday
+  fullName: CRMScript.NetServer.Weekday
 - uid: CRMScript.NetServer.NSTimeZoneData
   commentId: T:CRMScript.NetServer.NSTimeZoneData
   isExternal: true
