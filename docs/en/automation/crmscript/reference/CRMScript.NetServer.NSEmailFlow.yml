@@ -899,7 +899,7 @@ items:
   syntax:
     content: Vector GetRemoveFromFlows()
     return:
-      type: CRMScript.Global.Vector
+      type: CRMScript.Native.Vector
       description: "Flows to remove from."
 - uid: CRMScript.NetServer.NSEmailFlow.SetRemoveFromFlows(Vector)
   commentId: M:CRMScript.NetServer.NSEmailFlow.SetRemoveFromFlows(Vector)
@@ -917,7 +917,7 @@ items:
     content: Void SetRemoveFromFlows(Vector removeFromFlows)
     parameters:
     - id: removeFromFlows
-      type: CRMScript.Global.Vector
+      type: CRMScript.Native.Vector
       description: "The flows to remove from."
     return:
       type: CRMScript.Global.Void
@@ -1064,7 +1064,7 @@ items:
   syntax:
     content: Vector GetSteps()
     return:
-      type: CRMScript.Global.Vector
+      type: CRMScript.Native.Vector
       description: "Vector of workflow steps."
 - uid: CRMScript.NetServer.NSEmailFlow.SetSteps(Vector)
   commentId: M:CRMScript.NetServer.NSEmailFlow.SetSteps(Vector)
@@ -1082,7 +1082,7 @@ items:
     content: Void SetSteps(Vector steps)
     parameters:
     - id: steps
-      type: CRMScript.Global.Vector
+      type: CRMScript.Native.Vector
       description: "The workflow steps to set."
     return:
       type: CRMScript.Global.Void
@@ -1101,7 +1101,7 @@ items:
   syntax:
     content: Vector GetTriggers()
     return:
-      type: CRMScript.Global.Vector
+      type: CRMScript.Native.Vector
       description: "Vector of triggers."
 - uid: CRMScript.NetServer.NSEmailFlow.SetTriggers(Vector)
   commentId: M:CRMScript.NetServer.NSEmailFlow.SetTriggers(Vector)
@@ -1119,7 +1119,7 @@ items:
     content: Void SetTriggers(Vector triggers)
     parameters:
     - id: triggers
-      type: CRMScript.Global.Vector
+      type: CRMScript.Native.Vector
       description: "The triggers to set."
     return:
       type: CRMScript.Global.Void
@@ -1138,7 +1138,7 @@ items:
   syntax:
     content: Vector GetGoals()
     return:
-      type: CRMScript.Global.Vector
+      type: CRMScript.Native.Vector
       description: "Vector of goals."
 - uid: CRMScript.NetServer.NSEmailFlow.SetGoals(Vector)
   commentId: M:CRMScript.NetServer.NSEmailFlow.SetGoals(Vector)
@@ -1156,7 +1156,7 @@ items:
     content: Void SetGoals(Vector goals)
     parameters:
     - id: goals
-      type: CRMScript.Global.Vector
+      type: CRMScript.Native.Vector
       description: "The goals to set."
     return:
       type: CRMScript.Global.Void
@@ -1212,7 +1212,7 @@ items:
   syntax:
     content: Vector GetBlockLists()
     return:
-      type: CRMScript.Global.Vector
+      type: CRMScript.Native.Vector
       description: "Vector of block lists."
 - uid: CRMScript.NetServer.NSEmailFlow.SetBlockLists(Vector)
   commentId: M:CRMScript.NetServer.NSEmailFlow.SetBlockLists(Vector)
@@ -1230,7 +1230,7 @@ items:
     content: Void SetBlockLists(Vector blockLists)
     parameters:
     - id: blockLists
-      type: CRMScript.Global.Vector
+      type: CRMScript.Native.Vector
       description: "The block lists to set."
     return:
       type: CRMScript.Global.Void
@@ -1392,9 +1392,9 @@ items:
   type: Method
   summary: "Gets the date and time when the EmailFlow was created. Read-only property."
   syntax:
-    content: NSDateTime GetCreatedDate()
+    content: DateTime GetCreatedDate()
     return:
-      type: CRMScript.NetServer.NSDateTime
+      type: CRMScript.Global.DateTime
       description: "The creation date and time."
 - uid: CRMScript.NetServer.NSEmailFlow.GetUpdatedDate()
   commentId: M:CRMScript.NetServer.NSEmailFlow.GetUpdatedDate()
@@ -1409,9 +1409,9 @@ items:
   type: Method
   summary: "Gets the date and time when the EmailFlow was last updated. Read-only property."
   syntax:
-    content: NSDateTime GetUpdatedDate()
+    content: DateTime GetUpdatedDate()
     return:
-      type: CRMScript.NetServer.NSDateTime
+      type: CRMScript.Global.DateTime
       description: "The last updated date and time."
 - uid: CRMScript.NetServer.NSEmailFlow.GetDescription()
   commentId: M:CRMScript.NetServer.NSEmailFlow.GetDescription()
@@ -1661,18 +1661,18 @@ references:
   name: NSWorkflowFilter
   nameWithType: NSWorkflowFilter
   fullName: CRMScript.NetServer.NSWorkflowFilter
-- uid: CRMScript.Global.Vector
-  commentId: T:CRMScript.Global.Vector
+- uid: CRMScript.Native.Vector
+  commentId: T:CRMScript.Native.Vector
   isExternal: true
   name: Vector
   nameWithType: Vector
-  fullName: CRMScript.Global.Vector
-- uid: CRMScript.NetServer.NSDateTime
-  commentId: T:CRMScript.NetServer.NSDateTime
+  fullName: CRMScript.Native.Vector
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
   isExternal: true
-  name: NSDateTime
-  nameWithType: NSDateTime
-  fullName: CRMScript.NetServer.NSDateTime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
 - uid: CRMScript.NetServer.WorkflowDefinitionStatus
   commentId: T:CRMScript.NetServer.WorkflowDefinitionStatus
   isExternal: true
