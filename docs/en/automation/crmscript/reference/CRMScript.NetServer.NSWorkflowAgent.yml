@@ -1,0 +1,932 @@
+### YamlMime:ManagedReference
+items:
+- uid: CRMScript.NetServer.NSWorkflowAgent
+  commentId: T:CRMScript.NetServer.NSWorkflowAgent
+  id: NSWorkflowAgent
+  so.version: 11.2
+  langs:
+  - crmscript
+  children:
+  - CRMScript.NetServer.NSWorkflowAgent.#ctor
+  - CRMScript.NetServer.NSWorkflowAgent.AddAfterWorkflowStep(Integer,NSWorkflowStepBase)
+  - CRMScript.NetServer.NSWorkflowAgent.ConnectEmailFlowContent(Integer,Integer)
+  - CRMScript.NetServer.NSWorkflowAgent.CopyEmailFlow(Integer,String)
+  - CRMScript.NetServer.NSWorkflowAgent.CopyEmailFlowContent(Integer,Integer)
+  - CRMScript.NetServer.NSWorkflowAgent.CreateDefaultEmailFlow()
+  - CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowEvent()
+  - CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowEventResult()
+  - CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowFilter()
+  - CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowGoal()
+  - CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowStepFromType(WorkflowStepType)
+  - CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowStepOptionFromType(WorkflowSplitOptionType)
+  - CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowTrigger()
+  - CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowWaitForAction()
+  - CRMScript.NetServer.NSWorkflowAgent.CreateEmailFlowContent(Integer,String)
+  - CRMScript.NetServer.NSWorkflowAgent.DeleteEmailFlow(Integer)
+  - CRMScript.NetServer.NSWorkflowAgent.DeleteWorkflowGoal(Integer)
+  - CRMScript.NetServer.NSWorkflowAgent.DeleteWorkflowTrigger(Integer)
+  - CRMScript.NetServer.NSWorkflowAgent.DeleteWorkflowWaitForAction(Integer)
+  - CRMScript.NetServer.NSWorkflowAgent.GetEmailFlow(Integer)
+  - CRMScript.NetServer.NSWorkflowAgent.GetWorkflowGoal(Integer)
+  - CRMScript.NetServer.NSWorkflowAgent.GetWorkflowStep(Integer)
+  - CRMScript.NetServer.NSWorkflowAgent.GetWorkflowStepOption(Integer)
+  - CRMScript.NetServer.NSWorkflowAgent.GetWorkflowTrigger(Integer)
+  - CRMScript.NetServer.NSWorkflowAgent.GetWorkflowWaitForAction(Integer)
+  - CRMScript.NetServer.NSWorkflowAgent.RemoveParticipantsFromEmailFlow(Integer,Integer[])
+  - CRMScript.NetServer.NSWorkflowAgent.Run()
+  - CRMScript.NetServer.NSWorkflowAgent.SaveEmailFlow(NSEmailFlow)
+  - CRMScript.NetServer.NSWorkflowAgent.SaveWorkflowGoal(NSWorkflowGoal)
+  - CRMScript.NetServer.NSWorkflowAgent.SaveWorkflowTrigger(NSWorkflowTrigger)
+  - CRMScript.NetServer.NSWorkflowAgent.SaveWorkflowWaitForAction(NSWorkflowWaitForAction)
+  - CRMScript.NetServer.NSWorkflowAgent.SendEvent(NSWorkflowEvent)
+  - CRMScript.NetServer.NSWorkflowAgent.SetStatusOnWorkflow(Integer,WorkflowDefinitionStatus)
+  - CRMScript.NetServer.NSWorkflowAgent.TryAddPersonsToEmailFlow(Integer,Integer[])
+  - CRMScript.NetServer.NSWorkflowAgent.UpdateFormSubmissions(Integer)
+  name: NSWorkflowAgent
+  nameWithType: NSWorkflowAgent
+  fullName: CRMScript.NetServer.NSWorkflowAgent
+  type: Class
+  summary: "\nWorkflow data services.\n"
+  example: 
+  - "\n<pre><code>NSWorkflowAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWorkflowAgent.#ctor
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.#ctor
+  id: '#ctor'
+  so.intellisense: Void.NSWorkflowAgent
+  langs:
+  - crmscript
+  name: NSWorkflowAgent()
+  nameWithType: NSWorkflowAgent.#ctor
+  fullName: CRMScript.NetServer.NSWorkflowAgent.#ctor
+  type: Constructor
+  summary: "\nInitializes a new instance of the NSWorkflowAgent class.\n"
+  remarks: 
+  syntax: 
+    content: NSWorkflowAgent
+  example: 
+  - "\n<pre><code>NSWorkflowAgent agent;\nagent.callMethod(arg1, arg2);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWorkflowAgent.CreateDefaultEmailFlow()
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.CreateDefaultEmailFlow()
+  id: 'CreateDefaultEmailFlow()'
+  so.intellisense: NSWorkflowAgent.CreateDefaultEmailFlow
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'CreateDefaultEmailFlow()'
+  nameWithType: NSWorkflowAgent.CreateDefaultEmailFlow()
+  fullName: CRMScript.NetServer.NSWorkflowAgent.CreateDefaultEmailFlow()
+  type: Method
+  summary: "\nLoading default values into a new NSEmailFlow\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax: 
+    content: NSEmailFlow CreateDefaultEmailFlow()
+    return:
+      type: CRMScript.NetServer.NSEmailFlow
+      description: "New NSEmailFlow with default values."
+  example: 
+  - "\n<pre><code>NSWorkflowAgent thing;\nNSEmailFlow emailFlow = thing.CreateDefaultEmailFlow();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWorkflowAgent.SaveEmailFlow(NSEmailFlow)
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.SaveEmailFlow(NSEmailFlow)
+  id: 'SaveEmailFlow(NSEmailFlow)'
+  so.intellisense: NSWorkflowAgent.SaveEmailFlow
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SaveEmailFlow(NSEmailFlow)'
+  nameWithType: NSWorkflowAgent.SaveEmailFlow(NSEmailFlow)
+  fullName: CRMScript.NetServer.NSWorkflowAgent.SaveEmailFlow(NSEmailFlow)
+  type: Method
+  summary: "\nUpdates the existing NSEmailFlow or creates a new NSEmailFlow if the id parameter is empty\n"
+  syntax:
+    content: NSEmailFlow SaveEmailFlow(NSEmailFlow emailFlow)
+    parameters:
+    - id: emailFlow
+      type: CRMScript.NetServer.NSEmailFlow
+      description: The NSEmailFlow that is saved.
+    return:
+      type: CRMScript.NetServer.NSEmailFlow
+      description: New or updated NSEmailFlow
+  example:
+  - "\n<pre><code>NSWorkflowAgent agent;\nNSEmailFlow emailFlow;\nNSEmailFlow res = agent.SaveEmailFlow(emailFlow);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWorkflowAgent.DeleteEmailFlow(Integer)
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.DeleteEmailFlow(Integer)
+  id: 'DeleteEmailFlow(Integer)'
+  so.intellisense: NSWorkflowAgent.DeleteEmailFlow
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'DeleteEmailFlow(Integer)'
+  nameWithType: NSWorkflowAgent.DeleteEmailFlow(Integer)
+  fullName: CRMScript.NetServer.NSWorkflowAgent.DeleteEmailFlow(Integer)
+  type: Method
+  summary: "\nDeletes the NSEmailFlow\n"
+  syntax:
+    content: void DeleteEmailFlow(Integer emailFlowId)
+    parameters:
+    - id: emailFlowId
+      type: CRMScript.Global.Integer
+      description: The identity of the EmailFlow
+  example:
+  - "\n<pre><code>NSWorkflowAgent agent;\nInteger emailFlowId;\nagent.DeleteEmailFlow(emailFlowId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowEvent()
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowEvent()
+  id: 'CreateDefaultWorkflowEvent()'
+  so.intellisense: NSWorkflowAgent.CreateDefaultWorkflowEvent
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'CreateDefaultWorkflowEvent()'
+  nameWithType: NSWorkflowAgent.CreateDefaultWorkflowEvent()
+  fullName: CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowEvent()
+  type: Method
+  summary: "\nLoading default values into a new NSWorkflowEvent\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: NSWorkflowEvent CreateDefaultWorkflowEvent()
+    return:
+      type: CRMScript.NetServer.NSWorkflowEvent
+      description: New NSWorkflowEvent with default values
+  example:
+  - "\n<pre><code>NSWorkflowAgent agent;\nNSWorkflowEvent event = agent.CreateDefaultWorkflowEvent();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowEventResult()
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowEventResult()
+  id: 'CreateDefaultWorkflowEventResult()'
+  so.intellisense: NSWorkflowAgent.CreateDefaultWorkflowEventResult
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'CreateDefaultWorkflowEventResult()'
+  nameWithType: NSWorkflowAgent.CreateDefaultWorkflowEventResult()
+  fullName: CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowEventResult()
+  type: Method
+  summary: "\nLoading default values into a new NSWorkflowEventResult\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: NSWorkflowEventResult CreateDefaultWorkflowEventResult()
+    return:
+      type: CRMScript.NetServer.NSWorkflowEventResult
+      description: New NSWorkflowEventResult with default values
+  example:
+  - "\n<pre><code>NSWorkflowAgent agent;\nNSWorkflowEventResult result = agent.CreateDefaultWorkflowEventResult();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowFilter()
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowFilter()
+  id: 'CreateDefaultWorkflowFilter()'
+  so.intellisense: NSWorkflowAgent.CreateDefaultWorkflowFilter
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'CreateDefaultWorkflowFilter()'
+  nameWithType: NSWorkflowAgent.CreateDefaultWorkflowFilter()
+  fullName: CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowFilter()
+  type: Method
+  summary: "\nLoading default values into a new NSWorkflowFilter\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: NSWorkflowFilter CreateDefaultWorkflowFilter()
+    return:
+      type: CRMScript.NetServer.NSWorkflowFilter
+      description: New NSWorkflowFilter with default values
+  example:
+  - "\n<pre><code>NSWorkflowAgent agent;\nNSWorkflowFilter filter = agent.CreateDefaultWorkflowFilter();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowGoal()
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowGoal()
+  id: 'CreateDefaultWorkflowGoal()'
+  so.intellisense: NSWorkflowAgent.CreateDefaultWorkflowGoal
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'CreateDefaultWorkflowGoal()'
+  nameWithType: NSWorkflowAgent.CreateDefaultWorkflowGoal()
+  fullName: CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowGoal()
+  type: Method
+  summary: "\nLoading default values into a new NSWorkflowGoal\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: NSWorkflowGoal CreateDefaultWorkflowGoal()
+    return:
+      type: CRMScript.NetServer.NSWorkflowGoal
+      description: New NSWorkflowGoal with default values
+  example:
+  - "\n<pre><code>NSWorkflowAgent agent;\nNSWorkflowGoal goal = agent.CreateDefaultWorkflowGoal();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWorkflowAgent.SaveWorkflowGoal(NSWorkflowGoal)
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.SaveWorkflowGoal(NSWorkflowGoal)
+  id: 'SaveWorkflowGoal(NSWorkflowGoal)'
+  so.intellisense: NSWorkflowAgent.SaveWorkflowGoal
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SaveWorkflowGoal(NSWorkflowGoal)'
+  nameWithType: NSWorkflowAgent.SaveWorkflowGoal(NSWorkflowGoal)
+  fullName: CRMScript.NetServer.NSWorkflowAgent.SaveWorkflowGoal(NSWorkflowGoal)
+  type: Method
+  summary: "\nUpdates the existing NSWorkflowGoal or creates a new NSWorkflowGoal if the id parameter is empty\n"
+  syntax:
+    content: NSWorkflowGoal SaveWorkflowGoal(NSWorkflowGoal workflowGoal)
+    parameters:
+    - id: workflowGoal
+      type: CRMScript.NetServer.NSWorkflowGoal
+      description: The NSWorkflowGoal that is saved.
+    return:
+      type: CRMScript.NetServer.NSWorkflowGoal
+      description: New or updated NSWorkflowGoal
+  example:
+  - "\n<pre><code>NSWorkflowAgent agent;\nNSWorkflowGoal goal;\nNSWorkflowGoal res = agent.SaveWorkflowGoal(goal);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWorkflowAgent.DeleteWorkflowGoal(Integer)
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.DeleteWorkflowGoal(Integer)
+  id: 'DeleteWorkflowGoal(Integer)'
+  so.intellisense: NSWorkflowAgent.DeleteWorkflowGoal
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'DeleteWorkflowGoal(Integer)'
+  nameWithType: NSWorkflowAgent.DeleteWorkflowGoal(Integer)
+  fullName: CRMScript.NetServer.NSWorkflowAgent.DeleteWorkflowGoal(Integer)
+  type: Method
+  summary: "\nDeletes the NSWorkflowGoal\n"
+  syntax:
+    content: void DeleteWorkflowGoal(Integer workflowGoalId)
+    parameters:
+    - id: workflowGoalId
+      type: CRMScript.Global.Integer
+      description: The identity of the WorkflowGoal
+  example:
+  - "\n<pre><code>NSWorkflowAgent agent;\nInteger workflowGoalId;\nagent.DeleteWorkflowGoal(workflowGoalId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowTrigger()
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowTrigger()
+  id: 'CreateDefaultWorkflowTrigger()'
+  so.intellisense: NSWorkflowAgent.CreateDefaultWorkflowTrigger
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'CreateDefaultWorkflowTrigger()'
+  nameWithType: NSWorkflowAgent.CreateDefaultWorkflowTrigger()
+  fullName: CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowTrigger()
+  type: Method
+  summary: "\nLoading default values into a new NSWorkflowTrigger\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: NSWorkflowTrigger CreateDefaultWorkflowTrigger()
+    return:
+      type: CRMScript.NetServer.NSWorkflowTrigger
+      description: New NSWorkflowTrigger with default values
+  example:
+  - "\n<pre><code>NSWorkflowAgent agent;\nNSWorkflowTrigger trigger = agent.CreateDefaultWorkflowTrigger();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWorkflowAgent.SaveWorkflowTrigger(NSWorkflowTrigger)
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.SaveWorkflowTrigger(NSWorkflowTrigger)
+  id: 'SaveWorkflowTrigger(NSWorkflowTrigger)'
+  so.intellisense: NSWorkflowAgent.SaveWorkflowTrigger
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SaveWorkflowTrigger(NSWorkflowTrigger)'
+  nameWithType: NSWorkflowAgent.SaveWorkflowTrigger(NSWorkflowTrigger)
+  fullName: CRMScript.NetServer.NSWorkflowAgent.SaveWorkflowTrigger(NSWorkflowTrigger)
+  type: Method
+  summary: "\nUpdates the existing NSWorkflowTrigger or creates a new NSWorkflowTrigger if the id parameter is empty\n"
+  syntax:
+    content: NSWorkflowTrigger SaveWorkflowTrigger(NSWorkflowTrigger workflowTrigger)
+    parameters:
+    - id: workflowTrigger
+      type: CRMScript.NetServer.NSWorkflowTrigger
+      description: The NSWorkflowTrigger that is saved.
+    return:
+      type: CRMScript.NetServer.NSWorkflowTrigger
+      description: New or updated NSWorkflowTrigger
+  example:
+  - "\n<pre><code>NSWorkflowAgent agent;\nNSWorkflowTrigger trigger;\nNSWorkflowTrigger res = agent.SaveWorkflowTrigger(trigger);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWorkflowAgent.DeleteWorkflowTrigger(Integer)
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.DeleteWorkflowTrigger(Integer)
+  id: 'DeleteWorkflowTrigger(Integer)'
+  so.intellisense: NSWorkflowAgent.DeleteWorkflowTrigger
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'DeleteWorkflowTrigger(Integer)'
+  nameWithType: NSWorkflowAgent.DeleteWorkflowTrigger(Integer)
+  fullName: CRMScript.NetServer.NSWorkflowAgent.DeleteWorkflowTrigger(Integer)
+  type: Method
+  summary: "\nDeletes the NSWorkflowTrigger\n"
+  syntax:
+    content: void DeleteWorkflowTrigger(Integer workflowTriggerId)
+    parameters:
+    - id: workflowTriggerId
+      type: CRMScript.Global.Integer
+      description: The identity of the WorkflowTrigger
+  example:
+  - "\n<pre><code>NSWorkflowAgent agent;\nInteger workflowTriggerId;\nagent.DeleteWorkflowTrigger(workflowTriggerId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowWaitForAction()
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowWaitForAction()
+  id: 'CreateDefaultWorkflowWaitForAction()'
+  so.intellisense: NSWorkflowAgent.CreateDefaultWorkflowWaitForAction
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'CreateDefaultWorkflowWaitForAction()'
+  nameWithType: NSWorkflowAgent.CreateDefaultWorkflowWaitForAction()
+  fullName: CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowWaitForAction()
+  type: Method
+  summary: "\nLoading default values into a new NSWorkflowWaitForAction\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: NSWorkflowWaitForAction CreateDefaultWorkflowWaitForAction()
+    return:
+      type: CRMScript.NetServer.NSWorkflowWaitForAction
+      description: New NSWorkflowWaitForAction with default values
+  example:
+  - "\n<pre><code>NSWorkflowAgent agent;\nNSWorkflowWaitForAction action = agent.CreateDefaultWorkflowWaitForAction();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWorkflowAgent.SaveWorkflowWaitForAction(NSWorkflowWaitForAction)
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.SaveWorkflowWaitForAction(NSWorkflowWaitForAction)
+  id: 'SaveWorkflowWaitForAction(NSWorkflowWaitForAction)'
+  so.intellisense: NSWorkflowAgent.SaveWorkflowWaitForAction
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SaveWorkflowWaitForAction(NSWorkflowWaitForAction)'
+  nameWithType: NSWorkflowAgent.SaveWorkflowWaitForAction(NSWorkflowWaitForAction)
+  fullName: CRMScript.NetServer.NSWorkflowAgent.SaveWorkflowWaitForAction(NSWorkflowWaitForAction)
+  type: Method
+  summary: "\nUpdates the existing NSWorkflowWaitForAction or creates a new NSWorkflowWaitForAction if the id parameter is empty\n"
+  syntax:
+    content: NSWorkflowWaitForAction SaveWorkflowWaitForAction(NSWorkflowWaitForAction workflowWaitForAction)
+    parameters:
+    - id: workflowWaitForAction
+      type: CRMScript.NetServer.NSWorkflowWaitForAction
+      description: The NSWorkflowWaitForAction that is saved.
+    return:
+      type: CRMScript.NetServer.NSWorkflowWaitForAction
+      description: New or updated NSWorkflowWaitForAction
+  example:
+  - "\n<pre><code>NSWorkflowAgent agent;\nNSWorkflowWaitForAction action;\nNSWorkflowWaitForAction res = agent.SaveWorkflowWaitForAction(action);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWorkflowAgent.DeleteWorkflowWaitForAction(Integer)
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.DeleteWorkflowWaitForAction(Integer)
+  id: 'DeleteWorkflowWaitForAction(Integer)'
+  so.intellisense: NSWorkflowAgent.DeleteWorkflowWaitForAction
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'DeleteWorkflowWaitForAction(Integer)'
+  nameWithType: NSWorkflowAgent.DeleteWorkflowWaitForAction(Integer)
+  fullName: CRMScript.NetServer.NSWorkflowAgent.DeleteWorkflowWaitForAction(Integer)
+  type: Method
+  summary: "\nDeletes the NSWorkflowWaitForAction\n"
+  syntax:
+    content: void DeleteWorkflowWaitForAction(Integer workflowWaitForActionId)
+    parameters:
+    - id: workflowWaitForActionId
+      type: CRMScript.Global.Integer
+      description: The identity of the WorkflowWaitForAction
+  example:
+  - "\n<pre><code>NSWorkflowAgent agent;\nInteger workflowWaitForActionId;\nagent.DeleteWorkflowWaitForAction(workflowWaitForActionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWorkflowAgent.GetEmailFlow(Integer)
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.GetEmailFlow(Integer)
+  id: 'GetEmailFlow(Integer)'
+  so.intellisense: NSWorkflowAgent.GetEmailFlow
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetEmailFlow(Integer)'
+  nameWithType: NSWorkflowAgent.GetEmailFlow(Integer)
+  fullName: CRMScript.NetServer.NSWorkflowAgent.GetEmailFlow(Integer)
+  type: Method
+  summary: "\nGets a NSEmailFlow object.\n"
+  syntax:
+    content: NSEmailFlow GetEmailFlow(Integer emailFlowId)
+    parameters:
+    - id: emailFlowId
+      type: CRMScript.Global.Integer
+      description: The identifier of the NSEmailFlow object
+    return:
+      type: CRMScript.NetServer.NSEmailFlow
+      description: NSEmailFlow
+  example:
+  - "\n<pre><code>NSWorkflowAgent agent;\nInteger emailFlowId;\nNSEmailFlow flow = agent.GetEmailFlow(emailFlowId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWorkflowAgent.TryAddPersonsToEmailFlow(Integer,Integer[])
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.TryAddPersonsToEmailFlow(Integer,Integer[])
+  id: 'TryAddPersonsToEmailFlow(Integer,Integer[])'
+  so.intellisense: NSWorkflowAgent.TryAddPersonsToEmailFlow
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'TryAddPersonsToEmailFlow(Integer,Integer[])'
+  nameWithType: NSWorkflowAgent.TryAddPersonsToEmailFlow(Integer,Integer[])
+  fullName: CRMScript.NetServer.NSWorkflowAgent.TryAddPersonsToEmailFlow(Integer,Integer[])
+  type: Method
+  summary: "\nTry to add a participant to the EmailFlow. Same function available in PersonAgent\n"
+  syntax:
+    content: Bool[] TryAddPersonsToEmailFlow(Integer emailFlowId, Integer[] personIds)
+    parameters:
+    - id: emailFlowId
+      type: CRMScript.Global.Integer
+      description: Primary key of EmailFlow
+    - id: personIds
+      type: CRMScript.Global.Integer[]
+      description: Array of Person Ids
+    return:
+      type: CRMScript.Global.Bool[]
+      description: True if the corresponding participant was successfully added, false if it could not be added because of filter criteria or other reason
+  example:
+  - "\n<pre><code>NSWorkflowAgent agent;\nInteger emailFlowId;\nInteger[] personIds;\nBool[] res = agent.TryAddPersonsToEmailFlow(emailFlowId, personIds);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWorkflowAgent.RemoveParticipantsFromEmailFlow(Integer,Integer[])
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.RemoveParticipantsFromEmailFlow(Integer,Integer[])
+  id: 'RemoveParticipantsFromEmailFlow(Integer,Integer[])'
+  so.intellisense: NSWorkflowAgent.RemoveParticipantsFromEmailFlow
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'RemoveParticipantsFromEmailFlow(Integer,Integer[])'
+  nameWithType: NSWorkflowAgent.RemoveParticipantsFromEmailFlow(Integer,Integer[])
+  fullName: CRMScript.NetServer.NSWorkflowAgent.RemoveParticipantsFromEmailFlow(Integer,Integer[])
+  type: Method
+  summary: "\nRemove participants (actually workflow instances) from the workflow\n"
+  syntax:
+    content: void RemoveParticipantsFromEmailFlow(Integer emailFlowId, Integer[] workflowInstanceIds)
+    parameters:
+    - id: emailFlowId
+      type: CRMScript.Global.Integer
+      description: Primary key of EmailFlow
+    - id: workflowInstanceIds
+      type: CRMScript.Global.Integer[]
+      description: Array of Workflow instances (representing participants) to be completely removed from the workflow
+  example:
+  - "\n<pre><code>NSWorkflowAgent agent;\nInteger emailFlowId;\nInteger[] workflowInstanceIds;\nagent.RemoveParticipantsFromEmailFlow(emailFlowId, workflowInstanceIds);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWorkflowAgent.CreateEmailFlowContent(Integer,String)
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.CreateEmailFlowContent(Integer,String)
+  id: 'CreateEmailFlowContent(Integer,String)'
+  so.intellisense: NSWorkflowAgent.CreateEmailFlowContent
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'CreateEmailFlowContent(Integer,String)'
+  nameWithType: NSWorkflowAgent.CreateEmailFlowContent(Integer,String)
+  fullName: CRMScript.NetServer.NSWorkflowAgent.CreateEmailFlowContent(Integer,String)
+  type: Method
+  summary: "\nCreate content to an email flow\n"
+  syntax:
+    content: Integer CreateEmailFlowContent(Integer emailFlowId, String contentName)
+    parameters:
+    - id: emailFlowId
+      type: CRMScript.Global.Integer
+      description: The EmailFlow to connect the created message to.
+    - id: contentName
+      type: CRMScript.Global.String
+      description: The name of the content created
+    return:
+      type: CRMScript.Global.Integer
+      description: Id of shipment created
+  example:
+  - "\n<pre><code>NSWorkflowAgent agent;\nInteger emailFlowId;\nString contentName;\nInteger res = agent.CreateEmailFlowContent(emailFlowId, contentName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWorkflowAgent.ConnectEmailFlowContent(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.ConnectEmailFlowContent(Integer,Integer)
+  id: 'ConnectEmailFlowContent(Integer,Integer)'
+  so.intellisense: NSWorkflowAgent.ConnectEmailFlowContent
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'ConnectEmailFlowContent(Integer,Integer)'
+  nameWithType: NSWorkflowAgent.ConnectEmailFlowContent(Integer,Integer)
+  fullName: CRMScript.NetServer.NSWorkflowAgent.ConnectEmailFlowContent(Integer,Integer)
+  type: Method
+  summary: "\nLink any SMessage to the email flow. The SMessage (and any related SShipment etc) should probably not be used/visible elsewhere.\n"
+  syntax:
+    content: void ConnectEmailFlowContent(Integer emailFlowId, Integer messageId)
+    parameters:
+    - id: emailFlowId
+      type: CRMScript.Global.Integer
+      description: The EmailFlow to connect the message to.
+    - id: messageId
+      type: CRMScript.Global.Integer
+      description: The s_message to connect to the flow. A shipment, form or flow may be connected to that s_message.
+  example:
+  - "\n<pre><code>NSWorkflowAgent agent;\nInteger emailFlowId;\nInteger messageId;\nagent.ConnectEmailFlowContent(emailFlowId, messageId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWorkflowAgent.CopyEmailFlowContent(Integer,Integer)
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.CopyEmailFlowContent(Integer,Integer)
+  id: 'CopyEmailFlowContent(Integer,Integer)'
+  so.intellisense: NSWorkflowAgent.CopyEmailFlowContent
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'CopyEmailFlowContent(Integer,Integer)'
+  nameWithType: NSWorkflowAgent.CopyEmailFlowContent(Integer,Integer)
+  fullName: CRMScript.NetServer.NSWorkflowAgent.CopyEmailFlowContent(Integer,Integer)
+  type: Method
+  summary: "\nCopy smessage and connected shipment to the email flow. The SMessage (and any related SShipment etc) should probably not be used/visible elsewhere.\n"
+  syntax:
+    content: Integer CopyEmailFlowContent(Integer emailFlowId, Integer shipmentId)
+    parameters:
+    - id: emailFlowId
+      type: CRMScript.Global.Integer
+      description: The EmailFlow to connect the copied content to.
+    - id: shipmentId
+      type: CRMScript.Global.Integer
+      description: The id of the shipment to copy to the flow. The message of this shipment will also be connected
+    return:
+      type: CRMScript.Global.Integer
+      description: Newly created shipment id for this content
+  example:
+  - "\n<pre><code>NSWorkflowAgent agent;\nInteger emailFlowId;\nInteger shipmentId;\nInteger res = agent.CopyEmailFlowContent(emailFlowId, shipmentId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWorkflowAgent.UpdateFormSubmissions(Integer)
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.UpdateFormSubmissions(Integer)
+  id: 'UpdateFormSubmissions(Integer)'
+  so.intellisense: NSWorkflowAgent.UpdateFormSubmissions
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'UpdateFormSubmissions(Integer)'
+  nameWithType: NSWorkflowAgent.UpdateFormSubmissions(Integer)
+  fullName: CRMScript.NetServer.NSWorkflowAgent.UpdateFormSubmissions(Integer)
+  type: Method
+  summary: "\nAttempt to update stored field values for up to the given number of form submissions\n"
+  syntax:
+    content: Integer UpdateFormSubmissions(Integer maxCount)
+    parameters:
+    - id: maxCount
+      type: CRMScript.Global.Integer
+      description: The maximum number of form submissions to attempt to save as form field values.
+    return:
+      type: CRMScript.Global.Integer
+      description: Number of form submissions converted
+  example:
+  - "\n<pre><code>NSWorkflowAgent agent;\nInteger maxCount;\nInteger res = agent.UpdateFormSubmissions(maxCount);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWorkflowAgent.SetStatusOnWorkflow(Integer,WorkflowDefinitionStatus)
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.SetStatusOnWorkflow(Integer,WorkflowDefinitionStatus)
+  id: 'SetStatusOnWorkflow(Integer,WorkflowDefinitionStatus)'
+  so.intellisense: NSWorkflowAgent.SetStatusOnWorkflow
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetStatusOnWorkflow(Integer,WorkflowDefinitionStatus)'
+  nameWithType: NSWorkflowAgent.SetStatusOnWorkflow(Integer,WorkflowDefinitionStatus)
+  fullName: CRMScript.NetServer.NSWorkflowAgent.SetStatusOnWorkflow(Integer,WorkflowDefinitionStatus)
+  type: Method
+  summary: "\nSet status on workflow, Run or pause flow\n"
+  syntax:
+    content: WorkflowDefinitionStatus SetStatusOnWorkflow(Integer emailFlowId, WorkflowDefinitionStatus status)
+    parameters:
+    - id: emailFlowId
+      type: CRMScript.Global.Integer
+      description: The id of the email flow to run or pause
+    - id: status
+      type: CRMScript.NetServer.WorkflowDefinitionStatus
+      description: The new status
+    return:
+      type: CRMScript.NetServer.WorkflowDefinitionStatus
+      description: The new status
+  example:
+  - "\n<pre><code>NSWorkflowAgent agent;\nInteger emailFlowId;\nWorkflowDefinitionStatus status;\nWorkflowDefinitionStatus res = agent.SetStatusOnWorkflow(emailFlowId, status);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWorkflowAgent.CopyEmailFlow(Integer,String)
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.CopyEmailFlow(Integer,String)
+  id: 'CopyEmailFlow(Integer,String)'
+  so.intellisense: NSWorkflowAgent.CopyEmailFlow
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'CopyEmailFlow(Integer,String)'
+  nameWithType: NSWorkflowAgent.CopyEmailFlow(Integer,String)
+  fullName: CRMScript.NetServer.NSWorkflowAgent.CopyEmailFlow(Integer,String)
+  type: Method
+  summary: "\nCopy an email flow.\n"
+  syntax:
+    content: Integer CopyEmailFlow(Integer emailFlowId, String newName)
+    parameters:
+    - id: emailFlowId
+      type: CRMScript.Global.Integer
+      description: The EmailFlow to copy.
+    - id: newName
+      type: CRMScript.Global.String
+      description: The name of the new email flow
+    return:
+      type: CRMScript.Global.Integer
+      description: Newly created email flow id for this content
+  example:
+  - "\n<pre><code>NSWorkflowAgent agent;\nInteger emailFlowId;\nString newName;\nInteger res = agent.CopyEmailFlow(emailFlowId, newName);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWorkflowAgent.Run()
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.Run()
+  id: 'Run()'
+  so.intellisense: NSWorkflowAgent.Run
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'Run()'
+  nameWithType: NSWorkflowAgent.Run()
+  fullName: CRMScript.NetServer.NSWorkflowAgent.Run()
+  type: Method
+  summary: "\nRun the workflow engine right now\n"
+  syntax:
+    content: DateTime Run()
+    return:
+      type: CRMScript.Global.DateTime
+      description: Suggested time for next run
+  example:
+  - "\n<pre><code>NSWorkflowAgent agent;\nDateTime nextRun = agent.Run();</code></pre>\n"
+- uid: CRMScript.NetServer.NSWorkflowAgent.SendEvent(NSWorkflowEvent)
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.SendEvent(NSWorkflowEvent)
+  id: 'SendEvent(NSWorkflowEvent)'
+  so.intellisense: NSWorkflowAgent.SendEvent
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SendEvent(NSWorkflowEvent)'
+  nameWithType: NSWorkflowAgent.SendEvent(NSWorkflowEvent)
+  fullName: CRMScript.NetServer.NSWorkflowAgent.SendEvent(NSWorkflowEvent)
+  type: Method
+  summary: "\nSend a workflow event. Most event signaling will finish very quickly as they normally just change the state of a workflow instance\n"
+  syntax:
+    content: NSWorkflowEventResult SendEvent(NSWorkflowEvent workflowEvent)
+    parameters:
+    - id: workflowEvent
+      type: CRMScript.NetServer.NSWorkflowEvent
+      description: Information about the signaled event
+    return:
+      type: CRMScript.NetServer.NSWorkflowEventResult
+      description: Any relevant info about the event
+  example:
+  - "\n<pre><code>NSWorkflowAgent agent;\nNSWorkflowEvent event;\nNSWorkflowEventResult res = agent.SendEvent(event);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWorkflowAgent.GetWorkflowGoal(Integer)
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.GetWorkflowGoal(Integer)
+  id: 'GetWorkflowGoal(Integer)'
+  so.intellisense: NSWorkflowAgent.GetWorkflowGoal
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetWorkflowGoal(Integer)'
+  nameWithType: NSWorkflowAgent.GetWorkflowGoal(Integer)
+  fullName: CRMScript.NetServer.NSWorkflowAgent.GetWorkflowGoal(Integer)
+  type: Method
+  summary: "\nGets a NSWorkflowGoal object.\n"
+  syntax:
+    content: NSWorkflowGoal GetWorkflowGoal(Integer workflowGoalId)
+    parameters:
+    - id: workflowGoalId
+      type: CRMScript.Global.Integer
+      description: The identifier of the NSWorkflowGoal object
+    return:
+      type: CRMScript.NetServer.NSWorkflowGoal
+      description: NSWorkflowGoal
+  example:
+  - "\n<pre><code>NSWorkflowAgent agent;\nInteger workflowGoalId;\nNSWorkflowGoal goal = agent.GetWorkflowGoal(workflowGoalId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWorkflowAgent.GetWorkflowStep(Integer)
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.GetWorkflowStep(Integer)
+  id: 'GetWorkflowStep(Integer)'
+  so.intellisense: NSWorkflowAgent.GetWorkflowStep
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetWorkflowStep(Integer)'
+  nameWithType: NSWorkflowAgent.GetWorkflowStep(Integer)
+  fullName: CRMScript.NetServer.NSWorkflowAgent.GetWorkflowStep(Integer)
+  type: Method
+  summary: "\nGet Workflowstep by ID\n"
+  syntax:
+    content: NSWorkflowStepBase GetWorkflowStep(Integer workflowStepId)
+    parameters:
+    - id: workflowStepId
+      type: CRMScript.Global.Integer
+      description: Primary key of WorkflowStep
+    return:
+      type: CRMScript.NetServer.NSWorkflowStepBase
+      description: The Workflow step
+  example:
+  - "\n<pre><code>NSWorkflowAgent agent;\nInteger workflowStepId;\nNSWorkflowStepBase step = agent.GetWorkflowStep(workflowStepId);</code></pre>\n"
+
+- uid: CRMScript.NetServer.NSWorkflowAgent.AddAfterWorkflowStep(Integer,NSWorkflowStepBase)
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.AddAfterWorkflowStep(Integer,NSWorkflowStepBase)
+  id: 'AddAfterWorkflowStep(Integer,NSWorkflowStepBase)'
+  so.intellisense: NSWorkflowAgent.AddAfterWorkflowStep
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'AddAfterWorkflowStep(Integer,NSWorkflowStepBase)'
+  nameWithType: NSWorkflowAgent.AddAfterWorkflowStep(Integer,NSWorkflowStepBase)
+  fullName: CRMScript.NetServer.NSWorkflowAgent.AddAfterWorkflowStep(Integer,NSWorkflowStepBase)
+  type: Method
+  summary: "\nAdd another step (and any of its substeps) after the given step id (which must exist), and move any following steps in the workflow further down the line.\n"
+  syntax:
+    content: NSWorkflowStepBase AddAfterWorkflowStep(Integer workflowStepId, NSWorkflowStepBase subStep)
+    parameters:
+    - id: workflowStepId
+      type: CRMScript.Global.Integer
+      description: Primary key of WorkflowStep
+    - id: subStep
+      type: CRMScript.NetServer.NSWorkflowStepBase
+      description: The step to be inserted after given step id.
+    return:
+      type: CRMScript.NetServer.NSWorkflowStepBase
+      description: The added step
+  example:
+  - "\n<pre><code>NSWorkflowAgent agent;\nInteger workflowStepId;\nNSWorkflowStepBase subStep;\nNSWorkflowStepBase res = agent.AddAfterWorkflowStep(workflowStepId, subStep);</code></pre>\n"
+
+- uid: CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowStepFromType(WorkflowStepType)
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowStepFromType(WorkflowStepType)
+  id: 'CreateDefaultWorkflowStepFromType(WorkflowStepType)'
+  so.intellisense: NSWorkflowAgent.CreateDefaultWorkflowStepFromType
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'CreateDefaultWorkflowStepFromType(WorkflowStepType)'
+  nameWithType: NSWorkflowAgent.CreateDefaultWorkflowStepFromType(WorkflowStepType)
+  fullName: CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowStepFromType(WorkflowStepType)
+  type: Method
+  summary: "\nCreates a new carrier from the step type given, with the right kind of properties, defaults set.\n"
+  syntax:
+    content: NSWorkflowStepBase CreateDefaultWorkflowStepFromType(WorkflowStepType stepType)
+    parameters:
+    - id: stepType
+      type: CRMScript.NetServer.WorkflowStepType
+      description: Step type to create
+    return:
+      type: CRMScript.NetServer.NSWorkflowStepBase
+      description: The created workflow step
+  example:
+  - "\n<pre><code>NSWorkflowAgent agent;\nWorkflowStepType stepType;\nNSWorkflowStepBase res = agent.CreateDefaultWorkflowStepFromType(stepType);</code></pre>\n"
+
+- uid: CRMScript.NetServer.NSWorkflowAgent.GetWorkflowTrigger(Integer)
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.GetWorkflowTrigger(Integer)
+  id: 'GetWorkflowTrigger(Integer)'
+  so.intellisense: NSWorkflowAgent.GetWorkflowTrigger
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetWorkflowTrigger(Integer)'
+  nameWithType: NSWorkflowAgent.GetWorkflowTrigger(Integer)
+  fullName: CRMScript.NetServer.NSWorkflowAgent.GetWorkflowTrigger(Integer)
+  type: Method
+  summary: "\nGets a NSWorkflowTrigger object.\n"
+  syntax:
+    content: NSWorkflowTrigger GetWorkflowTrigger(Integer workflowTriggerId)
+    parameters:
+    - id: workflowTriggerId
+      type: CRMScript.Global.Integer
+      description: The identifier of the NSWorkflowTrigger object
+    return:
+      type: CRMScript.NetServer.NSWorkflowTrigger
+      description: NSWorkflowTrigger
+  example:
+  - "\n<pre><code>NSWorkflowAgent agent;\nInteger workflowTriggerId;\nNSWorkflowTrigger trigger = agent.GetWorkflowTrigger(workflowTriggerId);</code></pre>\n"
+
+- uid: CRMScript.NetServer.NSWorkflowAgent.GetWorkflowWaitForAction(Integer)
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.GetWorkflowWaitForAction(Integer)
+  id: 'GetWorkflowWaitForAction(Integer)'
+  so.intellisense: NSWorkflowAgent.GetWorkflowWaitForAction
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetWorkflowWaitForAction(Integer)'
+  nameWithType: NSWorkflowAgent.GetWorkflowWaitForAction(Integer)
+  fullName: CRMScript.NetServer.NSWorkflowAgent.GetWorkflowWaitForAction(Integer)
+  type: Method
+  summary: "\nGets a NSWorkflowWaitForAction object.\n"
+  syntax:
+    content: NSWorkflowWaitForAction GetWorkflowWaitForAction(Integer workflowWaitForActionId)
+    parameters:
+    - id: workflowWaitForActionId
+      type: CRMScript.Global.Integer
+      description: The identifier of the NSWorkflowWaitForAction object
+    return:
+      type: CRMScript.NetServer.NSWorkflowWaitForAction
+      description: NSWorkflowWaitForAction
+  example:
+  - "\n<pre><code>NSWorkflowAgent agent;\nInteger workflowWaitForActionId;\nNSWorkflowWaitForAction action = agent.GetWorkflowWaitForAction(workflowWaitForActionId);</code></pre>\n"
+- uid: CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowStepOptionFromType(WorkflowSplitOptionType)
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowStepOptionFromType(WorkflowSplitOptionType)
+  id: 'CreateDefaultWorkflowStepOptionFromType(WorkflowSplitOptionType)'
+  so.intellisense: NSWorkflowAgent.CreateDefaultWorkflowStepOptionFromType
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'CreateDefaultWorkflowStepOptionFromType(WorkflowSplitOptionType)'
+  nameWithType: NSWorkflowAgent.CreateDefaultWorkflowStepOptionFromType(WorkflowSplitOptionType)
+  fullName: CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowStepOptionFromType(WorkflowSplitOptionType)
+  type: Method
+  summary: "Creates a new carrier from the option type given, with the right kind of properties, defaults set."
+  syntax:
+    content: NSWorkflowStepOptionBase CreateDefaultWorkflowStepOptionFromType(WorkflowSplitOptionType optionType)
+    parameters:
+    - id: optionType
+      type: CRMScript.NetServer.WorkflowSplitOptionType
+      description: "Option type to create."
+    return:
+      type: CRMScript.NetServer.NSWorkflowStepOptionBase
+      description: "The created workflow step option."
+- uid: CRMScript.NetServer.NSWorkflowAgent.GetWorkflowStepOption(Integer)
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.GetWorkflowStepOption(Integer)
+  id: 'GetWorkflowStepOption(Integer)'
+  so.intellisense: NSWorkflowAgent.GetWorkflowStepOption
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetWorkflowStepOption(Integer)'
+  nameWithType: NSWorkflowAgent.GetWorkflowStepOption(Integer)
+  fullName: CRMScript.NetServer.NSWorkflowAgent.GetWorkflowStepOption(Integer)
+  type: Method
+  summary: "Get WorkflowStepOption by ID."
+  syntax:
+    content: NSWorkflowStepOptionBase GetWorkflowStepOption(Integer workflowStepOptionId)
+    parameters:
+    - id: workflowStepOptionId
+      type: CRMScript.Global.Integer
+      description: "Primary key of WorkflowStep option."
+    return:
+      type: CRMScript.NetServer.NSWorkflowStepOptionBase
+      description: "The Workflow step option."
+references:
+- uid: CRMScript.NetServer.NSWorkflowAgent
+  commentId: T:CRMScript.NetServer.NSWorkflowAgent
+  name: NSWorkflowAgent
+  nameWithType: NSWorkflowAgent
+  fullName: CRMScript.NetServer.NSWorkflowAgent
+- uid: CRMScript.Global.Integer
+  commentId: T:CRMScript.Global.Integer
+  name: Integer
+  nameWithType: Integer
+  fullName: CRMScript.Global.Integer
+- uid: CRMScript.Global.String
+  commentId: T:CRMScript.Global.String
+  name: String
+  nameWithType: String
+  fullName: CRMScript.Global.String
+- uid: CRMScript.Global.Bool
+  commentId: T:CRMScript.Global.Bool
+  name: Bool
+  nameWithType: Bool
+  fullName: CRMScript.Global.Bool
+- uid: CRMScript.Global.DateTime
+  commentId: T:CRMScript.Global.DateTime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: CRMScript.Global.DateTime
+- uid: CRMScript.NetServer.NSEmailFlow
+  commentId: T:CRMScript.NetServer.NSEmailFlow
+  name: NSEmailFlow
+  nameWithType: NSEmailFlow
+  fullName: CRMScript.NetServer.NSEmailFlow
+- uid: CRMScript.NetServer.NSWorkflowEvent
+  commentId: T:CRMScript.NetServer.NSWorkflowEvent
+  name: NSWorkflowEvent
+  nameWithType: NSWorkflowEvent
+  fullName: CRMScript.NetServer.NSWorkflowEvent
+- uid: CRMScript.NetServer.NSWorkflowEventResult
+  commentId: T:CRMScript.NetServer.NSWorkflowEventResult
+  name: NSWorkflowEventResult
+  nameWithType: NSWorkflowEventResult
+  fullName: CRMScript.NetServer.NSWorkflowEventResult
+- uid: CRMScript.NetServer.NSWorkflowFilter
+  commentId: T:CRMScript.NetServer.NSWorkflowFilter
+  name: NSWorkflowFilter
+  nameWithType: NSWorkflowFilter
+  fullName: CRMScript.NetServer.NSWorkflowFilter
+- uid: CRMScript.NetServer.NSWorkflowGoal
+  commentId: T:CRMScript.NetServer.NSWorkflowGoal
+  name: NSWorkflowGoal
+  nameWithType: NSWorkflowGoal
+  fullName: CRMScript.NetServer.NSWorkflowGoal
+- uid: CRMScript.NetServer.NSWorkflowTrigger
+  commentId: T:CRMScript.NetServer.NSWorkflowTrigger
+  name: NSWorkflowTrigger
+  nameWithType: NSWorkflowTrigger
+  fullName: CRMScript.NetServer.NSWorkflowTrigger
+- uid: CRMScript.NetServer.NSWorkflowWaitForAction
+  commentId: T:CRMScript.NetServer.NSWorkflowWaitForAction
+  name: NSWorkflowWaitForAction
+  nameWithType: NSWorkflowWaitForAction
+  fullName: CRMScript.NetServer.NSWorkflowWaitForAction
+- uid: CRMScript.NetServer.NSWorkflowStepBase
+  commentId: T:CRMScript.NetServer.NSWorkflowStepBase
+  name: NSWorkflowStepBase
+  nameWithType: NSWorkflowStepBase
+  fullName: CRMScript.NetServer.NSWorkflowStepBase
+- uid: CRMScript.NetServer.WorkflowStepType
+  commentId: T:CRMScript.NetServer.WorkflowStepType
+  name: WorkflowStepType
+  nameWithType: WorkflowStepType
+  fullName: CRMScript.NetServer.WorkflowStepType
+- uid: CRMScript.NetServer.WorkflowDefinitionStatus
+  commentId: T:CRMScript.NetServer.WorkflowDefinitionStatus
+  name: WorkflowDefinitionStatus
+  nameWithType: WorkflowDefinitionStatus
+  fullName: CRMScript.NetServer.WorkflowDefinitionStatus
+- uid: CRMScript.NetServer.NSWorkflowStepOptionBase
+  commentId: T:CRMScript.NetServer.NSWorkflowStepOptionBase
+  name: NSWorkflowStepOptionBase
+  nameWithType: NSWorkflowStepOptionBase
+  fullName: CRMScript.NetServer.NSWorkflowStepOptionBase
+- uid: CRMScript.Global.Integer[]
+  isExternal: true
+  name: Integer[]
+  nameWithType: Integer[]
+  fullName: CRMScript.Global.Integer[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Integer
+    isExternal: true
+    name: Integer
+    nameWithType: Integer
+    fullName: CRMScript.Global.Integer
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: CRMScript.Global.Bool[]
+  isExternal: true
+  name: Bool[]
+  nameWithType: Bool[]
+  fullName: CRMScript.Global.Bool[]
+  spec.crmscript:
+  - uid: CRMScript.Global.Bool
+    isExternal: true
+    name: Bool
+    nameWithType: Bool
+    fullName: CRMScript.Global.Bool
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
