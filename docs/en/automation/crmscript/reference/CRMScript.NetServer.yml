@@ -169,7 +169,8 @@ items:
   - CRMScript.NetServer.NSDuplicateEntry
   - CRMScript.NetServer.NSDuplicateRule
   - CRMScript.NetServer.NSEMailConnectionInfo
-  - CRMScript.NetServer.NSEMailFlow
+  - CRMScript.NetServer.NSEmailFlow
+
   - CRMScript.NetServer.NSEntityElement
   - CRMScript.NetServer.NSEntityName
   - CRMScript.NetServer.NSEventData
