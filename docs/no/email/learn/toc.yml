@@ -1,8 +1,6 @@
 items:
 - name: Oversikt
   href: index.md
-- name: Skrive e-post
-  href: compose.md
 - name: Endre standard e-postklient i SuperOffice
   href: change-default-mail-client.md
 - name: Innboks
