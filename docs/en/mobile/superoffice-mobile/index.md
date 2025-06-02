@@ -1,53 +1,103 @@
 ---
 uid: mobile-crm-intro
 title: Mobile CRM - Access your CRM on the go
-description: In this how-to guide, you will learn how to get started with SuperOffice Mobile CRM.
+description: Discover what's new in the refreshed Mobile CRM and how to get started on the go.
+keywords: mobile CRM app, SuperOffice mobile CRM, mobile, customer info, sales, on the go, refreshed interface
 author: Bergfrid Dias
-date: 03.14.2023
-keywords: mobile, pocket
+date: 06.10.2025
+version: 11
 topic: concept
-version: 10
-language: en
 client: mobile
+language: en
 ---
 
-# Mobile CRM: Access your CRM on the go
+# Mobile CRM - Access your CRM on the go
 
-Mobile CRM gives you access to your entire SuperOffice CRM system on your smartphone or tablet. The app is available for all users of SuperOffice CRM 9 or higher.
+SuperOffice Mobile CRM has been redesigned to give you faster access, better navigation, and a cleaner interface—while still offering all the powerful tools you need to work from anywhere.
 
-![Mobile CRM -screenshot][img2]
+Whether you're meeting a customer, following up on a sale, or responding to service requests, Mobile CRM puts the full power of SuperOffice in your pocket.
 
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/IPJHqn0THTY]
+![Mobile CRM -screenshot][img1]
 
-## Key features
+## What's new
 
-* Access all CRM data, including contacts, projects, sales, follow-ups, documents, and requests.
-* View all dashboards and be able to drill down on the data in many of your dashboards.
-* View sales dashboards and pipelines, and update information on the go.
-* Access diaries and create appointments and activities.
-* Get reminders of upcoming events or meetings.
-* Join video meetings on your device.
-* Scan business cards and automatically save or update contact and company information.
-* Call or message any contact directly from the app.
-* Immediately know who is calling with caller ID.
-* Check updates on your projects.
-* Save pictures and documents directly from your smartphone or tablet to your projects and activities.
-* Get notifications on new and/or changed requests.
-* Create and access your open requests, as well as respond to requests and assign them to others agents.
-* Change a request status and category, add tags, assign priority, and add comment or image.
-* Connect a request to a sale or project.
+### Refreshed interface
 
-![Gif on how to use Mobile CRM][img1]
+Cleaner, more intuitive design with thumb-friendly navigation and faster access to information.
 
-## Handle requests in your Mobile CRM
+### Compressed views
 
-In our Mobile CRM app you have access to all requests and can reply or reassign the requests on-the-go. Mobile CRM offers you the most essential features of SuperOffice Service, adapted for use on a smartphone or tablet.
+See contacts, activities, documents, sales, and projects in a single scrollable view—no need to tap through tabs.
+
+### Real-time notifications
+
+Stay on top of tasks, updates, and approvals as they happen.
+
+## What you can do with Mobile CRM
+
+* Access complete customer information: contacts, companies, documents, requests, and sales
+* View and update your calendar (diary)
+* Create, update, and complete follow-ups on the go
+* Log meetings, calls, and notes immediately after customer interactions
+* Call, message, or email contacts with one tap
+* Identify incoming calls with SuperOffice Caller ID
+* Join video meetings directly from your device
+* Scan business cards to quickly create or update contacts and companies
+* Save photos and documents directly from your phone to sales, projects, or activities
+* Create and update requests with priority, category, tags, comments, and images
+* Reassign or respond to service requests wherever you are
+* Get reminders for meetings, tasks, or overdue activities
+* Receive real-time alerts about quote approvals, new requests, or follow-up changes
+* Approve or deny quotes and monitor your sales pipeline
+* View dashboards and drill into key metrics for sales and service
+* Access SharePoint documents linked to projects or sale
+
+## Built for your role
+
+### For sales reps
+
+* Review history before meetings
+* Log updates immediately afterward
+* Keep deals moving with fewer taps
+
+### For managers
+
+* Get quote approvals and dashboards on the go
+* Track performance and pipeline
+* Make faster decisions anywhere
+
+### For service agents and field teams
+
+* Handle requests on site
+* Add photos and comments to requests
+* Share updates instantly
+
+## Get started
+
+1. Download the SuperOffice Mobile CRM app from the [Apple AppStore][6] or [Google Play][7] depending on your device.
+1. Log in using your SuperOffice credentials.
+1. [Set up email and notifications][1] to stay connected.
+
+> [!NOTE]
+> Available to all SuperOffice CRM users on version 10.1 or newer.
 
 ## Related content
 
+* [Using the Diary in Mobile CRM][2]
+* [Sales and pipeline management][3]
+* [Responding to requests][4]
+* [Create documents and log meetings][5]
+
 <!-- Referenced links -->
+[1]: getting-started/set-up-email.md
+[2]: diary/index.md
+[3]: sale/index.md
+[4]: request/index.md
+[5]: document/index.md
+[6]: https://apps.apple.com/us/app/superoffice-mobile-crm/id1516435957
+[7]: https://play.google.com/store/apps/details?id=no.superoffice.mobile&hl=no&gl=US&pli=1
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/mobile/mobile-crm-gif-prev-02.gif
-[img2]: media/mobile-app.jpg
+[img1]: ../../../media/loc/en/mobile/3-screens.png
+
+<!--Old YT video: https://www.youtube.com/embed/IPJHqn0THTY-->
