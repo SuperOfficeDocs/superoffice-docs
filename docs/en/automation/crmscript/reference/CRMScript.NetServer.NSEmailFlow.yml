@@ -76,7 +76,7 @@ items:
   - CRMScript.NetServer.NSEmailFlow.SetShipmentType(NSMDOListItem)
   - CRMScript.NetServer.NSEmailFlow.SetSmsSender(String)
   - CRMScript.NetServer.NSEmailFlow.SetStartOnlyOnce(Bool)
-  - CRMScript.NetServer.NSEmailFlow.SetStatus(NSWorkflowDefinitionStatus)
+  - CRMScript.NetServer.NSEmailFlow.SetStatus(WorkflowDefinitionStatus)
   - CRMScript.NetServer.NSEmailFlow.SetSteps(Vector)
   - CRMScript.NetServer.NSEmailFlow.SetTimeframeEnd(String)
   - CRMScript.NetServer.NSEmailFlow.SetTimeframeStart(String)
@@ -1413,6 +1413,174 @@ items:
     return:
       type: CRMScript.NetServer.NSDateTime
       description: "The last updated date and time."
+- uid: CRMScript.NetServer.NSEmailFlow.GetDescription()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetDescription()
+  id: 'GetDescription()'
+  so.intellisense: NSEmailFlow.GetDescription
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetDescription()'
+  nameWithType: NSEmailFlow.GetDescription()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetDescription()
+  type: Method
+  summary: "Gets the description of the workflow."
+  syntax:
+    content: String GetDescription()
+    return:
+      type: CRMScript.Global.String
+      description: "The description of the workflow."
+- uid: CRMScript.NetServer.NSEmailFlow.GetJumpToFinish()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetJumpToFinish()
+  id: 'GetJumpToFinish()'
+  so.intellisense: NSEmailFlow.GetJumpToFinish
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetJumpToFinish()'
+  nameWithType: NSEmailFlow.GetJumpToFinish()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetJumpToFinish()
+  type: Method
+  summary: "Gets whether a contact jumps directly to finished when a goal is reached."
+  syntax:
+    content: Bool GetJumpToFinish()
+    return:
+      type: CRMScript.Global.Bool
+      description: "True if the contact jumps directly to finished when a goal is reached."
+- uid: CRMScript.NetServer.NSEmailFlow.GetName()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetName()
+  id: 'GetName()'
+  so.intellisense: NSEmailFlow.GetName
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetName()'
+  nameWithType: NSEmailFlow.GetName()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetName()
+  type: Method
+  summary: "Gets the name of the workflow."
+  syntax:
+    content: String GetName()
+    return:
+      type: CRMScript.Global.String
+      description: "The name of the workflow."
+- uid: CRMScript.NetServer.NSEmailFlow.GetStatus()
+  commentId: M:CRMScript.NetServer.NSEmailFlow.GetStatus()
+  id: 'GetStatus()'
+  so.intellisense: NSEmailFlow.GetStatus
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetStatus()'
+  nameWithType: NSEmailFlow.GetStatus()
+  fullName: CRMScript.NetServer.NSEmailFlow.GetStatus()
+  type: Method
+  summary: "Gets the status of the workflow definition."
+  syntax:
+    content: WorkflowDefinitionStatus GetStatus()
+    return:
+      type: CRMScript.NetServer.WorkflowDefinitionStatus
+      description: "The status of the workflow definition."
+- uid: CRMScript.NetServer.NSEmailFlow.SetDescription(String)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetDescription(String)
+  id: 'SetDescription(String)'
+  so.intellisense: NSEmailFlow.SetDescription
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetDescription(String)'
+  nameWithType: NSEmailFlow.SetDescription(String)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetDescription(String)
+  type: Method
+  summary: "Sets the description of the workflow."
+  syntax:
+    content: Void SetDescription(String description)
+    parameters:
+    - id: description
+      type: CRMScript.Global.String
+      description: "The description of the workflow to set."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.SetJumpToFinish(Bool)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetJumpToFinish(Bool)
+  id: 'SetJumpToFinish(Bool)'
+  so.intellisense: NSEmailFlow.SetJumpToFinish
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetJumpToFinish(Bool)'
+  nameWithType: NSEmailFlow.SetJumpToFinish(Bool)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetJumpToFinish(Bool)
+  type: Method
+  summary: "Sets whether a contact jumps directly to finished when a goal is reached."
+  syntax:
+    content: Void SetJumpToFinish(Bool jumpToFinish)
+    parameters:
+    - id: jumpToFinish
+      type: CRMScript.Global.Bool
+      description: "True if the contact should jump directly to finished when a goal is reached."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.SetName(String)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetName(String)
+  id: 'SetName(String)'
+  so.intellisense: NSEmailFlow.SetName
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetName(String)'
+  nameWithType: NSEmailFlow.SetName(String)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetName(String)
+  type: Method
+  summary: "Sets the name of the workflow."
+  syntax:
+    content: Void SetName(String name)
+    parameters:
+    - id: name
+      type: CRMScript.Global.String
+      description: "The name of the workflow to set."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.SetStatus(WorkflowDefinitionStatus)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetStatus(WorkflowDefinitionStatus)
+  id: 'SetStatus(WorkflowDefinitionStatus)'
+  so.intellisense: NSEmailFlow.SetStatus
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetStatus(WorkflowDefinitionStatus)'
+  nameWithType: NSEmailFlow.SetStatus(WorkflowDefinitionStatus)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetStatus(WorkflowDefinitionStatus)
+  type: Method
+  summary: "Sets the status of the workflow definition."
+  syntax:
+    content: Void SetStatus(WorkflowDefinitionStatus status)
+    parameters:
+    - id: status
+      type: CRMScript.NetServer.WorkflowDefinitionStatus
+      description: "The status of the workflow definition to set."
+    return:
+      type: CRMScript.Global.Void
+- uid: CRMScript.NetServer.NSEmailFlow.SetTzLocation(NSTimeZoneData)
+  commentId: M:CRMScript.NetServer.NSEmailFlow.SetTzLocation(NSTimeZoneData)
+  id: 'SetTzLocation(NSTimeZoneData)'
+  so.intellisense: NSEmailFlow.SetTzLocation
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'SetTzLocation(NSTimeZoneData)'
+  nameWithType: NSEmailFlow.SetTzLocation(NSTimeZoneData)
+  fullName: CRMScript.NetServer.NSEmailFlow.SetTzLocation(NSTimeZoneData)
+  type: Method
+  summary: "Sets the workflow timezone setting."
+  syntax:
+    content: Void SetTzLocation(NSTimeZoneData tzLocation)
+    parameters:
+    - id: tzLocation
+      type: CRMScript.NetServer.NSTimeZoneData
+      description: "The timezone setting to set."
+    return:
+      type: CRMScript.Global.Void
 
 references:
 - uid: CRMScript.NetServer.NSEmailFlow
@@ -1505,3 +1673,10 @@ references:
   name: NSDateTime
   nameWithType: NSDateTime
   fullName: CRMScript.NetServer.NSDateTime
+- uid: CRMScript.NetServer.WorkflowDefinitionStatus
+  commentId: T:CRMScript.NetServer.WorkflowDefinitionStatus
+  isExternal: true
+  name: WorkflowDefinitionStatus
+  nameWithType: WorkflowDefinitionStatus
+  fullName: CRMScript.NetServer.WorkflowDefinitionStatus
+

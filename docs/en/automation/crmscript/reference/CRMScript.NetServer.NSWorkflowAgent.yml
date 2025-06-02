@@ -779,7 +779,48 @@ items:
       description: NSWorkflowWaitForAction
   example:
   - "\n<pre><code>NSWorkflowAgent agent;\nInteger workflowWaitForActionId;\nNSWorkflowWaitForAction action = agent.GetWorkflowWaitForAction(workflowWaitForActionId);</code></pre>\n"
-
+- uid: CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowStepOptionFromType(WorkflowSplitOptionType)
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowStepOptionFromType(WorkflowSplitOptionType)
+  id: 'CreateDefaultWorkflowStepOptionFromType(WorkflowSplitOptionType)'
+  so.intellisense: NSWorkflowAgent.CreateDefaultWorkflowStepOptionFromType
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'CreateDefaultWorkflowStepOptionFromType(WorkflowSplitOptionType)'
+  nameWithType: NSWorkflowAgent.CreateDefaultWorkflowStepOptionFromType(WorkflowSplitOptionType)
+  fullName: CRMScript.NetServer.NSWorkflowAgent.CreateDefaultWorkflowStepOptionFromType(WorkflowSplitOptionType)
+  type: Method
+  summary: "Creates a new carrier from the option type given, with the right kind of properties, defaults set."
+  syntax:
+    content: NSWorkflowStepOptionBase CreateDefaultWorkflowStepOptionFromType(WorkflowSplitOptionType optionType)
+    parameters:
+    - id: optionType
+      type: CRMScript.NetServer.WorkflowSplitOptionType
+      description: "Option type to create."
+    return:
+      type: CRMScript.NetServer.NSWorkflowStepOptionBase
+      description: "The created workflow step option."
+- uid: CRMScript.NetServer.NSWorkflowAgent.GetWorkflowStepOption(Integer)
+  commentId: M:CRMScript.NetServer.NSWorkflowAgent.GetWorkflowStepOption(Integer)
+  id: 'GetWorkflowStepOption(Integer)'
+  so.intellisense: NSWorkflowAgent.GetWorkflowStepOption
+  so.version: 11.2
+  langs:
+  - crmscript
+  name: 'GetWorkflowStepOption(Integer)'
+  nameWithType: NSWorkflowAgent.GetWorkflowStepOption(Integer)
+  fullName: CRMScript.NetServer.NSWorkflowAgent.GetWorkflowStepOption(Integer)
+  type: Method
+  summary: "Get WorkflowStepOption by ID."
+  syntax:
+    content: NSWorkflowStepOptionBase GetWorkflowStepOption(Integer workflowStepOptionId)
+    parameters:
+    - id: workflowStepOptionId
+      type: CRMScript.Global.Integer
+      description: "Primary key of WorkflowStep option."
+    return:
+      type: CRMScript.NetServer.NSWorkflowStepOptionBase
+      description: "The Workflow step option."
 references:
 - uid: CRMScript.NetServer.NSWorkflowAgent
   commentId: T:CRMScript.NetServer.NSWorkflowAgent
@@ -856,6 +897,11 @@ references:
   name: WorkflowDefinitionStatus
   nameWithType: WorkflowDefinitionStatus
   fullName: CRMScript.NetServer.WorkflowDefinitionStatus
+- uid: CRMScript.NetServer.NSWorkflowStepOptionBase
+  commentId: T:CRMScript.NetServer.NSWorkflowStepOptionBase
+  name: NSWorkflowStepOptionBase
+  nameWithType: NSWorkflowStepOptionBase
+  fullName: CRMScript.NetServer.NSWorkflowStepOptionBase
 - uid: CRMScript.Global.Integer[]
   isExternal: true
   name: Integer[]
