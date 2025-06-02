@@ -29,4 +29,4 @@ topic: howto
 [6]: waiting-for-customer-status-with-reminders.md
 [7]: using-dialogs-in-triggers.md
 [8]: crmscript-trigger-outbox.md
-[9]: create-task-menu-open-new-browser.md
+[9]: open-external-company-from-task-menu.md
