@@ -18,6 +18,7 @@ topic: howto
 * [Waiting for customer reminder][6]
 * [Using dialogs in triggers][7]
 * [Creating a trigger for the outbox][8]
+* [Open new browser window from task menu][9]
 
 <!-- Referenced links -->
 [1]: creating-lots-of-random-requests.md
@@ -28,3 +29,4 @@ topic: howto
 [6]: waiting-for-customer-status-with-reminders.md
 [7]: using-dialogs-in-triggers.md
 [8]: crmscript-trigger-outbox.md
+[9]: open-external-company-from-task-menu.md

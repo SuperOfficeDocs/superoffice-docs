@@ -148,6 +148,8 @@ landingContent:
           url: tutorials/udef-agent.md
         - text: Build custom rest API methods
           url: tutorials/build-custom-rest-api-methods.md
+        - text: Open external system in new tab
+          url: tutorials/open-external-company-from-task-menu.md
   # Card
   - title: Chatbot
     linkLists:
