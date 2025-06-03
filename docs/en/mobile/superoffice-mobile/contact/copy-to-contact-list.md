@@ -30,12 +30,7 @@ You can start this procedure from the **Contacts** screen, the **Companies** scr
 
 1. When the contact has been successfully copied to your local address book (based on the account specified under **Phone contact accounts**), a notification appears. Tap **OK** to finish.
 
-## Related content
-
-* [Set up your email account][1]
-
 <!-- Referenced links -->
-[1]: ../getting-started/set-up-email.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/mobile/copy-contacts.jpg

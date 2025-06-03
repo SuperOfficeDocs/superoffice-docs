@@ -1,10 +1,10 @@
 items:
 - name: Overview
   href: index.md
-- name: First time use / log in
+- name: First time use/log in
   href: login.md
 - name: Set up email account
-  href: getting-started/set-up-email.md
+  href: set-up-email.md
 - name: Enable caller ID
   href: getting-started/caller-id.md
 - name: Company
@@ -89,7 +89,7 @@ items:
     href: document/create.md
   - name: Update document
     href: document/update.md
-- name: Send email or SMS
+- name: Send messages (email or SMS)
   href: send-email-sms.md
 - name: Manage notifications
   href: manage-notifications.md

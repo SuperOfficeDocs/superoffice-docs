@@ -73,14 +73,12 @@ Used to define appearance of text and images.
 
 | Setting | Description |
 |---|---|
-| Email client | Which account to use for sending email from Mobile CRM. |
-| Always show external images | Whether to see (and download) images when you open and read an email. |
-| Archive when sending | Check this if you want all emails to be archived automatically. |
-| Archive as | Specifies which document type sent email messages will be archived as in SuperOffice. |
-| Add signature | Check this if you want your signature to be added automatically. |
-
-> [!NOTE]
-> The account must be created in SuperOffice CRM.
+| Email client | Whether to use SuperOffice or your device's default email app for sending email. |
+| Email account | The account is currently connected to SuperOffice CRM. |
+| Always show external images | Whether to automatically load images when reading emails. |
+| Archive when sending | Automatically archives sent emails in SuperOffice CRM. |
+| Archive as | Select the document type used when saving sent emails. Choose from your available document templates. |
+| Add signature | Toggle to enable automatic insertion of an email signature. Tap the field to view or edit your signature text. |
 
 ## SMS settings
 
