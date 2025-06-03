@@ -1,17 +1,12 @@
 items:
 - name: Overview
   href: index.md
-- name: Getting started
-  topicHref: getting-started/index.md
-  items:
-  - name: General
-    href: getting-started/index.md
-  - name: First time use / log in
-    href: getting-started/login.md
-  - name: Set up email account
-    href: getting-started/set-up-email.md
-  - name: Enable caller ID
-    href: getting-started/caller-id.md
+- name: First time use / log in
+  href: login.md
+- name: Set up email account
+  href: getting-started/set-up-email.md
+- name: Enable caller ID
+  href: getting-started/caller-id.md
 - name: Company
   topicHref: company/index.md
   items:

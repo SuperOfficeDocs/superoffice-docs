@@ -74,28 +74,36 @@ Stay on top of tasks, updates, and approvals as they happen.
 
 ## Get started
 
-1. Download the SuperOffice Mobile CRM app from the [Apple AppStore][6] or [Google Play][7] depending on your device.
+1. Download the SuperOffice Mobile CRM app from the [Apple AppStore][16] or [Google Play][17] depending on your device.
 1. Log in using your SuperOffice credentials.
-1. [Set up email and notifications][1] to stay connected.
 
-> [!NOTE]
-> Available to all SuperOffice CRM users on version 10.1 or newer.
+New to the app? Here are your first steps:
+
+* [Install and log in][1]
+* [Set up your email account][2] to stay connected
+* [Enable caller ID][3]
+
+Already logged in? [Explore the interface][4] or [customize your settings][5].
 
 ## Related content
 
-* [Using the Diary in Mobile CRM][2]
-* [Sales and pipeline management][3]
-* [Responding to requests][4]
-* [Create documents and log meetings][5]
+* [Using the Diary in Mobile CRM][6]
+* [Sales and pipeline management][7]
+* [Responding to requests][8]
+* [Create documents and log meetings][9]
 
 <!-- Referenced links -->
-[1]: getting-started/set-up-email.md
-[2]: diary/index.md
-[3]: sale/index.md
-[4]: request/index.md
-[5]: document/index.md
-[6]: https://apps.apple.com/us/app/superoffice-mobile-crm/id1516435957
-[7]: https://play.google.com/store/apps/details?id=no.superoffice.mobile&hl=no&gl=US&pli=1
+[1]: login.md
+[2]: set-up-email.md
+[3]: enable-caller-id.md
+[4]: interface.md
+[5]: settings.md
+[6]: diary/index.md
+[7]: sale/index.md
+[8]: request/index.md
+[9]: document/index.md
+[16]: https://apps.apple.com/us/app/superoffice-mobile-crm/id1516435957
+[17]: https://play.google.com/store/apps/details?id=no.superoffice.mobile&hl=no&gl=US&pli=1
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/mobile/3-screens.png

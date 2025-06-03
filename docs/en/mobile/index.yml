@@ -26,7 +26,7 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Install SuperOffice Mobile CRM
-          url: superoffice-mobile/getting-started/login.md
+          url: superoffice-mobile/login.md
         - text: Set up email
           url: superoffice-mobile/getting-started/set-up-email.md
         - text: Set up caller ID
