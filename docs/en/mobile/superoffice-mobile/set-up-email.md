@@ -20,7 +20,7 @@ To send and receive emails in Mobile CRM, your email account must be connected t
 
 ## Check if your email is connected
 
-1. In the Mobile CRM app, tap <i class="ph ph-list" aria-label="Main menu"></i> the in the bottom center of the screen. and select **Settings**.
+1. In the Mobile CRM app, tap <i class="ph ph-list" aria-label="Main menu"></i> the in the bottom center of the screen and select **Settings**.
 1. Tap **Email settings**.
 1. If you see the message "Email account must be created in the web client", your email is not yet connected.
 

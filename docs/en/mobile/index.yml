@@ -30,7 +30,7 @@ landingContent:
         - text: Set up email
           url: superoffice-mobile/set-up-email.md
         - text: Set up caller ID
-          url: superoffice-mobile/getting-started/caller-id.md
+          url: superoffice-mobile/caller-id.md
 
   # Card
   - title: SuperOffice Mobile (v. 9.1 and newer)

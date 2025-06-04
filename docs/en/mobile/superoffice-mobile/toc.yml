@@ -6,7 +6,7 @@ items:
 - name: Set up email account
   href: set-up-email.md
 - name: Enable caller ID
-  href: getting-started/caller-id.md
+  href: caller-id.md
 - name: Company
   topicHref: company/index.md
   items:
