@@ -17,6 +17,11 @@ Caller ID in Mobile CRM shows the name of incoming callers if their number is sa
 
 ![Caller ID for Mobile CRM iOS -app-screen][img2]![Caller ID for Mobile CRM Android -app-screen][img3]
 
+> [!NOTE]
+> To activate this function, you must allow SuperOffice to provide information about incoming calls in the phone's settings.
+>
+> Caller ID requires version 10.1.9 or higher of Mobile CRM.
+
 ## Why enable caller ID
 
 * See who's calling—even if the number is not in your phone contacts.
@@ -42,7 +47,7 @@ Caller ID uses numbers from:
 
 ## How to enable caller ID
 
-1. In Mobile CRM, tap <i class="ph ph-list" aria-label="Main menu"></i> the in the bottom center of the screen and select **Settings**.
+1. In Mobile CRM, tap <i class="ph ph-list" aria-label="Main menu"></i> in the bottom center of the screen and select **Settings**.
 2. Tap **Allow call identification**.
 3. Tap **Open settings menu** to go to your device's settings and complete setup.
 
