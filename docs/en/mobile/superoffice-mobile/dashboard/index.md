@@ -2,60 +2,81 @@
 uid: mobile-crm-dashboard
 title: Dashboard
 description: Learn about working with dashboards in SuperOffice Mobile CRM.
-author: Bergfrid Dias
-date: 08.02.2023
-keywords: mobile, dashboard
-topic: reference
-version: 10
-language: en
+keywords: mobile, dashboard, tile, chart, drill down
+date: 06.10.2025
+version: 11.1
+topic: concept
 client: mobile
+language: en
 ---
 
 # Dashboard <i class="ph ph-gauge" aria-hidden="true"></i>
 
-From the **Dashboard** screen, you have access to the dashboards created in SuperOffice CRM.
+From the **dashboard** screen, you can view dashboards created in SuperOffice CRM.
 
-![Mobile CRM: Dashboard -app-screen][img1]
+![Mobile CRM: dashboard with multiple tiles -app-screen][img1]
 
 > [!NOTE]
-> Dashboards are read-only in Mobile CRM. To create, update, or delete a dashboard, go to SuperOffice CRM. There is no action bar in the Dashboard screen.
+> Dashboards are read-only in Mobile CRM. To create, update, or delete a dashboard, use SuperOffice CRM on desktop. There is no action bar in the dashboard screen.
 
 ## Tabs
 
-| Icon | Tab | Description |
-|:-:|---|---|
-| <i class="ph ph-magnifying-glass" aria-label="Search icon"></i> | Search | Search field and history list. |
-| <i class="ph ph-star" aria-label="Star icon"></i> | Favorites | Dashboards you have marked as a favorite (yellow star). |
-| <i class="ph ph-push-pin" aria-label="Pin"></i> | Pinned | Dashboards pinned for you. |
+| Tab | Description |
+|---|---|
+| Search | Search field and history list. |
+| Favorites | Dashboards marked as a favorite (yellow star). |
+| Pinned | Dashboards pinned for you. |
 
-## View
+## View dashboards
 
-1. Go to **Dashboard**.
+1. Go to the **dashboard** screen.
 2. Search for a dashboard by name, or select one from the history list, favorites, or pinned dashboards.
-3. Scroll through the tiles.
+3. Scroll through the tiles to view the content.
 
-![Mobile CRM: pinned dashboards -app-screen][img21]
-![Mobile CRM: dashboard chart -app-screen][img22]
+## <a id="drill-down"></a>Drill down
+
+You can drill down from dashboard tiles to explore the data behind a chart, number, or list—just like in the web client.
+
+### View data
+
+1. Tap a tile to explore the data:
+
+    * **Chart:** Tap once to select a segment, then tap again to open the details. These tiles visualize data.
+    * **Big number:** Tap the number to view related records. These tiles show aggregate metrics or KPIs.
+    * **List:** Tap a list item to open it. These tiles represent defined selections.
+
+### Supported entities
+
+You can drill down into the following entities:
+
+* Appointment
+* Company
+* Contact
+* Document
+* Project
+* Request
+* Sale
+
+**Not supported in Mobile CRM:**
+
+* Product
+* Quote lines
+* Mailings
+* Form submissions
+* Chat conversations
 
 ## Related content
 
 * [Introduction to dashboards][4]
-* [Drill down on Dashboard (in Mobile CRM)][1]
+* [Chart types][1]
 * [Create dashboard (in SuperOffice CRM)][3]
 * [Edit dashboard tiles (in SuperOffice CRM)][2]
-* [Using requests in tiles][5]
-* [Using sales targets in tiles][6]
 
 <!-- Referenced links -->
-[1]: drill-down.md
+[1]: ../../../dashboard/learn/index.md#charts
 [2]: ../../../dashboard/learn/working-with-tiles.md
 [3]: ../../../dashboard/learn/create.md
 [4]: ../../../dashboard/learn/index.md
-[5]: ../../../dashboard/learn/show-requests.md
-[6]: ../../../dashboard/learn/show-sales-targets.md
 
 <!-- Referenced images -->
-[img1]: media/dashboard.png
-
-[img21]: ../../../../../release-notes/mobile/media/mobile-1.png
-[img22]: ../../../../../release-notes/mobile/media/mobile-2.png
+[img1]: ../../../../media/loc/en/mobile/dashboard.png

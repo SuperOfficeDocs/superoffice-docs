@@ -9,14 +9,14 @@ items:
   href: caller-id.md
 - name: Interface guide
   href: interface-guide.md
-- name: Company
+- name: Companies
   topicHref: company/index.md
   items:
   - name: Overview
     href: company/index.md
   - name: Create
     href: company/create.md
-- name: Contact
+- name: Contacts
   topicHref: contact/index.md
   items:
   - name: Overview
@@ -44,7 +44,7 @@ items:
     href: diary/invitations.md
   - name: Join video meeting
     href: diary/join-video-meeting.md
-- name: Sale
+- name: Sales
   topicHref: sale/index.md
   items:
   - name: Overview
@@ -55,7 +55,7 @@ items:
     href: sale/update.md
   - name: Approve quote
     href: sale/approve-quote.md
-- name: Project
+- name: Projects
   topicHref: project/index.md
   items:
   - name: Overview
@@ -64,7 +64,7 @@ items:
     href: project/create.md
   - name: Update project
     href: project/update.md
-- name: Request
+- name: Requests
   topicHref: request/index.md
   items:
   - name: Overview
@@ -75,13 +75,6 @@ items:
     href: request/update.md
   - name: Respond
     href: request/respond.md
-- name: Dashboard
-  topicHref: dashboard/index.md
-  items:
-  - name: Overview
-    href: dashboard/index.md
-  - name: Drill down
-    href: dashboard/drill-down.md
 - name: Documents
   topicHref: document/index.md
   items:
@@ -91,6 +84,8 @@ items:
     href: document/create.md
   - name: Update document
     href: document/update.md
+- name: Dashboards
+  href: dashboard/index.md
 - name: Send messages (email or SMS)
   href: send-email-sms.md
 - name: Manage notifications
