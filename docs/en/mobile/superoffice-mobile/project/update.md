@@ -4,8 +4,8 @@ title: Update project
 description: How to update a project in SuperOffice Mobile CRM.
 keywords: edit project, update project, add project member, remove project member, change status, next status, previous status, project phase, project
 author: Bergfrid Dias
-date: 05.31.2025
-version: 11
+date: 06.10.2025
+version: 11.1
 topic: howto
 client: mobile
 language: en
@@ -34,19 +34,15 @@ You can update a project's information, change its status, or manage project mem
 > [!TIP]
 > You can also add members from the **Contacts** and screen or directly from a company card.
 
-## Remove project member TBD
+## Remove project member
 
-In the expanded **Project members** section, do one of the following:
+1. In the expanded **Project members** section, swipe left on the member.
+1. Tap <i class="ph ph-list" aria-label="Main menu"></i>, and select **Remove project member**.
 
-* Swipe left on the member, tap <i class="ph ph-list" aria-label="Main menu"></i>, and select **Remove project member**.
-* Select **Edit project members**. Then swipe left on the member and tap the red x.
+## Assign function to project member
 
-## Assign function to project member TBD
-
-On the **Project members** tab, do one of the following:
-
-* Swipe left on a member and select **Edit**, then choose a function and tap **Save**.
-* Select **Edit project members**. Then swipe left on the member, tap the **Task** button, and select **Set function**.
+1. In the expanded **Project members** section, swipe left on the member.
+1. Tap <i class="ph ph-list" aria-label="Main menu"></i>, and select **Set function**.
 
 ## Change status of a project
 
@@ -56,7 +52,7 @@ On the **Project members** tab, do one of the following:
 1. (Optional) Tap <i class="ph ph-pencil-simple" aria-label="Edit icon"></i> to update additional fields as needed.
 1. Tap **Save**.
 
-## Link to an incoming request **Not yet available**
+## Link to an incoming request
 
 When you are working with a project, consider linking the project to relevant incoming requests to have them show up in the **Requests** tab on that project.
 

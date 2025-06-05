@@ -1,11 +1,11 @@
 ---
 uid: mobile-crm-sale
-title: Sale
+title: Sales
 description: Learn how to create, view, and update sales in SuperOffice Mobile CRM.
 keywords: opportunity, manage sales, sale, upcoming, closed, overdue
 author: Bergfrid Dias
-date: 05.31.2025
-version: 11
+date: 06.10.2025
+version: 11.1
 topic: concept
 client: mobile
 language: en
@@ -85,7 +85,7 @@ To monitor team progress or internal competition, you can view sales by colleagu
 | <i class="ph ph-list-bullets" aria-label="List"></i> | Details | Shows basic information like type, owner, and next activity. |
 | | Description | An optional summary of the sale. |
 | | Info | Free text area to add notes about the sale. |
-| | Links | Connect relevant activities, documents, or opportunities to the sale. |
+| <i class="ph ph-link" aria-label="Chain"></i> | Links | Connect relevant activities, documents, or opportunities to the sale. |
 | <i class="ph ph-calendar-blank" aria-label="Calendar"></i> | Activities | Meetings, todos, and phone calls linked to the sale. |
 | <i class="ph ph-files" aria-label="Stack of files"></i> | Documents | All related documents and emails. |
 | <i class="ph ph-ticket" aria-label="Ticket"></i> | Requests | Requests linked to the sale. |
@@ -111,4 +111,4 @@ To monitor team progress or internal competition, you can view sales by colleagu
 [4]: ../../../sale/learn/sales-guides.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/mobile/store-sale.png
+[img1]: ../../../../media/loc/en/mobile/sale.png

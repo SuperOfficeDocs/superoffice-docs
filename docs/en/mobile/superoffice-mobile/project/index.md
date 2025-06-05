@@ -4,8 +4,8 @@ title: Project
 description: Learn about working with projects in SuperOffice Mobile CRM.
 keywords: project member, project
 author: Bergfrid Dias
-date: 05.31.2025
-version: 11
+date: 06.10.2025
+version: 11.1
 topic: concept
 client: mobile
 language: en
@@ -96,4 +96,4 @@ When viewing other users' projects, only the data you have permission to see is 
 [6]: ../send-email-sms.md#project-screen
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/mobile/store-project.png
+[img1]: ../../../../media/loc/en/mobile/project.png
