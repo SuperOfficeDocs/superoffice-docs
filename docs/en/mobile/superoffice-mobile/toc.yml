@@ -7,6 +7,8 @@ items:
   href: set-up-email.md
 - name: Enable caller ID
   href: caller-id.md
+- name: Interface guide
+  href: interface-guide.md
 - name: Company
   topicHref: company/index.md
   items:
