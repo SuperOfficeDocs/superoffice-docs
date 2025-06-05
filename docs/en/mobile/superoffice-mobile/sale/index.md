@@ -94,8 +94,7 @@ To monitor team progress or internal competition, you can view sales by colleagu
 ### Tips
 
 * Tap a linked item (such as person, activity, document) to open it.
-* Each section shows only a few items. Tap <i class="ph ph-caret-right" aria-label="Chevron"></i> to expand and view the full list.
-* Expand the **Details** section and tap the cogwheel (<i class="ph ph-gear" aria-hidden="true"></i>) to configure visible fields.
+[!include[List of tips](../includes/list-of-tips.md)]
 
 ## Related content
 

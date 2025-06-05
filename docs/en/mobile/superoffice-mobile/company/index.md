@@ -51,8 +51,7 @@ Tap a company to open and examine it.
 ### Tips
 
 * Tap a linked item, such as a person, an activity or a sale, to open and examine it.
-* Each section shows only a few items. Tap <i class="ph ph-caret-right" aria-label="Chevron"></i> to expand and view the full list.
-* Expand the **Details** section and tap the cogwheel (<i class="ph ph-gear" aria-hidden="true"></i>) to configure visible fields.
+[!include[List of tips](../includes/list-of-tips.md)]
 
 ## Show former employees
 
