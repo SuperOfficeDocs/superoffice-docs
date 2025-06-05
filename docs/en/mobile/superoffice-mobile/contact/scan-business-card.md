@@ -4,8 +4,8 @@ title: Scan a business card
 description: How do I automatically create a new contact in the Mobile CRM app from a business card?
 keywords: business card, contact
 author: Bergfrid Dias
-date: 05.31.2025
-version: 11
+date: 06.10.2025
+version: 11.1
 topic: howto
 client: mobile
 language: en
@@ -34,7 +34,7 @@ Do you receive many business cards from prospects and customers? The fastest way
 
 1. After you select one of the options option, a new contact screen is automatically populated with data.
 
-    ![Mobile CRM: New contact -app-screen][img4]![Mobile CRM: Update contact fields -app-screen][img5]
+    ![Mobile CRM: New contact -app-screen][img4]
 
 1. Tap **Save** to store information both in the app and in SuperOffice CRM.
 
@@ -44,4 +44,3 @@ Do you receive many business cards from prospects and customers? The fastest way
 [img2]: ../../../../media/loc/en/mobile/add-to-company.png
 [img3]: ../../../../media/loc/en/mobile/new-contact-and-company.png
 [img4]: ../../../../media/loc/en/mobile/new-contact.png
-[img5]: ../../../../media/loc/en/mobile/placeholder.png

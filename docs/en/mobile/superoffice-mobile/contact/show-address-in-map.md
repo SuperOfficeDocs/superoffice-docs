@@ -4,8 +4,8 @@ title: Show address in map
 description: How to manage notifications in SuperOffice Mobile CRM.
 keywords: address, location, map
 author: Bergfrid Dias
-date: 05.31.2025
-version: 11
+date: 06.10.2025
+version: 11.1
 topic: howto
 client: mobile
 language: en
@@ -26,7 +26,7 @@ Mobile CRM uses the default map service on your device to display addresses. You
     * Tap the **Map** button in the action bar. If multiple addresses are available, select which one to display.
     * Tap any address field in the **Details** section.
 
-![Mobile CRM: street address -app-screen][img1]![Mobile CRM: map -app-screen][img2]
+![Mobile CRM: select address -app-screen][img1]![Mobile CRM: map -app-screen][img2]
 
 ## Related content
 
@@ -38,5 +38,5 @@ Mobile CRM uses the default map service on your device to display addresses. You
 [2]: ../../../company/learn/address-formats.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/mobile/placeholder.png
+[img1]: ../../../../media/loc/en/mobile/choose-map-location.png
 [img2]: ../../../../media/loc/en/mobile/map.jpg

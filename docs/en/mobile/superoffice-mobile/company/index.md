@@ -4,8 +4,8 @@ title: Companies
 description: Learn about working with companies in SuperOffice Mobile CRM.
 keywords: company, companies
 author: Bergfrid Dias
-date: 05.31.2025
-version: 11
+date: 06.10.2025
+version: 11.1
 topic: reference
 client: mobile
 language: en
@@ -14,8 +14,6 @@ language: en
 # Companies <i class="ph ph-buildings" aria-hidden="true"></i>
 
 From the **Companies** screen, you have access to all companies and personal contacts within companies in the SuperOffice database.
-
-![Mobile CRM: Companies screen -app-screen][img1]
 
 ## Tabs in the main Companies screen
 
@@ -36,7 +34,7 @@ Tap a company to open and examine it.
 * **Edit** (<i class="ph ph-pencil-simple" aria-label="Pencil icon"></i>) and **Task** (<i class="ph ph-dots-three-circle-vertical" aria-label="Three vertical dots"></i>) buttons
 * Action bar: Call, Web (open website), Map (show location)
 
-![Mobile CRM: Company screen -app-screen][img2]
+![Mobile CRM: Company screen -app-screen][img1]
 
 ## Sections
 
@@ -75,9 +73,8 @@ When viewing a company:
 <!-- Referenced links -->
 [1]: create.md
 [3]: ../contact/copy-to-contact-list.md
-[4]: show-address-in-map.md
+[4]: ../contact/show-address-in-map.md
 [6]: ../diary/create-appointment.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/mobile/placeholder.png
-[img2]: ../../../../media/loc/en/mobile/placeholder.png
+[img1]: ../../../../media/loc/en/mobile/company.png

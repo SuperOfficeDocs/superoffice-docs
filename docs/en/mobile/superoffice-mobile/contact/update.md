@@ -4,8 +4,8 @@ title: Update contact or company
 description: How to update a company or contact in SuperOffice Mobile CRM.
 keywords: company, contact, person
 author: Bergfrid Dias
-date: 05.31.2025
-version: 11
+date: 06.10.2025
+version: 11.1
 topic: howto
 client: mobile
 language: en

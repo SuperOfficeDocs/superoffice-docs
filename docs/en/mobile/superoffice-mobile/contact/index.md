@@ -4,8 +4,8 @@ title: Contact
 description: Learn about working with contacts in SuperOffice Mobile CRM.
 keywords: contact, person, associate
 author: Bergfrid Dias
-date: 05.31.2025
-version: 11
+date: 06.10.2025
+version: 11.1
 topic: reference
 client: mobile
 language: en
@@ -76,5 +76,5 @@ Tap a person to open and examine their info.
 [6]: ../diary/create-appointment.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/mobile/placeholder.png
-[img2]: ../../../../media/loc/en/mobile/placeholder.png
+[img1]: ../../../../media/loc/en/mobile/contacts-overview.png
+[img2]: ../../../../media/loc/en/mobile/contact.png
