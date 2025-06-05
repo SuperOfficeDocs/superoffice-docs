@@ -5,7 +5,7 @@ description: Mobile CRM security in CRM Online
 author: Martin Pavlas
 keywords: mobile, pocket
 date: 01.15.2024
-version: 11
+version: 11.1
 topic: concept
 client: mobile
 language: en

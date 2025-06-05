@@ -5,7 +5,7 @@ description: Overview of ways to customize SuperOffice Mobile CRM.
 keywords: shown in Mobile CRM, mobile, pocket, customization, CRMScript
 author: Bergfrid Dias
 date: 06.10.2025
-version: 11
+version: 11.1
 topic: concept
 client: mobile
 language: en

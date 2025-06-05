@@ -5,7 +5,7 @@ description: Reference for settings in SuperOffice Mobile CRM.
 keywords: mobile, settings, configuration, push notifications
 author: Bergfrid Dias
 date: 06.10.2025
-version: 11
+version: 11.1
 topic: reference
 client: mobile
 language: en

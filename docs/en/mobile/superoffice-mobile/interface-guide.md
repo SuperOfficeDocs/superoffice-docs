@@ -5,7 +5,7 @@ description: Learn how to use the navigation wheel, action bar, and other core f
 keywords: mobile interface, menu, navigation, navigation wheel, thumb wheel, fan menu, action bar, user interface, UI
 author: Bergfrid Dias
 date: 06.10.2025
-version: 11
+version: 11.1
 topic: reference
 client: mobile
 language: en

@@ -5,7 +5,7 @@ description: How to connect and manage your email account in SuperOffice Mobile 
 keywords: mobile, email, send, receive, signature
 author: Bergfrid Dias
 date: 06.10.2025
-version: 11
+version: 11.1
 topic: howto
 client: mobile
 language: en

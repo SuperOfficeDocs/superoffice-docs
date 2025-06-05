@@ -5,7 +5,7 @@ description: How to manage notifications in SuperOffice Mobile CRM.
 keywords: notification on mobile, mobile notifications, push notification, notification settings, notification
 author: Bergfrid Dias
 date: 06.10.2025
-version: 11
+version: 11.1
 topic: howto
 client: mobile
 language: en

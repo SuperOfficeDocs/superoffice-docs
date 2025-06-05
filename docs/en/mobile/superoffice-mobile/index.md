@@ -5,7 +5,7 @@ description: Discover what's new in the refreshed Mobile CRM and how to get star
 keywords: mobile CRM app, SuperOffice mobile CRM, mobile, customer info, sales, on the go, refreshed interface
 author: Bergfrid Dias
 date: 06.10.2025
-version: 11
+version: 11.1
 topic: concept
 client: mobile
 language: en
