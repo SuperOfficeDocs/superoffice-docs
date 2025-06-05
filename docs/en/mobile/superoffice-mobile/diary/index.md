@@ -4,8 +4,8 @@ title: Diary
 description: Learn about the Diary in SuperOffice Mobile CRM.
 keywords: diary, calendar, appointment, follow-up, task, upcoming, go to today
 author: Bergfrid Dias
-date: 05.31.2025
-version: 11
+date: 06.10.2025
+version: 11.1
 topic: concept
 client: mobile
 language: en
@@ -15,14 +15,9 @@ language: en
 
 The Diary lets you view and manage your schedule, including tasks.
 
-See what your diary looks like
-![Mobile CRM: Diary month tab -app-screen][img1]
-
-Add follow-ups
-![Mobile CRM: Add follow-up -app-screen][img2]
-
-See what your weekly schedule looks like
-![Mobile CRM: Schedule -app-screen][img3]
+![Mobile CRM: Diary week tab -app-screen][img1]
+![Mobile CRM: Diary month tab -app-screen][img2]
+![Mobile CRM: Diary upcoming -app-screen][img3]
 
 ## Diary screen tabs
 
@@ -60,10 +55,12 @@ You can view both your own calendar and other users' calendars directly from the
 
 1. Go to the **Diary**.
 1. Ensure your name is displayed at the top.
-    * If another person's name is shown in red, tap it and switch to your own calendar.
+    * If another person's name is shown, tap it and switch to your own calendar.
 1. Select the **Day**, **Week**, or **Month** tab to browse your schedule.
 1. Tap a date to view all follow-ups for that day.
 1. Tap a follow-up to open it.
+
+![Mobile CRM: Follow-up -app-screen][img4]
 
 ### View other calendars
 
@@ -117,6 +114,7 @@ If the follow-up has multiple attendees, you will see a **number** indicating ho
 [4]: join-video-meeting.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/mobile/placeholder.png
-[img2]: ../../../../media/loc/en/mobile/placeholder.png
-[img3]: ../../../../media/loc/en/mobile/placeholder.png
+[img1]: ../../../../media/loc/en/mobile/diary-week.png
+[img2]: ../../../../media/loc/en/mobile/diary-month.png
+[img3]: ../../../../media/loc/en/mobile/diary-upcoming.png
+[img4]: ../../../../media/loc/en/mobile/follow-up.png

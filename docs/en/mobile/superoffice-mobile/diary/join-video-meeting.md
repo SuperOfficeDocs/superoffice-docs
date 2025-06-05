@@ -4,8 +4,8 @@ title: Join video meeting
 description: How to join a video meeting from SuperOffice Mobile CRM.
 keywords: diary, follow-up, appointment, video meeting, meeting
 author: Bergfrid Dias
-date: 05.31.2025
-version: 11
+date: 06.10.2025
+version: 11.1
 topic: howto
 client: mobile
 language: en

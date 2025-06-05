@@ -4,8 +4,8 @@ title: Accept and decline invitations
 description: How to accept and decline invitations in SuperOffice Mobile CRM.
 keywords: mobile, diary, calendar, appointment, follow-up, invitation, meeting, attendee, participant
 author: Bergfrid Dias
-date: 05.31.2025
-version: 11
+date: 06.10.2025
+version: 11.1
 topic: howto
 client: mobile
 language: en
@@ -29,6 +29,8 @@ New invitations appear in two places:
 ## Respond to invitations
 
 You can **accept** or **decline** a follow-up directly from either the **Notifications** screen or the **Diary** screen.
+
+![Diary - Accept or decline invitation -app-screen][img1]
 
 ### From Notifications
 
@@ -81,3 +83,4 @@ For **recurring follow-ups**: You can quickly confirm the cancellation by **swip
 [1]: ../../../diary/learn/invitation/index.md
 
 <!-- Referenced images -->
+[img1]: ../../../../media/loc/en/mobile/meeting-invitation.png

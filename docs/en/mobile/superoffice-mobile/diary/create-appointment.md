@@ -4,8 +4,8 @@ title: Create follow-up
 description: How to create follow-ups in SuperOffice Mobile CRM.
 keywords: create follow-up, new appointment, add appointment, New based on existing, create meeting, diary, follow-up
 author: Bergfrid Dias
-date: 05.31.2025
-version: 11
+date: 06.10.2025
+version: 11.1
 topic: howto
 client: mobile
 language: en
@@ -14,6 +14,8 @@ language: en
 # Create follow-up
 
 When you are out visiting, you can create follow-ups directly from Mobile CRM. Follow-ups are activities with a defined start and end time, such as meetings.
+
+![Diary - Options to create new follow-up -app-screen][img1]
 
 ## Steps
 
@@ -42,7 +44,7 @@ You can save time by duplicating an existing follow-up and editing its details.
 
 ## Create follow-up another person
 
-You can create afollow-ups directly in another person's calendar, as long as you have access.
+You can create follow-ups directly in another person's calendar, as long as you have access.
 
 1. In the **Diary**, tap the **name** just below the row of tabs.
 1. Select the person whose calendar you want to use.
@@ -74,3 +76,4 @@ After creating a follow-up, you can invite attendees or book resources (such as 
 [1]: update-appointment.md
 
 <!-- Referenced images -->
+[img1]: ../../../../media/loc/en/mobile/diary-menu.png
