@@ -28,7 +28,7 @@ You can update sales information, change its status, or link it to other records
 
 1. Open the sale.
 
-1. Tap **Mark** in the action bar.
+1. Tap **Stage** in the action bar.
 
 1. Select one of the following options:
 
