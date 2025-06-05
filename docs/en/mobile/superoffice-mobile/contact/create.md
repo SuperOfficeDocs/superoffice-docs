@@ -42,6 +42,8 @@ When you are out visiting, you can register contacts directly from Mobile CRM.
 1. Tap and drag to select a region, or select **OK** to use the entire image.
 1. Save.
 
+![Mobile CRM - add image to contact or company -app-screen][img1]
+
 ## Best practices
 
 * To avoid duplicating entries, search for the contact in question first to check that they have not already been entered.
@@ -61,3 +63,4 @@ When you are out visiting, you can register contacts directly from Mobile CRM.
 [5]: ../company/create.md
 
 <!-- Referenced images -->
+[img1]: ../../../../media/loc/en/mobile/add-image.png
