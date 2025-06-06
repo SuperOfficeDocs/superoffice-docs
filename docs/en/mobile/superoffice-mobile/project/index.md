@@ -92,7 +92,7 @@ When viewing other users' projects, only the data you have permission to see is 
 [4]: ../../../project/learn/project-members/create-mailing.md
 [7]: ../../../project/learn/project-members/index.md
 [5]: ../../../project/learn/delete.md
-[6]: ../send-email-sms.md#project-screen
+[6]: ../send-email-sms.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/mobile/project.png

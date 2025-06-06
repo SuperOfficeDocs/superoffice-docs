@@ -51,7 +51,7 @@ Caller ID uses numbers from:
 2. Tap **Allow call identification**.
 3. Tap **Open settings menu** to go to your device's settings and complete setup.
 
-![Allow call identification -app-screen][img4]
+    ![Allow call identification -app-screen][img4]
 
 <!-- markdownlint-disable-file MD029 MD051 -->
 ### [iOS](#tab/ios)

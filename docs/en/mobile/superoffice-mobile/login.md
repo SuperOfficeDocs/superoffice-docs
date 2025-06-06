@@ -31,12 +31,9 @@ The Mobile CRM app is available for all users of SuperOffice CRM 9 or higher. It
 ## Log in to Mobile CRM
 
 1. Open the app on your device.
-
-    ![Mobile CRM: login -app-screen][img5]
-
 2. Enter your SuperOffice username and password.
 
-    ![Mobile CRM: log in -app-screen][img4]
+![Mobile CRM: login -app-screen][img5]![Mobile CRM: log in -app-screen][img4]
 
 > [!NOTE]
 > Your sign-in method may depend on how your administrator has set up authentication (for example, Microsoft Entra ID).

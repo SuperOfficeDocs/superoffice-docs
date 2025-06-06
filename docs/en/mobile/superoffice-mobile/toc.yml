@@ -90,10 +90,10 @@ items:
   href: send-email-sms.md
 - name: Manage notifications
   href: manage-notifications.md
-- name: Customizing the app
-  href: customization.md
 - name: Settings
   href: settings.md
+- name: Customizing the app
+  href: customization.md
 - name: Security
   href: security.md
 - name: Client requirements

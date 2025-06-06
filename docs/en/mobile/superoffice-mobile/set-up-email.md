@@ -38,14 +38,14 @@ Once your account is connected:
 
 1. In Mobile CRM, open **Email settings** from the **Task** menu.
 
-    ![Mobile CRM: email settings -app-screen][img2]
-
 2. Adjust the options:
     * Add or edit your **signature**
     * Enable **external images**
     * Enable automatic archiving and choose a template
 
 3. Tap **Save**.
+
+![Mobile CRM: email settings -app-screen][img2]
 
 ## Add or update your signature
 
