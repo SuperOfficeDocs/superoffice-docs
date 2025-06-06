@@ -69,7 +69,7 @@ In document lists, you typically see the date, type, and title. The sort order i
 
 ## Download document
 
-From the document list, swipe left and tap **Download** to skip the preview step (Android only).
+From the document list, swipe left and tap **Share** to skip the preview step.
 
 ## Related content
 
