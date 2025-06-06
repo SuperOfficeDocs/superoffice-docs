@@ -17,7 +17,7 @@ SuperOffice Mobile CRM har blitt redesignet for å gi deg raskere tilgang, bedre
 
 Enten du møter en kunde, følger opp et salg eller svarer på en sak, har du full tilgang til SuperOffice i lomma.
 
-![Mobile CRM -screenshot][img1]
+![Mobile CRM -app-screen][img1]
 
 ## Hva er nytt
 

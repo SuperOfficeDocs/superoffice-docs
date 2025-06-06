@@ -17,7 +17,7 @@ SuperOffice Mobile CRM har utformats om för att ge dig snabbare åtkomst, bätt
 
 Oavsett om du träffar en kund, följer upp en försäljning eller hanterar ett ärende har du hela SuperOffice i fickan.
 
-![Mobile CRM -screenshot][img1]
+![Mobile CRM -app-screen][img1]
 
 ## Vad är nytt
 

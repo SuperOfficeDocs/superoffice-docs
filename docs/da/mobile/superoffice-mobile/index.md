@@ -17,7 +17,7 @@ SuperOffice Mobile CRM er blevet redesignet med hurtigere adgang, bedre navigati
 
 Uanset om du skal mødes med en kunde, følge op på et salg eller besvare en sag, har du hele SuperOffice med dig i lommen.
 
-![Mobile CRM -screenshot][img1]
+![Mobile CRM -app-screen][img1]
 
 ## Hvad er nyt
 

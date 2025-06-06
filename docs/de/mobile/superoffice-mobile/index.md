@@ -17,7 +17,7 @@ SuperOffice Mobile CRM wurde neu gestaltet, um Ihnen schnelleren Zugriff, eine b
 
 Ob bei einem Kundentermin, beim Nachfassen eines Verkaufs oder beim Bearbeiten einer Anfrage – mit Mobile CRM haben Sie SuperOffice immer griffbereit.
 
-![Mobile CRM -screenshot][img1]
+![Mobile CRM -app-screen][img1]
 
 ## Was ist neu?
 
