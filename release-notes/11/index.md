@@ -4,7 +4,7 @@ title: What's new in SuperOffice 11
 description: Release notes. What's new in SuperOffice CRM 11
 keywords: SuperOffice, CRM, Admin, Settings and maintenance, Service, requests
 author: SuperOffice AS – Research and Development
-date: 05.27.2025
+date: 06.09.2025
 version: 11
 topic: reference
 ---
@@ -21,7 +21,7 @@ Check out our **Product release** overview for more details in our [Community][1
 
 ### SuperOffice CRM
 
-* 11.1 (27.05.2025):
+* 11.1 (06.09.2025):
   * [System design - Setting a field as read-only][1] in Settings and maintenance
   * [Request - Search will give same result as in navigator search][3] in Service
 

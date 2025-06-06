@@ -13,7 +13,7 @@ Here you will find all the small and big changes that has been released for Supe
 
 ## SuperOffice CRM versions
 
-The latest release is [**version 11.1**][11] - 27.05.2025.
+The latest release is [**version 11.1**][11] - 06.09.2025.
 
 * [11][11]
 * [10.5][9]
@@ -31,6 +31,28 @@ The latest release is [**version 11.0.4**][7] - 31.01.2025.
 
 * [11.0 -][7]
 * [10.0 - 10.3][7]
+
+## Integrations
+
+There is different releases for integrations, se the overview.
+
+* [Integrations][12]
+
+## Other highlights
+
+### User guides
+
+* User guide for [SuperOffice version 11][14] in Docs - available in six languages
+* User guide for [SuperOffice for Outlook][11] in Docs - available in six languages
+* User guide for [SuperOffice Mobile CRM][12] in Docs - English only
+
+### Ongoing pilot programs
+
+We use **pilot programs** to assess how well the features and functions meet our users' **needs and expectations**, to collect feedback, and identify potential problems. The feedback from the pilot phase is valuable for refining the features and functions in SuperOffice. It helps us address any issues or concerns before releasing them to all our users. For more details, see our [overview of pilot programs][7].
+
+* [SuperOffice Service - Custom objects][8] (available from 10.3.4 - 09.04.2024)
+* [SuperOffice CRM - AI Lab][8] (available from 10.3.2 - 20.02.2024)
+* [SuperOffice Service - New Service Request][9] (available on demand from 10.2.1 - 27.01.2023)
 
 ## How to navigate this section
 
@@ -61,6 +83,7 @@ The latest release is [**version 11.0.4**][7] - 31.01.2025.
 [8]: 10.3/index.md
 [9]: 10.5/index.md
 [11]: 11/index.md
+[12]: integrations/index.md
 
 <!-- Referenced images-->
 [img1]: media/expand-toc.png

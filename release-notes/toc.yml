@@ -1,36 +1,41 @@
 items:
 - name: Introduction
   href: index.md
-- name: Mobile CRM (app)
-  href: mobile/toc.yml
-  topicHref: mobile/index.md
 - name: "SuperOffice 11"
   href: 11/toc.yml
   topicHref: 11/index.md
-- name: "SuperOffice 10.5"
-  href: 10.5/toc.yml
-  topicHref: 10.5/index.md
-- name: "SuperOffice 10.3"
-  href: 10.3/toc.yml
-  topicHref: 10.3/index.md
-- name: "SuperOffice 10.2"
-  href: 10.2/toc.yml
-  topicHref: 10.2/index.md
-- name: "SuperOffice 10.1"
-  href: 10.1/toc.yml
-  topicHref: 10.1/index.md
-- name: "SuperOffice 10.0"
-  href: 10.0/toc.yml
-  topicHref: 10.0/index.md
+- name: "SuperOffice 10"
+  items:
+  - name: "SuperOffice 10.5"
+    href: 10.5/toc.yml
+    topicHref: 10.5/index.md
+  - name: "SuperOffice 10.3"
+    href: 10.3/toc.yml
+    topicHref: 10.3/index.md
+  - name: "SuperOffice 10.2"
+    href: 10.2/toc.yml
+    topicHref: 10.2/index.md
+  - name: "SuperOffice 10.1"
+    href: 10.1/toc.yml
+    topicHref: 10.1/index.md
+  - name: "SuperOffice 10.0"
+    href: 10.0/toc.yml
+    topicHref: 10.0/index.md
+- name: Mobile CRM (app)
+  href: mobile/toc.yml
+  topicHref: mobile/index.md
+- name: Integrations
+  href: integrations/toc.yml
+  topicHref: integrations/index.md
 - name: Older
   items:
-  - name: "9.2"
+  - name: "SuperOffice 9.2"
     href: 9.2/toc.yml
     topicHref: 9.2/index.md
-  - name: "9.1"
+  - name: "SuperOffice 9.1"
     href: 9.1/toc.yml
     topicHref: 9.1/index.md
-  - name: "8.5"
+  - name: "SuperOffice 8.5"
     href: 8.5/toc.yml
   - name: Database legacy
     href: database/index.md
