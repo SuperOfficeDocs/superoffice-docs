@@ -1,12 +1,14 @@
 ---
+uid: mobile-client-requirements
 title: Client requirements
-uid: mobile_client_requirements
 description: Requirements for SuperOffice Mobile CRM client
-author: {github-id}
-keywords:
+keywords: mobile CRM app, SuperOffice mobile CRM, mobile
+author: Bergfrid Dias
+date: 06.10.2025
+version: 11.1
 topic: reference
-envir:
 client: mobile
+language: en
 ---
 
 # Requirements for SuperOffice Mobile CRM client
@@ -19,8 +21,8 @@ Version 9.1 or newer
 
 ## Operation system
 
-* iOS: version 13.4 or newer
-* Google Android: version 9.0 or newer
+* iOS: version 15 or newer
+* Google Android: version 9 or newer
 
 ## Network
 

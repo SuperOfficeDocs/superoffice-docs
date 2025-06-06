@@ -1,70 +1,79 @@
 ---
 uid: mobile-crm-appointment-create
-title: Create appointment
-description: How to create appointments in SuperOffice Mobile CRM.
+title: Create follow-up
+description: How to create follow-ups in SuperOffice Mobile CRM.
+keywords: create follow-up, new appointment, add appointment, New based on existing, create meeting, diary, follow-up
 author: Bergfrid Dias
-date: 07.25.2023
-keywords: diary, follow-up
+date: 06.10.2025
+version: 11.1
 topic: howto
-language: en
-version: 10
 client: mobile
+language: en
 ---
 
-# Create appointment
+# Create follow-up
 
-When you are out visiting, you can create appointments directly from Mobile CRM. Appointments are activities with a defined start and end time, such as meetings.
+When you are out visiting, you can create follow-ups directly from Mobile CRM. Follow-ups are activities with a defined start and end time, such as meetings.
+
+![Diary - Options to create new follow-up -app-screen][img1]
 
 ## Steps
 
 1. Go to the Diary.
-2. Tap **+** and select **New appointment**.
-3. Tap the header to specify the start and end date and time for the appointment.
-4. Select an appointment type and enter a description.
-5. Tap the **With** section and choose a company or contact that the appointment concerns.
-6. Optionally, select any sale and/or project that the appointment concerns.
-7. Add other details as necessary. For example, set **Busy** or **Free** in the **Show as** field to indicate your availability during the appointment.
-8. Save the appointment. Now you can, for example, add more attendees to the appointment.
+1. Tap **+** and select **New appointment**.
+1. Specify the **start** and **end date** and **time** for the follow-up.
+1. Select a **follow-up type** and enter a **title**.
+1. In the **With** section, choose the **company** or **contact** the follow-up is with.
+1. Optionally, select any sale and/or project that the follow-up concerns.
+1. Add other details if needed:
+    * Set **Busy** or **Free** in the **Show as** field to indicate your availability.
+    * Enter **Location** or **Video link** if required.
+1. Save the follow-up. Now you can **add more attendees** if necessary.
 
 > [!NOTE]
-> If you see the conflict icon, it means that you already have an appointment at the time in question. Tap the time in the header to see all the appointments you have on that day.
+> If you see the conflict icon (<i class="ph ph-warning-circle" aria-label="Exclamation mark"></i>), it means that you already have a follow-up at the time in question.
 
-## Create new appointment based on an existing one
+## Create new follow-up based on an existing one
 
-You can save time by basing a new appointment on an existing one and amend the information as required.
+You can save time by duplicating an existing follow-up and editing its details.
 
-1. Locate and open the appointment you want to use as basis.
-2. Tap the **Task** icon and select **New based on existing**.
-3. Update the information.
-4. Tap **Save** to create the new appointment.
+1. Locate and open the follow-up you want to use as basis.
+1. Tap the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) and select **New based on existing**.
+1. Update the information as needed.
+1. Tap **Save** to create the new follow-up.
 
-## Create appointment for another person
+## Create follow-up another person
 
-The person who owns the calendar will be defined as the owner of the appointment. To create an appointment in someone other's calendar, simply switch who's calendar you're viewing.
+You can create follow-ups directly in another person's calendar, as long as you have access.
 
-1. Select their name just below the row of tabs in the Diary screen.
-2. Tap **+** at the bottom right corner and follow the steps outlined above.
+1. In the **Diary**, tap the **name** just below the row of tabs.
+1. Select the person whose calendar you want to use.
+    * Their name will display in **red** to indicate the switch.
+1. Tap **+** and follow the steps in **Create a follow-up**.
 
 ## Add attendee and resources
 
-Once you have created an appointment, you can invite attendees to it. You can also add resources to the appointment (such as a meeting room and projector).
+After creating a follow-up, you can invite attendees or book resources (such as a meeting room and projector).
 
 > [!NOTE]
-> You must be the owner of the appointment to add attendees and resources.
+> You must be the owner of the follow-up to add attendees and resources.
 
-1. Locate and open the appointment.
-2. Tap **Add people**.
-3. Search select attendees.
-4. To add a resource, tap the chair icon and select the item you want to book.
+1. Locate the follow-up.
+1. Tap <i class="ph ph-pencil-simple" aria-label="Edit icon"></i> to edit.
+1. In the **With** section, tap **Add attendees**.
+1. Search for and select contacts.
 
-    > [!TIP]
-    > To get a list of all resources, tap **Search** leaving the search box empty.
+    * To add someone not registered in SuperOffice, tap <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i>, select **Add email address**, and  enter their email address.
+1. Tap the arrow (<i class="ph ph-arrow-left" aria-label="Back"></i>) to close the **Attendees** section.
+1. Optionally, tap the **Location** section and select the item you want to book.
+1. Tap **Save** to finalize.
 
 ## Related content
 
-* [Update appointment][1]
+* [Update follow-up][1]
 
 <!-- Referenced links -->
 [1]: update-appointment.md
 
 <!-- Referenced images -->
+[img1]: ../../../../media/loc/en/mobile/diary-menu.png

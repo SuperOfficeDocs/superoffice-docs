@@ -2,90 +2,74 @@
 uid: mobile-crm-document
 title: Documents
 description: Learn about working with documents in SuperOffice Mobile CRM.
-author: Bergfrid Dias
-date: 08.07.2023
 keywords: mobile, document, email, activity
+author: Bergfrid Dias
+date: 06.10.2025
+version: 11.1
 topic: reference
-version: 10
-language: en
 client: mobile
+language: en 
 ---
 
-# Documents ![icon][img12]
+# Documents <i class="ph ph-files" aria-hidden="true"></i>
 
-You have access to all documents and emails stored in the database from Mobile CRM.
+From Mobile CRM, you have access to all documents and emails stored in the SuperOffice database.
 
-## Where can I find documents?
+## Where to find documents
 
-Documents are linked to a specific contact, company, sale, or project. In SuperOffice CRM, you therefor find each document in the **Activities** section tab of the entity it belongs to, rather than all documents in a central location.
+Documents are linked to a specific company, contact, sale, or project. In SuperOffice CRM, you find each document in the **Activities** section tab of the relevant entity, not in a central location.
 
-Mobile CRM treats documents in the same way. In the app, the Company, Contact, Sale, and Project screens all have a **Documents** tab.
+Mobile CRM uses the same logic. In the app, the **Documents** section is available in the company, contact, sale, and project screens.
 
-In lists, you will typically see date, type, and title for each document. The sort order is *sent - descending*.
+In document lists, you typically see the date, type, and title. The sort order is *sent - descending*.
 
 > [!TIP]
-> You can perform some actions on your documents and emails without opening them. Swipe left on the document or email to see the options.
+> You can perform actions without opening the document. Swipe left on a document or email, then tap <i class="ph ph-list" aria-label="Main menu"></i> to access the task menu.
 
-## Document information ![icon][img12]
+## Document header <i class="ph ph-file" aria-hidden="true"></i>
 
-**Header:**
-
-* Document title
-* Contact/company (click to navigate)
+* Title
+* Linked contact or company (tap to open)
 * Date
 * Document type
+* Action bar: Share, Email, Details/Preview
 
-Icons in the action bar: Share, Email, Preview (contents), Details (properties)
+## Email header <i class="ph ph-at" aria-hidden="true"></i>
 
-## Email information ![icon][img13]
-
-Saved emails also appear in the **Documents** tab.
-
-**Header:**
-
-* Date and time the email was sent
-* Sender (click to navigate)
+* Date and time sent
+* Sender (tap to open)
 * Recipients
+* Action bar: Reply, Reply all, Forward, Details/Preview
 
-Icons in the action bar: Reply, Reply all, Forward,  Preview (contents), Details (properties)
+## View document or email properties
 
-## View document (or email) properties
+1. Open a company, contact, sale, or project.
+2. Scroll to the **Documents** section.
+3. Tap the document or email.
 
-1. Go to a company, contact, sale, project.
+    ![Mobile CRM: document section showing document entries in a contact card -app-screen][img1]
 
-2. Select the **Documents** tab.
+    * If you don't see your document in the short-list, tap <i class="ph ph-caret-right" aria-label="Chevron"></i> to expand and view the full list.
+    * If a preview opens, tap **Details** button to switch view.
 
-3. Tap to select the document or email you want to view.
+![Mobile CRM: list of documents with swipe actions -app-screen][img3]![Mobile CRM: document details -app-screen][img4]
 
-    ![Mobile CRM Document -app-screen][img1]
+## Preview document or email
 
-4. Tap ![icon][img11] to switch to details if the preview opens.
+1. Tap a document or email as described above.
+2. If the details view is active, tap **Preview** button to switch view.
+3. The preview opens:
 
-    [!include[Configure visible fields](../includes/tip-visible-fields.md)]
+    * **Emails:** Open automatically on both iOS and Android.
+    * **Documents:**
+      * On **iOS**, open automatically in preview mode.
+      * On **Android**, a message appears: *Unable to show the content of this document.* Tap the download button, then choose an app to open the file.
 
-## Preview email
+      ![Mobile CRM: Android error message when previewing a document -app-screen][img2]
 
-1. Select a document as described above.
-2. Tap ![icon][img10] to switch to preview if the details show.
-3. A preview of the email opens automatically in Mobile CRM on both iOS and Android devices.
+## Download document
 
-## Preview document
-
-1. Select a document as described above.
-2. Tap ![icon][img10] to switch to preview if the details show.
-3. The next step is device-specific:
-
-    * On **iOS** devices, documents are automatically opened for preview.
-
-    * On **Android** devices, you will see "Unable to show the content of this document." Click on the download button (1) and select which app (2) on your device to open documents in.
-
-    ![Mobile CRM, view document on Android -app-screen][img2]
-
-## Download
-
-If you are looking at a list of documents, you can swipe left and select **Download** to skip opening a preview on Android.
-
-![Mobile CRM, Document actions -app-screen][img5]
+From the document list, swipe left and tap **Share** to skip the preview step.
 
 ## Related content
 
@@ -93,18 +77,17 @@ If you are looking at a list of documents, you can swipe left and select **Downl
 * [Update document][2]
 * [How to set up an email account][3]
 * [How to send email or SMS][4]
+* [How to configure visible fields][5]
 
 <!-- Referenced links -->
 [1]: create.md
 [2]: update.md
-[3]: ../getting-started/set-up-email.md
+[3]: ../set-up-email.md
 [4]: ../send-email-sms.md
+[5]: ../interface-guide.md#visible-fields
 
 <!-- Referenced images -->
-[img1]: media/document-tab.png
-[img2]: media/android-download-document.png
-[img5]: media/task-menu-document.png
-[img10]: ../../../../../common/icons/mobile/document-preview.png
-[img11]: ../../../../../common/icons/mobile/details.png
-[img12]: ../../../../../common/icons/mobile/documents.png
-[img13]: ../../../../../common/icons/mobile/email-ikon.png
+[img1]: ../../../../media/loc/en/mobile/contact-document-section.png
+[img2]: ../../../../media/loc/en/mobile/android-download-document.png
+[img3]: ../../../../media/loc/en/mobile/document-list.png
+[img4]: ../../../../media/loc/en/mobile/view-document.png

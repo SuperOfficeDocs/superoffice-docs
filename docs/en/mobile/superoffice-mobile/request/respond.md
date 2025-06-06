@@ -2,9 +2,10 @@
 uid: help-en-request-respond
 title: Respond to requests on your mobile device
 description: In this how-to guide, you will learn how to reply to, forward, and comment on a request in Mobile CRM.
+keywords: reply to request, answer request, respond to customer, reply, message, comment, forward, request, ticket,
 author: Bergfrid Dias
-date: 08.03.2023
-keywords: request, ticket, mobile, reply, message, comment
+date: 06.10.2025
+version: 11.1
 topic: howto
 client: mobile
 language: en
@@ -12,100 +13,121 @@ language: en
 
 # Respond to requests on your mobile device
 
-Time to respond is often a key metric for teams that handles incoming requests​.
+Response time is often a key metric for teams handling incoming requests.
 
-You need a Service or complete license to take action on a request. For details, see the [list of user plans][6].
+> [!NOTE]
+> A [Service user plan][6] is required to take action on a request.
 
 ## Accept
 
-For a request to be your responsibility, your name must appear in the request's Owner field.
+For a request to be your responsibility, your name must appear in the **Owner** field.
 
-If the request is unclaimed, self-assign to avoid others answering the request at the same time.
+If the request is unassigned, self-assign it to prevent others from responding at the same time.
 
-## <a id="reply"></a>Reply / reply all ![icon][img1]
+## <a id="reply"></a>Reply / reply all <i class="ph ph-arrow-bend-up-left" aria-hidden="true"></i>
 
-A reply is an external message to the customer.
+A reply is an external message sent to the customer.
 
-1. Select **Reply** (all) from the **Task** menu.
-1. The email address of involved customers automatically appear in the **To** field. Optionally, add other recipients.
+1. Tap **Reply** on the action bar.
+
+    ![Mobile CRM: request header with action bar -app-screen][img4]
+
+1. The customer's email address is prefilled in the **To** field. Optionally, add more recipients.
+
+    ![Mobile CRM: reply screen -app-screen][img3]
+
 1. Update request properties as needed (owner, status, category).
-1. Compose a message.
+
+1. [Compose your message.](#message)
 
     > [!NOTE]
-    > Your signature is automatically appended if available. [How to add signature](#add-signature)
+    > Your signature is automatically included if available. See [how to add a signature](#add-signature).
 
 1. Tap **Send**.
 
-## <a id="comment"></a>Add comment (internal) ![icon][img3]
+## <a id="comment"></a>Add comment (internal)
 
-Comments are used to discuss the request internally before replying to the customer. They are shown on a red background, cannot be viewed by the customer, and are not included if you forward the request.
+Comments are internal messages used to collaborate before responding to the customer.
 
-1. Select **Add comment** from the **Task** menu.
-1. Update request properties as needed (owner, status, category).
+They are shown with a red background, are not visible to the customer, and are excluded when forwarding a request.
 
-    ![Mobile CRM: Add comment -app-screen][img5]
+1. Tap **Comment** on the action bar.
+1. Update request properties as needed.
+1. Write your comment.
+1. Tap **Save**.
 
-1. Compose a message.
-1. Tap **Send**.
+![Mobile CRM: add comment screen -app-screen][img1]![Mobile CRM: request with internal comment -app-screen][img2]
 
-    ![Mobile CRM: Request with internal message -app-screen][img6]
+## <a id="forward"></a>Forward <i class="ph ph-arrow-bend-up-right" aria-label="Forward"></i>
 
-## <a id="forward"></a>Forward ![icon][img4]
+Use **Forward** when you need to share the request with someone outside the organization.
 
-Sometimes, internal comments or reassigning the request is not enough to solve a problem, and you need to involve others.
+[Forwarding a request][1] compiles all external messages along with your own message into a single email.
 
-[When you forward a request][1], the app combines all external messages on that request plus your own message into a single email.
-
-1. Select **Forward** from the **Task** menu (when viewing the request).
+1. Tap <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu icon"></i> and select **Forward**.
 1. Add one or more recipients in the **To** field.
-1. Update request properties as needed (owner, status, category).
-1. Compose a message.
+1. Update request properties as needed.
+1. Compose your message.
 1. Tap **Send**.
+
+## <a id="call"></a>Call customer <i class="ph ph-phone" aria-hidden="true"></i>
+
+Use the **Call** button to contact the customer directly from the request screen.
+
+1. Tap **Call** in the action bar.
+
+1. Select the number to dial.
+
+1. Use the toggle to decide whether to log the call in SuperOffice.
+
+    * When enabled, the call is logged as a phone activity under the request.
+
+![Mobile CRM: call menu in request -app-screen][img5]
 
 ## <a id="message"></a>Working with messages
 
-While composing a message, you can add images, insert a request reply template, and include a link to a FAQ - all from the **Task** menu.
+While composing a reply or comment, you can add images, insert a reply template, or include a link to a FAQ from the **Task** menu.
 
 > [!TIP]
-> If you change your mind, simply tap the **Task** icon and select **Remove text** to empty the content in the message.
+> To discard your draft, tap the **Task** icon and select **Remove text**.
+
+When your message is finished (you might insert multiple items):
+
+* For replies and forwards, tap **Send** to deliver the message.
+* For internal comments, tap **Save** to store the comment.
 
 ### Add image
 
-1. Tap the **Task** icon.
-2. Select **Add image**.
-3. Take a photo with the camera or choose an image from the gallery.
+1. Tap <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu icon"></i> and select **Add image**.
 
-    > [!NOTE]
-    > You can select multiple images at once. If you do not see a particular image, check the image permissions for SuperOffice on your device.
+1. Take a photo or select images from your gallery.
+    * You can select multiple images at once.
+    * If images do not appear, check the image permissions for SuperOffice on your device.
 
-4. Confirm and save your comment. The selected images are added as attachments.
-
-    ![Add multiple images to a request -app-screen][img2]
+1. The images are added as attachments.
+    * Maximum total size: 25 MB per message.
 
 ### Insert reply template
 
-A [reply template][3] provides the basis for a customized response to a customer and can save you time when responding.
+A [reply template][3] can help you respond faster with predefined content.
 
-1. Tap the **Task** icon.
-2. Select **Insert reply template**.
-3. Search for a template by name. Tap to select.
-4. The selected template is inserted in the message at the cursor. Review the text and make adjustments to tailored it to the precise situation.
-5. Continue working on the message. Tap **Save** when you are done.
+1. Tap <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu icon"></i> and select **Insert reply template**.
+1. Search for a template and tap to select.
+1. The template is inserted at the cursor. Edit as needed.
 
 ### Insert link to FAQ
 
-Many customer inquiries repeat over time, and [Frequently Asked Questions][4] (FAQs) are an important part of request handling.
+[Frequently Asked Questions][4] help reduce response time for recurring issues.
 
-1. Tap the **Task** icon.
-2. Select **Insert link to FAQ**.
-3. Search for and select a relevant FAQ page.
-4. The link is inserted in the message at the cursor.
+1. Tap <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu icon"></i> and select **Insert link to FAQ**.
+1. Search for and select a relevant FAQ.
+    * The link is inserted at the cursor position in your message.
 
 ### Add signature
 
-1. Tap the **Task** icon and select **Settings**.
-1. Choose **Email settings** > **Add signature**.
-1. Select the signature line to edit your signature.
+1. Go to **Settings** > **Email settings** > **Add signature**.
+1. Tap to edit the signature line.
+1. Tap **Save**.
 
 ## Related content
 
@@ -123,9 +145,8 @@ Many customer inquiries repeat over time, and [Frequently Asked Questions][4] (F
 [7]: update.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/mobile/request-reply.png
-[img3]: ../../../../../common/icons/mobile/addcomment.png
-[img4]: ../../../../../common/icons/forward-icon.png
-[img2]: ../../../../../release-notes/mobile/media/save-request.png
-[img5]: media/add-comment.png
-[img6]: media/internal-message.png
+[img1]: ../../../../media/loc/en/mobile/request-add-comment.png
+[img2]: ../../../../media/loc/en/mobile/request-with-comment.png
+[img3]: ../../../../media/loc/en/mobile/reply-to-request.png
+[img4]: ../../../../media/loc/en/mobile/request-header.png
+[img5]: ../../../../media/loc/en/mobile/request-call-customer.png

@@ -2,52 +2,78 @@
 uid: mobile-crm-invitations
 title: Accept and decline invitations
 description: How to accept and decline invitations in SuperOffice Mobile CRM.
+keywords: mobile, diary, calendar, appointment, follow-up, invitation, meeting, attendee, participant
 author: Bergfrid Dias
-date: 07.25.2023
-keywords: mobile, diary, calendar, appointment, invitation, meeting, attendee, participant
+date: 06.10.2025
+version: 11.1
 topic: howto
-version: 10
-language: en
 client: mobile
+language: en
 ---
 
 # Accept and decline invitations
 
-![Mobile CRM: Invitation -app-screen][img2]
+New invitations appear in two places:
 
-New invitations show up in the **Invitations** tab on the **Notifications** screen and the tabs on the **Diary** screen.
+* The **Invitations** tab on the **Notifications** screen. Tap the bell (<i class="ph ph-bell" aria-hidden="true"></i>) to open notifications.
+* The **Diary** screen under **Upcoming**, **Day**, **Week**, and **Month** tabs.
 
-* If you have not opened the invitation yet, there is a question mark next to it.
-* If you have seen the invitation but not yet responded, there is an eye next to it.
+| Status icon | Description |
+|:-:|---|
+| <i class="ph ph-question" aria-label="Question mark"></i> | **Not opened:** A question mark is shown next to new invitations. |
+| <i class="ph ph-eye" aria-label="Eye"></i> | **Seen but not responded to:** An eye icon appears if you have viewed it but not replied. |
 
 > [!TIP]
 > Not sure if you are available? Tap the time in the invitation header to look at your schedule for that day.
 
-## Accept/decline from Notifications
+## Respond to invitations
 
-* Swipe left on the invitation and tap the checkmark or red x.
-* Or, tap to open the appointment and select **Accept** or **Decline**.
+You can **accept** or **decline** a follow-up directly from either the **Notifications** screen or the **Diary** screen.
 
-## Accept/decline from Diary
+![Diary - Accept or decline invitation -app-screen][img1]
 
-* In the Day, Week, and Month tabs, tap open the appointment and select **Accept** or **Decline**.
-* In the Upcoming tab, swipe left on the invitation and tap the checkmark or red x.
+### From Notifications
 
-## Give a reason for declining
+* **Swipe left** on the invitation.
+  * Tap <i class="ph ph-check" aria-label="Checkmark"></i> to **Accept** or <i class="ph ph-x" aria-label="Red X"></i> to **Decline**.
 
-When you decline an invitation, search for a predefined reason or write a reason for declining manually.
+* Alternatively, **tap** the follow-up to open it, and select **Accept** or **Decline**.
 
-## Can I change my mind?
+### From Diary
 
-Accepted appointments can be declined later from the **Task** menu.
+* In the **Day**, **Week**, or **Month** tabs:
+  * **Tap** the follow-up to open it and select **Accept** or **Decline**.
 
-## When someone cancels
+* In the **Upcoming** tab:
+  * **Swipe left** on the invitation and tap <i class="ph ph-check" aria-label="Checkmark"></i> or <i class="ph ph-x" aria-label="Red X"></i>.
 
-As the owner of the appointment, you will be notified if someone declines.
+## Provide a reason for declining
 
-You can confirm canceled recurring meetings quickly by swiping left and tapping the checkmark.
+When declining a follow-up, you can:
 
-![Mobile CRM cancel recurring meeting -app-screen][img3]
+* **Search for a predefined reason**.
+* Or, **write a custom reason** to explain your decision
+
+## Change your response
+
+If you change your mind after accepting:
+
+1. Locate the follow-up in the **Diary** (on your device).
+1. Tap the **Task** button (<i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i>).
+1. Select **Decline**.
+
+If you change your mind after declining:
+
+1. Sign in to SuperOffice CRM in a browser.
+1. Click the bell (<i class="ph ph-bell" aria-hidden="true"></i>) on the top bar to open the **Notifications** panel.
+1. To see declined meetings that you might now be able to attend, choose **Show invitations I have declined** at the bottom of the panel.
+1. Select **Accept**.
+
+## Handle cancellations
+
+If you are the **owner** of the follow-up, you are notified if someone **declines**.
+
+For **recurring follow-ups**: You can quickly confirm the cancellation by **swiping left** and tapping <i class="ph ph-check" aria-label="Checkmark"></i>.
 
 ## Related content
 
@@ -57,5 +83,4 @@ You can confirm canceled recurring meetings quickly by swiping left and tapping 
 [1]: ../../../diary/learn/invitation/index.md
 
 <!-- Referenced images -->
-[img2]: media/invitation.png
-[img3]: ../../../../../release-notes/mobile/media/img388.jpg
+[img1]: ../../../../media/loc/en/mobile/meeting-invitation.png

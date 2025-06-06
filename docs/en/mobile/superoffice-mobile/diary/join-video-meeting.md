@@ -1,37 +1,33 @@
 ---
 uid: mobile-crm-join-video-meeting
-title: Join video meeting from appointment
+title: Join video meeting
 description: How to join a video meeting from SuperOffice Mobile CRM.
+keywords: diary, follow-up, appointment, video meeting, meeting
 author: Bergfrid Dias
-date: 07.25.2023
-keywords: diary, follow-up, appointment, meeting, video meeting
+date: 06.10.2025
+version: 11.1
 topic: howto
-language: en
-version: 10
 client: mobile
+language: en
 ---
 
-# Join video meeting from appointment
+# Join video meeting
 
-Using the **Video meeting** option in SuperOffice CRM, you can also join the meeting on the go with your mobile.
+With the **Video meeting** option in SuperOffice CRM, you can easily join a meeting on the go, directly from your mobile device.
 
-## From the appointment
+## Join from Diary
 
-1. Open the appointment.
-2. Click the **Join video meeting** button.
-3. Your device will select the best option to attend the video meeting, either with an app or with the browser.
+1. Open the follow-up.
+1. Tap the **Join video meeting** button at the top OR the link in the **Video link** section.
+1. Mobile CRM automatically selects the **most suitable option** based on your device:
+    * If a video app is installed, it opens automatically.
+    * If not, the meeting opens in your **browser**.
 
-![Mobile CRM join video meeting -app-screen][img1]
+## Join from notification
 
-## From the activity list
+If you have configured **notifications** for meetings, a **pop-up alert** will appear when the meeting is about to start.
 
-The activity list also shows an icon to indicate which appointment is a video meeting.
-
-![Mobile CRM join video meeting -app-screen][img2]
-
-## Notifications on video meetings
-
-When you have set up Mobile CRM to give you alerts when a meeting starts, a pop-up will appear at the top. Simply click the **Join video meeting** button, and you are in!
+* Simply tap **Join video meeting** in the notification to join instantly.
 
 ![Mobile CRM video meeting notification -app-screen][img3]
 
@@ -45,6 +41,4 @@ When you have set up Mobile CRM to give you alerts when a meeting starts, a pop-
 [2]: ../../../diary/learn/video-meetings.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../release-notes/mobile/media/img403.jpg
-[img2]: ../../../../../release-notes/mobile/media/img404.jpg
 [img3]: ../../../../../release-notes/mobile/media/92-6.png
