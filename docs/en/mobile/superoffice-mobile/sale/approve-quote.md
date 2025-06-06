@@ -18,7 +18,7 @@ language: en
 
 When working with sales and quotes, you may sometimes apply a higher discount rate that requires approval. Mobile CRM allows you to handle quote approvals seamlessly, whether you're a sales rep or a manager.
 
-![Mobile CRM: Quote approval flow -screenshot][img1]
+![Mobile CRM: Quote pending approval -screenshot][img1]![Mobile CRM: Quote approved -screenshot][img3]
 
 ## Sales rep
 
@@ -57,5 +57,6 @@ Managers can review and respond to approval requests directly from Mobile CRM.
 [2]: ../../../sale/learn/quote/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/mobile/quote-approval.png
-[img2]: ../../../../../release-notes/mobile/media/mobile-2-2-quote-approval-2.png
+[img1]: ../../../../media/loc/en/mobile/quote-approval-pending.png
+[img2]: ../../../../media/loc/en/mobile/quote-notification.png
+[img3]: ../../../../media/loc/en/mobile/quote-approved.png
