@@ -2,139 +2,130 @@
 uid: mobile-crm-request
 title: Request
 description: Learn about working with requests in SuperOffice Mobile CRM.
+keywords: mobile, request, ticket, Service, customer
 author: Bergfrid Dias
-date: 08.03.2023
-keywords: mobile, request, ticket, Service
-topic: reference
-version: 10
-language: en
+date: 06.10.2025
+version: 11.1
+topic: concept
 client: mobile
+language: en
 ---
 
-# Request <i class="ph ph-ticket" aria-hidden="true"></i>
+# Requests <i class="ph ph-ticket" aria-hidden="true"></i>
 
-Mobile CRM gives you access to the most essential features of SuperOffice on a smartphone and tablet. Handling customer requests in the Mobile CRM app allows you to stay in control of customer service no matter where you are.
+From the **Requests** screen, you can follow up on customer tickets and collaborate with your team while on the go.
 
 > [!NOTE]
-> The **Requests** tab is shown only if your company has a Service or complete license.
-> Individual users may view request info without a service user plan if their role and the request's category permits, but then may not reply or perform other actions.
+> The **Requests** screen is available only if your company has a Service or Complete license.
+> Some users may be able to view requests without a service user plan, depending on their role and the request category. These users cannot reply or take action on the request.
 
-Watch the video [request handling][10] to learn how to handle customer service requests in Mobile CRM (video length – 1:31).
+## Tabs in the main Requests screen
 
-## Tabs in the main Request screen
+| Tab | Description |
+|---|---|
+| Search | Search field for ID or title, with history list. |
+| Favorites | Requests marked with a yellow star. |
+| Open requests | Your assigned requests, or another user's. |
+| Unassigned requests | Open requests without an owner. |
+| Selections | Requests from predefined selections. |
 
-| Icon | Tab | Description |
-|:-:|---|---|
-| <i class="ph ph-magnifying-glass" aria-label="Search icon"></i> | Search | Search field (by ID or title) and history list. |
-| <i class="ph ph-star" aria-label="Star icon"></i> | Favorites | Requests marked as a favorite (yellow star). |
-| | Open requests | Your own or a colleague's. |
-| | Unassigned requests | |
-| <i class="ph ph-subtract-square" aria-label="Selection icon"></i> | Selections | A list of selections of type request. |
+## Where to find requests
 
-## Request information
+You can access requests from the following locations:
 
-**Header:**
+* The main **Requests** screen. Lists typically show:
+  * Request icon and status badge
+  * Title
+  * Customer name
+  * Created date and time
+  * Request ID
 
-* Icon (request image or placeholder)
-* Status
-* Request title
-* Customer name - company (click to navigate)
+* The **Requests** section in a company, contact, sale, or project screen, which shows open requests linked to that record.
 
-Icons in the action bar: Reply, Add comment, Call (the customer connected to the request), Messages, Details
+![Mobile CRM: Unassigned requests list with icons and badges -app-screen][img2]![Mobile CRM: requests section on a company card -app-screen][img1]
 
-![Mobile CRM: Request -app-screen][img1]
+## Request header
 
-The **Task** menu lets you take pictures and add them as attachments to a message, change request status, set the owner, and reply to and add comments to the request.
+* Icon (request type)
+* Status badge (for example, *In queue* or *Closed*)
+* Title
+* Category
+* Customer name - company (tap to open)
+* **Edit** (<i class="ph ph-pencil-simple" aria-label="Pencil icon"></i>) and **Task** (<i class="ph ph-dots-three-circle-vertical" aria-label="Three vertical dots"></i>) buttons
+* Action bar: Reply, Comment, Call
 
-## Where can I find requests?
-
-* The main **Requests** screen
-* Tab in Contact screen
-* Tab in Sale screen
-* Tab in Project screen
-
-When viewing a contact, sale, or project, the **Requests** tab shows open requests linked to a specific item.
-
-In lists, you will typically see ID, title, created at, status, and category for each request. The sort order is *created at - descending*.
+![Mobile CRM: Request header showing title, actions, and details -app-screen][img3]
 
 ## View your open requests
 
-1. Go to **Requests** <i class="ph ph-ticket" aria-label="Request icon"></i>.
+1. Go to **Requests**.
+1. Ensure your name appears at the top.
+    * If another person's name is shown, tap it to switch back to your own queue.
+1. Tap a request to view its details and messages.
+    * Tap <i class="ph ph-caret-right" aria-label="Chevron"></i> to expand the <i class="ph ph-list-bullets" aria-hidden="true"></i> **Details** section and view all fields.
+    * Scroll down to view the message thread. Tap the **Filter** icon (<i class="ph ph-funnel" aria-hidden="true"></i>) to show or hide internal and flagged messages.
+1. Use the action bar to reply, comment, or call the customer.
+    * More options are available from the Task menu (<i class="ph ph-dots-three-circle-vertical" aria-true="true"></i>).
 
-2. Check that your name appears at the top.
+## View another user's requests
 
-    If another person's name is shown in red, this means that you are looking at another person's requests. Select the person's name and switch to your own open requests.
+1. In the **Open requests** tab, tap the name in the **View** box.
+1. Select a person from the list or use the search field.
+    * Their name appears in red above the list.
+1. View their requests as described above.
 
-3. Select a request from the list.
-
-4. Optionally, filter internal messages (show/hide) from the **Task** menu.
-
-5. Switch between viewing request details and messages.
-
-    * Tap <i class="ph ph-chat-teardrop-text" aria-label="Chat bubble"></i> to switch to messages.
-    * Tap <i class="ph ph-list-bullets" aria-label="List icon"></i> to switch to details.
-
-    [!include[Configure visible fields](../includes/tip-visible-fields.md)]
-
-## View someone else's requests
-
-Need to keep an eye on your direct reports or wonder about what your colleagues are up to?
-
-1. In the **Requests** screen, select the **Open requests** tab.
-1. Select the name just below the row of tabs.
-1. On the **Set owner** page, select a person from the history list or search for an associate. Their name is now shown in red above the list of requests.
-1. Explore their open requests as described above.
+![Mobile CRM: Viewing another user's open requests -app-screen][img4]
 
 > [!NOTE]
-> When you open another person's requests, only information that you have the rights to see is shown.
+> You will only see information you have access to in the selected requests.
 
 ## Notifications
 
-You can get notifications on your device for different events:
+You can receive notifications about requests both on your device and in the app.
+
+### In Notification Centre (iOS) or Notification Drawer (Android)
+
+Mobile CRM supports push notifications for events such as:
 
 * New request
-* New request message
+* New message
 * Request activated
 * Request escalation
 
-### In Notification Centre (iOS) / Notification drawer (Android)
-
-![SuperOffice Mobile CRM request notifications -app-screen][img20]
-
-Click the notification to open the request in Mobile CRM.
+Tap the notification to open the request in Mobile CRM.
 
 > [!TIP]
-> Switch on and off push notifications for specific request events in Mobile CRM > **Settings** > **Notifications**.
+> Go to **Settings** > **Notifications** to [turn request notifications on or off by event type][6].
 
-### In Mobile CRM Notification screen
+### In the in-app Notification screen
 
-1. In the navigator, select **Notifications**.
-2. Select the **Requests** tab.
-3. Open the **Task** menu to filter which types of notifications you see. Unread notifications are bold.
-4. Tap a request to open it.
+1. Tap <i class="ph ph-bell" aria-label="Bell icon"></i> in the app header.
+1. Select the **Requests** tab.
+    * Unread items appear in bold.
+1. Tap the **Filter** icon (<i class="ph ph-funnel" aria-hidden="true"></i>) to filter notification types.
+1. Tap a request to open it.
+
+![Mobile CRM: Filter notifications for requests in Mobile CRM -app-screen][img5]
 
 ## Related content
 
-* [New request][1]
-* [Update request properties (details)][2]
-* [Add comment (internal message)][4]
-* [Reply / reply all][3]
-* [Forward][5]
-* [Manage notifications][6]
-* [About reply templates][11]
+* [Create request][1]
+* [Update request properties][2]
+* [Reply or add comment][3]
+* [Forward a request][5]
 * [Introduction to request management][12]
 
 <!-- Referenced links -->
 [1]: create.md
 [2]: update.md
 [3]: respond.md#reply
-[4]: respond.md#comment
 [5]: respond.md#forward
 [6]: ../settings.md
-[10]: https://community.superoffice.com/globalassets/user--admin/learning/user-guide/service--reqeusts/request-handling-mobile-crm.mp4
-[11]: ../../../request/reply-templates/learn/index.md
 [12]: ../../../request/learn/index.md
 
 <!-- Referenced images -->
-[img1]: media/request-header.png
-[img20]: ../../../../../release-notes/mobile/media/mobile-request-notifications.png
+[img1]: ../../../../media/loc/en/mobile/company-requests.png
+[img2]: ../../../../media/loc/en/mobile/unassigned-requests.png
+[img3]: ../../../../media/loc/en/mobile/request-dx.png
+[img4]: ../../../../media/loc/en/mobile/view-requests-not-own.png
+[img5]: ../../../../media/loc/en/mobile/filter-request-notifications.png

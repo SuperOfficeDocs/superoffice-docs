@@ -2,58 +2,65 @@
 uid: mobile-crm-request-update
 title: Update request
 description: How to update a request in SuperOffice Mobile CRM.
-author: Bergfrid Dias
-date: 08.03.2023
 keywords: mobile, request, status
+author: Bergfrid Dias
+date: 06.10.2025
+version: 11.1
 topic: howto
-language: en
-version: 10
 client: mobile
+language: en
 ---
 
 # Update request
 
-You need a Service or complete license to update a request. For details, see the [list of user plans][4].
+A Service user plan is required to update a request. For details, see the [list of user plans][4].
 
-## What can I update
+## Edit request fields
 
-Your options depend on your role, the request category, and whether you are the owner of the request. Most commonly, you will update the status, priority, and owner, when responding to a request.
-
-Only the owner may update the fields *Read status* and *Last changed*.
-
-> [!NOTE]
-> The fields *Created at* and *Deadline* are not shown in edit mode because they cannot be update manually.
-
-## Steps
-
-1. Locate and open the request.
-2. Select **Details** (<i class="ph ph-list-bullets" aria-label="List icon"></i>).
-3. Tap the **Edit** icon (<i class="ph ph-pencil-simple" aria-label="Edit icon"></i>) in the footer.
-4. Update the information as necessary.
-
-    ![Mobile CRM: Edit request -app-screen][img3]
-
-5. Tap **Save**.
+1. Open the request.
+2. Tap the **Edit** icon (<i class="ph ph-pencil-simple" aria-label="Edit icon"></i>).
+3. Update the fields as needed.
+4. Tap **Save**.
 
 > [!TIP]
-> If you are looking at a list of requests, for example your open requests or requests linked to a specific sale, you can swipe left and select **Edit**. This is a shortcut for steps 1-3 above.
+> From a list, swipe left on a request, tap <i class="ph ph-list" aria-label="swipe menu icon"></i>, and select **Edit**.
 
-## Change status of a request
+### What you can update
 
-Do one of the following:
+Your permissions depend on your role, the request category, and whether you are the owner.
 
-* When viewing the request, tap the **Task** icon and select **Set next request status**.
-* In a list, swipe left and choose **Set next request status** from the Task menu.
-* Open the request in **Edit** mode, change the field, and save.
+Most commonly updated fields:
 
-## Assign, accept, delegate
+* Status
+* Priority
+* Owner
 
-For a request to be your responsibility, your name must appear in the request's Owner field.
+Only the owner can update the fields *Read status* and *Last changed*.
 
-Whether you want to accept an unassigned request, take over for a colleague, or delegate to a request handler, the steps are the same. Do one of the following:
+> [!NOTE]
+> The fields *Created at* and *Deadline* are not editable and do not appear in edit mode.
 
-* When viewing the request, tap the **Task** icon in the footer and select **Set owner**.
-* In a list, swipe left, and choose **Set owner** from the Task menu.
+## Change status
+
+You can update the status in one of the following ways:
+
+* When viewing a request, tap <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu icon"></i> and select **Set next request status**.
+
+* From a list, swipe left, tap <i class="ph ph-list" aria-label="swipe menu"></i>, and choose **Set next request status**.
+
+* Open the request in edit mode, change the status field, and tap **Save**.
+
+## Assign, accept, or delegate a request
+
+To make a request your responsibility, your name must be in the **Owner** field.
+
+To update the owner:
+
+* When viewing the request, tap <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu icon"></i> and select **Set owner**.
+
+* From a list, swipe left, tap <i class="ph ph-list" aria-label="Swipe menu icon"></i>, and select Set owner.
+
+![Mobile CRM: set request owner -app-screen][img1]
 
 ## Related content
 
@@ -72,4 +79,4 @@ Whether you want to accept an unassigned request, take over for a colleague, or 
 [6]: ../../../../en/request/learn/split-request.md
 
 <!-- Referenced images -->
-[img3]: media/request-compact-header.png
+[img1]: ../../../../media/loc/en/mobile/request-owner.png
