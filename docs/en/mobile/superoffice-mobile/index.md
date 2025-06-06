@@ -1,5 +1,5 @@
 ---
-uid: mobile-crm-intro
+uid: help-en-mobile-crm-intro
 title: Mobile CRM - Access your CRM on the go
 description: Discover what's new in the refreshed Mobile CRM and how to get started on the go.
 keywords: mobile CRM app, SuperOffice mobile CRM, mobile, customer info, sales, on the go, refreshed interface

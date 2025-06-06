@@ -49,6 +49,9 @@ items:
     href: ../marketing/learn/toc.yml
     topicHref: ../marketing/learn/index.md
 
+  - name: Mobile CRM
+    href: ../mobile/superoffice-mobile/index.md
+
   - name: Vidensbase
     topicHref: ../request/learn/screen/knowledge-base.md
     items:

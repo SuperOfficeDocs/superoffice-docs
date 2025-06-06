@@ -1,77 +1,101 @@
 ---
 uid: help-de-mobile-intro
 title: Mobile CRM - Zugriff auf Ihr CRM von unterwegs
-description: "In dieser Anleitung lernen Sie, wie Sie mit den grundlegenden Funktionen von Mobile CRM beginnen."
+description: Entdecken Sie die Neuerungen in der überarbeiteten Mobile CRM App und erfahren Sie, wie Sie unterwegs loslegen können.
+keywords: mobile CRM-App, SuperOffice Mobile CRM, mobil, Kundendaten, Verkauf, unterwegs, neues Design
 author: Bergfrid Dias
-date: 03.14.2023
-keywords: mobil, Pocket
+date: 06.10.2025
+version: 11.1
 topic: concept
-version: 10
-language: de
 client: mobile
+language: de
 ---
 
-# Mobile CRM: Zugriff auf Ihr CRM von unterwegs
+# Mobile CRM - Zugriff auf Ihr CRM von unterwegs
 
-Mit Mobile CRM haben Sie Zugriff auf Ihr gesamtes SuperOffice CRM-System auf Ihrem Smartphone oder Tablet.
+SuperOffice Mobile CRM wurde neu gestaltet, um Ihnen schnelleren Zugriff, eine bessere Navigation und eine aufgeräumte Oberfläche zu bieten – mit allen leistungsstarken Werkzeugen, die Sie benötigen, um von überall aus zu arbeiten.
 
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/IPJHqn0THTY]
+Ob bei einem Kundentermin, beim Nachfassen eines Verkaufs oder beim Bearbeiten einer Anfrage – mit Mobile CRM haben Sie SuperOffice immer griffbereit.
 
-## Grundlegende Funktionen
+![Mobile CRM -screenshot][img1]
 
-* Zugriff auf alle CRM-Daten, einschließlich Personen, Projekte, Verkäufe, Folgeaufgaben, Dokumente und Anfragen.
-* Bestimmung des Anrufers mithilfe der SuperOffice-Quelle, um eine unbekannte Telefonnummer automatisch zu erkennen.
-* Zugriff auf Kalender und Erstellung von Terminen und Aktivitäten.
-* Erinnerung an bevorstehende Ereignisse oder Besprechungen.
-* Erhalten von Benachrichtigungen über neue und/oder geänderte Anfragen.
-* Erstellen und Zugriff auf Ihre offenen Anfragen und Antwort auf Anfragen und deren Zuweisung an anderen Mitarbeiter.
-* Änderung des Anfragestatus und der Kategorie, Zuweisung der Priorität und Hinzufügung eines Kommentars oder eines Bildes.
-* Anzeige des Verkaufs-Dashboards und -Pipelines und Aktualisierung der Informationen von unterwegs.
-* Scannen von Visitenkarten und Speicherung und Aktualisierung der Personen- und Firmeninformationen.
-* Abruf oder Sendung einer SMS an alle Personen direkt von der App.
-* Überprüfung von Aktualisierungen Ihrer Projekte.
-* Speicherung von Bildern und Dokumenten von Ihrem Smartphone oder Tablet in Ihren Projekten und Aktivitäten.
-* Lernen, wie man die grundlegenden Funktionen von Mobile CRM mit Quick-Start-Leitfaden für Mobile CRM verwendet. Lernen, wo man zum Beispiel tippen und wischen muss, um Benachrichtigungen zu erhalten oder wie man Anrufe tätigt und Nachrichten sendet. Stellen Sie außerdem sicher, dass die Anrufer-ID für Mobile CRM aktiviert ist, damit Sie automatisch unbekannte Telefonnummern erkennen können.
+## Was ist neu?
 
-![Gif über die Verwendung von Mobile CRM][img1]
+### Überarbeitetes Design
 
-## Wie man die Mobile CRM-App herunterlädt
+Klares, intuitives Layout mit daumenfreundlicher Navigation und schnellerem Zugriff auf Informationen.
 
-1. Gehen Sie zum App Store oder Google Play und suchen Sie nach SuperOffice.
-1. Installieren Sie die App auf Ihrem Gerät.
-1. Befolgen Sie die Konfigurationsanweisungen.
-1. Loggen Sie sich ein und wenden Sie die Funktion an.
+### Komprimierte Ansichten
 
-Mobile CRM kann kostenlos heruntergeladen werden:
+Kontakte, Aktivitäten, Dokumente, Verkäufe und Projekte in einer einzigen scrollbaren Ansicht – kein Durchklicken mehr durch Registerkarten.
 
-* [Laden Sie SuperOffice Mobile CRM im Apple App Store herunter][6]
-* [Laden Sie SuperOffice Mobile CRM in Google Play herunter][7]
+### Echtzeit-Benachrichtigungen
 
-Die Mobile CRM App ist für alle Benutzer von SuperOffice CRM 9 oder höher verfügbar.
+Bleiben Sie über Aufgaben, Aktualisierungen und Genehmigungen sofort informiert.
+
+## Was Sie mit Mobile CRM tun können
+
+* Zugriff auf vollständige Kundendaten: Personen, Firmen, Dokumente, Anfragen und Verkäufe
+* Kalender anzeigen und aktualisieren
+* Folgeaufgaben unterwegs erstellen, aktualisieren und abschließen
+* Meetings, Anrufe und Notizen direkt nach dem Kundenkontakt protokollieren
+* Kontakte mit einem Fingertipp anrufen, benachrichtigen oder per E-Mail kontaktieren
+* Eingehende Anrufe mit SuperOffice Anruferkennung (Quelle) identifizieren
+* An Videomeetings direkt über das Gerät teilnehmen
+* Visitenkarten scannen, um Personen und Firmen schnell zu erstellen oder zu aktualisieren
+* Fotos und Dokumente direkt vom Smartphone zu Verkäufen, Projekten oder Aktivitäten speichern
+* Anfragen mit Priorität, Kategorie, Tags, Kommentaren und Bildern erstellen und aktualisieren
+* Anfragen überall neu zuweisen oder beantworten
+* Erinnerungen zu Meetings, Aufgaben oder überfälligen Aktivitäten erhalten
+* Echtzeitbenachrichtigungen zu Angebotsfreigaben, neuen Anfragen oder Folgeaufgaben erhalten
+* Angebote genehmigen oder ablehnen und Ihre Vertriebspipeline überwachen
+* Dashboards anzeigen und wichtige Kennzahlen für Vertrieb und Service analysieren
+* Auf SharePoint-Dokumente zugreifen, die Projekten oder Verkäufen zugeordnet sind
+
+## Für Ihre Rolle gemacht
+
+### Für Vertriebsmitarbeitende
+
+* Vor Meetings auf Verlauf zugreifen
+* Updates sofort erfassen
+* Verkaufsprozesse mit weniger Klicks vorantreiben
+
+### Für Führungskräfte
+
+* Angebotsfreigaben und Dashboards unterwegs prüfen
+* Leistung und Pipeline verfolgen
+* Schnellere Entscheidungen treffen – jederzeit
+
+### Für Serviceagenten und Außendienstteams
+
+* Anfragen vor Ort bearbeiten
+* Fotos und Kommentare zu Anfragen hinzufügen
+* Informationen sofort teilen
+
+## Erste Schritte
+
+1. Laden Sie die SuperOffice Mobile CRM App aus dem [Apple App Store][16] oder [Google Play][17] herunter – je nach Gerät.
+1. Melden Sie sich mit Ihren SuperOffice-Anmeldedaten an.
+
+Neu in der App? Hier geht's los:
+
+* [Installation und Anmeldung][1]
+* [E-Mail-Konto einrichten][2], um verbunden zu bleiben
+* [Anruferkennung aktivieren][3]
+
+Bereits angemeldet? [App entdecken][4] oder [Einstellungen anpassen][5].
 
 > [!NOTE]
-> Bevor wir die SuperOffice CRM Version 9 auf den Markt gebracht haben, hieß unsere App SuperOffice Pocket CRM. Diese App ist immer noch operativ (wird ab NetServer 10.0 nicht unterstützt) und wird von Benutzern bis zur SuperOffice CRM Version 8.5 verwendet.
+> Diese Seite wurde ins Deutsche übersetzt, aber das komplette Benutzerhandbuch ist nur auf Englisch verfügbar.
 
-Wenn Sie ein Upgrade bis zur Version 8.5 auf Version 9 durchführen, werden Sie in Pocket CRM aufgefordert, die App zu aktualisieren und zu Mobile CRM zu wechseln.
+<!-- Referenzierte Links -->
+[1]: ../../../en/mobile/superoffice-mobile/login.md
+[2]: ../../../en/mobile/superoffice-mobile/set-up-email.md
+[3]: ../../../en/mobile/superoffice-mobile/caller-id.md
+[4]: ../../../en/mobile/superoffice-mobile/interface.md
+[5]: ../../../en/mobile/superoffice-mobile/settings.md
+[16]: https://apps.apple.com/us/app/superoffice-mobile-crm/id1516435957
+[17]: https://play.google.com/store/apps/details?id=no.superoffice.mobile&hl=no&gl=US&pli=1
 
-## Startanleitung für Mobile CRM
-
-Eine kurze PDF-Anleitung, die zeigt, wie Sie Mobile CRM verwenden können: [Kurzanleitung für Mobile CRM][1]
-
-## Anfragen in Ihrem Mobile CRM bearbeiten
-
-In unserer Mobile CRM App haben Sie Zugriff auf alle Anfragen und können die Anfragen von unterwegs beantworten oder neu zuweisen. Mobile CRM bietet Ihnen die wichtigsten Funktionen von SuperOffice Service, die an die Verwendung auf einem Smartphone oder Tablet angepasst wurden.
-
-## Zugehörige Inhalte
-
-* [Wie man die Authentifizierung per Fingerabdruck einrichtet][3] - FAQ
-
-<!-- Referenced links -->
-[1]: ../../../assets/downloads/quick-guide-for-mobile-crm-2020.pdf
-[3]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-start-using-fingerprint-authentication-to-enter-my-mobile-crm-app/
-[6]: https://apps.apple.com/us/app/superoffice-mobile-crm/id1516435957
-[7]: https://play.google.com/store/apps/details?id=no.superoffice.mobile&hl=no&gl=US&pli=1
-
-<!-- Referenced images -->
-[img1]: ../../../media/loc/en/mobile/mobile-crm-gif-prev-02.gif
+<!-- Referenzierte Bilder -->
+[img1]: ../../../media/loc/en/mobile/3-screens.png

@@ -1,77 +1,101 @@
 ---
 uid: help-nl-mobile-intro
 title: Mobile CRM - Onderweg toegang tot uw CRM
-description: In deze handleiding leert u hoe u aan de slag kunt gaan met de basisfuncties in Mobile CRM.
+description: Ontdek wat er nieuw is in de vernieuwde Mobile CRM en hoe u onderweg aan de slag kunt gaan.
+keywords: mobile CRM-app, SuperOffice mobile CRM, mobiel, klantgegevens, verkoop, onderweg, vernieuwde interface
 author: Bergfrid Dias
-date: 03.14.2023
-keywords: mobiel, pocket
+date: 06.10.2025
+version: 11.1
 topic: concept
-version: 10
-language: nl
 client: mobile
+language: nl
 ---
 
-# Mobile CRM: Onderweg toegang tot uw CRM
+# Mobile CRM - Onderweg toegang tot uw CRM
 
-Mobile CRM geeft u toegang tot uw volledige SuperOffice CRM-systeem op uw smartphone of tablet.
+SuperOffice Mobile CRM is opnieuw ontworpen voor snellere toegang, eenvoudigere navigatie en een overzichtelijkere interface – met behoud van alle krachtige tools die u nodig hebt om overal te kunnen werken.
 
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/IPJHqn0THTY]
+Of u nu een klant ontmoet, opvolging doet op een verkoop of reageert op een verzoek, u hebt de volledige kracht van SuperOffice in uw broekzak.
 
-## Basisfuncties
+![Mobile CRM -screenshot][img1]
 
-* Toegang tot alle CRM-gegevens, inclusief personen, projecten, verkoop, vervolgactiviteiten, documenten en verzoeken.
-* Zie wie er belt met SuperOffice als bron om een onbekend telefoonnummer automatisch te herkennen.
-* Open agenda's en maak afspraken en activiteiten.
-* Ontvang herinneringen aan aankomende evenementen of vergaderingen.
-* Ontvang meldingen over nieuwe en/of gewijzigde verzoeken.
-* Maak verzoeken en open uw openstaande verzoeken, reageer op verzoeken en wijs ze toe aan andere agenten.
-* Wijzig de status en categorie van een verzoek, voeg tags toe, wijs prioriteit toe en voeg opmerkingen of afbeeldingen toe.
-* Bekijk verkoopdashboards en pijplijnen en werk onderweg informatie bij.
-* Scan visitekaartjes en sla persoons- en bedrijfsgegevens automatisch op of werk deze bij.
-* Bel of stuur een SMS naar een contactpersoon rechtstreeks vanuit de app.
-* Controleer updates over uw projecten.
-* Sla afbeeldingen en documenten van uw smartphone of tablet op in uw projecten en activiteiten.
-* Leer hoe u de basisfuncties in Mobile CRM kunt gebruiken met onze snelstartgids voor Mobile CRM. U leert bijvoorbeeld waar u kunt tikken en vegen om meldingen te ontvangen of hoe u kunt bellen en berichten kunt verzenden. Zorg er ook voor dat u Beller-ID inschakelt voor Mobile CRM, waarmee u onbekende telefoonnummers automatisch kunt herkennen.
+## Wat is nieuw
 
-![Gif over het gebruik van Mobile CRM][img1]
+### Vernieuwde interface
 
-## De Mobile CRM-app downloaden
+Een overzichtelijker en intuïtiever ontwerp met duimvriendelijke navigatie en snellere toegang tot informatie.
 
-1. Ga naar de App store of Google Play en zoek naar SuperOffice.
-1. Installeer de app op uw apparaat.
-1. Volg de instructies om het te configureren.
-1. Meld u aan en ga ermee aan de slag.
+### Samengevoegde weergaven
 
-Mobile CRM is gratis te downloaden:
+Bekijk personen, activiteiten, documenten, verkopen en projecten in één scrollbaar overzicht – geen aparte tabbladen meer.
 
-* [Download SuperOffice Mobile CRM in de Apple App Store][6]
-* [Download SuperOffice Mobile CRM in Google Play][7]
+### Realtime meldingen
 
-De Mobile CRM-app is beschikbaar voor alle gebruikers van SuperOffice CRM 9 of hoger.
+Blijf direct op de hoogte van taken, updates en goedkeuringen zodra ze plaatsvinden.
+
+## Wat u kunt doen met Mobile CRM
+
+* Toegang tot volledige klantinformatie: personen, bedrijven, documenten, verzoeken en verkopen
+* Uw agenda bekijken en bijwerken
+* Vervolgactiviteiten aanmaken, bijwerken en afronden onderweg
+* Gesprekken, vergaderingen en notities direct na klantcontact registreren
+* Bellen, sms'en of e-mailen met één tik op een contactpersoon
+* Binnenkomende oproepen herkennen met SuperOffice Beller-ID
+* Deelnemen aan videogesprekken vanaf uw apparaat
+* Visitekaartjes scannen om contactpersonen en bedrijven snel aan te maken of bij te werken
+* Foto's en documenten direct vanaf uw telefoon opslaan bij verkopen, projecten of activiteiten
+* Verzoeken aanmaken en bijwerken met prioriteit, categorie, tags, opmerkingen en afbeeldingen
+* Verzoeken beantwoorden of toewijzen, waar u zich ook bevindt
+* Herinneringen ontvangen voor vergaderingen, taken of achterstallige activiteiten
+* Realtime meldingen ontvangen over goedkeuringen van offertes, nieuwe verzoeken of wijzigingen in vervolgactiviteiten
+* Offertes goedkeuren of afwijzen en uw verkooppijplijn in de gaten houden
+* Dashboards bekijken en inzoomen op belangrijke verkoop- en servicestatistieken
+* SharePoint-documenten openen die gekoppeld zijn aan projecten of verkopen
+
+## Afgestemd op uw rol
+
+### Voor verkopers
+
+* Bekijk klantgeschiedenis voor vergaderingen
+* Registreer updates direct erna
+* Houd verkopen in beweging met minder klikken
+
+### Voor managers
+
+* Offertegoedkeuringen en dashboards onderweg bekijken
+* Prestaties en pijplijn volgen
+* Overal sneller beslissingen nemen
+
+### Voor servicemedewerkers en buitendienstteams
+
+* Verzoeken ter plaatse afhandelen
+* Foto's en opmerkingen toevoegen aan verzoeken
+* Updates direct delen
+
+## Aan de slag
+
+1. Download de SuperOffice Mobile CRM-app uit de [Apple App Store][16] of [Google Play][17], afhankelijk van uw apparaat.
+1. Meld u aan met uw SuperOffice-inloggegevens.
+
+Nieuw met de app? Begin hier:
+
+* [Installeren en aanmelden][1]
+* [Uw e-mailaccount instellen][2] om verbonden te blijven
+* [Beller-ID inschakelen][3]
+
+Al ingelogd? [Verken de interface][4] of [pas uw instellingen aan][5].
 
 > [!NOTE]
-> Voordat we SuperOffice CRM versie 9 lanceerden, heette onze app SuperOffice Pocket CRM. Deze app is nog steeds operationeel (niet ondersteund met NetServer 10.0 of hoger) en wordt gebruikt door gebruikers met SuperOffice CRM versie 8.5 of lager.
+> Deze pagina is vertaald naar het Nederlands, maar de volledige gebruikershandleiding is alleen beschikbaar in het Engels.
 
-Wanneer u een upgrade uitvoert van versie 8.5 of lager naar versie 9, wordt u in Pocket CRM gevraagd de app bij te werken en over te schakelen naar Mobile CRM.
+<!-- Verwijzingen -->
+[1]: ../../../en/mobile/superoffice-mobile/login.md
+[2]: ../../../en/mobile/superoffice-mobile/set-up-email.md
+[3]: ../../../en/mobile/superoffice-mobile/caller-id.md
+[4]: ../../../en/mobile/superoffice-mobile/interface.md
+[5]: ../../../en/mobile/superoffice-mobile/settings.md
+[16]: https://apps.apple.com/us/app/superoffice-mobile-crm/id1516435957
+[17]: https://play.google.com/store/apps/details?id=no.superoffice.mobile&hl=no&gl=US&pli=1
 
-## Startgids voor Mobile CRM
-
-Een korte PDF-handleiding om te laten zien hoe u Mobile CRM kunt gebruiken: [Korte handleiding voor Mobile CRM][1]
-
-## Verzoeken afhandelen in uw Mobile CRM
-
-In onze Mobile CRM-app hebt u toegang tot alle verzoeken en kunt u de verzoeken onderweg beantwoorden of opnieuw toewijzen. Mobile CRM biedt u de meest essentiële functies van SuperOffice Service, aangepast voor gebruik op een smartphone of tablet.
-
-## Gerelateerde inhoud
-
-* [Vingerafdrukverificatie instellen][3] - FAQ
-
-<!-- Referenced links -->
-[1]: ../../../assets/downloads/quick-guide-for-mobile-crm-2020.pdf
-[3]: https://community.superoffice.com/no/support-faqs/faq/how-do-i-start-using-fingerprint-authentication-to-enter-my-mobile-crm-app/
-[6]: https://apps.apple.com/us/app/superoffice-mobile-crm/id1516435957
-[7]: https://play.google.com/store/apps/details?id=no.superoffice.mobile&hl=no&gl=US&pli=1
-
-<!-- Referenced images -->
-[img1]: ../../../media/loc/en/mobile/mobile-crm-gif-prev-02.gif
+<!-- Verwijzingen naar afbeeldingen -->
+[img1]: ../../../media/loc/en/mobile/3-screens.png
