@@ -92,7 +92,7 @@ Allerede logget inn? [Utforsk grensesnittet][4] eller [tilpass innstillingene di
 [1]: ../../../en/mobile/superoffice-mobile/login.md
 [2]: ../../../en/mobile/superoffice-mobile/set-up-email.md
 [3]: ../../../en/mobile/superoffice-mobile/caller-id.md
-[4]: ../../../en/mobile/superoffice-mobile/interface.md
+[4]: ../../../en/mobile/superoffice-mobile/interface-guide.md
 [5]: ../../../en/mobile/superoffice-mobile/settings.md
 [16]: https://apps.apple.com/us/app/superoffice-mobile-crm/id1516435957
 [17]: https://play.google.com/store/apps/details?id=no.superoffice.mobile&hl=no&gl=US&pli=1

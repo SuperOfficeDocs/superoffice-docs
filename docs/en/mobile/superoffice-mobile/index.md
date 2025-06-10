@@ -96,7 +96,7 @@ Already logged in? [Explore the interface][4] or [customize your settings][5].
 [1]: login.md
 [2]: set-up-email.md
 [3]: caller-id.md
-[4]: interface.md
+[4]: interface-guide.md
 [5]: settings.md
 [6]: diary/index.md
 [7]: sale/index.md

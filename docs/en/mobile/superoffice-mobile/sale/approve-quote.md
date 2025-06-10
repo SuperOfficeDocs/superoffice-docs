@@ -5,7 +5,7 @@ description: How to approve or reject a quote for a sale in SuperOffice Mobile C
 keywords: quote, approve, sale
 author: Bergfrid Dias
 date: 06.10.2025
-version: 10.2
+version: 11.1
 topic: howto
 client: mobile
 language: en
