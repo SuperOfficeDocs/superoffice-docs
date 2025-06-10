@@ -1,14 +1,11 @@
 ---
-uid: Integrations
+uid: release-notes-integrations
 title: What's new in SuperOffice Integrations
 description: Release notes. What's new in SuperOffice Integrations
-keywords:
-author: SuperOffice AS – Research and Development
+keywords: integration, app
+author: SuperOffice AS – Product and Engineering
 date: 06.09.2025
-version: 
 topic: reference
-audience: person
-audience_tooltip: SuperOffice Integration
 ---
 
 # What's new for Product integrations - Details of new features
@@ -19,12 +16,12 @@ audience_tooltip: SuperOffice Integration
 
 [Current released versions][6]:
 
-* SuperOffice for Outlook 6.1 (03.04.2025)
-* SuperOffice Copilot 1.7 (19.03.2025)
 * SharePoint Documents 3.3 (05.11.2024)
+* SuperOffice Copilot 1.7 (19.03.2025)
+* SuperOffice for Gmail 2.10 (11.03.2024
+* SuperOffice for Outlook 6.1 (03.04.2025)
 * Video Meetings 2.6 (20.06.2024)
-* WebTools for Mac 13.1 (24.03.2025)
-* SuperOffice for Gmail 2.10 (11.03.2024)
+* WebTools for Mac 13.1 (24.03.2025))
 * WebTools for Windows 13.0 (06.03.2024)
 * Zapier 3.4 (21.12.2023)
 
