@@ -2,45 +2,72 @@
 uid: mobile-crm-notifications
 title: Manage notifications
 description: How to manage notifications in SuperOffice Mobile CRM.
+keywords: notification on mobile, mobile notifications, push notification, notification settings, notification
 author: Bergfrid Dias
-date: 08.04.2023
-keywords: mobile, notification
+date: 06.10.2025
+version: 11.1
 topic: howto
-version: 10
-language: en
 client: mobile
+language: en
 ---
 
 # Manage notifications
 
+Control which push notifications you receive from Mobile CRM, such as meeting invites, alarms, or request updates.
+
 > [!NOTE]
-> Notification **settings** affect push notifications on your device. **Filters** selected from the **Task** menu are limited to the app and affect the subset of items you see in a list.
+> These settings affect **push notifications** on your device. Filters selected from the **Task** menu only affect the items you see inside the app.
 
 ## Open notification settings
 
-1. Tap the **Task** icon and select **Settings**.
-2. Select **Notifications**.
-3. In this screen you can configure all app push notification setting.
+1. Tap <i class="ph ph-list" aria-label="Main menu"></i> in the bottom center of the screen.
+1. Select **Settings**
+1. Tap **Notifications**.
 
-![Mobile CRM: Task menu -app-screen][img1]![Mobile CRM: Notification settings -app-screen][img2]
+You'll see a screen like this, with options for calendar events, requests, and reminders:
 
-## Don't send notifications for Private and Other type of appointments
+![Mobile CRM: Notification settings -app-screen][img1]
 
-1. Under **All appointments**, tap **Add Exception**.
+## Calendar notifications
 
-    ![Mobile CRM: Add Exception -app-screen][img3]
+You can choose to receive push notifications for:
 
-1. Choose **Private** and **Other** types.
+* Meeting invitations
+* Meeting changes
+* Invitation rejections
+* Appointments with alarm (only those where you've set a reminder)
+* All appointments, regardless of alarm status
 
-    ![Mobile CRM: Add Exception -app-screen][img4]
+You can also customize:
 
-1. Save.
+* Reminder time (for example, 10 minutes before the event)
+* Exceptions – exclude specific types of appointments (such as Private)
 
-    ![Mobile CRM: Add Exception -app-screen][img5]
+### Add exceptions for appointment types
+
+To exclude certain appointment types from notifications:
+
+1. Tap **Add exception**.
+1. Select the type you want to exclude (for example, **Private** or **Other**).
+1. Repeat these steps for each additional type you want to exclude.
+1. Tap **Save**.
+
+![Select appointment types -app-screen][img2]![Confirm and save -app-screen][img3]
+
+## Request notifications
+
+Enable or disable push alerts for different events on a request:
+
+* New request
+* New message on request
+* Request activated
+* Request escalated
+
+Each toggle can be adjusted individually.
 
 ## Related content
 
-* [Notification settings][1] - reference
+* [Notification settings][1] – full list of options
 * [Request notifications][2]
 
 <!-- Referenced links -->
@@ -48,8 +75,6 @@ client: mobile
 [2]: request/index.md#notifications
 
 <!-- Referenced images -->
-[img1]: media/task-settings.png
-[img2]: media/settings-notifications.png
-[img3]: media/add-exception.png
-[img4]: media/add-exception-private.png
-[img5]: media/add-exception-save.png
+[img1]: ../../../media/loc/en/mobile/push-notification-settings.png
+[img2]: ../../../media/loc/en/mobile/select-type-for-exception.png
+[img3]: ../../../media/loc/en/mobile/except-private.png

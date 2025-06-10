@@ -2,65 +2,73 @@
 uid: mobile-crm-request-create
 title: Create request
 description: How to create (open) requests in SuperOffice Mobile CRM.
+keywords: create request, open request, new request, register request, request, ticket, customer
 author: Bergfrid Dias
-date: 08.03.2023
-keywords: mobile, request, ticket, customer
+date: 06.10.2025
+version: 11.1
 topic: howto
-language: en
-version: 10
 client: mobile
+language: en
 ---
 
 # Create request
 
-You can register requests directly from Mobile CRM.
+You can register new requests directly from Mobile CRM.
 
-## Steps
+> [!NOTE]
+> Requires a Service user plan.
 
-1. Go to the main **Requests** page.
-2. Tap **+**.
-3. Enter a descriptive title for the request.
-4. Tap **Add people**, select one or more customers, and tap **OK**.
+## Create from the Requests screen
 
-    ![Mobile CRM: Add people -app-screen][img1]
+1. Go to the main **Requests** screen.
 
-5. Choose owner: Unassigned, automatically assigned, or set a specific person.
+1. Tap **+** and select **New request**.
 
-    ![Mobile CRM: Request owner -app-screen][img2]
+1. Enter a descriptive title.
 
-6. Select a category and optionally choose tags.
-7. Add other details as necessary. For example, tap and select a sale and/or project to link it to the request. Expand to see more fields.
+1. Tap **Add customers**, select one or more persons, then tap **OK**.
 
-    [!include[Configure visible fields](../includes/tip-visible-fields.md)]
+1. Choose the owner:
+    * **Unassigned**
+    * **Automatically assigned**
+    * A specific person
 
-8. [Add a message][6] (mandatory).
-9. Tap **Save**.
+1. Select a category. Optionally, add tags.
 
-## Open request on selected contact
+1. Add other details as needed:
+    * Link to a sale or project
+    * Add internal notes
+    * Set priority
+1. [Add a message][6] (mandatory).
 
-When viewing a contact and you want to open a request related to that specific person, use this shortcut:
+    You can also add images, insert a request reply template, and link to a FAQ from the **Task** menu.
 
-1. Select the **Requests** tab *on that contact*.
-2. Tap **+**. The contact is automatically added as the customer in the new request.
-3. Fill in title, owner, and other request properties as described above.
-4. Save.
+1. Tap **Save**.
+
+![Mobile CRM: new request -app-screen][img1]
+
+## Create from a contact
+
+To create a request linked to a specific contact:
+
+1. Open the person's contact card.
+1. Tap **+** and select **New request**. The contact is added automatically.
+1. Fill in the remaining fields as described above.
+1. Tap **Save**.
 
 ## Related content
 
 * [Update request][1]
 * [Reply to customer][2]
 * [Create appointment][3]
-* [Create sale][4]
-* [Create project][5]
+* [How to configure visible fields][7]
 
 <!-- Referenced links -->
 [1]: update.md
 [2]: respond.md
 [3]: ../diary/create-appointment.md
-[4]: ../sale/create.md
-[5]: ../project/create.md
 [6]: respond.md#message
+[7]: ../interface-guide.md#visible-fields
 
 <!-- Referenced images -->
-[img1]: media/add-people.png
-[img2]: media/owner.png
+[img1]: ../../../../media/loc/en/mobile/new-request.png

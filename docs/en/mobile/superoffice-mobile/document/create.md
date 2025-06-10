@@ -2,63 +2,57 @@
 uid: mobile-crm-document-create
 title: Create document
 description: How to create a document in SuperOffice Mobile CRM.
-author: Bergfrid Dias
-date: 08.07.2023
 keywords: mobile, document, image, SharePoint
+author: Bergfrid Dias
+date: 06.10.2025
+version: 11.1
 topic: howto
-language: en
-version: 10
 client: mobile
+language: en
 ---
 
 # Create document
 
-You have limited functionality for creating documents inside the app. SharePoint documents offer the most flexibility.
+Mobile CRM offers limited functionality for creating documents directly in the app. SharePoint documents provide the most flexibility.
 
 The steps below assume you are in the **Documents** tab of a company, contact, sale, or project.
 
 ## Create SharePoint document
 
 > [!NOTE]
-> Requires SharePoint document library.
+> Requires a SharePoint document library.
 
-1. Tap **+** at the bottom of the **Documents** tab.
-2. Choose **Create document in SharePoint**.
+1. Tap **+** and select **Create document in SharePoint**.
 
-    ![Mobile CRM: Add new document menu -app-screen][img6]
+    ![Mobile CRM: Add new document menu -app-screen][img1]
 
-3. Enter a document title.
+1. Enter a document title.
 
-    ![Mobile CRM: Create new SharePoint document screen -app-screen][img7]
+    ![Mobile CRM: Create new SharePoint document screen -app-screen][img2]
 
-4. Optionally select a document template.
-5. Set other document properties as needed.
-6. Tap **Create**. The new file opens in on your mobile phone in an app suitable for the file type.
+1. Optionally select a document template.
+1. Set other document properties as needed.
+1. Tap **Create**.
 
-> [!NOTE]
-> The experience is best with the Microsoft 365 apps installed on your mobile phone.
+    * The file opens in a suitable app on your device. For best results, install the Microsoft 365 apps.
 
 ## Upload file
 
-1. Tap **+** at the bottom of the **Documents** tab.
-2. Choose **Select a file** and pick what to upload.
-3. Enter a title. Set other document properties as needed.
-4. Tap **Create**.
+1. Tap **+**, tap **Select a file**.
+1. Choose a file to upload.
+1. Enter a title and set other properties.
+1. Tap **Create**.
 
 ## Add image
 
-1. Tap **+** at the bottom of the **Documents** tab.
-2. Choose **Add image from gallery** or **Add image from camera**.
-3. Take a photo with the camera or choose an image from the gallery.
+1. Tap **+** and select **Add image from gallery** or **Add image from camera**.
+1. Take a photo with the camera or choose an image from the gallery.
 
     > [!NOTE]
-    > If you do not see a particular image, check the image permissions for SuperOffice on your device.
+    > If images do not appear, check the image permissions for SuperOffice on your device.
 
-4. Enter a title. Set other document properties as needed.
-
-    ![Mobile CRM: save image -app-screen][img3]
-
-5. Tap **Create**
+1. Enter a title and set other properties.
+1. Tap **Create**
 
 ## Related content
 
@@ -72,6 +66,5 @@ The steps below assume you are in the **Documents** tab of a company, contact, s
 [3]: ../send-email-sms.md
 
 <!-- Referenced images -->
-[img3]: media/save-image.jpg
-[img6]: ../../../../../release-notes/mobile/media/mobile-sharepoint-menu.png
-[img7]: ../../../../../release-notes/mobile/media/mobile-sharepoint-create.png
+[img1]: ../../../../media/loc/en/mobile/new-document-options.png
+[img2]: ../../../../media/loc/en/mobile/new-document.png

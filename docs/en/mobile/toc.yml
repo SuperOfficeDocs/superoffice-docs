@@ -13,6 +13,7 @@ items:
     - name: Client requirements
       href: pocket-crm/client-requirements.md
     - name: For Web (Onsite)
+      topicHref: pocket-crm/system-requirements.md
       items:
       - name: System requirements
         href: pocket-crm/system-requirements.md

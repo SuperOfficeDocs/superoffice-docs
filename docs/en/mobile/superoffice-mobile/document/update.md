@@ -1,54 +1,54 @@
 ---
 uid: mobile-crm-document-update
 title: Update document
-description: How to update a document or email in SuperOffice Mobile CRM.
-author: Bergfrid Dias
-date: 08.07.2023
+description: How to update a document in SuperOffice Mobile CRM.
 keywords: mobile, document
+author: Bergfrid Dias
+date: 06.10.2025
+version: 11.1
 topic: howto
-language: en
-version: 10
 client: mobile
+language: en
 ---
 
 # Update document
 
-## Update document and email properties
+You can update the properties of documents and emails in Mobile CRM. Editing document contents is limited.
 
-1. When viewing the document or email, select **Details** (![icon][img2]).
-2. Tap the **Edit** icon (![icon][img1]) in the footer.
-3. Update the information as necessary.
-4. Tap **Save**.
+## Update properties
+
+1. Tap the document or email to open it.
+
+1. Tap the **Edit** button (<i class="ph ph-pencil-simple" aria-label="Edit icon"></i>) in the upper-right corner.
+
+    * If the **Edit** button is not visible, you are in preview mode. Tap **Details** (on the action bar) to switch  mode.
+
+1. Update the fields as needed.
+
+1. Tap **Save**.
 
 > [!TIP]
-> If you are looking at a list of documents, you can swipe left and select **Edit properties**. This is a shortcut for steps 1-2 above.
+> From a list, swipe left on the document, tap <i class="ph ph-list" aria-label="Task menu"></i> and select **Edit properties** to skip directly to the edit form.
 
-## Edit document and email (contents)
+## Edit contents
 
-You have limited functionality for editing the contents documents.
+You cannot edit document contents in Mobile CRM, but you can download and edit the file using other apps.
 
-1. First, download the document to your device.
-1. Edit the contents.
-1. Keep the changed document on your mobile device or send it by email.
+1. Download the document to your device.
+1. Open it in another app and make your changes.
+1. Save it locally or send it by email.
 
 > [!NOTE]
-> Document changes will not be visible for other users in SuperOffice CRM.
+> Changes made this way are not visible to other SuperOffice CRM users.
 
 ## Delete document
 
-Do one of the following:
-
-* In the **Documents** tab, swipe left on the document in a list, tap the **Task** button, and select **Delete**.
-
-* In the Document screen, tap the **Task** icon and select **Delete document**.
+1. In the expanded **Documents** section, swipe left on the document.
+1. Tap <i class="ph ph-list" aria-label="Task menu"></i> and select **Delete**.
 
 ## Related content
 
-* [Create document (in Mobile CRM)][1]
+* [Create document][1]
 
 <!-- Referenced links -->
 [1]: create.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/mobile/edit.png
-[img2]: ../../../../../common/icons/mobile/details.png

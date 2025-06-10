@@ -1,122 +1,118 @@
 ---
 uid: mobile-crm-settings
-title: Mobile CRM - Settings
-description: Reference for settings in SuperOffice Mobile CRM
+title: Mobile CRM – Settings
+description: Reference for settings in SuperOffice Mobile CRM.
+keywords: mobile, settings, configuration, push notifications
 author: Bergfrid Dias
-date: 07.21.2023
-keywords: mobile, pocket
+date: 06.10.2025
+version: 11.1
 topic: reference
-version: 10
-language: en
 client: mobile
+language: en
 ---
 
-# Settings
+# Settings <i class="ph ph-gear" aria-hidden="true"></i>
 
-Under **Settings**, you can switch languages, choose a time zone, and define display, email and SMS settings. Select **Task** > **Settings** at the bottom left when you are in one of the main pages (for example Sales or Calendar).
+Under **Settings**, you can customize how Mobile CRM works and looks. Change language and time zone, toggle notifications, define email and SMS behavior, and adjust display preferences.
 
-> [!NOTE]
-> You must select **Save** if you want to keep changed settings.
+* To open **Settings**, tap <i class="ph ph-list" aria-label="Main menu"></i> in the bottom center and select **Settings** from the navigation wheel.
+
+* Tap **Save** to apply your changes.
 
 ## Language
 
-The current language is displayed here. To change to a different language, select the Language line and then the language you require.
+Tap **Language** to switch the app language.
+
+> [!NOTE]
+> Field and label translations depend on your CRM language. Some system labels (like time zone regions) are always shown in English.
 
 ## Notifications
 
-Used to toggle push notifications.
+Toggle push notifications for calendar events, requests, and sales quotes. Requires app version 10.2.2 or newer for quote-related alerts.
 
-* Meeting invitation
+Notifications include:
+
+* Meeting invitations
 * Meeting changes
 * Invitation rejections
-* Appointment with alarm
+* Appointments with alarm
+* All appointments
 * New request
 * New request message
 * Request activated
 * Request escalated
-* Quote approval request
-* Quote approval response
-
-Quote approval flow requires version 10.2.2 or newer of Mobile CRM.
+* Quote approval requests
+* Quote approval responses
 
 ## System settings
 
 | Setting | Description |
 |---|---|
-| Time zone | The current time zone. To set a different time zone, select this line line and search for the time zone you require. |
-| 12/24-hour clock | The current time format. To change to a different format, select this line and then the required format. |
-| Map URL | When you select an address in the app, the browser opens with a map showing the address. To use a different map service, change the URL. |
-| Show keyboard toolbar | Enable/disable the navigation buttons (back, next and end) on the keyboard. |
-
-> [!NOTE]
-> Names of regions in the time zone selector are always in English, while country names depend on the language settings in SuperOffice Sales & Marketing.
+| Time zone | Select your preferred time zone from the list. |
+| 12/24-hour clock | Choose whether to display time in 12-hour (AM/PM) or 24-hour format. |
+| Map URL | Customize which map service opens when tapping addresses. For example, use Google Maps, Apple Maps, or a custom service. |
 
 ## Display settings
 
-Used to define appearance of text and images.
+Adjust the look and feel of lists, calendar views, and message order.
 
 | Setting | Description |
 |---|---|
-| Show appointment description | Whether to display the appointment description in the appointment list in the calendar. |
-| Show sale title | |
-| Icon size | The size of the icons displayed in the app. |
-| Show contact image in lists | Whether to include images when listing contacts. |
-| Show animations | Enable/disable animations in the app, for example when switching between tabs. |
-| Show request category | |
-| Request message order | |
-| Weekday view | |
-| Default startup screen | |
-| Remember last shown tab | |
-| Remember filter settings | |
+| Show appointment title | Display the title in the calendar view. |
+| Show contact image in lists | Include profile photos in contact and company lists. |
+| Show animations | Enable visual transitions (such as opening the navigator). |
+| Show request category | Display the request category in the request view. |
+| Request message order | Choose whether newest or oldest messages appear first. |
+| Weekday view | Choose how many days appear at once in calendar view (5 or 7). |
+| Default startup screen | Select which screen opens first when you launch the app. |
+| Remember last shown tab | Reopen the last selected tab when you return to a screen. |
+| Remember filter settings | Preserve your filter settings per screen between sessions. |
 
 ## Email settings
 
 | Setting | Description |
 |---|---|
-| Email client | Which account to use for sending email from Mobile CRM. |
-| Always show external images | Whether to see (and download) images when you open and read an email. |
-| Archive when sending | Check this if you want all emails to be archived automatically. |
-| Archive as | Specifies which document type sent email messages will be archived as in SuperOffice. |
-| Add signature | Check this if you want your signature to be added automatically. |
-
-> [!NOTE]
-> The account must be created in SuperOffice CRM.
+| Email client | Whether to use SuperOffice or your device's default email app for sending email. |
+| Email account | The account is currently connected to SuperOffice CRM. |
+| Always show external images | Whether to automatically load images when reading emails. |
+| Archive when sending | Automatically archives sent emails in SuperOffice CRM. |
+| Archive as | Select the document type used when saving sent emails. Choose from your available document templates. |
+| Add signature | Toggle to enable automatic insertion of an email signature. Tap the field to view or edit your signature text. |
 
 ## SMS settings
 
 | Setting | Description |
 |---|---|
-| Add signature | Whether to automatically append a signature when sending text messages from Mobile CRM. |
-
-> [!TIP]
-> Select the signature line to edit your signature.
+| Add signature | Automatically append a signature when sending text messages from Mobile CRM. Tap to edit. |
 
 ## Web panels and links
 
+This section is for configuring custom web panels and third-party links defined in SuperOffice CRM. Your administrator may predefine what appears here.
+
 ## Allow call identification
 
-With the Caller ID function you can see the name of the person who is calling you, if the phone number is stored in SuperOffice CRM. For Android phones, it also lets you save the phone call directly to SuperOffice as an activity.
+Caller ID in Mobile CRM shows the name of incoming callers if their number is saved in SuperOffice CRM. On Android, you can also save the call directly to SuperOffice as an activity.
 
-> [!NOTE]
-> To activate this function, you must allow SuperOfficer to provide information about incoming calls in the phone's settings.
->
-> Caller ID requires version 10.1.9 or higher of Mobile CRM.
+Caller ID requires version 10.1.9 or higher of Mobile CRM.
 
 ## Refresh all data
 
-When you use the app, the pages you access are stored in the device's cache. This makes navigation faster, because it saves everything having to be downloaded again each time you access a page. When you select **Refresh all data**, the cache is cleared.
+Clear the app cache and reload data from the server. Use this if your content feels out of sync or stale.
+
+1. Tap **Refresh all data** to start the sync.
+1. Wait while Mobile CRM clears cache and fetches fresh data.
 
 ## Tips and help
 
 | Setting | Description |
 |---|---|
-| Enable 'Did you know' tips | |
-| Show tips in | |
+| Enable 'Did you know' tips | Toggle to see usage tips inside the app. |
+| Show tips in | Choose where tips should appear. For example, in the Request screen. |
 
 ## About Mobile CRM
 
-Information about the app, such as version number and the server address.
+Displays information about your current installation:
 
-<!-- Referenced links -->
-
-<!-- Referenced images -->
+* App version
+* Build number (for troubleshooting)
+* Server URL and version

@@ -1,12 +1,14 @@
 ---
+uid: mobile-security
 title: Security
 description: Mobile CRM security in CRM Online
 author: Martin Pavlas
-date: 01.15.2024
 keywords: mobile, pocket
+date: 01.15.2024
+version: 11.1
 topic: concept
-envir: online
 client: mobile
+language: en
 ---
 
 # Mobile CRM security in SuperOffice CRM Online
@@ -101,7 +103,8 @@ Customers who use Citrix and Microsoft 365 often have a set-up where Microsoft E
 In SuperOffice Admin - Preferences - Global preferences:
 
 * **Autologout time:** Time in minutes the application can be kept idle in the background before an automatic logout is performed. Default value = 0, means no timeout.
-* **Diable autologin:** Prevent the Mobile CRM client from logging in automatically on startup. Default = No.
+* **Disable autologin:** Prevent the Mobile CRM client from logging in automatically on startup. Default = No.
+* **Enable CRMScript:** Activate/deactivate execution of CRMScripts run from Mobile CRM. Default = Yes.
 
 ![Mobile CRM preferences -screenshot][img2]
 
@@ -156,5 +159,5 @@ A: Enable IdP for all users, and enable 2FA for the IdP provider. No option to s
 
 <!-- Referenced images -->
 [img1]: media/imagevq62n.png
-[img2]: media/imaged0zh.png
-[img3]: media/imagexkoj.png
+[img2]: ../../../media/loc/en/mobile/global-preferences-mobile.png
+[img3]: ../../../media/loc/en/mobile/log-in.png

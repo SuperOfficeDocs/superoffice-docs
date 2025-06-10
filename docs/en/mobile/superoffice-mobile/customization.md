@@ -2,13 +2,13 @@
 uid: mobile-crm-customization
 title: Customization
 description: Overview of ways to customize SuperOffice Mobile CRM.
+keywords: shown in Mobile CRM, mobile, pocket, customization, CRMScript
 author: Bergfrid Dias
-date: 08.04.2023
-keywords: mobile, pocket, customization, CRMScript
+date: 06.10.2025
+version: 11.1
 topic: concept
-version: 10
-language: en
 client: mobile
+language: en
 ---
 
 # Customization
@@ -38,14 +38,9 @@ With CRMScript, you can define dialogs that can be shown in both SuperOffice CRM
 
 ![Mobile CRM custom dialog -app-screen][img1]
 
-[Tutorial - how to use dialogs in triggers][4]
-
 ## Invoke script from Task menu
 
-With CRMScript, you can add items to the **Task** menu to trigger custom tasks.
-
-![Mobile CRM custom task -app-screen][img2]
-![Run a custom task on Contact to Create appointment -app-screen][img6]
+With CRMScript, you can add items to the **Task** menu (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) to trigger custom tasks.
 
 To make a custom task available in the app, check **Shown in Mobile CRM** when defining the task in Settings and Maintenance
 
@@ -58,6 +53,7 @@ After adding new Task menu definition, log out and in again in Mobile CRM to mak
 * [About CRMScript][3]
 * [Create trigger script][2]
 * [Add custom task][1]
+* [Tutorial - how to use dialogs in triggers][4]
 
 <!-- Referenced links -->
 [1]: ../../automation/trigger/reference/index.md
@@ -66,7 +62,5 @@ After adding new Task menu definition, log out and in again in Mobile CRM to mak
 [4]: ../../automation/crmscript/tutorials/using-dialogs-in-triggers.md
 
 <!-- Referenced images -->
-[img1]: media/custom-dialog.png
-[img2]: ../../../../release-notes/mobile/media/mobile-crm-custom-task-appointment-230x500.png
-[img5]: ../../../../release-notes/10.2/admin/media/admin-lists-task-menu-dialog.png
-[img6]: ../../../../release-notes/10.2/core-crm/media/custom-task-contact-create-appointment.png
+[img1]: ../../../media/loc/en/mobile/custom-dialog.png
+[img5]: ../../../media/loc/en/mobile/add-task-menu-item.png
