@@ -42,17 +42,17 @@ There is different releases for integrations, se the overview.
 
 ### User guides
 
-* User guide for [SuperOffice version 11][14] in Docs - available in six languages
-* User guide for [SuperOffice for Outlook][11] in Docs - available in six languages
-* User guide for [SuperOffice Mobile CRM][12] in Docs - English only
+* User guide for [SuperOffice version 11][15] in Docs - available in six languages
+* User guide for [SuperOffice for Outlook][13] in Docs - available in six languages
+* User guide for [SuperOffice Mobile CRM][14] in Docs - English only
 
 ### Ongoing pilot programs
 
 We use **pilot programs** to assess how well the features and functions meet our users' **needs and expectations**, to collect feedback, and identify potential problems. The feedback from the pilot phase is valuable for refining the features and functions in SuperOffice. It helps us address any issues or concerns before releasing them to all our users. For more details, see our [overview of pilot programs][7].
 
-* [SuperOffice Service - Custom objects][8] (available from 10.3.4 - 09.04.2024)
-* [SuperOffice CRM - AI Lab][8] (available from 10.3.2 - 20.02.2024)
-* [SuperOffice Service - New Service Request][9] (available on demand from 10.2.1 - 27.01.2023)
+* [SuperOffice Service - Custom objects][16] (available from 10.3.4 - 09.04.2024)
+* [SuperOffice CRM - AI Lab][16] (available from 10.3.2 - 20.02.2024)
+* [SuperOffice Service - New Service Request][16] (available on demand from 10.2.1 - 27.01.2023)
 
 ## How to navigate this section
 
@@ -84,6 +84,10 @@ We use **pilot programs** to assess how well the features and functions meet our
 [9]: 10.5/index.md
 [11]: 11/index.md
 [12]: integrations/index.md
+[13]: ../docs/en/email/superoffice-for-outlook/learn/index.md
+[14]: ../docs/en/mobile/superoffice-mobile/index.md
+[15]: ../docs/en/learn/index.yml
+[16]: https://community.superoffice.com/en/product-releases/pilot-programs/current-pilot-programs/
 
 <!-- Referenced images-->
 [img1]: media/expand-toc.png

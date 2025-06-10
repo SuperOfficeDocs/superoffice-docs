@@ -17,7 +17,7 @@ audience_tooltip: SuperOffice Integration
 
 * [SuperOffice for Outlook update – Action required (6.0)][1]
 
-Latest released versions:
+[Current released versions][6]:
 
 * SuperOffice for Outlook 6.1 (03.04.2025)
 * SuperOffice Copilot 1.7 (19.03.2025)
@@ -42,5 +42,6 @@ See all the [new or updated apps][2]
 [3]: https://appstore.superoffice.com/schneider-wulf-edv-beratung/ezsync
 [4]: https://appstore.superoffice.com/schneider-wulf-edv-beratung/ezsync-dynamics-365-business-central
 [5]: https://appstore.superoffice.com/superoffice-as/activity-folders-for-superoffice
+[6]: https://community.superoffice.com/en/product-releases/release-notes/
 
 <!-- Referenced images -->
