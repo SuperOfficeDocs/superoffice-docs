@@ -1,0 +1,33 @@
+items:
+- name: Release overview
+  href: index.md
+#- name: Core CRM
+#  href: core-crm/index.md
+#  items:
+#  - name: 11.x update
+#    href: core-crm/11.x-update.md
+#- name: Sales
+#  href: sale/index.md
+#  items:
+#  - name: 11.x update
+#    href: sale/11.x-update.md
+- name: Settings and Maintenance
+  href: admin/index.md
+  items:
+  - name: 11.1 update
+    href: admin/11.1-update.md
+- name: Service
+  href: service/index.md
+  items:
+  - name: 11.1 update
+    href: service/11.1-update.md
+#- name: Marketing
+#  href: marketing/index.md
+#  items:
+#  - name: 11.x update
+#    href: marketing/11.x-update.md
+#- name: API
+#  href: api/index.md
+#  items:
+#  - name: 11.1 update
+#    href: api/11.1-update.md
