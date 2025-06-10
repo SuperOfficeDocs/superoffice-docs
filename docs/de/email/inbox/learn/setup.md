@@ -1,90 +1,118 @@
 ---
 uid: help-de-email-inbox-setup
 title: SuperOffice Posteingang einrichten
-description: Der SuperOffice Posteingang ist eine alternative Möglichkeit, Ihre E-Mails mit Ihrem SuperOffice CRM für E-Mail-Clients zu verbinden, die nicht über WebTools verbunden werden können. Lernen Sie, wie Sie ihn einrichten und zum ersten Mal einloggen.
-keywords: E-Mail, E-Mail
-author: SuperOffice Product and Engineering
-date: 05.12.2025
-version: 10.4
-topic: howto
+description: Erfahren Sie, wie Sie den SuperOffice Posteingang einrichten und sich anmelden. Diese Funktion ist eine Alternative zu WebTools, um Ihr E-Mail-Konto mit SuperOffice CRM zu verbinden.
+keywords: SuperOffice Posteingang, Posteingang einrichten, E-Mail-Konfiguration, IMAP, E-Mail-Verbindung
+author: Bergfrid Dias
+date: 05.28.2025
+version: 10.5
+topic: concept
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
 # SuperOffice Posteingang einrichten
 
-Der SuperOffice Posteingang ist eine alternative Möglichkeit, Ihre E-Mails mit Ihrem SuperOffice CRM für E-Mail-Clients zu verbinden, die nicht über WebTools verbunden werden können.
+Der SuperOffice Posteingang ist eine alternative Methode, um Ihr E-Mail-Konto mit SuperOffice CRM zu verbinden. Diese Funktion wurde für Benutzer entwickelt, die [WebTools][9] nicht verwenden können. Unterstützt werden ausschließlich IMAP-Konten.
 
-## Bevor Sie beginnen
+> [!NOTE]
+> Der SuperOffice Posteingang unterstützt nur **ein** E-Mail-Konto pro Benutzer. Wenn WebTools installiert und mit Ihrem E-Mail-Konto verbunden ist, steht die Posteingangsfunktion nicht zur Verfügung.
 
-* Stellen Sie sicher, dass IMAP in Ihrem E-Mail-Client aktiviert ist. SuperOffice Inbox unterstützt die meisten IMAP-E-Mail-Server.
+## Vorbereitungen
 
-* Um E-Mails von SuperOffice CRM versenden zu können, müssen Sie sicherstellen, dass die für den SuperOffice Posteingang verwendete die E-Mail-Adresse mit der ersten E-Mail-Adresse übereinstimmt, die auf Ihrer Personenkarte/Anzeige erfasst wurde.
+* Stellen Sie sicher, dass **SuperOffice CRM** in den **lokalen Einstellungen** als [bevorzugter E-Mail-Client][8] ausgewählt ist.
 
-![Sie können überprüfen, welche E-Mail-Adresse Sie auf Ihrer Personenkarte erfasst wurde -screenshot][img2]
+* Vergewissern Sie sich, dass **IMAP in Ihrem E-Mail-Client aktiviert** ist.
 
-## E-Mail-Konto einrichten
+* Die **E-Mail-Adresse**, die Sie verwenden möchten, muss mit der primären E-Mail-Adresse auf Ihrer [Personenkarte][1] in SuperOffice übereinstimmen.
 
-Um auf E-Mails zugreifen zu können, müssen Sie zunächst Details über Ihr E-Mail-Konto angeben.
+## E-Mail-Konto verbinden
 
-<!-- Prev YT video tag QoAanZgQs5A -->
+1. Klicken Sie im Navigator auf <i class="ph ph-at" aria-hidden="true"></i> **Posteingang**.
 
-1. Klicken Sie auf das Symbol Posteingang im Navigator-Menü. Wenn Sie die E-Mail-Funktion zum ersten Mal aufrufen, wird die Ansicht **E-Mail-Konto einrichten** angezeigt.
+    Beim ersten Öffnen erscheint der Dialog **E-Mail-Konto einrichten**.
 
-1. Geben Sie im Feld **E-Mail-Konto** die E-Mail-Adresse des Kontos ein, das in SuperOffice verwendet werden soll.
+    ![Dialog E-Mail-Konto einrichten mit E-Mail-Feld und Weiter-Schaltfläche -screenshot][img1]
 
-    ![x -screenshot][img3]
+1. Geben Sie im Feld **E-Mail-Konto** die gewünschte E-Mail-Adresse ein.
 
-1. Um Informationen über ein- und ausgehende E-Mails einzugeben, müssen Sie auf **Erweiterte Einstellungen** klicken. Andernfalls klicken Sie auf **Weiter**. SuperOffice versucht dann, diese Informationen für Sie zu konfigurieren.
+1. Klicken Sie auf **Weiter**.
 
-1. Geben Sie im Feld **Passwort** Ihr Passwort ein.
+    * SuperOffice erkennt Ihren E-Mail-Anbieter und leitet Sie zur Anmeldung weiter.
+    * Falls Ihr Passwort beim Anbieter gespeichert ist, wird die Authentifizierung automatisch abgeschlossen.
+    * Andernfalls werden Sie zur Eingabe Ihres Passworts beim Anbieter (z. B. Microsoft oder Google) aufgefordert.
+    * Nach erfolgreicher Anmeldung kehren Sie zu SuperOffice zurück und der Posteingang wird geöffnet.
 
-1. Klicken Sie auf **Anmelden**.
+1. Schlägt die Anmeldung fehl oder kann der Anbieter nicht erkannt werden, erscheint der Dialog **Erweiterte Einstellungen**, in dem Sie die Serverdaten manuell eingeben können.
 
-    * Wenn SuperOffice den E-Mail-Anbieter (wie Gmail) erkennt, werden die Servereinstellungen automatisch konfiguriert und der Posteingang geladen.
-    * Wenn die Details oder die von Ihnen eingegebene E-Mail-Adresse und das Passwort nicht korrekt sind, wird das Dialogfeld **Erweiterte Einstellungen** geöffnet. Überprüfen und geben Sie manuell die Konfigurationsinformationen für ein- und ausgehende Server ein.
+## Erweiterte Einstellungen konfigurieren
 
-## Wie man Serverinformationen manuell hinzufügt
+Wenn die automatische Einrichtung fehlschlägt, müssen Sie die Serverinformationen manuell eintragen. Alle Felder sind erforderlich, um den E-Mail-Verkehr über den SuperOffice Posteingang sicherzustellen.
 
-### Einstellungen für eingehende E-Mails
+1. Geben Sie die Einstellungen für eingehende E-Mails ein:
 
-Um Ihre E-Mails in SuperOffice CRM importieren zu lassen, müssen Sie die Details Ihres IMAP-Servers eingeben, die Sie in den Einstellungen Ihres E-Mail-Clients finden.
+    * **Server für eingehende E-Mails:** Adresse Ihres IMAP-Servers
+    * **Benutzername:** In der Regel Ihre vollständige E-Mail-Adresse
+    * **Passwort:** Passwort Ihres E-Mail-Kontos
+    * **SSL:** Ein oder Aus, abhängig vom Anbieter
 
-* Benutzername: Ihre vollständige E-Mail-Adresse
-* Passwort: Passwort für Ihr E-Mail-Konto
-* SSL: Ein/Aus - hängt von den Einstellungen Ihres E-Mail-Anbieters ab (siehe Einstellungen für Outlook und Gmail)
+1. Geben Sie die Einstellungen für ausgehende E-Mails ein:
 
-### Einstellungen für ausgehende E-Mails
+    * **Server für ausgehende E-Mails:** Adresse Ihres SMTP-Servers
+    * **Benutzername**, **Passwort** und **SSL**: analog zu den eingehenden Einstellungen
 
-Geben Sie die Details Ihres SMTP-Servers ein, um E-Mails von SuperOffice CRM zu senden.
+1. Klicken Sie auf **Speichern**, um das Konto zu verbinden.
 
-* Benutzername: Ihre vollständige E-Mail-Adresse
-* Passwort: Passwort für Ihr E-Mail-Konto
-* SSL: hängt von den Einstellungen Ihres E-Mail-Anbieters ab (siehe Einstellungen für Outlook und Gmail)
+![Erweiterte Einstellungen für E-Mail-Konto -screenshot][img4]
 
-![Erweiterte Einstellungen - Gehen Sie zum Posteingang, um manuell die korrekten E-Mail-Serverinformationen hinzuzufügen -screenshot][img4]
+## E-Mail-Konto trennen oder ändern
 
-## E-Mail-Konfiguration im SuperOffice Posteingang ändern
+Sie können Ihr aktuelles E-Mail-Konto trennen und bei Bedarf ein neues Konto verbinden.
 
-1. Wenn Sie Ihr verknüpftes E-Mail-Konto bearbeiten oder entfernen möchten, klicken Sie auf Ihr Profilsymbol in der oberen rechten Ecke und wählen Sie **E-Mail-Optionen** aus.
+1. Klicken Sie in der oberen Leiste auf <i class="ph ph-user-circle" aria-label="Persönliche Einstellungen"></i> und wählen Sie **E-Mail-Optionen**.
 
-    ![E-Mail-Optionen -screenshot][img5]
+1. Wechseln Sie zur Registerkarte **E-Mail-Konto**.
 
-1. Wählen Sie die Registerkarte **E-Mail-Konto**aus und klicken Sie auf die Schaltfläche **Bearbeiten/Entfernen**.
+    ![Registerkarte E-Mail-Konto mit Schaltfläche Bearbeiten/Entfernen -screenshot][img6]
 
-    ![E-Mail-Optionen -screenshot][img6]
+1. Klicken Sie auf **Bearbeiten/Entfernen**, um das Konto zu trennen.
 
-## Warum wird die E-Mail-Liste nicht aktualisiert?
+    * Dadurch wird der gleiche Dialog wie bei der ersten Einrichtung geöffnet.
+    * Zum Entfernen schließen Sie einfach den Dialog.
+    * Um erneut zu verbinden, geben Sie eine neue E-Mail-Adresse ein und folgen den Einrichtungsschritten.
 
-Manche E-Mail-Anbieter wie Gmail blockieren Anmeldeversuche von unbekannten Apps. Überprüfen Sie in Ihrem Posteingang, um zu sehen, ob Ihr E-Mail-Anbieter Informationen über einen nicht autorisierten Anmeldeversuch gesendet hat. Befolgen Sie die Anweisungen in der E-Mail, um SuperOffice Zugriff auf Ihr Konto zu gewähren.
+> [!NOTE]
+> Das Entfernen eines E-Mail-Kontos löscht **nicht** Ihr tatsächliches Konto (z. B. bei Gmail oder Outlook), sondern nur die Verbindung zu SuperOffice.
+
+## Tipps zur Fehlerbehebung
+
+* Der SuperOffice Posteingang unterstützt **keine POP3-Konten**. Nur IMAP wird unterstützt.
+
+* Wenn der Posteingang nicht aktualisiert wird, blockiert Ihr Anbieter möglicherweise die Verbindung.
+  * Überprüfen Sie Ihr E-Mail-Konto auf Benachrichtigungen zu blockierten oder nicht autorisierten Anmeldeversuchen.
+  * Befolgen Sie die Anweisungen, um SuperOffice Zugriff zu gewähren.
+
+* **Gmail-Nutzer:** Ab Januar 2025 ist IMAP dauerhaft aktiviert. Falls ein Passwort abgefragt wird, verwenden Sie ein **App-Passwort** anstelle Ihres regulären Gmail-Passworts.
 
 > [!TIP]
-> Um auf die E-Mail-Optionen zuzugreifen, müssen Sie auf <i class="ph ph-user-circle" aria-hidden="true"></i> **Persönliche Einstellungen** > **E-Mail-Optionen** gehen.
+> Um Layout, Schriftart oder Verhalten von Nachrichten anzupassen, gehen Sie zu <i class="ph ph-user-circle" aria-hidden="true"></i> **Persönliche Einstellungen** > **E-Mail-Optionen** > Registerkarte **Allgemein**.
 
-<!-- Referenced links -->
+## Verwandte Inhalte
 
-<!-- Referenced images -->
-[img2]: ../../../../media/loc/en/email/getstarted-contact-mycontactcard.png
-[img3]: ../../../../media/loc/en/email/getstarted-inbox-login.png
+* [IMAP für Office 365 aktivieren][11] – FAQ
+* [Google-App-Passwort für 2-Faktor-Anmeldung generieren][12] – FAQ
+* [Standard-E-Mail-Client in SuperOffice ändern][8]
+
+<!-- Referenzierte Links -->
+[1]: ../../../contact/learn/index.md
+[8]: ../../learn/change-default-mail-client.md
+[9]: ../../../webtools/learn/index.md
+[11]: https://learn.microsoft.com/en-au/exchange/troubleshoot/user-and-shared-mailboxes/pop3-imap-owa-activesync-office-365
+[12]: https://community.superoffice.com/en/support-faqs/faq/how-do-i-generate-a-googleapp-password-to-use-2-step-verification-with-superoffice-inbox/
+
+<!-- Referenzierte Bilder -->
+[img1]: ../../../../media/loc/en/email/inbox-setup-dialog.png
 [img4]: ../../../../media/loc/en/email/so-inbox-advanced-settings.png
-[img5]: ../../../../media/loc/en/email/email-options-general.png
 [img6]: ../../../../media/loc/en/email/email-options-account.png

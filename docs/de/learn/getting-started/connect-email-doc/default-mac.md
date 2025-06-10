@@ -4,12 +4,12 @@ title: SuperOffice als Ihre Lösung (macOS)
 description: So verbinden Sie Ihr E-Mail-Konto, Dokumente und Ihren Kalender mit SuperOffice auf macOS.
 keywords: E-Mail, Dokument, Kalender, Einladung, mac
 author: Bergfrid Dias
-date: 08.28.2023
-version: 10
+date: 05.28.2025
+version: 10.5
 topic: howto
-language: de
 audience: person
 audience_tooltip: SuperOffice CRM
+language: de
 ---
 
 # SuperOffice als Ihre Lösung (macOS)
@@ -25,7 +25,7 @@ Dies ist die Standardmethode, um Ihr E-Mail-Konto, Dokumente und Ihren Kalender 
 
 Wählen Sie eine der folgenden Optionen:
 
-* [SuperOffice Inbox][1] (Standard). [Sehen Sie sich dieses Video an, um loszulegen][10].
+* [SuperOffice Inbox][1] (Standard).
 
 * [!include[SuperOffice für Outlook](includes/why-superoffice-for-outlook.md)]
 
@@ -50,4 +50,3 @@ Wählen Sie eine der folgenden Optionen:
 [1]: ../../../email/inbox/learn/setup.md
 [2]: ../../../webtools/learn/install-mac.md
 [9]: default-win.md
-[10]: https://www.youtube.com/embed/QoAanZgQs5A

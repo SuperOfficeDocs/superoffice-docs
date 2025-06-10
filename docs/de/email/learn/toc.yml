@@ -1,8 +1,6 @@
 items:
 - name: Überblick
   href: index.md
-- name: E-Mail verfassen
-  href: compose.md
 - name: Standard-E-Mail-Client in SuperOffice ändern
   href: change-default-mail-client.md
 - name: E-Mail

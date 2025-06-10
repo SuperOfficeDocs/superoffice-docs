@@ -208,7 +208,7 @@ conceptualContent:
       - text: E-Mail verfassen
         itemType: list
         typeDesc: how-to-guide
-        url: ../email/learn/compose.md
+        url: ../email/inbox/learn/compose.md
       - text: Termin erstellen
         itemType: list
         typeDesc: how-to-guide

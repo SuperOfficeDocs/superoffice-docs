@@ -208,7 +208,7 @@ conceptualContent:
       - text: Compose email
         itemType: list
         typeDesc: how-to-guide
-        url: ../email/learn/inbox/compose.md
+        url: ../email/inbox/learn/compose.md
       - text: New appointment
         itemType: list
         typeDesc: how-to-guide

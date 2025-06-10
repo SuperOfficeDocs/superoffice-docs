@@ -62,7 +62,7 @@ The inbox screen is split into two panes:
 [3]: compose.md
 [4]: archive.md
 [5]: create-task.md
-[8]: ../index.md
+[8]: ../../learn/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/email/inbox-preview-message.png

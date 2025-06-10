@@ -14,7 +14,7 @@ language: en
 
 # Compose email
 
-Use SuperOffice Inbox to write new messages and reply to incoming email. You can include attachments, insert reusable content, and archive your messages to CRM.
+Use SuperOffice Inbox to write new messages and reply to incoming email. You can include attachments, insert reusable content, and archive your messages to SuperOffice CRM.
 
 ## Create a new email message
 
