@@ -17,6 +17,10 @@ audience_tooltip: SuperOffice Mobile CRM
 > [!TIP]
 > Check out the SuperOffice Mobile CRM [user guide][52] on Learn | Docs.
 
+## Version 11.1
+
+* [New mobile experience (11.1.0)][37]
+
 ## Version 11.0
 
 * [Time and date picker - time wheel and calendar (11.0.3)][36]
@@ -88,6 +92,7 @@ audience_tooltip: SuperOffice Mobile CRM
 [34]: 10.2.18-update.md
 [35]: 10.2.19-update.md
 [36]: 11.0.3-update.md
+[37]: 11.1.0-update.md
 [50]: ../../docs/en/mobile/overview.md
 [51]: https://community.superoffice.com/en/product-releases/release-notes/release-details/?release=Mobile_CRM_11.0.0
 [52]: ../../docs/en/mobile/superoffice-mobile/index.md
